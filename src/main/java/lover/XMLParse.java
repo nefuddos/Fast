@@ -19,10 +19,10 @@ import org.xml.sax.SAXException;
 import excel.ExcelInfo;
 /**
 *@author    created by Ren Jingui
-*@date  2018Äê8ÔÂ11ÈÕ---ÉÏÎç8:57:13
-*@problem ½âÎöxmlÎÄ¼ş£¬Êä³öÌØ¶¨×Ö¶Îµ½excelÖĞ
-*@answer ½èÖúDOM4JµÄ·½Ê½½øĞĞ´¦Àí
-*@action ÔİÊ±²»¿¼ÂÇ·â×°£¬Ö±½Ó¶ÁÈ¡ºÍ´¦Àí¼´¿É
+*@date  2018å¹´8æœˆ12æ—¥---ä¸‹åˆ8:57:13
+*@problem è§£æxmlä¿¡æ¯ï¼Œç½‘å€ä¸ºï¼šhttp://www.mdpi.com/2073-4409/1/1/15/htm
+*@answer æ ¹æ®xmlæ„å»ºç±»çš„ç»„æˆå…³ç³»
+*@action æ ¹æ®ç»„æˆå…³ç³»å†™å…¥excelæ–‡ä»¶
 */
 public class XMLParse {
 	static List<Article> articles = new ArrayList<Article>();
@@ -35,7 +35,6 @@ public class XMLParse {
 	}
 	public static SAXReader getSAXReader() {
 	    SAXReader saxReader = new SAXReader();  
-	    //ÔÚ¶ÁÈ¡ÎÄ¼şÊ±£¬È¥µôdtdµÄÑéÖ¤£¬¿ÉÒÔËõ¶ÌÔËĞĞÊ±¼ä  
 	    try {  
 	        saxReader.setEntityResolver(new XMLParse.IgnoreDTDEntityResolver());  
 	    } catch (Exception e) {  
@@ -51,11 +50,11 @@ public class XMLParse {
             File[] files = file.listFiles();
             for (File file2 : files) {
                 if (file2.isDirectory()) {
-                    System.out.println("ÎÄ¼ş¼Ğ:" + file2.getAbsolutePath());
+                    System.out.println("æ–‡ä»¶å¤¹:" + file2.getAbsolutePath());
                     list.add(file2);
                     folderNum++;
                 } else {
-                    System.out.println("ÎÄ¼ş:" + file2.getAbsolutePath());
+                    System.out.println("æ–‡ä»¶:" + file2.getAbsolutePath());
                     readFile(file2.getAbsolutePath());
                     fileNum++;
                 }
@@ -66,20 +65,20 @@ public class XMLParse {
                 files = temp_file.listFiles();
                 for (File file2 : files) {
                     if (file2.isDirectory()) {
-                        System.out.println("ÎÄ¼ş¼Ğ:" + file2.getAbsolutePath());
+                        System.out.println("æ–‡ä»¶å¤¹:" + file2.getAbsolutePath());
                         list.add(file2);
                         folderNum++;
                     } else {
-                        System.out.println("ÎÄ¼ş:" + file2.getAbsolutePath());
+                        System.out.println("æ–‡ä»¶:" + file2.getAbsolutePath());
                         readFile(file2.getAbsolutePath());
                         fileNum++;
                     }
                 }
             }
         } else {
-            System.out.println("ÎÄ¼ş²»´æÔÚ!");
+            System.out.println("æ–‡ä»¶ä¸å­˜åœ¨ï¼");
         }
-        System.out.println("ÎÄ¼ş¼Ğ¹²ÓĞ:" + folderNum + ",ÎÄ¼ş¹²ÓĞ:" + fileNum);
+        System.out.println("æ–‡ä»¶å¤¹æ•°ç›®: " + folderNum + ",æ–‡ä»¶æ•°ç›®: " + fileNum);
 
     }
 	

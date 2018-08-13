@@ -1,8 +1,8 @@
 package excel;
 /**
 *@author    created by Ren Jingui
-*@date  2018Äê8ÔÂ12ÈÕ---ÏÂÎç9:21:51
-*@problem ×¨ÃÅ´¦ÀíexcelÏà¹ØµÄĞÅÏ¢
+*@date  2018å¹´8æœˆ12æ—¥---ä¸‹åˆ9:21:51
+*@problem ä¸“é—¨å¤„ç†excelç›¸å…³çš„ä¿¡æ¯
 *@answer
 *@action
 */
@@ -26,8 +26,8 @@ public class ExcelInfo {
     private static HSSFWorkbook workbook = null;  
     
     /** 
-     * ÅĞ¶ÏÎÄ¼şÊÇ·ñ´æÔÚ. 
-     * @param fileDir  ÎÄ¼şÂ·¾¶ 
+     * åˆ¤æ–­æ–‡ä»¶æ˜¯å¦å­˜åœ¨
+     * @param fileDir  æ–‡ä»¶è·¯å¾„
      * @return 
      */  
     public static boolean fileExist(String fileDir){  
@@ -37,19 +37,19 @@ public class ExcelInfo {
          return flag;  
     }  
     /** 
-     * ÅĞ¶ÏÎÄ¼şµÄsheetÊÇ·ñ´æÔÚ. 
-     * @param fileDir   ÎÄ¼şÂ·¾¶ 
-     * @param sheetName  ±í¸ñË÷ÒıÃû 
+     * åˆ¤æ–­æ–‡ä»¶çš„sheetæ˜¯å¦å­˜åœ¨.
+     * @param fileDir   æ–‡ä»¶è·¯å¾„
+     * @param sheetName  è¡¨æ ¼ç´¢å¼•å
      * @return 
      */  
     public static boolean sheetExist(String fileDir,String sheetName) throws Exception{  
          boolean flag = false;  
          File file = new File(fileDir);  
-         if(file.exists()){    //ÎÄ¼ş´æÔÚ  
-            //´´½¨workbook  
+         if(file.exists()){    //æ–‡ä»¶å­˜åœ¨
+        	//åˆ›å»ºworkbook
              try {  
                 workbook = new HSSFWorkbook(new FileInputStream(file));  
-                //Ìí¼ÓWorksheet£¨²»Ìí¼ÓsheetÊ±Éú³ÉµÄxlsÎÄ¼ş´ò¿ªÊ±»á±¨´í)  
+              //æ·»åŠ Worksheetï¼ˆä¸æ·»åŠ sheetæ—¶ç”Ÿæˆçš„xlsæ–‡ä»¶æ‰“å¼€æ—¶ä¼šæŠ¥é”™)  
                 HSSFSheet sheet = workbook.getSheet(sheetName);    
                 if(sheet!=null)  
                     flag = true;  
@@ -57,28 +57,24 @@ public class ExcelInfo {
                 throw e;
             }   
               
-         }else{    //ÎÄ¼ş²»´æÔÚ  
+         }else{
              flag = false;  
          }  
          return flag;  
     }  
     /** 
-     * ´´½¨ĞÂexcel. 
-     * @param fileDir  excelµÄÂ·¾¶ 
-     * @param sheetName Òª´´½¨µÄ±í¸ñË÷Òı 
-     * @param titleRow excelµÄµÚÒ»ĞĞ¼´±í¸ñÍ· 
+     * åˆ›å»ºæ–°excel.
+     * @param fileDir  excelçš„è·¯å¾„
+     * @param sheetName è¦åˆ›å»ºçš„è¡¨æ ¼ç´¢å¼•
+     * @param titleRow excelçš„ç¬¬ä¸€è¡Œå³è¡¨æ ¼å¤´ 
      */  
-    public static void createExcel(String fileDir,String sheetName,String titleRow[]) throws Exception{  
-        //´´½¨workbook
+    public static void createExcel(String fileDir,String sheetName,String titleRow[]) throws Exception{
     	if(fileExist(fileDir)) return;
-        workbook = new HSSFWorkbook();
-        //Ìí¼ÓWorksheet£¨²»Ìí¼ÓsheetÊ±Éú³ÉµÄxlsÎÄ¼ş´ò¿ªÊ±»á±¨´í)  
+        workbook = new HSSFWorkbook();  
         HSSFSheet sheet1 = workbook.createSheet(sheetName);    
-        //ĞÂ½¨ÎÄ¼ş  
         FileOutputStream out = null;  
         try {  
-            //Ìí¼Ó±íÍ·  
-            HSSFRow row = workbook.getSheet(sheetName).createRow(0);    //´´½¨µÚÒ»ĞĞ    
+            HSSFRow row = workbook.getSheet(sheetName).createRow(0);    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½    
             for(short i = 0;i < titleRow.length;i++){  
                 HSSFCell cell = row.createCell(i);  
                 cell.setCellValue(titleRow[i]);  
@@ -97,18 +93,16 @@ public class ExcelInfo {
         }    
     }  
     /** 
-     * É¾³ıÎÄ¼ş. 
-     * @param fileDir  ÎÄ¼şÂ·¾¶ 
+     * åˆ é™¤æ–‡ä»¶.
+     * @param fileDir  æ–‡ä»¶è·¯å¾„
      */  
     public static boolean deleteExcel(String fileDir) {  
         boolean flag = false;  
-        File file = new File(fileDir);  
-        // ÅĞ¶ÏÄ¿Â¼»òÎÄ¼şÊÇ·ñ´æÔÚ    
-        if (!file.exists()) {  // ²»´æÔÚ·µ»Ø false    
+        File file = new File(fileDir);      
+        if (!file.exists()) {
             return flag;    
-        } else {    
-            // ÅĞ¶ÏÊÇ·ñÎªÎÄ¼ş    
-            if (file.isFile()) {  // ÎªÎÄ¼şÊ±µ÷ÓÃÉ¾³ıÎÄ¼ş·½·¨    
+        } else {     
+            if (file.isFile()) {
                 file.delete();  
                 flag = true;  
             }   
@@ -116,14 +110,13 @@ public class ExcelInfo {
         return flag;  
     }  
     /** 
-     * ÍùexcelÖĞĞ´Èë(ÒÑ´æÔÚµÄÊı¾İÎŞ·¨Ğ´Èë). 
-     * @param fileDir    ÎÄ¼şÂ·¾¶ 
-     * @param sheetName  ±í¸ñË÷Òı 
+     * å¾€excelä¸­å†™å…¥(å·²å­˜åœ¨çš„æ•°æ®æ— æ³•å†™å…¥). 
+     * @param fileDir    æ–‡ä»¶è·¯å¾„ 
+     * @param sheetName  è¡¨æ ¼ç´¢å¼• 
      * @param object 
      * @throws Exception 
-     */  
+     */ 
     public static void writeToExcel(String fileDir,String sheetName,List<Map> mapList) throws Exception{  
-        //´´½¨workbook  
         File file = new File(fileDir);
         try {  
             workbook = new HSSFWorkbook(new FileInputStream(file));
@@ -132,18 +125,16 @@ public class ExcelInfo {
         } catch (IOException e) {  
             e.printStackTrace();  
         }  
-        //Á÷  
         FileOutputStream out = null;  
         HSSFSheet sheet = workbook.getSheet(sheetName);
         int columnCount = sheet.getRow(0).getLastCellNum();
         try {  
-            // »ñµÃ±íÍ·ĞĞ¶ÔÏó  
             HSSFRow titleRow = sheet.getRow(0);  
             if(titleRow!=null){ 
                 for(int rowId=0;rowId<mapList.size();rowId++){
                     Map map = mapList.get(rowId);
                     HSSFRow newRow=sheet.createRow(rowId+1);
-                    for (short columnIndex = 0; columnIndex < columnCount; columnIndex++) {  //±éÀú±íÍ·  
+                    for (short columnIndex = 0; columnIndex < columnCount; columnIndex++) {  //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í·  
                         @SuppressWarnings("deprecation")
 						String mapKey = titleRow.getCell(columnIndex).toString().trim();
                         @SuppressWarnings("deprecation")
@@ -167,9 +158,7 @@ public class ExcelInfo {
     }  
       
     public static void main(String[] args) {  
-//        /*ÅĞ¶ÏÎÄ¼şÊÇ·ñ´æÔÚ  
         System.out.println(ExcelInfo.fileExist("F:/test2.xls"));  
-        //´´½¨ÎÄ¼ş  
         String title[] = {"id","name","password"};  
         try {
 			ExcelInfo.createExcel("F:/test2.xls","sheet1",title);
@@ -180,13 +169,13 @@ public class ExcelInfo {
         List<Map> list=new ArrayList<Map>();
         Map<String,String> map=new HashMap<String,String>();
         map.put("id", "111");
-        map.put("name", "ÕÅÈı");
-        map.put("password", "111£¡@#");
+        map.put("name", "å¼ ä¸‰");
+        map.put("password", "111ï¼@#");
         
         Map<String,String> map2=new HashMap<String,String>();
         map2.put("id", "222");
-        map2.put("name", "ÀîËÄ");
-        map2.put("password", "222£¡@#");
+        map2.put("name", "æå››");
+        map2.put("password", "222ï¼@#");
         list.add(map);
         list.add(map2);
         try {
