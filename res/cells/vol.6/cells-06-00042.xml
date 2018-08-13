@@ -1,0 +1,1849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title-group>
+        <journal-title>Cells</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells6040042</article-id>
+      <article-id pub-id-type="publisher-id">cells-06-00042</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Role of Scaffold Protein Proline-, Glutamic Acid-, and Leucine-Rich Protein 1 (PELP1) in the Modulation of Adrenocortical Cancer Cell Growth</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>De Luca</surname>
+            <given-names>Arianna</given-names>
+          </name>
+          <xref rid="af1-cells-06-00042" ref-type="aff">1</xref>
+          <xref rid="fn1-cells-06-00042" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Avena</surname>
+            <given-names>Paola</given-names>
+          </name>
+          <xref rid="af1-cells-06-00042" ref-type="aff">1</xref>
+          <xref rid="fn1-cells-06-00042" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sirianni</surname>
+            <given-names>Rosa</given-names>
+          </name>
+          <xref rid="af1-cells-06-00042" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chimento</surname>
+            <given-names>Adele</given-names>
+          </name>
+          <xref rid="af1-cells-06-00042" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-7511-0226</contrib-id>
+          <name>
+            <surname>Fallo</surname>
+            <given-names>Francesco</given-names>
+          </name>
+          <xref rid="af2-cells-06-00042" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pilon</surname>
+            <given-names>Catia</given-names>
+          </name>
+          <xref rid="af2-cells-06-00042" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Casaburi</surname>
+            <given-names>Ivan</given-names>
+          </name>
+          <xref rid="af1-cells-06-00042" ref-type="aff">1</xref>
+          <xref rid="c1-cells-06-00042" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pezzi</surname>
+            <given-names>Vincenzo</given-names>
+          </name>
+          <xref rid="af1-cells-06-00042" ref-type="aff">1</xref>
+          <xref rid="c1-cells-06-00042" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-06-00042"><label>1</label>Cell and Applied Biology Laboratory, Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Arcavacata di Rende, 87036 Cosenza, Italy; <email>ariannadl@hotmail.it</email> (A.D.L.); <email>paolaavena@libero.it</email> (P.A.); <email>rosa.sirianni@unical.it</email> (R.S.); <email>adechimento@libero.it</email> (A.C.)</aff>
+      <aff id="af2-cells-06-00042"><label>2</label>Clinica Medica 3, Department of Medicine-DIMED, University of Padova, 35128 Padova, Italy; <email>Francesco.fallo@unipd.it</email> (F.F.); <email>catia.pilon@unipd.it</email> (C.P.)</aff>
+      <author-notes>
+        <corresp id="c1-cells-06-00042"><label>*</label>Correspondence: <email>icasaburi@yahoo.it</email> (I.C.); <email>v.pezzi@unical.it</email> (V.P.); Tel.: +39-0984-493182 (I.C.); +39-0984-493148 (V.P.); Fax: +39-0984-493157 (I.C. &amp; V.P.)</corresp>
+        <fn id="fn1-cells-06-00042">
+          <label>&#x2020;</label>
+          <p>These authors contributed equally to this work.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>07</day>
+        <month>11</month>
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="collection">        <month>12</month>
+        <year>2017</year>
+      </pub-date>
+      <volume>6</volume>
+      <issue>4</issue>
+      <elocation-id>42</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>19</day>
+          <month>10</month>
+          <year>2017</year>
+        </date>
+        <date date-type="accepted">
+          <day>03</day>
+          <month>11</month>
+          <year>2017</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2017 by the authors.</copyright-statement>
+        <copyright-year>2017</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>PELP1 acts as an estrogen receptor (ER) coactivator that exerts an essential role in the ER&#x2019;s functions. ER coregulators have a critical role in the progression and response to hormonal treatment of estrogen-dependent tumors. We previously demonstrated that, in adrenocortical carcinoma (ACC), ER&#x3B1; is upregulated and that estradiol activates the IGF-II/IGF1R signaling pathways defining the role of this functional cross-talk in H295R ACC cell proliferation. The aim of this study was to determine if PELP1 is expressed in ACC and may play a role in promoting the interaction between ER&#x3B1; and IGF1R allowing the activation of pathways important for ACC cell growth. The expression of PELP1 was detected by Western blot analysis in ACC tissues and in H295R cells. H295R cell proliferation decrease was assessed by A3-(4,5-Dimethylthiaoly)-2,5-diphenyltetrazolium bromide (MTT) assay and [3H] thymidine incorporation. PELP1 is expressed in ACC tissues and in H295R cells. Moreover, treatment of H295R with E2 or IGF-II induced a multiprotein complex formation consisting of PELP1, IGF1R, ER&#x3B1;, and Src that is involved in ERK1/2 rapid activation. PELP1/ER/IGF1R/c-Src complex identification as part of E2- and IGF-II-dependent signaling in ACC suggests PELP1 is a novel and more efficient potential target to reduce ACC growth.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>adrenocortical carcinoma (ACC)</kwd>
+        <kwd>proline glutamic acid and leucine rich protein 1 (PELP1)</kwd>
+        <kwd>estrogen receptor &#x3B1; (ER&#x3B1;)</kwd>
+        <kwd>insulin growth factor-1 receptor (IGF1R)</kwd>
+        <kwd>insulin-like growth factor II (IGF-II)</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-cells-06-00042" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Adrenocortical carcinomas (ACC) are rare and highly aggressive tumors, associated with a very poor prognosis, mostly due to a high risk of recurrence and limited therapeutic options [<xref ref-type="bibr" rid="B1-cells-06-00042">1</xref>]. Complete surgical excision offers the best chance of long term survival but quite often, despite the complete resection, the tumor reinstates very recurrently [<xref ref-type="bibr" rid="B2-cells-06-00042">2</xref>]. The cause of adrenal cancer remains elusive, but studies in the past 10 years suggest genetic mutations in the adrenal gland lead to the initiation of a malignant tumor [<xref ref-type="bibr" rid="B3-cells-06-00042">3</xref>,<xref ref-type="bibr" rid="B4-cells-06-00042">4</xref>,<xref ref-type="bibr" rid="B5-cells-06-00042">5</xref>].</p>
+      <p>However, ACC is an extremely heterogeneous disease and the majority of currently published studies have analyzed only single pathways of signal transduction. It is becoming clear that ACC pathogenesis involves integration of signals and the interplay of downstream pathways. Among these, the IGF system and estrogen-dependent pathways appear to be of particular interest.</p>
+      <p>It has been demonstrated that the insulin-growth factor 2 (IGF-II) gene is strongly over-expressed in adrenocortical carcinomas, representing one of the most commonly identified mutations in ACC [<xref ref-type="bibr" rid="B6-cells-06-00042">6</xref>]. IGF-II indicates a reliable prognostic marker in this disease, suggesting that it can be used to identify patients with a high risk of recurrence [<xref ref-type="bibr" rid="B7-cells-06-00042">7</xref>,<xref ref-type="bibr" rid="B8-cells-06-00042">8</xref>,<xref ref-type="bibr" rid="B9-cells-06-00042">9</xref>]. In ACC cells, IGF-II induces mitogenic effects through interaction with the IGF1 receptor (IGF1R), resulting in the activation of the PI3K/AKT/mTOR cascade, as well as RAS/MAPK and the PLC/PKC pathways [<xref ref-type="bibr" rid="B10-cells-06-00042">10</xref>]. It is known that estrogens are produced by the enzyme aromatase using androgens as substrate, and we have already shown that ACC is characterized by aromatase overexpression [<xref ref-type="bibr" rid="B11-cells-06-00042">11</xref>]. Thus, we can speculate that, in ACC patients, despite the normal circulating estrogen levels, a higher local estrogen production can occur. The classical mechanisms of estrogen action are mainly mediated by two members of the nuclear receptor superfamily, the estrogen receptor (ER) &#x3B1; and &#x3B2;. In ACCs, we previously demonstrated that ER&#x3B1; is upregulated [<xref ref-type="bibr" rid="B11-cells-06-00042">11</xref>] and that estradiol enhances H295R cell proliferation [<xref ref-type="bibr" rid="B12-cells-06-00042">12</xref>]. Recently, we demonstrated both in vitro and in vivo the potential involvement of G-coupled-estrogen receptor (GPER) in H295R cell growth that was strongly inhibited by G1, a GPER agonist [<xref ref-type="bibr" rid="B13-cells-06-00042">13</xref>]. Furthermore, the growth inhibitory effect was also achieved using XCT790, the estrogen related receptor &#x3B1; (ERR&#x3B1;) inverse agonist [<xref ref-type="bibr" rid="B14-cells-06-00042">14</xref>]. These results suggest that estrogen signaling and related nuclear receptors are involved in ACC cell growth.</p>
+      <p>We also demonstrated that the existence of a functional interplay between the IGF-II/IGF1R system and estrogen signaling which turned out to be essential in controlling intracellular pathways crucial for ACC proliferation. In particular, our previous observations demonstrated that IGF-II caused ER&#x3B1; phosphorylation on serine 118 and serine 167 residues, activating ER&#x3B1; in a ligand independent manner and increasing cell proliferation. On the other hand, activation of IGF-II/IGF1R dependent pathways could be also triggered by ER&#x3B1;. Accordingly, ER&#x3B1; knock-down was more effective than an IGF1R antibody in controlling H295R cell proliferation [<xref ref-type="bibr" rid="B15-cells-06-00042">15</xref>]. However, the molecular mechanisms involved in IGF-II-induced ER&#x3B1; phosphorylation and in E2/ER&#x3B1; activation of IGF-II/IGF1R-dependent pathways in ACC are not completely clear.</p>
+      <p>A large number of studies highlighted that, in cancer cells, ER coregulators play a critical role in hormonal responsiveness and tumor progression [<xref ref-type="bibr" rid="B16-cells-06-00042">16</xref>]. PELP1/MNAR is a novel ER coactivator that exerts an essential role in ER&#x2019;s actions and its expression is deregulated in hormone driven cancers. PELP1 appears to function as a scaffolding protein, coupling ER with several proteins that are involved in oncogenesis, cell proliferation, and metastasis, such as growth factors [<xref ref-type="bibr" rid="B17-cells-06-00042">17</xref>,<xref ref-type="bibr" rid="B18-cells-06-00042">18</xref>,<xref ref-type="bibr" rid="B19-cells-06-00042">19</xref>,<xref ref-type="bibr" rid="B20-cells-06-00042">20</xref>,<xref ref-type="bibr" rid="B21-cells-06-00042">21</xref>]. These regulatory interactions have important functional implications in the cross-talk of estrogen receptor and growth factors signaling [<xref ref-type="bibr" rid="B22-cells-06-00042">22</xref>,<xref ref-type="bibr" rid="B23-cells-06-00042">23</xref>]. Taking into account all of these observations, the main purpose of this study was to define if PELP1 is expressed in ACC and is able to play a role in ACC growth by promoting cross-talk between ER&#x3B1; and IGF1R.</p>
+    </sec>
+    <sec id="sec2-cells-06-00042">
+      <title>2. Materials and Methods</title>
+      <p>Cell culture and tissues: H295R cells were obtained from Dr. Antonio Stigliano (Department of Clinical and Molecular Medicine, Sant&#x2019;Andrea Hospital, Faculty of Medicine and Psychology, Rome, Italy) [<xref ref-type="bibr" rid="B24-cells-06-00042">24</xref>] and cultured in Dulbecco&#x2019;s modified Eagle&#x2019;s medium/Ham&#x2019;s F12 DMEM/F12 (Sigma-Aldrich, Milano, Italy) supplemented with 1% ITS Liquid Media Supplement (Sigma), 10% fetal bovine serum, 1% glutamine, 2% penicillin/streptomycin (Sigma) (complete medium), at 37 &#xB0;C in an atmosphere of humidified air containing 5% CO<sub>2</sub>. Cells were subcultured for 48 h in complete medium on 100 mm dishes for IP assays (5 &#xD7; 10<sup>6</sup> cells/plate), 60 mm dishes for protein extraction (600 &#xD7; 10<sup>3</sup> cells/plate), and 24-well culture dishes for proliferation experiments (50 &#xD7; 10<sup>3</sup> cells/well).</p>
+      <p>Prior to experiments, cells were starved overnight in DMEM/F-12 medium containing only antibiotics. Cells were treated with 17&#x3B2;-estradiol (E2) (100 nM) (Sigma) and IGF-II (100 ng/mL) (Sigma). Adrenocortical tumors, removed at surgery, and normal adrenal cortex, macroscopically dissected from adrenal glands of kidney donors, were collected at the hospital-based Divisions of the University of Padova (Padova, Italy). Tissue samples were obtained with the approval of local ethics committees and consent from patients (Project Tissue Biobank Resource n. 130) in accordance with the Declaration of Helsinki.</p>
+      <p>Diagnosis of malignancy was performed according to the histopathological criteria proposed by Weiss et al. [<xref ref-type="bibr" rid="B25-cells-06-00042">25</xref>] and modified by Aubert et al. [<xref ref-type="bibr" rid="B26-cells-06-00042">26</xref>]. Patients&#x2019; clinical data related to ACC samples included in this study are shown in <xref ref-type="table" rid="cells-06-00042-t001">Table 1</xref>. Sample C6 belonged to a patient who quit mitotane treatment after six months due to severe gastrointestinal side effects. Patients C1 and C2 received chemotherapy following EAP protocol (etoposide, doxorubicin, and cisplatin) plus mitotane [<xref ref-type="bibr" rid="B27-cells-06-00042">27</xref>].</p>
+      <p>Western blot analysis: H295R cells, from normal or cancer adrenal tissue samples were lyzed in ice-cold radioimmunoprecipitation assay buffer containing protease inhibitors (20 mmol/L Tris, 150 mmol/L NaCl, 1% Igepal, 0.5% sodium deoxycholate, 1 mmol/L EDTA, 0.1% SDS, 1 mmol/L phenylmethylsulfonyl fluoride, 0.15 units/mL aprotinin, and 10 &#x3BC;mol/L leupeptin). Protein content was determined by the Bradford method. Fifty &#xB5;g of protein were separated on an 11% SDS-polyacrylamide gel and then electroblotted onto a nitrocellulose membrane.</p>
+      <p>Blots were incubated overnight at 4 &#xB0;C with specific antibodies: (a) anti-IGF1R&#x3B2; antibody (C-20) (1:500; Santa Cruz Biotechnology, Santa Cruz, CA, USA); (b) anti-pERK1/2 antibody (T202/Y204) (1:1000; Cell Signaling Technology, Bervely, MA, USA); (c) anti-ERK1/2 antibody (1:1000; Cell Signaling Technology); (d) anti-CCND1 antibody (3H2043) (1:1000; Santa Cruz Biotechnology); (e) anti-ER&#x3B1; (F-10) antibody (1:1000; Santa Cruz Biotechnology); (f) anti-c-Src antibody (1:500; Santa Cruz Biotechnology); (g) anti-PELP1/NMAR antibody (1:10,000; Bethyl Laboratories Inc. Montgomery, TX, USA). Membranes were incubated with horseradish peroxidase (HRP)-conjugated secondary antibodies (Amersham Pharmacia Biotech, Piscataway, NJ, USA), and immunoreactive bands were visualized with the enhanced chemiluminescence Western blotting detection system (Amersham). To assure equal loading of proteins, membranes were stripped and incubated overnight with glyceraldehyde-3-phosphate dehydrogenase (GAPDH) antibody (FL-335) (1:2000; Santa Cruz Biotechnology).</p>
+      <p>MTT assay and [3H] thymidine incorporation: A3-(4,5-Dimethylthiaoly)-2,5-diphenyltetrazolium bromide (MTT) assay, as well as thymidine incorporation, was performed to detect cell proliferation. At the end of each treatment, fresh MTT (Sigma), resuspended in PBS, was added to each well (final concentration 0.33 mg/mL). After 2 h incubation, cells were lyzed in dimethylsulfoxide (Sigma). Each experiment was performed in triplicate and the OD was measured at 570 nm in a monochromator-based multi-mode microplate reader (Synergy H1 Hybrid Reader, BioTek, Germany, Europe). [3H] thymidine incorporation was performed as described in Casaburi et al. [<xref ref-type="bibr" rid="B28-cells-06-00042">28</xref>]. Briefly, H295R as well as 24 h PELP1 silenced H295R cells were untreated or treated with E2 or IGF-II for an additional 48 h. For the last 6 h, [3H] thymidine (1 &#x3BC;Ci/mL) was added to the culture medium. After rinsing with PBS, cells were washed once with 10% and three times with 5% trichloroacetic acid. Cells were lyzed by adding 0.1 N NaOH and then incubated for 30 min at 37 &#xB0;C. Thymidine incorporation was determined by scintillation counting.</p>
+      <p>RNA interference: PELP1 small interfering RNA (siRNA) and nontargeting siRNA (scrambled or control siRNA) were purchased from Dharmacon (ON-TARGET plus siRNA Human PELP1 cat # J-004463-06 50 nmol) (Invitrogen, Carlsbad, CA, USA). Cells were plated into 60 mm dishes for protein extraction and into 24-well plates for proliferation assay. siRNAs were transfected to a final concentration of 100 or 200 nM using the DharmaFECT transfection Reagent (cat # T-2001-002), according to the manufacturer&#x2019;s recommendations (Dharmacon, CO, USA). PELP1 knockdown was checked by Western analysis on proteins extracted from cells transfected for 24 h.</p>
+      <p>Immunoprecipitation assay: H295R cells were lyzed in ice-cold radioimmunoprecipitation assay buffer (see Western blot analysis). The protein content was determined by the Bradford method and 500 &#x3BC;g of protein lysates were first precleared with 10 &#x3BC;L of protein A agarose beads (Santa Cruz) for 1 h. Then precleared cell lysates were incubated over night with primary anti-PELP1 antibody together with 20 &#x3BC;L of protein A agarose beads at 4 &#xB0;C in HNTG buffer (20 m<sc>M</sc> HEPES pH 7.5, 150 m<sc>M </sc>NaCl, 0.1% Triton X-100, 10% glycerol, 0.1 m<sc>M</sc> Na<sub>3</sub>VO<sub>4</sub>). Negative control samples were obtained by replacing anti-PELP1 antibody with normal rabbit IgG. Immunoprecipitated proteins were washed three times with HNTG buffer, separated on an 11% polyacrylamide denaturing gel, analyzed by WB and visualized by ECL (Amersham).</p>
+      <p>Data analysis and statistical methods: All experiments were performed at least three times. Data were expressed as mean values &#xB1; standard deviation (SD), statistical significance between control and treated samples were analyzed using GraphPad Prism 5.0 (GraphPad Software, Inc.; La Jolla, CA, USA) software. Control and treated groups were compared using the analysis of variance (ANOVA). A comparison of individual treatments was also performed, using Student&#x2019;s <italic>t</italic>-test. Significance was defined as <italic>p</italic> &lt; 0.05.</p>
+    </sec>
+    <sec id="sec3-cells-06-00042" sec-type="results">
+      <title>3. Results</title>
+      <sec id="sec3dot1-cells-06-00042">
+        <title>3.1. PELP1 Is Expressed in Human ACC Samples and in H295R Cells</title>
+        <p>We first examined PELP1 expression in normal human adrenal tissue, six different ACC samples, and the H295R cell line. Using Western blot analysis we showed that PELP1 is expressed in normal and ACC samples (<xref ref-type="fig" rid="cells-06-00042-f001">Figure 1</xref>A), as well as in H295R cells (<xref ref-type="fig" rid="cells-06-00042-f001">Figure 1</xref>B) with a similar expression pattern to that of prostate carcinoma cell line LNCaP, which was used as a positive control [<xref ref-type="bibr" rid="B29-cells-06-00042">29</xref>].</p>
+        <p>It is worth noting that differences in PELP1 expression levels were not seen among the ACC samples, despite the different associated chemotherapeutic protocols (<xref ref-type="table" rid="cells-06-00042-t001">Table 1</xref>).</p>
+      </sec>
+      <sec id="sec3dot2-cells-06-00042">
+        <title>3.2. PELP1 Is Recruited to Form a Multiprotein Complex in H295R Cells after E2 and IGF-II Treatment</title>
+        <p>In order to establish a role for PELP1 as a scaffold protein able to connect rapid estrogen-dependent and IGF-II-dependent signaling, we used an anti-PELP1 antibody to immunoprecipitate protein lysates from H295R cells treated for 10 min with E2 or IGF-II. We observed that both treatments rapidly induced the formation of a multiprotein complex in which we revealed the interaction of PELP1with IGFIR, ER&#x3B1;, and c-Src (<xref ref-type="fig" rid="cells-06-00042-f002">Figure 2</xref>).</p>
+      </sec>
+      <sec id="sec3dot3-cells-06-00042">
+        <title>3.3. PELP1 Knockdown Decreases ERK1/2 Phosphorylation in H295R Cells</title>
+        <p>The aim of the next set of experiments was to determine if PELP1 plays a role in rapid ERK1/2 activation induced by E2 and IGF-II. First we tested different concentrations (100 and 200 nM) of a specific siRNA and the reduced PELP1 expression was observed by Western blot analysis (<xref ref-type="fig" rid="cells-06-00042-f003">Figure 3</xref>A). With the basis of Western blot results, we chose 200 nM as the best siRNA concentration to reduce PELP1 expression in all subsequent experiments.</p>
+        <p>Next H295R cells were transfected for 24 h with scrambled or siRNA for PELP1 and then treated for 10 min with E2 or IGF-II. In the presence of scrambled siRNA, E2 and IGF-II retained their ability to increase ERK phosphorylation, while in the presence of a reduced PELP1 protein expression the E2- and IGF-II-dependent ERK1/2 activation was decreased (<xref ref-type="fig" rid="cells-06-00042-f003">Figure 3</xref>B). These data indicate that, in H295R cells, the formation of a multiprotein complex containing PELP1 is required to allow rapid MAPK activation induced by E2 and IGF-II treatment.</p>
+      </sec>
+      <sec id="sec3dot4-cells-06-00042">
+        <title>3.4. PELP1 Knockdown Decreases IGFIR Expression in H295R Cells</title>
+        <p>Starting from our previous observation that in H295R cells estrogens can modulate IGF1R expression [<xref ref-type="bibr" rid="B15-cells-06-00042">15</xref>], we wanted to investigate the effect of PELP1 silencing on E2-induced IGF1R expression. We confirmed our previous data on the ability of E2 to increase IGF1R expression and we also observed that PELP1 is required for this event. In fact, the ability of E2 to increase IGF-1R protein expression in PELP1 silenced H295R cells was no longer detectable. Importantly, PELP1 silencing reduced IGF1R expression, even in basal conditions (<xref ref-type="fig" rid="cells-06-00042-f004">Figure 4</xref>).</p>
+      </sec>
+      <sec id="sec3dot5-cells-06-00042">
+        <title>3.5. PELP1 Knockdown Decreases Cyclin D1 Expression in H295R Cells</title>
+        <p>Our previous study indicated that ACC cell proliferation in response to E2 and IGF-II relies on the activation of Cyclin D1 [<xref ref-type="bibr" rid="B15-cells-06-00042">15</xref>]. For this reason, we evaluated Cyclin D1 expression in H295R cells after PELP1gene silencing. Our experiments showed that in H295R cells the reduced PELP1 expression abrogated the increase in Cyclin D1 expression induced by E2 and IGF-II treatment. It is worth noting that, in basal condition also, the Cyclin D1 expression is lowered in the presence of silenced PELP-1 expression (<xref ref-type="fig" rid="cells-06-00042-f005">Figure 5</xref>).</p>
+      </sec>
+      <sec id="sec3dot6-cells-06-00042">
+        <title>3.6. PELP1 Knockdown Reduces Proliferation of H295R Cells</title>
+        <p>Considering that PELP1 silencing was able to reduce the expression of genes involved in E2- and IGF-II-dependent H295R cell growth, we investigated the effects of PELP1 silencing on H295R cell proliferation. As shown in <xref ref-type="fig" rid="cells-06-00042-f006">Figure 6</xref>A,B, PELP1 silencing in H295R cells significantly reduced the ability of both E2 and IGF-II to induce cell proliferation as assessed by both MTT assay and [3H] thymidine incorporation. Moreover, according to the above results where the expression of IGF-1R and Cyclin D1 was reduced, basal cell proliferation was also affected in untreated PELP1-silenced H295R cells.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-cells-06-00042" sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>The aim of this study was to determine if PELP1 is expressed in ACC and whether or not it may play a role in promoting the interaction between ER&#x3B1; and IGF1R, allowing the activation of signaling pathways controlling ACC cell growth. First, we showed that PELP1 is expressed in H295R cells, as well as in normal adrenal and ACC tissues. We only aimed to assess if PELP1 was expressed in normal and tumor adrenal samples without indicating any difference in the expression levels since a limited number of samples were available. However, the data obtained support the idea of investigating PELP1 expression in a larger number of ACC samples in order to better determine if PELP1 gene expression is altered in ACCs. Of note, PELP1 expression was found to be deregulated in several cancers [<xref ref-type="bibr" rid="B30-cells-06-00042">30</xref>], and can be upregulated by estrogens and differentially regulated by selective estrogen receptor modulators [<xref ref-type="bibr" rid="B16-cells-06-00042">16</xref>].</p>
+      <p>It has been demonstrated that PELP1 participates in ER cytoplasmic and membrane mediated signaling events by coupling ER with several cytosolic kinases acting as a scaffolding protein and facilitating the activation of ER-mediated non-genomic signaling [<xref ref-type="bibr" rid="B20-cells-06-00042">20</xref>]. PELP1 modulates the interaction of ERs with c-Src, stimulating c-Src enzymatic activity, leading to the activation of the mitogen activated protein kinase (MAPK) pathway [<xref ref-type="bibr" rid="B31-cells-06-00042">31</xref>]. Moreover, growth factors promote tyrosine and serine phosphorylation of PELP1 [<xref ref-type="bibr" rid="B19-cells-06-00042">19</xref>] which can directly interact with several growth factor receptors in particular EGFR and HER2 [<xref ref-type="bibr" rid="B18-cells-06-00042">18</xref>,<xref ref-type="bibr" rid="B19-cells-06-00042">19</xref>,<xref ref-type="bibr" rid="B20-cells-06-00042">20</xref>,<xref ref-type="bibr" rid="B21-cells-06-00042">21</xref>]. Such regulatory interactions of PELP1 have important functional implications in the cross-talk of estrogen receptor and growth factor signaling [<xref ref-type="bibr" rid="B18-cells-06-00042">18</xref>].</p>
+      <p>In H295R cells, we demonstrated that 10 min of treatment with E2 or IGF-II allowed the formation of a multiprotein complex consisting of PELP1, IGF1R, ER&#x3B1;, and c-Src. Moreover, while E2 and IGF-II were able to induce rapid ERK1/2 activation, this effect was lost after PELP1 silencing. These data indicate PELP1 as a key player in both E2- and IGF-II-dependent ERK1/2 phosphorylation in H295R cells. Similar mechanisms have been revealed in breast cancer cells where PELP1 has been shown to be a critical mediator of estrogen-induced MAPK activation via c-Src. In fact, upon E2 stimulation, ER&#x3B1; induces rapid (5&#x2013;10 min) activation of MAPK in a c-Src dependent manner [<xref ref-type="bibr" rid="B32-cells-06-00042">32</xref>]. Mutation of the PELP1 PXXP c-Src interaction site abolished estrogen-induced MAPK activation and ER transcriptional activity. ER is also able to interact with c-Src, further increasing signaling efficiency to MAPK [<xref ref-type="bibr" rid="B33-cells-06-00042">33</xref>]. The PELP1/ER/c-Src signaling axis has also been shown to include growth factor receptors (EGFR, HER2) and the stimulation of PI3K/AKT and integrin-linked kinase 1 (ILK1) pathways [<xref ref-type="bibr" rid="B19-cells-06-00042">19</xref>,<xref ref-type="bibr" rid="B34-cells-06-00042">34</xref>,<xref ref-type="bibr" rid="B35-cells-06-00042">35</xref>,<xref ref-type="bibr" rid="B36-cells-06-00042">36</xref>]. Here, we demonstrated that PELP1 physically interacts with the IGF1R and this interaction is a required molecular event for IGF-II-mediated ERK1/2 phosphorylation. Mechanistic studies demonstrated that overexpression of a mutated form of PELP1 that lacks the nuclear localization signal was able to drive MAPK signaling and constitutive AKT activation in unstimulated breast cancer cells, resulting in increased phosphorylation of ER&#x3B1; at Serine 118 and Serine 167 [<xref ref-type="bibr" rid="B19-cells-06-00042">19</xref>]. Starting from these observations, we hypothesized that PELP1 could also have a role in IGF-II-dependent ER&#x3B1; phosphorylation that we previously demonstrated in H295R cells [<xref ref-type="bibr" rid="B15-cells-06-00042">15</xref>]. On the other hand, E2 is able to modulate IGF1R expression as a consequence of increased cAMP-responsive element binding (CREB) protein activation and binding to the IGF1R promoter [<xref ref-type="bibr" rid="B15-cells-06-00042">15</xref>]. Here, we demonstrated that PELP1 silencing is able to inhibit both basal and E2-induced IGF1R protein expression.</p>
+      <p>A further demonstration of PELP1 involvement in pathways regulating ACC cell growth came from the observation that PELP1 gene silencing was able to decrease basal and abrogate E2- and IGF-II-dependent expression of Cyclin D1. Accordingly, reduced H295R cell growth was also detected after PELP1 gene silencing. Importantly, silencing of PELP1 using a liposomal formulation to vehicle PELP1 siRNA in vivo was shown to be significantly effective in reducing the growth of an orthotopic model of ER positive breast cancer [<xref ref-type="bibr" rid="B37-cells-06-00042">37</xref>], suggesting that targeting this protein is feasible in vivo and could have promising therapeutic effects. Further studies will be required to define if PELP1 has any genomic effect in ACC cells. So far, our data suggest that the main role played by PELP1 in controlling ACC cell growth is by coupling ER&#x3B1; with IGF1R and c-Src, working as a scaffolding protein and facilitating the activation of ER-nongenomic signaling and IGF1R-dependent pathways.</p>
+    </sec>
+    <sec id="sec5-cells-06-00042" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>In conclusion, we demonstrated for the first time that PELP1 is expressed in ACC tissues and H295R cells. Moreover, we have shown that E2 and IGF-II are able to induce the formation of a multiprotein complex consisting of PELP1, IGF1R, ER&#x3B1;, and c-Src and are involved in the rapid activation of ERK1/2. The important role played by the PELP1/ER/IGF1R/c-Src signaling axis in promoting both E2- and IGF-II-dependent ACC cell proliferation suggests that further studies are needed to consider PELP1 as a new target for the therapy of ACCs.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We thank Giorgio Arnaldi, Division of Endocrinology, University of Ancona, Italy, for providing us with ACC samples. This work was supported by Associazione Italiana per la Ricerca sul Cancro (AIRC) project n. IG10344 and IG14433. This work was also supported by Fondo Investimenti Ricerca di Base (FIRB) Accordi di Programma 2011, RBAP1153LS-02 from the Ministry of Education, University and Research, Rome, Italy. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript in compliance with ethical standards.</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>A.D.L., P.A., I.C., and V.P. prepared the manuscript. A.D.L., P.A., R.S., A.C., C.P., and F.F. reviewed the manuscript and contributed to the design, execution, and interpretation of experiments for data, either published or unpublished, referred to in the manuscript.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-06-00042">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stojadinovic</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ghossein</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Hoos</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Nissan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Marshall</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Dudas</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Cordon-Cardo</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Jaques</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Brennan</surname>
+              <given-names>M.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Adrenocortical carcinoma: Clinical, morphologic, and molecular characterization</article-title>
+          <source>J. Clin. Oncol.</source>
+          <year>2002</year>
+          <volume>20</volume>
+          <fpage>941</fpage>
+          <lpage>950</lpage>
+          <pub-id pub-id-type="doi">10.1200/JCO.2002.20.4.941</pub-id>
+          <pub-id pub-id-type="pmid">11844815</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-cells-06-00042">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Glover</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Ip</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Soon</surname>
+              <given-names>P.S.</given-names>
+            </name>
+            <name>
+              <surname>Robinson</surname>
+              <given-names>B.G.</given-names>
+            </name>
+            <name>
+              <surname>Sidhu</surname>
+              <given-names>S.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Current management options for recurrent adrenocortical carcinoma</article-title>
+          <source>Onco Targets Ther.</source>
+          <year>2013</year>
+          <volume>6</volume>
+          <fpage>635</fpage>
+          <lpage>643</lpage>
+          <pub-id pub-id-type="pmid">23776337</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-cells-06-00042">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Libe</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Fratticci</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bertherat</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Adrenocortical cancer: Pathophysiology and clinical management</article-title>
+          <source>Endocr.-Relat. Cancer</source>
+          <year>2007</year>
+          <volume>14</volume>
+          <fpage>13</fpage>
+          <lpage>28</lpage>
+          <pub-id pub-id-type="doi">10.1677/erc.1.01130</pub-id>
+          <pub-id pub-id-type="pmid">17395972</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-cells-06-00042">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soon</surname>
+              <given-names>P.S.</given-names>
+            </name>
+            <name>
+              <surname>Libe</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Benn</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Gill</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Shaw</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sywak</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Groussin</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Bertagna</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Gicquel</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Bertherat</surname>
+              <given-names>J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Loss of heterozygosity of 17p13, with possible involvement of ACADVL and ALOX15B, in the pathogenesis of adrenocortical tumors</article-title>
+          <source>Ann. Surg.</source>
+          <year>2008</year>
+          <volume>247</volume>
+          <fpage>157</fpage>
+          <lpage>164</lpage>
+          <pub-id pub-id-type="doi">10.1097/SLA.0b013e318153ff55</pub-id>
+          <pub-id pub-id-type="pmid">18156936</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-cells-06-00042">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Giordano</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Kuick</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Else</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Gauger</surname>
+              <given-names>P.G.</given-names>
+            </name>
+            <name>
+              <surname>Vinco</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bauersfeld</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sanders</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>D.G.</given-names>
+            </name>
+            <name>
+              <surname>Doherty</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Hammer</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular classification and prognostication of adrenocortical tumors by transcriptome profiling</article-title>
+          <source>Clin. Cancer Res.</source>
+          <year>2009</year>
+          <volume>15</volume>
+          <fpage>668</fpage>
+          <lpage>676</lpage>
+          <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-08-1067</pub-id>
+          <pub-id pub-id-type="pmid">19147773</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-cells-06-00042">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lafemina</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Brennan</surname>
+              <given-names>M.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Adrenocortical carcinoma: Past, present, and future</article-title>
+          <source>J. Surg. Oncol.</source>
+          <year>2012</year>
+          <volume>106</volume>
+          <fpage>586</fpage>
+          <lpage>594</lpage>
+          <pub-id pub-id-type="doi">10.1002/jso.23112</pub-id>
+          <pub-id pub-id-type="pmid">22473597</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-cells-06-00042">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Giordano</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>D.G.</given-names>
+            </name>
+            <name>
+              <surname>Kuick</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Lizyness</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Misek</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Sanders</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Aljundi</surname>
+              <given-names>R.T.</given-names>
+            </name>
+            <name>
+              <surname>Gauger</surname>
+              <given-names>P.G.</given-names>
+            </name>
+            <name>
+              <surname>Thompson</surname>
+              <given-names>N.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Distinct transcriptional profiles of adrenocortical tumors uncovered by DNA microarray analysis</article-title>
+          <source>Am. J. Pathol.</source>
+          <year>2003</year>
+          <volume>162</volume>
+          <fpage>521</fpage>
+          <lpage>531</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0002-9440(10)63846-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-cells-06-00042">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ribeiro</surname>
+              <given-names>T.C.</given-names>
+            </name>
+            <name>
+              <surname>Latronico</surname>
+              <given-names>A.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Insulin-like growth factor system on adrenocortical tumorigenesis</article-title>
+          <source>Mol. Cell. Endocrinol.</source>
+          <year>2012</year>
+          <volume>351</volume>
+          <fpage>96</fpage>
+          <lpage>100</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.mce.2011.09.042</pub-id>
+          <pub-id pub-id-type="pmid">22019903</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-cells-06-00042">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Samani</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Yakar</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>LeRoith</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Brodt</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of the IGF system in cancer growth and metastasis: Overview and recent insights</article-title>
+          <source>Endocr. Rev.</source>
+          <year>2007</year>
+          <volume>28</volume>
+          <fpage>20</fpage>
+          <lpage>47</lpage>
+          <pub-id pub-id-type="doi">10.1210/er.2006-0001</pub-id>
+          <pub-id pub-id-type="pmid">16931767</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-cells-06-00042">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pollak</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Insulin and insulin-like growth factor signalling in neoplasia</article-title>
+          <source>Nat. Rev. Cancer</source>
+          <year>2008</year>
+          <volume>8</volume>
+          <fpage>915</fpage>
+          <lpage>928</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrc2536</pub-id>
+          <pub-id pub-id-type="pmid">19029956</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-cells-06-00042">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barzon</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Masi</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Pacenti</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Trevisan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fallo</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Remo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Martignoni</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Montanaro</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Pezzi</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Pal&#xF9;</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression of aromatase and estrogen receptors in human adrenocortical tumors</article-title>
+          <source>Virchows Arch.</source>
+          <year>2008</year>
+          <volume>452</volume>
+          <fpage>181</fpage>
+          <lpage>191</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00428-007-0542-0</pub-id>
+          <pub-id pub-id-type="pmid">18157729</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-cells-06-00042">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Montanaro</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Maggiolini</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Recchia</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Sirianni</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Aquila</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Barzon</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Fallo</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Ando</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Pezzi</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Antiestrogens upregulate estrogen receptor beta expression and inhibit adrenocortical H295R cell proliferation</article-title>
+          <source>J. Mol. Endocrinol.</source>
+          <year>2005</year>
+          <volume>35</volume>
+          <fpage>245</fpage>
+          <lpage>256</lpage>
+          <pub-id pub-id-type="doi">10.1677/jme.1.01806</pub-id>
+          <pub-id pub-id-type="pmid">16216906</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-cells-06-00042">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chimento</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sirianni</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Casaburi</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Zolea</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Rizza</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Avena</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Malivindi</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>De Luca</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Campana</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Martire</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>GPER agonist G-1 decreases adrenocortical carcinoma (ACC) cell growth in vitro and in vivo</article-title>
+          <source>Oncotarget</source>
+          <year>2015</year>
+          <volume>6</volume>
+          <fpage>19190</fpage>
+          <lpage>19203</lpage>
+          <pub-id pub-id-type="doi">10.18632/oncotarget.4241</pub-id>
+          <pub-id pub-id-type="pmid">26131713</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-cells-06-00042">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Casaburi</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Avena</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>De Luca</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Chimento</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sirianni</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Malivindi</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Rago</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Fiorillo</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Domanico</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Campana</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Estrogen related receptor alpha (ERRalpha) a promising target for the therapy of adrenocortical carcinoma (ACC)</article-title>
+          <source>Oncotarget</source>
+          <year>2015</year>
+          <volume>6</volume>
+          <fpage>25135</fpage>
+          <lpage>25148</lpage>
+          <pub-id pub-id-type="doi">10.18632/oncotarget.4722</pub-id>
+          <pub-id pub-id-type="pmid">26312764</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-cells-06-00042">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sirianni</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Zolea</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Chimento</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ruggiero</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Cerquetti</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Fallo</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Pilon</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Arnaldi</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Carpinelli</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Stigliano</surname>
+              <given-names>A.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Targeting estrogen receptor-alpha reduces adrenocortical cancer (ACC) cell growth in vitro and in vivo: Potential therapeutic role of selective estrogen receptor modulators (SERMs) for ACC treatment</article-title>
+          <source>J. Clin. Endocrinol. Metab.</source>
+          <year>2012</year>
+          <volume>97</volume>
+          <fpage>E2238</fpage>
+          <lpage>E2250</lpage>
+          <pub-id pub-id-type="doi">10.1210/jc.2012-2374</pub-id>
+          <pub-id pub-id-type="pmid">23074235</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-cells-06-00042">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mishra</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Balasenthil</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Vadlamudi</surname>
+              <given-names>R.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cloning and functional characterization of PELP1/MNAR promoter</article-title>
+          <source>Gene</source>
+          <year>2004</year>
+          <volume>330</volume>
+          <fpage>115</fpage>
+          <lpage>122</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.gene.2004.01.011</pub-id>
+          <pub-id pub-id-type="pmid">15087130</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-cells-06-00042">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rajhans</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Vadlamudi</surname>
+              <given-names>R.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comprehensive analysis of recent biochemical and biologic findings regarding a newly discovered protein-PELP1/MNAR</article-title>
+          <source>Clin. Exp. Metast.</source>
+          <year>2006</year>
+          <volume>23</volume>
+          <fpage>1</fpage>
+          <lpage>7</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10585-006-9019-9</pub-id>
+          <pub-id pub-id-type="pmid">16826428</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-cells-06-00042">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Manavathi</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Steering estrogen signals from the plasma membrane to the nucleus: Two sides of the coin</article-title>
+          <source>J. Cell Physiol.</source>
+          <year>2006</year>
+          <volume>207</volume>
+          <fpage>594</fpage>
+          <lpage>604</lpage>
+          <pub-id pub-id-type="doi">10.1002/jcp.20551</pub-id>
+          <pub-id pub-id-type="pmid">16270355</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-cells-06-00042">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vadlamudi</surname>
+              <given-names>R.K.</given-names>
+            </name>
+            <name>
+              <surname>Manavathi</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Balasenthil</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nair</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Sahin</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional implications of altered subcellular localization of PELP1 in breast cancer cells</article-title>
+          <source>Cancer Res.</source>
+          <year>2005</year>
+          <volume>65</volume>
+          <fpage>7724</fpage>
+          <lpage>7732</lpage>
+          <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-05-0614</pub-id>
+          <pub-id pub-id-type="pmid">16140940</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-cells-06-00042">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vadlamudi</surname>
+              <given-names>R.K.</given-names>
+            </name>
+            <name>
+              <surname>Balasenthil</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Broaddus</surname>
+              <given-names>R.R.</given-names>
+            </name>
+            <name>
+              <surname>Gustafsson</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Deregulation of estrogen receptor coactivator proline-, glutamic acid-, and leucine-rich protein-1/modulator of nongenomic activity of estrogen receptor in human endometrial tumors</article-title>
+          <source>J. Clin. Endocrinol. Metab.</source>
+          <year>2004</year>
+          <volume>89</volume>
+          <fpage>6130</fpage>
+          <lpage>6138</lpage>
+          <pub-id pub-id-type="doi">10.1210/jc.2004-0909</pub-id>
+          <pub-id pub-id-type="pmid">15579769</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-cells-06-00042">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Migliaccio</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Di Domenico</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Castoria</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Nanayakkara</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lombardi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>de Falco</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bilancio</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Varricchio</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ciociola</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Auricchio</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Steroid receptor regulation of epidermal growth factor signaling through Src in breast and prostate cancer cells: Steroid antagonist action</article-title>
+          <source>Cancer Res.</source>
+          <year>2005</year>
+          <volume>65</volume>
+          <fpage>10585</fpage>
+          <lpage>10593</lpage>
+          <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-05-0912</pub-id>
+          <pub-id pub-id-type="pmid">16288052</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-cells-06-00042">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chakravarty</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Tekmal</surname>
+              <given-names>R.R.</given-names>
+            </name>
+            <name>
+              <surname>Vadlamudi</surname>
+              <given-names>R.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>PELP1: A novel therapeutic target for hormonal cancers</article-title>
+          <source>IUBMB Life</source>
+          <year>2010</year>
+          <volume>62</volume>
+          <fpage>162</fpage>
+          <lpage>169</lpage>
+          <pub-id pub-id-type="doi">10.1002/iub.287</pub-id>
+          <pub-id pub-id-type="pmid">20014005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-cells-06-00042">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nagpal</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>Nair</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Chakravarty</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Rajhans</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Pothana</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Brann</surname>
+              <given-names>D.W.</given-names>
+            </name>
+            <name>
+              <surname>Tekmal</surname>
+              <given-names>R.R.</given-names>
+            </name>
+            <name>
+              <surname>Vadlamudi</surname>
+              <given-names>R.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Growth factor regulation of estrogen receptor coregulator PELP1 functions via Protein Kinase A pathway</article-title>
+          <source>Mol. Cancer Res.</source>
+          <year>2008</year>
+          <volume>6</volume>
+          <fpage>851</fpage>
+          <lpage>861</lpage>
+          <pub-id pub-id-type="doi">10.1158/1541-7786.MCR-07-2030</pub-id>
+          <pub-id pub-id-type="pmid">18505929</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-cells-06-00042">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rainey</surname>
+              <given-names>W.E.</given-names>
+            </name>
+            <name>
+              <surname>Bird</surname>
+              <given-names>I.M.</given-names>
+            </name>
+            <name>
+              <surname>Mason</surname>
+              <given-names>J.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>The NCI-H295 cell line: A pluripotent model for human adrenocortical studies</article-title>
+          <source>Mol. Cell. Endocrinol.</source>
+          <year>1994</year>
+          <volume>100</volume>
+          <fpage>45</fpage>
+          <lpage>50</lpage>
+          <pub-id pub-id-type="doi">10.1016/0303-7207(94)90277-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-cells-06-00042">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weiss</surname>
+              <given-names>L.M.</given-names>
+            </name>
+            <name>
+              <surname>Medeiros</surname>
+              <given-names>L.J.</given-names>
+            </name>
+            <name>
+              <surname>Vickery</surname>
+              <given-names>A.L.</given-names>
+              <suffix>Jr.</suffix>
+            </name>
+          </person-group>
+          <article-title>Pathologic features of prognostic significance in adrenocortical carcinoma</article-title>
+          <source>Am. J. Surg. Pathol.</source>
+          <year>1989</year>
+          <volume>13</volume>
+          <fpage>202</fpage>
+          <lpage>206</lpage>
+          <pub-id pub-id-type="doi">10.1097/00000478-198903000-00004</pub-id>
+          <pub-id pub-id-type="pmid">2919718</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-cells-06-00042">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aubert</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wacrenier</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Leroy</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Devos</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Carnaille</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Proye</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wemeau</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Lecomte-Houcke</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Leteurtre</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Weiss system revisited: A clinicopathologic and immunohistochemical study of 49 adrenocortical tumors</article-title>
+          <source>Am. J. Surg. Pathol.</source>
+          <year>2002</year>
+          <volume>26</volume>
+          <fpage>1612</fpage>
+          <lpage>1619</lpage>
+          <pub-id pub-id-type="doi">10.1097/00000478-200212000-00009</pub-id>
+          <pub-id pub-id-type="pmid">12459628</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-cells-06-00042">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fassnacht</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Terzolo</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Allolio</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Baudin</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Haak</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Berruti</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Welin</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Schade-Brittinger</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Lacroix</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Jarzab</surname>
+              <given-names>B.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Combination chemotherapy in advanced adrenocortical carcinoma</article-title>
+          <source>N. Engl. J. Med.</source>
+          <year>2012</year>
+          <volume>366</volume>
+          <fpage>2189</fpage>
+          <lpage>2197</lpage>
+          <pub-id pub-id-type="doi">10.1056/NEJMoa1200966</pub-id>
+          <pub-id pub-id-type="pmid">22551107</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-cells-06-00042">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Casaburi</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Avena</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Lanzino</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sisci</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Giordano</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Maris</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Catalano</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Morelli</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>And&#xF2;</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Chenodeoxycholic acid through a TGR5-dependent CREB signaling activation enhances cyclin D1 expression and promotes human endometrial cancer cell proliferation</article-title>
+          <source>Cell Cycle</source>
+          <year>2012</year>
+          <volume>11</volume>
+          <fpage>2699</fpage>
+          <lpage>2710</lpage>
+          <pub-id pub-id-type="doi">10.4161/cc.21029</pub-id>
+          <pub-id pub-id-type="pmid">22751440</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-cells-06-00042">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Greger</surname>
+              <given-names>J.G.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Henderson</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Ross</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Cheskis</surname>
+              <given-names>B.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of MNAR expression</article-title>
+          <source>Steroids</source>
+          <year>2006</year>
+          <volume>71</volume>
+          <fpage>317</fpage>
+          <lpage>322</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.steroids.2005.09.016</pub-id>
+          <pub-id pub-id-type="pmid">16297421</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-cells-06-00042">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vadlamudi</surname>
+              <given-names>R.K.</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional and biological properties of the nuclear receptor coregulator PELP1/MNAR</article-title>
+          <source>Nucl. Recept. Signal.</source>
+          <year>2007</year>
+          <volume>5</volume>
+          <fpage>e004</fpage>
+          <pub-id pub-id-type="doi">10.1621/nrs.05004</pub-id>
+          <pub-id pub-id-type="pmid">17525794</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-cells-06-00042">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheskis</surname>
+              <given-names>B.J.</given-names>
+            </name>
+            <name>
+              <surname>Greger</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cooch</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>McNally</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Mclarney</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lam</surname>
+              <given-names>H.S.</given-names>
+            </name>
+            <name>
+              <surname>Rutledge</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mekonnen</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Hauze</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Nagpal</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>MNAR plays an important role in ERa activation of Src/MAPK and PI3K/Akt signaling pathways</article-title>
+          <source>Steroids</source>
+          <year>2008</year>
+          <volume>73</volume>
+          <fpage>901</fpage>
+          <lpage>905</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.steroids.2007.12.028</pub-id>
+          <pub-id pub-id-type="pmid">18261753</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-cells-06-00042">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boonyaratanakornkit</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Scaffolding proteins mediating membrane-initiated extra-nuclear actions of estrogen receptor</article-title>
+          <source>Steroids</source>
+          <year>2011</year>
+          <volume>76</volume>
+          <fpage>877</fpage>
+          <lpage>884</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.steroids.2011.02.017</pub-id>
+          <pub-id pub-id-type="pmid">21354435</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-cells-06-00042">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barletta</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>C.W.</given-names>
+            </name>
+            <name>
+              <surname>McNally</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Komm</surname>
+              <given-names>B.S.</given-names>
+            </name>
+            <name>
+              <surname>Katzenellenbogen</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Cheskis</surname>
+              <given-names>B.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of the interactions of estrogen receptor and MNAR in the activation of cSrc</article-title>
+          <source>Mol. Endocrinol.</source>
+          <year>2004</year>
+          <volume>18</volume>
+          <fpage>1096</fpage>
+          <lpage>1108</lpage>
+          <pub-id pub-id-type="doi">10.1210/me.2003-0335</pub-id>
+          <pub-id pub-id-type="pmid">14963108</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-cells-06-00042">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chakravarty</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Nair</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Santhamma</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Nair</surname>
+              <given-names>B.C.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Bandyopadhyay</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Agyin</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>Brann</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>L.Z.</given-names>
+            </name>
+            <name>
+              <surname>Yeh</surname>
+              <given-names>I.T.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Extranuclear functions of ER impact invasive migration and metastasis by breast cancer cells</article-title>
+          <source>Cancer Res.</source>
+          <year>2010</year>
+          <volume>70</volume>
+          <fpage>4092</fpage>
+          <lpage>4101</lpage>
+          <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-09-3834</pub-id>
+          <pub-id pub-id-type="pmid">20460518</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-cells-06-00042">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vallabhaneni</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nair</surname>
+              <given-names>B.C.</given-names>
+            </name>
+            <name>
+              <surname>Cortez</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Challa</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Chakravarty</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Tekmal</surname>
+              <given-names>R.R.</given-names>
+            </name>
+            <name>
+              <surname>Vadlamudi</surname>
+              <given-names>R.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Significance of ER-Src axis in hormonal therapy resistance</article-title>
+          <source>Breast Cancer Res. Treat.</source>
+          <year>2011</year>
+          <volume>130</volume>
+          <fpage>377</fpage>
+          <lpage>385</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10549-010-1312-2</pub-id>
+          <pub-id pub-id-type="pmid">21184269</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-cells-06-00042">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Girard</surname>
+              <given-names>B.J.</given-names>
+            </name>
+            <name>
+              <surname>Daniel</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Lange</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Ostrander</surname>
+              <given-names>J.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>PELP1: A review of PELP1 interactions, signaling, and biology</article-title>
+          <source>Mol. Cell Endocrinol.</source>
+          <year>2014</year>
+          <volume>382</volume>
+          <fpage>642</fpage>
+          <lpage>651</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.mce.2013.07.031</pub-id>
+          <pub-id pub-id-type="pmid">23933151</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-cells-06-00042">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cortez</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Mann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tekmal</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Miyata</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Rodriguez-Aguayo</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Lopez-Berestein</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Sood</surname>
+              <given-names>A.K.</given-names>
+            </name>
+            <name>
+              <surname>Vadlamudi</surname>
+              <given-names>R.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Targeting the PELP1-KDM1 axis as a potential therapeutic strategy for breast cancer</article-title>
+          <source>Breast Cancer Res.</source>
+          <year>2012</year>
+          <volume>14</volume>
+          <fpage>R108</fpage>
+          <pub-id pub-id-type="doi">10.1186/bcr3229</pub-id>
+          <pub-id pub-id-type="pmid">22812534</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn>
+        <p><bold>Sample Availability:</bold> Samples of all the compounds used in the present work are available from the authors.</p>
+      </fn>
+    </fn-group>
+    <sec sec-type="display-objects">
+      <title>Figures and Table</title>
+      <fig id="cells-06-00042-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>PELP1 expression in human tissues of ACC and H295R cells. (<bold>A</bold>) Western blot analysis of PELP1 was performed on 50 &#x3BC;g of total protein extracted from normal human adrenal tissues (normal) and ACCs (C1&#x2013;C6); (<bold>B</bold>) Western analysis of PELP1 was performed on 50 &#x3BC;g of total protein extracted from LNCaP and H295R cells. GAPDH was used as a loading control. Results are representative of three different experiments.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-06-00042-g001.tif"/>
+      </fig>
+      <fig id="cells-06-00042-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>PELP1 is recruited to form a multiprotein complex in H295R cells after treatment with E2 and IGF-II. H295R cells were treated for 10 min with E2 (100 nM) or IGF-II (100 ng/mL). Total protein extract (500 &#x3BC;g) was immunoprecipitated with 1 &#x3BC;g of anti-PELP1 antibody. The samples were immunoblotted for IGF1R, ER&#x3B1;, and c-Src. Protein expression for each sample was normalized to PELP1 content. Results are representative of three independent experiments.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-06-00042-g002.tif"/>
+      </fig>
+      <fig id="cells-06-00042-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>PELP1 knockdown decreases ERK1/2 phosphorylation. (<bold>A</bold>) H295R cells were transfected with PELP1 siRNA (100 nM and 200 nM) or a non-targeting siRNA (control siRNA) for 24 h. Western blot analyses of PELP1 were performed on 50 &#x3BC;g of total protein; (<bold>B</bold>) H295R cells were transfected with control siRNA or PELP1 siRNA. After 24 h cells were treated for 10 min with E2 (100 nM) or IGF-II (100 ng/mL). Western blot analyses of PELP1 were performed on 10 &#x3BC;g of total protein. Results are representative of three independent experiments. GAPDH and ERK1/2 were used as a loading control; upper panel graph represents mean of pERK1/2 optical density (O.D.) from three independent experiments with similar results normalized to ERK1/2 content (* <italic>p</italic> &lt; 0.001 compared to untreated control sample (basal) assumed as 100).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-06-00042-g003.tif"/>
+      </fig>
+      <fig id="cells-06-00042-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>PELP1 knockdown decreases IGF1R expression in H295R cells. (<bold>A</bold>) H295R cells were transfected with PELP1 siRNA or a non-targeting siRNA (control siRNA) for 24 h. After transfection cells were treated for 24 h with E2 (100 nM). Western blot analyses of PELP1 and IGF1R were performed on 50 &#x3BC;g of total protein. Results are representative of three independent experiments. GAPDH was used as a loading control; (<bold>B</bold>) The graph represents mean of PELP1 and IGF1R optical densities (O.D.) from three independent experiments with similar results normalized to GAPDH content (* <italic>p</italic> &lt; 0.001 compared to untreated control sample (Basal) assumed as 100).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-06-00042-g004.tif"/>
+      </fig>
+      <fig id="cells-06-00042-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>PELP1 knockdown decreases Cyclin D1 expression in H295R cells. Cells were transfected with PELP1 siRNA or a non-targeting siRNA (control siRNA) for 24 h. After transfection cells were treated for 24 h with E2 (100 nM) and IGF-II (100 ng/mL). Western blot analyses of Cyclin D1 were performed on 50 &#x3BC;g of total protein. Results are representative of at least three independent experiments. GAPDH was used as a loading control; the right panel graph represents mean of Cyclin D1 optical density (O.D.) from three independent experiments with similar results normalized to GAPDH content (* <italic>p</italic> &lt; 0.001 compared to untreated control sample (Basal) assumed as 100).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-06-00042-g005.tif"/>
+      </fig>
+      <fig id="cells-06-00042-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>PELP1 knockdown reduces cell proliferation in H295R. (<bold>A</bold>,<bold>B</bold>), H295R cells were transfected with PELP1 siRNA or a non-targeting siRNA (control siRNA). Twenty-four hours after silencing, cells were left untreated (Basal) or treated for an additional 48 h with IGF-II (100 ng/mL) or E2 (100 nM). (* <italic>p</italic> &lt; 0.0001 compared with Basal). At the end of the experiment, cells were incubated with MTT (<bold>A</bold>) or [3H] thymidine (<bold>B</bold>) as described in Materials and Methods.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-06-00042-g006.tif"/>
+      </fig>
+      <table-wrap id="cells-06-00042-t001" position="float">
+        <object-id pub-id-type="pii">cells-06-00042-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Clinical data of the six ACC patients analyzed in this study.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sample ID</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Age (Years)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Gender</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Stage at Surgery</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Syndrome</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Weiss Score</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Size (cm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Outcome</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">C1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">41</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">M</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">IV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Cushing</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Died, 1 year</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">C2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">F</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">IV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Cushing</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">14</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Died, 18 months</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">C3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">43</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">F</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">III</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">None</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Died, 8 years</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">C4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">46</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">M</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">III</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">None</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Remission, 7 years</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">C5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">47</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">M</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">IV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Cushing</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">14</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Died, 1 year</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">C6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">57</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">M</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">II</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Subclinical Cushing</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">14</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Remission, 4 years</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

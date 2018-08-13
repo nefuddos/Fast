@@ -1,0 +1,2930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells4030234</article-id>
+      <article-id pub-id-type="publisher-id">cells-04-00234</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Uremic Toxins Induce ET-1 Release by Human Proximal Tubule Cells, which Regulates Organic Cation Uptake Time-Dependently</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schophuizen</surname>
+            <given-names>Carolien M. S.</given-names>
+          </name>
+          <xref rid="af1-cells-04-00234" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hoenderop</surname>
+            <given-names>Joost G. J.</given-names>
+          </name>
+          <xref rid="af2-cells-04-00234" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Masereeuw</surname>
+            <given-names>Rosalinde</given-names>
+          </name>
+          <xref rid="af3-cells-04-00234" ref-type="aff">3</xref>
+          <xref rid="af4-cells-04-00234" ref-type="aff">4</xref>
+          <xref rid="fn1-cells-04-00234" ref-type="fn">&#x2020;</xref>
+          <xref rid="c1-cells-04-00234" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>van den Heuvel</surname>
+            <given-names>Lambert P.</given-names>
+          </name>
+          <xref rid="af1-cells-04-00234" ref-type="aff">1</xref>
+          <xref rid="af5-cells-04-00234" ref-type="aff">5</xref>
+          <xref rid="fn1-cells-04-00234" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Englert</surname>
+            <given-names>Christoph</given-names>
+          </name>
+		  <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-04-00234"><label>1</label>Department of Pediatric Nephrology, Radboudumc 6525 GA Nijmegen, The Netherlands; E-Mails: <email>carolien.schophuizen@gmail.com</email> (C.M.S.S.); <email>bert.vandenheuvel@radboudumc.nl</email> (L.P.H.)</aff>
+      <aff id="af2-cells-04-00234"><label>2</label>Department of Physiology, Radboud Institute for Molecular Life Sciences, Radboudumc 6525 GA Nijmegen, The Netherlands; E-Mail: <email>joost.hoenderop@radboudumc.nl</email></aff>
+      <aff id="af3-cells-04-00234"><label>3</label>Department of Pharmacology and Toxicology, Radboud Institute for Molecular Life Sciences, Radboudumc 6525 GA Nijmegen, The Netherlands</aff>
+      <aff id="af4-cells-04-00234"><label>4</label>Division of Pharmacology, Utrecht Institute for Pharmaceutical Sciences, Faculty of Science, Utrecht University, Universiteitsweg 99 (room 2.72), 3584 CG Utrecht, The Netherlands</aff>
+      <aff id="af5-cells-04-00234"><label>5</label>Department of Pediatrics, Catholic University Leuven, 3000 Leuven, Belgium</aff>
+      <author-notes>
+        <fn id="fn1-cells-04-00234">
+          <label>&#x2020;</label>
+          <p>These authors contributed equally to this work.</p>
+        </fn>
+        <corresp id="c1-cells-04-00234"><label>*</label>Author to whom correspondence should be addressed; E-Mail: <email>r.masereeuw@uu.nl</email>; Tel.: +31-30-253-3529; Fax: +31-30-253-7900.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>26</day>
+        <month>06</month>
+        <year>2015</year>
+      </pub-date>
+      <pub-date pub-type="collection">        <month>09</month>
+        <year>2015</year>
+      </pub-date>
+      <volume>4</volume>
+      <issue>3</issue>
+      <fpage>234</fpage>
+      <lpage>252</lpage>
+      <history>
+        <date date-type="received">
+          <day>02</day>
+          <month>05</month>
+          <year>2015</year>
+        </date>
+        <date date-type="accepted">
+          <day>19</day>
+          <month>06</month>
+          <year>2015</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2015 by the authors.</copyright-statement>
+        <copyright-year>2015</copyright-year>
+        <license license-type="open-access">
+          <p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>In renal failure, the systemic accumulation of uremic waste products is strongly associated with the development of a chronic inflammatory state. Here, the effect of cationic uremic toxins on the release of inflammatory cytokines and endothelin-1 (ET-1) was investigated in conditionally immortalized proximal tubule epithelial cells (ciPTEC). Additionally, we examined the effects of ET-1 on the cellular uptake mediated by organic cation transporters (OCTs).</p>
+	   <p>Exposure of ciPTEC to cationic uremic toxins initiated production of the inflammatory cytokines IL-6 (117 &#xB1; 3%, <italic>p</italic> &lt; 0.001), IL-8 (122 &#xB1; 3%, <italic>p</italic> &lt; 0.001), and ET-1 (134 &#xB1; 5%, <italic>p</italic> &lt; 0.001). This was accompanied by a down-regulation of OCT mediated 4-(4-(dimethylamino)styryl)-<italic>N</italic>-methylpyridinium-iodide (ASP<sup>+</sup>) uptake in ciPTEC at 30 min (23 &#xB1; 4%, <italic>p</italic> &lt; 0.001), which restored within 60 min of incubation. Exposure to ET-1 for 24 h increased the ASP<sup>+</sup> uptake significantly (20 &#xB1; 5%, <italic>p</italic> &lt; 0.001). These effects could be blocked by BQ-788, indicating activation of an ET-B-receptor-mediated signaling pathway. Downstream the receptor, iNOS inhibition by (N(G)&#x2010;monomethyl&#x2010;l&#x2010;arginine) <sc>l</sc>-NMMA acetate or aminoguanidine, as well as protein kinase C activation, ameliorated the short-term effects.</p>
+      <p>These results indicate that uremia results in the release of cytokines and ET-1 from human proximal tubule cells, <italic>in vitro</italic>. Furthermore, ET-1 exposure was found to regulate proximal tubular OCT transport activity in a differential, time-dependent, fashion.</p>
+	  </abstract>
+      <kwd-group>
+        <kwd>uremic toxins</kwd>
+        <kwd>endothelin signaling</kwd>
+        <kwd>cytokines</kwd>
+        <kwd>organic cation transport</kwd>
+        <kwd>iNOS</kwd>
+        <kwd>protein kinase C</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Renal transport processes are essential for the maintenance of body homeostasis. In the kidney, clearance of exogenous compounds and endogenous waste products from the circulation is facilitated by both glomerular filtration and active tubular secretion. The proximal tubule basolateral membrane transporters are responsible for the uptake of substrates from the circulation, while the apical transporters present in the proximal tubule facilitate their subsequent urinary release. In patients suffering from chronic kidney disease (CKD) or end-stage renal disease (ESRD), insufficient renal clearance and the subsequent accumulation of waste products lead to the development of uremia. Many solutes that accumulate in uremia have been identified [<xref ref-type="bibr" rid="B1-cells-04-00234">1</xref>]. However, we have only just begun to understand the effects that these compounds can exert on biological processes and their influence in the development of secondary morbidities. Previously, we demonstrated competitive inhibition of a selection of cationic uremic toxins (UTs) on organic cation uptake in a human conditionally immortalized proximal tubule epithelial cell model (ciPTEC) that endogenously expresses various renal transport proteins [<xref ref-type="bibr" rid="B2-cells-04-00234">2</xref>,<xref ref-type="bibr" rid="B3-cells-04-00234">3</xref>]. The clearance of cationic UTs (polyamines, guanidines and acrolein) largely depends on tubular secretion due to their high protein binding and/or compartmentalization [<xref ref-type="bibr" rid="B4-cells-04-00234">4</xref>,<xref ref-type="bibr" rid="B5-cells-04-00234">5</xref>]. In renal failure, the accumulation of these solutes is associated with inflammation, cardiovascular morbidity and perturbed erythropoiesis [<xref ref-type="bibr" rid="B6-cells-04-00234">6</xref>,<xref ref-type="bibr" rid="B7-cells-04-00234">7</xref>,<xref ref-type="bibr" rid="B8-cells-04-00234">8</xref>]. Moreover, conventional (hemo) dialysis methods are insufficient for their removal.</p>
+      <p>The development of a chronic inflammatory state is common in renal patients, and uremia has been identified as an important causative factor [<xref ref-type="bibr" rid="B9-cells-04-00234">9</xref>]. Increased levels of the vasoactive peptide endothelin-1 (ET-1), and pro-inflammatory cytokines such as IL-6, IL-8, and TNF&#x3B1; have been observed both before and after the start of dialysis therapy [<xref ref-type="bibr" rid="B10-cells-04-00234">10</xref>,<xref ref-type="bibr" rid="B11-cells-04-00234">11</xref>,<xref ref-type="bibr" rid="B12-cells-04-00234">12</xref>,<xref ref-type="bibr" rid="B13-cells-04-00234">13</xref>,<xref ref-type="bibr" rid="B14-cells-04-00234">14</xref>]. IL-6 promotes various inflammatory events, including the activation of lymphocytes, and is identified as a strong pro-fibrotic factor. Both IL-6 and IL-8 levels are correlated with increased mortality and poor disease outcome in renal failure [<xref ref-type="bibr" rid="B15-cells-04-00234">15</xref>]. TNF&#x3B1; is also known as an important factor in the development of renal fibrosis, and induces the production of additional inflammatory mediators such as ET-1 [<xref ref-type="bibr" rid="B16-cells-04-00234">16</xref>,<xref ref-type="bibr" rid="B17-cells-04-00234">17</xref>,<xref ref-type="bibr" rid="B18-cells-04-00234">18</xref>].</p>
+      <p>In healthy subjects, ET-1 functions as a potent peptide regulating the vascular tone, blood flow, and water and salt homeostasis. In the nephron, ET-1 mediates these processes through its tight regulatory effect on intracellular calcium, sodium and chloride channels, the production of phospho kinases and nitric oxide (NO) [<xref ref-type="bibr" rid="B19-cells-04-00234">19</xref>]. However, in patients suffering from renal disease, increased systemic ET-1 levels are also linked to a decline in renal function, the development of interstitial fibrosis, proteinuria, cardiomyopathy and glomerulosclerosis [<xref ref-type="bibr" rid="B20-cells-04-00234">20</xref>,<xref ref-type="bibr" rid="B21-cells-04-00234">21</xref>,<xref ref-type="bibr" rid="B22-cells-04-00234">22</xref>]. Our laboratory has previously demonstrated that exposure to nephrotoxicants can induce an ET-1-mediated signaling cascade in the proximal tubule. Upon stimulation, the proximal tubule produces ET-1 which can lead to activation of regulatory pathways including NOS and protein kinase C (PKC), ultimately resulting in a reduction of efflux transport mediated by two apical membrane transporters P-glycoprotein (P-gp) and multidrug resistance protein 2 (MRP2) [<xref ref-type="bibr" rid="B23-cells-04-00234">23</xref>,<xref ref-type="bibr" rid="B24-cells-04-00234">24</xref>,<xref ref-type="bibr" rid="B25-cells-04-00234">25</xref>]. On the other hand, long-term exposures resulted in an upregulation of the transport proteins, accompanied by nephroprotection [<xref ref-type="bibr" rid="B26-cells-04-00234">26</xref>,<xref ref-type="bibr" rid="B27-cells-04-00234">27</xref>].</p>
+      <p>In the present study, we investigated if a selection of cationic UTs, which were previously shown to interfere with tubular organic cation uptake, can act as nephrotoxicants and induce the local production of inflammatory mediators. Furthermore, we investigated if ET-1 can regulate the uptake of cationic compounds in human renal proximal tubule epithelial cells. To this end, the production of IL-6, IL-8, TNF&#x3B1; and ET-1 were assessed, and the short- and long-term effects of ET-1 on the regulation of organic cation influx transport in the human renal cell model were studied.</p>
+    </sec>
+    <sec>
+      <title>2. Experimental Section </title>
+      <sec>
+        <title>2.1. Chemicals</title>
+        <p>Spermine, spermidine, cadaverine, putrescine dihydrochloride, acrolein, guanidine hydrochloride, methylguanidine hydrochloride, and 4-(4-(dimethylamino)styryl)-N-methylpyridinium iodide (ASP<sup>+</sup>) were purchased from Invitrogen (Eugene, OR, USA). Tetrapentylammoniumchloride (TPA), insulin, transferrine, selenium, tri-iodothyronine, hydrocortisone, epidermal growth factor, Endothelin-1 (ET-1), BQ788, aminoguanidine (AG), and 8-Br-cGMP were purchased from Sigma-Aldrich Co. (Zwijndrecht, Netherlands). Sn-1,2-dioctanoyl glycerol (DOG) was obtained from Enzo Life-sciences (Raamsdonksveer, Netherlands). N(G)&#x2010;monomethyl&#x2010;l&#x2010;arginine (<sc>l</sc>-NMMA) acetate was purchased from Tocris bioscience (Bristol, UK)</p>
+      </sec>
+      <sec>
+        <title>2.2. Cell Culture</title>
+        <p>A previously developed and characterized immortalized human proximal tubule epithelial cell line, ciPTEC, obtained from a healthy volunteer urine samples [<xref ref-type="bibr" rid="B3-cells-04-00234">3</xref>,<xref ref-type="bibr" rid="B28-cells-04-00234">28</xref>] was cultured in Dulbecco&#x2019;s modified eagle medium DMEM-HAM&#x2019;s F12 (Lonza; Basel, Switzerland) containing 10% v/v fetal calf serum (FCS) (Greiner Bio-One; Alphen a/d Rijn, the Netherlands), 5 &#xB5;g&#x2219;mL<sup>&#x2212;1</sup> insulin, 5 &#xB5;g&#x2219;mL<sup>&#x2212;1</sup> transferrine, 5 ng&#x2219;mL<sup>&#x2212;1</sup> selenium, 36 ng&#x2219;mL<sup>&#x2212;1</sup> hydrocortisone, 10 ng&#x2219;mL<sup>&#x2212;1</sup> epidermal growth factor and 40 pg&#x2219;mL<sup>&#x2212;1</sup> tri-iodothyronine. CiPTEC were in culture for up to 40 passages, no antibiotics or phenol red was present during this time. Since the cell model was established after immortalization using hTERT and the temperature sensitive SV40t oncogenes, the cells proliferate at 33 &#xB0;C and differentiate at 37 &#xB0;C culture conditions [<xref ref-type="bibr" rid="B3-cells-04-00234">3</xref>]. Regular culture was performed at 33 &#xB0;C 5% (v/v) CO<sub>2</sub>, media was refreshed every 2/3 days. For experiments, cells were seeded at a density of 1:3 and left to attach for 24 h at 33 &#xB0;C. Subsequently, the cells were transferred to 37 &#xB0;C to mature for 7 days prior to the experiments.</p>
+      </sec>
+      <sec>
+        <title>2.3. Enzyme-Linked Immuno Sorbent Assays</title>
+        <p>To quantify the production of IL-6, IL-8, and TNF&#x3B1; or ET-1 by ciPTEC under various culture conditions Enzyme-Linked Immuno Sorbent Assays (ELISAs) were performed. DuoSet&#xAE; ELISA Development Systems; IL-6 #DY206, IL-8 #DY208, TNF&#x3B1; #DY210, ET-1 #DY1160 (R&amp;D systems, Abingdon, UK) were used to accurately measure these compounds in complete culture medium supernatant. For all assays, 500 &#xB5;L of media of exposed cells was harvested after the designated incubation period. The samples were centrifuged for 5 min at 7500 &#xD7; <italic>g</italic> and the supernatant stored at &#x2212;20 &#xB0;C for a maximum of 2 months. For IL-6 and IL-8 the samples were diluted 500 times in phosphate buffered saline (PBS) or reagent diluent (PBS + 1% v/v FCS), respectively. The samples for TNF&#x3B1; and ET-1 were diluted 5&#xD7; and 10&#xD7; in PBS, respectively. The assays were subsequently performed according to the manufacturers&#x2019; protocol. The optical density of each well was measured immediately using the VictorX multilable plate reader (PerkinElmer, Waltham, MA, USA) set to 460 nm. To correct for optical imperfections in the plate, the readings at 540 nm were subtracted from these measurements.</p>
+        <p>Additionally, we tested the effect of a combination of cationic UTs on cytokines and ET-1 production. To mimic uremic conditions, a mixture of toxins was used comparable to 10 or 1 times the uremic plasma concentrations reported in literature; <italic>viz.</italic> spermidine 0.67 &#xB5;M, spermine 0.09 &#xB5;M, cadaverine 0.21 &#xB5;M, putrescine 0.88 &#xB5;M, acrolein 1.42 &#xB5;M, guanidine 2.18 &#xB5;M, and methylguanidine 7.66 &#xB5;M [<xref ref-type="bibr" rid="B29-cells-04-00234">29</xref>,<xref ref-type="bibr" rid="B30-cells-04-00234">30</xref>,<xref ref-type="bibr" rid="B31-cells-04-00234">31</xref>,<xref ref-type="bibr" rid="B32-cells-04-00234">32</xref>].</p>
+      </sec>
+      <sec>
+        <title>2.4. qPCR</title>
+        <p>Total RNA was isolated using TRIzol (Life Technologies Europe BV, Zoetermeer, The Netherlands) and chloroform extraction according to the manufacturers&#x2019; protocol. 2 &#x3BC;g of total RNA served as a template for single-strand cDNA synthesis in a reaction using oligo (dT) and random primers in a M-MLV reverse transcriptase reaction mixture (Catalog #28025-013, Invitrogen, Bleiswijk, Netherlands) according to the manufacturers&#x2019; protocol (Doc. Rev: 100702). The mRNA expression levels were detected using gene specific primer-probe sets (Hs00174961_m1; Applied Biosystems, Foster City, CA, USA) and TaqMan Universal PCR Master Mix (Applied Biosystems). The CFX96 Real Time PCR system (Bio-Rad Laboratories, Veenendaal, Netherlands) was used to perform the qPCR reactions and data was analyzed using the CFX Manager<sup>TM</sup> software (Bio-Rad Laboratories). The reference gene GAPDH was used to normalize the mRNA expression levels. Data are expressed as fold increase compared to proliferating ciPTEC.</p>
+      </sec>
+      <sec>
+        <title>2.5. OCT Mediated ASP<sup>+</sup> Uptake</title>
+        <p>CiPTEC were cultured until confluence, in glass bottom Petri dish as described above. Cells were exposed to 100 nM ET-1 for 24 h, 30 min or taken as control. After washing the monolayer in Hepes Tris buffer (HT-Buffer: 132 mM NaCl, 4.2 mM KCl, 1 mM CaCl<sub>2</sub>, 1 mM MgCl<sub>2</sub>, 5.5 mM d-Glucose, HEPES 10 mM, pH was set to 7.4 using 1.5 M Tris in MQ, 37 &#xB0;C) HT-buffer containing 100 &#xB5;M ASP<sup>+</sup> was added and the cells were incubated for 15 min at 37 &#xB0;C. Intracellular uptake of the fluorescent compound (dimethylamino)styryl)-N-methylpyridinium-iodide (ASP<sup>+</sup>) was measured using a Zeiss Apotome Fluorescence microscope. Images were recorded over a time period of 15 min, starting 2 min after addition of 10 &#xB5;M ASP<sup>+</sup> to enable a good focus on the cellular monolayer (Zeiss Axiovision imaging software 4.7.2). Fluorescence intensity over time was quantified for at least 6 individual cells for each condition, by plotting the Z-axis profile of the virtual stack using ImageJ software (ImageJ 1.46r, NIH, Bethesda, MA, USA).</p>
+        <p>To enable high throughput evaluation of organic cation uptake following stimulation by ET-1, in combination with pharmacological modulation of the signaling pathway, a fluorescence reader based method was used. Matured cells, cultured in 12 wells plates (seeded at approx. 150,000 cells/well) were treated with fresh medium containing the test-compounds, inhibitor or control medium for the designated incubation period. Subsequently, the cells were washed with Hepes Tris buffer (pH 7.4). HT-buffer containing 10 &#xB5;M ASP<sup>+</sup> was added and the cells were incubated for 15 min at 37 &#xB0;C. Next, the uptake was arrested by washing twice with ice-cold stop solution (0.5mM TPA in HT-buffer). Then, the cells were lysed for 30 min lysis buffer (0.05% w/v Saponin, 0.05% v/v triton in MilliQ) and the cell homogenate transferred to a 96 wells plate (Greiner). The fluorescence measurement was performed three times at 450&#x2013;642nm VictorX multilabel plate reader (PerkinElmer, Waltham, MA, USA).</p>
+      </sec>
+      <sec>
+        <title>2.6. Data Analysis</title>
+        <p>Values are given as mean &#xB1; standard error of the mean. Fluorescence levels are normalized to the unexposed control samples after subtraction of the background fluorescence at baseline (t = 0). Mean values were considered to be significantly different when <italic>p</italic> &lt; 0.05 using a one-way ANOVA followed by Dunnett&#x2019;s multiple comparison test. Software used for statistical analysis was GraphPad Prism (version 5.00 for Windows; GraphPad Software, San Diego, CA, USA).</p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>3. Results and Discussion </title>
+      <sec>
+        <title>3.1. Various Cationic Uremic Toxins Induce IL-6, IL-8, TNF&#x3B1; and ET-1 Production by ciPTEC</title>
+        <p>Production of the pro-inflammatory cytokines IL-6, IL-8 and TNF&#x3B1; by ciPTEC was measured in culture supernatant after exposure to a selection of cationic UTs (<xref ref-type="fig" rid="cells-04-00234-f001">Figure 1</xref>a), which have previously been shown to interfere with tubular organic cation uptake. To assess the potencies of the individual UTs on cytokine production, ciPTEC were exposed to 100 &#xB5;M of guanidine, cadaverine, putrescine, methylguanidine, spermine, spermidine or 10 &#xB5;M of acrolein for 24 h. Acrolein was used at a lower concentration to prevent severe cytotoxicity [<xref ref-type="bibr" rid="B2-cells-04-00234">2</xref>]. Average baseline IL-6, IL-8 and TNF-&#x3B1; production by ciPTEC over 24 h were determined to be 51 &#xB1; 5.4 ng&#x2219;mL<sup>&#x2212;1</sup>, 79 &#xB1; 37 ng&#x2219;mL<sup>&#x2212;1</sup> and 227 &#xB1; 35 pg&#x2219;mL<sup>&#x2212;1</sup> respectively. Compared to controls, IL-6 production increased significantly after stimulation by guanidine (126 &#xB1; 5%, <italic>p</italic> &lt; 0.05), putrescine (126 &#xB1; 1%, <italic>p</italic> &lt; 0.05), spermine (141 &#xB1; 2%, <italic>p</italic> &lt; 0.001) and spermidine (142 &#xB1; 6%, <italic>p</italic> &lt; 0.001). IL-8 production was stimulated by 100 &#xB5;M of cadaverine (135 &#xB1; 15%, <italic>p</italic> &lt; 0.01), methylguanidine (134 &#xB1; 9%, <italic>p</italic> &lt; 0.001) spermine (128 &#xB1; 12%, <italic>p</italic> &lt; 0.01) and spermidine (145 &#xB1; 25%, <italic>p</italic> &lt; 0.001). We also detected a significant rise in TNF&#x3B1; production after exposure to 100 &#xB5;M of putrescine (126 &#xB1; 1%, <italic>p</italic> &lt; 0.05) and methylguanidine (130 &#xB1; 7%, <italic>p</italic> &lt; 0.05; <xref ref-type="fig" rid="cells-04-00234-f001">Figure 1</xref>a). Lipopolysaccharide (LPS, 10 &#xB5;g&#x2219;mL<sup>&#x2212;1</sup>) was used as a positive control, which caused a significant increase in IL-6 (181 &#xB1; 14%, <italic>p</italic> &lt; 0.001), IL-8 (282 &#xB1; 23%, <italic>p</italic> &lt; 0.001) and TNF&#x3B1; levels (284 &#xB1; 9%, <italic>p</italic> &lt; 0.001).</p>
+        <p>When ciPTEC were exposed to a mixture of the selected cationic UTs (<italic>i.e.</italic>, toxin concentrations corresponding to those found in uremic patients, see Methods Section for actual concentrations used; <xref ref-type="fig" rid="cells-04-00234-f001">Figure 1</xref>b) for 24 h, a significant increase in IL-6 (117 &#xB1; 3%, <italic>p</italic> &lt; 0.001) and IL-8 (122 &#xB1; 3%, <italic>p</italic> &lt; 0.001) cytokine levels could be detected. When increasing the UT mixture to 10-fold the concentrations reported in patients, IL-6 and IL-8 levels increased even further, until 150 &#xB1; 2% and 127 &#xB1; 2% (<italic>p</italic> &lt; 0.001) when compared to control cells, respectively. TNF&#x3B1; levels did not rise upon exposure to these uremic mixtures.</p>
+        <fig id="cells-04-00234-f001" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p>TNF&#x3B1;, IL-6, IL-8 and ET-1 excretions by ciPTEC after exposure to cationic UTs. (<bold>a</bold>) TNF&#x3B1;, IL-6 and IL-8 excretion was measured 24 h after incubation of ciPTEC with 10 &#xB5;M acrolein, 100 &#xB5;M of guanidine, cadaverine, putescine, methylguanidine, spermine, spermidine, or 10 &#xB5;g&#x2219;mL<sup>&#x2212;1</sup> LPS; (<bold>b</bold>) TNF&#x3B1;, IL-6 and IL-8 excretion was measured 24 h after incubation of ciPTEC with a mixture of above stated cationic UTs, corresponding to one-fold or 10-fold the levels reported in uremic patients; (<bold>c</bold>) ET-1 production by ciPTEC after 24 h of incubation with the mixture of cationic UTs or 10 &#xB5;g/mL LPS. Data are expressed as the percentage of cytokines or ET-1 produced compared with untreated cells, set at 100%. Results are shown as normalized means &#xB1; SEM. For each condition at least three experiments were performed in triplicate (<sup>*</sup> <italic>p</italic> &lt; 0.05, <sup>**</sup> <italic>p</italic> &lt; 0.01, <sup>***</sup> <italic>p</italic> &lt; 0.001, ANOVA).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00234-g001.tif"/>
+        </fig>
+        <p>Production of the vasoactive peptide and inflammatory mediator ET-1 by ciPTEC was measured in culture supernatant after exposure to the mixture of the selected cationic UTs for 24 h. <xref ref-type="fig" rid="cells-04-00234-f001">Figure 1</xref>c depicts the ET-1 release by ciPTEC. Average baseline ET-1 production by ciPTEC over 24 h was determined to be 14.6 &#xB1; 4 pg&#x2219;mL<sup>&#x2212;1</sup> (11 &#xB1; 4 pg&#x2219;mg<sup>&#x2212;1</sup>protein). Exposure to the one-fold and 10-fold cationic UT mixture for 24 h increased ET-1 production by ciPTEC, up to 128 &#xB1; 7% (<italic>p</italic> &lt; 0.01) and 134.4 &#xB1; 5% (<italic>p</italic> &lt; 0.001), respectively. Exposure of ciPTEC to the individual cationic uremic compounds for 24 h, did not lead to significantly affected ET-1 release (data not shown). Remarkably, LPS did not induce ET-1 production by ciPTEC.</p>
+      </sec>
+      <sec>
+        <title>3.2. Differential Effect of ET-1 Exposures on Organic Cation Transport</title>
+        <p>To investigate if ET-1 could affect the functionality of the organic cation transporters (OCT) present in ciPTEC, we measured the intracellular uptake of the fluorescent compound 4-(4-ASP<sup>+</sup> after exposure to ET-1. A dose-response curve showed a significant increase in ASP<sup>+</sup> uptake at concentrations of 100 nM and 1 &#xB5;M ET-1 (<xref ref-type="app" rid="app1-cells-04-00234">Figure S1</xref>). As a control, TPA was used which inhibited ASP uptake by approx. 70%. In <xref ref-type="fig" rid="cells-04-00234-f002">Figure 2</xref> representative fluorescence images (A) and their quantified fluorescent signals (B) are shown for the ASP<sup>+</sup> uptake by ciPTEC in the presence or absence of 100 nM ET-1 exposure. A significant increase in maximal uptake was observed after 24 h of incubation, while 30 min of exposure diminished the uptake compared to unexposed cells.</p>
+        <fig id="cells-04-00234-f002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>Changes in ASP<sup>+</sup> uptake by ciPTEC in response to exposure to ET-1. CiPTEC were incubated for 30 min or 24 h with 100 nM ET-1 before measuring the intracellular uptake of the fluorescent cationic compound ASP<sup>+</sup> (10 &#xB5;M). (<bold>a</bold>) Representative confocal images of 24 h ET-1 exposed (top row), 30 min ET-1 exposed (middle row) or control cells (bottom row) taken at 2, 8 or 15 min after addition of ASP<sup>+</sup>; (<bold>b</bold>) ASP<sup>+</sup> accumulation in cells was determined over the 15 min time period for 24 h ET-1 exposed (&#x25CF;), 30 min ET-1 exposed (<inline-formula>
+        <mml:math display="block" id="mm2">
+          <mml:semantics>
+            <mml:mrow>
+            <mml:mstyle mathcolor='black'>
+              <mml:mo>&#x25B2;</mml:mo>
+     </mml:mstyle>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula>) or control cells (<inline-formula>
+        <mml:math display="block" id="mm1">
+          <mml:semantics>
+            <mml:mrow>
+            <mml:mstyle mathcolor='black'>
+              <mml:mo>&#x25A0;</mml:mo>
+     </mml:mstyle>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula>). Fluorescence intensity over time was quantified for at least six individual cells for each condition. Images were captured by real time imaging. Prior to addition of the fluorescent compound, brightfield images (panel A) were taken. The addition of the fluorescent substrate resulted in minor cell movement, thereby affecting cell positioning to some extent.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00234-g002.tif"/>
+        </fig>
+        <p>By using a fluorescent reader based method, more conditions were tested in a high throughput fashion (<xref ref-type="fig" rid="cells-04-00234-f003">Figure 3</xref>a). Again, after 30 min of pre-incubation with 100 nM ET-1, a 23 &#xB1; 4% (<italic>p</italic> &lt; 0.001) decrease in ASP<sup>+</sup> uptake was measured. This effect was not observed after increasing the pre-incubation time to 3 or 6 h. However, after 24 h of pre-incubation, a 20 &#xB1; 5% (<italic>p</italic> &lt; 0.001) increase in ASP<sup>+</sup> uptake was observed. Addition of the ET-1 receptor inhibitor BQ-788 during the exposures normalized the ASP<sup>+</sup> uptake levels for all time points (<xref ref-type="fig" rid="cells-04-00234-f003">Figure 3</xref>b).</p>
+        <p>In humans, OCT2 (SLC22A2) is considered one of the most important renal OCT [<xref ref-type="bibr" rid="B33-cells-04-00234">33</xref>]. We examined its mRNA expression levels after exposure to 100 nM ET-1 for 30 min or 24 h and compared these results to the control situation. Additionally, the expression levels of OCT1 and OCT3 were examined as these are expressed in ciPTEC as well [<xref ref-type="bibr" rid="B2-cells-04-00234">2</xref>,<xref ref-type="bibr" rid="B34-cells-04-00234">34</xref>]. Exposure to ET-1 did not significantly alter OCT1, 2 or 3 expression levels for short or long term (data included as <xref ref-type="app" rid="app1-cells-04-00234">Figure S2</xref>).</p>
+        <fig id="cells-04-00234-f003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>Regulatory effects on OCT mediated ASP<sup>+</sup> uptake through ET-1 Receptor. Pre-incubation of ciPTEC with 100 &#xB5;M ET-1 for 30 min up to 24 h inhibits the cellular uptake of 10&#xB5;M of the fluorescent substrate ASP<sup>+</sup>. (<bold>a</bold>) The effects of 100 &#x3BC;M ET-1 on steady state (15 min) ASP<sup>+</sup> accumulation; (<bold>b</bold>) ASP<sup>+</sup> accumulation of ciPTEC after pre-incubation with a combination of 100 nM ET-1 with the ET-B receptor inhibitor BQ788 (1 &#xB5;M), which blocked the effect of ET-1 at all time points. Values are depicted as means &#xB1; SEM for at least three experiments performed in triplicate (<bold><sup>*</sup> </bold> <italic>p</italic> &lt; 0.05, <bold><sup>**</sup></bold> <italic>p</italic> &lt; 0.01, <bold><sup>***</sup></bold> <italic>p</italic> &lt; 0.001).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00234-g003.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.3. iNOS Inhibition Attenuates the Inhibitory Effects of ET-1 Exposure on Organic Cation Uptake</title>
+        <p>Previous studies demonstrated that ET-B receptor activation can initiate an NO mediated signaling pathway that regulates drug transport in the proximal tubule [<xref ref-type="bibr" rid="B24-cells-04-00234">24</xref>]. Therefore, we investigated if the differential regulation of intracellular organic cation uptake induced by ET-1, resulted from nitric oxide synthase (NOS) activation. ciPTEC were pre-incubated with 100 nM ET-1 in the absence or presence of the nonselective NOS&#x2010;inhibitor l&#x2010;arginine analogue N(G)&#x2010;monomethyl&#x2010;l&#x2010;arginine (<sc>l</sc>-NMMA). <xref ref-type="fig" rid="cells-04-00234-f004">Figure 4</xref>a shows that <sc>l</sc>-NMMA alone did not influence ASP<sup>+</sup> uptake by ciPTEC, but attenuated the ET-1 mediated down-regulation in ASP<sup>+</sup> uptake at 30 min. This effect was not observed after the 24 h pre-incubation period. Pre-incubation with the selective inducible NOS inhibitor AG in the presence or absence of ET-1 produced similar results, attenuating only the short-term ET-1 mediated effect (<xref ref-type="fig" rid="cells-04-00234-f004">Figure 4</xref>b).</p>
+        <fig id="cells-04-00234-f004" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p>NOS-inhibition reverses the short-term action of ET-1 on ASP<sup>+</sup> uptake. CiPTEC monolayers were incubated for 15 min in medium containing 10 &#xB5;M ASP<sup>+</sup> without or with pre-incubation with (<bold>a</bold>) 100 nM ET-1, 100 &#x3BC;M L-NMMA or ET-1 plus L-NMMA; (<bold>b</bold>) 100 nM ET-1, 100 &#x3BC;M aminoguanidine (AG) or ET-1 plus 100 &#xB5;M AG. Subsequently, the reaction was stopped, the cells were lysed and the fluorescent signal was measured as described in the methods section. Values are presented as means &#xB1; SEM for at least three experiments performed in triplicate. (<bold><sup>*</sup></bold> <italic>p</italic> &lt; 0.05, <bold><sup>**</sup></bold> <italic>p</italic> &lt; 0.01, <bold><sup>***</sup></bold> <italic>p</italic> &lt; 0.001).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00234-g004.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.4. PKC Activation Restores Short-Term Organic Cation Uptake in ciPTEC after ET-1 Exposure</title>
+        <p>Cyclic guanosine monophosphate (cGMP) activation was simulated by the addition of 1 &#xB5;M of 8-br-cGMP, a cell permeable analog of cGMP, which was previously identified as an important signaling molecule in ET-1 regulated MRP2 transport in the proximal tubule [<xref ref-type="bibr" rid="B35-cells-04-00234">35</xref>]. After pre-incubation of ciPTEC with 1 &#xB5;M 8-Br-cGMP alone, the intracellular ASP<sup>+</sup> levels did not differ from the control conditions (<xref ref-type="fig" rid="cells-04-00234-f005">Figure 5</xref>a). Also, combining the pre-incubation to ET-1 exposure with 8-Br-cGMP could not prevent either the inhibitory effect on ASP<sup>+</sup> uptake at 30 min, or the stimulation observed after 24 h. These results point towards an absence of protein kinase G and cGMP as signaling molecule in this ET-1-mediated pathway. Protein kinase C was stimulated by pre-incubation with the PKC activator sn-1,2-dioctanoyl glycerol (DOG), which is a cell permeable analog of the PKC-activating second messenger diacylglycerol (DAG). Pre-incubation of ciPTEC with 1 &#xB5;M DOG alone did not alter ASP<sup>+</sup> uptake compared to the non-exposed control situation (<xref ref-type="fig" rid="cells-04-00234-f005">Figure 5</xref>b). Combining ET-1 and DOG during 30 min of pre-incubation restored the ASP<sup>+</sup> uptake by ciPTEC to the control situation. This effect of DOG was not observed after 24 h of ET-1 incubation, suggesting that two separate pathways regulate organic cation transport.</p>
+        <fig id="cells-04-00234-f005" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <p>Kinase pathways on ciPTEC ASP+ uptake levels after exposure to ET-1. ciPTEC monolayers were incubated for 15 min in medium containing 10 &#xB5;M ASP<sup>+</sup> without or with pre-incubation with (<bold>a</bold>) 100 nM ET-1, 1 &#x3BC;M DOG or ET-1 plus DOG; (<bold>b</bold>) 100 nM ET-1, 1 &#x3BC;M 8-br-cGMP or ET-1 plus 100&#xB5;M 8-br-cGMP. Subsequently, the reaction was stopped, the cells lysed and the fluorescent signal was measured as described in the methods section. Values are expressed as means &#xB1; SEM for at least three experiments performed in triplicate. (<bold><sup>*</sup></bold> <italic>p</italic> &lt; 0.05, <bold><sup>**</sup></bold> <italic>p</italic> &lt; 0.01, <bold><sup>***</sup></bold> <italic>p</italic> &lt; 0.001).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00234-g005.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.5. Discussion</title>
+        <p>The results of the present study indicate that exposure of human proximal tubule epithelial cells to cationic UTs leads to cytokine and ET-1 production by ciPTEC. We demonstrated that the production of IL-6, IL-8, and TNF&#x3B1; was stimulated by the exposure to high levels of individual cationic toxins, supporting the inflammatory response often observed in uremia. At clinically relevant concentrations, a mixture of these selected toxins induced the endogenous production of IL-6, IL-8 and ET-1. Additionally, ET-1 was identified as time-dependent regulator of organic cation uptake through interaction with the ET-B receptor.</p>
+        <p>In patients suffering from renal failure, the accumulation of UTs was reported to be associated with the development of a chronic inflammatory state [<xref ref-type="bibr" rid="B9-cells-04-00234">9</xref>]. Various clinical studies have demonstrated a correlation between increasing IL-6, IL-8 and TNF&#x3B1; cytokine levels and reduced glomerular filtration rate [<xref ref-type="bibr" rid="B11-cells-04-00234">11</xref>,<xref ref-type="bibr" rid="B12-cells-04-00234">12</xref>]. Inefficient clearance of the inflammatory mediators in combination with increased cytokine production could cause these effects. The results of the present study confirm that exposure to a cationic uremic mixture of acrolein, spermine, spermidine, cadaverine, putrescine, guanidine and methylguanidine induced the production of IL-6 and IL-8 by using the human renal cell line ciPTEC. </p>
+        <p>The observed increase in IL-6 and IL-8 production ranged from 26%&#x2013;45%. When compared to the 81%&#x2013;182% increase in IL-6 and IL-8 release after LPS stimulation, this level could be considered modest. However, LPS is one of the most potent inducers of cytokine production. Patients suffering from ESRD were reported to show a 35% rise in IL-6 levels [<xref ref-type="bibr" rid="B11-cells-04-00234">11</xref>]. The local production of these cytokines in response to a uremic milieu can promote local profibrotic or inflammatory processes <italic>in-vivo</italic>, since IL-6 production is associated with the induction of fibrotic gene expression, and IL-8 is a potent neutrophil chemoattractant [<xref ref-type="bibr" rid="B36-cells-04-00234">36</xref>,<xref ref-type="bibr" rid="B37-cells-04-00234">37</xref>]. Therefore, we could consider the 26%&#x2013;45% increase in production of IL-6 and IL-8 by proximal tubule epithelial cells clinically relevant. It is, however, important to take into account that our <italic>in vitro</italic> settings cannot be translated directly to the clinical situation, especially with regard to protein binding and intracellular solute concentrations. Not only are organic solutes often able to bind to human serum albumin, they can also interact with other proteins such as &#x3B1;1-acid glycoprotein and lipoproteins, and even red blood cells and platelets [<xref ref-type="bibr" rid="B38-cells-04-00234">38</xref>]. On the other hand, it is known that ESRD can affect systemic protein binding of drugs and endogenous compounds due to displacement [<xref ref-type="bibr" rid="B39-cells-04-00234">39</xref>,<xref ref-type="bibr" rid="B40-cells-04-00234">40</xref>,<xref ref-type="bibr" rid="B41-cells-04-00234">41</xref>]. Protein binding could, therefore, affect the free fraction of uremic solutes available to cells. Nevertheless, intracellular levels often easily exceed the free serum concentrations due to active uptake processes [<xref ref-type="bibr" rid="B42-cells-04-00234">42</xref>,<xref ref-type="bibr" rid="B43-cells-04-00234">43</xref>].</p>
+        <p>The absence of TNF&#x3B1; production by ciPTEC after exposure to the UT mixture contrasts with the effects of the individual compounds putrescine and methylguanidine. In the mixture, the concentrations of these compounds were much lower as compared to the experiments performed with the individual compounds, which might explain this effect. Additionally, TNF&#x3B1; is known to possess a very short half-life in whole blood [<xref ref-type="bibr" rid="B44-cells-04-00234">44</xref>], and low concentrations are reported to denature rapidly in culture medium at 37 &#xB0;C [<xref ref-type="bibr" rid="B45-cells-04-00234">45</xref>,<xref ref-type="bibr" rid="B46-cells-04-00234">46</xref>]. Since ciPTEC were exposed for 24 h, the initial TNF&#x3B1; peak could have subsided before the measurement was performed.</p>
+        <p>Many cytokines, including IL-6, are known to stimulate ET-1 production. Furthermore, the proximal tubule can endogenously produce ET-1 upon stimulation with various nephrotoxicants, as was previously demonstrated in non-human species [<xref ref-type="bibr" rid="B24-cells-04-00234">24</xref>,<xref ref-type="bibr" rid="B47-cells-04-00234">47</xref>,<xref ref-type="bibr" rid="B48-cells-04-00234">48</xref>]. Here we show that, next to the production of IL-6 and IL-8, the mixture of cationic UTs also promoted a modest ET-1 release by ciPTEC. The local production of ET-1 in the renal tubule has been recognized as an early response to tubular injury, and was identified as a key regulator of efflux transporters, MRP2 and P-gp [<xref ref-type="bibr" rid="B23-cells-04-00234">23</xref>,<xref ref-type="bibr" rid="B26-cells-04-00234">26</xref>,<xref ref-type="bibr" rid="B35-cells-04-00234">35</xref>,<xref ref-type="bibr" rid="B47-cells-04-00234">47</xref>,<xref ref-type="bibr" rid="B48-cells-04-00234">48</xref>,<xref ref-type="bibr" rid="B49-cells-04-00234">49</xref>]. In these studies, the threshold for ET-1 action on transporters was determined to be between 0.5 and 10 nM (1.25&#x2013;24.9 ng&#x2219;mL<sup>&#x2212;1</sup>). In our study, the ET-1 release by ciPTEC was well below this threshold (<xref ref-type="fig" rid="cells-04-00234-f001">Figure 1</xref>). The quantity of hormone released by ciPTEC is small, and much diluted by the cell culture medium. However, since the cells produce this compound endogenously, the threshold level could be reached in the direct vicinity of the cells.</p>
+        <p>The results of the present study also demonstrate that next to the regulation of MRP2 and P-gp, ET-1 can differentially regulate cation uptake in ciPTEC. Because ET-1 is a hydrophilic compound, surface receptors are necessary to regulate intracellular responses to the peptide. The regulatory effects of ET-1 on the OCT-mediated ASP<sup>+</sup> uptake were clearly mediated through the action of the ET-B-receptor, since the addition of the ET-B-receptor blocker BQ-788 ameliorated both effects observed after 30 min and 24 h.</p>
+        <p>The inhibition of OCT-mediated ASP<sup>+</sup> transport by ET-1 after 30 min is in line with earlier reports. Terlouw <italic>et al.</italic> previously hypothesized that the reduction in efflux activity by transporters could protect the cell form injury after exposure to a nephrotoxic substance by saving ATP for more immediate processes that are necessary for cell survival [<xref ref-type="bibr" rid="B24-cells-04-00234">24</xref>,<xref ref-type="bibr" rid="B48-cells-04-00234">48</xref>]. Although the reduction in ASP<sup>+</sup> uptake by ciPTEC after 30 min suggests a similar protective mechanism for OCT, the reduced influx is unlikely to serve as an ATP saving mechanism. Organic cation uptake processes are mostly mediated by polyspecific solute carriers like OCT2 (<italic>SLC-22</italic> family), which are membrane potential and substrate concentration gradient dependent, and therefore function as facilitated diffusion carriers for organic cations, but are independent of proton gradients. In addition, two other types of apically expressed transporters might be involved, <italic>viz.</italic> the Carnitine/Organic Cation Transporters OCTN1 and OCTN2 (SLC22A4 and SLC22A5 [<xref ref-type="bibr" rid="B50-cells-04-00234">50</xref>,<xref ref-type="bibr" rid="B51-cells-04-00234">51</xref>]) and the proton antiporters, MATE1 and MATE2k (multi-antimicrobial extrusion proteins). Schmidt-Lauber <italic>et al.</italic> reported active uptake of ASP<sup>+</sup> through OCTN1 and MATE1 in transporter-transfected HEK293 cells and human synovial fibroblasts (hRASF) [<xref ref-type="bibr" rid="B52-cells-04-00234">52</xref>]. In ciPTEC, the exact role of these transport proteins in the uptake of cationic organic substrates, such as ASP<sup>+</sup> or uremic retention solutes, is yet unclear. Future studies should be directed to further elucidate their role.</p>
+        <p>Solute carriers do not rely directly on ATP binding or hydrolysis [<xref ref-type="bibr" rid="B53-cells-04-00234">53</xref>,<xref ref-type="bibr" rid="B54-cells-04-00234">54</xref>]. Based on our results, we suggest that the short-term reduction in organic cation influx by ET-1 signaling provides protection by minimizing intracellular accumulation of potentially toxic compounds. In acute situations, this would reduce intracellular damage until other clearance processes are activated to handle the toxic threat. On the other hand, the increased influx transport observed after 24 h was unexpected. This observation could not be linked to increased mRNA levels of OCT2 neither OCT1 or OCT3, of which detection on mRNA level in ciPTEC was remarkable, since they are generally considered of less importance in human kidney [<xref ref-type="bibr" rid="B33-cells-04-00234">33</xref>,<xref ref-type="bibr" rid="B34-cells-04-00234">34</xref>] (<xref ref-type="app" rid="app1-cells-04-00234">Figure S2</xref>). We cannot exclude the involvement of another important mechanism in the short-term regulation of transporter activity known as endocytic membrane retrieval, or insertion as suggested previously [<xref ref-type="bibr" rid="B55-cells-04-00234">55</xref>,<xref ref-type="bibr" rid="B56-cells-04-00234">56</xref>]. This mechanism has also been described in the short-term regulation of the proximal tubular type IIa Na-P<sub>i</sub> cotransporter, and the pH-regulated insertion of H<sup>+</sup>-ATPases in the proximal tubule [<xref ref-type="bibr" rid="B57-cells-04-00234">57</xref>,<xref ref-type="bibr" rid="B58-cells-04-00234">58</xref>,<xref ref-type="bibr" rid="B59-cells-04-00234">59</xref>,<xref ref-type="bibr" rid="B60-cells-04-00234">60</xref>]. Furthermore, rapid insertion of MRP2 in response to tubulo toxic insults has been described [<xref ref-type="bibr" rid="B26-cells-04-00234">26</xref>,<xref ref-type="bibr" rid="B61-cells-04-00234">61</xref>]. If OCT functionality is regulated by such rapid dynamic endocytic retrieval or insertion processes, the regulation depends on an intracellular vesicular pool of transporters, and its regulation will therefore not directly affect mRNA expression levels. The development of specific antibodies directed at the human organic cation transporters, together with immunocytochemistry or protein expression studies, could in the future provide more insight into the involvement of the regulatory mechanisms of organic cation uptake in ciPTEC. Furthermore, post-translational modifications, such as phosphorylation, could affect transporter activity. In the intracellular loops of the (human) <italic>SLC-22</italic> family, several potential phosphorylation sites have been identified [<xref ref-type="bibr" rid="B62-cells-04-00234">62</xref>]. For rOCT1, phosphorylation events are known to stimulate conformational changes at the substrate binding site, thereby increasing the affinity for its substrates [<xref ref-type="bibr" rid="B63-cells-04-00234">63</xref>]. In various studies focusing on ASP<sup>+</sup> uptake in rabbit or human models, PKC stimulation was found to either induce or inhibit substrate uptake, depending on the species [<xref ref-type="bibr" rid="B64-cells-04-00234">64</xref>].</p>
+        <p>In ciPTEC, PKC stimulation by DOG in combination with ET-1 restored cation uptake after 30 min of pre-incubation. These observations suggest that PKC activation in ciPTEC stimulates organic cation uptake, however, this is in contrast to previous studies with hOCT2-HEK293 cells and isolated human proximal tubules [<xref ref-type="bibr" rid="B55-cells-04-00234">55</xref>,<xref ref-type="bibr" rid="B64-cells-04-00234">64</xref>]. The reason for this discrepancy is unclear, but considering the many intracellular processes affected by PKC this may suggest that multiple regulatory pathways are involved. Still, the findings of the present study are in agreement with the known interaction between ET-1 and the protein kinase pathway in the regulation of other renal transporters (<italic>viz.</italic> MRP2 and P-gp) [<xref ref-type="bibr" rid="B23-cells-04-00234">23</xref>,<xref ref-type="bibr" rid="B65-cells-04-00234">65</xref>,<xref ref-type="bibr" rid="B66-cells-04-00234">66</xref>]. In killifish renal proximal tubules, dogfish shark salt glands and rat brain capillaries, ET-1 also reduced MRP2 or P-gp-mediated transport by stimulating the PKC pathway [<xref ref-type="bibr" rid="B23-cells-04-00234">23</xref>,<xref ref-type="bibr" rid="B65-cells-04-00234">65</xref>,<xref ref-type="bibr" rid="B66-cells-04-00234">66</xref>]. It would therefore be interesting to evaluate in future studies how ET-1 production by ciPTEC would affect the transport by MRP2 or P-gp in this cell model.</p>
+        <p>Next to the PKC pathway, our results demonstrated that inhibition of iNOS by AG or L-NMMA restored ASP<sup>+</sup> uptake at 30 min after ET-1 exposure. In the human proximal tubule, iNOS is constitutively expressed [<xref ref-type="bibr" rid="B67-cells-04-00234">67</xref>,<xref ref-type="bibr" rid="B68-cells-04-00234">68</xref>]. It mediates the regulation of local inflammatory responses, following cytokine production during endotoxemia, or after exposure to nephrotoxicants [<xref ref-type="bibr" rid="B47-cells-04-00234">47</xref>,<xref ref-type="bibr" rid="B48-cells-04-00234">48</xref>]. Similar to the iNOS induced effects observed in the present study, Heemskerk <italic>et al.</italic> demonstrated a reduction in OCT1 and OCT2 uptake transport during acute endotoxemia, while the functional expression of the efflux transporters MRP2 and P-gp, increased [<xref ref-type="bibr" rid="B25-cells-04-00234">25</xref>,<xref ref-type="bibr" rid="B69-cells-04-00234">69</xref>]. Therefore, iNOS is considered an important player in the regulation of the short-term tubular response to external assaults. These short-term effects of the inflammatory mediator ET-1 on the regulation proximal tubular cation uptake could provide clues on possible pathways involved in acute kidney injury.</p>
+        <p>Though numerous studies have investigated the mechanisms involved in renal proximal tubular transport, the mechanisms behind these regulatory pathways is often analyzed within relatively short time frames. We observed a time-dependent ET-B receptor mediated effect of ciPTEC exposure to ET-1, leading to an increased cellular uptake of cationic substances. The mechanisms behind this long-term (24 h) regulation could not be explained by the known NO, PKC or cGMP mediated pathways. These observations are reminiscent of both the biphasic and NO-independent pathways that were described for the efflux transporter P-gp [<xref ref-type="bibr" rid="B70-cells-04-00234">70</xref>,<xref ref-type="bibr" rid="B71-cells-04-00234">71</xref>], for which a second pathway, next to NO mediated regulation, was identified involving activation of Toll Like Receptor 4 and translocation of NF-&#x3BA;B. Further research would be warranted to investigate this pathway in the regulation of proximal tubular organic cation uptake. Investigating the increase in substrate uptake following long term ET-1 exposure might provide clues about possible treatment strategies to promote renal secretory clearance in uremia, or shed further light on protective mechanisms of the renal proximal tubule.</p>
+        <p>In conclusion, our findings implicate that cationic UTs can directly induce the local production of inflammatory cytokines and ET-1. Furthermore, ET-1 exposure was found to enable regulation of organic cation uptake by proximal tubule cells. These findings might suggest that systemic accumulation of UTs in patients suffering from CKD could influence renal tubular clearance processes through local production of inflammatory or vasoactive mediators. However, further studies on OCT regulation and functionality in response to UT exposure are required to elucidate the exact processes that connect these events.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+  <app-group>
+    <app id="app1-cells-04-00234">
+      <title>Supplementary Materials</title>
+        <supplementary-material id="cells-04-00234-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00234-s001.pdf">
+</supplementary-material>
+     <p>Supplementary materials can be accessed at: <uri>http://www.mdpi.com/2073-4409/4/3/234/s1</uri>.</p>
+   </app>
+    </app-group>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We would like to thank Ioana Sighiartau and Nelleke Kisteman for their technical assistance. This research forms part of the Project P3.01 BioKid of the research program of the BioMedical Materials institute, co-funded by the Dutch Ministry of Economic Affairs. The financial contribution of the Dutch Kidney Foundation is gratefully acknowledged.</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>In the present communication, C.S. was responsible for the experimental set up and performance, data analysis and interpretation, and drafted the manuscript. J.H. participated in the interpretation of the results and contributed to revising the manuscript. L.H. conceived of the study, and participated in its design and coordination and helped to draft the manuscript. R.M. conceived of the study, participated in design of the study, the interpretation of the results, and helped to draft the manuscript. All authors read and approved the final manuscript.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest. The founding sponsors had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, and in the decision to publish the results</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-04-00234">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Duranton</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>de Smet</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Rodriguez</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Jankowski</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Vanholder</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Argiles</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Normal and pathologic concentrations of uremic toxins</article-title>
+          <source>J. Am. Soc. Nephrol.</source>
+          <year>2012</year>
+          <volume>23</volume>
+          <fpage>1258</fpage>
+          <lpage>1270</lpage>
+          <pub-id pub-id-type="doi">10.1681/ASN.2011121175</pub-id>
+          <pub-id pub-id-type="pmid">22626821</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-cells-04-00234">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schophuizen</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Wilmer</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Jansen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gustavsson</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Hilgendorf</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Hoenderop</surname>
+              <given-names>J.G.</given-names>
+            </name>
+            <name>
+              <surname>van den Heuvel</surname>
+              <given-names>L.P.</given-names>
+            </name>
+            <name>
+              <surname>Masereeuw</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cationic uremic toxins affect human renal proximal tubule cell functioning through interaction with the organic cation transporter</article-title>
+          <source>Pflugers Arch.Eur. J. Physiol.</source>
+          <year>2013</year>
+          <volume>465</volume>
+          <fpage>1701</fpage>
+          <lpage>1714</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00424-013-1307-z</pub-id>
+          <pub-id pub-id-type="pmid">23812163</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-cells-04-00234">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilmer</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Saleem</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Masereeuw</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Ni</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Van Der Velden</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Russel</surname>
+              <given-names>F.G.</given-names>
+            </name>
+            <name>
+              <surname>Mathieson</surname>
+              <given-names>P.W.</given-names>
+            </name>
+            <name>
+              <surname>Monnens</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Van Den Heuvel</surname>
+              <given-names>L.P.</given-names>
+            </name>
+            <name>
+              <surname>Levtchenko</surname>
+              <given-names>E.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Novel conditionally immortalized human proximal tubule cell line expressing functional influx and efflux transporters</article-title>
+          <source>Cell Tissue Res.</source>
+          <year>2010</year>
+          <volume>339</volume>
+          <fpage>449</fpage>
+          <lpage>457</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00441-009-0882-y</pub-id>
+          <pub-id pub-id-type="pmid">19902259</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-cells-04-00234">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dhondt</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Vanholder</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>van Biesen</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Lameire</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>The removal of uremic toxins</article-title>
+          <source>Kidney Int. Suppl.</source>
+          <year>2000</year>
+          <volume>58</volume>
+          <fpage>S47</fpage>
+          <lpage>S59</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1523-1755.2000.07606.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-cells-04-00234">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eloot</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Van Biesen</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Dhondt</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>van de Wynkele</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Glorieux</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Verdonck</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Vanholder</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact of hemodialysis duration on the removal of uremic retention solutes</article-title>
+          <source>Kidney Int.</source>
+          <year>2008</year>
+          <volume>73</volume>
+          <fpage>765</fpage>
+          <lpage>770</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.ki.5002750</pub-id>
+          <pub-id pub-id-type="pmid">18160958</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-cells-04-00234">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Glorieux</surname>
+              <given-names>G.L.</given-names>
+            </name>
+            <name>
+              <surname>Dhondt</surname>
+              <given-names>A.W.</given-names>
+            </name>
+            <name>
+              <surname>Jacobs</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>van Langeraert</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lameire</surname>
+              <given-names>N.H.</given-names>
+            </name>
+            <name>
+              <surname>de Deyn</surname>
+              <given-names>P.P.</given-names>
+            </name>
+            <name>
+              <surname>Vanholder</surname>
+              <given-names>R.C.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>In vitro</italic> study of the potential role of guanidines in leukocyte functions related to atherogenesis and infection</article-title>
+          <source>Kidney Int.</source>
+          <year>2004</year>
+          <volume>65</volume>
+          <fpage>2184</fpage>
+          <lpage>2192</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1523-1755.2004.00631.x</pub-id>
+          <pub-id pub-id-type="pmid">15149331</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-cells-04-00234">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Macdougall</surname>
+              <given-names>I.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of uremic toxins in exacerbating anemia in renal failure</article-title>
+          <source>Kidney Int. Suppl.</source>
+          <year>2001</year>
+          <volume>59</volume>
+          <fpage>S67</fpage>
+          <lpage>S72</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1523-1755.2001.07821.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-cells-04-00234">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Horl</surname>
+              <given-names>W.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Neutrophil function and infections in uremia</article-title>
+          <source>Am. J. Kidney Dis.</source>
+          <year>1999</year>
+          <volume>33</volume>
+          <fpage>45</fpage>
+          <lpage>49</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0272-6386(99)70294-5</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-cells-04-00234">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cohen</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Horl</surname>
+              <given-names>W.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Immune dysfunction in uremia&#x2014;an update</article-title>
+          <source>Toxins</source>
+          <year>2012</year>
+          <volume>4</volume>
+          <fpage>962</fpage>
+          <lpage>990</lpage>
+          <pub-id pub-id-type="doi">10.3390/toxins4110962</pub-id>
+          <pub-id pub-id-type="pmid">23202302</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-cells-04-00234">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miyauchi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sakai</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Maeda</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Shimojo</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Watanabe</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Honma</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kuga</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Aonuma</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Miyauchi</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Increased plasma levels of big-endothelin-2 and big-endothelin-3 in patients with end-stage renal disease</article-title>
+          <source>Life Sci.</source>
+          <year>2012</year>
+          <volume>91</volume>
+          <fpage>729</fpage>
+          <lpage>732</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.lfs.2012.08.008</pub-id>
+          <pub-id pub-id-type="pmid">22921304</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-04-00234">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tbahriti</surname>
+              <given-names>H.F.</given-names>
+            </name>
+            <name>
+              <surname>Meknassi</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Moussaoui</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Messaoudi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Zemour</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Kaddous</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bouchenak</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mekki</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Inflammatory status in chronic renal failure: The role of homocysteinemia and pro-inflammatory cytokines</article-title>
+          <source>World J. Nephrol.</source>
+          <year>2013</year>
+          <volume>2</volume>
+          <fpage>31</fpage>
+          <lpage>37</lpage>
+          <pub-id pub-id-type="doi">10.5527/wjn.v2.i2.31</pub-id>
+          <pub-id pub-id-type="pmid">24175263</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-cells-04-00234">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nakanishi</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Moutabarrik</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Okada</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Kitamura</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Hayashi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Syouji</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Namiki</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ishibashi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zaid</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Tsubakihara</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interleukin-8 in chronic renal failure and dialysis patients</article-title>
+          <source>Nephrol. Dial. Transplant.</source>
+          <year>1994</year>
+          <volume>9</volume>
+          <fpage>1435</fpage>
+          <lpage>1442</lpage>
+          <pub-id pub-id-type="pmid">7816257</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13-cells-04-00234">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Panichi</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Migliori</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>de Pietro</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Taccola</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Norpoth</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Giovannini</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Palla</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Tetta</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>C-reactive protein as a marker of chronic inflammation in uremic patients</article-title>
+          <source>Blood Purif.</source>
+          <year>2000</year>
+          <volume>18</volume>
+          <fpage>183</fpage>
+          <lpage>190</lpage>
+          <pub-id pub-id-type="doi">10.1159/000014417</pub-id>
+          <pub-id pub-id-type="pmid">10859421</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-cells-04-00234">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ottosson-Seeberger</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ahlborg</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Hemsen</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lundberg</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Alvestrand</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hemodynamic effects of endothelin-1 and big endothelin-1 in chronic hemodialysis patients</article-title>
+          <source>J. Am. Soc. Nephrol.</source>
+          <year>1999</year>
+          <volume>10</volume>
+          <fpage>1037</fpage>
+          <lpage>1044</lpage>
+          <pub-id pub-id-type="pmid">10232690</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15-cells-04-00234">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stenvinkel</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Ketteler</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Lindholm</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Pecoits-Filho</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Riella</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Heimburger</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Cederholm</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Girndt</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>IL-10, IL-6, and TNF-alpha: Central factors in the altered cytokine network of uremia&#x2014;the good, the bad, and the ugly</article-title>
+          <source>Kidney Int.</source>
+          <year>2005</year>
+          <volume>67</volume>
+          <fpage>1216</fpage>
+          <lpage>1233</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1523-1755.2005.00200.x</pub-id>
+          <pub-id pub-id-type="pmid">15780075</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-cells-04-00234">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Therrien</surname>
+              <given-names>F.J.</given-names>
+            </name>
+            <name>
+              <surname>Agharazii</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lebel</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lariviere</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Neutralization of tumor necrosis factor-alpha reduces renal fibrosis and hypertension in rats with renal failure</article-title>
+          <source>Am. J. Nephrol.</source>
+          <year>2012</year>
+          <volume>36</volume>
+          <fpage>151</fpage>
+          <lpage>161</lpage>
+          <pub-id pub-id-type="doi">10.1159/000340033</pub-id>
+          <pub-id pub-id-type="pmid">22813949</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17-cells-04-00234">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Corder</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Carrier</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Khan</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Klemm</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Vane</surname>
+              <given-names>J.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytokine regulation of endothelin-1 release from bovine aortic endothelial cells</article-title>
+          <source>J. Cardiovasc. Pharmacol.</source>
+          <year>1995</year>
+          <volume>26</volume>
+          <fpage>S56</fpage>
+          <lpage>S58</lpage>
+          <pub-id pub-id-type="doi">10.1097/00005344-199506263-00018</pub-id>
+          <pub-id pub-id-type="pmid">8587467</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18-cells-04-00234">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marsden</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Brenner</surname>
+              <given-names>B.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional regulation of the endothelin-1 gene by TNF-alpha</article-title>
+          <source>Am. J. Physiol.</source>
+          <year>1992</year>
+          <volume>262</volume>
+          <fpage>C854</fpage>
+          <lpage>C861</lpage>
+          <pub-id pub-id-type="pmid">1566813</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19-cells-04-00234">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kohan</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Rossi</surname>
+              <given-names>N.F.</given-names>
+            </name>
+            <name>
+              <surname>Inscho</surname>
+              <given-names>E.W.</given-names>
+            </name>
+            <name>
+              <surname>Pollock</surname>
+              <given-names>D.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of blood pressure and salt homeostasis by endothelin</article-title>
+          <source>Physiol. Rev.</source>
+          <year>2011</year>
+          <volume>91</volume>
+          <fpage>1</fpage>
+          <lpage>77</lpage>
+          <pub-id pub-id-type="doi">10.1152/physrev.00060.2009</pub-id>
+          <pub-id pub-id-type="pmid">21248162</pub-id>
+        </citation>
+      </ref>
+      <ref id="B20-cells-04-00234">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Demuth</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Blacher</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Guerin</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>Benoit</surname>
+              <given-names>M.O.</given-names>
+            </name>
+            <name>
+              <surname>Moatti</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Safar</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <name>
+              <surname>London</surname>
+              <given-names>G.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Endothelin and cardiovascular remodelling in end-stage renal disease</article-title>
+          <source>Nephrol. Dial. Transplant.</source>
+          <year>1998</year>
+          <volume>13</volume>
+          <fpage>375</fpage>
+          <lpage>383</lpage>
+          <pub-id pub-id-type="doi">10.1093/oxfordjournals.ndt.a027833</pub-id>
+          <pub-id pub-id-type="pmid">9509449</pub-id>
+        </citation>
+      </ref>
+      <ref id="B21-cells-04-00234">
+        <label>21.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cottone</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mule</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Guarneri</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Palermo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lorito</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Riccobene</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Arsena</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Vaccaro</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Vadala</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Nardi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Endothelin-1 and F2-isoprostane relate to and predict renal dysfunction in hypertensive patients</article-title>
+          <source>Nephrol. Dial. Transplant.</source>
+          <year>2009</year>
+          <volume>24</volume>
+          <fpage>497</fpage>
+          <lpage>503</lpage>
+          <pub-id pub-id-type="doi">10.1093/ndt/gfn489</pub-id>
+          <pub-id pub-id-type="pmid">18772174</pub-id>
+        </citation>
+      </ref>
+      <ref id="B22-cells-04-00234">
+        <label>22.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zanatta</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Gerchman</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Burttet</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Nabinger</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Jacques-Silva</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Canani</surname>
+              <given-names>L.H.</given-names>
+            </name>
+            <name>
+              <surname>Gross</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Endothelin-1 levels and albuminuria in patients with type 2 diabetes mellitus</article-title>
+          <source>Diabetes Res. Clin. Pract.</source>
+          <year>2008</year>
+          <volume>80</volume>
+          <fpage>299</fpage>
+          <lpage>304</lpage>
+          <pub-id pub-id-type="pmid">18346810</pub-id>
+          <pub-id pub-id-type="doi">10.1016/j.diabres.2007.12.024</pub-id>
+        </citation>
+      </ref>
+      <ref id="B23-cells-04-00234">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Notenboom</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Smits</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Russel</surname>
+              <given-names>F.G.</given-names>
+            </name>
+            <name>
+              <surname>Masereeuw</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of NO in endothelin-regulated drug transport in the renal proximal tubule</article-title>
+          <source>Am. J. Physiol. Renal Physiol.</source>
+          <year>2002</year>
+          <volume>282</volume>
+          <fpage>F458</fpage>
+          <lpage>F464</lpage>
+          <pub-id pub-id-type="doi">10.1152/ajprenal.00173.2001</pub-id>
+          <pub-id pub-id-type="pmid">11832426</pub-id>
+        </citation>
+      </ref>
+      <ref id="B24-cells-04-00234">
+        <label>24.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Masereeuw</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Terlouw</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>van Aubel</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Russel</surname>
+              <given-names>F.G.</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>D.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Endothelin B receptor-mediated regulation of ATP-driven drug secretion in renal proximal tubule</article-title>
+          <source>Mol. Pharmacol.</source>
+          <year>2000</year>
+          <volume>57</volume>
+          <fpage>59</fpage>
+          <lpage>67</lpage>
+          <pub-id pub-id-type="pmid">10617679</pub-id>
+        </citation>
+      </ref>
+      <ref id="B25-cells-04-00234">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heemskerk</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wouterse</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Russel</surname>
+              <given-names>F.G.</given-names>
+            </name>
+            <name>
+              <surname>Masereeuw</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nitric oxide down-regulates the expression of organic cation transporters (OCT) 1 and 2 in rat kidney during endotoxemia</article-title>
+          <source>Eur. J. Pharmacol.</source>
+          <year>2008</year>
+          <volume>584</volume>
+          <fpage>390</fpage>
+          <lpage>397</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ejphar.2008.02.006</pub-id>
+          <pub-id pub-id-type="pmid">18313662</pub-id>
+        </citation>
+      </ref>
+      <ref id="B26-cells-04-00234">
+        <label>26.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Notenboom</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wouterse</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Peters</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Kuik</surname>
+              <given-names>L.H.</given-names>
+            </name>
+            <name>
+              <surname>Heemskerk</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Russel</surname>
+              <given-names>F.G.</given-names>
+            </name>
+            <name>
+              <surname>Masereeuw</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Increased apical insertion of the multidrug resistance protein 2 (MRP2/ABCC2) in renal proximal tubules following gentamicin exposure</article-title>
+          <source>J. Pharmacol. Exp. Ther.</source>
+          <year>2006</year>
+          <volume>318</volume>
+          <fpage>1194</fpage>
+          <lpage>1202</lpage>
+          <pub-id pub-id-type="doi">10.1124/jpet.106.104547</pub-id>
+          <pub-id pub-id-type="pmid">16757538</pub-id>
+        </citation>
+      </ref>
+      <ref id="B27-cells-04-00234">
+        <label>27.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Notenboom</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Kuik</surname>
+              <given-names>L.H.</given-names>
+            </name>
+            <name>
+              <surname>Smits</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Russel</surname>
+              <given-names>F.G.</given-names>
+            </name>
+            <name>
+              <surname>Masereeuw</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Short-term exposure of renal proximal tubules to gentamicin increases long-term multidrug resistance protein 2 (Abcc2) transport function and reduces nephrotoxicant sensitivity</article-title>
+          <source>J. Pharmacol. Exp. Ther.</source>
+          <year>2005</year>
+          <volume>315</volume>
+          <fpage>912</fpage>
+          <lpage>920</lpage>
+          <pub-id pub-id-type="doi">10.1124/jpet.105.089094</pub-id>
+          <pub-id pub-id-type="pmid">16085757</pub-id>
+        </citation>
+      </ref>
+      <ref id="B28-cells-04-00234">
+        <label>28.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jansen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Schophuizen</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Wilmer</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Lahham</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Mutsaers</surname>
+              <given-names>H.A.</given-names>
+            </name>
+            <name>
+              <surname>Wetzels</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Bank</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>van den Heuvel</surname>
+              <given-names>L.P.</given-names>
+            </name>
+            <name>
+              <surname>Hoenderop</surname>
+              <given-names>J.G.</given-names>
+            </name>
+            <name>
+              <surname>Masereeuw</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>A morphological and functional comparison of proximal tubule cell lines established from human urine and kidney tissue</article-title>
+          <source>Exp. Cell Res.</source>
+          <year>2014</year>
+          <volume>323</volume>
+          <fpage>87</fpage>
+          <lpage>99</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.yexcr.2014.02.011</pub-id>
+          <pub-id pub-id-type="pmid">24560744</pub-id>
+        </citation>
+      </ref>
+      <ref id="B29-cells-04-00234">
+        <label>29.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saito</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Takagi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Chung</surname>
+              <given-names>T.G.</given-names>
+            </name>
+            <name>
+              <surname>Ohta</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Serum levels of polyamines in patients with chronic renal failure</article-title>
+          <source>Kidney Int. Suppl.</source>
+          <year>1983</year>
+          <volume>16</volume>
+          <fpage>S234</fpage>
+          <lpage>S237</lpage>
+          <pub-id pub-id-type="pmid">6588257</pub-id>
+        </citation>
+      </ref>
+      <ref id="B30-cells-04-00234">
+        <label>30.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Igarashi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ueda</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yoshida</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kashiwagi</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Polyamines in renal failure</article-title>
+          <source>Amino Acids</source>
+          <year>2006</year>
+          <volume>31</volume>
+          <fpage>477</fpage>
+          <lpage>483</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00726-006-0264-7</pub-id>
+          <pub-id pub-id-type="pmid">16554974</pub-id>
+        </citation>
+      </ref>
+      <ref id="B31-cells-04-00234">
+        <label>31.</label>
+         <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Deyn</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Marescau</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Lornoy</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Becaus</surname>
+              <given-names>I.</given-names>
+            </name>
+			 <name>
+              <surname>Lowenthal</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Guanidino compounds in uraemic dialysed patients</article-title>
+          <source>Clin. Chim. Acta</source>
+          <year>1986</year>
+          <volume>157</volume>
+          <fpage>143</fpage>
+          <lpage>150</lpage>
+        </citation>
+      </ref>
+      <ref id="B32-cells-04-00234">
+        <label>32.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marescau</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Nagels</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Possemiers</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>De Broe</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <name>
+              <surname>Becaus</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Billiouw</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Lornoy</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>de Deyn</surname>
+              <given-names>P.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Guanidino compounds in serum and urine of nondialyzed patients with chronic renal insufficiency</article-title>
+          <source>Metabolism</source>
+          <year>1997</year>
+          <volume>46</volume>
+          <fpage>1024</fpage>
+          <lpage>1031</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0026-0495(97)90273-0</pub-id>
+        </citation>
+      </ref>
+      <ref id="B33-cells-04-00234">
+        <label>33.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Motohashi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Sakurai</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Saito</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Masuda</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Urakami</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Goto</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fukatsu</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ogawa</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Inui</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gene expression levels and immunolocalization of organic ion transporters in the human kidney</article-title>
+          <source>J. Am. Soc. Nephrol.</source>
+          <year>2002</year>
+          <volume>13</volume>
+          <fpage>866</fpage>
+          <lpage>874</lpage>
+          <pub-id pub-id-type="pmid">11912245</pub-id>
+        </citation>
+      </ref>
+      <ref id="B34-cells-04-00234">
+        <label>34.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Koepsell</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>The SLC22 family with transporters of organic cations, anions and zwitterions</article-title>
+          <source>Mol. Aspects Med.</source>
+          <year>2013</year>
+          <volume>34</volume>
+          <fpage>413</fpage>
+          <lpage>435</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.mam.2012.10.010</pub-id>
+          <pub-id pub-id-type="pmid">23506881</pub-id>
+        </citation>
+      </ref>
+      <ref id="B35-cells-04-00234">
+        <label>35.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Notenboom</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Smits</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Russel</surname>
+              <given-names>F.G.</given-names>
+            </name>
+            <name>
+              <surname>Masereeuw</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Involvement of guanylyl cyclase and cGMP in the regulation of Mrp2-mediated transport in the proximal tubule</article-title>
+          <source>Am. J. Physiol. Renal Physiol.</source>
+          <year>2004</year>
+          <volume>287</volume>
+          <fpage>F33</fpage>
+          <lpage>F38</lpage>
+          <pub-id pub-id-type="doi">10.1152/ajprenal.00443.2003</pub-id>
+          <pub-id pub-id-type="pmid">14970002</pub-id>
+        </citation>
+      </ref>
+      <ref id="B36-cells-04-00234">
+        <label>36.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goicoechea</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Quiroga</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Garcia de Vinuesa</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Verdalles</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Reque</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Panizo</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Arroyo</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Santos</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Macias</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Luno</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intraindividual interleukin-6 variations on the cardiovascular prognosis of patients with chronic renal disease</article-title>
+          <source>Ren. Fail.</source>
+          <year>2012</year>
+          <volume>34</volume>
+          <fpage>1002</fpage>
+          <lpage>1009</lpage>
+          <pub-id pub-id-type="doi">10.3109/0886022X.2012.696469</pub-id>
+          <pub-id pub-id-type="pmid">22746155</pub-id>
+        </citation>
+      </ref>
+      <ref id="B37-cells-04-00234">
+        <label>37.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pecoits-Filho</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Heimburger</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Barany</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Suliman</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fehrman-Ekholm</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Lindholm</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Stenvinkel</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Associations between circulating inflammatory markers and residual renal function in CRF patients</article-title>
+          <source>Am. J. Kidney Dis.</source>
+          <year>2003</year>
+          <volume>41</volume>
+          <fpage>1212</fpage>
+          <lpage>1218</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0272-6386(03)00353-6</pub-id>
+        </citation>
+      </ref>
+      <ref id="B38-cells-04-00234">
+        <label>38.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hage</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Jackson</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sobansky</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Schiel</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Yoo</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Joseph</surname>
+              <given-names>K.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of drug-protein interactions in blood using high-performance affinity chromatography</article-title>
+          <source>J. Sep. Sci.</source>
+          <year>2009</year>
+          <volume>32</volume>
+          <fpage>835</fpage>
+          <lpage>853</lpage>
+          <pub-id pub-id-type="doi">10.1002/jssc.200800640</pub-id>
+          <pub-id pub-id-type="pmid">19278006</pub-id>
+        </citation>
+      </ref>
+      <ref id="B39-cells-04-00234">
+        <label>39.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reidenberg</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Drayer</surname>
+              <given-names>D.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Alteration of drug-protein binding in renal disease</article-title>
+          <source>Clin. Pharmacokinet.</source>
+          <year>1984</year>
+          <volume>9</volume>
+          <fpage>18</fpage>
+          <lpage>26</lpage>
+          <pub-id pub-id-type="doi">10.2165/00003088-198400091-00003</pub-id>
+          <pub-id pub-id-type="pmid">6705423</pub-id>
+        </citation>
+      </ref>
+      <ref id="B40-cells-04-00234">
+        <label>40.</label>
+       <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rowland Yeo</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Aarabi</surname>
+              <given-names>M.</given-names>
+            </name>
+			 <name>
+              <surname>Jamei</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Rostami-Hodjegan</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Modeling and predicting drug pharmacokinetics in patients with renal impairment</article-title>
+          <source>Expert Rev. Clin. Pharmacol.</source>
+          <year>2011</year>
+          <volume>4</volume>
+          <fpage>261</fpage>
+          <lpage>274</lpage>
+        </citation>
+      </ref>
+      <ref id="B41-cells-04-00234">
+        <label>41.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vanholder</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Van Landschoot</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>De Smet</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Schoots</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ringoir</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Drug protein binding in chronic renal failure: Evaluation of nine drugs</article-title>
+          <source>Kidney Int.</source>
+          <year>1988</year>
+          <volume>33</volume>
+          <fpage>996</fpage>
+          <lpage>1004</lpage>
+          <pub-id pub-id-type="doi">10.1038/ki.1988.99</pub-id>
+          <pub-id pub-id-type="pmid">3392889</pub-id>
+        </citation>
+      </ref>
+      <ref id="B42-cells-04-00234">
+        <label>42.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Masereeuw</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Russel</surname>
+              <given-names>F.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanisms and clinical implications of renal drug excretion</article-title>
+          <source>Drug Metab. Rev.</source>
+          <year>2001</year>
+          <volume>33</volume>
+          <fpage>299</fpage>
+          <lpage>351</lpage>
+          <pub-id pub-id-type="doi">10.1081/DMR-120000654</pub-id>
+          <pub-id pub-id-type="pmid">11768771</pub-id>
+        </citation>
+      </ref>
+      <ref id="B43-cells-04-00234">
+        <label>43.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miller</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Stewart</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Pritchard</surname>
+              <given-names>J.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intracellular compartmentation of organic anions within renal cells</article-title>
+          <source>Am. J. Physiol.</source>
+          <year>1993</year>
+          <volume>264</volume>
+          <fpage>R882</fpage>
+          <lpage>R890</lpage>
+          <pub-id pub-id-type="pmid">8498598</pub-id>
+        </citation>
+      </ref>
+      <ref id="B44-cells-04-00234">
+        <label>44.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oliver</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Bland</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Oettinger</surname>
+              <given-names>C.W.</given-names>
+            </name>
+            <name>
+              <surname>Arduino</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>McAllister</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Aguero</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Favero</surname>
+              <given-names>M.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytokine kinetics in an <italic>in vitro</italic> whole blood model following an endotoxin challenge</article-title>
+          <source>Lymphokine Cytokine Res.</source>
+          <year>1993</year>
+          <volume>12</volume>
+          <fpage>115</fpage>
+          <lpage>120</lpage>
+          <pub-id pub-id-type="pmid">8324076</pub-id>
+        </citation>
+      </ref>
+      <ref id="B45-cells-04-00234">
+        <label>45.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Corti</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Fassina</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Marcucci</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Barbanti</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Cassani</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Oligomeric tumour necrosis factor alpha slowly converts into inactive forms at bioactive levels</article-title>
+          <source>Biochem. J.</source>
+          <year>1992</year>
+          <volume>284</volume>
+          <fpage>905</fpage>
+          <lpage>910</lpage>
+          <pub-id pub-id-type="pmid">1622406</pub-id>
+        </citation>
+      </ref>
+      <ref id="B46-cells-04-00234">
+        <label>46.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wollenberg</surname>
+              <given-names>G.K.</given-names>
+            </name>
+            <name>
+              <surname>DeForge</surname>
+              <given-names>L.E.</given-names>
+            </name>
+            <name>
+              <surname>Bolgos</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Remick</surname>
+              <given-names>D.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Differential expression of tumor necrosis factor and interleukin-6 by peritoneal macrophages <italic>in vivo</italic> and in culture</article-title>
+          <source>Am. J. Pathol.</source>
+          <year>1993</year>
+          <volume>143</volume>
+          <fpage>1121</fpage>
+          <lpage>1130</lpage>
+          <pub-id pub-id-type="pmid">8214006</pub-id>
+        </citation>
+      </ref>
+      <ref id="B47-cells-04-00234">
+        <label>47.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Terlouw</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Graeff</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Smeets</surname>
+              <given-names>P.H.</given-names>
+            </name>
+            <name>
+              <surname>Fricker</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Russel</surname>
+              <given-names>F.G.</given-names>
+            </name>
+            <name>
+              <surname>Masereeuw</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>D.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Short- and long-term influences of heavy metals on anionic drug efflux from renal proximal tubule</article-title>
+          <source>J. Pharmacol. Exp. Ther.</source>
+          <year>2002</year>
+          <volume>301</volume>
+          <fpage>578</fpage>
+          <lpage>585</lpage>
+          <pub-id pub-id-type="doi">10.1124/jpet.301.2.578</pub-id>
+          <pub-id pub-id-type="pmid">11961059</pub-id>
+        </citation>
+      </ref>
+      <ref id="B48-cells-04-00234">
+        <label>48.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Terlouw</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Masereeuw</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Russel</surname>
+              <given-names>F.G.</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>D.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nephrotoxicants induce endothelin release and signaling in renal proximal tubules: Effect on drug efflux</article-title>
+          <source>Mol. Pharmacol.</source>
+          <year>2001</year>
+          <volume>59</volume>
+          <fpage>1433</fpage>
+          <lpage>1440</lpage>
+          <pub-id pub-id-type="pmid">11353803</pub-id>
+        </citation>
+      </ref>
+      <ref id="B49-cells-04-00234">
+        <label>49.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wever</surname>
+              <given-names>K.E.</given-names>
+            </name>
+            <name>
+              <surname>Masereeuw</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Hang</surname>
+              <given-names>X.M.</given-names>
+            </name>
+            <name>
+              <surname>Flik</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Endothelin and calciotropic hormones share regulatory pathways in multidrug resistance protein 2-mediated transport</article-title>
+          <source>Am. J. Physiol. Renal Physiol.</source>
+          <year>2007</year>
+          <volume>292</volume>
+          <fpage>F38</fpage>
+          <lpage>F46</lpage>
+          <pub-id pub-id-type="doi">10.1152/ajprenal.00479.2005</pub-id>
+          <pub-id pub-id-type="pmid">16912062</pub-id>
+        </citation>
+      </ref>
+      <ref id="B50-cells-04-00234">
+        <label>50.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tamai</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Yabuuchi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Nezu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sai</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Oku</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Shimane</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tsuji</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cloning and characterization of a novel human ph-dependent organic cation transporter, OCTN1</article-title>
+          <source>FEBS Lett.</source>
+          <year>1997</year>
+          <volume>419</volume>
+          <fpage>107</fpage>
+          <lpage>111</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0014-5793(97)01441-5</pub-id>
+        </citation>
+      </ref>
+      <ref id="B51-cells-04-00234">
+        <label>51.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Prasad</surname>
+              <given-names>P.D.</given-names>
+            </name>
+            <name>
+              <surname>Leibach</surname>
+              <given-names>F.H.</given-names>
+            </name>
+            <name>
+              <surname>Ganapathy</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>cDNA sequence, transport function, and genomic organization of human OCTN2, a new member of the organic cation transporter family</article-title>
+          <source>Biochem. Biophys. Res. Commun.</source>
+          <year>1998</year>
+          <volume>246</volume>
+          <fpage>589</fpage>
+          <lpage>595</lpage>
+          <pub-id pub-id-type="doi">10.1006/bbrc.1998.8669</pub-id>
+          <pub-id pub-id-type="pmid">9618255</pub-id>
+        </citation>
+      </ref>
+      <ref id="B52-cells-04-00234">
+        <label>52.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schmidt-Lauber</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Harrach</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Pap</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Fischer</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Victor</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Heitzmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hansen</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Fobker</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Brand</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Sindic</surname>
+              <given-names>A.</given-names>
+            </name>
+			<etal/>
+          </person-group>
+          <article-title>Transport mechanisms and their pathology-induced regulation govern tyrosine kinase inhibitor delivery in rheumatoid arthritis</article-title>
+          <source>PLoS ONE</source>
+          <year>2012</year>
+          <volume>7</volume>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0052247</pub-id>
+          <pub-id pub-id-type="pmid">23284953</pub-id>
+        </citation>
+      </ref>
+      <ref id="B53-cells-04-00234">
+        <label>53.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Koepsell</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Substrate recognition and translocation by polyspecific organic cation transporters</article-title>
+          <source>Biol. Chem.</source>
+          <year>2011</year>
+          <volume>392</volume>
+          <fpage>95</fpage>
+          <lpage>101</lpage>
+          <pub-id pub-id-type="doi">10.1515/bc.2011.009</pub-id>
+          <pub-id pub-id-type="pmid">21194363</pub-id>
+        </citation>
+      </ref>
+      <ref id="B54-cells-04-00234">
+        <label>54.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Urakami</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Akazawa</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Saito</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Okuda</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Inui</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>cDNA cloning, functional characterization, and tissue distribution of an alternatively spliced variant of organic cation transporter hOCT2 predominantly expressed in the human kidney</article-title>
+          <source>J. Am. Soc. Nephrol.</source>
+          <year>2002</year>
+          <volume>13</volume>
+          <fpage>1703</fpage>
+          <lpage>1710</lpage>
+          <pub-id pub-id-type="doi">10.1097/01.ASN.0000019413.78751.46</pub-id>
+          <pub-id pub-id-type="pmid">12089365</pub-id>
+        </citation>
+      </ref>
+      <ref id="B55-cells-04-00234">
+        <label>55.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guckel</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Ciarimboli</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Pavenstadt</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Schlatter</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of organic cation transport in isolated mouse proximal tubules involves complex changes in protein trafficking and substrate affinity</article-title>
+          <source>Cell. Physiol. Biochem.</source>
+          <year>2012</year>
+          <volume>30</volume>
+          <fpage>269</fpage>
+          <lpage>281</lpage>
+          <pub-id pub-id-type="doi">10.1159/000339063</pub-id>
+          <pub-id pub-id-type="pmid">22759973</pub-id>
+        </citation>
+      </ref>
+      <ref id="B56-cells-04-00234">
+        <label>56.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Biermann</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lang</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Gorboulev</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Koepsell</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Sindic</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Schroter</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Zvirbliene</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Pavenstadt</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Schlatter</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Ciarimboli</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of regulatory mechanisms and states of human organic cation transporter 2</article-title>
+          <source>Am. J. Physiol. Cell Physiol.</source>
+          <year>2006</year>
+          <volume>290</volume>
+          <fpage>C1521</fpage>
+          <lpage>C1531</lpage>
+          <pub-id pub-id-type="doi">10.1152/ajpcell.00622.2005</pub-id>
+          <pub-id pub-id-type="pmid">16394027</pub-id>
+        </citation>
+      </ref>
+      <ref id="B57-cells-04-00234">
+        <label>57.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bacic</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Wagner</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Hernando</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Kaissling</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Biber</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Murer</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Novel aspects in regulated expression of the renal type IIa Na/Pi-cotransporter</article-title>
+          <source>Kidney Int. Suppl.</source>
+          <year>2004</year>
+          <volume>66</volume>
+          <fpage>S5</fpage>
+          <lpage>S12</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1523-1755.2004.09102.x</pub-id>
+          <pub-id pub-id-type="pmid">15461703</pub-id>
+        </citation>
+      </ref>
+      <ref id="B58-cells-04-00234">
+        <label>58.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Murer</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Hernando</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Forster</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Biber</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of Na/Pi transporter in the proximal tubule</article-title>
+          <source>Annu. Rev. Physiol.</source>
+          <year>2003</year>
+          <volume>65</volume>
+          <fpage>531</fpage>
+          <lpage>542</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev.physiol.65.042902.092424</pub-id>
+          <pub-id pub-id-type="pmid">12517995</pub-id>
+        </citation>
+      </ref>
+      <ref id="B59-cells-04-00234">
+        <label>59.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schwartz</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Suri</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Ross</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Alexander</surname>
+              <given-names>E.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of SNAREs and H+&#x2212;ATPase in the targeting of proton pump-coated vesicles to collecting duct cell apical membrane</article-title>
+          <source>Kidney Int.</source>
+          <year>2007</year>
+          <volume>72</volume>
+          <fpage>1310</fpage>
+          <lpage>1315</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.ki.5002500</pub-id>
+          <pub-id pub-id-type="pmid">17805241</pub-id>
+        </citation>
+      </ref>
+      <ref id="B60-cells-04-00234">
+        <label>60.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alexander</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Shih</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>McKee</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Schwartz</surname>
+              <given-names>J.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of acidification on the location of H<sup>+</sup>&#x2212;ATPase in cultured inner medullary collecting duct cells</article-title>
+          <source>Am. J. Physiol.</source>
+          <year>1999</year>
+          <volume>276</volume>
+          <fpage>C758</fpage>
+          <lpage>C763</lpage>
+          <pub-id pub-id-type="pmid">10070004</pub-id>
+        </citation>
+      </ref>
+      <ref id="B61-cells-04-00234">
+        <label>61.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Masereeuw</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Russel</surname>
+              <given-names>F.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulatory pathways for ATP-binding cassette transport proteins in kidney proximal tubules</article-title>
+          <source>AAPS J.</source>
+          <year>2012</year>
+          <volume>14</volume>
+          <fpage>883</fpage>
+          <lpage>894</lpage>
+          <pub-id pub-id-type="doi">10.1208/s12248-012-9404-z</pub-id>
+          <pub-id pub-id-type="pmid">22961390</pub-id>
+        </citation>
+      </ref>
+      <ref id="B62-cells-04-00234">
+        <label>62.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ciarimboli</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Schlatter</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of organic cation transport</article-title>
+          <source>Pflugers Arch.</source>
+          <year>2005</year>
+          <volume>449</volume>
+          <fpage>423</fpage>
+          <lpage>441</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00424-004-1355-5</pub-id>
+          <pub-id pub-id-type="pmid">15688244</pub-id>
+        </citation>
+      </ref>
+      <ref id="B63-cells-04-00234">
+        <label>63.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mehrens</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Lelleck</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Cetinkaya</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Knollmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hohage</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Gorboulev</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Boknik</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Koepsell</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Schlatter</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>The affinity of the organic cation transporter rOCT1 is increased by protein kinase c-dependent phosphorylation</article-title>
+          <source>J. Am. Soc. Nephrol.</source>
+          <year>2000</year>
+          <volume>11</volume>
+          <fpage>1216</fpage>
+          <lpage>1224</lpage>
+          <pub-id pub-id-type="pmid">10864577</pub-id>
+        </citation>
+      </ref>
+      <ref id="B64-cells-04-00234">
+        <label>64.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pietig</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Mehrens</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hirsch</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Cetinkaya</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Piechota</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Schlatter</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Properties and regulation of organic cation transport in freshly isolated human proximal tubules</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2001</year>
+          <volume>276</volume>
+          <fpage>33741</fpage>
+          <lpage>33746</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M104617200</pub-id>
+          <pub-id pub-id-type="pmid">11447227</pub-id>
+        </citation>
+      </ref>
+      <ref id="B65-cells-04-00234">
+        <label>65.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hartz</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Bauer</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Fricker</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>D.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rapid regulation of P-glycoprotein at the blood-brain barrier by endothelin-1</article-title>
+          <source>Mol. Pharmacol.</source>
+          <year>2004</year>
+          <volume>66</volume>
+          <fpage>387</fpage>
+          <lpage>394</lpage>
+          <pub-id pub-id-type="doi">10.1124/mol.104.001503</pub-id>
+          <pub-id pub-id-type="pmid">15322229</pub-id>
+        </citation>
+      </ref>
+      <ref id="B66-cells-04-00234">
+        <label>66.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miller</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Masereeuw</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Karnaky</surname>
+              <given-names>K.J.</given-names>
+              <suffix>Jr.</suffix>
+            </name>
+          </person-group>
+          <article-title>Regulation of MRP2-mediated transport in shark rectal salt gland tubules</article-title>
+          <source>Am. J. Physiol. Regul. Integr. Comp. Physiol.</source>
+          <year>2002</year>
+          <volume>282</volume>
+          <fpage>R774</fpage>
+          <lpage>R781</lpage>
+          <pub-id pub-id-type="doi">10.1152/ajpregu.00333.2001</pub-id>
+          <pub-id pub-id-type="pmid">11832398</pub-id>
+        </citation>
+      </ref>
+      <ref id="B67-cells-04-00234">
+        <label>67.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Knox</surname>
+              <given-names>F.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Production and functional roles of nitric oxide in the proximal tubule</article-title>
+          <source>Am. J. Physiol. Regul. Integr. Comp. Physiol.</source>
+          <year>2000</year>
+          <volume>278</volume>
+          <fpage>R1117</fpage>
+          <lpage>R1124</lpage>
+          <pub-id pub-id-type="pmid">10801277</pub-id>
+        </citation>
+      </ref>
+      <ref id="B68-cells-04-00234">
+        <label>68.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McLay</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Chatterjee</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Nicolson</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Jardine</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>McKay</surname>
+              <given-names>N.G.</given-names>
+            </name>
+            <name>
+              <surname>Ralston</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Grabowski</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Haites</surname>
+              <given-names>N.E.</given-names>
+            </name>
+            <name>
+              <surname>MacLeod</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Hawksworth</surname>
+              <given-names>G.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nitric oxide production by human proximal tubular cells: A novel immunomodulatory mechanism?</article-title>
+          <source>Kidney Int.</source>
+          <year>1994</year>
+          <volume>46</volume>
+          <fpage>1043</fpage>
+          <lpage>1049</lpage>
+          <pub-id pub-id-type="doi">10.1038/ki.1994.365</pub-id>
+          <pub-id pub-id-type="pmid">7532248</pub-id>
+        </citation>
+      </ref>
+      <ref id="B69-cells-04-00234">
+        <label>69.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heemskerk</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>van Koppen</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>van den Broek</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Poelen</surname>
+              <given-names>G.J.</given-names>
+            </name>
+            <name>
+              <surname>Wouterse</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Dijkman</surname>
+              <given-names>H.B.</given-names>
+            </name>
+            <name>
+              <surname>Russel</surname>
+              <given-names>F.G.</given-names>
+            </name>
+            <name>
+              <surname>Masereeuw</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nitric oxide differentially regulates renal ATP-binding cassette transporters during endotoxemia</article-title>
+          <source>Pflugers Arch.</source>
+          <year>2007</year>
+          <volume>454</volume>
+          <fpage>321</fpage>
+          <lpage>334</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00424-007-0210-x</pub-id>
+          <pub-id pub-id-type="pmid">17285300</pub-id>
+        </citation>
+      </ref>
+      <ref id="B70-cells-04-00234">
+        <label>70.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Duan</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>H.Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>H.F.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>X.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biphasic regulation of P-glycoprotein function and expression by NO donors in Caco-2 cells</article-title>
+          <source>Acta Pharmacol. Sin.</source>
+          <year>2012</year>
+          <volume>33</volume>
+          <fpage>767</fpage>
+          <lpage>774</lpage>
+          <pub-id pub-id-type="doi">10.1038/aps.2012.25</pub-id>
+          <pub-id pub-id-type="pmid">22543702</pub-id>
+        </citation>
+      </ref>
+      <ref id="B71-cells-04-00234">
+        <label>71.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heemskerk</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Peters</surname>
+              <given-names>J.G.</given-names>
+            </name>
+            <name>
+              <surname>Louisse</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sagar</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Russel</surname>
+              <given-names>F.G.</given-names>
+            </name>
+            <name>
+              <surname>Masereeuw</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of P-glycoprotein in renal proximal tubule epithelial cells by LPS and TNF-alpha</article-title>
+          <source>J. Biomed. Biotechnol.</source>
+          <year>2010</year>
+          <volume>2010</volume>
+          <pub-id pub-id-type="doi">10.1155/2010/525180</pub-id>
+          <pub-id pub-id-type="pmid">20300455</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xml:lang="en" article-type="research-article" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells3020500</article-id>
+      <article-id pub-id-type="publisher-id">cells-03-00500</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Aberrantly Over-Expressed TRPM8 Channels in Pancreatic Adenocarcinoma: Correlation with Tumor Size/Stage and Requirement for Cancer Cells Invasion</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yee</surname>
+            <given-names>Nelson S.</given-names>
+          </name>
+          <xref rid="af1-cells-03-00500" ref-type="aff">1</xref>
+          <xref rid="c1-cells-03-00500" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Qin</given-names>
+          </name>
+          <xref rid="af1-cells-03-00500" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kazi</surname>
+            <given-names>Abid A.</given-names>
+          </name>
+          <xref rid="af1-cells-03-00500" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yang</surname>
+            <given-names>Zhaohai</given-names>
+          </name>
+          <xref rid="af2-cells-03-00500" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Berg</surname>
+            <given-names>Arthur</given-names>
+          </name>
+          <xref rid="af3-cells-03-00500" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yee</surname>
+            <given-names>Rosemary K.</given-names>
+          </name>
+          <xref rid="af4-cells-03-00500" ref-type="aff">4</xref>
+        </contrib>
+      </contrib-group>
+	  <aff id="af1-cells-03-00500"><label>1</label>Division of Hematology-Oncology, Department of Medicine, Penn State College of Medicine, Program of Experimental Therapeutics, Penn State Hershey Cancer Institute, Penn State Milton S. Hershey Medical Center, Pennsylvania State University, Hershey, PA 17033, USA; E-Mails: <email>QLi4@mdanderson.org</email> (Q.L.); <email>aak3@psu.edu</email> (A.A.K.)</aff>
+      <aff id="af2-cells-03-00500"><label>2</label>Division of Anatomic Pathology, Department of Pathology, Penn State College of Medicine, Penn State Milton S. Hershey Medical Center, Pennsylvania State University, Hershey, PA 17033, USA; E-Mail: <email>zyang2@hmc.psu.edu</email></aff>
+      <aff id="af3-cells-03-00500"><label>3</label>Division of Biostatistics, Department of Public Health, Penn State College of Medicine, Penn State Milton S. Hershey Medical Center, Pennsylvania State University, Hershey, PA 17033, USA; E-Mail: <email>aberg1@hmc.psu.edu</email></aff>
+      <aff id="af4-cells-03-00500"><label>4</label>Schreyer Honors College, Pennsylvania State University, University Park, PA 16802, USA; Penn State Harrisburg School of Humanities, Pennsylvania State University, Middletown, PA 17057, USA; E-Mail: <email>rky5018@psu.edu</email></aff>
+      <author-notes>
+        <corresp id="c1-cells-03-00500"><label>*</label>Author to whom correspondence should be addressed; E-Mail: <email>nyee@hmc.psu.edu</email>; Tel.: +1-717-531-0003; Fax: +1-717-531-5076.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>23</day>
+        <month>05</month>
+        <year>2014</year>
+      </pub-date>
+      <pub-date pub-type="collection">	    <month>06</month>
+        <year>2014</year>
+      </pub-date>
+      <volume>3</volume>
+      <issue>2</issue>
+      <fpage>500</fpage>
+      <lpage>516</lpage>
+      <history>
+        <date date-type="received">
+          <day>10</day>
+          <month>03</month>
+          <year>2014</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>07</day>
+          <month>05</month>
+          <year>2014</year>
+        </date>
+        <date date-type="accepted">
+          <day>14</day>
+          <month>05</month>
+          <year>2014</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#x000A9; 2014 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2014</copyright-year>
+        <license>
+          <p>This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (http://creativecommons.org/licenses/by/3.0/).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The transient receptor potential melastatin-subfamily member 8 (TRPM8) channels control Ca<sup>2+</sup> homeostasis. Recent studies indicate that TRPM8 channels are aberrantly expressed and required for cellular proliferation in pancreatic adenocarcinoma. However, the functional significance of TRPM8 in pancreatic tissues is mostly unknown. The objectives of this study are to examine the expression of TRPM8 in various histopathological types of pancreatic tissues, determine its clinical significance in pancreatic adenocarcinoma, and investigate its functional role in cancer cells invasion. We present evidence that, in normal pancreatic tissues, anti-TRPM8 immunoreactivity is detected in the centroacinar cells and the islet endocrine cells. In pre-malignant pancreatic tissues and malignant neoplasms, TRPM8 is aberrantly expressed to variable extents. In the majority of pancreatic adenocarcinoma, TRPM8 is expressed at moderate or high levels, and anti-TRPM8 immunoreactivity positively correlates with the primary tumor size and stage. In the pancreatic adenocarcinoma cell lines that express relatively high levels of <italic>TRPM8</italic>, short hairpin RNA-mediated interference of <italic>TRPM8</italic> expression impaired their ability of invasion. These data suggest that aberrantly expressed TRPM8 channels play contributory roles in pancreatic tumor growth and metastasis, and support exploration of TRPM8 as a biomarker and target of pancreatic adenocarcinoma.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>biomarker</kwd>
+        <kwd>cell invasion</kwd>
+        <kwd>cell migration</kwd>
+        <kwd>ion channel</kwd>
+        <kwd>molecular target</kwd>
+        <kwd>pancreatic cancer</kwd>
+        <kwd>TRPM8</kwd>
+        <kwd>transient receptor potential</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>1. Introduction</title>
+      <p>The goal of this study is to elucidate the clinical and functional significance of the transient receptor potential TRPM8 ion channel in pancreatic cancer. Pancreatic adenocarcinoma, the most common histopathological type of cancer in the pancreas, is highly lethal, and the prognosis of patients with pancreatic cancer is generally poor [<xref ref-type="bibr" rid="B1-cells-03-00500">1</xref>]. For the majority of patients with pancreatic adenocarcinoma, the disease is often diagnosed at the advanced stages, when palliative systemic chemotherapy may provide limited benefits. Development of biomarkers-based targeted agents has been under active investigation, and such therapeutics may offer new opportunities to improve treatment response in patients with pancreatic cancer [<xref ref-type="bibr" rid="B2-cells-03-00500">2</xref>]. Accumulating evidence has revealed the important roles of ion channels in cancer including those of the transient receptor potential (TRP) family [<xref ref-type="bibr" rid="B3-cells-03-00500">3</xref>,<xref ref-type="bibr" rid="B4-cells-03-00500">4</xref>]. Certain members of the TRP melastatin (TRPM) subfamily of ion channels are implicated in various human malignancies, and their expression and roles in pancreatic cancer have recently been identified [<xref ref-type="bibr" rid="B5-cells-03-00500">5</xref>,<xref ref-type="bibr" rid="B6-cells-03-00500">6</xref>]. Understanding the functions of these channels and their underlying mechanisms is expected to shed new light into the pathogenesis of pancreatic neoplasms and facilitate development of clinical biomarkers and therapeutic targets.</p>
+      <p>Translation of developmental regulators of exocrine pancreatic development in zebrafish has led to discovery of TRPM7 and its subfamily member TRPM8 in pancreatic adenocarcinoma [<xref ref-type="bibr" rid="B5-cells-03-00500">5</xref>,<xref ref-type="bibr" rid="B7-cells-03-00500">7</xref>,<xref ref-type="bibr" rid="B8-cells-03-00500">8</xref>,<xref ref-type="bibr" rid="B9-cells-03-00500">9</xref>,<xref ref-type="bibr" rid="B10-cells-03-00500">10</xref>,<xref ref-type="bibr" rid="B11-cells-03-00500">11</xref>]. TRPM8 channels are non-selective, voltage-gated, and permeable to divalent and monovalent ions [<xref ref-type="bibr" rid="B12-cells-03-00500">12</xref>,<xref ref-type="bibr" rid="B13-cells-03-00500">13</xref>]. TRPM8 channels can be activated by cold temperature or cooling compounds, leading to an increase in intracellular concentration of Ca<sup>2+</sup> [<xref ref-type="bibr" rid="B9-cells-03-00500">9</xref>]. In human adult tissues, TRPM8 is selectively expressed and aberrantly expressed in carcinoma arising in various organs [<xref ref-type="bibr" rid="B6-cells-03-00500">6</xref>,<xref ref-type="bibr" rid="B14-cells-03-00500">14</xref>].</p>
+      <p>In human pancreatic adenocarcinoma cell lines and in a few specimens of pancreatic adenocarcinoma tissues examined, expression of TRPM8 is consistently elevated [<xref ref-type="bibr" rid="B7-cells-03-00500">7</xref>,<xref ref-type="bibr" rid="B9-cells-03-00500">9</xref>]. TRPM8 channels are required for maintaining proliferation and preventing replicative senescence of pancreatic cancer cells [<xref ref-type="bibr" rid="B7-cells-03-00500">7</xref>,<xref ref-type="bibr" rid="B9-cells-03-00500">9</xref>]. However, expression of TRPM8 channels in various pancreatic neoplasms, their clinical significance, and functional roles in pancreatic cancer are mostly unknown. Whether TRPM8 channels play a role in pancreatic cancer cells invasion has not been studied.</p>
+      <p>In this study, we aimed to examine the expression of TRPM8 in normal and pathological pancreatic tissues, explore the clinical significance of TRPM8 in pancreatic adenocarcinoma, and determine its role in cancer cells invasion. We analyzed the expression of the TRPM8 channels using microarrays of adult human pancreatic tissues by immunohistochemistry (IHC). Our data indicate TRPM8 channels are aberrantly over-expressed in the majority of specimens of pancreatic adenocarcinoma, and the expression levels of TRPM8 positively correlate with tumor size and stage. In pancreatic adenocarcinoma cell lines, short hairpin RNA-mediated silencing of <italic>TRPM8</italic> impaired cancer cells invasion. Results of this study suggest that aberrantly expressed TRPM8 channels play contributory roles in pancreatic tumor growth and metastasis. These data further support the potential of TRPM8 for development as a clinical biomarker and a therapeutic target in pancreatic adenocarcinoma.</p>
+    </sec>
+    <sec>
+      <title>2. Experimental Section</title>
+      <sec>
+        <title>2.1. Pancreatic Tissue Microarrays</title>
+        <p>The human pancreatic tissues microarrays were obtained from Biomax, Inc. (Rockville, MD, USA). These microarrays contain normal and pathological pancreatic tissues, as well as a variety of pancreatic tumors. Demographic data such as age and gender are available. The pathological features including histopathology, tumor grade, tumor size, tumor extent, involvement of regional lymph nodes, and distant metastasis are described. Pathological staging of pancreatic adenocarcinoma is based on the American Joint Cancer Commission 7<sup>th</sup> edition. The therapeutic modalities, treatment response, and survival data that correspond to the tissue microarrays are not provided by Biomax, Inc.</p>
+      </sec>
+      <sec>
+        <title>2.2. Histological and Immunohistochemical Analysis of Anti-TRPM8 Immunoreactivity</title>
+        <p>The tissue microarray slides were processed for staining with hematoxylin and eosin using standard procedures. Expression of TRPM8 was analyzed by IHC using rabbit polyclonal anti-human TRPM8 antibodies (Lifespan Biosciences, Inc., Seattle, WA, USA) at a 1:100 dilution, followed by incubation with horseradish peroxidase-conjugated anti-rabbit IgG (EnVision&#x2122; + System, Dako, Carpinteria, CA, USA). The signals were detected by color reaction using 3,3&#x2019;-diaminobenzidine (Dako), counterstained with hematoxylin (Richard-Allan Scientific<sup>&#xAE;</sup>/VWR, Radnor, PA, USA), and mounted using Permount (Sigma-Aldrich<sup>&#xAE;</sup>, St. Louis, MO, USA). The brown color indicates immunoreactivity against TRPM8 protein. Tissue sections incubated in the absence of anti-TRPM8 antibodies were processed in parallel, and they did not exhibit any detectable TRPM8-specific immunoreactivity (data not shown).</p>
+        <p>Each tissue section is present in triplicates. Each specimen was examined under a compound light microscope to determine the histopathological features and the level of expression of TRPM8. The pathologist (Z.Y.) and the medical oncologist (N.S.Y.) were blinded from the clinicopathological data at the time of immunohistochemical examination. The level of expression of TRPM8 is based on immunoreactivity using a conventionally used scoring system of 0 to 4+ and the percentage of positive cells. (0 to 1+ and &lt;50%) is considered as no-to-low expression; (1+ and &#x2265;50% to 2+ and 100%), moderate expression; (&#x2265;3+ and any %), high expression. Images were acquired under a compound light microscope using a digital camera (DP12, Olympus, Center Valley, PA, USA) and analyzed with Adobe<sup>&#xAE;</sup> Photoshop<sup>&#xAE;</sup> Elements.</p>
+      </sec>
+      <sec>
+        <title>2.3. Statistical Analysis</title>
+        <p>The expression level of TRPM8 was determined by IHC, which was scored by multiplying the intensity (range 0&#x2013;4) with the percentage of positive cells (range 0%&#x2013;100%). The distribution of the IHC score against age, gender, primary tumor size, histological grade, and stage are displayed along with the respective means, standard errors, and <italic>p</italic>-values. The statistical significance was assessed using linear regression treating the IHC score as the response variable. The ordered categorical variables (primary tumor size, histological grade, and stage) were analyzed with an interval scale (ranging from 1 to 4 for each variable). Therefore, <italic>p</italic>-values for the ordered categorical variables are analogous to a trend test and the <italic>p</italic>-values for the binary variables (age &gt;55, gender) are analogous to a two-sample <italic>t</italic>-test. The statistical analysis was performed using R [<xref ref-type="bibr" rid="B15-cells-03-00500">15</xref>]. The graphics were produced using the beeswarm package [<xref ref-type="bibr" rid="B16-cells-03-00500">16</xref>] in R.</p>
+        <p>Six pairwise comparisons were performed on the log-transformed IHC score data using the pairwise-<italic>t</italic>-test function in R with Bonferonni adjustments to the <italic>p</italic>-values to account for multiple comparisons. Polyserial correlation between the ordinal variables of primary tumor size/stage and the log-transformed IHC score data was calculated using the polyserial function in the polycor library in R. Statistical significance is determined with a two-sided permutation test using 10<sup>5</sup> permutations.</p>
+      </sec>
+      <sec>
+        <title>2.4. Cell Lines and Culture</title>
+        <p>The human pancreatic adenocarcinoma cell lines (BxPC-3 and MIA PaCa-2) were obtained from American Type Culture Collection (ATCC, Manassas, VA, USA) and maintained according to ATCC&#x2019;s instructions. The cells were incubated at 37 &#xB0;C in a humidified atmosphere containing 5% CO<sub>2</sub>. They were used within twenty passages and periodically recovered from the stocks frozen in liquid nitrogen.</p>
+      </sec>
+      <sec>
+        <title>2.5. Immunoblot Analysis of TRPM8 Protein</title>
+        <p>For each cell line, 2.5 &#xD7; 10<sup>6</sup> cells were seeded in a 10-cm cell culture dish (Corning Inc., Corning, NY, USA) and incubated for 48 h. Cells were lyzed in RIPA buffer (Sigma-Aldrich<sup>&#xAE;</sup>) containing EDTA-free mini-protease inhibitor cocktail (Roche Diagnostics, Indianapolis, IN, USA). The lysates were sonicated for 10 min, mixed for 30 min at 4 &#xB0;C, and then centrifuged at 14,000&#xD7; g for 10 min at 4 &#xB0;C.</p>
+        <p>For each protein sample, equal volume was loaded in each lane in duplicates and analyzed using 10% SDS-PAGE. The gel was run overnight, and the proteins were transferred to polyvinylidene fluoride membrane (Biotrace; PALL, Pensacola, FL, USA). The membrane was blocked in 5% non-fat dry milk and incubated overnight at 4 &#xB0;C with anti-human TRPM8 (rabbit polyclonal) or anti-human GAPDH (mouse monoclonal) antibodies (OriGene Technologies, Rockville, MD, USA) used at 1:750 and 1:2500 dilution, respectively. Excess primary antibodies were removed by washing the membrane in Tris-buffered saline containing 0.1% Tween 20. The membranes were then incubated with horseradish peroxidase&#x2013;conjugated goat anti-rabbit or goat anti-mouse secondary antibodies (Bethyl Laboratories, Montgomery, TX, USA) at room temperature for 1 h. The membranes were rinsed with Tris-buffered saline containing 0.1% Tween 20 to remove excess secondary antibodies. TRPM8 and GAPDH proteins were detected by using enhanced chemiluminescence (ECL plus, Amersham, Piscataway, NJ, USA) according to the manufacturer&#x2019;s instructions. The chemiluminescent signals were developed using a ProteinSimple Fluorchem M imaging system (Santa Clara, CA, USA). GAPDH was assayed as internal control for equal loading of protein samples. The protein levels of TRPM8 were normalized with those of GAPDH by quantifying the protein levels in the uncompressed images using the National Institutes of Health (NIH) ImageJ 1.6 software.</p>
+      </sec>
+      <sec>
+        <title>2.6. Short Hairpin RNA (shRNA)-Mediated Silencing of TRPM8</title>
+        <p>Four plasmids containing different shRNA directed against human <italic>TRPM8</italic> and a plasmid containing non-targeting shRNA were obtained from Superarray Biosciences/Qiagen (Valencia, CA, USA) and tested for efficiency of gene silencing. An shRNA under control of U1 promoter and green fluorescent protein (GFP) reporter gene are contained in each plasmid. The sequences of the anti-<italic>TRPM8</italic> shRNA were:
+		<list list-type="simple">
+          <list-item><p>5'-AAACTTAGGACCCAAGATTAT-3'; 5'-AAGGAACTCTCCAAAGTCATT-3';</p></list-item>
+          <list-item><p>5'-AAACACCCAACCTGGTCATTT-3'; 5'-CAACGACACCTCAGAGGAAAT-3'.</p></list-item>
+        </list></p>
+        <p>Non-targeting control shRNA: 5'-ggaatctcattcgatgcatac-3'.</p>
+        <p>BxPC-3 cells at 90% confluency in a 10-cm dish containing 10 mL OptiMem<sup>&#xAE;</sup> medium (Invitrogen&#x2122;, Life Technologies) were transfected with either 24 &#xB5;g anti-<italic>TRPM8</italic> shRNA (Qiagen) or non-targeting control shRNA (Qiagen) using 60 &#xB5;L Lipofectamine&#x2122; 2000 (Invitrogen&#x2122;, Life Technologies, Grand Island, NY, USA) and then incubated at 37 &#xB0;C for 5 h. The transfected cells were incubated in RPMI 1640 medium containing 10% fetal bovine serum (FBS, Life Technologies) at 37 &#xB0;C for 24 h, sorted and collected by flow cytometry for green fluorescent protein (GFP) with emission light at a wavelength of 488 nm using BD FACSCalibur<sup>&#xAE;</sup> (BD Biosciences, San Jose, CA, USA). The transfected cells were incubated in culture medium at 37 &#xB0;C for 24 h. Total RNA was extracted from the GFP-sorted cells and analyzed for <italic>TRPM8</italic> mRNA by reverse transcription followed by semi-quantitative polymerase chain reaction (PCR) as described [<xref ref-type="bibr" rid="B8-cells-03-00500">8</xref>]. Among the four anti-<italic>TRPM8</italic> shRNA, the shRNA targeting the sequence 5'-CAACGACACCTCAGAGGAAAT-3' produced the most repression of <italic>TRPM8</italic> mRNA (70% reduction) and it was used for further experiment.</p>
+      </sec>
+      <sec>
+        <title>2.7. <italic>In Vitro</italic> Assay for Cell Invasion</title>
+        <p>BxPC-3 and MIA PaCa-2 cells transfected with either anti-<italic>TRPM8</italic> shRNA (Qiagen) or non-targeting control shRNA (Qiagen) were incubated in RPMI 1640 medium containing 10% FBS at 37 &#xB0;C for 24 h. The cells were washed in phosphate-buffered saline, and incubated in serum-free medium that contained 0.1% bovine serum albumin (Sigma<sup>&#xAE;</sup>) for another 48 h. The cells were then seeded at 3 &#xD7; 10<sup>4</sup> cells in 1 mL medium in each well of a 6-well culture plate (Corning) with 10% Matrigel&#x2122; (BD Biosciences, San Jose, CA, USA)-coated trans-well inserts with 8 &#xB5;m filters (Greiner Bio-One, VWR, Radnor, PA, USA), and 2.5 mL of 10% FBS (as a chemoattractant) in the lower chamber. Following incubation at 37 &#xB0;C for 24 h, the cells were analyzed for invasion.</p>
+        <p>The cells that had migrated and invaded onto the lower side of the insert membrane were fixed with pre-cooled (4 &#xB0;C) methanol and stained with 0.1% solution of crystal violet (Sigma<sup>&#xAE;</sup>). The images were acquired under an inverted light microscope with phase contrast (Nikon ECLIPSE Ti, Melville, NY, USA) and processed using Adobe<sup>&#xAE;</sup> Photoshop<sup>&#xAE;</sup> 7. For each well, the cells that had invaded in each of 9 visual fields observed at 40&#xD7; and 200&#xD7; magnification were counted. A graph that shows invasion of the <italic>TRPM8</italic>-silenced cells through the trans-well was expressed as percentage of cells transfected with non-targeting control shRNA. Each experiment was conducted for a total of three times with similar results. Cell viability was determined by exclusion of trypan blue.</p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>3. Results and Discussion</title>
+      <sec>
+        <title>3.1. Expression of TRPM8 in Normal and Non-Malignant Pancreatic Tissues</title>
+        <p>TRPM8 channels are cellular sensors and regulators of Ca<sup>2+</sup> homeostasis, and they have been implicated in human malignancies. We have recently demonstrated increased expression of TRPM8 in pancreatic adenocarcinoma cell lines and a few tissue specimens. However, the clinicopathological features and significance of TRPM8 in pancreatic adenocarcinoma and non-malignant pancreatic tissues as well as the various histologic subtypes of pancreatic tumors remain to be explored. Tissue microarrays from human pancreas were examined for expression of TRPM8 by IHC using specific anti-TRPM8 antibodies. There are 366 specimens, including normal pancreatic tissues, chronic pancreatitis, pre-malignant neoplasms, and a variety of malignant tumors. The various histopathological types of pancreatic tumors in these tissue microarrays are present in proportions that are representative of clinical situations.</p>
+        <p>Pancreatic adenocarcinoma, the most common type of cancer in the pancreas, is present in the largest proportion, whereas the other relatively rare malignant tumors are present in variably small proportions. There is relatively small number of metastatic pancreatic adenocarcinoma in the tissue microarrays as compared to that of primary pancreatic adenocarcinoma. This is because most of the primary pancreatic adenocarcinoma are surgically resected specimens, whereas the metastatic tumors are typically aspirated using a fine needle and not amenable to IHC. However, validity of the expression analysis is supported by the fact that, each patient&#x2019;s pancreatic tissue is displayed as triplicates in the microarrays, and the immunohistochemical analysis of TRPM8 in the triplicate samples of each specimen is consistent throughout this tissue microarray.</p>
+        <p>First, we examined the expression of TRPM8 in normal pancreatic tissues, chronic pancreatitis, and the pre-malignant lesions including pancreatic intra-epithelial neoplasms (PanINs) and intraductal papillary mucinous neoplasms (IPMN). In normal pancreatic tissues, TRPM8 is expressed in the ductal cells and centroacinar cells (<xref ref-type="fig" rid="cells-03-00500-f001">Figure 1</xref>A). There is strong immunoreactivity against TRPM8 in the islet endocrine cells in which the expression of TRPM8 appears eccentric (<xref ref-type="fig" rid="cells-03-00500-f001">Figure 1</xref>A). No appreciable anti-TRPM8 immunoreactivity was detectable in the acinar cells (<xref ref-type="fig" rid="cells-03-00500-f001">Figure 1</xref>A).</p>
+        <p>In chronic pancreatitis, not only does anti-TRPM8 immunoreactivity becomes prominent in the ductal cells and centroacinar cells, however, it is also detectable in the acinar cells (<xref ref-type="fig" rid="cells-03-00500-f001">Figure 1</xref>B). In PanINs, low-to-moderate levels of expression of TRPM8 are present in the basal plasma membrane of the ductal cells (<xref ref-type="fig" rid="cells-03-00500-f001">Figure 1</xref>C). In intraductal papillary mucinous neoplasms (IPMN), a low level of anti-TRPM8 immunoreactivity is detected at the apical plasma membrane of the ductal cells (<xref ref-type="fig" rid="cells-03-00500-f001">Figure 1</xref>D).</p>
+		<fig id="cells-03-00500-f001" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p>Immunohistochemistry using anti-TRPM8 in pancreatic tissues. (<bold>A</bold>) Normal pancreatic tissues. (<bold>B</bold>) Chronic pancreatitis. (<bold>C</bold>) Pancreatic intra-epithelial neoplasm. (<bold>D</bold>) Intraductal papillary mucinous neoplasm.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-00500-g001.tif"/>
+        </fig>
+        <p>Thus, expression of TRPM8 protein in normal human pancreatic tissues is cell-specific, and it is aberrantly up-regulated in chronic pancreatitis and PanINs. It is unclear what the normal functions of the TRPM8 channels in the pancreatic epithelia. We speculate that the TRPM8 channels&#x2019; ability of sensing alterations in temperature and acidity contributes to the regulation of the physiological functions of exocrine and endocrine pancreas. Besides, whether TRPM8 plays a role in the formation of those pathological conditions of exocrine pancreas remains to be determined.</p>
+      </sec>
+      <sec>
+        <title>3.2. Expression of TRPM8 in Malignant Pancreatic Neoplasms</title>
+        <p>Various histopathological subtypes of malignant pancreatic tumors including adenocarcinoma, adenosquamous carcinoma, solid pseudopapillary carcinoma, and acinar carcinoma were examined for anti-TRPM8 immunoreactivity. There is moderate or high level of expression of TRPM8 in 92% (<italic>n</italic> = 258) of pancreatic adenocarcinoma (<xref ref-type="fig" rid="cells-03-00500-f002">Figure 2</xref>A,B). Anti-TRPM8 immunoreactivity in the adenocarcinoma cells appears to be diffuse within the cells (<xref ref-type="fig" rid="cells-03-00500-f002">Figure 2</xref>B).</p>
+        <p>In both adenosquamous carcinoma and solid pseudopapillary carcinoma, there are moderate-high levels of anti-TRPM8 immunoreactivity, which appears diffuse in the cytoplasm with accentuation in the plasma membrane (<xref ref-type="fig" rid="cells-03-00500-f002">Figure 2</xref>C&#x2013;F). No appreciable anti-TRPM8 immunoreactivity can be detected in all of the specimens of acinar carcinoma being examined (<xref ref-type="fig" rid="cells-03-00500-f002">Figure 2</xref>G,H). In pancreatic neuroendocrine tumors, the majority of specimens express moderate anti-TRPM8 immunoreactivity (<xref ref-type="fig" rid="cells-03-00500-f002">Figure 2</xref>I,J). It is noteworthy that, in pancreatic neuroendocrine tumor cells, expression of TRPM8 is diffuse within the cytoplasm (<xref ref-type="fig" rid="cells-03-00500-f002">Figure 2</xref>J). This is in contrast to the eccentric distribution of TRPM8 protein in normal endocrine cells of pancreatic islets (<xref ref-type="fig" rid="cells-03-00500-f001">Figure 1</xref>A). The proportions of each histological type of pancreatic neoplasms and the corresponding expression levels of TRPM8 are listed in <xref ref-type="table" rid="cells-03-00500-t001">Table 1</xref>. Besides adenocarcinoma, the other types of pancreatic tumors are relatively rare and present in small numbers. Further analysis that involves a large number of specimens will be necessary to determine the clinical significance of TRPM8 in those relatively rare pancreatic tumors.</p>
+		<fig id="cells-03-00500-f002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>Immunohistochemical analysis of TRPM8 in malignant pancreatic tumors. (<bold>A</bold>,<bold>B</bold>) Adenocarcinoma. (<bold>C</bold>,<bold>D</bold>) Adenosquamous carcinoma. (<bold>E</bold>,<bold>F</bold>) Solid pseudo-papillary neoplasm (<bold>G</bold>,<bold>H</bold>) Acinar cell carcinoma. (<bold>I</bold>,<bold>J</bold>) Neuroendocrine tumor. (<bold>A</bold>,<bold>C</bold>,<bold>E</bold>,<bold>G</bold>,<bold>I</bold>) H and E, original magnification &#xD7;200. (<bold>B</bold>,<bold>D</bold>,<bold>F</bold>,<bold>H</bold>,<bold>J</bold>) Immunohistochemistry using anti-TRPM8 antibodies, original magnification &#xD7;400.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-00500-g002.tif"/>
+        </fig>
+        <table-wrap id="cells-03-00500-t001" position="float">
+          <object-id pub-id-type="pii">cells-03-00500-t001_Table 1</object-id>
+          <label>Table 1</label>
+          <caption>
+            <p>Expression of TRPM8 in various types of histopathology in pancreatic tumors with regard to the intensity of immunoreactivity and the percentage of positive cells. The total number of cases examined is 308. The values represent the number of specimens with the corresponding proportions in parentheses.</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th style="border-right: solid thin" rowspan="2" align="center" valign="middle">Pancreatictumors</th>
+                <th colspan="3" align="center" valign="middle">Expression levels of TRPM8</th>
+              </tr>
+              <tr style="border-top: solid thin">
+                <th align="center" valign="middle">No-to-low (0 to 1+, &lt;50%)</th>
+                <th align="center" valign="middle">Moderate (1+, &#x2265;50% to 2+, 100%)</th>
+                <th align="center" valign="middle">High (&#x2265;3+, any %)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="border-right: solid thin" align="center" valign="middle">Adenocarcinoma</td>
+                <td align="center" valign="middle">22 (7.9%)</td>
+                <td align="center" valign="middle">196 (70.0%)</td>
+                <td align="center" valign="middle">62 (22.1%)</td>
+              </tr>
+              <tr>
+                <td style="border-right: solid thin" align="center" valign="middle">Adenosquamous carcinoma</td>
+                <td align="center" valign="middle">0 (0.0%)</td>
+                <td align="center" valign="middle">4 (57.1%)</td>
+                <td align="center" valign="middle">3 (42.9%)</td>
+              </tr>
+              <tr>
+                <td style="border-right: solid thin" align="center" valign="middle">Solid pseudopapillary neoplasm</td>
+                <td align="center" valign="middle">0 (0.0%)</td>
+                <td align="center" valign="middle">1 (50.0%)</td>
+                <td align="center" valign="middle">1 (50.0%)</td>
+              </tr>
+              <tr>
+                <td style="border-right: solid thin" align="center" valign="middle">Acinar cell carcinoma</td>
+                <td align="center" valign="middle">3 (100.0%)</td>
+                <td align="center" valign="middle">0 (0.0%)</td>
+                <td align="center" valign="middle">0 (0.0%)</td>
+              </tr>
+              <tr>
+                <td style="border-right: solid thin" align="center" valign="middle">Neuroendocrine tumor</td>
+                <td align="center" valign="middle">6 (37.5%)</td>
+                <td align="center" valign="middle">10 (62.5%)</td>
+                <td align="center" valign="middle">0 (0.0%)</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+      <sec>
+        <title>3.3. Expression of TRPM8 Correlates with Clinicopathological Features of Pancreatic Adenocarcinoma</title>
+        <p>To understand the significance of TRPM8 in pancreatic adenocarcinoma, we analyzed the expression of TRPM8 in further detail and correlated it with the clinical and pathological features. There are 280 specimens of pancreatic adenocarcinoma in the tissue microarrays. The range of age is 23 to 78 years-old, mean age 56.5 &#xB1; 10.4. The corresponding clinical data are described in <xref ref-type="table" rid="cells-03-00500-t002">Table 2</xref>.</p>
+        <p>More than 90% of the 280 specimens of pancreatic adenocarcinoma exhibit either moderate or high level of anti-TRPM8 immunoreactivity (<xref ref-type="fig" rid="cells-03-00500-f003">Figure 3</xref>). The expression levels of TRPM8 positively correlate with the size of the primary tumor, as well as with the tumor stages (<xref ref-type="fig" rid="cells-03-00500-f004">Figure 4</xref>). By pairwise comparisons using <italic>t</italic>-tests with pooled standard deviation, anti-TRPM8 immunoreactivity tends to be higher in the primary tumor at T3 than that at T1 (<italic>p</italic> = 0.08). Using this method of analysis, the expression levels of TRPM8 in tumors of stage II are higher than that of stage I, but the difference is not statistically significant (<italic>p</italic> = 0.39). There is no significant correlation between the expression levels of TRPM8 and the patients&#x2019; age, gender or the histological grades. Expression of TRPM8 is not significantly different in metastatic pancreatic adenocarcinoma as compared with that in the primary tumor.</p>
+        <p>The positive correlation of the expression levels of TRPM8 in pancreatic adenocarcinoma with tumor size and stages suggests that aberrant over-expression of TRPM8 is associated with tumor growth and metastasis. Up-regulated expression of TRPM8 has also been shown in other cancer tissues including that of prostate, breast, lung, colon/rectum, and melanoma [<xref ref-type="bibr" rid="B17-cells-03-00500">17</xref>,<xref ref-type="bibr" rid="B18-cells-03-00500">18</xref>,<xref ref-type="bibr" rid="B19-cells-03-00500">19</xref>,<xref ref-type="bibr" rid="B20-cells-03-00500">20</xref>]. This result is consistent with the requirement of TRPM8 channels for maintaining proliferation of pancreatic cancer cells and for prevention of replicative senescence [<xref ref-type="bibr" rid="B7-cells-03-00500">7</xref>,<xref ref-type="bibr" rid="B9-cells-03-00500">9</xref>]. A proliferative role of TRPM8 has also been demonstrated in prostate cancer cells [<xref ref-type="bibr" rid="B21-cells-03-00500">21</xref>]. It is interesting to note that menthol-induced activation of TRPM8 leads to reduced cellular viability in a human melanoma cell line [<xref ref-type="bibr" rid="B19-cells-03-00500">19</xref>] and a human urinary bladder cancer cell line [<xref ref-type="bibr" rid="B22-cells-03-00500">22</xref>]. The precise roles of TRPM8 in neoplasia as well as the signaling mechanisms that mediate the cellular functions of TRPM8 remain to be determined. However, the data, thus far, suggest that the aberrantly over-expressed TRPM8 channels may be involved in tumor growth and progression in pancreatic adenocarcinoma.</p>
+		<table-wrap id="cells-03-00500-t002" position="float">
+          <object-id pub-id-type="pii">cells-03-00500-t002_Table 2</object-id>
+          <label>Table 2</label>
+          <caption>
+            <p>Descriptive statistics of pancreatic adenocarcinoma in the tissue microarrays.</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">Variable</th>
+                <th align="center" valign="middle">n</th>
+                <th align="center" valign="middle">%</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle"><bold>Tissues</bold></td>
+                <td align="center" valign="middle"/>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr style="border-top: solid thin">
+                <td align="center" valign="middle">Pancreas</td>
+                <td align="center" valign="middle">276</td>
+                <td align="center" valign="middle">98.6%</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Liver</td>
+                <td align="center" valign="middle">1</td>
+                <td align="center" valign="middle">0.4%</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Peritoneum</td>
+                <td align="center" valign="middle">1</td>
+                <td align="center" valign="middle">0.4%</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Epiploon</td>
+                <td align="center" valign="middle">1</td>
+                <td align="center" valign="middle">0.4%</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Lymph node (non-regional)</td>
+                <td align="center" valign="middle">1</td>
+                <td align="center" valign="middle">0.4%</td>
+              </tr>
+              <tr style="border-top: solid thin">
+                <td align="center" valign="middle"><bold>Gender</bold></td>
+                <td align="center" valign="middle"/>
+                <td align="center" valign="middle"/>
+              </tr>
+              <tr style="border-top: solid thin">
+                <td align="center" valign="middle">Women</td>
+                <td align="center" valign="middle">110</td>
+                <td align="center" valign="middle">39%</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Men</td>
+                <td align="center" valign="middle">170</td>
+                <td align="center" valign="middle">61%</td>
+              </tr>
+              <tr style="border-top: solid thin">
+                <td align="center" valign="middle"><bold>Histological Grade</bold></td>
+                <td align="center" valign="middle"/>
+                <td align="center" valign="middle"/>
+              </tr>
+              <tr style="border-top: solid thin">
+                <td align="center" valign="middle">G1</td>
+                <td align="center" valign="middle">27</td>
+                <td align="center" valign="middle">10%</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">G2</td>
+                <td align="center" valign="middle">157</td>
+                <td align="center" valign="middle">57%</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">G3</td>
+                <td align="center" valign="middle">89</td>
+                <td align="center" valign="middle">32%</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">G4</td>
+                <td align="center" valign="middle">3</td>
+                <td align="center" valign="middle">1%</td>
+              </tr>
+              <tr style="border-top: solid thin">
+                <td align="center" valign="middle"><bold>Primary Tumor (T)</bold></td>
+                <td align="center" valign="middle"/>
+                <td align="center" valign="middle"/>
+              </tr>
+              <tr style="border-top: solid thin">
+                <td align="center" valign="middle">T1</td>
+                <td align="center" valign="middle">9</td>
+                <td align="center" valign="middle">3%</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">T2</td>
+                <td align="center" valign="middle">82</td>
+                <td align="center" valign="middle">30%</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">T3</td>
+                <td align="center" valign="middle">173</td>
+                <td align="center" valign="middle">64%</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">T4</td>
+                <td align="center" valign="middle">6</td>
+                <td align="center" valign="middle">2%</td>
+              </tr>
+              <tr style="border-top: solid thin">
+                <td align="center" valign="middle"><bold>Stage</bold></td>
+                <td align="center" valign="middle"/>
+                <td align="center" valign="middle"/>
+              </tr>
+              <tr style="border-top: solid thin">
+                <td align="center" valign="middle">I</td>
+                <td align="center" valign="middle">79</td>
+                <td align="center" valign="middle">29%</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">II</td>
+                <td align="center" valign="middle">175</td>
+                <td align="center" valign="middle">64%</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">III</td>
+                <td align="center" valign="middle">5</td>
+                <td align="center" valign="middle">2%</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">IV</td>
+                <td align="center" valign="middle">15</td>
+                <td align="center" valign="middle">5%</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <p>The expression levels of TRPM8 in pancreatic adenocarcinoma based on the percent coverage by IHC with respect to the intensity and the tumor stages are shown in <xref ref-type="table" rid="cells-03-00500-t003">Table 3</xref>.</p>
+        <table-wrap id="cells-03-00500-t003" position="float">
+          <object-id pub-id-type="pii">cells-03-00500-t003_Table 3</object-id>
+          <label>Table 3</label>
+          <caption>
+            <p>The percent coverage &#xB1; standard error for expression of TRPM8 in pancreatic adenocarcinoma with respect to the intensity and the tumor stage. The numbers in parentheses represent the patient counts. NA, not applicable.</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th rowspan="2" align="center" valign="middle">Tumor stages</th>
+                <th colspan="5" align="center" valign="middle">Intensity of anti-TRPM8 immunoreactivity</th>
+              </tr>
+              <tr style="border-top: solid thin">
+                <th align="center" valign="middle">0</th>
+                <th align="center" valign="middle">1</th>
+                <th align="center" valign="middle">2</th>
+                <th align="center" valign="middle">3</th>
+                <th align="center" valign="middle">4</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle"><bold>I</bold></td>
+                <td align="center" valign="middle">0 (1)</td>
+                <td align="center" valign="middle">65.0% &#xB1; 4.2% (18)</td>
+                <td align="center" valign="middle">72.7% &#xB1; 2.2% (52)</td>
+                <td align="center" valign="middle">82.5% &#xB1; 3.1 (8)</td>
+                <td align="center" valign="middle">NA (0)</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle"><bold>II</bold></td>
+                <td align="center" valign="middle">NA (0)</td>
+                <td align="center" valign="middle">59.4% &#xB1; 4.0% (43)</td>
+                <td align="center" valign="middle">79.0% &#xB1; 1.8% (85)</td>
+                <td align="center" valign="middle">86.7% &#xB1; 1.7% (46)</td>
+                <td align="center" valign="middle">90.0% (1)</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle"><bold>III</bold></td>
+                <td align="center" valign="middle">NA (0)</td>
+                <td align="center" valign="middle">NA (0)</td>
+                <td align="center" valign="middle">60.0% &#xB1; 12.2% (4)</td>
+                <td align="center" valign="middle">90.0% (1)</td>
+                <td align="center" valign="middle">NA (0)</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle"><bold>IV</bold></td>
+                <td align="center" valign="middle">NA (0)</td>
+                <td align="center" valign="middle">76.7% &#xB1; 18.6% (3)</td>
+                <td align="center" valign="middle">65.0% &#xB1; 10.6% (6)</td>
+                <td align="center" valign="middle">76.7% &#xB1; 6.2% (6)</td>
+                <td align="center" valign="middle">NA (0)</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+		<fig id="cells-03-00500-f003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>Expression levels of TRPM8 in pancreatic adenocarcinoma. Images in (<bold>A</bold>,<bold>C</bold>,<bold>E</bold>) (original magnification &#xD7;200) represent the H&amp;E sections of the same tumor as the TRPM8 immunohistochemical staining in (<bold>B</bold>,<bold>D</bold>,<bold>F</bold>) (original magnification &#xD7;400), respectively. Expression levels of TRPM8: (<bold>B</bold>) no-to-low; (<bold>D</bold>) moderate; (<bold>F</bold>) high.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-00500-g003.tif"/>
+        </fig>
+        <fig id="cells-03-00500-f004" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p>Anti-TRPM8 immunoreactivity in pancreatic adenocarcinoma positively correlates with primary tumor size and stages. The distribution of the IHC score for expression of TRPM8 is displayed against age/gender, histological grade, primary tumor (T), and stage. The total number of specimens of pancreatic adenocarcinoma examined is 280. Polyserial correlation between the primary tumor size (T) or the tumor stages and the log-transformed IHC score is 0.13 and 0.10, respectively.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-00500-g004.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.4. TRPM8 is Required for Invasion in Pancreatic Adenocarcinoma Cells</title>
+        <p>The process of cell migration is essential for physiological functions, and the ability of cell invasion represents one of the hallmarks of cancer. In our previous report, the pancreatic adenocarcinoma cell lines with RNA interference-mediated repression of <italic>TRPM8</italic> exhibited significantly reduced ability to proliferate and underwent replicative senescence [<xref ref-type="bibr" rid="B7-cells-03-00500">7</xref>,<xref ref-type="bibr" rid="B9-cells-03-00500">9</xref>]. However, the role of TRPM8 channels in pancreatic cancer cells invasion was previously unknown.</p>
+        <p>To gain further understanding of the significance of the aberrantly expressed TRPM8 in pancreatic adenocarcinoma, we determined the ability of cancer cells to invade by inhibiting its expression. The human pancreatic adenocarcinoma cell lines, BxPC-3 and MIA PaCa-2, were employed in this experiment. As demonstrated in our previous report, the relative levels of <italic>TRPM8</italic> mRNA in BxPC-3 and MIA PaCa-2 are increased as compared to that in the non-cancerous pancreatic ductal epithelia H6c7 [<xref ref-type="bibr" rid="B7-cells-03-00500">7</xref>]. In agreement with that finding, TRPM8 protein is expressed at higher levels in those pancreatic cancer cell lines than H6c7 (<xref ref-type="fig" rid="cells-03-00500-f005">Figure 5</xref>). To down-regulate expression of TRPM8, BxPC-3 and MIA PaCa-2 cells were transfected with shRNA directed against TRPM8. Analysis using semi-quantitative PCR indicated that anti-<italic>TRPM8</italic> shRNA repressed <italic>TRPM8</italic> mRNA levels in these cancer cells by up to 70% as compared to non-targeting control shRNA.</p>
+        <fig id="cells-03-00500-f005" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <p>Over-expression of TRPM8 protein in human pancreatic adenocarcinoma cell lines. (<bold>A</bold>) The protein levels of TRPM8 in H6c7, MIA PaCa-2, PANC-1, and BxPC-3 cells were determined using immunoblotting with anti-TRPM8 antibodies. The GAPDH protein levels were analyzed as internal controls. (<bold>B</bold>) The relative protein levels of TRPM8 are expressed as % (mean &#xB1; standard error) of that in H6c7.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-00500-g005.tif"/>
+        </fig>
+        <p>To assay for cell invasion, BxPC-3 and MIA PaCa-2 cells were transfected with either anti-<italic>TRPM8</italic> shRNA to down-regulate TRPM8 expression or non-targeting shRNA as controls. The transfected cells were then seeded in trans-well inserts with filters coated with a solubilized tumor-associated basement membrane matrix (Matrigel&#x2122;), and FBS was used as a chemoattractant. In parallel with the cell invasion assay, cell viability was determined for the cells transfected with either anti-<italic>TRPM8</italic> shRNA or control shRNA by trypan blue exclusion, and cell viability was almost 100%. In a trans-well assay using 10% FBS as a chemoattractant, RNA interference-mediated silencing of <italic>TRPM8</italic> impaired migration of the BxPC-3 and MIA PaCa-2 cells by about 60% and 45%, respectively (<xref ref-type="fig" rid="cells-03-00500-f006">Figure 6</xref>).</p>
+        <fig id="cells-03-00500-f006" position="float">
+          <label>Figure 6</label>
+          <caption>
+            <p>Short hairpin RNA-mediated silencing of <italic>TRPM8</italic> impaired invasion of pancreatic adenocarcinoma cells. BxPC-3 and MIA PaCa-2 cells transfected with either anti-<italic>TRPM8</italic> shRNA or NC shRNA were analyzed for cell invasion using the trans-well assay. Cell invasion is expressed % (mean &#xB1; standard error) of that in the cells transfected with control shRNA. Representative images of the invaded cells stained with crystal violet are shown at 200&#xD7; magnification.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-00500-g006.tif"/>
+        </fig>
+        <p>These results indicate that TRPM8 is required for invasion in pancreatic cancer cells. Consistent with these data, menthol-induced activation of TRPM8 enhances human glioblastoma cell migration in response to hepatocyte growth factor [<xref ref-type="bibr" rid="B23-cells-03-00500">23</xref>]. In our experiments using pancreatic adenocarcinoma cell lines, FBS presumably contains the stimulating factors of cell invasion. This is supported by the fact that pancreatic cancer cells exhibited minimal invasion in the absence of FBS (14%) <italic>vs.</italic> 100% in the presence of 3% FBS. However, the pro-invasion factors present in FBS, as well as the signaling mechanisms that mediate TRPM8 channels-regulated invasion in pancreatic cancer cells, remain to be determined. We hypothesize that the TRPM8 channels in cancer cells perturb Ca<sup>2+</sup> homeostasis, leading to modulation of cell-adhesion molecules and cell-motility mediators, and consequently enhanced ability of invasion. Taken together, results of this study suggest that the aberrantly expressed TRPM8 channels contribute to the growth and metastasis in pancreatic cancer.</p>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>In this study, we examined the expression of TRPM8 in human pancreatic tissues by immunohistochemistry and investigated its role in pancreatic cancer cells invasion. We presented evidence that expression of TRPM8 protein in normal pancreatic tissues is cell-type specific, primarily in the ductal cells, centroacinar cells, and endocrine cells. TRPM8 is aberrantly expressed in chronic pancreatitis and PanINs, and various types of pancreatic tumors. In the majority of specimens of pancreatic adenocarcinoma, the expression levels of TRPM8 are relatively moderate or high. A positive correlation is demonstrated in pancreatic adenocarcinoma between the expression levels of TRPM8 and tumor size/stages. Moreover, our data suggest that TRPM8 channels are required for pancreatic cancer cells invasion. Taken together with our previously demonstrated role of TRPM8 channels in maintaining proliferation and preventing replicative senescence in pancreatic cancer cells, we propose that the aberrantly expressed TRPM8 plays a contributory role in the growth and metastasis in pancreatic adenocarcinoma. Furthermore, we suggest that TRPM8 channels can be potentially developed as a clinical biomarker and therapeutic target in pancreatic adenocarcinoma.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>N.S.Y. is supported by the Physician Scientist Stimulus Package from Penn State Hershey Cancer Institute, Pennsylvania State University College of Medicine, and Penn State Milton S. Hershey Medical Center. Real-time quantitative PCR and flow cytometry were conducted in the Functional Genomics and Flow Cytometry Core Facilities, respectively, at the Penn State College of Medicine. Funding support of this work was provided by the Penn State Hershey Cancer Institute (N.S.Y.).</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>N.S.Y. conceived and designed the study. N.S.Y., Q.L., A.A.K., Z.Y., and A.B. conducted the study, collected the data, analyzed, and interpreted the data. N.S.Y., A.A.K., and R.K.Y. prepared the manuscript. N.S.Y. wrote the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-03-00500">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Siegel</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zou</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Jemal</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cancer statistics, 2014</article-title>
+          <source>CA Cancer J. Clin.</source>
+          <year>2014</year>
+          <volume>64</volume>
+          <fpage>9</fpage>
+          <lpage>29</lpage>
+          <pub-id pub-id-type="doi">10.3322/caac.21208</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-cells-03-00500">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yee</surname>
+              <given-names>N.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Toward the goal of personalized therapy in pancreatic cancer by targeting the molecular phenotype</article-title>
+          <source>Adv. Exp. Med. Biol.</source>
+          <year>2013</year>
+          <volume>779</volume>
+          <fpage>91</fpage>
+          <lpage>143</lpage>
+        </citation>
+      </ref>
+      <ref id="B3-cells-03-00500">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nilius</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Owsianik</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>The transient receptor potential family of ion channels</article-title>
+          <source>Genome Biol.</source>
+          <year>2011</year>
+          <volume>12</volume>
+          <fpage>218</fpage>
+          <pub-id pub-id-type="doi">10.1186/gb-2011-12-3-218</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-cells-03-00500">
+        <label>4.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yee</surname>
+              <given-names>N.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ion channels</article-title>
+          <source>Encyclopedia of Cancer</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Schwab</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Springer</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2012</year>
+        </citation>
+      </ref>
+      <ref id="B5-cells-03-00500">
+        <label>5.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yee</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Yee</surname>
+              <given-names>R.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ion channels as novel pancreatic cancer biomarkers and targets</article-title>
+          <source>New Adv Dis Biomarker Mol Target Biomed</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Lee</surname>
+              <given-names>N.P.-Y.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Springer</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2013</year>
+        </citation>
+      </ref>
+      <ref id="B6-cells-03-00500">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yee</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Yee</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Yee</surname>
+              <given-names>R.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>TRPM7 and TRPM8 ion channels in pancreatic adenocarcinoma: Potential roles as cancer biomarkers and targets</article-title>
+          <year>2012</year>
+          <volume>2012</volume>
+          <comment>415158</comment>
+        </citation>
+      </ref>
+      <ref id="B7-cells-03-00500">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yee</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transient receptor potential channel TRPM8 is over-expressed and required for cellular proliferation in pancreatic adenocarcinoma</article-title>
+          <source>Cancer Lett.</source>
+          <year>2010</year>
+          <volume>297</volume>
+          <fpage>49</fpage>
+          <lpage>55</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.canlet.2010.04.023</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-cells-03-00500">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yee</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Liang</surname>
+              <given-names>I.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transient receptor potential ion channel TRPM7 regulates exocrine pancreatic epithelial proliferation by mg<sup>2+</sup>-sensitive socs3a signaling in development and cancer</article-title>
+          <source>Dis. Model. Mech.</source>
+          <year>2011</year>
+          <volume>4</volume>
+          <fpage>240</fpage>
+          <lpage>254</lpage>
+          <pub-id pub-id-type="doi">10.1242/dmm.004564</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-cells-03-00500">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yee</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Jensen</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Gerke</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yee</surname>
+              <given-names>R.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>TRPM8 ion channel is aberrantly expressed and required for preventing replicative senescence in pancreatic adenocarcinoma: Potential role of TRPM8 as a biomarker and target</article-title>
+          <source>Cancer Biol. Ther.</source>
+          <year>2012</year>
+          <volume>13</volume>
+          <fpage>592</fpage>
+          <lpage>599</lpage>
+          <pub-id pub-id-type="doi">10.4161/cbt.20079</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-cells-03-00500">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yee</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yee</surname>
+              <given-names>R.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Targeted silencing of TRPM7 ion channel induces replicative senescence and produces enhanced cytotoxicity with gemcitabine in pancreatic adenocarcinoma</article-title>
+          <source>Cancer Lett.</source>
+          <year>2012</year>
+          <volume>318</volume>
+          <fpage>99</fpage>
+          <lpage>105</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.canlet.2011.12.007</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-03-00500">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yee</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Kazi</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Yee</surname>
+              <given-names>R.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Translating discovery in zebrafish pancreatic development to human pancreatic cancer: Biomarkers, targets, pathogenesis, and therapeutics</article-title>
+          <source>Zebrafish</source>
+          <year>2013</year>
+          <volume>10</volume>
+          <fpage>132</fpage>
+          <lpage>146</lpage>
+          <pub-id pub-id-type="doi">10.1089/zeb.2012.0817</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-cells-03-00500">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McKemy</surname>
+              <given-names>D.D.</given-names>
+            </name>
+            <name>
+              <surname>Neuhausser</surname>
+              <given-names>W.M.</given-names>
+            </name>
+            <name>
+              <surname>Julius</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of a cold receptor reveals a general role for TRP channels in thermosensation</article-title>
+          <source>Nature</source>
+          <year>2002</year>
+          <volume>416</volume>
+          <fpage>52</fpage>
+          <lpage>58</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature719</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13-cells-03-00500">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Peier</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Moqrich</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hergarden</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Reeve</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Andersson</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Story</surname>
+              <given-names>G.M.</given-names>
+            </name>
+            <name>
+              <surname>Earley</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Dragoni</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>McIntyre</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Bevan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A TRP channel that senses cold stimuli and menthol</article-title>
+          <source>Cell</source>
+          <year>2002</year>
+          <volume>108</volume>
+          <fpage>705</fpage>
+          <lpage>715</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0092-8674(02)00652-9</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-cells-03-00500">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fonfria</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Murdock</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>Cusdin</surname>
+              <given-names>F.S.</given-names>
+            </name>
+            <name>
+              <surname>Benham</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <name>
+              <surname>Kelsell</surname>
+              <given-names>R.E.</given-names>
+            </name>
+            <name>
+              <surname>McNulty</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Tissue distribution profiles of the human TRPM cation channel family</article-title>
+          <source>J. Recept Signal Transduct. Res.</source>
+          <year>2006</year>
+          <volume>26</volume>
+          <fpage>159</fpage>
+          <lpage>178</lpage>
+          <pub-id pub-id-type="doi">10.1080/10799890600637506</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15-cells-03-00500">
+        <label>15.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Team</surname>
+              <given-names>R.D.C.</given-names>
+            </name>
+          </person-group>
+          <source>R: A Language and Environment for Statistical Computing</source>
+          <publisher-name>R Foundation for Statistical Computing</publisher-name>
+          <publisher-loc>Vienna, Austria</publisher-loc>
+          <year>2008</year>
+        </citation>
+      </ref>
+      <ref id="B16-cells-03-00500">
+        <label>16.</label>
+        <citation citation-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eklund</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The bee swarm plot, an alternative to stripchart, 0.1.5</article-title>
+          <comment>Available online:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.cbs.dtu.dk/~eklund/beeswarm/" ext-link-type="uri">http://www.cbs.dtu.dk/~eklund/beeswarm/</ext-link></comment>
+		  <access-date>(accessed on 1 January 2013)</access-date>
+        </citation>
+      </ref>
+      <ref id="B17-cells-03-00500">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bai</surname>
+              <given-names>V.U.</given-names>
+            </name>
+            <name>
+              <surname>Murthy</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Chinnakannu</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Muhletaler</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Tejwani</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Barrack</surname>
+              <given-names>E.R.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Menon</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Veer Reddy</surname>
+              <given-names>G.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Androgen regulated TRPM8 expression: A potential mrna marker for metastatic prostate cancer detection in body fluids</article-title>
+          <source>Int. J. Oncol.</source>
+          <year>2010</year>
+          <volume>36</volume>
+          <fpage>443</fpage>
+          <lpage>450</lpage>
+        </citation>
+      </ref>
+      <ref id="B18-cells-03-00500">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chodon</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Guilbert</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Dhennin-Duthille</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Gautier</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Telliez</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Sevestre</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ouadid-Ahidouch</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Estrogen regulation of TRPM8 expression in breast cancer cells</article-title>
+          <source>BMC Cancer</source>
+          <year>2010</year>
+          <volume>10</volume>
+          <fpage>212</fpage>
+          <pub-id pub-id-type="doi">10.1186/1471-2407-10-212</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19-cells-03-00500">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yamamura</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ugawa</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ueda</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Morita</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Shimada</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>TRPM8 activation suppresses cellular viability in human melanoma</article-title>
+          <source>Am. J. Physiol. Cell Physiol.</source>
+          <year>2008</year>
+          <volume>295</volume>
+          <fpage>C296</fpage>
+          <lpage>C301</lpage>
+          <pub-id pub-id-type="doi">10.1152/ajpcell.00499.2007</pub-id>
+        </citation>
+      </ref>
+      <ref id="B20-cells-03-00500">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tsavaler</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Shapero</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Morkowski</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Laus</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Trp-p8, a novel prostate-specific gene, is up-regulated in prostate cancer and other malignancies and shares high homology with transient receptor potential calcium channel proteins</article-title>
+          <source>Cancer Res.</source>
+          <year>2001</year>
+          <volume>61</volume>
+          <fpage>3760</fpage>
+          <lpage>3769</lpage>
+        </citation>
+      </ref>
+      <ref id="B21-cells-03-00500">
+        <label>21.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Valero</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Mello de Queiroz</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Stuhmer</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Viana</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Pardo</surname>
+              <given-names>L.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>TRPM8 ion channels differentially modulate proliferation and cell cycle distribution of normal and cancer prostate cells</article-title>
+          <source>PLoS One</source>
+          <year>2012</year>
+          <volume>7</volume>
+          <fpage>e51825</fpage>
+        </citation>
+      </ref>
+      <ref id="B22-cells-03-00500">
+        <label>22.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Menthol induces cell death via the TRPM8 channel in the human bladder cancer cell line T24</article-title>
+          <source>Oncology</source>
+          <year>2009</year>
+          <volume>77</volume>
+          <fpage>335</fpage>
+          <lpage>341</lpage>
+        </citation>
+      </ref>
+      <ref id="B23-cells-03-00500">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wondergem</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Ecay</surname>
+              <given-names>T.W.</given-names>
+            </name>
+            <name>
+              <surname>Mahieu</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Owsianik</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Nilius</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>HGF/Sf and menthol increase human glioblastoma cell calcium and migration</article-title>
+          <source>Biochem. Biophys. Res. Commun.</source>
+          <year>2008</year>
+          <volume>372</volume>
+          <fpage>210</fpage>
+          <lpage>215</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbrc.2008.05.032</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

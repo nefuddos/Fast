@@ -1,0 +1,2253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xml:lang="en" article-type="research-article" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells1040905</article-id>
+      <article-id pub-id-type="publisher-id">cells-01-00905</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Successful Reconstruction of Tooth Germ with Cell Lines Requires Coordinated Gene Expressions from the Initiation Stage</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Komine</surname>
+            <given-names>Akihiko</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tomooka</surname>
+            <given-names>Yasuhiro</given-names>
+          </name>
+          <xref rid="c1-cells-01-00905" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-01-00905">Department of Biological Science &amp; Technology, Science University of Tokyo, 2641 Yamazaki Noda, Chiba 278-8510, Japan</aff>
+      <author-notes>
+        <corresp id="c1-cells-01-00905"><label>*</label> Author to whom correspondence should be addressed; Email: <email>tomoylab@rs.noda.tus.ac.jp</email>; Tel.: +81-4-7122-9697; Fax: +81-4-7125-1841.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>30</day>
+        <month>10</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="collection"><month>12</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>1</volume>
+      <issue>4</issue>
+      <fpage>905</fpage>
+      <lpage>925</lpage>
+      <history>
+        <date date-type="received">
+          <day>17</day>
+          <month>08</month>
+          <year>2012</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>28</day>
+          <month>09</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>24</day>
+          <month>10</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9;  2012 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2012</copyright-year>
+        <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/">
+          <p>This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (http://creativecommons.org/licenses/by/3.0/).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Tooth morphogenesis is carried out by a series of reciprocal interactions between the epithelium and mesenchyme in embryonic germs. Previously clonal dental epithelial cell (epithelium of molar tooth germ (emtg)) lines were established from an embryonic germ. They were odontogenic when combined with a dental mesenchymal tissue, although the odontogenesis was quantitatively imperfect. To improve the microenvironment in the germs, freshly isolated dental epithelial cells were mixed with cells of lines, and germs were reconstructed in various combinations. The results demonstrated that successful tooth construction depends on the mixing ratio, the age of dental epithelial cells and the combination with cell lines. Analyses of gene expression in these germs suggest that some signal(s) from dental epithelial cells makes emtg cells competent to communicate with mesenchymal cells and the epithelial and mesenchymal compartments are able to progress odontogenesis from the initiation stage. </p>
+      </abstract>
+      <kwd-group>
+        <kwd>tooth reconstruction</kwd>
+        <kwd>clonal cell lines</kwd>
+        <kwd>reprograming</kwd>
+        <kwd>dental epithelial cells</kwd>
+        <kwd>initiation stage</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>1. Introduction</title>
+      <p>The dental morphogenesis is regulated by interactions between the dental epithelium and cranial neural crest-derived ectomesenchyme; the elongated inner enamel epithelium (ameloblast) secretes enamel and the elongated dental mesenchyme (odontoblast) secretes dentin. Various signal factors mediate the interactions at all stages of the dental development [<xref ref-type="bibr" rid="B1-cells-01-00905">1</xref>,<xref ref-type="bibr" rid="B2-cells-01-00905">2</xref>]. The dental epithelium has various types of cells and its population changes as the dental germ develops.</p>
+      <p>To investigate the dental morphogenesis, cell lines have been established with SV40 transfection or spontaneous immortalization of dental epithelial cells [<xref ref-type="bibr" rid="B3-cells-01-00905">3</xref>,<xref ref-type="bibr" rid="B4-cells-01-00905">4</xref>,<xref ref-type="bibr" rid="B5-cells-01-00905">5</xref>] and of dental mesenchymal cells [<xref ref-type="bibr" rid="B6-cells-01-00905">6</xref>,<xref ref-type="bibr" rid="B7-cells-01-00905">7</xref>,<xref ref-type="bibr" rid="B8-cells-01-00905">8</xref>]. However, no attempts have reported on successful reconstruction of teeth with epithelial cell lines. We have reported that clonal cell lines can be established by a simple dilution culture method from various tissues of <italic>p53</italic>-deficient mice, such as reproductive tissues [<xref ref-type="bibr" rid="B9-cells-01-00905">9</xref>,<xref ref-type="bibr" rid="B10-cells-01-00905">10</xref>,<xref ref-type="bibr" rid="B11-cells-01-00905">11</xref>,<xref ref-type="bibr" rid="B12-cells-01-00905">12</xref>,<xref ref-type="bibr" rid="B13-cells-01-00905">13</xref>] and neural tissues [<xref ref-type="bibr" rid="B14-cells-01-00905">14</xref>,<xref ref-type="bibr" rid="B15-cells-01-00905">15</xref>,<xref ref-type="bibr" rid="B16-cells-01-00905">16</xref>,<xref ref-type="bibr" rid="B17-cells-01-00905">17</xref>]. Based upon these studies, we have recognized two critical points: (1) clonal and immortalized cell lines express the tissue specific markers <italic>in vitro</italic> when they are established from adult tissues, and (2) cell lines preserve developmental or transient features when they are established from fetal tissues. We then established clonal cell lines from a dental epithelium of a molar tooth germ and demonstrated that they can reconstruct well-calcified teeth [<xref ref-type="bibr" rid="B18-cells-01-00905">18</xref>].</p>
+      <p>Recent studies indicate that the microenvironment in some tissues reprograms the already-made program in foreign cells and allows them to take its native program [<xref ref-type="bibr" rid="B19-cells-01-00905">19</xref>,<xref ref-type="bibr" rid="B20-cells-01-00905">20</xref>,<xref ref-type="bibr" rid="B21-cells-01-00905">21</xref>]. When bone marrow cells were mixed with dental epithelial cells prepared from embryos, and a dental germ was reconstructed with the mixed cells and dental mesenchyme, the germ developed a tooth. The mixed bone marrow cells differentiated into ameloblasts in the tooth [<xref ref-type="bibr" rid="B19-cells-01-00905">19</xref>]. It is unknown, however, how the microenvironment induced the transdifferentiation. The microenvironment in a developmental tissue seems to be plastic. Previous studies demonstrated that reassociation of the epithelium and mesenchyme separated from a germ restarted developmental events from the initiation stage [<xref ref-type="bibr" rid="B22-cells-01-00905">22</xref>,<xref ref-type="bibr" rid="B23-cells-01-00905">23</xref>,<xref ref-type="bibr" rid="B24-cells-01-00905">24</xref>,<xref ref-type="bibr" rid="B25-cells-01-00905">25</xref>,<xref ref-type="bibr" rid="B26-cells-01-00905">26</xref>]. These studies indicate that (1) a developmental program proceeding in a germ is canceled when the epithelial and mesenchymal compartments are artificially separated, (2) when the compartments are recombined, they reorganize a germ in which the program is reinitiated, and (3) if foreign cells are involved in the epithelial compartment at reinitiation, the microenvironment cancels the already-made program in the foreigners and allows them to take its own program. </p>
+      <p>In the present study, we adopted the paradigm of reconstruction of dental germs with emtg cell lines established from an embryonic dental germ. Cells of emtg lines and epithelial cells isolated from dental germs were mixed and germs were reconstructed with the mesenchymal tissues. Tooth morphogenesis was observed in the germs cultured <italic>in vivo</italic> and <italic>in vitro</italic>. The results revealed how the microenvironment in the germs had influences on tooth construction and how the microenvironment was created.</p>
+    </sec>
+    <sec sec-type="results">
+      <title>2. Results and Discussion</title>
+      <sec>
+        <title>2.1. Results</title>
+        <sec>
+          <title>2.1.1. Odontogenesis of Emtg-2 Cells Was Improved by Embryonic Dental Epithelial Cells (<italic>in Vivo</italic>)</title>
+          <p>Clonal epithelial cell lines (emtg-1 to -5) were established from a mouse molar tooth germ. Germs reconstructed with cells of lines and molar mesenchymal tissues developed teeth when transplanted under kidney capsule, although tooth construction rate was below 100% [<xref ref-type="bibr" rid="B18-cells-01-00905">18</xref>]. </p>
+          <p>The previous study has raised the question of whether or not the microenvironment in the reconstructed germs is poorly created. In a reconstructed tooth germ, a pellet of epithelial cells (emtg cells) is sitting on a mesenchymal tissue (MT) prepared from a lower first molar germ (E16.5). To improve the microenvironment, germs were reconstructed with a mixture of emtg-2 cells and epithelial cells prepared from a lower first molar germ (EC, E16.5) (mixing ratio; emtg-2 cells: EC = 1:1) and with MT, and implanted under kidney capsule for 7 days. The germs developed teeth at 100% (<xref ref-type="fig" rid="cells-01-00905-f001">Figure 1</xref>a and <xref ref-type="table" rid="cells-01-00905-t001">Table 1</xref>), as observed in positive controls (mixing ratio; emtg-2 cells: EC = 0:1, with MT) (<xref ref-type="fig" rid="cells-01-00905-f001">Figure 1</xref>b, and <xref ref-type="table" rid="cells-01-00905-t001">Table 1</xref>). No tooth structures developed from germs reconstructed without epithelial cells (negative control) (<xref ref-type="fig" rid="cells-01-00905-f001">Figure 1</xref>c, <xref ref-type="table" rid="cells-01-00905-t001">Table 1</xref>). Active involvement of emtg-2 cells in the odontogenesis is shown in 2.1.5</p>
+          <fig id="cells-01-00905-f001" position="float">
+            <label>Figure 1</label>
+            <caption>
+              <p>Histology of constructed teeth from germs implanted under kidney capsule. (<bold>a</bold>) A tooth developed from a germ reconstructed with mixed epithelial cells (emtg-2 cells: dental epithelial cells = 1:1) and a dental mesenchymal tissue (MT). (<bold>b</bold>) A constructed tooth with dental epithelial cells (EC) and MT prepared from a first molar (E16.5) (positive control). (<bold>c</bold>) Bone-like tissues were developed from a germ reconstructed with only MT (negative control). (<bold>d</bold>) High magnification of the enclosed area in (<bold>a</bold>). The development of the tooth (<bold>a</bold>) was delayed because it had a thinner calcified layer than that of (<bold>b</bold>). Nuclei were stained with DAPI (blue). a: elongated inner enamel epithelium (ameloblast-lineage), d: dentin, e: enamel, o; odontoblast, dot line; dental epithelium, arrows; thin dentin layer, k; kidney. Scale bar is 200 &#x3BC;m in (a, b and c), 50 &#x3BC;m in (<bold>d</bold>).</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00905-g001.tif"/>
+          </fig>
+          <table-wrap id="cells-01-00905-t001" position="float">
+            <object-id pub-id-type="pii">cells-01-00905-t001_Table 1</object-id>
+            <label>Table 1</label>
+            <caption>
+              <p>Tissues grown from implanted tooth germs (emtg-2: dental epithelial cells [EC] = 1:1).</p>
+            </caption>
+            <table>
+              <thead>
+                <tr>
+                  <th align="center" valign="middle"> </th>
+                  <th align="center" valign="middle">Tooth</th>
+                  <th align="center" valign="middle">Non-Tooth</th>
+                  <th align="center" valign="middle">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="center" valign="middle">Positive control</td>
+                  <td align="center" valign="middle">7</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">7</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">Negative control</td>
+                  <td align="center" valign="middle"> </td>
+                  <td align="center" valign="middle">9</td>
+                  <td align="center" valign="middle">9</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">emtg-2:EC = 1:1</td>
+                  <td align="center" valign="middle">6</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">6</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+        <sec>
+          <title>2.1.2. Odontogenesis of Emtg-2 Cells on Culture Inserts</title>
+          <p>Germs reconstructed with EC and MT developed teeth when cultured on cell culture inserts [<xref ref-type="bibr" rid="B22-cells-01-00905">22</xref>]. Therefore, germs were reconstructed with mixed epithelial cells (emtg-2 cells: EC = 1:1) and with MT, and were cultured on inserts. It was confirmed that all germs developed teeth on inserts (<xref ref-type="fig" rid="cells-01-00905-f002">Figure 2</xref> and <xref ref-type="table" rid="cells-01-00905-t002">Table 2</xref>) as observed in positive controls (emtg-2 cells: EC = 0:1, data not shown). Elongated epithelial cells like those in the inner enamel epithelium (IEE) were detected after two days in culture (<xref ref-type="fig" rid="cells-01-00905-f002">Figure 2</xref>b,f) and a very thin dentin-like structure was detected after seven days in culture (<xref ref-type="fig" rid="cells-01-00905-f002">Figure 2</xref>e). Immunohistochemistry confirmed amelogenin expression in the elongated epithelial cells adjacent to the mesenchyme in germs after seven days in culture (<xref ref-type="fig" rid="cells-01-00905-f003">Figure 3</xref>e). In the following experiments, tooth development was analyzed in germs cultured on inserts.</p>
+          <fig id="cells-01-00905-f002" position="float">
+            <label>Figure 2</label>
+            <caption>
+              <p>Histology of developing germs reconstructed with mixed epithelial cells (emtg-2 cells: EC = 1:1) and MT on culture inserts. Germs cultured for 1 (<bold>a</bold>), 2 (<bold>b</bold>), 3 (<bold>c</bold>), 5 (<bold>d</bold>) and 7 days (<bold>e</bold>). (<bold>f</bold>) High magnification of the enclosed area in (<bold>b</bold>). Elongated epithelial cells (arrows in <bold>f</bold>) were detected after two days in culture. A developing tooth had a very thin dentin-like structure after seven days in culture (e: arrow heads). E: epithelium, m; mesenchyme, dot line; epithelial-mesenchymal interface. Scale bar in (<bold>a</bold>) is 200 &#x3BC;m and figure b–e are at the same magnification. Scale bar in (<bold>f</bold>) is 100 &#x3BC;m.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00905-g002.tif"/>
+          </fig>
+          <table-wrap id="cells-01-00905-t002" position="float">
+            <object-id pub-id-type="pii">cells-01-00905-t002_Table 2</object-id>
+            <label>Table 2</label>
+            <caption>
+              <p>Tissues grown from tooth germs reconstructed with emtg-2 cells and EC (1:1~0) and MT on culture inserts </p>
+            </caption>
+            <table>
+              <thead>
+                <tr>
+                  <th align="center" valign="middle"> </th>
+                  <th align="center" valign="middle">Tooth</th>
+                  <th align="center" valign="middle">Non-tooth</th>
+                  <th align="center" valign="middle">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="center" valign="middle">Positive Control <sup>*1</sup></td>
+                  <td align="center" valign="middle">13</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">13</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">Negative Control <sup>*2</sup></td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">10</td>
+                  <td align="center" valign="middle">10</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">Emtg-2:EC = 1:1</td>
+                  <td align="center" valign="middle">44</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">44</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">Emtg-2:EC = 1:0.75</td>
+                  <td align="center" valign="middle">6</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">6</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">Emtg-2:EC = 1:0.5</td>
+                  <td align="center" valign="middle">26</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">26</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">Emtg-2:EC = 1:0.25</td>
+                  <td align="center" valign="middle">3</td>
+                  <td align="center" valign="middle">3</td>
+                  <td align="center" valign="middle">6</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">Emtg-2:EC = 1:0</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">16</td>
+                  <td align="center" valign="middle">16</td>
+                </tr>
+              </tbody>
+            </table>
+    <table-wrap-foot>
+      <fn>
+        <p><bold>*</bold>1: germs prepared with EC (E16.5) and MT; <bold>*</bold>2: germs prepared with only MT.</p>
+      </fn>
+    </table-wrap-foot>		  
+		  </table-wrap>
+          <fig id="cells-01-00905-f003" position="float">
+            <label>Figure 3</label>
+            <caption>
+              <p>Immunohistochemistry of developing teeth from germs reconstructed with mixed epithelial cells (emtg-2 cells: EC = 1:1) and MT on culture inserts. Germs were cultured for 1 (<bold>a</bold>), 2 (<bold>b</bold>), 3 (<bold>c</bold>), 5 (<bold>d</bold>) and 7 days (<bold>e</bold>). Amelogenin protein (red) became detectable after seven days in culture (<bold>e</bold>). Nuclei were stained with DAPI (blue). E: epithelium, m; mesenchyme, dot line; epithelial-mesenhymal interface. Scale bar is 200 &#x3BC;m in (<bold>a</bold>) and all figures are at the same magnification.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00905-g003.tif"/>
+          </fig>
+        </sec>
+        <sec>
+          <title>2.1.3. Improvement of the Microenvironment Depends on the Mixing Ratio</title>
+          <p>The addition of EC to the epithelial compartment of germs at 50% resulted in tooth construction at 100%. To analyze the mechanism in the improved construction, the mixing ratio was varied from 1:1 to 1:0. When the ratio was at 1:0.75 and 1:0.5, all germs developed teeth (<xref ref-type="fig" rid="cells-01-00905-f004">Figure 4</xref>a,b and <xref ref-type="table" rid="cells-01-00905-t002">Table 2</xref>). When the ratio was lowered to 1:0.25, half of the germs developed teeth (<xref ref-type="fig" rid="cells-01-00905-f004">Figure 4</xref>c and <xref ref-type="table" rid="cells-01-00905-t002">Table 2</xref>). The rate of tooth construction was decreased as the ratio was lowered. Elongated epithelial cells and a very thin dentin-like structure were detected in the constructed teeth (<xref ref-type="fig" rid="cells-01-00905-f004">Figure 4</xref> arrows). Germs reconstructed at 1:0 developed no teeth (<xref ref-type="fig" rid="cells-01-00905-f004">Figure 4</xref>d and <xref ref-type="table" rid="cells-01-00905-t002">Table 2</xref>). In the germs, mesenchymal layers became very thin after three days and were undetectable after seven days in culture (<xref ref-type="fig" rid="cells-01-00905-f005">Figure 5</xref>e,f).</p>
+        </sec>
+        <sec>
+          <title>2.1.4. Developmental Stage of EC had Influence on Tooth Construction</title>
+          <p>EC were regularly prepared from dental germs at E16.5. To examine the effect of EC age, EC were prepared from embryos at E14.5, 15.5 and 16.5 and mixed with emtg-2 cells at 1:0.5. Germs reconstructed with the mixed epithelial cells and MT (E16.5) were cultured on inserts for seven days. Germs prepared with EC at different ages gave rise to varied rates of tooth development; 50% (E14.5), 86% (E15.5) and 100% (E16.5) (<xref ref-type="table" rid="cells-01-00905-t003">Table 3</xref>). </p>
+          <table-wrap id="cells-01-00905-t003" position="float">
+            <object-id pub-id-type="pii">cells-01-00905-t003_Table 3</object-id>
+            <label>Table 3</label>
+            <caption>
+              <p>Tissues grown from tooth germs reconstructed with emtg-2 cells and EC (E14.5~16.5) and MT (E16.5) on culture inserts; emtg-2 cell: EC = 1:0.5 </p>
+            </caption>
+            <table>
+              <thead>
+                <tr>
+                  <th align="center" valign="middle"> </th>
+                  <th align="center" valign="middle">Tooth</th>
+                  <th align="center" valign="middle">Non-tooth</th>
+                  <th align="center" valign="middle">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="center" valign="middle">Positive Control <sup>*1</sup></td>
+                  <td align="center" valign="middle">4</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">4</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">Negative Control <sup>*2</sup></td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">5</td>
+                  <td align="center" valign="middle">5</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">E14.5</td>
+                  <td align="center" valign="middle">3</td>
+                  <td align="center" valign="middle">3</td>
+                  <td align="center" valign="middle">6</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">E15.5</td>
+                  <td align="center" valign="middle">19</td>
+                  <td align="center" valign="middle">3</td>
+                  <td align="center" valign="middle">22</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">E16.5</td>
+                  <td align="center" valign="middle">6</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">6</td>
+                </tr>
+              </tbody>
+            </table>
+    <table-wrap-foot>
+      <fn>
+        <p><bold>*</bold>1: germs prepared with EC(E16.5) and MT; <bold>*</bold>2: germs prepared with only MT.</p>
+      </fn>
+    </table-wrap-foot>		  
+		  </table-wrap>
+          <fig id="cells-01-00905-f004" position="float">
+            <label>Figure 4</label>
+            <caption>
+              <p>Histology of teeth developed from germs reconstructed with mixed epithelial cells (emtg-2 cells: EC = 1:0.75 to 0) and MT cultured for seven days on inserts. (<bold>a</bold>, <bold>b</bold>) All reconstructed germs (emtg-2 cells: EC = 1:0.75, 0.5) developed teeth. (<bold>c</bold>) Half of the germs (emtg-2 cells: EC = 1:0.25) developed teeth. Any histological difference was unrecognized among teeth developed from germs with different mixing rates (emtg-2 cells: EC = 1:0.75, 0.5 and 0.25). (<bold>d</bold>) No teeth developed from germs reconstructed with emtg-2 cells and EC (1:0) and MT. Only a thin layer of mesenchymal cells was recognized, e: epithelium, m: mesenchyme, arrows: very thin dentin-like structure, Scale bar is 100 &#x3BC;m in (<bold>a</bold>) and all figures are at the same magnification.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00905-g004.tif"/>
+          </fig>
+        </sec>
+        <sec>
+          <title>2.1.5. Do Emtg Cells Actively Participate in Odontogenesis?</title>
+          <p>To examine whether emtg-2 cells contribute to the ameloblast layer, germs were prepared with GFP-labeled emtg-2 cells and EC (1:0.5) and with MT, and cultured on inserts. emtg-2 cells were detected intermittently in elongated epithelial cells adjacent to the mesenchyme (<xref ref-type="fig" rid="cells-01-00905-f005">Figure 5</xref>a and b). Amelogenin protein was detected in cells in GFP-positive regions (<xref ref-type="fig" rid="cells-01-00905-f005">Figure 5</xref>c and d) of serial section. The results demonstrated that emtg-2 cells were involved in the formation of the ameloblast layer and differentiated to ameloblasts.</p>
+          <p>The enamel knot is believed to be a critical center of odontogenesis and is localized as a Shh-expressing spot [<xref ref-type="bibr" rid="B27-cells-01-00905">27</xref>]. <italic>In-situ</italic> hybridization demonstrated that Shh expression was detected in germs after three days in culture (<xref ref-type="fig" rid="cells-01-00905-f006">Figure 6</xref>a). In addition, Shh-expressing cells were localized in GFP-labeled cell layers (<xref ref-type="fig" rid="cells-01-00905-f006">Figure 6</xref>b) of serial sections, strongly indicating that some of emtg-2 cells were actively participating in odontogenesis as members of enamel knot-composing cells.</p>
+          <fig id="cells-01-00905-f005" position="float">
+            <label>Figure 5</label>
+            <caption>
+              <p>Localization of emtg-2 cells in constructed teeth. (<bold>a</bold>–<bold>d</bold>) Germs were prepared with GFP-labeled emtg-2 cells and EC (1:0.5) and MT, and cultured on inserts for seven days. Constructed teeth were subjected to immunohistochemistry. (<bold>a</bold>,<bold>b</bold>) GFP-labeled emtg-2 cells (green) were localized in the dental epithelium and inner enamel epithelium (arrows). (<bold>c</bold>,<bold>d</bold>) GFP-labeled emtg-2 cells (green) in the inner enamel epithelium expressed amelogenin protein (red) (arrowheads). (<bold>c</bold>) and (<bold>d</bold>) are serial samples. (<bold>e</bold>,<bold>f</bold>) Germs reconstructed with emtg-2 cells and MT were cultured for three and seven days, respectively. All scale bars are 100 &#x3BC;m. Nuclei were stained with DAPI (blue).</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00905-g005.tif"/>
+          </fig>
+          <fig id="cells-01-00905-f006" position="float">
+            <label>Figure 6</label>
+            <caption>
+              <p>Shh expression in germs reconstructed with emtg-2 cells and EC (1:0.5) and MT and cultured for three days. (<bold>a</bold>) Shh expression (<italic>in-situ</italic> hybridization) was encircled with broken lines and pointed with arrows. (<bold>b</bold>) Immunohistochemistry with anti-GFP antibody localized emtg-2 cells (green) in the serial section, overlapping Shh expression. Scale bar is 100 &#x3BC;m and (<bold>b</bold>) is at the same magnification.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00905-g006.tif"/>
+          </fig>
+        </sec>
+        <sec>
+          <title>2.1.6. Tooth Germs Were Reconstructed with Cells of Emtg-1 to -5 Lines and EC (1:0.5) and with MT</title>
+          <p>To examine whether the mixing effect with EC (E16.5) is observed on other emtg lines, germs were prepared with cells of each line (emtg-1 and -5; ameloblast-like cells, emtg-2 and -3; preameloblast-like cells, emtg-4; inner enamel epithelial-cell-like cells [<xref ref-type="bibr" rid="B18-cells-01-00905">18</xref>]) and EC at 1:0.5 and with MT (E16.5), and cultured for sevel days. As summarized in <xref ref-type="fig" rid="cells-01-00905-f007">Figure 7</xref>, the rates of tooth construction varied among cell lines. Interestingly, none of germs with emtg-4 cells developed any tooth (<xref ref-type="fig" rid="cells-01-00905-f007">Figure 7</xref> and <xref ref-type="table" rid="cells-01-00905-t004">Table 4</xref>). </p>
+          <fig id="cells-01-00905-f007" position="float">
+            <label>Figure 7</label>
+            <caption>
+              <p>Schematic presentation of successful tooth construction rates of germs with emtg cell lines and EC (E16.5) at 1:0.5 and with MT (E16.5)in culture. Based on the result of RT-PCR analysis [<xref ref-type="bibr" rid="B18-cells-01-00905">18</xref>], emtg cell lines were lined up on the differentiation stage of ameloblast-lineage cells (<uri>http://bite-it.helsinki.fi/</uri>). The vertical line presents successful tooth construction (%) calculated from data presented in <xref ref-type="table" rid="cells-01-00905-t004">Table 4</xref>. IEE: inner enamel epithelium.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00905-g007.tif"/>
+          </fig>
+          <table-wrap id="cells-01-00905-t004" position="float">
+            <object-id pub-id-type="pii">cells-01-00905-t004_Table 4</object-id>
+            <label>Table 4</label>
+            <caption>
+              <p>Tissues grown from tooth germs reconstructed with emtg (1 to 5) cells and EC (E16.5) and MT (E16.5) on culture inserts; emtg cell : EC = 1:0.5.</p>
+            </caption>
+            <table>
+              <thead>
+                <tr>
+                  <th align="center" valign="middle"> </th>
+                  <th align="center" valign="middle">Tooth</th>
+                  <th align="center" valign="middle">Non-tooth</th>
+                  <th align="center" valign="middle">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="center" valign="middle">Positive Control *<sup>1</sup></td>
+                  <td align="center" valign="middle">7</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">7</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">Negative Control *<sup>2</sup></td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">9</td>
+                  <td align="center" valign="middle">9</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">emtg-1</td>
+                  <td align="center" valign="middle">5</td>
+                  <td align="center" valign="middle">7</td>
+                  <td align="center" valign="middle">12</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">emtg-2</td>
+                  <td align="center" valign="middle">6</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">6</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">emtg-3</td>
+                  <td align="center" valign="middle">8</td>
+                  <td align="center" valign="middle">4</td>
+                  <td align="center" valign="middle">12</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">emtg-4</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">12</td>
+                  <td align="center" valign="middle">12</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">emtg-5</td>
+                  <td align="center" valign="middle">7</td>
+                  <td align="center" valign="middle">5</td>
+                  <td align="center" valign="middle">12</td>
+                </tr>
+              </tbody>
+            </table>
+    <table-wrap-foot>
+      <fn>
+        <p><bold>*</bold><sup>1</sup>: germs prepared with EC and MT; <bold>*</bold><sup>2</sup>: germs prpared with only MT.</p>
+      </fn>
+    </table-wrap-foot>		  
+		  </table-wrap>
+        </sec>
+        <sec>
+          <title>2.1.7. Gene Expression Patterns were Compared between Tooth Germs Prepared with and without EC.</title>
+          <p>On culture inserts, germs were reconstructed with a mixture of emtg-2 cells and EC (ratio = 1:1~0.5) and with MT developed teeth at 100%, but none of the germs without EC developed a tooth. In order to understand the microenvironments in the epithelial compartments of germs, gene expression patterns in emtg-2 cells adjacent to MT were compared between germs reconstructed with and without EC. Morphogenetic genes such as Shh, Lef1 are expressed for a relatively long period. Instead, the genes expressed transiently in germs would precisely reveal the stages of germs. Therefore, the following genes were selected: <italic>Netrin3</italic>, <italic>Fgf9</italic>, <italic>Notch1</italic>, <italic>Oasis</italic>, <italic>N-myc</italic>, <italic>Dlx3</italic>, <italic>Bmp5</italic> and <italic>amelogenin</italic> (<xref ref-type="table" rid="cells-01-00905-t005">Table 5</xref>) [<xref ref-type="bibr" rid="B28-cells-01-00905">28</xref>,<xref ref-type="bibr" rid="B29-cells-01-00905">29</xref>,<xref ref-type="bibr" rid="B30-cells-01-00905">30</xref>,<xref ref-type="bibr" rid="B31-cells-01-00905">31</xref>,<xref ref-type="bibr" rid="B32-cells-01-00905">32</xref>,<xref ref-type="bibr" rid="B33-cells-01-00905">33</xref>,<xref ref-type="bibr" rid="B34-cells-01-00905">34</xref>,<xref ref-type="bibr" rid="B35-cells-01-00905">35</xref>,<xref ref-type="bibr" rid="B36-cells-01-00905">36</xref>,<xref ref-type="bibr" rid="B37-cells-01-00905">37</xref>].</p>
+          <table-wrap id="cells-01-00905-t005" position="float">
+            <object-id pub-id-type="pii">cells-01-00905-t005_Table 5</object-id>
+            <label>Table 5</label>
+            <caption>
+              <p>Summary of gene expression pattern in the inner enamel epithelium at developmental stages (<italic>in-situ</italic> hybridization [<xref ref-type="bibr" rid="B38-cells-01-00905">38</xref>])</p>
+            </caption>
+            <table>
+              <thead>
+                <tr>
+                  <th align="center" valign="middle"> </th>
+                  <th align="center" valign="middle">initi.</th>
+                  <th align="center" valign="middle">bud</th>
+                  <th align="center" valign="middle">cap</th>
+                  <th align="center" valign="middle">bell</th>
+                  <th align="center" valign="middle">diff.</th>
+                  <th align="center" valign="middle">Sec.</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Netrin3</italic>
+                  </td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">N.D.</td>
+                  <td align="center" valign="middle">N.D.</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Fgf9</italic>
+                  </td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Notch1</italic>
+                  </td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Oasis</italic>
+                  </td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>N-myc</italic>
+                  </td>
+                  <td align="center" valign="middle">N.D.</td>
+                  <td align="center" valign="middle">N.D.</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">N.D.</td>
+                  <td align="center" valign="middle">N.D.</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Dlx3</italic>
+                  </td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">N.D.</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Bmp5</italic>
+                  </td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>amelogenin</italic>
+                  </td>
+                  <td align="center" valign="middle">N.D.</td>
+                  <td align="center" valign="middle">N.D.</td>
+                  <td align="center" valign="middle">N.D.</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">+</td>
+                </tr>
+              </tbody>
+            </table>
+    <table-wrap-foot>
+      <fn>
+        <p>Note: initi.: initiation state; bud: bud state; cap: cap stage; bell: bell stage; diff.: differentiation stage; sec.: secretory stage; N.D.: not done.</p>
+      </fn>
+    </table-wrap-foot>
+		 </table-wrap>
+          <p>After one to two days in culture, germs reconstructed with EC and MT (positive controls) took the same gene expression pattern as observed at the initiation stage (<xref ref-type="fig" rid="cells-01-00905-f008">Figure 8</xref> and <xref ref-type="table" rid="cells-01-00905-t006">Table 6</xref>). Germs reconstructed with mixed epithelial cells (emtg-2 cells: EC = 1:0.5) and with MT took a similar gene expression pattern as observed in positive controls (<xref ref-type="fig" rid="cells-01-00905-f009">Figure 9</xref>, 12 and <xref ref-type="table" rid="cells-01-00905-t006">Table 6</xref>) with slight difference in <italic>Bmp5</italic> expression; after three days in culture, <italic>Bmp5</italic> expression was detected in positive controls, but it was undetectable in germs reconstructed with mixed epithelial cells. </p>
+          <p>After one day in culture, germs reconstructed with only emtg-2 cells and MT took the gene expression pattern similar to that of bell stage (<xref ref-type="fig" rid="cells-01-00905-f010">Figure 10</xref> and <xref ref-type="table" rid="cells-01-00905-t006">Table 6</xref>). Gene expressions were compared among three groups of germs (emtg-2 cells: EC = 0:1, 1:0.5, 1:0) (<xref ref-type="fig" rid="cells-01-00905-f008">Figure 8</xref>, <xref ref-type="fig" rid="cells-01-00905-f009">Figure 9</xref>, <xref ref-type="fig" rid="cells-01-00905-f010">Figure 10</xref>, <xref ref-type="fig" rid="cells-01-00905-f011">Figure 11</xref>, <xref ref-type="table" rid="cells-01-00905-t006">Table 6</xref>). Expressions of <italic>Fgf9, Notch1, Oasis, N-myc</italic> and <italic>Dlx3</italic> were decreased in epithelial cells of germs (emtg-2 cells: EC = 0:1, 1:0.5), but not in germs (emtg-2 cells: EC = 1:0).</p>
+          <fig id="cells-01-00905-f008" position="float">
+            <label>Figure 8</label>
+            <caption>
+              <p>Gene expression pattern in germs reconstructed with EC and MT (positive control). Gene expressions were examined with <italic>in-situ</italic> hybridization with antisense probe in left and sense probe in right of each panel. Germs were cultured on inserts for one to seven days. Scale bar is 200 &#x3BC;m and all figures are at the same magnification.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00905-g008.tif"/>
+          </fig>
+          <fig id="cells-01-00905-f009" position="float">
+            <label>Figure 9</label>
+            <caption>
+              <p>Gene expression pattern in germs reconstructed with emtg-2 cells and EC (1:0.5) and MT. Gene expressions were examined with <italic>in-situ</italic> hybridization with anti-sense probe in left and sense probe in right of each panel. Germs were cultured on inserts for one to seven days. Scale bar is 200 &#x3BC;m and all figures are at the same magnification.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00905-g009.tif"/>
+          </fig>
+          <fig id="cells-01-00905-f010" position="float">
+            <label>Figure 10</label>
+            <caption>
+              <p>Gene expression pattern in germs reconstructed with emtg-2 cells and MT. Gene expressions were examined with <italic>in-situ</italic> hybridization with anti-sense probe in left and sense probe in right of each panel. Germs were cultured on inserts for one to seven days. Scale bar is 200 &#x3BC;m and all figures are at the same magnification.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00905-g010.tif"/>
+          </fig>
+          <table-wrap id="cells-01-00905-t006" position="float">
+            <object-id pub-id-type="pii">cells-01-00905-t006_Table 6</object-id>
+            <label>Table 6</label>
+            <caption>
+              <p>Summary of gene expression patterns in reconstructed germs with EC and MT (positive control), emtg-2 cells and EC (ratio = 1:0.5) and MT, and emtg-2 cells and MT. Germs were cultured for one to seven days.</p>
+            </caption>
+            <table>
+            <thead>
+                <tr>
+                  <th colspan="6" align="center" valign="middle">Positive Control</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td align="center" valign="middle"> </td>
+                  <td align="center" valign="middle">1d</td>
+                  <td align="center" valign="middle">2d</td>
+                  <td align="center" valign="middle">3d</td>
+                  <td align="center" valign="middle">5d</td>
+                  <td align="center" valign="middle">7d</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Netrin3</italic>
+                  </td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">+</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Fgf9</italic>
+                  </td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Notch1</italic>
+                  </td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Oasis</italic>
+                  </td>
+                  <td align="center" valign="middle">N.D.</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>N-myc</italic>
+                  </td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Dlx3</italic>
+                  </td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Bmp5</italic>
+                  </td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">N.D.</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>amelogenin</italic>
+                  </td>
+                  <td align="center" valign="middle">N.D.</td>
+                  <td align="center" valign="middle">N.D.</td>
+                  <td align="center" valign="middle">N.D.</td>
+                  <td align="center" valign="middle">-</td>
+                  <td align="center" valign="middle">-</td>
+                </tr>
+              <tr style="border-bottom:solid thin; border-top:solid thin" align="center">
+                <td colspan="6" valign="middle">Emtg-2:EC = 1:0.5</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle"> </td>
+                  <td align="center" valign="middle">1d</td>
+                  <td align="center" valign="middle">2d</td>
+                  <td align="center" valign="middle">3d</td>
+                  <td align="center" valign="middle">5d</td>
+                  <td align="center" valign="middle">7d</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Netrin3</italic>
+                  </td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">+</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Fgf9</italic>
+                  </td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Notch1</italic>
+                  </td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Oasis</italic>
+                  </td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>N-myc</italic>
+                  </td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Dlx3</italic>
+                  </td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Bmp5</italic>
+                  </td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">N.D.</td>
+                  <td align="center" valign="middle">+</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>amelogenin</italic>
+                  </td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;.</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">N.D.</td>
+                </tr>
+                <tr style="border-bottom:solid thin; border-top:solid thin" align="center">
+                  <td colspan="6" valign="middle">Emtg-2:EC = 1:0</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle"> </td>
+                  <td align="center" valign="middle">1d</td>
+                  <td align="center" valign="middle">2d</td>
+                  <td align="center" valign="middle">3d</td>
+                  <td align="center" valign="middle">5d</td>
+                  <td align="center" valign="middle">7d</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Netrin3</italic>
+                  </td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Fgf9</italic>
+                  </td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">N.D.</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Notch1</italic>
+                  </td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Oasis</italic>
+                  </td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>N-myc</italic>
+                  </td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Dlx3</italic>
+                  </td>
+                  <td align="center" valign="middle">+</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">N.D.</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>Bmp5</italic>
+                  </td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                  <td align="center" valign="middle">&#x2212;</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">
+                    <italic>amelogenin</italic>
+                  </td>
+                  <td align="center" valign="middle">N.D.</td>
+                  <td align="center" valign="middle">N.D.</td>
+                  <td align="center" valign="middle">N.D.</td>
+                  <td align="center" valign="middle">N.D.</td>
+                  <td align="center" valign="middle">N.D.</td>
+                </tr>
+            </tbody>
+            </table>
+          </table-wrap>
+          <fig id="cells-01-00905-f011" position="float">
+            <label>Figure 11</label>
+            <caption>
+              <p>Expressions of <italic>Oasis</italic> and <italic>Dlx3</italic> at a high magnification in germs cultured for one day. (a-1, 2) <italic>In-situ</italic> hybridization in reconstructed germs with EC and MT (positive control). (b-1, 2) <italic>In-situ</italic> hybridization in reconstructed germs with emtg-2 cells and EC (1:0.5) and MT. (c-1, 2) <italic>In-situ</italic> hybridization in reconstructed germs with emtg-2 cells and MT. (a-1, b-1, c-1) Expression of <italic>Oasis</italic> in reconstructed germs. (a-2, b-2, c-2) Expression of <italic>Dlx3</italic> in reconstructed germs. e: epithelium, m: dental mesenchyme. Scale bar is 200 &#x3BC;m in (a-1) and all figures are at the same magnification.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00905-g011.tif"/>
+          </fig>
+          <p>The <italic>in-situ</italic> hybridization analyses clearly demonstrated that addition of EC to the epithelial compartment changed the gene expression pattern of reconstructed germs, supporting the hypothesis that the dental program in emtg-2 cells was canceled by mixing with EC.</p>
+        </sec>
+        <sec>
+          <title>2.1.8. Was the Reprogramming of emtg-2 cells Caused Directly by EC or Indirectly by EC Through MT?</title>
+          <p>It is well established that tissue interactions between epithelial and mesenchymal compartments drive organogenesis. In addition, cellular interactions in each compartment may be critical in odontogenesis. To examine whether EC have direct effects on gene expression of emtg-2 cells, dental germs were prepared with a modified method; the epithelial compartment was composed of a pellet of emtg-2 cells (1.5 &#xD7; 10<sup>4</sup> cells) and a pellet of EC (1.5 &#xD7; 10<sup>4</sup> cells), sitting in parallel on MT. In a regular germ, a pellet containing homogeneously the two epithelial populations (3 &#xD7; 10<sup>4</sup> cells/germ) was sitting on MT (See <xref ref-type="fig" rid="cells-01-00905-f012">Figure 12</xref> a-3, b-3, c-3). The modified germs were cultured for one day and subjected to <italic>in situ</italic> hybridization analysis. </p>
+          <p>Expressions of <italic>Notch1</italic> and <italic>Fgf9</italic> were detected in pellets containing only emtg-2 cells (<xref ref-type="fig" rid="cells-01-00905-f012">Figure 12</xref>a), but not in pellets containing emtg-2 cells and EC (1:0.5) (<xref ref-type="fig" rid="cells-01-00905-f012">Figure 12</xref>b). Interestingly, in the modified germs, expressions of <italic>Notch1</italic> and <italic>Fgf9</italic> were reduced in emtg-2 cells facing the EC (<xref ref-type="fig" rid="cells-01-00905-f012">Figure 12</xref>c), but not in emtg-2 cells facing MT, and emtg-2 cells were localized in a right cervical loop area after seven days in culture (<xref ref-type="fig" rid="cells-01-00905-f013">Figure 13</xref>). These observations suggested that cancellation of the developmental program of emtg-2 cells was induced directly by EC.</p>
+          <fig id="cells-01-00905-f012" position="float">
+            <label>Figure 12</label>
+            <caption>
+              <p><italic>In-situ</italic> hybridization of <italic>Notch1</italic> and <italic>Fgf9</italic> in germs reconstructed with a modified method and cultured for one day. (<bold>a-1</bold>, 2) Gene expression in a pellet of emtg-2 cells. (<bold>b-1</bold>, 2) Gene expression in a pellet of emtg-2 cells and EC (1:0.5). (<bold>c-1</bold>, 2) Gene expression in reconstructed germs with a pellet of emtg-2 cells and a pellet of EC and MT. (<bold>a-1</bold>, <bold>b-1</bold>, <bold>c-1</bold>) Expression of <italic>Notch1</italic> in reconstructed germs. (<bold>a-2</bold>, <bold>b-2</bold>, <bold>c-2</bold>) Expression of <italic>Fgf9</italic> in reconstructed germs. (<bold>a-3</bold>, <bold>b-3</bold>, <bold>c-3</bold>) Illustration of the modified method. 2: emtg-2 cells, EC: dental epithelial cells, MT: dental mesenchyme. Scale bars are 100 &#x3BC;m in (<bold>a-1</bold> and <bold>b-1</bold>) and (<bold>a-1</bold>, <bold>a-2</bold>, <bold>b-1</bold> and <bold>b-2</bold>) are at the same magnification. Scale bar is 200 &#x3BC;m in (<bold>c-1</bold>) and (<bold>c-2</bold>) is at the same magnification.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00905-g012.tif"/>
+          </fig>
+          <fig id="cells-01-00905-f013" position="float">
+            <label>Figure 13</label>
+            <caption>
+              <p>Immunohistochemistry of teeth developed from germs cultured for seven days. (<bold>a</bold>) Bright field photo of a constructed tooth with a pellet of GFP-labeled emtg-2 cells and a pellet of EC and with MT. (<bold>b</bold>) Immunohistochemistry with anti-GFP antibody detected GFP-labeled cells in an enamel organ (green). (<bold>c</bold>) (<bold>a</bold>) and (<bold>b</bold>) were marged. GFP-labeled emtg-2 cells were detected in cervical loop area. (<bold>d</bold>) Immunohistochemistry with anti-GFP antibody detected GFP-labeled cells in epithelium at right side in the section of (<bold>a</bold>). Nuclei were stained with DAPI (blue) in (<bold>d</bold>). dot line; basement membrane, e: epithelium, m: mesenchyme. Scale bar is 500 &#x3BC;m in (<bold>d</bold>) and all figures are at the same magnification. </p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00905-g013.tif"/>
+          </fig>
+        </sec>
+      </sec>
+      <sec>
+        <title>2.2. Discussion</title>
+        <p>The significance of &#x201C;niche&#x201D; or &#x201C;microenvironment&#x201D; has been often emphasized, especially in developmental biology, but it was used as an abstract argument and an obstacle against analytical biology. However, recent technical advancement and the movement of &#x201C;tissue engineering&#x201D; have made the concept of niche a much more practical theme. Several recent studies indicate that a microenvironment cancels the already-made program in foreign cells and allows them to take its own program [<xref ref-type="bibr" rid="B19-cells-01-00905">19</xref>,<xref ref-type="bibr" rid="B20-cells-01-00905">20</xref>,<xref ref-type="bibr" rid="B21-cells-01-00905">21</xref>]. </p>
+        <p>Our previous study reported that five clonal emtg lines expressed sets of genes specific for different developmental stages of the dental epithelium and cells of emtg-2 expressed genes specific for preameloblasts [<xref ref-type="bibr" rid="B18-cells-01-00905">18</xref>]. The present study demonstrated that reconstructed germs developed into teeth at 100% when emtg-2 cells in the epithelial compartment were mixed with EC (E16.5) (&gt; 1:0.5). The epithelial compartment in the improved germs revealed the pattern of gene expression which is observed at the initiation stage corresponding to E11.5–12.5 [<xref ref-type="bibr" rid="B1-cells-01-00905">1</xref>,<xref ref-type="bibr" rid="B2-cells-01-00905">2</xref>]. Enzymatic separation and recombination of the epithelial and mesenchymal compartments set the developmental clock back to the initiation stage [<xref ref-type="bibr" rid="B22-cells-01-00905">22</xref>,<xref ref-type="bibr" rid="B23-cells-01-00905">23</xref>,<xref ref-type="bibr" rid="B24-cells-01-00905">24</xref>,<xref ref-type="bibr" rid="B25-cells-01-00905">25</xref>,<xref ref-type="bibr" rid="B26-cells-01-00905">26</xref>]. These observations suggest that the developmental program in emtg-2 cells was canceled by the microenvironment created in the germs. Then, the microenvironment might coordinate two populations of epithelial cells and mesenchymal cells and allow them to restart odontogenesis from the initiation stage. </p>
+        <p>The <italic>in vitro</italic> model on culture insert is useful, although it has several weaknesses that need to be improved upon. One of them is the extra-formation of enamel knots or Shh-expression spots. After three days in culture, reconstructed germs with cells of emtg-2 and EC expressed the pattern of gene expression similar to that of bud stage, and three Shh-expression spots were detected in the germs. Another weakness is poor formation of basement membrane. The amelogenin expression was appropriate in the germ implanted under kidney capsule [<xref ref-type="bibr" rid="B18-cells-01-00905">18</xref>]. However, the boundary between epithelial and mesenchymal compartments became less prominent when the germs were cultured on inserts instead of implanting under kidney capsule. It is possible that the formation of the basement membrane is not fully progressing and secreted amelogenin protein spreads into the area of mesenchyme.</p>
+        <p>In our previous study, germs reconstructed with only emtg-2 cells and MT developed into tooth at near 60% when they were implanted under kidney capsule [<xref ref-type="bibr" rid="B18-cells-01-00905">18</xref>]. In the present study, however, germs reconstructed with only emtg-2 cells and MT developed into no teeth when they were cultured on inserts. In general, the environment under kidney capsule is known to be superior to those of any tissue culture dishes. It is reasonable to think that the undefined factors under kidney capsule help the reconstructed germs to cancel the program in emtg-2 cells and allow them to restart odontogenesis from the initiation stage. </p>
+        <p>Germs reconstructed with mixed epithelial cells (emtg cells: EC = 1:0.5) and MT developed into teeth at varied efficiency: 42% (emtg-1), 100% (emtg-2), 67% (emtg-3), 0% (emtg-4) and 58% (emtg-5). A similar but not identical tooth construction was observed when germs were reconstructed with cells of each emtg line and MT and implanted under kidney capsule [<xref ref-type="bibr" rid="B18-cells-01-00905">18</xref>]. In both studies, MT were regularly prepared from embryos at E16.5. In addition, germs prepared with EC at different ages developed into to teeth at varied rates; 50% (E14.5), 86% (E15.5) and 100% (E16.5) (<xref ref-type="table" rid="cells-01-00905-t003">Table 3</xref>). These observations indicate that the age of tissue (cells) and cell lines in reconstructed germs has critical influence on tooth construction. Heterochronological recombination of dissociated epithelial and mesenchymal cells disturb tooth organogenesis [<xref ref-type="bibr" rid="B22-cells-01-00905">22</xref>], although the organogenesis progressed when tissue architectures of both epithelial and mesenchymal compartments were preserved [<xref ref-type="bibr" rid="B39-cells-01-00905">39</xref>].</p>
+        <p>In order to investigate how reprograming of emtg-2 cells is induced, germs were prepared with two pellets of epithelial cells. The results indicate that EC had direct effects on emtg-2 cells. If this is the case, more EC in germs would give rise to higher tooth construction. As expected, the rate of successful tooth reconstruction was decreased as the mixing ratio was reduced from 1:1 to 1:0 (emtg-2: dental epithelial cells). Germs reconstructed with emtg cells and MT might have some difficulty to create the microenvironment which coordinates epithelial and mesenchymal components to restart odontogenesis from the first stage of a series of reciprocal epitheo-mesenchymal interactions [<xref ref-type="bibr" rid="B1-cells-01-00905">1</xref>,<xref ref-type="bibr" rid="B2-cells-01-00905">2</xref>]. &#x201C;EC give emtg cells direct signals, diffusible factors and/or physical contact, which are highly expressed at E16.5, then the epithelial compartment becomes competent to communicate with the mesenchymal compartment. To identify the signals would further help to understand odontogenesis.&#x201D;</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>3. Materials and Methods</title>
+      <sec>
+        <title>3.1. Animals</title>
+        <p>CD-1 mice (Charles River Japan, Yokohama, Japan) were maintained in the experimental animal facility of Tokyo University of Science. They were kept under a 12:12 h light: dark cycle at 22–24 &#xB0;C. Standard laboratory feed (MR standard, Nousan LTD, Yokohama, Japan) and tap water were given <italic>ad libitum</italic>. Mice care and handling conformed to the NIH guidelines for animal research. The Institution Animal Care and Use Committee approved the experimental protocols.</p>
+      </sec>
+      <sec>
+        <title>3.2. Cell Culture</title>
+        <p>The medium was a 1:1 mixture of Dullbecco&#x2019;s modified Eagle&#x2019;s medium and Ham&#x2019;s nutrient mixture F12 (DMEM/F12, Sigma, St. Louis, MO, USA) supplemented with heat-inactivated fetal calf serum at 10% (10% FCS v/v, Sigma, St. Louis, MO, USA), penicillin (31 &#xEC;g/mL, Sigma, St. Louis, MO, USA), streptomycin (50 &#xEC;g/mL, Sigma, St. Louis, MO, USA), insulin (10 &#xEC;g/mL, Sigma, St. Louis, MO, USA) and transferrin (10 &#xEC;g/mL, Sigma, St. Louis, MO, USA). Cell lines were maintained in the medium and passaged at 10% on 100 mm dishes (FALCON; Becton Dickinson Labware, Franklin Lakes, NJ, USA).</p>
+      </sec>
+      <sec>
+        <title>3.3. Histology and Immunohistochemistry</title>
+        <p>For histology, samples were fixed in 4% formaldehyde at 4 &#xB0;C overnight and dehydrated with sucrose for frozen sections, and embedded in O.C.T. Compound (Sakura Finetek, Torrance, CA, USA), or dehydrated with ethanol for paraffin embedding. Samples were cut into 10 &#xEC;m sections. Sections were stained with hematoxyline and eosin, or incubated with antibodies. The primary antibodies used were anti-GFP (1:500, Santa Cruz Biotechnology, Inc., Heidelberg, Germany) and anti-amelogenin (1: 100, Hokudo Co., Ltd., Sapporo, Japan) rabbit polyclonal antibodies. After several washes with PBS containing 0.1% Tween-20 (Sigma, St. Louis, MO, USA), sections were incubated with secondary antibodies; Alexa Fluor 488 goat anti-rabbit IgG (1:500, Invitrogen Corp., CA, USA) and Alexa Fluor 594 goat anti-rabbit IgG (1:500, Invitrogen Corp., CA, USA) for 1.5 h at room temperature. Negative controls were incubated without primary antibodies. Nuclei were stained with DAPI.</p>
+      </sec>
+      <sec>
+        <title>3.4. Preparation of Bioengineered Tooth Germs</title>
+        <p>The method was developed and described elsewhere [<xref ref-type="bibr" rid="B22-cells-01-00905">22</xref>]. In brief, dental germs of lower first molars were dissected from embryos at day (E) 14.5, 15.5 and 16.5 and incubated in PBS containing 1000 U/mL dispase II (SANKOJUNYAKU CO. LTD., Tokyo, Japan) for 15 min at room temperature, and the epithelia were separated from the mesenchymal tissues with a fine needle. Epithelial fractions were treated with 100 U/mL collagenase type I (Worthington Biochemical Co., Lakewood, NJ, ISA) for 20 min at 37 &#xB0;C. After several washings with PBS, they were treated with 0.5 &#xD7; trypsin-0.53 mM EDTA (Sigma, St. Louis, MO, USA) for 5 min at 37 &#xB0;C and dispersed. emtg cells and dental epithelial cells were mixed at ratios of 1:1, 1:0.75, 1:0.5, 1:0.25 or 1:0. Suspensions containing epithelial cells were centrifuged to make pellets. The total epithelial cell number was 3 &#xD7; 10<sup>4</sup> cells/germ. Tooth germs were reconstructed with the pellets of mixed epithelial cells and with dental mesenchymal tissues prepared from embryos in 30 &#xEC;L Cell matrix type I-A (Nitta Gelatin Inc., Osaka, Japan) and incubated in a humidified atmosphere of 95% air and 5% CO2 at 37 &#xB0;C. On the following day, the reconstructed tooth germs were implanted under kidney capsule or cultured on cell culture inserts (FALCON; Becton Dickinson Labware, Franklin Lakes, NJ, USA) for seven days (<xref ref-type="fig" rid="cells-01-00905-f014">Figure 14</xref>).</p>
+        <fig id="cells-01-00905-f014" position="float">
+          <label>Figure 14</label>
+          <caption>
+            <p>Preparation of artificial tooth germ.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00905-g014.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.5. GFP Infection with Retrovirus Vector</title>
+        <p>Plat-E packaging cells were transiently transfected with pMXs-Ig modified at 5'LTR to LTR/CMV (gifted from Dr. Murakami, Tokyo University of Science), using LipofectamineTM2000 Reagent (Invitrogen). After 48 h, the transfection solution was added to each emtg cell line cultured on 24-well plates.</p>
+      </sec>
+      <sec>
+        <title>3.6. <italic>In-Situ Hybridization</italic> should it be In-Situ in the second title without italic, I am not sure the Cell rule</title>
+        <p>Samples were embedded in O.C.T. Compound (Sakura Finetek) without fixation and frozen. Cryosections (10 &#xEC;m) were made and mounted on FRONTER slides (MATSUNAMI, Osaka, Japan). Digoxigenin-labeled probes for specific transcripts were produced with the digoxigenin RNA labeling kit (Roche, Mannheim, Germany) and prepared by PCR with primers designed using published sequences (<xref ref-type="table" rid="cells-01-00905-t007">Table 7</xref> and [<xref ref-type="bibr" rid="B22-cells-01-00905">22</xref>]). Resultant bands were subcloned into pGEM T-easy vector (Promega, Madison, WI) and sequenced to confirm the sequence identity. Hybridization was carried out at 57 &#xB0;C for 16 h with hybridization buffer containing 50% formamide, 0.01 M Tris-HCl (pH 7.4), 1 mM EDTA, 0.1% SDS, 0.6 M NaCl, 1&#xD7; Denhardt&#x2019;s solution, 10% dextran sulfate, and 400 &#xEC;g/mL yeast tRNA. The final wash was in 0.2&#xD7; SSC at 57 &#xB0;C for 1 h. Samples were incubated for 2 h with alkaline phosphatase-conjugated sheep anti-digoxigenin Fab fragments (Roche) at 1:1000, washed and processed for colorimetric detection using NBT/BCIP Stock Solution (Roche).]</p>
+        <table-wrap id="cells-01-00905-t007" position="float">
+          <object-id pub-id-type="pii">cells-01-00905-t007_Table 7</object-id>
+          <label>Table 7</label>
+          <caption>
+            <p>Primers of marker gene&#x2019;s probe</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">Gene</th>
+                <th align="center" valign="middle">Left primer</th>
+                <th align="center" valign="middle">Right primer</th>
+                <th align="center" valign="middle">Length of probe</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <italic>Netrin3</italic>
+                </td>
+                <td align="center" valign="middle">ccttctctgggctctgtgtc</td>
+                <td align="center" valign="middle">tgggagtagcttgctgacct</td>
+                <td align="center" valign="middle">612 bp</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <italic>Fgf9</italic>
+                </td>
+                <td align="center" valign="middle">agctccactgttgccaaact </td>
+                <td align="center" valign="middle">tgggctatgataccagtgtga </td>
+                <td align="center" valign="middle">419 bp</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <italic>Notch1</italic>
+                </td>
+                <td align="center" valign="middle">agagatgtgggatgcaggac</td>
+                <td align="center" valign="middle">tttggatgatgctgtttgga</td>
+                <td align="center" valign="middle">844 bp</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <italic>Oasis</italic>
+                </td>
+                <td align="center" valign="middle">tatccgtcctcctccgataa</td>
+                <td align="center" valign="middle">aaagcatgtgctgagctggt </td>
+                <td align="center" valign="middle">409 bp</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <italic>N-myc</italic>
+                </td>
+                <td align="center" valign="middle">tttcaaattggtcccctgtc</td>
+                <td align="center" valign="middle">acccagttctatgcaccaaa</td>
+                <td align="center" valign="middle">702 bp</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <italic>Dlx3</italic>
+                </td>
+                <td align="center" valign="middle">tgtccttttccaaggacctg</td>
+                <td align="center" valign="middle">tccttcacttcccacgaaac</td>
+                <td align="center" valign="middle">710 bp</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <italic>Bmp5</italic>
+                </td>
+                <td align="center" valign="middle">tctgtgctatgtttatgaccacaat</td>
+                <td align="center" valign="middle">ggtttttaaaattttggttgttagtt</td>
+                <td align="center" valign="middle">404 bp</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <italic>AmelX</italic>
+                </td>
+                <td align="center" valign="middle">taccacctcatcctggaagc</td>
+                <td align="center" valign="middle">ggagaacagtggaggcagag</td>
+                <td align="center" valign="middle">449 bp</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>Bioengineered germs prepared with emtg cell lines develop teeth at 100% rate when emtg cells are mixed with primary embryonic epithelial cells in the epithelial compartment. The primary epithelial cells in the compartment help emtg cells to communicate and to initiate odontogenesis with the mesenchyme. </p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We would like to thank Y. Murakami (Tokyo University of Science) for providing retrovirus vectors (pMXs-Ig modified at 5'LTR to LTR/CMV), T. Kitamura (Tokyo University) for providing retrovirus vectors (pMXs-IRES-GFP) and PLAT-E cells and T. Tuji (Tokyo University of Science) for providing cDNA (Shh, <italic>in-situ</italic> probe). This work was supported by a grant from research fellow of the Japan Society for the Promotion of Science (JSPS research fellow), Program for Development of Strategic Research Center in Private Universities supported by MEXT at Tokyo University of Science and by KAKENHI (20249078).</p>
+    </ack>
+    <notes>
+      <title>Conflict of Interest</title>
+      <p>The authors declare no conflict of interest. </p>
+    </notes>
+    <ref-list>
+      <title>References and Notes</title>
+      <ref id="B1-cells-01-00905">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miletich</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Sharpe</surname>
+              <given-names>P.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Normal and abnormal dental development</article-title>
+          <source>Hum. Mol. Genet.</source>
+          <year>2003</year>
+          <volume>12</volume>
+          <fpage>69</fpage>
+          <lpage>73</lpage>
+          <pub-id pub-id-type="doi">10.1093/hmg/ddg085</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-cells-01-00905">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thesleff</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Developmental biology and building a tooth</article-title>
+          <source>Quintessence Int.</source>
+          <year>2003</year>
+          <volume>34</volume>
+          <fpage>613</fpage>
+          <lpage>620</lpage>
+        </citation>
+      </ref>
+      <ref id="B3-cells-01-00905">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>DenBesten</surname>
+              <given-names>P.K.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Mathews</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Gruenert</surname>
+              <given-names>D.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Development and characterization of an SV40 immortalized porcine ameloblast-like cell line</article-title>
+          <source>Eur. J. Oral Sci.</source>
+          <year>1999</year>
+          <volume>107</volume>
+          <fpage>276</fpage>
+          <lpage>281</lpage>
+        </citation>
+      </ref>
+      <ref id="B4-cells-01-00905">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nakata</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kameda</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nagai</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ikegami</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Duan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Terada</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Sugiyama</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Establishment and characterization of a spontaneously immortalized mouse ameloblast-lineage cell line</article-title>
+          <source>Biochem. Biophys. Res. Commun.</source>
+          <year>2003</year>
+          <volume>308</volume>
+          <fpage>834</fpage>
+          <lpage>839</lpage>
+        </citation>
+      </ref>
+      <ref id="B5-cells-01-00905">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kawano</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Saito</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Handa</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Morotomi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Toyono</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Seta</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Nakamura</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Uchida</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Toyoshima</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ohishi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Characterization of dental epithelial progenitor cells derived from cervical-loop epithelium in a rat lower incisor</article-title>
+          <source>J. Dent. Res.</source>
+          <year>2004</year>
+          <volume>83</volume>
+          <fpage>129</fpage>
+          <lpage>133</lpage>
+          <pub-id pub-id-type="doi">10.1177/154405910408300209</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-cells-01-00905">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>MacDougall</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Thiemann</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Ta</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Hsu</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>L.S.</given-names>
+            </name>
+            <name>
+              <surname>Snead</surname>
+              <given-names>M.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Temperature sensitive simian virus 40 large T antigen immortalization of murine odontoblast cell culture: establishment of clonal odontoblast cell line</article-title>
+          <source>Connec. Tissue Res.</source>
+          <year>1995</year>
+          <volume>33</volume>
+          <fpage>419</fpage>
+          <lpage>425</lpage>
+        </citation>
+      </ref>
+      <ref id="B7-cells-01-00905">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hanks</surname>
+              <given-names>C.T.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>Z.L.</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>D.N.</given-names>
+            </name>
+            <name>
+              <surname>Edwards</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Wataha</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Ritchie</surname>
+              <given-names>H.H.</given-names>
+            </name>
+            <name>
+              <surname>Butler</surname>
+              <given-names>W.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cloned 3T6 cell line from CD-1 mouse fetal molar dental papillae</article-title>
+          <source>Connec. Tissue Res.</source>
+          <year>1998</year>
+          <volume>37</volume>
+          <fpage>233</fpage>
+          <lpage>249</lpage>
+          <pub-id pub-id-type="doi">10.3109/03008209809002442</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-cells-01-00905">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arany</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kawagoe</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sugiyama</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Application of spontaneously immortalized odontoblast cells in tooth regeneration</article-title>
+          <source>Biochem. Biophys. Res. Commun.</source>
+          <year>2009</year>
+          <volume>381</volume>
+          <fpage>84</fpage>
+          <lpage>89</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbrc.2009.02.025</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-cells-01-00905">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tsukada</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Tomooka</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Takai</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ueda</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Nishikawa</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yagi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Tokunaga</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Takeda</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Suda</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Abe</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Enhanced proliferative potential in culture of cells from p53-deficient mice</article-title>
+          <source>Oncogene</source>
+          <year>1993</year>
+          <volume>8</volume>
+          <fpage>3313</fpage>
+          <lpage>3322</lpage>
+        </citation>
+      </ref>
+      <ref id="B10-cells-01-00905">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hanazono</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hirabayashi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Tomisawa</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Aizawa</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tomooka</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Establishment of uterine cell lines from p53-deficient mice</article-title>
+          <source>In Vitro Cell. Dev. Biol. Anim.</source>
+          <year>1997</year>
+          <volume>33</volume>
+          <fpage>668</fpage>
+          <lpage>671</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11626-997-0121-3</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-01-00905">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hanazono</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nozawa</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Itakura</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Aizawa</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tomooka</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Establishment of an androgen-responsive prostatic cell line &#x2018;&#x2018;PEA5&#x2019;&#x2019; from a p53-deficient mouse</article-title>
+          <source>Prostate</source>
+          <year>2001</year>
+          <volume>46</volume>
+          <fpage>214</fpage>
+          <lpage>225</lpage>
+          <pub-id pub-id-type="doi">10.1002/1097-0045(20010215)46:3&lt;214::AID-PROS1026&gt;3.0.CO;2-0</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-cells-01-00905">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tanahashi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Shibahara</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ogawa</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hanazono</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Aizawa</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tomooka</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Establishment and characterization of clonal cell lines from the vagina of p53-deficient young mice</article-title>
+          <source>In Vitro Cell. Dev. Biol. Anim.</source>
+          <year>2002</year>
+          <volume>38</volume>
+          <fpage>547</fpage>
+          <lpage>556</lpage>
+          <pub-id pub-id-type="doi">10.1290/1543-706X(2002)38&lt;547:EACOCC&gt;2.0.CO;2</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13-cells-01-00905">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Umezu</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hanazono</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Aizawa</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tomooka</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of newly established clonal oviductal cell lines and differential hormonal regulation of gene expression</article-title>
+          <source>In Vitro Cell. Dev. Biol. Anim.</source>
+          <year>2003</year>
+          <volume>39</volume>
+          <fpage>146</fpage>
+          <lpage>156</lpage>
+        </citation>
+      </ref>
+      <ref id="B14-cells-01-00905">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Horiuchi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Itoh</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Pleasure</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Tomooka</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mutipotency of FBD-103a, a neural progenitor cell line from the p53-deficient mouse</article-title>
+          <source>Brain Res.</source>
+          <year>2005</year>
+          <volume>1066</volume>
+          <fpage>24</fpage>
+          <lpage>36</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.brainres.2005.09.061</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15-cells-01-00905">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tominaga</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Honda</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Okada</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ikeda</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kinoshita</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tomooka</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>A bipotent neural progenitor cell line cloned from a cerebellum of an adult p53-deficient mouse generates both neurons and oligodendrocytes</article-title>
+          <source>Eur. J. Neurosci.</source>
+          <year>2005</year>
+          <volume>21</volume>
+          <fpage>2903</fpage>
+          <lpage>2911</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1460-9568.2005.04119.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-cells-01-00905">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Horiuchi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tomooka</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>An attempt to generate neurons from an astrocyte progenitor cell line FBD-104</article-title>
+          <source>Neurosci. Res.</source>
+          <year>2005</year>
+          <volume>53</volume>
+          <fpage>104</fpage>
+          <lpage>115</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.neures.2005.06.007</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17-cells-01-00905">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Horiuchi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tomooka</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>An oligodendroglial progenitor cell line FBD-102b possibly secretes a radial glia-inducing factor</article-title>
+          <source>Neurosci. Res.</source>
+          <year>2006</year>
+          <volume>56</volume>
+          <fpage>213</fpage>
+          <lpage>219</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.neures.2006.06.007</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18-cells-01-00905">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Komine</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Suenaga</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nakao</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Tsuji</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Tomooka</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Tooth regeneration from newly established cell lines from a molar tooth germ epithelium</article-title>
+          <source>Biochem. Biophys. Res. Commun.</source>
+          <year>2007</year>
+          <volume>355</volume>
+          <fpage>758</fpage>
+          <lpage>763</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbrc.2007.02.039</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19-cells-01-00905">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hu</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Unda</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Bopp-Kuchler</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Jimenez</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.J.</given-names>
+            </name>
+            <name>
+              <surname>Ha&#xEF;kel</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Lesot</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bone Marrow Cells Can Give Rise to Ameloblast-like Cells</article-title>
+          <source>J. Dent. Res.</source>
+          <year>2006</year>
+          <volume>85</volume>
+          <fpage>416</fpage>
+          <lpage>421</lpage>
+          <pub-id pub-id-type="doi">10.1177/154405910608500504</pub-id>
+        </citation>
+      </ref>
+      <ref id="B20-cells-01-00905">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boulanger</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Mack</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Booth</surname>
+              <given-names>B.W.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>G.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interaction with the mammary microenvironment redirects spermatogenic cell fate <italic>in vivo</italic></article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2007</year>
+          <volume>104</volume>
+          <fpage>3871</fpage>
+          <lpage>3876</lpage>
+        </citation>
+      </ref>
+      <ref id="B21-cells-01-00905">
+        <label>21.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Booth</surname>
+              <given-names>B.W.</given-names>
+            </name>
+            <name>
+              <surname>Mack</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Androutsellis-Theotokis</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>McKay</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Boulanger</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>G.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>The mammary microenvironment alters the differentiation repertoire of neural stem cells</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2008</year>
+          <volume>105</volume>
+          <fpage>14891</fpage>
+          <lpage>14896</lpage>
+        </citation>
+      </ref>
+      <ref id="B22-cells-01-00905">
+        <label>22.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nakao</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Morita</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Saji</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ishida</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Tomita</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ogawa</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Saitoh</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tomooka</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Tsuji</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>The development of a bioengineered organ germ method</article-title>
+          <source>Nat. Methods</source>
+          <year>2007</year>
+          <volume>4</volume>
+          <fpage>227</fpage>
+          <lpage>230</lpage>
+          <pub-id pub-id-type="doi">10.1038/nmeth1012</pub-id>
+        </citation>
+      </ref>
+      <ref id="B23-cells-01-00905">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cho</surname>
+              <given-names>S.W.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>J.Y.</given-names>
+            </name>
+            <name>
+              <surname>Cai</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>E.J.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>H.A.</given-names>
+            </name>
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Jung</surname>
+              <given-names>H.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Temporospatial tissue interactions regulating the regeneration of the enamel knot in the developing mouse tooth</article-title>
+          <source>Differentiation</source>
+          <year>2007</year>
+          <volume>75</volume>
+          <fpage>158</fpage>
+          <lpage>165</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1432-0436.2006.00122.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B24-cells-01-00905">
+        <label>24.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hu</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Lesot</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Induction of Dental Epithelial Histomorphogenesis <italic>in vitro</italic></article-title>
+          <source>Dent. Med. Prob.</source>
+          <year>2004</year>
+          <volume>41</volume>
+          <fpage>193</fpage>
+          <lpage>202</lpage>
+        </citation>
+      </ref>
+      <ref id="B25-cells-01-00905">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hu</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Nadiri</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bopp-K&#xFC;chler</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Perrin-Schmitt</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Lesot</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dental Epithelial, Histomorphogenesis <italic>in vitro</italic></article-title>
+          <source>J. Dent. Res.</source>
+          <year>2005</year>
+          <volume>84</volume>
+          <fpage>521</fpage>
+          <lpage>525</lpage>
+          <pub-id pub-id-type="doi">10.1177/154405910508400607</pub-id>
+        </citation>
+      </ref>
+      <ref id="B26-cells-01-00905">
+        <label>26.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>E.J.</given-names>
+            </name>
+            <name>
+              <surname>Cho</surname>
+              <given-names>S.W.</given-names>
+            </name>
+            <name>
+              <surname>Jung</surname>
+              <given-names>H.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of tooth formation by reaggregated dental mesenchyme from mouse embryo</article-title>
+          <source>J. Electron Microsc.</source>
+          <year>2003</year>
+          <volume>52</volume>
+          <fpage>559</fpage>
+          <lpage>566</lpage>
+          <pub-id pub-id-type="doi">10.1093/jmicro/52.6.559</pub-id>
+        </citation>
+      </ref>
+      <ref id="B27-cells-01-00905">
+        <label>27.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jernvall</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Thesleff</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Reiterative signaling and patterning during mammalian tooth morphogenesis</article-title>
+          <source>Mech. Dev.</source>
+          <year>2000</year>
+          <volume>92</volume>
+          <fpage>19</fpage>
+          <lpage>29</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0925-4773(99)00322-6</pub-id>
+        </citation>
+      </ref>
+      <ref id="B28-cells-01-00905">
+        <label>28.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aberg</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Wozney</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Thesleff</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression patterns of bone morphogenetic proteins (bmps) in the developing mouse tooth suggest poles in morphogenesis and cell differentiation</article-title>
+          <source>Dev. Dynam.</source>
+          <year>1997</year>
+          <volume>210</volume>
+          <fpage>383</fpage>
+          <lpage>396</lpage>
+        </citation>
+      </ref>
+      <ref id="B29-cells-01-00905">
+        <label>29.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hikake</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Mori</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Iseki</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hagino</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Takagi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yokoya</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wanaka</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison of expression patterns between CREB family transcription factor OASIS and proteoglycan core protein genes during murine tooth development</article-title>
+          <source>Anat. Embryol.</source>
+          <year>2003</year>
+          <volume>206</volume>
+          <fpage>373</fpage>
+          <lpage>380</lpage>
+        </citation>
+      </ref>
+      <ref id="B30-cells-01-00905">
+        <label>30.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hirning</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Schmid</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Schulz</surname>
+              <given-names>W.A.</given-names>
+            </name>
+            <name>
+              <surname>Rettenberger</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Hameister</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>A comparative analysis of <italic>N-myc</italic> and <italic>c-myc</italic> expression and cellular proliferation in mouse organogenesis</article-title>
+          <source>Mech. Develop.</source>
+          <year>1991</year>
+          <volume>33</volume>
+          <fpage>119</fpage>
+          <lpage>125</lpage>
+          <pub-id pub-id-type="doi">10.1016/0925-4773(91)90078-K</pub-id>
+        </citation>
+      </ref>
+      <ref id="B31-cells-01-00905">
+        <label>31.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hu</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Simmer</surname>
+              <given-names>J.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>A comparison of enamelin and amelogenin expression in developing mouse molars</article-title>
+          <source>Eur. J. Oral Sci.</source>
+          <year>2001</year>
+          <volume>109</volume>
+          <fpage>125</fpage>
+          <lpage>132</lpage>
+          <pub-id pub-id-type="doi">10.1034/j.1600-0722.2001.00998.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B32-cells-01-00905">
+        <label>32.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kettunen</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Thesleff</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression and function of FGFs-4, -8, and -9 suggest functional redundancy and repetitive use as epithelial signals during tooth morphogenesis</article-title>
+          <source>Develop. Dynam.</source>
+          <year>1998</year>
+          <volume>211</volume>
+          <fpage>256</fpage>
+          <lpage>268</lpage>
+          <pub-id pub-id-type="doi">10.1002/(SICI)1097-0177(199803)211:3&lt;256::AID-AJA7&gt;3.0.CO;2-G</pub-id>
+        </citation>
+      </ref>
+      <ref id="B33-cells-01-00905">
+        <label>33.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>L&#xF8;es</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Luukko</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hals Kvinnsland</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Salminen</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kettunen</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Developmentally regulated expression of Netrin-1 and -3 in the embryonic mouse molar tooth germ</article-title>
+          <source>Develop. Dynam.</source>
+          <year>2003</year>
+          <volume>227</volume>
+          <fpage>573</fpage>
+          <lpage>577</lpage>
+          <pub-id pub-id-type="doi">10.1002/dvdy.10317</pub-id>
+        </citation>
+      </ref>
+      <ref id="B34-cells-01-00905">
+        <label>34.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mitsiadis</surname>
+              <given-names>T.A.</given-names>
+            </name>
+            <name>
+              <surname>Lardelli</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lendahl</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Thesleff</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression of Notch 1, 2 and 3 is regulated by epithelial-mesenchymal interactions and retinoic acid in the developing mouse tooth and associated with determination of ameloblast cell fate</article-title>
+          <source>J. Cell Biol.</source>
+          <year>1995</year>
+          <volume>130</volume>
+          <fpage>407</fpage>
+          <lpage>418</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.130.2.407</pub-id>
+        </citation>
+      </ref>
+      <ref id="B35-cells-01-00905">
+        <label>35.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Robinson</surname>
+              <given-names>G.W.</given-names>
+            </name>
+            <name>
+              <surname>Mahon</surname>
+              <given-names>K.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Differential and overlapping expression domains of Dlx-2 and Dlx-3 suggest distinct roles for Distal-less homeobox genes in craniofacial development</article-title>
+          <source>Mechan. Develop.</source>
+          <year>1994</year>
+          <volume>48</volume>
+          <fpage>199</fpage>
+          <lpage>215</lpage>
+          <pub-id pub-id-type="doi">10.1016/0925-4773(94)90060-4</pub-id>
+        </citation>
+      </ref>
+      <ref id="B36-cells-01-00905">
+        <label>36.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shimono</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Okuda</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kondoh</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>N-myc</italic>-dependent repression of ndr1, a gene identified by direct subtraction of whole mouse embryo cdnas between wild type and <italic>n-myc</italic> mutant</article-title>
+          <source>Mechan. Develop.</source>
+          <year>1999</year>
+          <volume>83</volume>
+          <fpage>39</fpage>
+          <lpage>52</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0925-4773(99)00025-8</pub-id>
+        </citation>
+      </ref>
+      <ref id="B37-cells-01-00905">
+        <label>37.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Snead</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Lau</surname>
+              <given-names>E.C.</given-names>
+            </name>
+            <name>
+              <surname>Slavkin</surname>
+              <given-names>H.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spatial- and temporal-restricted pattern for amelogenin gene expression during mouse molar tooth organogenesis</article-title>
+          <source>Development</source>
+          <year>1998</year>
+          <volume>104</volume>
+          <fpage>77</fpage>
+          <lpage>85</lpage>
+        </citation>
+      </ref>
+      <ref id="B38-cells-01-00905">
+        <label>38.</label>
+        <citation citation-type="web">
+          <article-title>Gene expression in tooth</article-title>
+          <access-date>(accessed on 29 October 2012)</access-date>
+          <comment>Available online:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http//:bite-it.helsinki.fi/" ext-link-type="uri">http//:bite-it.helsinki.fi/</ext-link></comment>
+        </citation>
+      </ref>
+      <ref id="B39-cells-01-00905">
+        <label>39.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kollar</surname>
+              <given-names>E.J.</given-names>
+            </name>
+            <name>
+              <surname>Baird</surname>
+              <given-names>G.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The influence of the dental papilla on the development of tooth shape in embryonic mouse tooth germs</article-title>
+          <source>J. Embryol. Exp. Morph.</source>
+          <year>1969</year>
+          <volume>21</volume>
+          <fpage>131</fpage>
+          <lpage>148</lpage>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

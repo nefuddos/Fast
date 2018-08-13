@@ -1,0 +1,2089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title-group>
+        <journal-title>Cells</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells7050034</article-id>
+      <article-id pub-id-type="publisher-id">cells-07-00034</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Action of the Metalloproteinases in Gonadal Remodeling during Sex Reversal in the Sequential Hermaphroditism of the Teleostei Fish <italic>Synbranchus marmoratus</italic> (Synbranchiformes: Synbranchidae)</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mazzoni</surname>
+            <given-names>Talita Sarah</given-names>
+          </name>
+          <xref rid="af1-cells-07-00034" ref-type="aff">1</xref>
+          <xref rid="af2-cells-07-00034" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lo Nostro</surname>
+            <given-names>Fabiana Laura</given-names>
+          </name>
+          <xref rid="af3-cells-07-00034" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Antoneli</surname>
+            <given-names>Fernanda Nat&#xE1;lia</given-names>
+          </name>
+          <xref rid="af4-cells-07-00034" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Quagio-Grassiotto</surname>
+            <given-names>Irani</given-names>
+          </name>
+          <xref rid="af2-cells-07-00034" ref-type="aff">2</xref>
+          <xref rid="af5-cells-07-00034" ref-type="aff">5</xref>
+          <xref rid="c1-cells-07-00034" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-07-00034"><label>1</label>Department of Cell and Development Biology, Institute of Biomedical Sciences, Federal University of Alfenas (UNIFAL), Gabriel Monteiro da Silva 700, 37130-001 Alfenas-MG, Brazil; <email>talitasarah@yahoo.com.br</email></aff>
+      <aff id="af2-cells-07-00034"><label>2</label>Department of Morphology, Botucatu Biosciences Institute, State University of S&#xE3;o Paulo (UNESP), Prof. Dr. Antonio Celso Wagner Zanin 250, 18618-689 Botucatu-SP, Brazil</aff>
+      <aff id="af3-cells-07-00034"><label>3</label>Department of Biodiversity and Experimental Biology, Faculty of Exact and Natural Sciences, Ciudad Universitaria, Lab. 4 y 78; Piso 4to., Pabell&#xF3;n 2, Int. G&#xFC;iraldes 2160, C1428EGA Buenos Aires, Argentina; <email>fabi@bg.fcen.uba.ar</email></aff>
+      <aff id="af4-cells-07-00034"><label>4</label>Institute of Biology, UNICAMP, Bertrand Russel s/n, 13083-865 Campinas-SP, Brazil; <email>antonelif@yahoo.com</email></aff>
+      <aff id="af5-cells-07-00034"><label>5</label>Aquaculture Center of UNESP (CAUNESP), Prof. Paulo Donato Castellane s/n, 14884-900 Jaboticabal-SP, Brazil</aff>
+      <author-notes>
+        <corresp id="c1-cells-07-00034"><label>*</label>Correspondence: <email>iraniqg@ibb.unesp.br</email>; Tel.: +55-14-3880-0468</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>24</day>
+        <month>04</month>
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>05</month>
+        <year>2018</year>
+      </pub-date>
+      <volume>7</volume>
+      <issue>5</issue>
+      <elocation-id>34</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>23</day>
+          <month>02</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>19</day>
+          <month>04</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2018 by the authors.</copyright-statement>
+        <copyright-year>2018</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Teleostei present great plasticity regarding sex change. During sex reversal, the whole gonad including the germinal epithelium undergoes significant changes, remodeling, and neoformation. However, there is no information on the changes that occur within the interstitial compartment. Considering the lack of information, especially on the role played by metalloproteinases (MMPs) in fish gonadal remodeling, the aim of this study was to evaluate the action of MMPs on gonads of sex reversed females of <italic>Synbranchus marmoratus</italic>, a fresh water protogynic diandric fish. Gonads were processed for light microscopy and blood samples were used for the determination of plasma sex steroid levels. During sex reversal, degeneration of the ovaries occurred and were gradually replaced by the germinal tissue of the male. The action of the MMPs induces significant changes in the interstitial compartment, allowing the reorganization of germinal epithelium. Leydig cells also showed an important role in female to male reversion. The gonadal transition coincides with changes in circulating sex steroid levels throughout sex reversion. The action of the MMPs, in the gonadal remodeling, especially on the basement membrane, is essential for the establishment of a new functional germinal epithelium.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>extracellular matrix</kwd>
+        <kwd>collagenase</kwd>
+        <kwd>protogynous diandric fish</kwd>
+        <kwd>germinal epithelium</kwd>
+        <kwd>gonad</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-cells-07-00034" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Sex change, one of the most controversial and remarkable expressions of plasticity in sexual development, can be observed in a number of teleost orders and families. Functional hermaphroditism was confirmed in 27 teleost families in seven orders [<xref ref-type="bibr" rid="B1-cells-07-00034">1</xref>]. A species or population is considered to exhibit functional hermaphroditism if a proportion of individuals function as both sexes at some time in an individual&#x2019;s life history. This natural sex reversal process basically consists of the expression of both male and female reproductive functions in a single individual; the proliferation of secondary-sex gonadal tissue and the simultaneous degeneration of the primary-sex gonadal tissue [<xref ref-type="bibr" rid="B1-cells-07-00034">1</xref>,<xref ref-type="bibr" rid="B2-cells-07-00034">2</xref>,<xref ref-type="bibr" rid="B3-cells-07-00034">3</xref>,<xref ref-type="bibr" rid="B4-cells-07-00034">4</xref>].</p>
+      <p>There are two patterns recognized in fish sex reversal, simultaneous and sequential. Sequential hermaphroditism can vary in several ways, presenting as either protogynous or protandric. In cases of protogynous hermaphroditism, most frequently observed in teleosts, individuals first develop into females and later, have their functional ovaries gradually replaced by male tissue. Thus, a decrease in female gametogenesis and an increase in the male tissue activity are observed during sex reversal; then, protogynous species may show monandry, in which all males are secondary males arising from the sex reversed females, or diandry, in which there are two types of males: those that develop as primary males and those that are secondary males [<xref ref-type="bibr" rid="B1-cells-07-00034">1</xref>,<xref ref-type="bibr" rid="B5-cells-07-00034">5</xref>,<xref ref-type="bibr" rid="B6-cells-07-00034">6</xref>].</p>
+      <p>The swamp or marbled eel, <italic>Synbranchus marmoratus</italic> Bloch (1795), as <italic>Monopterus albus</italic> Zuiew (1793), the rice eel, also a Synbranchiformes [<xref ref-type="bibr" rid="B7-cells-07-00034">7</xref>], is a diandric protogynous fish that primarily&#x2014;with an unrestricted lobular testis type&#x2014;develops directly as males, while secondary males arise from the sex reversal of females [<xref ref-type="bibr" rid="B8-cells-07-00034">8</xref>,<xref ref-type="bibr" rid="B9-cells-07-00034">9</xref>,<xref ref-type="bibr" rid="B10-cells-07-00034">10</xref>,<xref ref-type="bibr" rid="B11-cells-07-00034">11</xref>,<xref ref-type="bibr" rid="B12-cells-07-00034">12</xref>]. They are widely distributed across Central and South America [<xref ref-type="bibr" rid="B13-cells-07-00034">13</xref>].</p>
+      <p>In this species, sex change is correlated to the length of the individual, where reversion takes place in those between 25.0 and 60.0 cm total length [<xref ref-type="bibr" rid="B9-cells-07-00034">9</xref>,<xref ref-type="bibr" rid="B12-cells-07-00034">12</xref>,<xref ref-type="bibr" rid="B14-cells-07-00034">14</xref>].</p>
+      <p>The sex reversal process in <italic>Synbranchus marmoratus</italic> begins in reproductive females and is characterized by a disorganization of the gonadal architecture; intense proliferation of myoid cells; appearance of new germline cysts located at the edges of the ovarian lamellae; massive degeneration of the female germ cells; intense phagocytic activity; increase of vascularization; and the presence of melanomacrophage centers [<xref ref-type="bibr" rid="B10-cells-07-00034">10</xref>,<xref ref-type="bibr" rid="B11-cells-07-00034">11</xref>,<xref ref-type="bibr" rid="B15-cells-07-00034">15</xref>].</p>
+      <p>During the gonadal development of teleosts, a constant remodeling of the interstitial tissue is required, according to the changes undergone by the germinal epithelium, either during reproductive cycles [<xref ref-type="bibr" rid="B16-cells-07-00034">16</xref>] or gonadal differentiation [<xref ref-type="bibr" rid="B17-cells-07-00034">17</xref>]. This remodeling of the connective tissue involves events of degradation and new synthesis of extracellular matrix components [<xref ref-type="bibr" rid="B18-cells-07-00034">18</xref>,<xref ref-type="bibr" rid="B19-cells-07-00034">19</xref>]. The degradation of the matrix components is effected by several proteolytic enzymes, with the matrix metalloproteinases (MMPs) being the main ones involved in this process [<xref ref-type="bibr" rid="B20-cells-07-00034">20</xref>].</p>
+      <p>Metalloproteinases (MMPs) are a group of structurally-related proteins (endopeptidases), calcium and zinc dependent, and active at physiological pH [<xref ref-type="bibr" rid="B21-cells-07-00034">21</xref>,<xref ref-type="bibr" rid="B22-cells-07-00034">22</xref>]. These enzymes act on the degradation of many components of the extracellular matrix during tissue remodeling and may be involved in the regulation of cell-cell and cell-matrix signaling [<xref ref-type="bibr" rid="B22-cells-07-00034">22</xref>,<xref ref-type="bibr" rid="B23-cells-07-00034">23</xref>]. In mammals, studies show that some of the major MMPs are involved in remodeling processes of the male germinal epithelium [<xref ref-type="bibr" rid="B24-cells-07-00034">24</xref>] and in the rupture of the ovarian follicle [<xref ref-type="bibr" rid="B25-cells-07-00034">25</xref>]. A recent study also shows the expression of proteinase genes and proteolytic enzymes in gonad development of the mouse [<xref ref-type="bibr" rid="B26-cells-07-00034">26</xref>]. However, in aspects regarding the reproductive biology in teleosts, there are few studies that relate gonadal remodeling to the action of the MMPs and none regarding their role during sex reversal.</p>
+      <p>Another important aspect during sex reversion is the role of the steroid hormones. In teleosts, sexual steroids are considered the main factor of gonadal sex development and reproduction and are involved on sex reversal in hermaphroditic species [<xref ref-type="bibr" rid="B1-cells-07-00034">1</xref>,<xref ref-type="bibr" rid="B3-cells-07-00034">3</xref>,<xref ref-type="bibr" rid="B12-cells-07-00034">12</xref>,<xref ref-type="bibr" rid="B15-cells-07-00034">15</xref>,<xref ref-type="bibr" rid="B27-cells-07-00034">27</xref>]. These hormones are produced by gonadal somatic cells: follicle and theca cells, in females; Sertoli and, especially, Leydig cells in males.</p>
+      <p>In most teleost fishes, as in other vertebrates, Leydig cells are usually located singly or in small clusters in the interstitial compartment of the testis [<xref ref-type="bibr" rid="B28-cells-07-00034">28</xref>]. Leydig cells have features of steroid-producing cells, such as steroid dehydrogenase enzymes (essential for the biosynthesis of most steroid hormones) and receptors for hormone/polypeptide growth factors [<xref ref-type="bibr" rid="B29-cells-07-00034">29</xref>,<xref ref-type="bibr" rid="B30-cells-07-00034">30</xref>]. In fact, different approaches and techniques have been used in teleost Leydig cells and have confirmed that these cells are the main source of testicular steroids [<xref ref-type="bibr" rid="B17-cells-07-00034">17</xref>,<xref ref-type="bibr" rid="B31-cells-07-00034">31</xref>,<xref ref-type="bibr" rid="B32-cells-07-00034">32</xref>,<xref ref-type="bibr" rid="B33-cells-07-00034">33</xref>,<xref ref-type="bibr" rid="B34-cells-07-00034">34</xref>,<xref ref-type="bibr" rid="B35-cells-07-00034">35</xref>].</p>
+      <p>Leydig cells, also in the swamp eel <italic>Synbranchus marmoratus</italic>, are known to have a steroidogenic function in both types of males [<xref ref-type="bibr" rid="B36-cells-07-00034">36</xref>]. Therefore, these cells may offer hormonal support to the development and proliferation of male structures during sex reversal. Consequently, in this protogynous hermaphroditic species, this cell type might be the earliest structure to arise in the ovary, thus considered the early transitional gonad.</p>
+      <p>Thus, in an attempt to determine the role of the matrix metalloproteinases (MMPs) in the gonadal tissue remodeling during sex reversal and examine whether Leydig cells are involved in the morphological and functional beginning of sex reversal in <italic>Synbranchus marmoratus</italic>, the transitional gonads were studied using histological high resolution light microscopy, polarizing light microscopy, and immunohistochemistry techniques for the detection of three types of metalloproteinases (MMP-2, MMP-9, and MMP-14) and the 3&#x3B2;-hydroxysteroid dehydrogenase (3&#x3B2;-HSD). Additionally, immunohistochemistry for the detection of proliferation of the Leydig cells and hormonal analysis of sex steroids were also performed.</p>
+    </sec>
+    <sec id="sec2-cells-07-00034">
+      <title>2. Materials and Methods </title>
+      <sec id="sec2dot1-cells-07-00034">
+        <title>2.1. Animals</title>
+        <p>Adult <italic>Synbranchus marmoratus</italic> specimens, from 25 to 54.9 cm total length, were collected in the Tiet&#xEA; river, in the Pen&#xE1;polis region, S&#xE3;o Paulo State, Southeastern of Brazil (21&#xB0;17&#x2032; S; 49&#xB0;47&#x2032; W). Fish were transferred to the laboratory and anesthetized by immersion in a solution of 0.1% benzocaine. Handling of animals was performed in compliance with international standards on animal welfare (Canadian Council on Animal Care, 2005&#x2014;Ottawa, Canada), as well as being in compliance with the local Ethical Committee from Instituto de Bioci&#xEA;ncias de Botucatu&#x2014;Botucatu, SP&#x2014;Brazil (n. 580-IBB&#x2014;UNESP).</p>
+      </sec>
+      <sec id="sec2dot2-cells-07-00034">
+        <title>2.2. Sample Preparation for Light Microscopy</title>
+        <p>Animals were anesthetized and immediately following, were sacrificed by decapitation and the gonads were quickly removed. Samples were then fixed in glutaraldehyde 2% and paraformaldehyde 4% solution in Sorensen buffer (0.1 M at 7.2 pH) for at least 24 h at room temperature. After fixation, the samples were dehydrated in a crescent ethanol series and embedded in Historesin (Leica HistoResin<sup>&#xAE;</sup>, Buffalo Grove, IL, USA). Cross sections (3 &#xB5;m) were stained with Ferric Hematoxylin/Eosin (HE); Toluidine Blue (TB); Schiff Periodic Acid + Ferric Hematoxylin + Metanil Yellow (MY) [<xref ref-type="bibr" rid="B37-cells-07-00034">37</xref>]; and with the Reticulin Method that enhances basement membranes. The Reticulin stain [<xref ref-type="bibr" rid="B38-cells-07-00034">38</xref>] uses an oxidizing agent, potassium permanganate, to oxidize aldehyde groups. Subsequently, the oxidized aldehyde groups are detected by the deposition of positive silver ions followed by their reduction using formalin. The result is a black hue of the reticulin fibers. As reticulin fibers are part of basement membranes, the method clearly detects basement membranes.</p>
+        <p>The histological slides were also stained with Picrosirius Red and observed in polarized light for the localization of collagen fibers [<xref ref-type="bibr" rid="B39-cells-07-00034">39</xref>]. Gonadal tissues were evaluated by using a computerized image analyzer (Leica Qwin 2.5, Leica Microsystems, Buffalo Grove, IL, USA).</p>
+        <sec id="sec2dot2dot1-cells-07-00034">
+          <title>Immunohistochemistry for Metalloproteinases (MMPs), 3&#x3B2;-Hidroxysteroid Dehydrogenase(3&#x3B2;-HSD) Enzyme and Proliferating Cell Nuclear Antigen (PCNA)</title>
+          <p>For the detection of the MMPs (MMP14, MMP2, and MMP9), three &#x3B2;-HSD enzyme and PCNA samples were fixed in paraformoldehyde 4% for 1&#x2013;3 h, embedded in Paraplast<sup>&#xAE;</sup> (Sigma-Aldrich, St. Louis, MO, USA) and sectioned at 5 &#xB5;m. Sections were deparaffinized, hydrated in TBS buffer (Tris+phosphate buffer, 5 mM, pH 7.6), and then treated with 3% hydrogen peroxide for 15 min to quench endogenous peroxidase activity. Antigen retrieval was performed in a steam pan with citrate buffer (0.01 M; pH 6.0) for 20 min. After buffer rinse, slides were treated with a protein blocker (1% of non-fat powdered milk in TBS) for 15 min. They were subsequently incubated with the primary antibody, specific to each antigen: Anti-MMP14 (anti-rabbit, ab53712, ABCam), Anti-MMP2 (anti-rabbit, ab37150, ABCam), and Anti-MMP9 (anti-rabbit, ab38898, ABCam) polyclonal Ab. (1:50); anti-3-&#x3B2; HSD monoclonal Ab. (1:100) (anti-mouse, SC-100466, Santa Cruz, CA, USA); and Anti-PCNA monoclonal Ab. (1:300) (NCL-L-PCNA, clone PC10, Novocastra) for 2 h at room temperature in a moisture chamber. Next, slides were washed and incubated with MR HRP-Polymer (MACH4 Universal HRP Polymer Kit<sup>&#xAE;</sup>) for 30 min. Immunostaining was visualized using 0.1% DAB (3&#x2032;,3&#x2032;-diamminobenzidine) in TBS buffer and 0.03% H<sub>2</sub>O<sub>2</sub>. Sections were lightly counterstained with Harris Hematoxylin, dehydrated, and mounted with DPX. Negative control sections were treated with TBS instead of primary antibody. Sections of ovaries from mouse specimens were used as the positive control.</p>
+        </sec>
+      </sec>
+      <sec id="sec2dot3-cells-07-00034">
+        <title>2.3. Sex Steroid Levels</title>
+        <p>Blood samples of <italic>Synbranchus marmoratus</italic> were used for the quantification of plasma levels of steroids. Animals were anesthetized and peripheral blood was collected by puncture of the caudal vein with a heparin-coated needle, attached to a 3 mL syringe. Samples were centrifuged at 2500&#xD7; <italic>g</italic> for 15 min at 4 &#xB0;C to obtain plasma, which was stored at &#x2212;20 &#xB0;C.</p>
+        <p>The plasma profiles of 11-ketotestosterone (11-KT), testosterone (T), and 17&#x3B2;-estradiol (E2) were quantified by an enzyme-linked immunosorbent assay (ELISA) with commercial kits (for 11-KT: Cayman Chemical; for T and E2: Interkit). Minimum detectable concentrations in plasma samples were 45 pg mL<sup>&#x2212;1</sup> for E2, 57 pgmL<sup>&#x2212;1</sup> for 11-KT, and 59 pg mL<sup>&#x2212;1</sup> for T. The inter- and intra-assay coefficients of variation were 10.5% and 2.8 &#xB1; 0.2% for E2 (<italic>n</italic> = 8), 10.6% and 3.1 &#xB1; 0.2% for 11-KT (<italic>n</italic> = 8), and 9,6% and 4.4 &#xB1; 0.3% for T (<italic>n</italic> = 7), respectively. Main cross-reactivity (&gt;1%; given by supplier) was detected with estradiol-3-glucoronide (17%) and estrone (4%) for the E2 antibody and with 5&#x3B1;-dihydrotestosterone (27.4%), 5&#x3B2;-dihydrotestosterone (18.9%), androstenedione (3.7%), and 11-KT (2.2%) for the T antibody. For 11-KT antiserum, cross-reactivity with other steroids was lower than 0.1%. Analyses were carried out following the manufacturer&#x2019;s instructions, samples were assayed in duplicate, the standard curve was run for each ELISA plate, and the absorbance (450 nm for E2, 421 nm for 11-KT and T) measurements were performed in a microplate reader (Expert Plus <sup>&#xAE;</sup>, BIOCHROM, Cambridge, UK).</p>
+      </sec>
+      <sec id="sec2dot4-cells-07-00034">
+        <title>2.4. Statistical Analysis</title>
+        <p>Plasma levels of each hormone were grouped in distinct individual phases during the sex reversal of <italic>Synbranchus marmoratus</italic>. Values were expressed as mean &#xB1; SEM (standard error of the mean) and then subjected to variance analysis (one way ANOVA) and to a Tukey Test (Statistica<italic><sup>&#xAE;</sup></italic> 7.0&#x2014;StatSoft, Palo Alto, CA, USA). Means were considered statistically different at <italic>p</italic> &lt; 0.05.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-cells-07-00034" sec-type="results">
+      <title>3. Results</title>
+      <sec id="sec3dot1-cells-07-00034">
+        <title>3.1. Gonodal Structure of Synbranchus marmoratus</title>
+        <p><italic>Synbranchus marmoratus</italic> is a diandric protogynous hermaphrodite species, in which the population is composed of four types of sexual representatives (<xref ref-type="fig" rid="cells-07-00034-f001">Figure 1</xref>): Females; Primary Males; Secondary Males; and Hermaphroditic Individuals. Primary males are those individuals that develop directly as male, while secondary males develop from a process of sex reversal of females, passing through a stage of intersexes.</p>
+        <p>The gonads are located dorsally to the digestive tract. They are elongated, cylindrical, and occupy 2/3 of the coelomic cavity, being connected to the urogenital papillae in the caudal portion. The female, male, or transitional gonads are attached to the dorsal wall of the coelomic cavity by a connective tissue membrane&#x2014;the mesentery.</p>
+        <p>The ovaries (<xref ref-type="fig" rid="cells-07-00034-f001">Figure 1</xref>A) constitute a single saculiform organ, surrounded by a thick capsule of connective tissue (the tunica albuginea). It presents a lumen, delimited by a germinal epithelium, which borders the ovigerous lamellae (<xref ref-type="fig" rid="cells-07-00034-f001">Figure 1</xref>B). The germinal epithelium, supported by a basement membrane (<xref ref-type="fig" rid="cells-07-00034-f001">Figure 1</xref>C), is composed of somatic and germ cells. In cross sections, ovigerous lamellae are projected into the organ (ovarian cavity) from the ventral region, being attached to the tunica albuginea by lateral supports.</p>
+        <p>Initially, the female gonads that undergo the sex change process (<xref ref-type="fig" rid="cells-07-00034-f001">Figure 1</xref>D) have the same characteristics as an ovary, as described above. At the beginning of the transitional process, the epithelium becomes composed of a larger number of somatic and germ cells. The connective tissue (<xref ref-type="fig" rid="cells-07-00034-f001">Figure 1</xref>E) becomes more developed. Thus, the germinal epithelium still supported by a basement membrane (<xref ref-type="fig" rid="cells-07-00034-f001">Figure 1</xref>F) presents a greater number of germline cysts immersed in a connective tissue and surrounded by a basement membrane, which separates them from the interstitial compartment.</p>
+        <p>After the reversion, the &#x201C;new&#x201D; male gonad (<xref ref-type="fig" rid="cells-07-00034-f001">Figure 1</xref>G), named secondary males, is drafted on a female gonad. Thus, the testis of the secondary male becomes a single structure, externally delimited by a connective tissue capsule (the former tunica albuginea of the ovary) (<xref ref-type="fig" rid="cells-07-00034-f001">Figure 1</xref>G). The new testicular lobules, called testicular lamellae, develop on the former ovigerous lamellae, showing the same aspects as a primary male testes, that is, they are formed by a germinal epithelium supported by a basement membrane (<xref ref-type="fig" rid="cells-07-00034-f001">Figure 1</xref>H,I). However, unlike primary males, testes that come from sex reversal have lateral supports (<xref ref-type="fig" rid="cells-07-00034-f001">Figure 1</xref>G), which attach the old lamellae to the capsule of connective tissue. In addition, the lumen is maintained during the process of sex reversal. Thus, the testes of the secondary male present a non-functional coelomic cavity (pseudo-ovarian cavity) (<xref ref-type="fig" rid="cells-07-00034-f001">Figure 1</xref>G).</p>
+        <p>The testes of primary males are paired organs, joined medially by connective tissue (<xref ref-type="fig" rid="cells-07-00034-f001">Figure 1</xref>J). Histologically, they present a lobular unrestricted type organization (<xref ref-type="fig" rid="cells-07-00034-f001">Figure 1</xref>K). The germinal epithelium of the testicular lobules, supported by a basement membrane (<xref ref-type="fig" rid="cells-07-00034-f001">Figure 1</xref>L), is composed of somatic and male germ cells.</p>
+      </sec>
+      <sec id="sec3dot2-cells-07-00034">
+        <title>3.2. Female Gonad of Synbranchus marmoratus</title>
+        <p>As was described above, the ovaries of <italic>Synbranchus marmoratus</italic> present an ovarian cavity in which ovigerous lamellae are projected (<xref ref-type="fig" rid="cells-07-00034-f002">Figure 2</xref>A). Along the ovigerous lamellae is the female germinal epithelium (<xref ref-type="fig" rid="cells-07-00034-f002">Figure 2</xref>B), constituted by squamous somatic cells, with a basophilic nucleus andoogonia. These are located throughout the germinal epithelium, isolated or forming cell clusters, resulting from cell proliferation. Oogonia are surrounded by somatic cells forming germline cysts. In the cysts, the oogonia divide by mitosis and through the oogenesis process, enter into meiosis, giving rise to oocytes. In these niches of cell proliferation and differentiation, the formation of ovarian follicles occurs in a permanently active epithelium (<xref ref-type="fig" rid="cells-07-00034-f002">Figure 2</xref>B&#x2013;D).</p>
+      </sec>
+      <sec id="sec3dot3-cells-07-00034">
+        <title>3.3. The Gonadal Remodeling during the Sex Reversal&#x2014;Formation of the Gonad of the Secondary Male</title>
+        <sec id="sec3dot3dot1-cells-07-00034">
+          <title>3.3.1. The Female Early Transitional Gonadal Tissue</title>
+          <p>The process of sexual reversion in <italic>Synbranchus marmoratus</italic> begins in a functional ovary, from the border of the ovarian cavity. This ovary shows an active female germinal epithelium, formed by oogonia, prophase oocytes, and primary and secondary growth oocytes.</p>
+          <p>The first signs that indicate the beginning of the transition are a structural disorganization of the female gonad, mainly consisting of the entrance into atresia of some secondary growth oocytes (<xref ref-type="fig" rid="cells-07-00034-f003">Figure 3</xref>A,B). Concomitantly, there is a thickening of the connective tissue, adjacent to the epithelium (<xref ref-type="fig" rid="cells-07-00034-f003">Figure 3</xref>C&#x2013;F) that borders the ovigerous lamellae (<xref ref-type="fig" rid="cells-07-00034-f003">Figure 3</xref>B,C). As a consequence of this thickening, there is the formation of invaginations from the coemolic cavity towards the epithelium (<xref ref-type="fig" rid="cells-07-00034-f003">Figure 3</xref>D). In this region, a proliferation of gonia (<xref ref-type="fig" rid="cells-07-00034-f003">Figure 3</xref>D) starts: entering into meiosis and increasing the number of cysts in the germinal epithelium (<xref ref-type="fig" rid="cells-07-00034-f003">Figure 3</xref>E). Thus, the male gonadal tissue, initially scarce, gradually replaces the female germinal epithelium that initiates a constant regression. Just below the basement membrane, an increase of the collagen fibers occurs in the underlying interstitial tissue (<xref ref-type="fig" rid="cells-07-00034-f003">Figure 3</xref>E,F).</p>
+          <p>Throughout the process of folliculogenesis and entrance of the oocyte into primary growth, the prophase oocytes, as well as the primary growth oocytes (<xref ref-type="fig" rid="cells-07-00034-f003">Figure 3</xref>A&#x2013;F), remain involved by somatic cells, as well as the pre-follicle and follicle cells, respectively, which synthesize a basement membrane, segregating them from the interstitial components. The basement membrane often becomes tortuous, next to the interstitial compartment, remaining rectilinear around the ovarian follicles.</p>
+          <p>At this stage of the sex reversal process, a proliferation of Leydig cells (<xref ref-type="fig" rid="cells-07-00034-f003">Figure 3</xref>F,G) was observed in the interstitial tissue, which showed a positive response to immunohistochemistry for PCNA (<xref ref-type="fig" rid="cells-07-00034-f003">Figure 3</xref>H) and for the detection of 3&#x3B2;-HSD (<xref ref-type="fig" rid="cells-07-00034-f003">Figure 3</xref>I). Leydig cells have an oval shape and a small spherical nucleus with compacted chromatin (<xref ref-type="fig" rid="cells-07-00034-f003">Figure 3</xref>F). They usually form cell clusters, either in the interstitial tissue or in the connective tissue capsule, often close to the blood vessels (Figure3G).</p>
+        </sec>
+        <sec id="sec3dot3dot2-cells-07-00034">
+          <title>3.3.2. The Female Intermediary Transitional Gonad Tissue</title>
+          <p>As the gonadal remodeling progresses, increasing the structural disorganization of the gonad (<xref ref-type="fig" rid="cells-07-00034-f004">Figure 4</xref>A), atretic follicles are frequently observed (<xref ref-type="fig" rid="cells-07-00034-f004">Figure 4</xref>B), while the female portion of the gonad remains located in the peripheral region of the gonadal tissue, opposite to the germinal epithelium, which is being invaded by male gonadal tissue (<xref ref-type="fig" rid="cells-07-00034-f004">Figure 4</xref>C,D). Hyperplasia of the connective tissue of the capsule (<xref ref-type="fig" rid="cells-07-00034-f004">Figure 4</xref>A) and a strongly increased amount of blood vessels can be observed, both in the center of the gonad and in the region underlying the epithelium (<xref ref-type="fig" rid="cells-07-00034-f004">Figure 4</xref>C,D).</p>
+          <p>At this stage, it is possible to observe the first spermatozoa in the lumen of small intra-tissue spaces newly formed (<xref ref-type="fig" rid="cells-07-00034-f004">Figure 4</xref>E). These spaces constitute the primordium of the first testicular lobules, which will be established at the end of the process of sex reversion. The interstitial tissue develops progressively, being constituted by a large amount of fibroblasts, collagen fibers, myoid cells, and granulocytes. Near the blood vessels, the presence of groups of Leydig cells is often noted (<xref ref-type="fig" rid="cells-07-00034-f004">Figure 4</xref>F).</p>
+        </sec>
+        <sec id="sec3dot3dot3-cells-07-00034">
+          <title>3.3.3. The Final Transitional Gonad&#x2014;The Intersex</title>
+          <p>At the final stage of sex reversal, the gonad becomes less thick due to the degeneration of the female gonadal tissue and predominance of the male gonadal tissue (<xref ref-type="fig" rid="cells-07-00034-f005">Figure 5</xref>A). It is possible to observe some remaining oocytes in primary and secondary growth, but the male germline cysts occupy most of the gonad (<xref ref-type="fig" rid="cells-07-00034-f005">Figure 5</xref>A&#x2013;C). The distribution of the male gonadal tissue on the old ovigerous lamellae is observed (<xref ref-type="fig" rid="cells-07-00034-f005">Figure 5</xref>A,B). The male gonadal tissue is formed by cysts containing spermatogonia and spermatocytes (<xref ref-type="fig" rid="cells-07-00034-f005">Figure 5</xref>B,C). These are organized in cell clusters, such as acinar structures, in which there is not a fully defined lumen yet, except in some regions where spermatozoa are present in the lumen of a rudimentary testicular lobule (<xref ref-type="fig" rid="cells-07-00034-f005">Figure 5</xref>F). Granulocytes infiltrate in large amounts within the interstitial tissue, being quite frequent near the atretic follicles and melanomacrophage centers (<xref ref-type="fig" rid="cells-07-00034-f005">Figure 5</xref>D,E; <xref ref-type="app" rid="app1-cells-07-00034">Supplementary Figure S1</xref>).</p>
+        </sec>
+        <sec id="sec3dot3dot4-cells-07-00034">
+          <title>3.3.4. The Gonadal Tissue of the Secondary Male</title>
+          <p>At the end of the sex reversal process, the gonad does not presents intersex characteristics, showing predominantly male elements, such as the presence of testicular lobules (<xref ref-type="fig" rid="cells-07-00034-f006">Figure 6</xref>A,B). The interstitial tissue underneath the male germinal epithelium is still disarranged. It is possible to observe some areas of necrosis with eosinophilic cells and a few remaining oocytes. The testicular lobules are formed from the acinar structures, constituted by germ cells. These germ cells, the spermatogonia, once encysted by the Sertoli cells, move away from one another, in the same cluster, forming small testicular lobules (<xref ref-type="fig" rid="cells-07-00034-f006">Figure 6</xref>B). With the proliferation of the spermatogonia, the lobules grow, presenting a larger extension and a wider testicular lumen. Thus, the gonadal tissue is now completely remodeled into a male gonad, with male germinal epithelium completely established and identical to the germinal epithelium of the testis of a primary male. Anatomically, the testis of the secondary male remains quite similar to the anatomical structure of the ovary.</p>
+          <p>In the germinal epithelium of the lobules, the spermatogenesis begins and it is possible to observe all types of male germ cells (spermatogonia, spermatocytes, and spermatids) (<xref ref-type="fig" rid="cells-07-00034-f006">Figure 6</xref>C,D). The germinal compartment, supported by a basement membrane, is composed of Sertoli and germ cells that give rise to sperm. At the end of the spermiogenesis, the lumen of the testicular lobules gradually becomes fully filled by spermatozoa (<xref ref-type="fig" rid="cells-07-00034-f006">Figure 6</xref>E,F). It is still possible to observe a few remaining oocytes (<xref ref-type="fig" rid="cells-07-00034-f006">Figure 6</xref>E).</p>
+          <p>Spermatogonia and pre-Sertoli cells present the same structural characteristics of oogonia and pre-follicle cells. The pre-Sertoli cells have a triangular nucleus, sparse cytoplasm, and cytoplasmic projections that interpose gradually between spermatogonia. Thus, spermatogonia are gradually and individually affected by cytoplasmic expansions of the now Sertoli cells, forming cysts delimited by cytoplasmic extensions of the Sertoli cells.</p>
+          <p>Now, the testis is fully formed and the secondary male is able to reproduce (<xref ref-type="fig" rid="cells-07-00034-f006">Figure 6</xref>G,H). During the process, it is common to observe the presence of basophilic filaments distributed throughout the gonadal tissue (<xref ref-type="fig" rid="cells-07-00034-f006">Figure 6</xref>H).</p>
+        </sec>
+        <sec id="sec3dot3dot5-cells-07-00034">
+          <title>3.3.5. The Male Gonad of <italic>Synbranchus marmoratus</italic>&#x2014;Primary Male</title>
+          <p>During all reproductive phases and/or the period of testicular differentiation of the primary male of <italic>Synbranchus marmoratus</italic>, the gonads remain paired, elongated, and cylindrical organs. At the beginning of the development, the gonadal tissue presents small testicular lobules, formed only by a germinal epithelium composed of cysts of spermatogonia, with frequent mitotic divisions. The luminal compartment of the lobes is still reduced and empty (<xref ref-type="fig" rid="cells-07-00034-f007">Figure 7</xref>A,B).</p>
+          <p>Gradually, the spermatogonia continue to proliferate, enlarging the luminal compartment (<xref ref-type="fig" rid="cells-07-00034-f007">Figure 7</xref>C,D). Spermatogonia enter into meiosis, initiating the spermatogenesis, which becomes continuous. With the increase of germ and somatic cells, the testis expands in width and length (<xref ref-type="fig" rid="cells-07-00034-f007">Figure 7</xref>E). Spermatocytes in the early stages of the meiotic prophase become numerous in the testis (<xref ref-type="fig" rid="cells-07-00034-f007">Figure 7</xref>F). Spermatozoa begin to be produced (<xref ref-type="fig" rid="cells-07-00034-f007">Figure 7</xref>F).</p>
+          <p>With the progress of spermatogenesis, cysts of spermatid become numerous. As a consequence of the increase of germline cysts, there is an increase in the length of the lobules and the testis expands (<xref ref-type="fig" rid="cells-07-00034-f007">Figure 7</xref>G). Cysts of spermatogonia are distributed throughout the testicular lobule among cysts of other germ cells, such as spermatocytes and spermatids, characterizing the testicular organization as an unrestricted lobular type (<xref ref-type="fig" rid="cells-07-00034-f007">Figure 7</xref>H). The adjacent testicular lobules are separated from each other by highly developed interstitial tissue (<xref ref-type="fig" rid="cells-07-00034-f007">Figure 7</xref>H). The production of spermatozoa increases and the testicular lumen, now more extensive, is filled by a large number of these cells (<xref ref-type="fig" rid="cells-07-00034-f007">Figure 7</xref>H).</p>
+        </sec>
+      </sec>
+      <sec id="sec3dot4-cells-07-00034">
+        <title>3.4. Detection of the Matrix Metalloproteinases MMP-9, MMP-2 and MMP-14 during the Sex Reversal</title>
+        <p>In females of <italic>Synbranchus marmoratus</italic>, the MMP-9 enzyme was detected through immunohistochemistry techniques in a few ovarian regions, especially in cells of the ovarian stroma and in some regions of the connective tissue capsule (tunica albuginea) (<xref ref-type="fig" rid="cells-07-00034-f008">Figure 8</xref>). MMP-2 and MMP-14 were not detected in this ovarian stage.</p>
+        <p>During the beginning of the transitional process of the gonad, the labeling for the three types of metalloproteinases (MMPs) becomes intense and the immunolocalization coincides in all cases (<xref ref-type="fig" rid="cells-07-00034-f009">Figure 9</xref>), predominating in ovarian stromal cells and around the primary and secondary growth oocytes, in the theca cells. Some mesenchymal cells were positively labeled for MMP-9 (<xref ref-type="fig" rid="cells-07-00034-f009">Figure 9</xref>H).</p>
+        <p>During the intermediate transitional stage (<xref ref-type="fig" rid="cells-07-00034-f010">Figure 10</xref>A&#x2013;E), the gonad shows interstitial cells marked positively at the detection of MMP-2, but at a lower intensity compared to the previous stage (<xref ref-type="fig" rid="cells-07-00034-f010">Figure 10</xref>A). Some gonia, theca cells, ovarian stromal cells, and granulocytes also showed a positive response to MMP-9 (<xref ref-type="fig" rid="cells-07-00034-f010">Figure 10</xref>B&#x2013;D). Also at this stage, the MMP-14 enzyme was detected only in theca cells (<xref ref-type="fig" rid="cells-07-00034-f010">Figure 10</xref>E).</p>
+        <p>During the intersex phase (<xref ref-type="fig" rid="cells-07-00034-f010">Figure 10</xref>F&#x2013;I), MMP-14 was poorly detected in some regions of connective tissue, as well as in primary growing oocytes and germline cysts of spermatogonia (<xref ref-type="fig" rid="cells-07-00034-f010">Figure 10</xref>F,G). MMP-9 was detected in primary and secondary growth oocytes, as well as in germline cysts, showing a more intense marking when compared to the MMP-14 (<xref ref-type="fig" rid="cells-07-00034-f010">Figure 10</xref>H). An intense marking of MMP-2 was also found in germline cysts (<xref ref-type="fig" rid="cells-07-00034-f010">Figure 10</xref>I).</p>
+        <p>At the end of the sex reversal process, the gonad of the secondary male shows a weak reaction to the MMP-2, MMP-9, and MMP-14 proteins. MMP-9 was detected in somatic cells, in the dorsal region of the gonad, as well as in interstitial cells (<xref ref-type="fig" rid="cells-07-00034-f011">Figure 11</xref>A&#x2013;C). Granulocytes present in melanomacrophage centers also showed a positive response to MMP-9 detection, being absent in the cytoplasm of oocytes or in their follicle complexes (<xref ref-type="fig" rid="cells-07-00034-f011">Figure 11</xref>D). The MMP-2 enzyme was not detected in the majority of the germline cysts (<xref ref-type="fig" rid="cells-07-00034-f011">Figure 11</xref>E), but it showed a positive response in granulocytes located in the melanomacrophage centers (<xref ref-type="fig" rid="cells-07-00034-f011">Figure 11</xref>F) and in some spermatogonia located in lobules full with sperm (<xref ref-type="fig" rid="cells-07-00034-f011">Figure 11</xref>H). MMP-14 was expressed in granulocytes and in theca cells of follicle complexes (<xref ref-type="fig" rid="cells-07-00034-f011">Figure 11</xref>G).</p>
+        <p>After the beginning of the spermatogenesis, the testis of the secondary male (<xref ref-type="fig" rid="cells-07-00034-f011">Figure 11</xref>K) shows a positive response to MMP-2 (<xref ref-type="fig" rid="cells-07-00034-f011">Figure 11</xref>I) and MMP-9 (<xref ref-type="fig" rid="cells-07-00034-f011">Figure 11</xref>J) in granulocytes from the connective tissue capsule. Granulocytes present in the interstitial compartment of the testis (<xref ref-type="fig" rid="cells-07-00034-f011">Figure 11</xref>L) also show a positive response to MMP-2, which is also detected in interstitial tissue cells and granulocytes present inside the lumen of testes (<xref ref-type="fig" rid="cells-07-00034-f011">Figure 11</xref>M).</p>
+        <p>In testes of the primary males, MMP-2 and MMP-9 (<xref ref-type="fig" rid="cells-07-00034-f012">Figure 12</xref>C) were detected in the spermatogonia that constitute the germinal epithelium of the testicular lobules. The same positive result was observed for MMP-14 (<xref ref-type="fig" rid="cells-07-00034-f012">Figure 12</xref>D,E). After the beginning of the spermatogenesis, none of the enzymes was detected, not even in granulocytes or in melanomacrophage centers (<xref ref-type="fig" rid="cells-07-00034-f012">Figure 12</xref>F,G).</p>
+        <p>The expression of the metalloproteinases (MMP-2, MMP-9 and MMP-14) was also confirmed by the negative control sections of the <italic>Synbranchus marmoratus</italic> treated with TBS instead of primary antibody (<xref ref-type="app" rid="app1-cells-07-00034">Supplementary Figure S2</xref>) and by the positive control in sections of ovaries from mouse specimens (<xref ref-type="app" rid="app1-cells-07-00034">Supplementary Figure S3</xref>).</p>
+        <p>The activity of the gelatinases (MMP-2 and MMP-9) was confirmed by in situ zymography in all types of gonads analyzed: ovary (<xref ref-type="app" rid="app1-cells-07-00034">Supplementary Figure S4A-H</xref>), transitional ovary during intersex (<xref ref-type="app" rid="app1-cells-07-00034">Supplementary Figure S4I-P</xref>), testis of secondary male (<xref ref-type="app" rid="app1-cells-07-00034">Supplementary Figure S5A-H</xref>) and testis of primary male (<xref ref-type="app" rid="app1-cells-07-00034">Supplementary Figure S5I-P</xref>).</p>
+      </sec>
+      <sec id="sec3dot5-cells-07-00034">
+        <title>3.5. Remodelation of the Collagen Fibers in Synbranchus marmoratus</title>
+        <p>Through the Picrosirius Red staining, a differential distribution of the collagen fibers was observed during the gonadal sex reversal of <italic>Synbranchus marmoratus</italic>.</p>
+        <p>In the females, the collagen fibers of the tunica albuginea are strongly birefringent, presenting reddish coloration (<xref ref-type="fig" rid="cells-07-00034-f013">Figure 13</xref>A&#x2013;D), corresponding to type I collagen.</p>
+        <p>During the sex reversal, birefringent collagen fibers especially were observed next to the germinal epithelium that begins its remodeling. These fibers present yellowish and greenish tones corresponding to younger and older collagen fibers, respectively (<xref ref-type="fig" rid="cells-07-00034-f013">Figure 13</xref>E&#x2013;H). A similar pattern was observed at the end of the gonadal transition process (<xref ref-type="fig" rid="cells-07-00034-f013">Figure 13</xref>I&#x2013;L). In these transitional stages, there is a predominance of collagen fibers adjacent to the epithelium. However, the fibers within the gonadal tissue show low or no birefringence, such as in interstitial areas around oocytes or underlying the newly formed testicular lobules (<xref ref-type="fig" rid="cells-07-00034-f013">Figure 13</xref>E&#x2013;L).</p>
+        <p>In gonads of secondary male specimens, the tunica albuginea presents thicker collagen fibers than in the earlier transitional stages, with the prevalence of more mature collagen (<xref ref-type="fig" rid="cells-07-00034-f013">Figure 13</xref>M,N). In this stage, there is a high birefringence of the less mature collagen (in green) around the testicular lobules, corresponding to the components of the basement membrane (<xref ref-type="fig" rid="cells-07-00034-f013">Figure 13</xref>M&#x2013;P).</p>
+        <p>During the development of of primary male testes (<xref ref-type="fig" rid="cells-07-00034-f014">Figure 14</xref>), the collagen fibers of the tunica albuginea show greenish tones (less mature collagen) and later, reddish tones (more mature collagen). At the interstitium, the fibers become more birefringent as testicular development occurs, showing younger collagen fibers (in green) (<xref ref-type="fig" rid="cells-07-00034-f014">Figure 14</xref>A&#x2013;H) which become older in later stages of development (in red) (<xref ref-type="fig" rid="cells-07-00034-f014">Figure 14</xref>I&#x2013;L).</p>
+      </sec>
+      <sec id="sec3dot6-cells-07-00034">
+        <title>3.6. Plasma Levels of Sexual Steroids in Synbranchus marmoratus</title>
+        <p>Plasma levels of 17&#x3B2;-estradiol (E2) showed no significant difference between classes of individuals (females, initial intersexes, mid intersexes, final intersexes, secondary male, and primary male) (<xref ref-type="fig" rid="cells-07-00034-f015">Figure 15</xref>A). However, there was a clear decline from 0.47 &#xB1; 0.10 ng mL<sup>&#x2212;1</sup> (in females) to 0.19 &#xB1; 0.02 ng mL<sup>&#x2212;1</sup> (initial intersexes), remaining low until the end of sex reversal (secondary males). Levels of 17&#x3B2;-estradiol were very high in primary males (039 &#xB1; 0.05 ng mL<sup>&#x2212;1</sup>) compared to secondary males (0.18 &#xB1; 0.04 ng mL<sup>&#x2212;1</sup>).</p>
+        <p>Plasma levels of testosterone (T) increased significantly from 1.04 &#xB1; 0.16 ng mL<sup>&#x2212;1</sup> (females) to 2.44 &#xB1; 0.30 ng mL<sup>&#x2212;1</sup> (initial intersexes), decreasing significantly and progressively until the end of the transitional process (final intersexes) (<xref ref-type="fig" rid="cells-07-00034-f015">Figure 15</xref>B). The maximum plasma levels of testosterone were detected in primary and secondary males (3.41 &#xB1; 1.22 and 3.09 &#xB1; 0.56 ng mL<sup>&#x2212;1</sup>, respectively).</p>
+        <p>Regarding 11-ketotestosterone levels (11-KT), there was an increase from 0.40 &#xB1; 0.10 ng mL<sup>&#x2212;1</sup> (females) to 0.57 &#xB1; 0.07 ng mL<sup>&#x2212;1</sup> (final intersexes). The maximum plasma levels of 11-ketotestosterone were also detected in primary and secondary males (1.33 &#xB1; 0.45 and 0.77 &#xB1; 0.21 ng mL<sup>&#x2212;1</sup>) (<xref ref-type="fig" rid="cells-07-00034-f015">Figure 15</xref>C).</p>
+      </sec>
+    </sec>
+    <sec id="sec4-cells-07-00034" sec-type="discussion">
+      <title>4. Discussion</title>
+      <sec id="sec4dot1-cells-07-00034">
+        <title>4.1. Gonadal Remodeling</title>
+        <p>The mechanism of sex reversal in <italic>Synbranchus marmoratus</italic> is characterized by the degeneration of the gonadal tissue corresponding to the first sex, followed by the substitution, development, and maturation of the germinal tissue of the opposite sex, having a period corresponding to an intersex phase, as seen in other species [<xref ref-type="bibr" rid="B5-cells-07-00034">5</xref>,<xref ref-type="bibr" rid="B10-cells-07-00034">10</xref>,<xref ref-type="bibr" rid="B11-cells-07-00034">11</xref>,<xref ref-type="bibr" rid="B12-cells-07-00034">12</xref>,<xref ref-type="bibr" rid="B17-cells-07-00034">17</xref>,<xref ref-type="bibr" rid="B40-cells-07-00034">40</xref>]. Moreover, in the morphological aspects, as herein reported, these events that result in the reversion of the sex in the adult animals are quite similar to those observed in the juvenile hermaphroditism [<xref ref-type="bibr" rid="B17-cells-07-00034">17</xref>].</p>
+        <p>This process shows the high bipotentiality of germ cells, as stem cells. Morphologically similar in both sexes, the primordial germ cells remain undifferentiated until they are exposed to external factors and hormonal influences that induce their differentiation into oogonia or spermatogonia [<xref ref-type="bibr" rid="B5-cells-07-00034">5</xref>]. In the present study, during the formation of secondary males, primordial germ cells initially differentiate into oogonia for development of an ovary. However, some of them may remain quiescent during gonadal development of the first sex and later, through various stimuli, become active, differentiating into spermatogonia and forming the male gonadal tissue. This same process occurs, for example, in juvenile individuals who have their sexual development altered by social or exogenous factors. In all cases, these animals exhibit enormous plasticity in their sexual patterns [<xref ref-type="bibr" rid="B1-cells-07-00034">1</xref>]. This is the case, for example, of adults of <italic>Oryzias latipes</italic> [<xref ref-type="bibr" rid="B41-cells-07-00034">41</xref>], which present undifferentiated gonia in the adult male gonadal tissue, which can be induced to differentiate into oogonia, giving rise to an ovary through the administration of steroids [<xref ref-type="bibr" rid="B42-cells-07-00034">42</xref>].</p>
+        <p>Therefore, regardless of the type of stimulus (natural or artificial), the formation of a new gonad during sequential hermaphroditism in adults is nothing more than a gonadal neodifferentiation that follows the same mechanisms found during the period of gonadal morphogenesis of juvenile individuals [<xref ref-type="bibr" rid="B17-cells-07-00034">17</xref>,<xref ref-type="bibr" rid="B40-cells-07-00034">40</xref>]. In addition to these factors, the infiltration of large quantities of granulocytes into the gonad to be remodeled, and the structural disorganization and the proliferation of Leydig cells coinciding with the beginning of the gonadal remodeling process in sequential hermaphroditism reinforces the idea of how similar these mechanisms are in a juvenile [<xref ref-type="bibr" rid="B17-cells-07-00034">17</xref>] and adult animal (present study). In <italic>Sparus aurata</italic>, for example, the infiltration of acidophilic granulocytes is essential for formation and remodelling of the testicular tissue during the gonadal differentiation [<xref ref-type="bibr" rid="B43-cells-07-00034">43</xref>]. In adults of <italic>S. aurata</italic>, an infiltration of these granulocytes is also observed at post-spawning. This event, associated with the role of MMPs, allows the regulation of the testicular physiology and the organization of the cysts during spermatogenesis and post-spawning [<xref ref-type="bibr" rid="B44-cells-07-00034">44</xref>].</p>
+      </sec>
+      <sec id="sec4dot2-cells-07-00034">
+        <title>4.2. The Basement Membrane in the Remodeling of the Germinal Epithelium</title>
+        <p>In <italic>Synbranchus marmoratus</italic>, the basement membrane was detected by the Reticulin Method at all stages of the sex reversal process, even during the intense gonadal remodeling. Considering <italic>Gymnocorymbus ternetzi</italic> [<xref ref-type="bibr" rid="B17-cells-07-00034">17</xref>], as the only example in which there is a study on the presence/absence of the basement membrane during hermaphroditism, <italic>S. marmoratus</italic> presents a marked difference, as regards the basement membrane around the ovarian follicles, even during the intersex. In the ovarian follicles of transitional gonads of <italic>G. ternetzi</italic>, the basement membrane is completely absent, even in remaining oocytes of completely developed testes [<xref ref-type="bibr" rid="B17-cells-07-00034">17</xref>]. However, these oocytes are stationary in primary growth, so the absence of the basement membrane should be responsible for preventing its development. Contrary data found in <italic>S. marmoratus</italic> may reinforce this idea that the basement membrane is decisive for the development of the ovarian follicle, since the oocytes of <italic>S. marmoratus</italic>, enveloped by a basement membrane always present, continue their development, entering secondary growth, and are capable of reaching final maturation.</p>
+        <p>The basement membrane is a thin sheet of extracellular matrix that separates the epithelial cells from the subjacent connective tissue. Among its many functions, it participates in the process of cell proliferation, establishes cellular polarity, induces cellular differentiation, and constitutes a structural barrier against the invasion of undesirable cells [<xref ref-type="bibr" rid="B45-cells-07-00034">45</xref>]. Therefore, it is responsible for the maintenance of tissue integrity and preventing inappropriate cell death [<xref ref-type="bibr" rid="B46-cells-07-00034">46</xref>].</p>
+        <p>When synthesized in the fish ovary, the basement membrane supports the epithelium and surrounds the ovarian follicles, allowing the development of the oocytes [<xref ref-type="bibr" rid="B47-cells-07-00034">47</xref>]. In the fish testis, the basement membrane is synthesized by Sertoli cells, and is thus intimately associated with the establishment of the blood testis barrier. In addition, the integrity of the basement membrane provides conditions for the nutrition, differentiation, and maintenance of the male germ cells, leading to the consequent development of the male germinal epithelium [<xref ref-type="bibr" rid="B48-cells-07-00034">48</xref>,<xref ref-type="bibr" rid="B49-cells-07-00034">49</xref>,<xref ref-type="bibr" rid="B50-cells-07-00034">50</xref>,<xref ref-type="bibr" rid="B51-cells-07-00034">51</xref>].</p>
+        <p>Despite the basement membrane being present in the transitional gonads of <italic>Synbranchus marmotarus</italic>, it becomes quite sinuous at this stage. Concomitantly, the oocytes enter into atresia and there is an invasion of a large amount of granulocytes in the gonadal tissue. The lack of a physical structure for the basement membrane of the ovary follicles occurs in the first events that signal the end of each reproductive cycle during the fish life [<xref ref-type="bibr" rid="B52-cells-07-00034">52</xref>]. Similarly, cell proliferation, differentiation, and migration, as well as different penetration by stroma, are crucial events for sexual differentiation of the gonads observed in <italic>Xenopus laevis</italic> during its development [<xref ref-type="bibr" rid="B53-cells-07-00034">53</xref>]. So, it is plausible to assume that this folding of the basement membrane results from the punctual lack of components of the extracellular matrix, caused by remodeling of the tissue, when the metalloproteinases become active.</p>
+      </sec>
+      <sec id="sec4dot3-cells-07-00034">
+        <title>4.3. Expression of the Matrix Metalloproteinases Enzymes during the Sex Reversion</title>
+        <p>Until now, there has been no data on the detailed formation of the basement membrane and of the interstitial compartment remodeling. Similarly, there is no information on the action of the matrix metalloproteinases in the sex reversal process in hermaphroditic species, as in the case of the animal model of this study, <italic>Synbranchus marmoratus</italic>.</p>
+        <p>The extracellular matrix regulates the basic processes in the tissues and their maintenance through the action of metalloproteinases (MMPs) that contribute to movement, growth, differentiation, and cellular surviving [<xref ref-type="bibr" rid="B54-cells-07-00034">54</xref>]. MMPs have an important role in the maintenance of the tissue of vertebrates, among them, the fish, as verified in this study, in the remodeling of the gonads. In vertebrates in normal conditions, lots of the metalloproteinases are considered a constitutive component of fibroblasts, epithelial, and endothelial cells, being expressed according to the need of the tissue in which they are [<xref ref-type="bibr" rid="B55-cells-07-00034">55</xref>].</p>
+        <p>In mammals, the MMP-9 and MMP-12 metalloproteinases, with gelatinolitic activity, participate as regulators of events that promote alterations in the male gonads, as well as being expressed in Sertoli and germ cells, participating in events of remodeling of the germinal epithelium [<xref ref-type="bibr" rid="B24-cells-07-00034">24</xref>].</p>
+        <p>In Teleostei, data about the action of metalloproteinases (MMPs) in the gonads are scarce; however, Chaves-Pozo and collaborators [<xref ref-type="bibr" rid="B44-cells-07-00034">44</xref>] found that those MMPs are expressed both by the germ cells and the somatic cells during the male and female reproductive cycle. Studies on the action of MMPs in males of Teleostei were also described by Santana and Quagio-Grassiotto [<xref ref-type="bibr" rid="B16-cells-07-00034">16</xref>]. These authors suggest that the fibroblasts may be the major cells responsible for the production and secretion of MMP-2 in the interstitial compartment of the catfish <italic>Pimelodus maculatus</italic> (Siluriformes: Pimelodidae), actively participating in the alterations that occur in the gonad during the reproductive cycle.</p>
+        <p>In this aspect, the changes in the interstitial compartment of the gonads of Teleostei are even more intense in animals that present sex reversal, in which there is an enormous remodeling of the gonadal tissue, especially in the interstitial components, which break a previous structure to reconstruct a new gonadal architecture, formed by the opposite sex gonad. In this study, this gonadal remodeling in adults of <italic>Synbranchus marmoratus</italic>, during the sequential hermaphroditism, was the result, at least partially, of the action of the MMP-2 and MMP-9 metalloproteinases, activated by a third transmembrane metalloproteinase, MMP-14 (also known as MT1-MMP). The three distinct types of MMPs were detected during the gonadal remodeling and produced by different cellular types and not only by fibroblasts.</p>
+        <p>In the initial stage of the process of gonadal remodeling in <italic>Synbranchus marmoratus</italic>, MMP-9 was detected, especially in the interstitial tissue, in gonads in the early transitional phase. However, during the intermediary transitional phase of the gonadal tissue, the oocytes significantly expressed the enzyme MMP-9. In females that did not undergo the gonadal remodeling process, the expression of MMP-9 was detected sporadically in stromal ovarian cells and never in the oocytes. This shows an active role of the oocytes in the gonad remodeling process. MMP-2 is expressed in male germline cysts, somatic cells, interstitium, and granulocytes. Its action decreases at the end of the sex reversal process, being more active during the intersex stage. After the total gonadal sex reversal, MMP-2 was only detected in granulocytes, similar to MMP-9. Given the above, it seems to be a relation between the activity of the MMPs and the momentary constitution of the gonadal tissue. That is, in the beginning of the remodeling process, when there is a prevalence of female gonadal tissue, MMP-9 is highly expressed, especially in the oocytes. At the end of the process, when the male gonadal tissue is predominant, MMP-2 is more active, especially in germline cysts and granulocytes. Other data obtained in this study, which sustains the hypothesis of the MMP-2 metalloproteinase having a significant participation in the remodeling of the male gonad, shows that this enzyme is intense during the development of the testicular lobules of primary males of <italic>S. marmoratus</italic>.</p>
+        <p>MMP-9 and MMP-14 metalloproteinases also presented intense expression in this stage, which is characterized by intense proliferation of spermatogonia, thus expanding the germinal epithelium, as well as widening the luminal compartments of the lobules. After the total development of the testis, none of these MMPs were detected in the stages analyzed. However, it is implicit that, if the male reproductive cycle is followed, similar data to those of Santana and Quagio-Grassiotto [<xref ref-type="bibr" rid="B16-cells-07-00034">16</xref>] will be obtained, since the granulocytes of fully developed testes of <italic>Synbranchus marmoratus</italic> showed a positive response to MMP-9. That is, its action and expression should vary according to different phases of the reproductive cycle.</p>
+        <p>The expression and co-localization of the MMP-14 metalloproteinase frequently coincided with the expression of the other MMPs studied here. Possibly, the correlation of this fact occurs because it is a transmembrane protein that activates the other MMPs, so that they can act on determined tissues [<xref ref-type="bibr" rid="B20-cells-07-00034">20</xref>].</p>
+        <p>Considering that the metalloproteinases (MMPs) are expressed in different cell types and in different phases of the gonadal remodeling, it is possible to think that, initially, the cells from the germinal epithelium start the production of MMPs, promoting the break-up of the basement membrane, leading to further infiltration of granulocytes, which in turn also participate actively in this process. The absence of the basement membrane can lead to cell death of part of the germinal epithelium, which would lose the support and nutrition by the basement membrane. In this way, several events occur by the action of MMPs: reorganization of the extracellular matrix; reestablishment of the germ and somatic cells, followed by the formation of a new basement membrane; and reconstruction of new gonadal tissue.</p>
+      </sec>
+      <sec id="sec4dot4-cells-07-00034">
+        <title>4.4. The Sexual Steroids and the Expression of the 3&#x3B2;-Hydroxyterid Dehydrognase (3&#x3B2;-HSD) during the Sex Reversal</title>
+        <p>The detection of the activity of enzyme 3&#x3B2;-hydroxysteroid dehydrogenase (3&#x3B2;-HSD) is used as a universal marker for Leydig cells [<xref ref-type="bibr" rid="B56-cells-07-00034">56</xref>]. The 3&#x3B2;-HSD enzyme is involved in several steps of the biosynthesis of steroid hormones, being responsible for the conversion of pregnenolone to progesterone; 17&#x3B1;-hydroxypregnenolone to 17&#x3B1;-hydroxyprogesterone; dehydroepiandrosterone to androstenedione; and androstenediol to testosterone [<xref ref-type="bibr" rid="B26-cells-07-00034">26</xref>,<xref ref-type="bibr" rid="B57-cells-07-00034">57</xref>]. Thus, it can be assumed that, at the time of its detection, plasma levels of testosterone should be high or at least present.</p>
+        <p>In this aspect, studies on gonadal differentiation in Teleostei show that the expression of 3&#x3B2;-HSD seems to be related to the onset of spermatogenesis [<xref ref-type="bibr" rid="B41-cells-07-00034">41</xref>]. However, they may be expressed early in male gonads with newly established germinal epithelium [<xref ref-type="bibr" rid="B58-cells-07-00034">58</xref>]. Thus, during gonadal differentiation, in gonads that undergo gonadal remodeling during sex reversal, 3&#x3B2;-HSD expression can be detected in interstitial cells, precursors of Leydig cells [<xref ref-type="bibr" rid="B17-cells-07-00034">17</xref>]. These cells also have a high proliferation rate, detected by immunohistochemistry for PCNA (proliferating cell nuclear antigen). These data are exactly the same as those found in the present study for adults of <italic>Synbranchus marmoratus</italic>, in which this cell type is also found forming cell clusters. Therefore, this data is clear evidence that these cells are involved in gonadal remodeling, helping in the process of construction of the new male gonad.</p>
+        <p>In relation to plasma levels, the lowest levels of testosterone (T) were found in females (1.04 ng mL<sup>&#x2212;1</sup>) and in animals in the final transitional phase (0.9 ng mL<sup>&#x2212;1</sup>) of <italic>Synbranchus marmoratus</italic>. In both primary and secondary males, the levels are quite high (3.41 and 3.09 ng mL<sup>&#x2212;1</sup>, respectively). An interesting finding is a peak of2.44 ng mL<sup>&#x2212;1</sup> in animals at the beginning of transition, which showed a quite high positive response for detection of the 3&#x3B2;-HSD enzyme.</p>
+        <p>Plasma levels of 11-ketotestosterone (11-KT) in <italic>Synbranchus marmoratus</italic> always increased during sex reversal, from 0.4 ng mL<sup>&#x2212;1</sup> in the early transitional gonad, reaching 0.77 ng mL<sup>&#x2212;1</sup> in the secondary males. Thus, both testosterone and 11-KT showed increasing levels during sex reversal. In the Teleostei, both hormones are found in high levels in male adults, with 11-KT being responsible for the development of the testis, proliferation of the spermatogonia, final maturation of the gonad, and maintenance of the spermatogenesis [<xref ref-type="bibr" rid="B5-cells-07-00034">5</xref>,<xref ref-type="bibr" rid="B59-cells-07-00034">59</xref>,<xref ref-type="bibr" rid="B60-cells-07-00034">60</xref>]. These statements reinforce the events that occurred during the process of gonadal remodeling, with the female gonad in degeneration and development of new gonadal tissue, now a male gonad.</p>
+        <p>The variations in the plasma levels observed in the females in an early transitional gonad, with the increase of 17&#x3B2;-estradiol (E2) and decrease of testosterone (T) levels, can be associated with the aromatization of T, which leads to the synthesis of E2 [<xref ref-type="bibr" rid="B15-cells-07-00034">15</xref>,<xref ref-type="bibr" rid="B61-cells-07-00034">61</xref>].</p>
+      </sec>
+    </sec>
+    <sec id="sec5-cells-07-00034" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>The extracellular matrix components of the interstitial tissue of the gonads of the <italic>Synbranchus marmoratus</italic> are remodeled through the metalloproteinases (MMPs) according to morphophysiological alterations that occur during sex reversal. This renewal of extracellular matrix components is orchestrated by both cells from germinal and interstitial compartments. However, the breakdown of the basement membrane is the trigger to initiate the remodeling in both compartments and this is due to the action of MMPs, produced by different cell types. These data are confirmed by the constant renewal of the collagen fibers during the sex reversal process in <italic>S. marmoratus</italic>.</p>
+      <p>Helping in the sex reversal process, sex steroids begin to be synthesized as the proliferation and differentiation of Leydig cells occurs. At the same time, the remodeling of the gonadal tissue begins until it reaches total sex reversion. During the process, the metalloproteinases (MMPs) are expressed, promoting this remodeling, and consequently, the collagen fibers are replaced by new connective tissue elements. Thus, the synthesis of steroids coincides with gonadal remodeling, as the MMPs are synthesized by the cells of the germinal epithelium, as well as the interstitial tissue.</p>
+      <p>Using an excellent biological model (a hermaphroditic fish, which presents naturally sex reversion), this study will contribute significantly to the development of new techniques based on the inhibition and/or activation of the MMPs, providing new perspectives in experimental studies involving remodeling of the extracellular matrix in many different areas of the biology of the reproduction of fish, such as gonadal differentiation, the reproductive cycle, life history, and sex manipulation.</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-cells-07-00034">
+        <title>Supplementary Materials</title>
+        <p>The following are available online at: <uri>http://www.mdpi.com/2073-4409/7/5/34/s1</uri>. Figure S1. Cross section of the gonad of <italic>S. marmoratus</italic> showing melanomacrophage centers and granulocytes. Figure S2. Negative control of the immunohistochemistry for detection of the metalloproteinases in gonads of <italic>S. marmoratus</italic>. Figure S3. Positive control of the immunohistochemistry for detection of the metalloproteinases in ovary of mouse (Swiss). Figure S4. Activity of the gelatinases (MMP-2 and MMP-9) in the gonadal tissue of the <italic>S. marmoratus</italic> (ovary and transitional ovary during intersex). Figure S5. Activity of the gelatinases (MMP-2 and MMP-9) in the gonadal tissue of the <italic>S. marmoratus</italic> (testis of secondary and primary male).</p>
+      </app>
+    </app-group>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Talita Sarah Mazzoni performed the experiments, analyzed the data and wrote the paper; Fabiana Laura Lo Nostro contributed to the histological description of the gonad; Fernanda Nat&#xE1;lia Antoneli performed the experiments of enzyme-linked immunosorbent assay and transmission electron microscopy; and Irani Quagio-Grassiotto conceived and designed the experiments, and reviewed the paper.</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We would like to thank: Brazilian Agencies CAPES/PROAP (Coordena&#xE7;&#xE3;o de Aperfei&#xE7;oamento de Pessoal de N&#xED;vel Superior) and FAPESP (Funda&#xE7;&#xE3;o de Amparo &#xE0; Pesquisa do Estado de S&#xE3;o Paulo&#x2014;n&#xB0;processo: 2014/00868-3 and 2015/16358-7); Electron Microscopy Center/IBB-UNESP, Botucatu-SP for use of the facilities; The anonymous reviewer for the invaluable suggestions and insightful comments; and Piscicultura Santa Candida&#x2014;Fish Farm for the fish used in the supplementary materials. </p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-07-00034">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sadovy de Mitcheson</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional hermaphroditism in teleosts</article-title>
+          <source>Fish Fish.</source>
+          <year>2008</year>
+          <volume>9</volume>
+          <fpage>1</fpage>
+          <lpage>43</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1467-2979.2007.00266.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-cells-07-00034">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Francis</surname>
+              <given-names>R.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sexual lability in teleosts: Developmental factors</article-title>
+          <source>Q. Rev. Biol.</source>
+          <year>1992</year>
+          <volume>67</volume>
+          <fpage>1</fpage>
+          <lpage>17</lpage>
+          <pub-id pub-id-type="doi">10.1086/417445</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-cells-07-00034">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Frisch</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sex change and gonadal steroids in sequentially hermaphroditic teleost fish</article-title>
+          <source>Rev. Fish Biol. Fish.</source>
+          <year>2004</year>
+          <volume>14</volume>
+          <fpage>481</fpage>
+          <lpage>499</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11160-005-3586-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-cells-07-00034">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wu</surname>
+              <given-names>G.C.</given-names>
+            </name>
+            <name>
+              <surname>Tomy</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>M.F.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>Y.H.</given-names>
+            </name>
+            <name>
+              <surname>Yueh</surname>
+              <given-names>W.S.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Lau</surname>
+              <given-names>E.L.</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>C.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sex differentiation and sex change in the protandrous black porgy, <italic>Acanthopagrus schlegeli</italic></article-title>
+          <source>Gen. Comp. Endocrinol.</source>
+          <year>2010</year>
+          <volume>167</volume>
+          <fpage>417</fpage>
+          <lpage>421</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ygcen.2009.11.003</pub-id>
+          <pub-id pub-id-type="pmid">19917286</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-cells-07-00034">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Devlin</surname>
+              <given-names>R.H.</given-names>
+            </name>
+            <name>
+              <surname>Nagahama</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sex determination and sex differentiation in fish: An overview of genetic, physiological and environmental influences</article-title>
+          <source>Aquaculture</source>
+          <year>2002</year>
+          <volume>208</volume>
+          <fpage>191</fpage>
+          <lpage>364</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0044-8486(02)00057-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-cells-07-00034">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Asoh</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gonadal development and diandric protogyny in two populations of <italic>Dascyllus reticulatus</italic> from Madang, Papua New Guinea</article-title>
+          <source>J. Fish Biol.</source>
+          <year>2005</year>
+          <volume>66</volume>
+          <fpage>1127</fpage>
+          <lpage>1148</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.0022-1112.2005.00669.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-cells-07-00034">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liem</surname>
+              <given-names>K.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sex Reversal as a Natural Process in the Synbranchiform Fish <italic>Monopterus albus</italic></article-title>
+          <source>Copeia</source>
+          <year>1963</year>
+          <volume>2</volume>
+          <fpage>303</fpage>
+          <lpage>312</lpage>
+          <pub-id pub-id-type="doi">10.2307/1441348</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-cells-07-00034">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liem</surname>
+              <given-names>K.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Geographical and taxonomic variation in the pattern of natural sex reversal in the teleost fish order Synbranchiformes</article-title>
+          <source>J. Zool.</source>
+          <year>1968</year>
+          <volume>156</volume>
+          <fpage>225</fpage>
+          <lpage>238</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1469-7998.1968.tb05930.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-cells-07-00034">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lo Nostro</surname>
+              <given-names>F.L.</given-names>
+            </name>
+            <name>
+              <surname>Guerrero</surname>
+              <given-names>G.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Presence of primary and secondary males in a population of the protogynous <italic>Synbranchus marmoratus</italic></article-title>
+          <source>J. Fish Biol.</source>
+          <year>1996</year>
+          <volume>49</volume>
+          <fpage>788</fpage>
+          <lpage>800</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1095-8649.1996.tb00079.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-cells-07-00034">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lo Nostro</surname>
+              <given-names>F.L.</given-names>
+            </name>
+            <name>
+              <surname>Grier</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Andreone</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Guerrero</surname>
+              <given-names>G.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Involvement of the gonadal germinal epithelium during sex reversal and seasonal testicular cycling in the protogynous swamp eel, <italic>Synbranchus marmoratus</italic> Bloch 1795 (Teleostei, Synbranchidae)</article-title>
+          <source>J. Morphol.</source>
+          <year>2003</year>
+          <volume>257</volume>
+          <fpage>107</fpage>
+          <lpage>126</lpage>
+          <pub-id pub-id-type="doi">10.1002/jmor.10105</pub-id>
+          <pub-id pub-id-type="pmid">12740902</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-cells-07-00034">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lo Nostro</surname>
+              <given-names>F.L.</given-names>
+            </name>
+            <name>
+              <surname>Grier</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Meijide</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Guerrero</surname>
+              <given-names>G.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ultrastructure of the testis in <italic>Synbranchus marmoratus</italic> (Teleostei, Synbranchidae): The germinal compartment</article-title>
+          <source>Tissue Cell</source>
+          <year>2003</year>
+          <volume>35</volume>
+          <fpage>121</fpage>
+          <lpage>132</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0040-8166(03)00011-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-cells-07-00034">
+        <label>12.</label>
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Antoneli</surname>
+              <given-names>F.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Perfil Morfo-Funcional da Invers&#xE3;o de Sexo em Synbranchidae (Teleostei, Synbranchiformes, Synbranchidae)</article-title>
+          <source>Ph.D. Thesis</source>
+          <publisher-name>Biblioteca do Instituto de Biologia, UNICAMP</publisher-name>
+          <publisher-loc>Campinas, Brazil</publisher-loc>
+          <year>2006</year>
+          <size units="pages">167p</size>
+        </element-citation>
+      </ref>
+      <ref id="B13-cells-07-00034">
+        <label>13.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nelson</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Grande</surname>
+              <given-names>T.C.</given-names>
+            </name>
+            <name>
+              <surname>Wilson</surname>
+              <given-names>M.V.H.</given-names>
+            </name>
+          </person-group>
+          <source>Fishes of the World</source>
+          <edition>5th ed.</edition>
+          <publisher-name>Wiley</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2011</year>
+          <size units="pages">752p</size>
+          <isbn>978-0471250319</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B14-cells-07-00034">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barros</surname>
+              <given-names>N.H.C.</given-names>
+            </name>
+            <name>
+              <surname>de Souza</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Peebles</surname>
+              <given-names>E.B.</given-names>
+            </name>
+            <name>
+              <surname>Chellappa</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dynamics of sex reversal in the marbled swamp eel (<italic>Synbranchus marmoratus</italic> Bloch, 1795), a diandric hermaphrodite from Marechal Dutra Reservoir, northeastern Brazil</article-title>
+          <source>J. Appl. Ichthyol.</source>
+          <year>2017</year>
+          <volume>33</volume>
+          <fpage>443</fpage>
+          <lpage>449</lpage>
+          <pub-id pub-id-type="doi">10.1111/jai.13273</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-cells-07-00034">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ravaglia</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lo Nostro</surname>
+              <given-names>F.L.</given-names>
+            </name>
+            <name>
+              <surname>Maggese</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Guerrero</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Somoza</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of molecular variants of GnRH, induction of spermiation and sex reversal using sGnRH-A and domperidone in the protogynous diandric fish, <italic>Synbranchus marmoratus</italic> Bloch, (Teleostei, Synbranchidae)</article-title>
+          <source>Fish Physiol. Biochem.</source>
+          <year>1997</year>
+          <volume>5</volume>
+          <fpage>425</fpage>
+          <lpage>436</lpage>
+          <pub-id pub-id-type="doi">10.1023/A:1007772416539</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-cells-07-00034">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Santana</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Quagio-Grassiotto</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Extracellular matrix remodeling of the testes through the male reproductive cycle in Teleostei fish</article-title>
+          <source>Fish Physiol. Biochem.</source>
+          <year>2014</year>
+          <volume>40</volume>
+          <fpage>1863</fpage>
+          <lpage>1875</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10695-014-9974-z</pub-id>
+          <pub-id pub-id-type="pmid">25142725</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-cells-07-00034">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mazzoni</surname>
+              <given-names>T.S.</given-names>
+            </name>
+            <name>
+              <surname>Grier</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Quagio-Grassiotto</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>The basement membrane and the sex establishment in the juvenile hermaphroditism during gonadal differentiation of the <italic>Gymnocorymbus ternetzi</italic> (Teleostei: Characiformes: Characidae)</article-title>
+          <source>Anat. Rec.</source>
+          <year>2015</year>
+          <volume>298</volume>
+          <fpage>1984</fpage>
+          <lpage>2010</lpage>
+          <pub-id pub-id-type="doi">10.1002/ar.23270</pub-id>
+          <pub-id pub-id-type="pmid">26386207</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-cells-07-00034">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hulboy</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Rudolph</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Matrisian</surname>
+              <given-names>L.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Matrix metalloproteinases as mediators of reproductive function</article-title>
+          <source>Mol. Hum. Reprod.</source>
+          <year>1997</year>
+          <volume>3</volume>
+          <fpage>27</fpage>
+          <lpage>45</lpage>
+          <pub-id pub-id-type="doi">10.1093/molehr/3.1.27</pub-id>
+          <pub-id pub-id-type="pmid">9239706</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-cells-07-00034">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Takai</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Weaver</surname>
+              <given-names>V.M.</given-names>
+            </name>
+            <name>
+              <surname>Werb</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Extracellular matrix degradation and remodeling in development and disease</article-title>
+          <source>Cold Spring Harb. Perspect. Biol.</source>
+          <year>2011</year>
+          <volume>3</volume>
+          <fpage>50</fpage>
+          <lpage>58</lpage>
+          <pub-id pub-id-type="doi">10.1101/cshperspect.a005058</pub-id>
+          <pub-id pub-id-type="pmid">21917992</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-cells-07-00034">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Khokha</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Murthy</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Weiss</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Metalloproteinases and their natural inhibitors in inflammation and immunity</article-title>
+          <source>Nat. Rev. Immunol.</source>
+          <year>2013</year>
+          <volume>13</volume>
+          <fpage>649</fpage>
+          <lpage>665</lpage>
+          <pub-id pub-id-type="doi">10.1038/nri3499</pub-id>
+          <pub-id pub-id-type="pmid">23969736</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-cells-07-00034">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Birkedal-Hansen</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>W.G.I.</given-names>
+            </name>
+            <name>
+              <surname>Bodden</surname>
+              <given-names>M.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Matrix metalloproteinases: A review</article-title>
+          <source>Crit. Rev. Oral Biol. Med.</source>
+          <year>1993</year>
+          <volume>4</volume>
+          <fpage>197</fpage>
+          <lpage>250</lpage>
+          <pub-id pub-id-type="doi">10.1177/10454411930040020401</pub-id>
+          <pub-id pub-id-type="pmid">8435466</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-cells-07-00034">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Page-McCaw</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ewald</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Werb</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Matrix metalloproteinases and the regulation of tissue remodelling</article-title>
+          <source>Nat. Rev. Mol. Cell Biol.</source>
+          <year>2007</year>
+          <volume>8</volume>
+          <fpage>221</fpage>
+          <lpage>233</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrm2125</pub-id>
+          <pub-id pub-id-type="pmid">17318226</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-cells-07-00034">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Martins</surname>
+              <given-names>V.L.</given-names>
+            </name>
+            <name>
+              <surname>Caley</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>O&#x2019;Toole</surname>
+              <given-names>E.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Matrix metalloproteinases and epidermal wound repair</article-title>
+          <source>Cell Tissue Res.</source>
+          <year>2013</year>
+          <volume>351</volume>
+          <fpage>55</fpage>
+          <lpage>268</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00441-012-1410-z</pub-id>
+          <pub-id pub-id-type="pmid">22526628</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-cells-07-00034">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Longin</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Guillaumot</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Chauvin</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Morera</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Le Magueresse-Battistoni</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>MT1-MMP in rat testicular development and the control of Sertoli cell proMMP-2 activation</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2001</year>
+          <volume>114</volume>
+          <fpage>2125</fpage>
+          <lpage>2134</lpage>
+          <pub-id pub-id-type="pmid">11493648</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-cells-07-00034">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>H&#xE4;gglund</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Ny</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Leonardsson</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Ny</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation and localization of matrix metalloproteinases and tissue inhibitors of metalloproteinases in the mouse ovary during gonadotropin-induced ovulation</article-title>
+          <source>Endocrinology</source>
+          <year>1999</year>
+          <volume>140</volume>
+          <fpage>4351</fpage>
+          <lpage>4358</lpage>
+          <pub-id pub-id-type="doi">10.1210/endo.140.9.7002</pub-id>
+          <pub-id pub-id-type="pmid">10465309</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-cells-07-00034">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Piprek</surname>
+              <given-names>R.P.</given-names>
+            </name>
+            <name>
+              <surname>Kolasa</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Podkowa</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kloc</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kubiak</surname>
+              <given-names>J.Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional profiling validates involvement of extracellular matrix and proteinases genes in mouse gonad development</article-title>
+          <source>Mech. Dev.</source>
+          <year>2018</year>
+          <volume>149</volume>
+          <fpage>9</fpage>
+          <lpage>19</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.mod.2017.11.001</pub-id>
+          <pub-id pub-id-type="pmid">29129619</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-cells-07-00034">
+        <label>27.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pandian</surname>
+              <given-names>T.J.</given-names>
+            </name>
+          </person-group>
+          <source>Endocrine Sex Differentiation in Fish</source>
+          <publisher-name>CRC Press</publisher-name>
+          <publisher-loc>Boca Raton, FL, USA</publisher-loc>
+          <year>2013</year>
+          <size units="pages">299p</size>
+          <isbn>9781466575608</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B28-cells-07-00034">
+        <label>28.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pudney</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Leydig and Sertoli Cells Nonmmamalian</article-title>
+          <source>Encyclopedia of Reproduction</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Knobil</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Skinner</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Neill</surname>
+              <given-names>J.D.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Academic Press</publisher-name>
+          <publisher-loc>London, UK</publisher-loc>
+          <year>1998</year>
+          <fpage>1008</fpage>
+          <lpage>1021</lpage>
+          <isbn>9780122270208</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B29-cells-07-00034">
+        <label>29.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Payne</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Hardy</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Russell</surname>
+              <given-names>L.D.</given-names>
+            </name>
+          </person-group>
+          <source>The Leydig Cell</source>
+          <publisher-name>Cache River Press</publisher-name>
+          <publisher-loc>Vienna, Austria</publisher-loc>
+          <year>1996</year>
+          <size units="pages">802p</size>
+          <isbn>9781588297549</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B30-cells-07-00034">
+        <label>30.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guraya</surname>
+              <given-names>S.S.</given-names>
+            </name>
+          </person-group>
+          <source>Comparative Cellular and Molecular Biology of Testis in Vertebrates: Trends in Endocrine, Paracrine and Autocrine Regulation of Structure and Functions</source>
+          <publisher-name>Science Publishers Inc.</publisher-name>
+          <publisher-loc>Enfield, Australia</publisher-loc>
+          <year>2001</year>
+          <size units="pages">91p</size>
+          <isbn>1578081653</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B31-cells-07-00034">
+        <label>31.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pudney</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparative Cytology of the Leydig Cell</article-title>
+          <source>The Leydig Cell</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Payne</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Hardy</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Russel</surname>
+              <given-names>L.D.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Cache River Press</publisher-name>
+          <publisher-loc>Vienna, Austria</publisher-loc>
+          <year>1996</year>
+          <fpage>98</fpage>
+          <lpage>142</lpage>
+          <isbn>9781588297549</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B32-cells-07-00034">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Loir</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Trout steroidogenic testicular cells in primary culture. II Steroidogenic activity of interstitial cells, Sertoli cells and spermatozoa</article-title>
+          <source>Gen. Comp. Endocrinol.</source>
+          <year>1990</year>
+          <volume>78</volume>
+          <fpage>388</fpage>
+          <lpage>398</lpage>
+          <pub-id pub-id-type="doi">10.1016/0016-6480(90)90028-K</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-cells-07-00034">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kobayashi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nakamura</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kajiura-Kobayashi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Nagahama</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Immunolocalization of steroidogenic enzymes (P450scc, P450arom and 3&#x3B2;-HSD) in immature and mature testes of rainbow trout (<italic>Oncorhynchus mykiss</italic>)</article-title>
+          <source>Cell Tissue Res.</source>
+          <year>1998</year>
+          <volume>292</volume>
+          <fpage>573</fpage>
+          <lpage>577</lpage>
+          <pub-id pub-id-type="doi">10.1007/s004410051086</pub-id>
+          <pub-id pub-id-type="pmid">9582414</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-cells-07-00034">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ijiri</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Takei</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Kazeto</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Todo</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Adachi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yamauchi</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Changes in localization of cytochrome P450 cholesterol side-chain cleavage (P450scc) in Japanese eel testis and ovary during gonadal development</article-title>
+          <source>Gen. Comp. Endocrinol.</source>
+          <year>2006</year>
+          <volume>145</volume>
+          <fpage>75</fpage>
+          <lpage>83</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ygcen.2005.07.005</pub-id>
+          <pub-id pub-id-type="pmid">16168415</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-cells-07-00034">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>N&#xF3;brega</surname>
+              <given-names>R.H.</given-names>
+            </name>
+            <name>
+              <surname>Quagio-Grassiotto</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Morphofunctional changes in Leydig cells throughout the continuous spermatogenesis of the freshwater teleost fish, <italic>Serrasalmus spilopleura</italic> (Characiformes, Characidae): An ultrastructural and enzyme study</article-title>
+          <source>Cell Tissue Res.</source>
+          <year>2007</year>
+          <volume>329</volume>
+          <fpage>339</fpage>
+          <lpage>349</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00441-006-0377-z</pub-id>
+          <pub-id pub-id-type="pmid">17333032</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-cells-07-00034">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lo Nostro</surname>
+              <given-names>F.L.</given-names>
+            </name>
+            <name>
+              <surname>Antoneli</surname>
+              <given-names>F.N.</given-names>
+            </name>
+            <name>
+              <surname>Quagio-Grassiotto</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Guerrero</surname>
+              <given-names>G.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Testicular interstitial cells and steroidogenic detection in the protogynous fish, <italic>Synbranchus marmoratus</italic> (Teleostei, Synbranchidae)</article-title>
+          <source>Tissue Cell</source>
+          <year>2004</year>
+          <volume>36</volume>
+          <fpage>221</fpage>
+          <lpage>231</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tice.2004.03.001</pub-id>
+          <pub-id pub-id-type="pmid">15261741</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-cells-07-00034">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Quintero-Hunter</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Grier</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Muscato</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Enhancement of histological detail using Metanil Yellow as counterstain in periodic acid/Schiff&#x2019;s hematoxylin staining of glycol methacrylate tissue sections</article-title>
+          <source>Biotech. Histochem.</source>
+          <year>1991</year>
+          <volume>66</volume>
+          <fpage>169</fpage>
+          <lpage>172</lpage>
+          <pub-id pub-id-type="doi">10.3109/10520299109109964</pub-id>
+          <pub-id pub-id-type="pmid">1912078</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-cells-07-00034">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vidal</surname>
+              <given-names>B.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Histochemical and anisotropical properties characteristics of silver impregnation: The differentiation of reticulin fibers from the other interstitial collagens</article-title>
+          <source>Zool. J. Anat.</source>
+          <year>1988</year>
+          <volume>117</volume>
+          <fpage>485</fpage>
+          <lpage>494</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B39-cells-07-00034">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Junqueira</surname>
+              <given-names>L.C.U.</given-names>
+            </name>
+            <name>
+              <surname>Bignolas</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Brentani</surname>
+              <given-names>R.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Picrosirius staining plus polarization microscopy, a specific method for collagen detection in tissue sections</article-title>
+          <source>Histochem. J.</source>
+          <year>1979</year>
+          <volume>11</volume>
+          <fpage>447</fpage>
+          <lpage>455</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF01002772</pub-id>
+          <pub-id pub-id-type="pmid">91593</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-cells-07-00034">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Uchida</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Yamashita</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kitano</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Iguchi</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Oocyte apoptosis during the transition from ovary-like tissue to testes during sex differentiation of juvenile zebrafish</article-title>
+          <source>J. Exp. Biol.</source>
+          <year>2002</year>
+          <volume>205</volume>
+          <fpage>711</fpage>
+          <lpage>718</lpage>
+          <pub-id pub-id-type="pmid">11914381</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-cells-07-00034">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Balch</surname>
+              <given-names>G.C.</given-names>
+            </name>
+            <name>
+              <surname>Mackenzie</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Metcalfe</surname>
+              <given-names>C.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Alterations to gonadal development and reproductive success in Japanese medaka (<italic>Oryzias latipes</italic>) exposed to 17alphaethinylestradiol</article-title>
+          <source>Environ. Toxicol. Chem.</source>
+          <year>2004</year>
+          <volume>23</volume>
+          <fpage>782</fpage>
+          <lpage>791</lpage>
+          <pub-id pub-id-type="doi">10.1897/02-539</pub-id>
+          <pub-id pub-id-type="pmid">15285373</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-cells-07-00034">
+        <label>42.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dietrich</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Krieger</surname>
+              <given-names>H.O.</given-names>
+            </name>
+          </person-group>
+          <source>Histological Analysis of Endocrine Disruptive Effects in Small Laboratory Fish</source>
+          <publisher-name>John Wiley &amp; Sons Inc.</publisher-name>
+          <publisher-loc>Hoboken, NJ, USA</publisher-loc>
+          <year>2009</year>
+          <size units="pages">319p</size>
+          <isbn>9780471763581</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B43-cells-07-00034">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chaves-Pozo</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Liarte</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mulero</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Abell&#xE1;n</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Meseguer</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Garc&#xED;a-Ayala</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Early presence of immune cells in the developing gonad of the gilthead seabream (<italic>Sparus aurata</italic> Linnaeus, 1758)</article-title>
+          <source>J. Reprod. Dev.</source>
+          <year>2009</year>
+          <volume>55</volume>
+          <fpage>440</fpage>
+          <lpage>445</lpage>
+          <pub-id pub-id-type="doi">10.1262/jrd.20203</pub-id>
+          <pub-id pub-id-type="pmid">19404001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-cells-07-00034">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chaves-Pozo</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Castillo-Brice&#xF1;o</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Garc&#xED;a-Alc&#xE1;zar</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Meseguer</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Mulero</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Garc&#xED;a-Ayala</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>A role for matrix metalloproteinases in granulocyte infiltration and testicular remodelation in a seasonal breeding teleost</article-title>
+          <source>Mol. Immunol.</source>
+          <year>2008</year>
+          <volume>45</volume>
+          <fpage>2820</fpage>
+          <lpage>2830</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molimm.2008.01.031</pub-id>
+          <pub-id pub-id-type="pmid">18342940</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-cells-07-00034">
+        <label>45.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Crouch</surname>
+              <given-names>E.C.</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>G.R.</given-names>
+            </name>
+            <name>
+              <surname>Brody</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Laurie</surname>
+              <given-names>G.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Basement membrane</article-title>
+          <source>The Lung</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Crystal</surname>
+              <given-names>R.G.</given-names>
+            </name>
+            <name>
+              <surname>West</surname>
+              <given-names>J.B.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Lippincott-Raven</publisher-name>
+          <publisher-loc>Philadelphia, PA, USA</publisher-loc>
+          <year>1997</year>
+          <volume>Volume 1</volume>
+          <fpage>769</fpage>
+          <lpage>791</lpage>
+          <isbn>0397516320</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B46-cells-07-00034">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Domogatskaya</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Rodin</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tryggvason</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional diversity of laminins</article-title>
+          <source>Annu. Rev. Cell. Dev. Biol.</source>
+          <year>2012</year>
+          <volume>28</volume>
+          <fpage>523</fpage>
+          <lpage>553</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev-cellbio-101011-155750</pub-id>
+          <pub-id pub-id-type="pmid">23057746</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-cells-07-00034">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mazzoni</surname>
+              <given-names>T.S.</given-names>
+            </name>
+            <name>
+              <surname>Grier</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Quagio-Grassiotto</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Germline cysts and the formation of the germinal epithelium during the female gonadal morphogenesis in <italic>Cyprinus carpio</italic> (Teleostei: Ostariophysi)</article-title>
+          <source>Anat. Rec.</source>
+          <year>2010</year>
+          <volume>293</volume>
+          <fpage>1581</fpage>
+          <lpage>1606</lpage>
+          <pub-id pub-id-type="doi">10.1002/ar.21205</pub-id>
+          <pub-id pub-id-type="pmid">20652938</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-cells-07-00034">
+        <label>48.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nagahama</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>The functional morphology of teleost gonads</article-title>
+          <source>Fish Physiology</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Hoar</surname>
+              <given-names>W.S.</given-names>
+            </name>
+            <name>
+              <surname>Randall</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Donaldson</surname>
+              <given-names>E.M.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Academic Press</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>1983</year>
+          <volume>Volume 9</volume>
+          <fpage>223</fpage>
+          <lpage>275</lpage>
+          <isbn>9780080585338</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B49-cells-07-00034">
+        <label>49.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pudney</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparative cytology of the non-mammalian vertebrate Sertoli cell</article-title>
+          <source>The Sertoli Cell</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Russell</surname>
+              <given-names>L.D.</given-names>
+            </name>
+            <name>
+              <surname>Griswold</surname>
+              <given-names>M.D.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Cache River Press</publisher-name>
+          <publisher-loc>Clearwater, FL, USA</publisher-loc>
+          <year>1993</year>
+          <fpage>612</fpage>
+          <lpage>657</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B50-cells-07-00034">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Meijide</surname>
+              <given-names>F.J.</given-names>
+            </name>
+            <name>
+              <surname>Lo Nostro</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Guerrero</surname>
+              <given-names>G.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gonadal Development and Sex Differentiation in the Cichlid Fish <italic>Cichlasoma dimerus</italic> (Teleostei, Perciformes): A Light- and Electron-Microscopic Study</article-title>
+          <source>J. Morphol.</source>
+          <year>2005</year>
+          <volume>264</volume>
+          <fpage>191</fpage>
+          <lpage>210</lpage>
+          <pub-id pub-id-type="doi">10.1002/jmor.10329</pub-id>
+          <pub-id pub-id-type="pmid">15789420</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-cells-07-00034">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schulz</surname>
+              <given-names>R.W.</given-names>
+            </name>
+            <name>
+              <surname>Fran&#xE7;a</surname>
+              <given-names>L.R.</given-names>
+            </name>
+            <name>
+              <surname>Lareyre</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>LeGac</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Chiarini-Garcia</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>N&#xF3;brega</surname>
+              <given-names>R.H.</given-names>
+            </name>
+            <name>
+              <surname>Miura</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spermatogenesis in fish</article-title>
+          <source>Gen. Comp. Endocrinol.</source>
+          <year>2010</year>
+          <volume>165</volume>
+          <fpage>390</fpage>
+          <lpage>411</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ygcen.2009.02.013</pub-id>
+          <pub-id pub-id-type="pmid">19348807</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52-cells-07-00034">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grier</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Neidig</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Quagio-Grassiotto</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Development and fate of the postovulatory follicle complex, postovulatory follicle and observations on folliculogenesis and oocyte atresia in ovulated common snook, <italic>Centropomus undecimalis</italic> (Bloch, 1792)</article-title>
+          <source>J. Morphol.</source>
+          <year>2017</year>
+          <volume>278</volume>
+          <fpage>547</fpage>
+          <lpage>562</lpage>
+          <pub-id pub-id-type="doi">10.1002/jmor.20652</pub-id>
+          <pub-id pub-id-type="pmid">28261870</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53-cells-07-00034">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Piprek</surname>
+              <given-names>R.P.</given-names>
+            </name>
+            <name>
+              <surname>Kloc</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tassane</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Kubiak</surname>
+              <given-names>J.Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Development of <italic>Xenopus laevis</italic> bipotential gonads into testis or ovary is driven by sex-specific cell-cell interactions, proliferation rate, cell migration and deposition of extracellular matrix</article-title>
+          <source>Dev. Biol.</source>
+          <year>2017</year>
+          <volume>432</volume>
+          <fpage>298</fpage>
+          <lpage>310</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ydbio.2017.10.020</pub-id>
+          <pub-id pub-id-type="pmid">29080791</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54-cells-07-00034">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lukashev</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <name>
+              <surname>Werb</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ecmsignalling: Orchestrating cell behaviour and misbehaviour</article-title>
+          <source>Trends Cell Biol.</source>
+          <year>1998</year>
+          <volume>8</volume>
+          <fpage>437</fpage>
+          <lpage>441</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0962-8924(98)01362-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55-cells-07-00034">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hipps</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Hembry</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Docherty</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Reynolds</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Murphy</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Purification and characterization of human 72-kDa gelatinase (type IV collagenase). Use of immunolocalisation to demonstrate the non-coordinate regulation of the 72-kDa and 95-kDa gelatinases by human fibroblasts</article-title>
+          <source>Biol. Chem. Hoppe Seyler</source>
+          <year>1991</year>
+          <volume>372</volume>
+          <fpage>287</fpage>
+          <lpage>296</lpage>
+          <pub-id pub-id-type="doi">10.1515/bchm3.1991.372.1.287</pub-id>
+          <pub-id pub-id-type="pmid">1647782</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B56-cells-07-00034">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ge</surname>
+              <given-names>R.S.</given-names>
+            </name>
+            <name>
+              <surname>Zirkin</surname>
+              <given-names>B.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Leydig cells: From stem cells to aging</article-title>
+          <source>Mol. Cell. Endocrinol.</source>
+          <year>2009</year>
+          <volume>306</volume>
+          <fpage>9</fpage>
+          <lpage>16</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.mce.2009.01.023</pub-id>
+          <pub-id pub-id-type="pmid">19481681</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B57-cells-07-00034">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kobayashi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>X.T.</given-names>
+            </name>
+            <name>
+              <surname>Nakamura</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kajiura</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Nagahama</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fish 3&#x3B2;-Hydroxysteroid Dehydrogenase/&#x394;5-&#x394;4Isomerase: Antibody Production and Their Use for the Immunohistochemical Detection of Fish Steroidogenic Tissues</article-title>
+          <source>Zool. Sci.</source>
+          <year>1996</year>
+          <volume>13</volume>
+          <fpage>909</fpage>
+          <lpage>914</lpage>
+          <pub-id pub-id-type="doi">10.2108/zsj.13.909</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B58-cells-07-00034">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mazzoni</surname>
+              <given-names>T.S.</given-names>
+            </name>
+            <name>
+              <surname>Grier</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Quagio-Grassiotto</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Male gonadal differentiation and the paedomorphic evolution of the testis in Teleostei</article-title>
+          <source>Anat. Rec.</source>
+          <year>2014</year>
+          <volume>297</volume>
+          <fpage>1137</fpage>
+          <lpage>1162</lpage>
+          <pub-id pub-id-type="doi">10.1002/ar.22915</pub-id>
+          <pub-id pub-id-type="pmid">24740886</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B59-cells-07-00034">
+        <label>59.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nagahama</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Endocrine regulation of gametogenesis in fish</article-title>
+          <source>Int. J. Dev. Biol.</source>
+          <year>1994</year>
+          <volume>38</volume>
+          <fpage>217</fpage>
+          <lpage>229</lpage>
+          <pub-id pub-id-type="pmid">7981031</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B60-cells-07-00034">
+        <label>60.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schulz</surname>
+              <given-names>R.W.</given-names>
+            </name>
+            <name>
+              <surname>Miura</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spermatogenesis and its endocrine regulation</article-title>
+          <source>Fish Physiol. Biochem.</source>
+          <year>2002</year>
+          <volume>26</volume>
+          <fpage>43</fpage>
+          <lpage>56</lpage>
+          <pub-id pub-id-type="doi">10.1023/A:1023303427191</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B61-cells-07-00034">
+        <label>61.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Connaughton</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Aida</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Female reproductive system fish</article-title>
+          <source>Encyclopedia of Reproduction</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Krobil</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Neill</surname>
+              <given-names>J.D.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Academic Press</publisher-name>
+          <publisher-loc>San Diego, CA, USA</publisher-loc>
+          <year>1998</year>
+          <fpage>193</fpage>
+          <lpage>205</lpage>
+          <isbn>9780122270208</isbn>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures</title>
+      <fig id="cells-07-00034-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Four types of gonadal structures present in <italic>S. marmoratus</italic>: (<bold>A</bold>&#x2013;<bold>C</bold>) Longitudinal section of ovary of a female. (<bold>D</bold>&#x2013;<bold>F</bold>) Cross section of early transitional gonad, during the beginning of the sex reversal. (<bold>G</bold>&#x2013;<bold>I</bold>) Cross section of testis of a secondary male. (<bold>J</bold>&#x2013;<bold>L</bold>) Cross section of testis of a primary male. Note that the secondary male develops a single testis, whereas the primary male has a pair of testes. Note that the basement membrane, which supports the germinal epithelium, evidenced by the Reticulin Method, is present in all types of gonadal tissue organization (<bold>C</bold>,<bold>F</bold>,<bold>I</bold>,<bold>L</bold>). Tunica albuginea (ta), ovarian lumen (lu), primary growth oocyte (pg), secondary growth oocyte (sg), germinal epithelium (ge), lateral support (ls), ovigerous lamellae (la), germline cysts (cy), spermatozoa (z), connective tissue (ct), oocyte (o) testicular lamellae (tl), coelomic cavity (ca), testicular lobule (lo), testicular duct (du), interstitium (in), basement membrane (arrow). Staining: MY (<bold>A</bold>,<bold>B</bold>,<bold>D</bold>,<bold>G</bold>), HE (<bold>E</bold>,<bold>H</bold>,<bold>J</bold>,<bold>K</bold>), Reticulin Method (<bold>C</bold>,<bold>F</bold>,<bold>I</bold>,<bold>L</bold>). Bar: 300 &#xB5;m (<bold>A</bold>,<bold>D</bold>,<bold>G</bold>,<bold>J</bold>), 50 &#xB5;m (<bold>B</bold>,<bold>C</bold>,<bold>E</bold>,<bold>E</bold>-inset, <bold>F</bold>,<bold>H</bold>,<bold>I</bold>,<bold>K</bold>,<bold>L</bold>), 30 &#xB5;m (K-inset).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00034-g001.tif"/>
+      </fig>
+      <fig id="cells-07-00034-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Histological section of ovary of <italic>S. marmoratus.</italic> (<bold>A</bold>) Cross section of ovary. (<bold>B</bold>&#x2013;<bold>D</bold>) Details of A, showing the germinal epithelium, with germline cysts. Secondary growth oocyte (sg), ovarian lumen (lu), tunica albuginea (ta), metaphase (me), primary growth oocyte (pg), oogonia (g), pre-follicle cell (pf), pachytene oocyte (po), germline cyst (cy). Staining: MY. Bar: 200 &#xB5;m (<bold>A</bold>), 20 &#xB5;m (<bold>B</bold>), 10 &#xB5;m (<bold>C</bold>,<bold>D</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00034-g002.tif"/>
+      </fig>
+      <fig id="cells-07-00034-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Histological sections of ovary at the beginning of gonadal transition of <italic>S. marmoratus</italic>. Note the presence of atretic follicles (<bold>A</bold>,<bold>B</bold>), a greater number of germline cysts, along the epithelium (<bold>C</bold>&#x2013;<bold>E</bold>), increased blood vessels and connective tissue in the interstitial compartment, and the presence of Leydig cells, close to the blood vessels (<bold>F</bold>&#x2013;<bold>H</bold>) Immunohistochemistry for detection of PCNA. The labeled cells that show positive response to PCNA (<bold>H</bold>) are Leydig cells. (<bold>I</bold>) Immunohistochemistry for detection of 3&#x3B2;-HSD enzyme, indicating that it is a steroidogenic cell. Germinal epithelium (ge), secondary growth oocyte (sg), atretic follicle (af), germline cyst (cy), nucleus (n), primary growth oocyte (pg), metaphase (me), gonia (g), connective tissue (ct), pachytene oocyte (po), blood vessel (bv), Leydig cell (Le). Staining: MY (<bold>A</bold>&#x2013;<bold>G</bold>). Counterstaining: Harrys Hematoxylin (<bold>H</bold>,<bold>I</bold>). Bar: 200 &#xB5;m (<bold>A</bold>), 100 &#xB5;m (<bold>B</bold>), 20 &#xB5;m (<bold>C</bold>,<bold>F</bold>), 10 &#xB5;m (<bold>D</bold>&#x2013;<bold>I</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00034-g003.tif"/>
+      </fig>
+      <fig id="cells-07-00034-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Histological sections of intermediary transitional gonad (ovary) of <italic>S. marmoratus</italic>. (<bold>A</bold>) Ovary with primary and secondary growth oocytes. (<bold>B</bold>) Atretic follicle and granulocytes in large quantity in gonadal tissue. (<bold>C</bold>,<bold>D</bold>) Male germinal epithelium developing gradually. (<bold>E</bold>) First spermatozoa produced. E-inset) Detail of the spermatozoa. (<bold>F</bold>) Leydig cells near blood vessels. Tunica albuginea (ta), interstitium (in), granulocyte (gr), secondary growth oocyte (sg), germinal epithelium (ge), atretic follicle (af), germline cyst (cy), connective tissue (ct), gonia (g), blood vessel (bv), Leydig cell (Le), spermatozoa (z). Staining: MY. Bar: 200 &#xB5;m (<bold>A</bold>), 100 &#xB5;m (<bold>B</bold>), 20 &#xB5;m (<bold>C</bold>&#x2013;<bold>E</bold>), 10 &#xB5;m (<bold>E</bold>-inset, <bold>F</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00034-g004.tif"/>
+      </fig>
+      <fig id="cells-07-00034-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Histological section of final transitional gonad&#x2014;the intersex of <italic>S. marmoratus</italic>. (<bold>A</bold>) General view of the gonad. (<bold>B</bold>&#x2013;<bold>F</bold>) Details of A. Note the organization of the gonad in testicular lamellae (<bold>B</bold>) and the large amount of granulocytes that invade the interstitial tissue (<bold>C</bold>&#x2013;<bold>E</bold>) close to atretic follicles (<bold>D</bold>,<bold>E</bold>). (<bold>F</bold>) Presence of the first spermatozoa. Coelomic cavity (ca), testicular lamellae (tl), tunica albuginea (ta), oocyte (o), interstitium (in), germinal epithelium (ge), gonia (g), granulocytes (gr), atretic follicle (af), spermatozoa (z). Staining: MY. Bar: 100 &#xB5;m (<bold>A</bold>), 50 &#xB5;m (<bold>B</bold>), 20 &#xB5;m (<bold>C</bold>&#x2013;<bold>E</bold>), 10 &#xB5;m (<bold>F</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00034-g005.tif"/>
+      </fig>
+      <fig id="cells-07-00034-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Histological sections of testes of secondary males of <italic>S. marmoratus</italic>. Note the progression of spermatogenesis, throughout the process of testicular development. Coelomic cavity (ca), interstitium (in), tunica albuginea (ta), testicular lamellae (tl), testicular lobules (lo), gemline cysts (cy), spermatocytes (c), spermatogonia (g), spermatids (st), basophilic filaments (fi), testicular lumen (lu). Staining: MY. Bar: 200 &#xB5;m (<bold>A</bold>,<bold>E</bold>,<bold>G</bold>), 100 &#xB5;m (<bold>B</bold>), 20 &#xB5;m (<bold>C</bold>), 15 &#xB5;m (<bold>D</bold>), 30 &#xB5;m (<bold>F</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00034-g006.tif"/>
+      </fig>
+      <fig id="cells-07-00034-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Histological sections of testes of primary males of <italic>S. marmoratus</italic>. Note the development of the testicular lobules, according to the progress of hte spermatogenesis. (<bold>A</bold>,<bold>B</bold>) Early testicular development. Germinal epithelium ir formed by Sertoli cells and spermatogonia. (<bold>C</bold>,<bold>D</bold>) Testicular lobules expand, increasing the testicular lumen. (<bold>E</bold>,<bold>F</bold>) Beginning of the spermatogenesis. (<bold>G</bold>,<bold>H</bold>) Testicular lobules are filled by spermatozoa. Connective tissue (ct), testicular lobules (lo), spermatogonia (g), Sertoli cell (S), testicular lumen (lu), germinal epithelium (ge), spermatocytes (c), metaphase (me), spermatids (st), spermatozoa (z). Staining: MY. Bar: 100 &#xB5;m (<bold>A</bold>,<bold>C</bold>,<bold>E</bold>), 20 &#xB5;m (<bold>B</bold>,<bold>D</bold>,<bold>F</bold>), 200 &#xB5;m (<bold>G</bold>), 50 &#xB5;m (<bold>H</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00034-g007.tif"/>
+      </fig>
+      <fig id="cells-07-00034-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Immunohistochemistry for detection of MMP-9 metalloproteinase in ovary of <italic>S. marmoratus</italic>. Note the positive labeling in the interstitial cells (arrow). Primary growth oocyte (pg), secondary growth oocyte (sg), interstitium (in). Counterstaining: Harrys Hematoxylin. Bar: 80 &#x3BC;m (<bold>A</bold>), 30 &#x3BC;m (<bold>B</bold>), 15 &#x3BC;m (<bold>C</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00034-g008.tif"/>
+      </fig>
+      <fig id="cells-07-00034-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>Immunohistochemistry for detection of MMP-14 (<bold>A</bold>&#x2013;<bold>C</bold>), MMP-2 (<bold>D</bold>&#x2013;<bold>F</bold>), and MMP-9 (<bold>G</bold>&#x2013;<bold>I</bold>) metalloproteinases in an early transitional ovary of <italic>S. marmoratus</italic>. Secondary growth oocyte (sg), interstitium (in), follicle complex of the oocyte (fc). Counterstaining: Harrys Hematoxylin. Bar: 50 &#xB5;m (<bold>A</bold>), 30 &#xB5;m (<bold>B</bold>,<bold>H</bold>), 15 &#xB5;m (<bold>C</bold>,<bold>E</bold>,<bold>F</bold>,<bold>I</bold>), 40 &#xB5;m (<bold>D</bold>,<bold>G</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00034-g009.tif"/>
+      </fig>
+      <fig id="cells-07-00034-f010" position="float">
+        <label>Figure 10</label>
+        <caption>
+          <p>(<bold>A</bold>&#x2013;<bold>I</bold>) Immunohistochemistry for detection of MMP-2 (<bold>A</bold>), MMP-9 (<bold>B</bold>&#x2013;<bold>D</bold>), and MMP-14 (<bold>E</bold>) metalloproteinases in the intermediate transitional ovary of <italic>S. marmoratus</italic>. (<bold>F</bold>&#x2013;<bold>I</bold>) Immunohistochemistry for detection of MMP-14 (<bold>F</bold>&#x2013;<bold>G</bold>), MMP-9 (<bold>H</bold>), and MMP-2 (<bold>I</bold>) metalloproteinases in final transitional gonad (intersex) of <italic>S. marmoratus</italic>. Secondary growth oocyte (sg), interstitium (in), germinal epithelium (ge), primary growth oocyte (pg), gonia (g), granulocyte (gr), theca cell (t), follicle cells (f), germline cyst (cy), connective tissue (ct). Counterstaining: Harrys Hematoxylin (<bold>A</bold>&#x2013;<bold>I</bold>). Bar: 100 &#xB5;m (<bold>A</bold>), 40 &#xB5;m (<bold>A</bold>-inset), 20 &#xB5;m (<bold>B</bold>&#x2013;<bold>I</bold>), 15 &#xB5;m (<bold>G</bold>), 25 &#xB5;m (<bold>H</bold>), 5 &#xB5;m (<bold>D</bold>-inset).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00034-g010.tif"/>
+      </fig>
+      <fig id="cells-07-00034-f011" position="float">
+        <label>Figure 11</label>
+        <caption>
+          <p>Immunohistochemistry for detection of MMP-9 (<bold>A</bold>&#x2013;<bold>D</bold>,<bold>J</bold>), MMP-2 (<bold>E</bold>,<bold>F</bold>,<bold>I</bold>,<bold>K</bold>&#x2013;<bold>M</bold>), and MMP-14 (<bold>G</bold>) metalloproteinases in testis of secondary males of <italic>S. marmoratus</italic>. Note the decline in the expression of the MMPs according to the end of the sex reversal process. Tunica albuginea (ta), testicular lobules (lo), connective tissue (ct), interstitium (in), primary growth oocyte (pg), granulocytes (gr), spermatogonia (g), testicular lamellae (tl), spermatozoa (z). Counterstaining: Harrys Hematoxylin. Bar: 80 &#xB5;m (<bold>A</bold>,<bold>E</bold>), 40 &#xB5;m (<bold>B</bold>,<bold>C</bold>,<bold>I</bold>), 30 &#xB5;m (<bold>D</bold>,<bold>F</bold>,<bold>G</bold>), 20 &#xB5;m (<bold>H</bold>,<bold>J</bold>,<bold>L</bold>,<bold>M</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00034-g011.tif"/>
+      </fig>
+      <fig id="cells-07-00034-f012" position="float">
+        <label>Figure 12</label>
+        <caption>
+          <p>Immunohistochemistry for detection of metalloproteinases in testis of primary males of <italic>S. marmoratus</italic>. (<bold>A</bold>) General view of the testis. (<bold>A</bold>&#x2013;<bold>E</bold>) Immunohistochemistry for detection of MMP-2 (<bold>A</bold>,<bold>B</bold>), MMP-9 (<bold>C</bold>), and MMP-14 (<bold>D</bold>,<bold>E</bold>). (<bold>F</bold>,<bold>G</bold>) In totally developed testes, there was no positive response to any of the MMPs. Testicular lobules (lo), testicular lumen (lu), interstitium (in), Sertoli cell (S), spermatogonia (g), spermatozoa (z), germinal epithelium (ge). Counterstaining: Harrys Hematoxylin. Bar: 100 &#xB5;m (<bold>A</bold>,<bold>F</bold>), 40 &#xB5;m (<bold>B</bold>,<bold>D</bold>), 20 &#xB5;m (<bold>C</bold>), 10 &#xB5;m (<bold>E</bold>), 30 &#xB5;m (<bold>G</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00034-g012.tif"/>
+      </fig>
+      <fig id="cells-07-00034-f013" position="float">
+        <label>Figure 13</label>
+        <caption>
+          <p>Histological sections of gonads of <italic>S. marmoratus</italic> showing gonadal remodeling during sex reversal. Picrosirius Red staining. (<bold>A</bold>,<bold>C</bold>,<bold>E</bold>,<bold>G</bold>,<bold>I</bold>,<bold>K</bold>,<bold>M</bold>,<bold>O</bold>) unpolarized light. (<bold>B</bold>,<bold>D</bold>,<bold>F</bold>,<bold>H</bold>,<bold>J</bold>,<bold>L</bold>,<bold>N</bold>,<bold>P</bold>) polarized light. (<bold>A</bold>&#x2013;<bold>D</bold>). Ovary. Note the collagen fibers in the tunica albuginea are highly birefringent, while those of the interstitium are less birefringent. (<bold>E</bold>&#x2013;<bold>H</bold>) Early transitional gonad. The collagen fibers are predominant next to the germinal epithelium, in that the remodeling begins. (<bold>I</bold>&#x2013;<bold>L</bold>) Final transitional gonad. The birefringent collagen fibers are now found in the interstitium, in the central region of the gonad. (<bold>M</bold>&#x2013;<bold>P</bold>) Testis of secondary male, showing the tunica albuginea defined as in the female. In the interstitial compartment, the organized collagen fibers show the definitive establishment of the germinal and interstitial compartment. Tunica albuginea (ta), ovigerous lamellae (la), ovarian lumen (lu), interstitium (in), male gonadal tissue (mt), female gonadal tissue (ft), testicular lobule (lo), germline cysts (cy), spermatozoa (z). Staining: Sirius red (red) and Picric Acid (yellow). Bar: 300 &#xB5;m (<bold>A</bold>,<bold>B</bold>), 200 &#x3BC;m (<bold>B</bold>,<bold>C</bold>,<bold>I</bold>,<bold>J</bold>,<bold>M</bold>,<bold>N</bold>), 100 &#x3BC;m (<bold>E</bold>,<bold>F</bold>), 40 &#xB5;m (<bold>G</bold>,<bold>H</bold>,<bold>K</bold>,<bold>L</bold>,<bold>O</bold>,<bold>P</bold>), 250 &#xB5;m (<bold>M</bold>,<bold>N</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00034-g013.tif"/>
+      </fig>
+      <fig id="cells-07-00034-f014" position="float">
+        <label>Figure 14</label>
+        <caption>
+          <p>Histological sections of the stages of testicular development of primary males of <italic>S. marmoratus</italic>. Picrosirius Red staining. (<bold>A</bold>,<bold>C</bold>,<bold>E</bold>,<bold>G</bold>,<bold>I</bold>,<bold>K</bold>) unpolarized light. (<bold>B</bold>,<bold>D</bold>,<bold>F</bold>,<bold>H</bold>,<bold>J</bold>,<bold>L</bold>) polarized light. (<bold>A</bold>&#x2013;<bold>D</bold>) Testis at the beginning of the development, with germinal epithelium formed only by spermatogonia. (<bold>E</bold>&#x2013;<bold>H</bold>) Testis with germinal epithelium formed by cysts of spermatogonia, spermatocytes, and spermatids. There is no production of spermatozoa yet. The collagen fibers of the interstitium are more intense than the previous stage. (<bold>I</bold>&#x2013;<bold>L</bold>) Testis of primary male capable of reproducing, showing the tunica albuginea defined. In the interstitial compartment, the collagen fibers are quite organized and defined. Tunica albuginea (ta), spermatogonia (g), interstitium (in), testicular lumen (lu), testicular lobule (lo). Staining: Sirius red (red) and Picric Acid (yellow). Bar: 100 &#xB5;m (<bold>A</bold>,<bold>B</bold>,<bold>I</bold>,<bold>J</bold>), 50 &#x3BC;m (<bold>C</bold>,<bold>D</bold>,<bold>G</bold>,<bold>H</bold>,<bold>K</bold>,<bold>L</bold>), 150 &#x3BC;m (<bold>E</bold>,<bold>F</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00034-g014.tif"/>
+      </fig>
+      <fig id="cells-07-00034-f015" position="float">
+        <label>Figure 15</label>
+        <caption>
+          <p>Plasma levels of: (<bold>A</bold>) 17&#x3B2;-Estradiol (E2); (<bold>B</bold>) Testosterone (T); and (<bold>C</bold>) 11-Ketotestosterone (11-KT) (mean &#xB1; S.E.M) in the different sex types of <italic>S. marmoratus</italic> individuals. F: females (<italic>n</italic> = 49), II: Initial intersexes (<italic>n</italic> = 67), MI: Mid intersexes (<italic>n</italic> = 35), FI: Final intersexes (<italic>n</italic> = 4), SM: secondary male (<italic>n</italic> = 24), PM: primary male (<italic>n</italic> = 7). Different letters denote significant differences (<italic>p</italic> &lt; 0.05).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00034-g015.tif"/>
+      </fig>
+    </sec>
+  </back>
+</article>

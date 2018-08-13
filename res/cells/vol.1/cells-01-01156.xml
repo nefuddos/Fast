@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xml:lang="en" article-type="research-article" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells1041156</article-id>
+      <article-id pub-id-type="publisher-id">cells-01-01156</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Apoptotic Volume Decrease (AVD) Is Independent of Mitochondrial Dysfunction and Initiator Caspase Activation</article-title>
+      </title-group>
+      
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Maeno</surname>
+            <given-names>Emi</given-names>
+          </name>
+          <xref rid="af1-cells-01-01156" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tsubata</surname>
+            <given-names>Takeshi</given-names>
+          </name>
+          <xref rid="af2-cells-01-01156" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Okada</surname>
+            <given-names>Yasunobu</given-names>
+          </name>
+          <xref rid="af1-cells-01-01156" ref-type="aff">1</xref>
+          <xref rid="c1-cells-01-01156" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-01-01156"><label>1 </label>Department of Cell Physiology, National Institute for Physiological Sciences, Okazaki 444-8585, Japan; E-Mail: <email>maenoe@hotmail.com</email></aff>
+      <aff id="af2-cells-01-01156"><label>2 </label>Laboratory of Immunology, Tokyo Medical and Dental University, Graduate School of Biomedical Science, Tokyo 113-8510, Japan; E-Mail: <email>tsubata.imm@mri.tmd.ac.jp</email></aff>
+      <author-notes>
+        <corresp id="c1-cells-01-01156"><label>*</label> Author  to whom correspondence should be addressed; E-Mail: <email>okada@nips.ac.jp</email>; Tel.: +81-564-59-5881; Fax: +81-564-59-5883.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>05</day>
+        <month>12</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="collection"><month>12</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>1</volume>
+      <issue>4</issue>
+      <fpage>1156</fpage>
+      <lpage>1167</lpage>
+      <history>
+        <date date-type="received">
+          <day>14</day>
+          <month>11</month>
+          <year>2012</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>24</day>
+          <month>11</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>27</day>
+          <month>11</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#x000A9;  2012 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2012</copyright-year>
+        <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/">
+          <p>This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (http://creativecommons.org/licenses/by/3.0/).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Persistent cell shrinkage is a major hallmark of apoptotic cell death. The early-phase shrinkage, which starts within 30&#x2212;120 min after apoptotic stimulation and is called apoptotic volume decrease (AVD), is known to be accomplished by activation of K<sup>+</sup> channels and volume-sensitive outwardly rectifying (VSOR) Cl<sup>&#x2212;</sup> channels in a manner independent of caspase-3 activation. However, it is controversial whether AVD depends on apoptotic dysfunction of mitochondria and activation of initiator caspases. Here, we observed that AVD is induced not only by a mitochondrial apoptosis inducer, staurosporine (STS), in mouse B lymphoma WEHI-231 cells, but also by ligation of the death receptor Fas in human B lymphoblastoid SKW6.4 cells, which undergo Fas-mediated apoptosis without involving mitochondria. Overexpression of Bcl-2 failed to inhibit the STS-induced AVD in WEHI-231 cells. These results indicate that AVD does not require the mitochondrial pathway of apoptosis. In human epithelial HeLa cells stimulated with anti-Fas antibody or STS, the AVD induction was found to precede activation of caspase-8 and caspase-9 and to be resistant to pan-caspase blockers. Thus, it is concluded that the AVD induction is an early event independent of the mitochondrial apoptotic signaling pathway and initiator caspase activation.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>apoptosis</kwd>
+        <kwd>AVD</kwd>
+        <kwd>mitochondria</kwd>
+        <kwd>caspase-3</kwd>
+        <kwd>caspase-8</kwd>
+        <kwd>caspase-9</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+  <sec>
+<title>Abbreviations</title>
+<def-list>
+ <def-item><term id="G1">AMC</term><def><p>fluorochrome 7-amino 4-methyl coumarin</p></def></def-item>
+ <def-item><term id="G2">AVD</term><def><p>apoptotic volume decrease</p></def></def-item>
+ <def-item><term id="G3">DIDS</term><def><p>4,4'-diisothiocyanostilbene-2,2'-disulfonic acid</p></def></def-item>
+ <def-item><term id="G4">DMSO</term><def><p>dimethylsulfoxide</p></def></def-item>
+ <def-item><term id="G5">FBS</term><def><p>fetal bovine serum</p></def></def-item>
+ <def-item><term id="G6">MTT</term><def><p>3-[4,5-dimethylthiazol-2-yl]-2,5-diphenyltetrazolium bromide</p></def></def-item>
+ <def-item><term id="G7">NPPB</term><def><p>5-nitro-2-(3-phenylpropylamino)benzoic acid</p></def></def-item>
+ <def-item><term id="G8">ROS</term><def><p>reactive oxygen species</p></def></def-item>
+ <def-item><term id="G9">SITS</term><def><p>4-acetamido-4'-isothiocyanostilbene</p></def></def-item>
+ <def-item><term id="G10">STS</term><def><p>staurosporine</p></def></def-item>
+ <def-item><term id="G11">VDAC</term><def><p>voltage-dependent anion channel</p></def></def-item>
+ <def-item><term id="G12">VSOR</term><def><p>volume-sensitive outwardly rectifying</p></def></def-item>
+ <def-item><term id="G13">zD-dcb</term><def><p>Z-Asp-2,6-dichlorobenzoyloxymethylketone</p></def></def-item>
+ <def-item><term id="G14">zVAD-fmk</term><def><p>benzyloxycarbonyl-Val-Ala-Asp(OMe)-fluoromethylketone</p></def></def-item>
+</def-list>
+</sec>
+
+   
+   
+    <sec sec-type="intro">
+      <title>1. Introduction</title>
+      <p>A major hallmark of apoptotic cell death is normotonic persistent shrinkage of cells [<xref ref-type="bibr" rid="B1-cells-01-01156">1</xref>]. The early-phase apoptotic whole-cell shrinkage, termed apoptotic volume decrease (AVD) [<xref ref-type="bibr" rid="B2-cells-01-01156">2</xref>,<xref ref-type="bibr" rid="B3-cells-01-01156">3</xref>], starts within 0.5&#x2212;2 h after apoptosis induction, regardless of whether caspases, central executers of apoptosis, are activated through mitochondrial dysfunction (intrinsic pathway) or directly by death receptor ligation (extrinsic pathway) [<xref ref-type="bibr" rid="B2-cells-01-01156">2</xref>]. A sizable AVD event was recently found to start as early as 2&#x2013;5 min after stimulation with an intrinsic apoptosis inducer, staurosporine (STS), and to precede activation of JNK and p38 MAPK [<xref ref-type="bibr" rid="B4-cells-01-01156">4</xref>]. AVD is mainly accomplished by KCl release mediated by activation of K<sup>+</sup> and Cl<sup>&#x2212;</sup> channels in a wide variety of cell types [<xref ref-type="bibr" rid="B2-cells-01-01156">2</xref>,<xref ref-type="bibr" rid="B3-cells-01-01156">3</xref>,<xref ref-type="bibr" rid="B4-cells-01-01156">4</xref>,<xref ref-type="bibr" rid="B5-cells-01-01156">5</xref>,<xref ref-type="bibr" rid="B6-cells-01-01156">6</xref>,<xref ref-type="bibr" rid="B7-cells-01-01156">7</xref>,<xref ref-type="bibr" rid="B8-cells-01-01156">8</xref>,<xref ref-type="bibr" rid="B9-cells-01-01156">9</xref>]. The Cl<sup>&#x2212;</sup> channel involved in the AVD induction was specified to be the volume-sensitive outwardly rectifying (VSOR) anion channel, which is activated by reactive oxygen species (ROS) [<xref ref-type="bibr" rid="B10-cells-01-01156">10</xref>]. Late-phase apoptotic cell shrinkage observed at around 1 to 12 h after apoptotic stimulation was reported to be preceded by alterations in mitochondrial functions, including changes in the mitochondrial membrane potential and generation of mitochondrial ROS [<xref ref-type="bibr" rid="B11-cells-01-01156">11</xref>,<xref ref-type="bibr" rid="B12-cells-01-01156">12</xref>]. However, it is not known whether the early-phase apoptotic shrinkage, that is AVD, is also dependent on the mitochondrial apoptotic signaling pathway. Thus, the first aim of the present study is to answer this question. </p>
+      <p>Apoptotic cell shrinkage is considered to be largely independent of activation of effector caspase-3, because this event was observed even in the presence of the specific caspase-3 inhibitor Asp-Glu-Val-Asp-O-methyl-fluoromethylketone (DEVD-fmk) [<xref ref-type="bibr" rid="B13-cells-01-01156">13</xref>,<xref ref-type="bibr" rid="B14-cells-01-01156">14</xref>]. Also, the AVD induction was found to precede activation of caspase-3 [<xref ref-type="bibr" rid="B2-cells-01-01156">2</xref>]. On the other hand, a pan-caspase inhibitor, benzyloxycarbonyl-Val-Ala-Asp(OMe)-fluoromethylketone (zVAD-fmk), has been reported to suppress apoptotic cell shrinkage observed 1.5&#x2212;48 h after application of apoptosis inducers in a variety of cell types [<xref ref-type="bibr" rid="B13-cells-01-01156">13</xref>,<xref ref-type="bibr" rid="B14-cells-01-01156">14</xref>,<xref ref-type="bibr" rid="B15-cells-01-01156">15</xref>,<xref ref-type="bibr" rid="B16-cells-01-01156">16</xref>,<xref ref-type="bibr" rid="B17-cells-01-01156">17</xref>,<xref ref-type="bibr" rid="B18-cells-01-01156">18</xref>,<xref ref-type="bibr" rid="B19-cells-01-01156">19</xref>,<xref ref-type="bibr" rid="B20-cells-01-01156">20</xref>,<xref ref-type="bibr" rid="B21-cells-01-01156">21</xref>], suggesting that induction of the late-phase apoptotic shrinkage, at least in part, involves activation of some caspase(s) other than caspase-3, especially initiator caspases that activate caspase-3. In fact, the initiator caspases, caspase-8 and caspase-9, were found to be necessary for Fas- and UV-induced apoptotic cell shrinkage observed at &#x2265;2 h after stimulation in Jurkat cells [<xref ref-type="bibr" rid="B20-cells-01-01156">20</xref>]. However, it is not known whether the earlier caspase-3-independent AVD event is dependent on activation of initiator caspases. The second aim of the present study is to address this question.</p>
+    </sec>
+    <sec sec-type="results">
+      <title>2. Results</title>
+      <sec>
+        <title>2.1. The AVD Induction Is Independent of the Mitochondrial Apoptosis Pathway</title>
+        <p>A human B lymphoblastoid cell line SKW6.4 is classified as the type I cell in which death receptor ligation induces apoptosis through the extrinsic pathway [<xref ref-type="bibr" rid="B22-cells-01-01156">22</xref>], because ligation of the death receptor Fas induces apoptosis without mitochondrial apoptotic events in these cells [<xref ref-type="bibr" rid="B23-cells-01-01156">23</xref>]. As shown in <xref ref-type="fig" rid="cells-01-01156-f001">Figure 1</xref>, treatment of SKW6.4 cells with anti-Fas monoclonal antibody led to not only activation of caspase-3 (middle panel) and reduction of cell viability (bottom panel), but also to induction of AVD, which started before activation of caspase-3, followed by sustained cell shrinkage (top panel) in a time-dependent manner. Thus, it appears that AVD can be induced by the extrinsic apoptosis pathway without involving mitochondria. When a Cl<sup>&#x2212;</sup> channel blocker, 5-nitro-2-(3-phenylpropylamino)benzoic acid (NPPB) or 4-acetamido-4'-isothiocyanostilbene (SITS), was simultaneously applied with anti-Fas antibody, AVD, sustained cell shrinkage, caspase-3 activation and cell death were all completely prevented (<xref ref-type="fig" rid="cells-01-01156-f001">Figure 1</xref>). These results suggest that the mechanism of AVD induction is independent of the mitochondrial pathway and that actions of the Cl<sup>&#x2212;</sup> channel blocker were not mediated by the mitochondrial voltage-dependent anion channel (VDAC).</p>
+        <fig id="cells-01-01156-f001" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p>Induction of AVD followed by persistent shrinkage (top), activation of caspase-3 (middle) and induction of cell death (bottom) by treatment with anti-Fas antibody (anti-Fas), as well as their prevention by simultaneous treatment with a Cl<sup>&#x2212;</sup> channel blocker (0.5 mM NPPB or 0.5 mM SITS) in SKW6.4 cells. The mean data for cell volume and viability obtained in anti-Fas antibody-treated cells were normalized to those measured in non-treated cells (control). Each data point represents the mean &#xB1; SEM (vertical bar) of 16 observations. *<italic>p</italic> &lt; 0.05 <italic>vs.</italic> corresponding control.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-01156-g001.tif"/>
+        </fig>
+        <p>As shown in <xref ref-type="fig" rid="cells-01-01156-f002">Figure 2</xref>A, STS also induced AVD (within 1 h), followed by sustained shrinkage (top panel), as well as caspase-3 activation (after &#x2265;2 h: middle panel) and DNA fragmentation (after &#x2265;3 h: bottom panel) in a mouse B lymphoma cell line WEHI-231, in good agreement with previous observations in other cell lines stimulated with STS [<xref ref-type="bibr" rid="B2-cells-01-01156">2</xref>]. Although STS-induced AVD occurred earlier than caspase-3 activation and DNA fragmentation, there remains a possibility that some mitochondrial signal was involved in triggering the AVD induction in this cell line stimulated with the mitochondrion-mediated apoptosis inducer. However, as shown in <xref ref-type="fig" rid="cells-01-01156-f002">Figure 2</xref>B, the AVD event induced by STS was not prevented by overexpression of Bcl-2 (top panel), which blocks the mitochondrial apoptosis pathway [<xref ref-type="bibr" rid="B24-cells-01-01156">24</xref>] in WEHI-231 cells, whereas caspase-3 activation (middle panel) and DNA fragmentation (bottom panel) were abolished by Bcl-2. These results suggest that the STS-induced process of AVD induction does not require the mitochondrial signaling pathway, which eventually leads to caspase-3 activation and DNA laddering. Taken together, it is concluded that the AVD induction is independent of the mitochondrial pathway leading to apoptotic death in B cells.</p>
+        <fig id="cells-01-01156-f002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>Induction of AVD (top) in both WEHI-231 (<bold>A</bold>) and WEHI-231/Bcl-2 (<bold>B</bold>) cells, as well as activation of caspase-3 (middle) and induction of DNA fragmentation (bottom) in WEHI-231 (A), but not in WEHI-231/Bcl-2 (B) cells treated with STS. The mean cell volume of STS-treated cells was normalized to that of non-treated (control) cells. Each data point represents the mean &#xB1; SEM (vertical bar) of 16 observations. *<italic>p</italic> &lt; 0.05 <italic>vs.</italic> corresponding control.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-01156-g002.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>2.2. The AVD Induction Is an Independent Event of Activation of Initiator Caspases</title>
+        <p>In a human epithelial cell line HeLa, as shown in <xref ref-type="fig" rid="cells-01-01156-f003">Figure 3</xref>A and B, stimulation with either anti-Fas antibody or STS induced cell shrinkage (top panels), as well as activation of both caspase-8 (middle panels) and caspase-9 (bottom panels). STS-induced activation of caspase-9 was more prominent than that induced by anti-Fas antibody, presumably because the extrinsic pathway predominantly mediated Fas-induced apoptosis in HeLa cells. The AVD event started very rapidly and became significant as early as 2 h after application of anti-Fas antibody and 1 h after STS application, whereas activation of both initiator caspases was observed only at &#x2265;3 h after apoptotic stimulation. Moreover, prevention of AVD by a non-specific Cl<sup>&#x2212;</sup> channel blocker (4,4'-diisothiocyanostilbene-2,2'-disulfonic acid (DIDS) or NPPB), a VSOR anion channel blocker (phloretin), or a K<sup>+</sup> channel blocker (quinine) completely abolished anti-Fas antibody- and STS-induced late-phase sustained shrinkage, as well as activation of both initiator caspases. These data indicate that the AVD induction is an early event independent of activation of initiator caspases.</p>
+        <fig id="cells-01-01156-f003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>Induction of AVD followed by persistent shrinkage (top), activation of caspase-8 (middle) and activation of caspase-9 (bottom) in HeLa cells treated with anti-Fas antibody (anti-Fas) (<bold>A</bold>) and STS (<bold>B</bold>) in the absence (filled circles), but not in the presence (other filled symbols), of a channel blocker. The Cl<sup>&#x2212;</sup> channel blocker was 0.5 mM DIDS, 0.5 mM NPPB, or 30 &#x3BC;M phloretin, and the K<sup>+</sup> channel blocker was 0.5 mM quinine. The mean cell volume of anti-Fas- and STS-treated cells was normalized to that of non-treated (control: open squares) cells. Each data point represents the mean &#xB1; SEM (vertical bar) of 10 observations. *<italic>p</italic> &lt; 0.05 <italic>vs.</italic> corresponding control.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-01156-g003.tif"/>
+        </fig>
+        <p>A cell-permeable broad-spectrum caspase inhibitor, zVAD-fmk or Z-Asp-2,6-dichlorobenzoyloxymethylketone (zD-dcb), completely abolished activation of caspase-3 (<xref ref-type="fig" rid="cells-01-01156-f004">Figure 4</xref>: bottom panels) and of caspases-8 and -9 (data not shown, n = 10) upon stimulation with anti-Fas antibody and STS. In contrast, these pan-caspase inhibitors failed to abolish the AVD induced by anti-Fas antibody (<xref ref-type="fig" rid="cells-01-01156-f004">Figure 4</xref>A: top panel) and STS (<xref ref-type="fig" rid="cells-01-01156-f004">Figure 4</xref>B: top panel). The AVD occurred within &#x2265;1 h and &#x2265;0.5 h after stimulation with anti-Fas antibody and STS, respectively, and was not affected by the pan-caspase inhibitor up to 2 h after apoptotic stimulation. However, late-phase apoptotic cell shrinkage was largely, though not totally, inhibited by either of pan-caspase inhibitors only at &#x2265;4 h after apoptotic stimulation (<xref ref-type="fig" rid="cells-01-01156-f004">Figure 4</xref>: top panels), the timing of which matches to that of activation of caspase-3 (<xref ref-type="fig" rid="cells-01-01156-f004">Figure 4</xref>: bottom panels). These data indicate that the early-phase apoptotic cell shrinkage called AVD does not require activation of caspases including both initiator and effector caspases and that late-phase shrinkage involves both caspase-independent and -dependent mechanisms.</p>
+        <fig id="cells-01-01156-f004" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p>Effects of pan-caspase inhibitors, zVAD-fmk (50 &#x3BC;M) and zD-dcb (100 &#x3BC;M), on the AVD induction (top) and caspase-3 activation (bottom) in HeLa cells treated with anti-Fas antibody (anti-Fas) (<bold>A</bold>) and STS (<bold>B</bold>). The mean cell volume of anti-Fas- or STS-treated cells in the absence (filled circles) and presence (filled triangles) of a pan-caspase blocker was normalized to that of non-treated (control: open squares) cells. Each data point represents the mean &#xB1; SEM (vertical bar) of 10 observations. *<italic>p</italic> &lt; 0.05 <italic>vs.</italic> corresponding control. It is noted that either pan-caspase blocker abolished caspase-3 activation, but not AVD induction in both anti-Fas- and STS-treated cells, and also that the late-phase cell shrinkage observed at &#x2265;4 h after stimulation with anti-Fas or STS was significantly (<italic>p</italic> &lt; 0.05) suppressed by pan-caspase blockers.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-01156-g004.tif"/>
+        </fig>
+        <p>Based on the data shown in <xref ref-type="fig" rid="cells-01-01156-f003">Figure 3</xref> and <xref ref-type="fig" rid="cells-01-01156-f004">Figure 4</xref>, it is concluded that the AVD induction is an independent event of initiator caspase activation.</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>3. Discussion</title>
+      <p>A reduction in cell volume is a fundamental feature of apoptotic cell death [<xref ref-type="bibr" rid="B1-cells-01-01156">1</xref>]. The apoptotic cell volume loss in CEM-C7A lymphoblastoid cells treated with dexamethasone was characterized by two distinct stages; that is, the first stage (until 36 h) associated with a net loss of K<sup>+</sup>, and the second stage associated with cellular fragmentation (over 36 h) [<xref ref-type="bibr" rid="B25-cells-01-01156">25</xref>]. Here, we found that the first-stage whole-cell shrinkage (before cellular fragmentation or apoptotic body formation) is subdivided into two phases (<xref ref-type="fig" rid="cells-01-01156-f004">Figure 4</xref>): The early-phase apoptotic shrinkage, AVD, which occurs within 0.5&#x2212;2 h after apoptotic stimulation in a manner independent of caspase activities and the late-phase persistent shrinkage, which appears at &gt; 2&#x2212;3 h after apoptotic stimulation in a manner largely dependent on caspase activation. The AVD induction was totally inhibited by blockers of K<sup>+</sup> and Cl<sup>&#x2212;</sup> channels (<xref ref-type="fig" rid="cells-01-01156-f001">Figure 1</xref> and <xref ref-type="fig" rid="cells-01-01156-f003">Figure 3</xref>: top panels), suggesting that electroconductive K<sup>+</sup> and Cl<sup>&#x2212;</sup> efflux is causative of the AVD event. In fact, our recent fluorometric measurements of the intracellular free K<sup>+</sup> and Cl<sup>&#x2212;</sup> concentrations demonstrated early-phase (starting with 10&#x2212;30 min) occurrence of K<sup>+</sup> and Cl<sup>&#x2212;</sup> effluxes, which are sensitive to a blocker of K<sup>+</sup> and Cl<sup>&#x2212;</sup> channels, respectively [<xref ref-type="bibr" rid="B26-cells-01-01156">26</xref>]. Also, it is noted that abolition of the AVD induction by a blocker of K<sup>+</sup> or Cl<sup>&#x2212;</sup> channel resulted in elimination of the late-phase apoptotic events, including persistent cell shrinkage, caspase-3 activation and cell death (<xref ref-type="fig" rid="cells-01-01156-f001">Figure 1</xref>), as well as activation of caspases-8 and -9 (<xref ref-type="fig" rid="cells-01-01156-f003">Figure 3</xref>). Thus, it is suggested that the KCl efflux or resultant AVD is an upstream event of these late-phase apoptotic events.</p>
+      <p>An extrinsic apoptosis inducer anti-Fas antibody was found to induce the AVD event in the SKW6.4 cell line (<xref ref-type="fig" rid="cells-01-01156-f001">Figure 1</xref>), which is classified into the type I cell and undergoes Fas-mediated apoptosis without activation of the mitochondrial apoptotic signaling pathway [<xref ref-type="bibr" rid="B22-cells-01-01156">22</xref>]. Also, an intrinsic apoptosis inducer, STS, was found to induce the AVD even in WEHI-231 cells transfected with Bcl-2 (<xref ref-type="fig" rid="cells-01-01156-f002">Figure 2</xref>B) that protect mitochondria from apoptotic changes. Thus, it appears that the early-phase AVD in apoptotic B cells is independent of the mitochondrial pathway and its downstream event, including caspase-9 activation. Consistently, the AVD induction was found to precede activation of caspase-9 in HeLa cells stimulated with anti-Fas antibody and STS (<xref ref-type="fig" rid="cells-01-01156-f003">Figure 3</xref>). Also, activation of another initiator caspase, caspase-8, was found to be preceded by the AVD induction in HeLa cells undergoing Fas- and mitochondrion-mediated apoptosis (<xref ref-type="fig" rid="cells-01-01156-f003">Figure 3</xref>). Moreover, broad-spectrum caspase inhibitors (zVAD-fmk and zD-dcb) failed to affect the apoptotic induction of early-phase (&lt;2 h) whole-cell shrinkage, AVD (<xref ref-type="fig" rid="cells-01-01156-f004">Figure 4</xref>: top panels). If the caspase assays in the present study were not sensitive enough to detect very small increases in the caspase-8/9 activities, which might have occurred within 0.5&#x2212;2 h after apoptotic stimulation, there arises a possibility that caspase-8/9 activation in a small extent was involved in the AVD induction. However, this possibility can be excluded by the fact that pan-caspase inhibitors, zVAD-fmk and zD-dcb, which abolished activation not only of caspase-3, but also of caspase-8/9, failed to affect the AVD event up to 2 h after apoptotic stimulation (<xref ref-type="fig" rid="cells-01-01156-f004">Figure 4</xref>). Therefore, it is evident that neither the mitochondrial apoptotic pathway nor activation of initiator caspases is required for the AVD induction.</p>
+      <p>The signaling process upstream to AVD is not clear. Since the AVD induction was found to precede activation of JNK and p38 [<xref ref-type="bibr" rid="B4-cells-01-01156">4</xref>], these MAP kinases are unlikely to serve as the upstream signals. There is a possibility that ROS are the upstream signal for AVD, because the VSOR anion channel involved in the AVD induction is known to be activated by ROS [<xref ref-type="bibr" rid="B10-cells-01-01156">10</xref>,<xref ref-type="bibr" rid="B27-cells-01-01156">27</xref>]. In fact, the VSOR channel activation was shown to be mediated by ROS when HeLa cells were stimulated by STS, but not by anti-Fas antibody [<xref ref-type="bibr" rid="B10-cells-01-01156">10</xref>]. However, it must be noted that not only Fas-mediated, but also STS-induced, AVD induction would be independent of mitochondrial ROS production, which is mediated by Romo1 [<xref ref-type="bibr" rid="B28-cells-01-01156">28</xref>] and prevented by Bcl-X<sub>L</sub> [<xref ref-type="bibr" rid="B29-cells-01-01156">29</xref>], because the present study demonstrated that AVD does not require the mitochondrial pathway (<xref ref-type="fig" rid="cells-01-01156-f001">Figure 1</xref>) and is insensitive to Bcl-2 (<xref ref-type="fig" rid="cells-01-01156-f002">Figure 2</xref>). A possible involvement of ROS of non-mitochondrial origin must be examined in the further study.</p>
+      <p>There has been much discrepancy about the effects of pan-caspase inhibitors on apoptotic cell shrinkage. The pan-caspase inhibitor zVAD-fmk was reported to block apoptotic cell shrinkage in lymphoid cells stimulated with etoposide after 4.5 h [<xref ref-type="bibr" rid="B16-cells-01-01156">16</xref>], glucocorticoids after 4 h [<xref ref-type="bibr" rid="B15-cells-01-01156">15</xref>,<xref ref-type="bibr" rid="B17-cells-01-01156">17</xref>], TGF&#x3B2; after 48 h [<xref ref-type="bibr" rid="B14-cells-01-01156">14</xref>] and anti-Fas antibody after 1.5&#x2212;24 h [<xref ref-type="bibr" rid="B13-cells-01-01156">13</xref>,<xref ref-type="bibr" rid="B18-cells-01-01156">18</xref>,<xref ref-type="bibr" rid="B19-cells-01-01156">19</xref>,<xref ref-type="bibr" rid="B20-cells-01-01156">20</xref>], as well as in epidermoid A431 cells at 8 h after UV irradiation [<xref ref-type="bibr" rid="B21-cells-01-01156">21</xref>]. In contrast, the same and several other pan-caspase inhibitors were observed to fail to inhibit apoptotic cell shrinkage in Jurkat cells stimulated with A23187 or thapsigargin after 24 h [<xref ref-type="bibr" rid="B13-cells-01-01156">13</xref>] and with UV irradiation after 8 h [<xref ref-type="bibr" rid="B20-cells-01-01156">20</xref>], as well as in U937 cells stimulated with STS after 2 h [<xref ref-type="bibr" rid="B30-cells-01-01156">30</xref>]. In the present study, the early-phase (until 1&#x2212;2 h) AVD was found to be totally insensitive to zVAD-fmk and zD-dcb, although the late-phase (over 2&#x2212;3 h) whole-cell shrinkage was partially suppressed by these pan-caspase inhibitors in HeLa cells stimulated with anti-Fas antibody and STS (<xref ref-type="fig" rid="cells-01-01156-f004">Figure 4</xref>: top panels). Since late-phase apoptotic shrinkage consisted of caspase-independent and -dependent components, it is likely that the former component represents persistent AVD and that the latter one does additional shrinkage associated with caspase activation. The fact that there are two distinct phases with respect to pan-caspase inhibitor sensitivity may compromise over the discrepancy in the results reported hitherto on sensitivity of apoptotic shrinkage to pan-caspase inhibitors, because a starting time of the late-phase may vary depending on the cell types and apoptotic stimuli.</p>
+    </sec>
+    <sec>
+      <title>4. Experimental Section</title>
+      <sec>
+        <title>4.1. Cell Culture and Apoptosis Induction</title>
+        <p>HeLa cells were cultured in MEM medium supplemented with 10% fetal bovine serum (FBS). SKW6.4, WEHI-231 and Bcl-2-transfected WEHI-231 (WEHI-231/Bcl-2) cells were cultured in RPMI 1640 medium supplemented with 10% FBS.</p>
+        <p>To induce apoptosis, these cells in the log-growing phase were treated with 4 &#x3BC;M STS (Sigma, St. Louis, MO, USA) or 0.5 &#x3BC;g/mL anti-Fas monoclonal antibody (MBL, CH-11, Tokyo, Japan), as previously described [<xref ref-type="bibr" rid="B2-cells-01-01156">2</xref>,<xref ref-type="bibr" rid="B22-cells-01-01156">22</xref>,<xref ref-type="bibr" rid="B31-cells-01-01156">31</xref>].</p>
+      </sec>
+      <sec>
+        <title>4.2. Cell Volume Measurements</title>
+        <p>Cell volume was measured at room temperature (23&#x2212;26&#xB0;C) by applying an electronic cell sizing technique to suspensions of isolated cells, as described previously [<xref ref-type="bibr" rid="B26-cells-01-01156">26</xref>,<xref ref-type="bibr" rid="B32-cells-01-01156">32</xref>]. The standard solution was made of (mM) 95 NaCl, 4.5 KCl, 1 MgCl<sub>2</sub>, 1 CaCl<sub>2</sub>, 5 HEPES/NaOH and 105 mannitol (pH 7.4, 310 mOsmol/kg-H<sub>2</sub>O).</p>
+      </sec>
+      <sec>
+        <title>4.3. Caspase Activity Measurements</title>
+        <p>Caspase activity was measured by using a fluorometric assay, as described previously [<xref ref-type="bibr" rid="B2-cells-01-01156">2</xref>,<xref ref-type="bibr" rid="B33-cells-01-01156">33</xref>]. To exclude an involvement of other proteases, the difference between fluorescence in the absence and presence of the specific inhibitor was observed. The fluorogenic substrates, which were labeled with fluorochrome 7-amino 4-methyl coumarin (AMC), for caspase-3 (Ac-DEVD-AMC), caspase-8 (Ac-IETD-AMC) and caspase-9 (Ac-LEHD-AMC) were provided from Promega (Madison, WI, USA), BIOMOL Research Labs (Plymouth, PA, USA) and Quality Controlled Biochemicals (Hopkinton, MA, USA), respectively. Specific inhibitors of caspase-3 (Ac-DEVD-CHO), casepase-8 (Ac-IETD-CHO) and caspase-9 (Ac-LEHD-CHO) were also obtained from these companies, respectively.</p>
+      </sec>
+      <sec>
+        <title>4.4. DNA Fragmentation Assay</title>
+        <p>Internucleosomal DNA fragmentation was detected by DNA ladder, as previously described [<xref ref-type="bibr" rid="B2-cells-01-01156">2</xref>,<xref ref-type="bibr" rid="B34-cells-01-01156">34</xref>]. The chromosomal DNA was analyzed by agarose gel electrophoresis (2%), followed by staining with ethidium bromide.</p>
+      </sec>
+      <sec>
+        <title>4.5. Cell Viability Assay</title>
+        <p>In the 96-well culture plates, cell viability was assessed by mitochondrial dehydrogenase activity using the colorimetric 3-[4,5-dimethylthiazol-2-yl]-2,5-diphenyltetrazolium bromide (MTT) assay [<xref ref-type="bibr" rid="B35-cells-01-01156">35</xref>], as described previously [<xref ref-type="bibr" rid="B2-cells-01-01156">2</xref>].</p>
+      </sec>
+      <sec>
+        <title>4.6. Chemicals</title>
+        <p>DIDS, phloretin, quinine, SITS and NPPB were purchased from Sigma and added to extracellular solution after solubilizing with a minimal amount of dimethylsulfoxide (DMSO). zVAD-fmk and zD-dcb were provided from Enzyme Systems Products (Livermore, CA, USA) and Peptide Institute (Osaka, Japan), respectively.</p>
+      </sec>
+      <sec>
+        <title>4.7. Statistical Analysis</title>
+        <p>Date given as means &#xB1; SEM of observations (n) were statistically analyzed using the ANOVA with Student&#x2019;s <italic>t</italic> test. Differences were considered when <italic>p</italic> was &lt;0.05</p>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>The present study was performed to address the question as to whether the early-phase caspase-3-independent apoptotic cell shrinkage, termed AVD, is dependent on the mitochondrial pathway and activation of initiator caspases. The AVD induction was observed by Fas-ligation in type-I SKW6.4 cells, which undergo Fas-mediated apoptosis without involving mitochondria. AVD was also observed in WEHI-231 cells treated with an intrinsic apoptosis inducer STS, even if the mitochondrial pathway is inhibited by overexpression of Bcl-2. Also, the AVD induction was found to precede activation not only of caspase-3, but also of caspases-8 and -9 in HeLa cells, and prevention of AVD induction by K<sup>+</sup> and Cl<sup>&#x2212;</sup> channel blockers abolished activation of initiator and effector caspases. Furthermore, the AVD measurements in HeLa cells with broad-spectrum caspase inhibitors showed that the apoptotic whole-cell shrinkage comprises two phases: The early-phase caspase-independent AVD and the late-phase caspase-dependent persistent shrinkage. Thus, it is concluded that AVD is an early event independent of apoptotic mitochondrial dysfunction and activation of initiator and effector caspases, and that AVD is requisite to induce caspase activation and late-phase apoptotic cell shrinkage.</p>
+    </sec>    
+  </body>
+  <back>
+  <ack>
+      <title>Acknowledgments</title>
+      <p>We are grateful to Tomomi Okayasu for secretarial assistance. This study was supported by Grant-in-Aid for Scientific Research from The Japan Society for The Promotion Science (JSPS). </p>
+    </ack>
+    <notes>
+      <title>Conflict of Interest</title>
+      <p>The authors declare no conflict of interest. </p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-01-01156">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wyllie</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Kerr</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Currie</surname>
+              <given-names>A.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cell death: The significance of apoptosis</article-title>
+          <source>Int. Rev. Cytol.</source>
+          <year>1980</year>
+          <volume>68</volume>
+          <fpage>251</fpage>
+          <lpage>306</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0074-7696(08)62312-8</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-cells-01-01156">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Maeno</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Ishizaki</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kanaseki</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hazama</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Okada</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Normotonic cell shrinkage due to disordered volume regulation is an early prerequisite to apoptosis</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2000</year>
+          <volume>97</volume>
+          <fpage>9487</fpage>
+          <lpage>9492</lpage>
+        </citation>
+      </ref>
+      <ref id="B3-cells-01-01156">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Okada</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Maeno</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Shimizu</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Dezaki</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Morishima</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Receptor-mediated control of regulatory volume decrease (RVD) and apoptotic volume decrease (AVD)</article-title>
+          <source>J. Physiol. (London)</source>
+          <year>2001</year>
+          <volume>532</volume>
+          <fpage>3</fpage>
+          <lpage>16</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1469-7793.2001.0003g.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-cells-01-01156">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hasegawa</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Shimizu</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Okada</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>The apoptotic volume decrease is an upstream event of MAP kinase activation during staurosporine-induced apoptosis in HeLa cells</article-title>
+          <source>Int. J. Mol. Sci.</source>
+          <year>2012</year>
+          <volume>13</volume>
+          <fpage>9363</fpage>
+          <lpage>9379</lpage>
+          <pub-id pub-id-type="doi">10.3390/ijms13079363</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-cells-01-01156">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>S.P.</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>D.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ions, cell volume, and apoptosis</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2000</year>
+          <volume>97</volume>
+          <fpage>9360</fpage>
+          <lpage>9362</lpage>
+        </citation>
+      </ref>
+      <ref id="B6-cells-01-01156">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lang</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>F&#xF6;ller</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lang</surname>
+              <given-names>K.S.</given-names>
+            </name>
+            <name>
+              <surname>Lang</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Ritter</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Gulbins</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Vereninov</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Huber</surname>
+              <given-names>S.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ion channels in cell proliferation and apoptotic cell death</article-title>
+          <source>J. Membr. Biol.</source>
+          <year>2005</year>
+          <volume>205</volume>
+          <fpage>147</fpage>
+          <lpage>157</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00232-005-0780-5</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-cells-01-01156">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burg</surname>
+              <given-names>E.D.</given-names>
+            </name>
+            <name>
+              <surname>Remillard</surname>
+              <given-names>C.V.</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>J.X.</given-names>
+            </name>
+          </person-group>
+          <article-title>K<sup>+</sup> channels in apoptosis</article-title>
+          <source>J. Membr. Biol.</source>
+          <year>2006</year>
+          <volume>209</volume>
+          <fpage>3</fpage>
+          <lpage>20</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00232-005-0838-4</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-cells-01-01156">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Okada</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Shimizu</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Maeno</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Tanabe</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Volume-sensitive chloride channels involved in apoptotic volume decrease and cell death</article-title>
+          <source>J. Membr. Biol.</source>
+          <year>2006</year>
+          <volume>209</volume>
+          <fpage>21</fpage>
+          <lpage>29</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00232-005-0836-6</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-cells-01-01156">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stutzin</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hoffmann</surname>
+              <given-names>E.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Swelling-activated ion channels: Functional regulation in cell-swelling, proliferation and apoptosis</article-title>
+          <source>Acta Physiol.</source>
+          <year>2006</year>
+          <volume>187</volume>
+          <fpage>27</fpage>
+          <lpage>42</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1748-1716.2006.01537.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-cells-01-01156">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shimizu</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Numata</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Okada</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>A role of reactive oxygen species in apoptotic activation of volume-sensitive Cl<sup>&#x2212;</sup> channel</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2004</year>
+          <volume>101</volume>
+          <fpage>6770</fpage>
+          <lpage>6773</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0401604101</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-01-01156">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zamzami</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Marchetti</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Castedo</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Decaudin</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Macho</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hirsch</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Susin</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Petit</surname>
+              <given-names>P.X.</given-names>
+            </name>
+            <name>
+              <surname>Mignotte</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Kroemer</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sequential reduction of mitochondrial transmembrane potential and generation of reactive oxygen species in early programmed cell death</article-title>
+          <source>J. Exp. Med.</source>
+          <year>1995</year>
+          <volume>182</volume>
+          <fpage>367</fpage>
+          <lpage>377</lpage>
+          <pub-id pub-id-type="doi">10.1084/jem.182.2.367</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-cells-01-01156">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hortelano</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zeini</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Castrillo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Alvarez</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Bosc&#xE1;</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Induction of apoptosis by nitric oxide in macrophages is independent of apoptotic volume decrease</article-title>
+          <source>Cell Death Differ.</source>
+          <year>2002</year>
+          <volume>9</volume>
+          <fpage>643</fpage>
+          <lpage>650</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.cdd.4401017</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13-cells-01-01156">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bortner</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <name>
+              <surname>Cidlowski</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Caspase independent/dependent regulation of K<sup>+</sup>, cell shrinkage, and mitochondrial membrane potential during lymphocyte apoptosis</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1999</year>
+          <volume>274</volume>
+          <fpage>21953</fpage>
+          <lpage>21962</lpage>
+        </citation>
+      </ref>
+      <ref id="B14-cells-01-01156">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schrantz</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Blanchard</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Auffredou</surname>
+              <given-names>M.T.</given-names>
+            </name>
+            <name>
+              <surname>Sharma</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Leca</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Vazquez</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of caspases and possible involvement of retinoblastoma protein during TGF&#x3B2;-mediated apoptosis of human B lymphocytes</article-title>
+          <source>Oncogene 19</source>
+          <year>1999</year>
+          <volume>18</volume>
+          <fpage>3511</fpage>
+          <lpage>3519</lpage>
+        </citation>
+      </ref>
+      <ref id="B15-cells-01-01156">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhivotovsky</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Gahm</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ankarcrona</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nicotera</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Orrenius</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multiple proteases are involved in thymocyte apoptosis</article-title>
+          <source>Exp. Cell Res.</source>
+          <year>1995</year>
+          <volume>221</volume>
+          <fpage>404</fpage>
+          <lpage>412</lpage>
+          <pub-id pub-id-type="doi">10.1006/excr.1995.1391</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-cells-01-01156">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wolf</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Reynolds</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Morana</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Eastman</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The temporal relationship between protein phosphatase, ICE/CED-3 proteases, intracellular acidification, and DNA fragmentation in apoptosis</article-title>
+          <source>Exp. Cell Res.</source>
+          <year>1997</year>
+          <volume>230</volume>
+          <fpage>22</fpage>
+          <lpage>27</lpage>
+          <pub-id pub-id-type="doi">10.1006/excr.1996.3401</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17-cells-01-01156">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hughes</surname>
+              <given-names>F.M.</given-names>
+			  <suffix>Jr.</suffix>
+            </name>
+            <name>
+              <surname>Cidlowski</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Glucocorticoid-induced thymocyte apoptosis: Protease-dependent activation of cell shrinkage and DNA degradation</article-title>
+          <source>J. Steroid Biochem. Mol. Biol.</source>
+          <year>1998</year>
+          <volume>65</volume>
+          <fpage>207</fpage>
+          <lpage>217</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0960-0760(97)00188-X</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18-cells-01-01156">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lang</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Madlung</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Siemen</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Ellory</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Lepple-Wienhues</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gulbins</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>The involvement of caspases in the CD95(Fas/Apo-1)- but not swelling-induced cellular taurine release from Jurkat T-lymphocytes</article-title>
+          <source>Pflugers Arch.</source>
+          <year>2000</year>
+          <volume>440</volume>
+          <fpage>93</fpage>
+          <lpage>99</lpage>
+        </citation>
+      </ref>
+      <ref id="B19-cells-01-01156">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nobel</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Aronson</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>van den Dobbelsteen</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Slater</surname>
+              <given-names>A.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Inhibition of Na<sup>+</sup>/K<sup>+</sup>-ATPase may be one mechanism contributing to potassium efflux and cell shrinkage in CD95-induced apoptosis</article-title>
+          <source>Apoptosis</source>
+          <year>2000</year>
+          <volume>5</volume>
+          <fpage>153</fpage>
+          <lpage>163</lpage>
+          <pub-id pub-id-type="doi">10.1023/A:1009684713784</pub-id>
+        </citation>
+      </ref>
+      <ref id="B20-cells-01-01156">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vu</surname>
+              <given-names>C.C.</given-names>
+            </name>
+            <name>
+              <surname>Bortner</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <name>
+              <surname>Cidlowski</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Differential involvement of initiator caspases in apoptotic volume decrease and potassium efflux during Fas- and UV-induced cell death</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2001</year>
+          <volume>276</volume>
+          <fpage>37602</fpage>
+          <lpage>37611</lpage>
+        </citation>
+      </ref>
+      <ref id="B21-cells-01-01156">
+        <label>21.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Choi</surname>
+              <given-names>K.H.</given-names>
+            </name>
+            <name>
+              <surname>Hama-Inaba</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Haginoya</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Odaka</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Yamada</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hayata</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Ohyama</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>UVC-induced apoptosis in human epithelial tumor A431 cells: Sequence of apoptotic changes and involvement of caspase (-8 and -3) cascade</article-title>
+          <source>J. Radiat. Res.</source>
+          <year>2000</year>
+          <volume>41</volume>
+          <fpage>243</fpage>
+          <lpage>258</lpage>
+          <pub-id pub-id-type="doi">10.1269/jrr.41.243</pub-id>
+        </citation>
+      </ref>
+      <ref id="B22-cells-01-01156">
+        <label>22.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Scaffidi</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Schmitz</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Zha</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Korsmeyer</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Krammer</surname>
+              <given-names>P.H.</given-names>
+            </name>
+            <name>
+              <surname>Peter</surname>
+              <given-names>M.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Differential modulation of apoptosis sensitivity in CD95 type I and type II cells</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1999</year>
+          <volume>274</volume>
+          <fpage>22532</fpage>
+          <lpage>22538</lpage>
+        </citation>
+      </ref>
+      <ref id="B23-cells-01-01156">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eguchi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Srinivasan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Tomaselli</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Shimizu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tsujimoto</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>ATP-dependent steps in apoptotic signal transduction</article-title>
+          <source>Cancer Res.</source>
+          <year>1999</year>
+          <volume>59</volume>
+          <fpage>2174</fpage>
+          <lpage>2181</lpage>
+        </citation>
+      </ref>
+      <ref id="B24-cells-01-01156">
+        <label>24.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lindsay</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Esposti</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Gilmore</surname>
+              <given-names>A.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bcl-2 proteins and mitochondria&#x2014;specificity in membrane targeting for death</article-title>
+          <source>Biochim. Biophys. Acta.</source>
+          <year>2011</year>
+          <volume>1813</volume>
+          <fpage>532</fpage>
+          <lpage>539</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbamcr.2010.10.017</pub-id>
+        </citation>
+      </ref>
+      <ref id="B25-cells-01-01156">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Benson</surname>
+              <given-names>R.S.</given-names>
+            </name>
+            <name>
+              <surname>Heer</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Dive</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Watson</surname>
+              <given-names>A.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of cell volume loss in CEM-C7A cells during dexamethasone-induced apoptosis</article-title>
+          <source>Am. J. Physiol.</source>
+          <year>1996</year>
+          <volume>270</volume>
+          <fpage>C1190</fpage>
+          <lpage>C1203</lpage>
+        </citation>
+      </ref>
+      <ref id="B26-cells-01-01156">
+        <label>26.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dezaki</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Maeno</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Sato</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Akita</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Okada</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Early-phase occurrence of K<sup>+</sup> and Cl<sup>&#x2212;</sup> efflux in addition to Ca<sup>2+</sup> mobilization is a prerequisite to apoptosis in HeLa cells</article-title>
+          <source>Apoptosis</source>
+          <year>2012</year>
+          <volume>17</volume>
+          <fpage>821</fpage>
+          <lpage>831</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10495-012-0716-3</pub-id>
+        </citation>
+      </ref>
+      <ref id="B27-cells-01-01156">
+        <label>27.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Varela</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Simon</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Riveros</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Jorgengen</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Stutzin</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>NAD(P)H oxidase-derived H<sub>2</sub>O<sub>2</sub> signals chloride channel activation in cell volume regulation and cell proliferation</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2004</year>
+          <volume>279</volume>
+          <fpage>13301</fpage>
+          <lpage>13304</lpage>
+        </citation>
+      </ref>
+      <ref id="B28-cells-01-01156">
+        <label>28.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chung</surname>
+              <given-names>Y.M.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Yoo</surname>
+              <given-names>Y.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>A novel protein, Romo1, induces ROS production in the mitochondria</article-title>
+          <source>Biochem. Biophys. Res. Commun.</source>
+          <year>2006</year>
+          <volume>347</volume>
+          <fpage>649</fpage>
+          <lpage>655</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbrc.2006.06.140</pub-id>
+        </citation>
+      </ref>
+      <ref id="B29-cells-01-01156">
+        <label>29.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>S.B.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Shin</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kang</surname>
+              <given-names>S.T.</given-names>
+            </name>
+            <name>
+              <surname>Kang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yoo</surname>
+              <given-names>Y.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bcl-X<sub>L</sub> prevents serum deprivation-induced oxidative stress mediated by Romo1</article-title>
+          <source>Oncology Rep.</source>
+          <year>2011</year>
+          <volume>25</volume>
+          <fpage>1337</fpage>
+          <lpage>1342</lpage>
+        </citation>
+      </ref>
+      <ref id="B30-cells-01-01156">
+        <label>30.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Okada</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Maeno</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Apoptosis, cell volume regulation and volume-regulatory chloride channels</article-title>
+          <source>Comp. Biochem. Physiol. Part. A</source>
+          <year>2001</year>
+          <volume>130</volume>
+          <fpage>377</fpage>
+          <lpage>383</lpage>
+        </citation>
+      </ref>
+      <ref id="B31-cells-01-01156">
+        <label>31.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ishizaki</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Voyvodic</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Burne</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Raff</surname>
+              <given-names>M.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Control of lens epithelial cell survival</article-title>
+          <source>J. Cell Biol.</source>
+          <year>1993</year>
+          <volume>121</volume>
+          <fpage>899</fpage>
+          <lpage>908</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.121.4.899</pub-id>
+        </citation>
+      </ref>
+      <ref id="B32-cells-01-01156">
+        <label>32.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hazama</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Okada</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ca<sup>2+</sup> sensitivity of volume-regulatory K<sup>+</sup> and Cl<sup>&#x2212;</sup> channels in cultured human epithelial cells</article-title>
+          <source>J. Physiol. (London)</source>
+          <year>1988</year>
+          <volume>402</volume>
+          <fpage>687</fpage>
+          <lpage>702</lpage>
+        </citation>
+      </ref>
+      <ref id="B33-cells-01-01156">
+        <label>33.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thornberry</surname>
+              <given-names>N.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interleukin-1 beta converting enzyme</article-title>
+          <source>Methods Enzymol.</source>
+          <year>1994</year>
+          <volume>244</volume>
+          <fpage>615</fpage>
+          <lpage>631</lpage>
+        </citation>
+      </ref>
+      <ref id="B34-cells-01-01156">
+        <label>34.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shiokawa</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Ohyama</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yamada</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Tanuma</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of an endonuclease responsible for apoptosis in rat thymocytes</article-title>
+          <source>Eur. J. Biochem.</source>
+          <year>1994</year>
+          <volume>226</volume>
+          <fpage>23</fpage>
+          <lpage>30</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1432-1033.1994.tb20022.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B35-cells-01-01156">
+        <label>35.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mosmann</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rapid Colorimetric Assay for Cellular Growth and Survival: Application to Proliferation and Cytotoxicity Assays</article-title>
+          <source>J. Immunol. Methods</source>
+          <year>1983</year>
+          <volume>65</volume>
+          <fpage>55</fpage>
+          <lpage>63</lpage>
+          <pub-id pub-id-type="doi">10.1016/0022-1759(83)90303-4</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

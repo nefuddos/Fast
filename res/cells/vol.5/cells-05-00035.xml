@@ -1,0 +1,3319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" article-type="research-article" dtd-version="2.3">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells5030035</article-id>
+      <article-id pub-id-type="publisher-id">cells-05-00035</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Keratins Are Altered in Intestinal Disease-Related Stress Responses</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Helenius</surname>
+            <given-names>Terhi O.</given-names>
+          </name>
+          <xref rid="af1-cells-05-00035" ref-type="aff">1</xref>
+          <xref rid="af2-cells-05-00035" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Antman</surname>
+            <given-names>Cecilia A.</given-names>
+          </name>
+          <xref rid="af1-cells-05-00035" ref-type="aff">1</xref>
+          <xref rid="af2-cells-05-00035" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Asghar</surname>
+            <given-names>Muhammad Nadeem</given-names>
+          </name>
+          <xref rid="af1-cells-05-00035" ref-type="aff">1</xref>
+          <xref rid="af2-cells-05-00035" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Nystr&#xF6;m</surname>
+            <given-names>Joel H.</given-names>
+          </name>
+          <xref rid="af1-cells-05-00035" ref-type="aff">1</xref>
+          <xref rid="af2-cells-05-00035" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Toivola</surname>
+            <given-names>Diana M.</given-names>
+          </name>
+          <xref rid="af1-cells-05-00035" ref-type="aff">1</xref>
+          <xref rid="af2-cells-05-00035" ref-type="aff">2</xref>
+          <xref rid="c1-cells-05-00035" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Leube</surname>
+            <given-names>Rudolf E.</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-05-00035"><label>1</label>Faculty of Science and Engineering, Cell Biology/Biosciences, &#xC5;bo Akademi University, Tykist&#xF6;katu 6A, 20520 Turku, Finland; <email>terhi.helenius@abo.fi</email> (T.O.H.); <email>cecilia.antman@abo.fi</email> (C.A.A.); <email>masghar@abo.fi</email> (M.N.A.); <email>joel.nystrom@abo.fi</email> (J.H.N.)</aff>
+      <aff id="af2-cells-05-00035"><label>2</label>Turku Center for Disease Modeling, University of Turku, 20520 Turku, Finland</aff>
+      <author-notes>
+        <corresp id="c1-cells-05-00035"><label>*</label>Correspondence: <email>dtoivola@abo.fi</email>; Tel.: +358-50-4007-732</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>10</day>
+        <month>09</month>
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="collection">        <month>09</month>
+        <year>2016</year>
+      </pub-date>
+      <volume>5</volume>
+      <issue>3</issue>
+      <elocation-id>35</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>13</day>
+          <month>07</month>
+          <year>2016</year>
+        </date>
+        <date date-type="accepted">
+          <day>25</day>
+          <month>08</month>
+          <year>2016</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2016 by the authors.</copyright-statement>
+        <copyright-year>2016</copyright-year>
+        <license license-type="open-access">
+          <p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC-BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Keratin (K) intermediate filaments can be divided into type I/type II proteins, which form obligate heteropolymers. Epithelial cells express type I-type II keratin pairs, and K7, K8 (type II) and K18, K19 and K20 (type I) are the primary keratins found in the single-layered intestinal epithelium. Keratins are upregulated during stress in liver, pancreas, lung, kidney and skin, however, little is known about their dynamics in the intestinal stress response. Here, keratin mRNA, protein and phosphorylation levels were studied in response to murine colonic stresses modeling human conditions, and in colorectal cancer HT29 cells. Dextran sulphate sodium (DSS)-colitis was used as a model for intestinal inflammatory stress, which elicited a strong upregulation and widened crypt distribution of K7 and K20. K8 levels were slightly downregulated in acute DSS, while stress-responsive K8 serine-74 phosphorylation (K8 pS74) was increased. By eliminating colonic microflora using antibiotics, K8 pS74 in proliferating cells was significantly increased, together with an upregulation of K8 and K19. In the aging mouse colon, most colonic keratins were upregulated. In vitro, K8, K19 and K8 pS74 levels were increased in response to lipopolysaccharide (LPS)-induced inflammation in HT29 cells. In conclusion, intestinal keratins are differentially and dynamically upregulated and post-translationally modified during stress and recovery.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>keratin</kwd>
+        <kwd>stress</kwd>
+        <kwd>recovery</kwd>
+        <kwd>inflammation</kwd>
+        <kwd>antibiotics</kwd>
+        <kwd>aging</kwd>
+        <kwd>lipopolysaccharide</kwd>
+        <kwd>colitis</kwd>
+        <kwd>phosphorylation</kwd>
+        <kwd>acute</kwd>
+        <kwd>chronic</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-cells-05-00035" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Keratin (K) intermediate filaments (IF) are cytoskeletal proteins that protect the cell from mechanical and non-mechanical stress [<xref ref-type="bibr" rid="B1-cells-05-00035">1</xref>]. The most common simple epithelial keratins (SEK) are K7, K8, K18, K19 and K20, and they are divided into acidic type I (K18-K20) and basic type II (K7-K8) keratins. Type I and type II keratins form non-covalent obligate heteropolymers in a 1:1 ratio, and they are expressed in specific pairs and in a tissue-specific manner [<xref ref-type="bibr" rid="B2-cells-05-00035">2</xref>]. For example, only K8 and K18 are expressed in hepatocytes, whereas all SEKs are found in intestinal epithelia [<xref ref-type="bibr" rid="B3-cells-05-00035">3</xref>]. Keratins are regulated by posttranslational modifications (PTM), and phosphorylation is the most common and best described PTM [<xref ref-type="bibr" rid="B4-cells-05-00035">4</xref>]. For instance, Serine 74 (S74) is the major amino acid on K8 that is phosphorylated during stress, apoptosis and mitosis [<xref ref-type="bibr" rid="B4-cells-05-00035">4</xref>]. Unlike in skin and liver, where keratin mutations are known to cause and predispose to disease, respectively [<xref ref-type="bibr" rid="B5-cells-05-00035">5</xref>,<xref ref-type="bibr" rid="B6-cells-05-00035">6</xref>,<xref ref-type="bibr" rid="B7-cells-05-00035">7</xref>,<xref ref-type="bibr" rid="B8-cells-05-00035">8</xref>], genetic studies have been unable to show a convincing link between keratin mutations and IBD pathogenesis [<xref ref-type="bibr" rid="B9-cells-05-00035">9</xref>,<xref ref-type="bibr" rid="B10-cells-05-00035">10</xref>,<xref ref-type="bibr" rid="B11-cells-05-00035">11</xref>], even if a few IBD patients with keratin mutations have been described [<xref ref-type="bibr" rid="B11-cells-05-00035">11</xref>] and the <italic>KRT8</italic> gene is located within the IBD2 locus on chromosome 12 [<xref ref-type="bibr" rid="B12-cells-05-00035">12</xref>]. K8 mutations could therefore be predisposing factors for IBD [<xref ref-type="bibr" rid="B13-cells-05-00035">13</xref>,<xref ref-type="bibr" rid="B14-cells-05-00035">14</xref>]. In SEK transgenic mutant or knockout mice, a variety of hepatic disorders are the most commonly described phenotypes [<xref ref-type="bibr" rid="B9-cells-05-00035">9</xref>]. Mice without K8 (K8<sup>&#x2212;/&#x2212;</sup> mice) develop colitis, hyperproliferation of the colonic crypts and diarrhea, a phenotype that resembles human ulcerative colitis [<xref ref-type="bibr" rid="B15-cells-05-00035">15</xref>,<xref ref-type="bibr" rid="B16-cells-05-00035">16</xref>,<xref ref-type="bibr" rid="B17-cells-05-00035">17</xref>,<xref ref-type="bibr" rid="B18-cells-05-00035">18</xref>], suggesting that keratins may be important in intestinal homeostasis. In addition, K8<sup>&#x2212;/&#x2212;</sup> mice are highly sensitive to colorectal cancer in two models [<xref ref-type="bibr" rid="B19-cells-05-00035">19</xref>].</p>
+      <p>Keratins are abundant proteins that are frequently identified as differentially expressed proteins similarly as other stress proteins, such as heat shock proteins (HSPs) [<xref ref-type="bibr" rid="B20-cells-05-00035">20</xref>]. HSPs are upregulated on both mRNA and protein levels upon stress [<xref ref-type="bibr" rid="B21-cells-05-00035">21</xref>]. IFs and keratins are similarly upregulated and modified in stress situations [<xref ref-type="bibr" rid="B9-cells-05-00035">9</xref>,<xref ref-type="bibr" rid="B22-cells-05-00035">22</xref>] and during recovery from stress, e.g., as seen in liver [<xref ref-type="bibr" rid="B23-cells-05-00035">23</xref>,<xref ref-type="bibr" rid="B24-cells-05-00035">24</xref>,<xref ref-type="bibr" rid="B25-cells-05-00035">25</xref>,<xref ref-type="bibr" rid="B26-cells-05-00035">26</xref>,<xref ref-type="bibr" rid="B27-cells-05-00035">27</xref>], pancreas [<xref ref-type="bibr" rid="B28-cells-05-00035">28</xref>,<xref ref-type="bibr" rid="B29-cells-05-00035">29</xref>], kidney [<xref ref-type="bibr" rid="B30-cells-05-00035">30</xref>], lung [<xref ref-type="bibr" rid="B31-cells-05-00035">31</xref>], and skin [<xref ref-type="bibr" rid="B32-cells-05-00035">32</xref>,<xref ref-type="bibr" rid="B33-cells-05-00035">33</xref>,<xref ref-type="bibr" rid="B34-cells-05-00035">34</xref>]. Contrary to increased hepatic K8 and K18 levels in human liver disease [<xref ref-type="bibr" rid="B23-cells-05-00035">23</xref>], colonic K8, K18 and K19 levels have recently been reported to decrease in human colon during inflammatory stress, as observed in ulcerative colitis [<xref ref-type="bibr" rid="B35-cells-05-00035">35</xref>]. Furthermore, K7, K8 and K20 are increased in human colitis-associated dysplasia and colorectal cancer compared to healthy controls [<xref ref-type="bibr" rid="B36-cells-05-00035">36</xref>,<xref ref-type="bibr" rid="B37-cells-05-00035">37</xref>,<xref ref-type="bibr" rid="B38-cells-05-00035">38</xref>,<xref ref-type="bibr" rid="B39-cells-05-00035">39</xref>].</p>
+      <p>Based on these studies, we hypothesized that keratins play a role in the colonic stress response in a similar way as in other organs and as other stress proteins. The aim was to characterize the colonic stress-responsive keratins and to provide an overall screen of keratin levels in the colon during disease-related stress and recovery. In vivo murine stress models used were acute or chronic experimental colitis (dextran sulphate sodium (DSS)-treatment), broad-spectrum antibiotics and high age). LPS-induced inflammation was used as an in vitro stress model.</p>
+    </sec>
+    <sec id="sec2-cells-05-00035">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-cells-05-00035">
+        <title>2.1. Mice</title>
+        <p>Two to three month old FVB/n mice (chronic DSS-treatment and antibiotic-treatment), 2&#x2013;2.5 month old Balb/c mice (acute DSS) and 14 month old FVB/n mice were housed at the Central Animal Laboratory of the University of Turku. Mice were treated according to the approved animal study protocol issued by The State Provincial Office of South Finland. Following treatment, mice were sacrificed by CO<sub>2</sub> inhalation, the colon was excised and washed with phosphate buffer saline (PBS), and samples were collected in liquid nitrogen, Optimum cutting temperature compound (O.C.T. Compound; Sakura Finetek, AJ Alphen aan den Rijn, The Netherlands) and RNA later (Qiagen, Venlo, The Netherlands) for further analysis as outlined below.</p>
+      </sec>
+      <sec id="sec2dot2-cells-05-00035">
+        <title>2.2. Antibodies</title>
+        <p>Primary antibodies used for Western blotting and immunofluorescence staining were mouse anti-K7 (RCK-105; Progen, Heidelberg, Germany), rat anti-K8 and rat anti-K19 (Troma I and Troma III, respectively; Developmental Studies Hybridoma Bank, Iowa, IA, USA), rabbit anti-K8 (273) and rabbit anti-K18 (275; kind gifts from J.E. Eriksson), rabbit anti-K20 (It-Ks 20.10; Epitomics, Burlingame, CA, USA), rat anti-Hsc70 (Enzo Life sciences; Farmingdale, NY, USA), mouse anti-K8 pS74 (LJ4; kind gift from M.B. Omary), rabbit anti-Ki67 (Abcam, Cambridge, MA, USA), rat anti-HSF2 (Abcam) and rabbit anti-I&#x3BA;B-&#x3B1; (Santa Cruz Biotechnology; Dallas, TX, USA). Secondary antibodies used for Western blotting were HRP-conjugated anti-mouse (GE healthcare, Little Chalfont, UK), anti-rat (GE healthcare and Cell Signaling Technology, Danvers, MA, USA) and anti-rabbit (Cell Signaling Technology) IgG antibodies. Secondary antibodies used for immunofluorescence staining were Alexa 488/Alexa 546 anti-mouse, Alexa 488 anti-rat and Alexa 488 anti-rabbit antibodies (Invitrogen, Carlsbad, CA, USA). Nuclei were stained with DRAQ5 (Cell Signaling Technology).</p>
+      </sec>
+      <sec id="sec2dot3-cells-05-00035">
+        <title>2.3. DSS-Induced Colitis</title>
+        <p>2%&#x2013;2.5% dextran sulfate sodium (DSS; 40,000 Da, TdB Consultancy AB, Uppsala, Sweden) was administered in autoclaved drinking water to 2&#x2013;2.5-month-old Balb/c mice for 7&#x2013;8 days with or without recovery (7 days) to achieve a model for acute colitis [<xref ref-type="bibr" rid="B40-cells-05-00035">40</xref>,<xref ref-type="bibr" rid="B41-cells-05-00035">41</xref>,<xref ref-type="bibr" rid="B42-cells-05-00035">42</xref>]. For mimicking chronic colitis, 2-month-old FVB/n mice were treated one week with 2.5% DSS, followed by a two-week recovery period after which this cycle was repeated once [<xref ref-type="bibr" rid="B43-cells-05-00035">43</xref>] and the animals were sacrificed on day 45. Control mice for each experiment were age- and sex-matched, and were treated equally as DSS-treated mice, except that they received autoclaved drinking water without DSS. A disease activity index (DAI) was used to determine disease severity. The DAI was calculated by grading body weight loss (1 point per each 5% of body weight loss), presence of blood in stool (0 = none; 1 = blood in stool pellets; 2 = clotted or fresh blood at anus) and stool consistency (0 = normal; 1 = formed but very soft; 2 = slightly loose; 3 = liquid).</p>
+      </sec>
+      <sec id="sec2dot4-cells-05-00035">
+        <title>2.4. Antibiotic-Treatment</title>
+        <p>Eighteen to nineteen days old FVB/n mice were treated with broad-spectrum antibiotics (vancomycin and imipenem at 68 mg/kg body weight/day each) in drinking water for 56 days before sacrifice [<xref ref-type="bibr" rid="B17-cells-05-00035">17</xref>]. Control mice were age- and sex-matched and were treated equally to mice treated with antibiotics, except that they received drinking water without antibiotics.</p>
+      </sec>
+      <sec id="sec2dot5-cells-05-00035">
+        <title>2.5. In Vitro LPS-Treatment of HT-29 Cells</title>
+        <p>HT-29 cells were grown to 80% confluency in RPMI-1640 medium supplemented with 10% FCS, 2 mM <sc>l</sc>-glutamine and 100 U/mL penicillin/streptomycin and treated with 500 ng/mL or 1000 ng/mL LPS (Sigma, Saint-Louis, MI, USA) in PBS. Control cells were treated with equal volumes of PBS. Cells were harvested 48 h after beginning of treatment and processed for immunoblotting and immunofluorescence staining.</p>
+      </sec>
+      <sec id="sec2dot6-cells-05-00035">
+        <title>2.6. Immunoblotting and Immunofluorescence Staining</title>
+        <p>Samples for protein analysis of distal and proximal colon (DSS-treated, antibiotic-treated old mice and control mice) were suspended in 24 &#x3BC;L homogenization buffer (0.187 M Tris-HCl pH 6.8, 3% SDS, 5 mM EDTA) per 1 mg of tissue and homogenized by 75 strokes in a Potter-Elvenhjelm tissue homogenizer in order to obtain total tissue lysates. Tissue lysates, and untreated or LPS-treated HT-29 cells collected in homogenization buffer (0.187 M Tris-HCl pH 6.8, 3% SDS, 5 mM EDTA) were incubated at 95 &#xB0;C for 5 min and sheared with a 27G needle. Protein concentrations were measured with a Pierce BCA protein assay kit (Thermo scientific, Waltham, MA, USA), samples were normalized and 20 &#x3BC;g protein per sample was separated by SDS-PAGE, transferred to a polyvinylidene fluoride membrane (PVDF) and analyzed by immunoblotting. Protein bands were quantified with Image J software (National Institutes of Health) and normalized to loading control (Hsc70).</p>
+        <p>Fresh frozen colon samples in O.C.T. Compound were cryosectioned (6 &#x3BC;m), fixed in &#x2212;20 &#xB0;C acetone for 10 min and immunostained as described in [<xref ref-type="bibr" rid="B44-cells-05-00035">44</xref>]. HT-29 cells were grown on microscope cover glasses, treated with or without LPS, and fixed in &#x2212;20 &#xB0;C acetone for 10 min prior to immunofluorescence staining. Samples were analyzed with a Leica TCS SP5 matrix confocal microscope (Leica, Mannheim, Germany). Quantitative analysis of K8 pS74 (LPS), K20 (old mice) and Ki67-positive (antibiotics) cells was done by counting the percent of K8 pS74-positive cells/all cells or the number of K20 or Ki67-positive cells/crypt in 20 crypts. Mitotic cells in K8 pS74-staining on LPS-treated cells were determined by confocal analyses on DNA-staining by DRAQ5. In chronic DSS analysis, K20-positive crypt areas were measured and indicated as &#x3BC;m/total crypt length.</p>
+      </sec>
+      <sec id="sec2dot7-cells-05-00035">
+        <title>2.7. Gene Transcription Analysis</title>
+        <p>RNA was extracted from total colon lysate samples (acute and chronic DSS, antibiotic-treatment) collected in RNA later (Qiagen, Hilden, Germany) using a RNA isolation kit (Nucleospin RNA, Macherey-Nagel, D&#xFC;ren, Germany). After cDNA synthesis (Promega, Madison, WI, USA), Taqman 7900HT assay (Applied Biosystems, Foster city, CA, USA) was done using &#x3B2;-actin as an endogenous control. The primers (Oligomer, Helsinki, Finland) and probes (Universal probe library, Roche, Basel, Swizerland) that were used are described elsewhere [<xref ref-type="bibr" rid="B45-cells-05-00035">45</xref>]. Fold change differences were analyzed with RQ Manager (Applied Biosystems, Foster city, CA, USA) and Microsoft Excel (Microsoft, Redmond, WA, USA).</p>
+      </sec>
+      <sec id="sec2dot8-cells-05-00035">
+        <title>2.8. Statistical Analysis</title>
+        <p>Statistical calculations were performed using Microsoft Excel and GraphPad PRISM. Student&#x2019;s t-test was used for statistical analysis. Quantitative data is shown as average &#xB1; error bars, which show standard deviation (SD).</p>
+      </sec>
+    </sec>
+    <sec id="sec3-cells-05-00035" sec-type="results">
+      <title>3. Results</title>
+      <sec id="sec3dot1-cells-05-00035">
+        <title>3.1. Murine DSS Colitis in the Acute Phase and in the Recovery Phase Display Altered Keratin Expression and Increased K8 pS74 Levels</title>
+        <p>In order to define if keratin levels are altered in an acute model of colitis, protein and mRNA levels for intestinal keratins were analyzed in samples collected from mice on day 8 after treatment with 2% DSS administered in drinking water. The DAI (<xref ref-type="fig" rid="cells-05-00035-f001">Figure 1</xref>A), which was used to follow colitis progression and calculated on the basis of daily measurements of body weight loss, stool consistency and occult blood in stool (see Materials and Methods section), showed that the highest disease activity occurred on days 8&#x2013;9 after the start of the experiment, and samples were collected on day 9. On protein level, K7, K19 and K20 were significantly upregulated while a minor downregulation of K8 and K18 was observed in the acute colitis-model compared to control mice (<xref ref-type="fig" rid="cells-05-00035-f001">Figure 1</xref>B,C). The phosphorylation levels of the main stress-induced phosphorylation site K8 S74 were increased 2.5-fold, as seen by immunoblotting (<xref ref-type="fig" rid="cells-05-00035-f001">Figure 1</xref>B,D). This was confirmed by confocal microscopy analysis where an increased number of K8 pS74-positive cells were seen higher up in the crypts after DSS-treatment compared to controls (<xref ref-type="fig" rid="cells-05-00035-f001">Figure 1</xref>(Ea,b)).</p>
+        <p>Except for slightly lower levels of K8 gene expression (<xref ref-type="fig" rid="cells-05-00035-f001">Figure 1</xref>(Fb)), no significant changes in mRNA levels for K7 (<xref ref-type="fig" rid="cells-05-00035-f001">Figure 1</xref>(Fa)), K18 (<xref ref-type="fig" rid="cells-05-00035-f001">Figure 1</xref>(Fc)), K19 (<xref ref-type="fig" rid="cells-05-00035-f001">Figure 1</xref>(Fd)) or K20 (<xref ref-type="fig" rid="cells-05-00035-f001">Figure 1</xref>(Fe)) were detected in the acute murine DSS-colitis samples.</p>
+        <p>In order to investigate if keratin expression is also altered during the recovery phase after colitis-induced stress, induction of acute DSS-colitis with 2% DSS was followed by one week of normal water and recovery. The successful recovery from acute DSS-colitis was seen as the normalization of the DAI-index on day 15, 7 days into the recovery period (<xref ref-type="fig" rid="cells-05-00035-f002">Figure 2</xref>A; the same day as when samples for protein analysis were collected). However, on the molecular level, keratin protein levels were not fully recovered, since a similar but not identical protein expression pattern was seen as in acute DSS-colitis without recovery (<xref ref-type="fig" rid="cells-05-00035-f001">Figure 1</xref>B&#x2013;D), where type II K8 was downregulated together with type I K18. Indeed, the addition of a one-week recovery time downregulated K19 instead of K18, whereas K7 (trend), and K20 were upregulated (<xref ref-type="fig" rid="cells-05-00035-f002">Figure 2</xref>B,C). The K8 phosphorylation at S74 was still slightly elevated (<xref ref-type="fig" rid="cells-05-00035-f002">Figure 2</xref>B,D), indicating that even if the physical parameters reflected by the DAI show recovery, the colonic epithelium has not yet recovered on molecular level as indicated by elevated stress-mediated keratin expression and phosphorylation levels.</p>
+      </sec>
+      <sec id="sec3dot2-cells-05-00035">
+        <title>3.2. The Type I-Type II Pair K20-K7 Is Upregulated after Chronic DSS-Colitis</title>
+        <p>To mimic the chronic and reoccurring IBD seen in humans, mice were subjected to a model of cyclic DSS-treatment consisting of two one-week cycles of 2.5% DSS with two weeks of recovery after each cycle. The cyclic nature of the DSS treatment and recovery was reflected by a three-fold increase in DAI in the first cycle of DSS, followed by a complete recovery of DAI at the end of the two-week recovery time. In the second cycle of DSS, a six-fold increase in DAI was observed, after which only a nearly complete recovery was gained at day 45 (17 days of recovery) (<xref ref-type="fig" rid="cells-05-00035-f003">Figure 3</xref>A). At this time point, K7 and K20 protein levels were 1.5-fold upregulated (<xref ref-type="fig" rid="cells-05-00035-f003">Figure 3</xref>B,C). K7, which is expressed in the lower and middle parts of the crypts under basal conditions (<xref ref-type="fig" rid="cells-05-00035-f003">Figure 3</xref>(Da)), was distributed all over the crypts in response to chronic DSS-treatment (<xref ref-type="fig" rid="cells-05-00035-f003">Figure 3</xref>(Dc)), verifying the increase in K7 seen by protein analysis (<xref ref-type="fig" rid="cells-05-00035-f003">Figure 3</xref>B). K20, which is present only in the upper-most epithelial cells of the colonic crypts under basal conditions (<xref ref-type="fig" rid="cells-05-00035-f003">Figure 3</xref>(Db)), showed an increased amount of K20-positive cells and an expanded distribution of K20 further down in crypts in response to chronic DSS-treatment (<xref ref-type="fig" rid="cells-05-00035-f003">Figure 3</xref>(Dd)). The enlarged K20 zone coincided with the top-most part of the extended crypt as shown by the quantification of K20-positive areas in control and DSS-treated mice (<xref ref-type="fig" rid="cells-05-00035-f003">Figure 3</xref>E). Interestingly, the distribution of the major colonic keratins, i.e., K18 and K19, was not altered (<xref ref-type="app" rid="app1-cells-05-00035">Supplementary Materials Figure S1</xref>) in response to chronic DSS-treatment.</p>
+        <p>Protein analysis of K8, K18 and K19 did not show any changes in response to chronic DSS-treatment compared to control mice (<xref ref-type="fig" rid="cells-05-00035-f003">Figure 3</xref>B,C). Similar to acute DSS, no changes in the gene expression of colonic K7 (<xref ref-type="fig" rid="cells-05-00035-f003">Figure 3</xref>(Fa)), K8 (<xref ref-type="fig" rid="cells-05-00035-f003">Figure 3</xref>(Fb)), K18 (<xref ref-type="fig" rid="cells-05-00035-f003">Figure 3</xref>(Fc)) or K20 (<xref ref-type="fig" rid="cells-05-00035-f003">Figure 3</xref>(Fd)) were seen after chronic DSS.</p>
+      </sec>
+      <sec id="sec3dot3-cells-05-00035">
+        <title>3.3. Removal of Microbiota by Oral Broad-Spectrum Antibiotics-Treatment in Mice Causes an Upregulation of the Main Colonic Keratins K8 and K19 and an Increase in the Phosphorylation of K8 at S74</title>
+        <p>Since the use of antibiotics in treatment of many human diseases can be considered a stress-factor for the colon due to the elimination of the health-promoting intestinal bacteria [<xref ref-type="bibr" rid="B46-cells-05-00035">46</xref>], mice were treated with broad-spectrum antibiotics for 8 weeks and analyzed for keratin levels. A significant 2.3-fold upregulation of the main intestinal keratins, K8 and K19, together with an increase in K8 pS74 was observed by Western blot (<xref ref-type="fig" rid="cells-05-00035-f004">Figure 4</xref>A,B), and confirmed by immunofluorescence staining (<xref ref-type="fig" rid="cells-05-00035-f004">Figure 4</xref>C). Co-immunostaining of K8 pS74 with the proliferation marker Ki67 revealed a slight increase in K8 pS74 in proliferating cells compared to non-proliferative cells following antibiotic-treatment (<xref ref-type="app" rid="app1-cells-05-00035">Supplementary Materials Figure S2</xref>). However, mice challenged with antibiotic-treatment showed no change in K8 (<xref ref-type="fig" rid="cells-05-00035-f004">Figure 4</xref>(Da)) and K19 (<xref ref-type="fig" rid="cells-05-00035-f004">Figure 4</xref>(Db)) gene expression. K7, K18 and K20 were unchanged regarding protein amounts and localization (<xref ref-type="fig" rid="cells-05-00035-f004">Figure 4</xref>A,B, <xref ref-type="app" rid="app1-cells-05-00035">Supplementary Materials Figure S3</xref>). Interestingly, to confirm the activation of the colonic stress-response following the oral in vivo murine antibiotic-treatment, a strong upregulation of the stress-mediated heat shock factor 2 (HSF2) was seen (<xref ref-type="fig" rid="cells-05-00035-f004">Figure 4</xref>A,B).</p>
+      </sec>
+      <sec id="sec3dot4-cells-05-00035">
+        <title>3.4. K8, K18 and K20 Are Upregulated in Proximal Colon and K7 and K19 in Distal Colon from Old Mice</title>
+        <p>In order to analyze if colonic keratins are affected by ageing, keratin protein levels were analyzed in 3 and 14 month old mice. In PC, K8, K18 and K20 were highly upregulated in older mice compared to young adults (<xref ref-type="fig" rid="cells-05-00035-f005">Figure 5</xref>A,B), while only K7 exhibited a high and K19 a minor upregulation in DC (<xref ref-type="fig" rid="cells-05-00035-f005">Figure 5</xref>A,C). K20 upregulation was also confirmed by immunofluorescence staining (<xref ref-type="fig" rid="cells-05-00035-f005">Figure 5</xref>D), showing more K20-positive cells lower down in the crypts in old mice compared to young mice (<xref ref-type="fig" rid="cells-05-00035-f005">Figure 5</xref>E).</p>
+      </sec>
+      <sec id="sec3dot5-cells-05-00035">
+        <title>3.5. In Vitro LPS-Treatment Increases K8 and K19 Levels Together with K8 S74 Phosphorylation in HT-29 Cells</title>
+        <p>In order to study if keratin levels are affected in an in vitro cell culture inflammation model and to obtain a cell culture system for further mechanistic studies, we treated colorectal cancer HT-29 cells with 500 ng/mL and 1000 ng/mL of the bacterial LPS. In order to confirm that stress-activated inflammatory signaling is induced in LPS-treated HT-29 cells, the levels of I&#x3BA;B&#x3B1;, an inhibitor of NF-&#x3BA;B, were analyzed. The protein levels of I&#x3BA;B&#x3B1; were decreased after LPS-treatment, indicating that stress-activated inflammatory signaling was induced in this system (<xref ref-type="fig" rid="cells-05-00035-f006">Figure 6</xref>A,B).</p>
+        <p>In contrast to the in vivo colitis model where the major keratins were downregulated, HT-29 cells treated with 1000 ng/mL LPS exhibited upregulated K8 and K19 protein levels 48 h after LPS-treatment, as shown by Western blot (<xref ref-type="fig" rid="cells-05-00035-f006">Figure 6</xref>A,B) and confocal analyses (<xref ref-type="fig" rid="cells-05-00035-f006">Figure 6</xref>C). A slight downregulation of K7 and K18 was seen in LPS-treated cells compared to control cells (<xref ref-type="fig" rid="cells-05-00035-f006">Figure 6</xref>A,B), and an increase in K8 pS74 was seen in response to 500 ng/mL but not 1000 ng/mL LPS-treatment (<xref ref-type="fig" rid="cells-05-00035-f006">Figure 6</xref>A&#x2013;C). The increase in K8 pS74-positive cells was quantified, showing a 6.3% increase in the amount of K8 pS74-positive cells after 500 ng/mL LPS treatment compared to non-treated cells. The increase in K8 pS74-positive cells after 1000 ng/mL LPS-treatment compared to non-treated cells was 3.1%. Approximately half of the K8 pS74-positive cells were mitotic cells (<xref ref-type="fig" rid="cells-05-00035-f006">Figure 6</xref>D). K20 protein levels and localization were not altered (<xref ref-type="fig" rid="cells-05-00035-f006">Figure 6</xref>A,B, <xref ref-type="app" rid="app1-cells-05-00035">Supplementary Materials Figure S4</xref>). Therefore, this in vitro inflammation model confirms our hypothesis that keratins are stress-responsive proteins in the colon, and protect against stress through stress-mediated phosphorylation.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-cells-05-00035" sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>In this study, we report that colonic keratins are upregulated during multiple murine models of human colonic stress and disease. We find that K7 and K20 are stress-responsive keratin upregulated in the three colitis regimen used, while the main colonic keratins K8 and K19 are increased in response to oral antibiotic-treatment. The stress-responsive pattern of K8/K19 is also seen in vitro in HT-29 cells after LPS-treatment. Most colonic keratins are upregulated in aging mice compared to young adult controls. Furthermore, phosphorylation of K8 at S74 is significantly increased during several of the stress-situations and in vitro.</p>
+      <p>During chronic colitis, increased protein levels and a wider crypt distribution of type II K7 (normally localized at the crypt-base and mid-crypt regions and type I K20 (normally localized in the crypt-top region [<xref ref-type="bibr" rid="B47-cells-05-00035">47</xref>]) is seen as the major differential keratin response in this model of chronic inflammation. Expression of keratins in a different cell type, tissue or cell compartment has previously been reported for keratins in stress situations in simple epithelia and in skin [<xref ref-type="bibr" rid="B22-cells-05-00035">22</xref>]. For example, K23 was recently suggested, together with K7 and K19, to be a novel stress-inducible ductal marker in liver disease [<xref ref-type="bibr" rid="B27-cells-05-00035">27</xref>]. Stress-induced keratin-expression has also been shown in response to disease-related stress in kidneys, where all renal keratins of the collecting ducts were relocalized to a more cytoplasmic pattern upon stress [<xref ref-type="bibr" rid="B30-cells-05-00035">30</xref>]. In the exocrine pancreas, K19 and K20 are upregulated and redistributed together with an increase in cytoplasmic filaments in response to pancreatitis, compared to an apical and lateral distribution under normal conditions [<xref ref-type="bibr" rid="B28-cells-05-00035">28</xref>]. Even if a 1.5&#x2013;2.5-fold increase in specific keratins is seen in most colonic stress-conditions tested here, a slight decrease in K8, K18 and K19 can be observed in the acute DSS-models. A recent human study reports similar decreased K8, K18 and K19 levels in ulcerative colitis patients [<xref ref-type="bibr" rid="B35-cells-05-00035">35</xref>], and such downregulation could be explained by a local destruction of the single-layered colonic epithelium that can occur after acute DSS-treatment or in active human inflammatory disease.</p>
+      <p>Contrary to the upregulation of K7 and K20 in the inflammatory-stress model, the removal of colonic microbiota upregulated another set of stress-responsive keratins beyond normal levels, the main intestinal keratins type II K8 and type I K19, which during stress and basally are expressed throughout the crypt. Antibiotic treatment can cause mild gut inflammation, enlarged cecum, fewer Peyer&#x2019;s patches in the small intestine and increased expression of several TLRs [<xref ref-type="bibr" rid="B46-cells-05-00035">46</xref>,<xref ref-type="bibr" rid="B48-cells-05-00035">48</xref>]. Antibiotic therapy is also known to prevent and treat genetic colitis models such as K8<sup>&#x2212;/&#x2212;</sup> [<xref ref-type="bibr" rid="B16-cells-05-00035">16</xref>] and interleukin  (IL)-10<sup>&#x2212;/&#x2212;</sup> [<xref ref-type="bibr" rid="B49-cells-05-00035">49</xref>] mouse models, which both display a spontaneous colitis phenotype. The activation of a stress-induced reaction following antibiotic treatment was shown by an increase in HSF2. Interestingly, a similar stress-induced increase in HSF2 expression has also been reported in human ulcerative colitis patients [<xref ref-type="bibr" rid="B50-cells-05-00035">50</xref>].</p>
+      <p>Ageing of the colon is associated with hyperproliferation [<xref ref-type="bibr" rid="B51-cells-05-00035">51</xref>,<xref ref-type="bibr" rid="B52-cells-05-00035">52</xref>,<xref ref-type="bibr" rid="B53-cells-05-00035">53</xref>] and age-mediated telomere shortening, which may lead to the development of colonic inflammation and epithelial damage [<xref ref-type="bibr" rid="B54-cells-05-00035">54</xref>]. The levels of apoptosis are simultaneously decreased in the aging colonic epithelium [<xref ref-type="bibr" rid="B53-cells-05-00035">53</xref>]. Here, we show that several intestinal keratins are robustly upregulated in older mice, mainly K8, K18 and K20 in PC and K7 and K19 in DC. Earlier studies have found that ageing is associated with an increase in luminal cells expressing K14 in primary cell cultures from the mammary gland [<xref ref-type="bibr" rid="B55-cells-05-00035">55</xref>]. Furthermore, the expression of K19 was increased in the lung inflammatory response in ageing mice [<xref ref-type="bibr" rid="B56-cells-05-00035">56</xref>]. Although the field lacks more similar studies about keratin expression in ageing, studies of other IF proteins in ageing have been reported. Glial fibrillary acidic protein (GFAP) is upregulated in the oxidative stress reaction in response to brain injury [<xref ref-type="bibr" rid="B57-cells-05-00035">57</xref>], vimentin is three-fold upregulated in senescent fibroblasts [<xref ref-type="bibr" rid="B58-cells-05-00035">58</xref>] and lamin A is upregulated and accumulated in premature cellular senescence [<xref ref-type="bibr" rid="B59-cells-05-00035">59</xref>].</p>
+      <p>Hepatic K8 is hyperphosphorylated in response to inflammation, leading to changes in the solubility of keratins and keratin-binding proteins [<xref ref-type="bibr" rid="B4-cells-05-00035">4</xref>,<xref ref-type="bibr" rid="B60-cells-05-00035">60</xref>]. Our results show that intestinal K8 phosphorylation at S74 is in a similar way significantly increased after in vivo acute DSS colitis, antibiotic-treatment and in vitro LPS-stress. As in human liver disease [<xref ref-type="bibr" rid="B61-cells-05-00035">61</xref>] and in kidney [<xref ref-type="bibr" rid="B30-cells-05-00035">30</xref>] and lung [<xref ref-type="bibr" rid="B62-cells-05-00035">62</xref>] disease models, where keratin hyperphosphorylation is a marker of stress and K8 phosphorylation protects the described organ from damage [<xref ref-type="bibr" rid="B63-cells-05-00035">63</xref>], we propose that the hyperphosphorylation of K8 could be used as such as a colonic stress marker.</p>
+      <p>No major changes in keratin mRNA levels were observed in any of the stress models studied here. Since the overall rate of mRNA-protein turnover is rapid in the colonic epithelium which requires constant renewal, and the time point when protein changes can be detected unlikely overlaps with the peak time point for mRNA levels, the situation in the colon is somewhat different than in liver [<xref ref-type="bibr" rid="B23-cells-05-00035">23</xref>], kidney [<xref ref-type="bibr" rid="B30-cells-05-00035">30</xref>] and exocrine pancreas [<xref ref-type="bibr" rid="B28-cells-05-00035">28</xref>] where keratin overexpression in response to disease-related stress has been detected on both protein and mRNA levels. In the CCl<sub>4</sub> liver fibrosis model, a similar phenotype of unchanged mRNA levels for K8 was, however, seen in response to a chronic ongoing liver inflammation [<xref ref-type="bibr" rid="B25-cells-05-00035">25</xref>]. Although keratin mRNA and protein expression in diseased murine kidneys show an increase in keratin levels, the increase in protein levels are still not proportional to the mRNA-levels, suggesting an involvement of translational regulation of keratin expression [<xref ref-type="bibr" rid="B30-cells-05-00035">30</xref>]. K8 and K18 are also known to be degraded due to stress-mediated ubiquitination by the proteasome, as seen in human lung cells [<xref ref-type="bibr" rid="B64-cells-05-00035">64</xref>,<xref ref-type="bibr" rid="B65-cells-05-00035">65</xref>]. Overall, many studies have reported that mRNA and protein levels do not always correlate [<xref ref-type="bibr" rid="B66-cells-05-00035">66</xref>] and qualitative analyses of protein expression from mRNA transcripts are known to be insufficient [<xref ref-type="bibr" rid="B67-cells-05-00035">67</xref>] due to post-transcriptional mechanisms, different in vivo half-lives of proteins and errors in both protein and mRNA expression experiments [<xref ref-type="bibr" rid="B68-cells-05-00035">68</xref>]. We thus cannot rule out that the observed changes in keratin levels could be due to factors such as protein degradation and protein stability, which affect the overall protein levels. Further studies regarding protein stability should be addressed, for example by a time-dependent DSS-experiment, where the affected signaling pathways could be studied in more detail and any initial increases in mRNA levels detected. Other ex vivo models, such as colonic organoids treated with stressors (e.g., DSS, LPS) or protein stabilizers (MG132 and cycloheximide) could be helpful in analyzing the underlying mechanism responsible for keratin function in intestinal stress protection, which needs to be addressed next. The keratin transcription factors are still rather unknown and need to be further scrutinized during stress-conditions, although p53, sp1 and AP1 have been shown in the regulation of K8 and K18 transcription [<xref ref-type="bibr" rid="B69-cells-05-00035">69</xref>]. </p>
+      <p>We also investigated whether keratin-levels are responsive to stress in a cell culture setting. When colorectal cancer HT-29 cells are challenged with bacterial LPS as a model of in vitro inflammation, K8 and K19 are increased. Under normal conditions, the intestinal microflora consists of a balance of gram-negative and gram-positive bacteria, shifted slightly to the dominance of gram-positive bacteria [<xref ref-type="bibr" rid="B70-cells-05-00035">70</xref>]. LPS is a major constituent of the gram-negative bacteria, which are predominant during intestinal inflammatory disorders such as IBD [<xref ref-type="bibr" rid="B71-cells-05-00035">71</xref>,<xref ref-type="bibr" rid="B72-cells-05-00035">72</xref>,<xref ref-type="bibr" rid="B73-cells-05-00035">73</xref>]. Therefore, during colitis, the intestinal lumen serves as a reservoir of LPS [<xref ref-type="bibr" rid="B74-cells-05-00035">74</xref>]. By treating HT-29 cells with LPS, the inflammatory TLR4 signaling pathway is activated [<xref ref-type="bibr" rid="B75-cells-05-00035">75</xref>] as shown in our study by the downregulation of I&#x3BA;B&#x3B1;, the inhibitor of NF-&#x3BA;B. The inflammatory signaling is achieved by the activation of caspase-7 and caspase-1 [<xref ref-type="bibr" rid="B76-cells-05-00035">76</xref>] and previous studies have confirmed that LPS-treatment does not affect the proliferation of HT-29 cells [<xref ref-type="bibr" rid="B77-cells-05-00035">77</xref>]. Supportive of our study is that treatment with <italic>Bifidobacterium breve</italic> induced an upregulation of K8 in HT-29 cells [<xref ref-type="bibr" rid="B78-cells-05-00035">78</xref>]. Interestingly, IL-6 treatment of Caco-2 cells induces K8 and K18 on protein and mRNA level and increases K8 phosphorylation, which is needed for the maintenance of the intestinal barrier often disrupted in intestinal stress [<xref ref-type="bibr" rid="B79-cells-05-00035">79</xref>]. In vitro colonocyte model systems may thus be useful for further studies to unravel the molecular mechanisms and dynamics of keratin induction during stress. </p>
+      <p>To date, the occurrence of adolescent IBD is increasing, with the highest annual incidence of 24.3 cases per 100,000 persons reported in Europe [<xref ref-type="bibr" rid="B80-cells-05-00035">80</xref>]. Emerging results from many other tissue models demonstrate the protective role of keratins in disease-related stress situations. To this end, K8<sup>&#x2212;/&#x2212;</sup> mice develop spontaneous colitis, while K8 heterozygous knockout mice (K8<sup>+/&#x2212;</sup>) mice, with only 50% of normal colonic keratin levels, are more sensitive to DSS-induced colitis compared to wild-type mice [<xref ref-type="bibr" rid="B45-cells-05-00035">45</xref>]. Intestinal keratins are differentially and dynamically upregulated and post-translationally modified upon various sources of stress during colonic stress and recovery.</p>
+    </sec>
+    <sec id="sec5-cells-05-00035" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>The intestinal keratins K7, K8, K18, K19 and K20 can be considered as stress-responsive proteins, since they display a pair-wise acute and prolonged upregulation in response to different disease-related stresses and in recovery from stress (<xref ref-type="fig" rid="cells-05-00035-f007">Figure 7</xref>). Surprisingly, the pair-wise keratin expression varies according to different stress-situations, with the predominant stress-responsive pair in DSS-stress being type II K7 and type I K20, while during antibiotic stress the main intestinal keratins, K8 and K19, are upregulated. The keratin stress response is predominantly seen at protein level, likely reflecting the fast renewal rate of the epithelial colonocytes and shorter duration of increased mRNA expression. Colorectal cancer cells in culture upregulate keratins and increase keratin phosphorylation upon LPS exposure, and they could thus be used to unravel the molecular mechanisms of keratins in stress protection.</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-cells-05-00035">
+        <title>Supplementary Materials</title>
+        <p>The following are available online at <uri>www.mdpi.com/2073-4409/5/3/35/s1</uri>, Figure S1: K18 and K19 distribution is not altered in response to chronic DSS-treatment, Figure S2: A slight increase in K8 pS74 was seen in proliferating cells compared to non-proliferative cells following antibiotic treatment, Figure S3: The distribution of K18 and K20 is unaltered in response to antibiotic-treatment, Figure S4: The amount and distribution of K20 in LPS-treated HT-29 cells is unchanged.</p>
+        <supplementary-material id="cells-05-00035-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-05-00035-s001.pdf">
+</supplementary-material>
+      </app>
+    </app-group>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>Victoriastiftelsen (TOH), Svenska Kulturfonden (TOH and JHN), Medicinska underst&#xF6;dsf&#xF6;reningen Liv och H&#xE4;lsa rf. (TOH), Academy of Finland (DMT), Sigrid Juselius foundation (DMT), Stiftelsen f&#xF6;r &#xC5;bo Akademi (DMT), Turku doctoral network in molecular biosciences (JHN), Makarna Agneta och Carl-Erik Olins fond (JHN) and Turku graduate school of Biomedical Sciences (MNA) are acknowledged for funding. John E. Eriksson is acknowledged for antibodies 273 and 275 and M. Bishr Omary for the antibody LJ4. Iris L&#xE4;hdeniemi is acknowledged for help with gene transcription analyses, Rickard Holmsten for chronic DSS experiments and the whole Toivola lab for breeding and screening mice.</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>T.O.H., D.M.T., conceived and designed the experiments; T.O.H., C.A.A., M.N.A and J.H.N. performed the experiments; T.O.H., C.A.A., M.N.A. and D.M.T analyzed the data; T.O.H. and D.M.T. wrote the paper.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest. The founding sponsors had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, and in the decision to publish the results.</p>
+    </notes>
+    <glossary>
+      <gloss-group>
+	  <title>Abbreviations</title>
+        <p>The following abbreviations are used in this manuscript:
+        <array>
+          <tbody>
+            <tr>
+              <td align="left" valign="middle">DAI</td>
+              <td align="left" valign="middle">Disease activity index</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">DSS</td>
+              <td align="left" valign="middle">dextran sulphate sodium</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">FCS</td>
+              <td align="left" valign="middle">Fetal calf serum</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">HSF2</td>
+              <td align="left" valign="middle">Heat shock factor 2</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">IF</td>
+              <td align="left" valign="middle">Intermediate filament</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">IL</td>
+              <td align="left" valign="middle">Interleukin</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">K</td>
+              <td align="left" valign="middle">Keratin</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">K8<sup>&#x2212;/&#x2212;</sup> mice</td>
+              <td align="left" valign="middle">K8 knock out mice</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">L</td>
+              <td align="left" valign="middle">Lumen</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">LPS</td>
+              <td align="left" valign="middle">Lipopolysaccharide</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">O. C. T. Compound</td>
+              <td align="left" valign="middle">Optimum cutting temperature compound</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">PBS</td>
+              <td align="left" valign="middle">Phosphate buffered saline</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">PFA</td>
+              <td align="left" valign="middle">Paraformaldehyde</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">PTM</td>
+              <td align="left" valign="middle">Posttranslational modifications</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">PVDF</td>
+              <td align="left" valign="middle">Polyvinylidene fluoride</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">pS74</td>
+              <td align="left" valign="middle">Phosphorylated Serine 74</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">SD</td>
+              <td align="left" valign="middle">Standard deviation</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">SEK</td>
+              <td align="left" valign="middle">Simple epithelial keratin</td>
+            </tr>
+          </tbody>
+        </array></p>
+      </gloss-group>
+    </glossary>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-05-00035">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Omary</surname>
+              <given-names>M.B.</given-names>
+            </name>
+            <name>
+              <surname>Ku</surname>
+              <given-names>N.O.</given-names>
+            </name>
+            <name>
+              <surname>Strnad</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Hanada</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Toward unraveling the complexity of simple epithelial keratins in human disease</article-title>
+          <source>J. Clin. Investig.</source>
+          <year>2009</year>
+          <volume>119</volume>
+          <fpage>1794</fpage>
+          <lpage>1805</lpage>
+          <pub-id pub-id-type="doi">10.1172/JCI37762</pub-id>
+          <pub-id pub-id-type="pmid">19587454</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-cells-05-00035">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Quinlan</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Cohlberg</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Schiller</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Hatzfeld</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Franke</surname>
+              <given-names>W.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Heterotypic tetramer (A2D2) complexes of non-epidermal keratins isolated from cytoskeletons of rat hepatocytes and hepatoma cells</article-title>
+          <source>J. Mol. Biol.</source>
+          <year>1984</year>
+          <volume>178</volume>
+          <fpage>365</fpage>
+          <lpage>388</lpage>
+          <pub-id pub-id-type="doi">10.1016/0022-2836(84)90149-9</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-cells-05-00035">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Coch</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Leube</surname>
+              <given-names>R.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intermediate Filaments and Polarization in the Intestinal Epithelium</article-title>
+          <source>Cells</source>
+          <year>2016</year>
+          <volume>5</volume>
+          <pub-id pub-id-type="doi">10.3390/cells5030032</pub-id>
+          <pub-id pub-id-type="pmid">27429003</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-cells-05-00035">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Snider</surname>
+              <given-names>N.T.</given-names>
+            </name>
+            <name>
+              <surname>Omary</surname>
+              <given-names>M.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Post-translational modifications of intermediate filament proteins: Mechanisms and functions</article-title>
+          <source>Nat. Rev. Mol. Cell Biol.</source>
+          <year>2014</year>
+          <volume>15</volume>
+          <fpage>163</fpage>
+          <lpage>177</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrm3753</pub-id>
+          <pub-id pub-id-type="pmid">24556839</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-cells-05-00035">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McLean</surname>
+              <given-names>W.H.</given-names>
+            </name>
+            <name>
+              <surname>Lane</surname>
+              <given-names>E.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intermediate filaments in disease</article-title>
+          <source>Curr. Opin Cell Biol.</source>
+          <year>1995</year>
+          <volume>7</volume>
+          <fpage>118</fpage>
+          <lpage>125</lpage>
+          <pub-id pub-id-type="doi">10.1016/0955-0674(95)80053-0</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-cells-05-00035">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Omary</surname>
+              <given-names>M.B.</given-names>
+            </name>
+            <name>
+              <surname>Ku</surname>
+              <given-names>N.O.</given-names>
+            </name>
+            <name>
+              <surname>Toivola</surname>
+              <given-names>D.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Keratins: guardians of the liver</article-title>
+          <source>Hepatology</source>
+          <year>2002</year>
+          <volume>35</volume>
+          <fpage>251</fpage>
+          <lpage>257</lpage>
+          <pub-id pub-id-type="doi">10.1053/jhep.2002.31165</pub-id>
+          <pub-id pub-id-type="pmid">11826396</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-cells-05-00035">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Coulombe</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Omary</surname>
+              <given-names>M.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>&#x2018;Hard&#x2019; and &#x2018;soft&#x2019; principles defining the structure, function and regulation of keratin intermediate filaments</article-title>
+          <source>Curr. Opin. Cell Biol.</source>
+          <year>2002</year>
+          <volume>14</volume>
+          <fpage>110</fpage>
+          <lpage>122</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0955-0674(01)00301-5</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-cells-05-00035">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ku</surname>
+              <given-names>N.O.</given-names>
+            </name>
+            <name>
+              <surname>Darling</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Krams</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Esquivel</surname>
+              <given-names>C.O.</given-names>
+            </name>
+            <name>
+              <surname>Keeffe</surname>
+              <given-names>E.B.</given-names>
+            </name>
+            <name>
+              <surname>Sibley</surname>
+              <given-names>R.K.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>Y.M.</given-names>
+            </name>
+            <name>
+              <surname>Wright</surname>
+              <given-names>T.L.</given-names>
+            </name>
+            <name>
+              <surname>Omary</surname>
+              <given-names>M.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Keratin 8 and 18 mutations are risk factors for developing liver disease of multiple etiologies</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2003</year>
+          <volume>100</volume>
+          <fpage>6063</fpage>
+          <lpage>6068</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0936165100</pub-id>
+          <pub-id pub-id-type="pmid">12724528</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-cells-05-00035">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Toivola</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Boor</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Alam</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Strnad</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Keratins in health and disease</article-title>
+          <source>Curr. Opin. Cell Biol.</source>
+          <year>2015</year>
+          <volume>32</volume>
+          <fpage>73</fpage>
+          <lpage>81</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ceb.2014.12.008</pub-id>
+          <pub-id pub-id-type="pmid">25599598</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-cells-05-00035">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tao</surname>
+              <given-names>G.Z.</given-names>
+            </name>
+            <name>
+              <surname>Strnad</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Kamal</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Madani</surname>
+              <given-names>N.D.</given-names>
+            </name>
+            <name>
+              <surname>Kugathasan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Brant</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Cho</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Omary</surname>
+              <given-names>M.B.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Analysis of keratin polypeptides 8 and 19 variants in inflammatory bowel disease</article-title>
+          <source>Clin. Gastroenterol. Hepatol.</source>
+          <year>2007</year>
+          <volume>5</volume>
+          <fpage>857</fpage>
+          <lpage>864</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cgh.2007.02.017</pub-id>
+          <pub-id pub-id-type="pmid">17509943</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-05-00035">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Owens</surname>
+              <given-names>D.W.</given-names>
+            </name>
+            <name>
+              <surname>Wilson</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Hill</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Rugg</surname>
+              <given-names>E.L.</given-names>
+            </name>
+            <name>
+              <surname>Porter</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Hutcheson</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Quinlan</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>van Heel</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Parkes</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Jewell</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Human keratin 8 mutations that disturb filament assembly observed in inflammatory bowel disease patients</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2004</year>
+          <volume>117</volume>
+          <fpage>1989</fpage>
+          <lpage>1999</lpage>
+          <pub-id pub-id-type="doi">10.1242/jcs.01043</pub-id>
+          <pub-id pub-id-type="pmid">15090596</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-cells-05-00035">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Jong</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Drenth</surname>
+              <given-names>J.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Absence of an association of the IBD2 locus gene keratin 8 and inflammatory bowel disease in a large genetic association study</article-title>
+          <source>Dig. Liver Dis.</source>
+          <year>2004</year>
+          <volume>36</volume>
+          <fpage>380</fpage>
+          <lpage>383</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.dld.2004.02.002</pub-id>
+          <pub-id pub-id-type="pmid">15248376</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13-cells-05-00035">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Owens</surname>
+              <given-names>D.W.</given-names>
+            </name>
+            <name>
+              <surname>Lane</surname>
+              <given-names>E.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Keratin mutations and intestinal pathology</article-title>
+          <source>J. Pathol.</source>
+          <year>2004</year>
+          <volume>204</volume>
+          <fpage>377</fpage>
+          <lpage>385</lpage>
+          <pub-id pub-id-type="doi">10.1002/path.1646</pub-id>
+          <pub-id pub-id-type="pmid">15495267</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-cells-05-00035">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Haines</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Lane</surname>
+              <given-names>E.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Keratins and disease at a glance</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2012</year>
+          <volume>125</volume>
+          <fpage>3923</fpage>
+          <lpage>3928</lpage>
+          <pub-id pub-id-type="doi">10.1242/jcs.099655</pub-id>
+          <pub-id pub-id-type="pmid">23104737</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15-cells-05-00035">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baribault</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Penner</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Iozzo</surname>
+              <given-names>R.V.</given-names>
+            </name>
+            <name>
+              <surname>Wilson-Heiner</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Colorectal hyperplasia and inflammation in keratin 8-deficient FVB/N mice</article-title>
+          <source>Genes Dev.</source>
+          <year>1994</year>
+          <volume>8</volume>
+          <fpage>2964</fpage>
+          <lpage>2973</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.8.24.2964</pub-id>
+          <pub-id pub-id-type="pmid">7528156</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-cells-05-00035">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Habtezion</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Toivola</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Butcher</surname>
+              <given-names>E.C.</given-names>
+            </name>
+            <name>
+              <surname>Omary</surname>
+              <given-names>M.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Keratin-8-deficient mice develop chronic spontaneous Th2 colitis amenable to antibiotic treatment</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2005</year>
+          <volume>118</volume>
+          <fpage>1971</fpage>
+          <lpage>1980</lpage>
+          <pub-id pub-id-type="doi">10.1242/jcs.02316</pub-id>
+          <pub-id pub-id-type="pmid">15840656</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17-cells-05-00035">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Habtezion</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Toivola</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Asghar</surname>
+              <given-names>M.N.</given-names>
+            </name>
+            <name>
+              <surname>Kronmal</surname>
+              <given-names>G.S.</given-names>
+            </name>
+            <name>
+              <surname>Brooks</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Butcher</surname>
+              <given-names>E.C.</given-names>
+            </name>
+            <name>
+              <surname>Omary</surname>
+              <given-names>M.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Absence of keratin 8 confers a paradoxical microflora-dependent resistance to apoptosis in the colon</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2011</year>
+          <volume>108</volume>
+          <fpage>1445</fpage>
+          <lpage>1450</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1010833108</pub-id>
+          <pub-id pub-id-type="pmid">21220329</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18-cells-05-00035">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Toivola</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Krishnan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Binder</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Omary</surname>
+              <given-names>M.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Keratins modulate colonocyte electrolyte transport via protein mistargeting</article-title>
+          <source>J. Cell Biol.</source>
+          <year>2004</year>
+          <volume>164</volume>
+          <fpage>911</fpage>
+          <lpage>921</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.200308103</pub-id>
+          <pub-id pub-id-type="pmid">15007064</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19-cells-05-00035">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Misiorek</surname>
+              <given-names>J.O.</given-names>
+            </name>
+            <name>
+              <surname>Lahdeniemi</surname>
+              <given-names>I.A.</given-names>
+            </name>
+            <name>
+              <surname>Nystrom</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Paramonov</surname>
+              <given-names>V.M.</given-names>
+            </name>
+            <name>
+              <surname>Gullmets</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Saarento</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Rivero-Muller</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Husoy</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Taimen</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Toivola</surname>
+              <given-names>D.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Keratin 8-deletion induced colitis predisposes to murine colorectal cancer enforced by the inflammasome and IL-22 pathway</article-title>
+          <source>Carcinogenesis</source>
+          <year>2016</year>
+          <volume>37</volume>
+          <fpage>777</fpage>
+          <lpage>786</lpage>
+          <pub-id pub-id-type="doi">10.1093/carcin/bgw063</pub-id>
+          <pub-id pub-id-type="pmid">27234655</pub-id>
+        </citation>
+      </ref>
+      <ref id="B20-cells-05-00035">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Petrak</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ivanek</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Toman</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Cmejla</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Cmejlova</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Vyoral</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Zivny</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Vulpe</surname>
+              <given-names>C.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Deja vu in proteomics. A hit parade of repeatedly identified differentially expressed proteins</article-title>
+          <source>Proteomics</source>
+          <year>2008</year>
+          <volume>8</volume>
+          <fpage>1744</fpage>
+          <lpage>1749</lpage>
+          <pub-id pub-id-type="doi">10.1002/pmic.200700919</pub-id>
+          <pub-id pub-id-type="pmid">18442176</pub-id>
+        </citation>
+      </ref>
+      <ref id="B21-cells-05-00035">
+        <label>21.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morimoto</surname>
+              <given-names>R.I.</given-names>
+            </name>
+            <name>
+              <surname>Santoro</surname>
+              <given-names>M.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Stress-inducible responses and heat shock proteins: New pharmacologic targets for cytoprotection</article-title>
+          <source>Nat. Biotechnol.</source>
+          <year>1998</year>
+          <volume>16</volume>
+          <fpage>833</fpage>
+          <lpage>838</lpage>
+          <pub-id pub-id-type="doi">10.1038/nbt0998-833</pub-id>
+          <pub-id pub-id-type="pmid">9743115</pub-id>
+        </citation>
+      </ref>
+      <ref id="B22-cells-05-00035">
+        <label>22.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Toivola</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Strnad</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Habtezion</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Omary</surname>
+              <given-names>M.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intermediate filaments take the heat as stress proteins</article-title>
+          <source>Trends Cell Biol.</source>
+          <year>2010</year>
+          <volume>20</volume>
+          <fpage>79</fpage>
+          <lpage>91</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tcb.2009.11.004</pub-id>
+          <pub-id pub-id-type="pmid">20045331</pub-id>
+        </citation>
+      </ref>
+      <ref id="B23-cells-05-00035">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guldiken</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Usachov</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Levada</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Trautwein</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ziol</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nahon</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Strnad</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Keratins 8 and 18 are type II acute-phase responsive genes overexpressed in human liver disease</article-title>
+          <source>Liver Int.</source>
+          <year>2015</year>
+          <volume>35</volume>
+          <fpage>1203</fpage>
+          <lpage>1212</lpage>
+          <pub-id pub-id-type="doi">10.1111/liv.12608</pub-id>
+          <pub-id pub-id-type="pmid">24930437</pub-id>
+        </citation>
+      </ref>
+      <ref id="B24-cells-05-00035">
+        <label>24.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ku</surname>
+              <given-names>N.O.</given-names>
+            </name>
+            <name>
+              <surname>Strnad</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Zhong</surname>
+              <given-names>B.H.</given-names>
+            </name>
+            <name>
+              <surname>Tao</surname>
+              <given-names>G.Z.</given-names>
+            </name>
+            <name>
+              <surname>Omary</surname>
+              <given-names>M.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Keratins let liver live: Mutations predispose to liver disease and crosslinking generates Mallory-Denk bodies</article-title>
+          <source>Hepatology</source>
+          <year>2007</year>
+          <volume>46</volume>
+          <fpage>1639</fpage>
+          <lpage>1649</lpage>
+          <pub-id pub-id-type="doi">10.1002/hep.21976</pub-id>
+          <pub-id pub-id-type="pmid">17969036</pub-id>
+        </citation>
+      </ref>
+      <ref id="B25-cells-05-00035">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Szabo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wogenstein</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Osterreicher</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Guldiken</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Doler</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wiche</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Boor</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Haybaeck</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Strnad</surname>
+              <given-names>P.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Epiplakin attenuates experimental mouse liver injury by chaperoning keratin reorganization</article-title>
+          <source>J. Hepatol.</source>
+          <year>2015</year>
+          <volume>62</volume>
+          <fpage>1357</fpage>
+          <lpage>1366</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jhep.2015.01.007</pub-id>
+          <pub-id pub-id-type="pmid">25617501</pub-id>
+        </citation>
+      </ref>
+      <ref id="B26-cells-05-00035">
+        <label>26.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nakamichi</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Toivola</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Strnad</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Michie</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Oshima</surname>
+              <given-names>R.G.</given-names>
+            </name>
+            <name>
+              <surname>Baribault</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Omary</surname>
+              <given-names>M.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Keratin 8 overexpression promotes mouse Mallory body formation</article-title>
+          <source>J. Cell Biol.</source>
+          <year>2005</year>
+          <volume>171</volume>
+          <fpage>931</fpage>
+          <lpage>937</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.200507093</pub-id>
+          <pub-id pub-id-type="pmid">16365160</pub-id>
+        </citation>
+      </ref>
+      <ref id="B27-cells-05-00035">
+        <label>27.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guldiken</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Ensari</surname>
+              <given-names>G.K.</given-names>
+            </name>
+            <name>
+              <surname>Lahiri</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Couchy</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Preisinger</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Liedtke</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Zimmermann</surname>
+              <given-names>H.W.</given-names>
+            </name>
+            <name>
+              <surname>Ziol</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Boor</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Zucman-Rossi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Keratin 23 is a general stress-inducible marker of mouse and human ductular reaction in liver disease</article-title>
+          <source>J. Hepatol.</source>
+          <year>2016</year>
+          <pub-id pub-id-type="doi">10.1016/j.jhep.2016.04.024</pub-id>
+          <pub-id pub-id-type="pmid">27151178</pub-id>
+        </citation>
+      </ref>
+      <ref id="B28-cells-05-00035">
+        <label>28.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhong</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Toivola</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Tao</surname>
+              <given-names>G.Z.</given-names>
+            </name>
+            <name>
+              <surname>Resurreccion</surname>
+              <given-names>E.Z.</given-names>
+            </name>
+            <name>
+              <surname>Omary</surname>
+              <given-names>M.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Organ-specific stress induces mouse pancreatic keratin overexpression in association with NF-kappaB activation</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2004</year>
+          <volume>117</volume>
+          <fpage>1709</fpage>
+          <lpage>1719</lpage>
+          <pub-id pub-id-type="doi">10.1242/jcs.01016</pub-id>
+          <pub-id pub-id-type="pmid">15075232</pub-id>
+        </citation>
+      </ref>
+      <ref id="B29-cells-05-00035">
+        <label>29.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wogenstein</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Szabo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lunova</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wiche</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Haybaeck</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Strnad</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Boor</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wagner</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fuchs</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Epiplakin deficiency aggravates murine caerulein-induced acute pancreatitis and favors the formation of acinar keratin granules</article-title>
+          <source>PLoS ONE</source>
+          <year>2014</year>
+          <volume>9</volume>
+          <elocation-id>e108323</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0108323</pub-id>
+          <pub-id pub-id-type="pmid">25232867</pub-id>
+        </citation>
+      </ref>
+      <ref id="B30-cells-05-00035">
+        <label>30.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Djudjaj</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Papasotiriou</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bulow</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Wagnerova</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lindenmeyer</surname>
+              <given-names>M.T.</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <name>
+              <surname>Strnad</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Goumenos</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Floege</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Boor</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Keratins are novel markers of renal epithelial cell injury</article-title>
+          <source>Kidney Int.</source>
+          <year>2016</year>
+          <volume>89</volume>
+          <fpage>792</fpage>
+          <lpage>808</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.kint.2015.10.015</pub-id>
+          <pub-id pub-id-type="pmid">26924053</pub-id>
+        </citation>
+      </ref>
+      <ref id="B31-cells-05-00035">
+        <label>31.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sivaramakrishnan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Schneider</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Sitikov</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Ridge</surname>
+              <given-names>K.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Shear stress induced reorganization of the keratin intermediate filament network requires phosphorylation by protein kinase C zeta</article-title>
+          <source>Mol. Biol. Cell</source>
+          <year>2009</year>
+          <volume>20</volume>
+          <fpage>2755</fpage>
+          <lpage>2765</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.E08-10-1028</pub-id>
+          <pub-id pub-id-type="pmid">19357195</pub-id>
+        </citation>
+      </ref>
+      <ref id="B32-cells-05-00035">
+        <label>32.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moll</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Franke</surname>
+              <given-names>W.W.</given-names>
+            </name>
+            <name>
+              <surname>Schiller</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Geiger</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Krepler</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The catalog of human cytokeratins: Patterns of expression in normal epithelia, tumors and cultured cells</article-title>
+          <source>Cell</source>
+          <year>1982</year>
+          <volume>31</volume>
+          <fpage>11</fpage>
+          <lpage>24</lpage>
+          <pub-id pub-id-type="doi">10.1016/0092-8674(82)90400-7</pub-id>
+        </citation>
+      </ref>
+      <ref id="B33-cells-05-00035">
+        <label>33.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jin</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Keratin 17: A critical player in the pathogenesis of psoriasis</article-title>
+          <source>Med. Res. Rev.</source>
+          <year>2014</year>
+          <volume>34</volume>
+          <fpage>438</fpage>
+          <lpage>454</lpage>
+          <pub-id pub-id-type="doi">10.1002/med.21291</pub-id>
+          <pub-id pub-id-type="pmid">23722817</pub-id>
+        </citation>
+      </ref>
+      <ref id="B34-cells-05-00035">
+        <label>34.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Coulombe</surname>
+              <given-names>P.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>A keratin cytoskeletal protein regulates protein synthesis and epithelial cell growth</article-title>
+          <source>Nature</source>
+          <year>2006</year>
+          <volume>441</volume>
+          <fpage>362</fpage>
+          <lpage>365</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature04659</pub-id>
+          <pub-id pub-id-type="pmid">16710422</pub-id>
+        </citation>
+      </ref>
+      <ref id="B35-cells-05-00035">
+        <label>35.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Corfe</surname>
+              <given-names>B.M.</given-names>
+            </name>
+            <name>
+              <surname>Majumdar</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Assadsangabi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Marsh</surname>
+              <given-names>A.M.R.</given-names>
+            </name>
+            <name>
+              <surname>Cross</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Connolly</surname>
+              <given-names>J.B.</given-names>
+            </name>
+            <name>
+              <surname>Evans</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Lobo</surname>
+              <given-names>A.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Inflammation decreases keratin level in ulcerative colitis; inadequate restoration associates with increased risk of colitis-associated cancer</article-title>
+          <source>BMJ Open Gastroenterol.</source>
+          <year>2015</year>
+          <volume>2</volume>
+          <fpage>e000024</fpage>
+          <pub-id pub-id-type="doi">10.1136/bmjgast-2014-000024</pub-id>
+          <pub-id pub-id-type="pmid">26462276</pub-id>
+        </citation>
+      </ref>
+      <ref id="B36-cells-05-00035">
+        <label>36.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hammam</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Wishahiz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Khalil</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>El Ganzouri</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Badawy</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Elkhquly</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Elesaily</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression of cytokeratin 7, 20, 14 in urothelial carcinoma and squamous cell carcinoma of the Egyprian urinary bladder cancer</article-title>
+          <source>J. Egypt Soc. Parasitol.</source>
+          <year>2014</year>
+          <volume>44</volume>
+          <fpage>733</fpage>
+          <lpage>740</lpage>
+          <pub-id pub-id-type="doi">10.12816/0007876</pub-id>
+          <pub-id pub-id-type="pmid">25643514</pub-id>
+        </citation>
+      </ref>
+      <ref id="B37-cells-05-00035">
+        <label>37.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Landau</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Kuan</surname>
+              <given-names>S.F.</given-names>
+            </name>
+            <name>
+              <surname>Chiosea</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Pai</surname>
+              <given-names>R.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>BRAF-mutated microsatellite stable colorectal carcinoma: an aggressive adenocarcinoma with reduced CDX2 and increased cytokeratin 7 immunohistochemical expression</article-title>
+          <source>Hum. Pathol.</source>
+          <year>2014</year>
+          <volume>45</volume>
+          <fpage>1704</fpage>
+          <lpage>1712</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.humpath.2014.04.008</pub-id>
+          <pub-id pub-id-type="pmid">24908142</pub-id>
+        </citation>
+      </ref>
+      <ref id="B38-cells-05-00035">
+        <label>38.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Majumdar</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Tiernan</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Lobo</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Evans</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Corfe</surname>
+              <given-names>B.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Keratins in colorectal epithelial function and disease</article-title>
+          <source>Int. J. Exp. Pathol.</source>
+          <year>2012</year>
+          <volume>93</volume>
+          <fpage>305</fpage>
+          <lpage>318</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2613.2012.00830.x</pub-id>
+          <pub-id pub-id-type="pmid">22974212</pub-id>
+        </citation>
+      </ref>
+      <ref id="B39-cells-05-00035">
+        <label>39.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Polley</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Mulholland</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Pin</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Bradburn</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Mills</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Mathers</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>I.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Proteomic analysis reveals field-wide changes in protein expression in the morphologically normal mucosa of patients with colorectal neoplasia</article-title>
+          <source>Cancer Res.</source>
+          <year>2006</year>
+          <volume>66</volume>
+          <fpage>6553</fpage>
+          <lpage>6562</lpage>
+          <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-06-0534</pub-id>
+          <pub-id pub-id-type="pmid">16818627</pub-id>
+        </citation>
+      </ref>
+      <ref id="B40-cells-05-00035">
+        <label>40.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Perse</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Cerar</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dextran sodium sulphate colitis mouse model: traps and tricks</article-title>
+          <source>J. Biomed. Biotechnol.</source>
+          <year>2012</year>
+          <volume>2012</volume>
+          <fpage>718617</fpage>
+          <pub-id pub-id-type="doi">10.1155/2012/718617</pub-id>
+          <pub-id pub-id-type="pmid">22665990</pub-id>
+        </citation>
+      </ref>
+      <ref id="B41-cells-05-00035">
+        <label>41.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rose</surname>
+              <given-names>W.A.</given-names>
+              <suffix>2nd</suffix>
+            </name>
+            <name>
+              <surname>Sakamoto</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Leifer</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multifunctional role of dextran sulfate sodium for in vivo modeling of intestinal diseases</article-title>
+          <source>BMC Immunol.</source>
+          <year>2012</year>
+          <volume>13</volume>
+          <elocation-id>41</elocation-id>
+          <pub-id pub-id-type="doi">10.1186/1471-2172-13-41</pub-id>
+          <pub-id pub-id-type="pmid">22853702</pub-id>
+        </citation>
+      </ref>
+      <ref id="B42-cells-05-00035">
+        <label>42.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wirtz</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Neufert</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Weigmann</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Neurath</surname>
+              <given-names>M.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Chemically induced mouse models of intestinal inflammation</article-title>
+          <source>Nat. Protoc.</source>
+          <year>2007</year>
+          <volume>2</volume>
+          <fpage>541</fpage>
+          <lpage>546</lpage>
+          <pub-id pub-id-type="doi">10.1038/nprot.2007.41</pub-id>
+          <pub-id pub-id-type="pmid">17406617</pub-id>
+        </citation>
+      </ref>
+      <ref id="B43-cells-05-00035">
+        <label>43.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Breynaert</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Dresselaers</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Perrier</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Arijs</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Cremer</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Van Lommel</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Van Steen</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ferrante</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Schuit</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Vermeire</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Unique gene expression and MR T2 relaxometry patterns define chronic murine dextran sodium sulphate colitis as a model for connective tissue changes in human Crohn&#x2019;s disease</article-title>
+          <source>PLoS ONE</source>
+          <year>2013</year>
+          <volume>8</volume>
+          <elocation-id>e68876</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0068876</pub-id>
+          <pub-id pub-id-type="pmid">23894361</pub-id>
+        </citation>
+      </ref>
+      <ref id="B44-cells-05-00035">
+        <label>44.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ku</surname>
+              <given-names>N.O.</given-names>
+            </name>
+            <name>
+              <surname>Toivola</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Tao</surname>
+              <given-names>G.Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhong</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Omary</surname>
+              <given-names>M.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Studying simple epithelial keratins in cells and tissues</article-title>
+          <source>Methods Cell Biol.</source>
+          <year>2004</year>
+          <volume>78</volume>
+          <fpage>489</fpage>
+          <lpage>517</lpage>
+          <pub-id pub-id-type="pmid">15646629</pub-id>
+        </citation>
+      </ref>
+      <ref id="B45-cells-05-00035">
+        <label>45.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Asghar</surname>
+              <given-names>M.N.</given-names>
+            </name>
+            <name>
+              <surname>Silvander</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Helenius</surname>
+              <given-names>T.O.</given-names>
+            </name>
+            <name>
+              <surname>Lahdeniemi</surname>
+              <given-names>I.A.</given-names>
+            </name>
+            <name>
+              <surname>Alam</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Fortelius</surname>
+              <given-names>L.E.</given-names>
+            </name>
+            <name>
+              <surname>Holmsten</surname>
+              <given-names>R.O.</given-names>
+            </name>
+            <name>
+              <surname>Toivola</surname>
+              <given-names>D.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The amount of keratins matters for stress protection of the colonic epithelium</article-title>
+          <source>PLoS ONE</source>
+          <year>2015</year>
+          <volume>10</volume>
+          <elocation-id>e0127436</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0127436</pub-id>
+          <pub-id pub-id-type="pmid">26000979</pub-id>
+        </citation>
+      </ref>
+      <ref id="B46-cells-05-00035">
+        <label>46.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grasa</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Abecia</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Forcen</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Castro</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>de Jalon</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Latorre</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Alcalde</surname>
+              <given-names>A.I.</given-names>
+            </name>
+            <name>
+              <surname>Murillo</surname>
+              <given-names>M.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Antibiotic-induced depletion of murine microbiota induces mild inflammation and changes in toll-like receptor patterns and intestinal motility</article-title>
+          <source>Microb. Ecol.</source>
+          <year>2015</year>
+          <volume>70</volume>
+          <fpage>835</fpage>
+          <lpage>848</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00248-015-0613-8</pub-id>
+          <pub-id pub-id-type="pmid">25896428</pub-id>
+        </citation>
+      </ref>
+      <ref id="B47-cells-05-00035">
+        <label>47.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Toivola</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Greenberg</surname>
+              <given-names>H.B.</given-names>
+            </name>
+            <name>
+              <surname>Franke</surname>
+              <given-names>W.W.</given-names>
+            </name>
+            <name>
+              <surname>Omary</surname>
+              <given-names>M.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Keratin 20 helps maintain intermediate filament organization in intestinal epithelia</article-title>
+          <source>Mol. Biol. Cell</source>
+          <year>2003</year>
+          <volume>14</volume>
+          <fpage>2959</fpage>
+          <lpage>2971</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.E03-02-0059</pub-id>
+          <pub-id pub-id-type="pmid">12857878</pub-id>
+        </citation>
+      </ref>
+      <ref id="B48-cells-05-00035">
+        <label>48.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cerf-Bensussan</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Gaboriau-Routhiau</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>The immune system and the gut microbiota: Friends or foes?</article-title>
+          <source>Nat. Rev. Immunol.</source>
+          <year>2010</year>
+          <volume>10</volume>
+          <fpage>735</fpage>
+          <lpage>744</lpage>
+          <pub-id pub-id-type="doi">10.1038/nri2850</pub-id>
+          <pub-id pub-id-type="pmid">20865020</pub-id>
+        </citation>
+      </ref>
+      <ref id="B49-cells-05-00035">
+        <label>49.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Madsen</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Doyle</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Tavernini</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Jewell</surname>
+              <given-names>L.D.</given-names>
+            </name>
+            <name>
+              <surname>Rennie</surname>
+              <given-names>R.P.</given-names>
+            </name>
+            <name>
+              <surname>Fedorak</surname>
+              <given-names>R.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Antibiotic therapy attenuates colitis in interleukin 10 gene-deficient mice</article-title>
+          <source>Gastroenterology</source>
+          <year>2000</year>
+          <volume>118</volume>
+          <fpage>1094</fpage>
+          <lpage>1105</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0016-5085(00)70362-3</pub-id>
+        </citation>
+      </ref>
+      <ref id="B50-cells-05-00035">
+        <label>50.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miao</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Niu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Du</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Duan</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Heat shock factor 2 levels are associated with the severity of ulcerative colitis</article-title>
+          <source>PLoS ONE</source>
+          <year>2014</year>
+          <volume>9</volume>
+          <elocation-id>e88822</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0088822</pub-id>
+          <pub-id pub-id-type="pmid">24533153</pub-id>
+        </citation>
+      </ref>
+      <ref id="B51-cells-05-00035">
+        <label>51.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Atillasoy</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Holt</surname>
+              <given-names>P.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gastrointestinal proliferation and aging</article-title>
+          <source>J. Gerontol.</source>
+          <year>1993</year>
+          <volume>48</volume>
+          <fpage>B43</fpage>
+          <lpage>B49</lpage>
+          <pub-id pub-id-type="doi">10.1093/geronj/48.2.B43</pub-id>
+          <pub-id pub-id-type="pmid">8473687</pub-id>
+        </citation>
+      </ref>
+      <ref id="B52-cells-05-00035">
+        <label>52.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kirkwood</surname>
+              <given-names>T.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intrinsic ageing of gut epithelial stem cells</article-title>
+          <source>Mech. Ageing Dev.</source>
+          <year>2004</year>
+          <volume>125</volume>
+          <fpage>911</fpage>
+          <lpage>915</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.mad.2004.09.004</pub-id>
+          <pub-id pub-id-type="pmid">15563938</pub-id>
+        </citation>
+      </ref>
+      <ref id="B53-cells-05-00035">
+        <label>53.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xiao</surname>
+              <given-names>Z.Q.</given-names>
+            </name>
+            <name>
+              <surname>Moragoda</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Jaszewski</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Hatfield</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Fligiel</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Majumdar</surname>
+              <given-names>A.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Aging is associated with increased proliferation and decreased apoptosis in the colonic mucosa</article-title>
+          <source>Mech. Ageing Dev.</source>
+          <year>2001</year>
+          <volume>122</volume>
+          <fpage>1849</fpage>
+          <lpage>1864</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0047-6374(01)00323-2</pub-id>
+        </citation>
+      </ref>
+      <ref id="B54-cells-05-00035">
+        <label>54.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sipos</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Leiszter</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Tulassay</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of ageing on colonic mucosal regeneration</article-title>
+          <source>World J. Gastroenterol.</source>
+          <year>2011</year>
+          <volume>17</volume>
+          <fpage>2981</fpage>
+          <lpage>2986</lpage>
+          <pub-id pub-id-type="doi">10.3748/wjg.v17.i25.2981</pub-id>
+          <pub-id pub-id-type="pmid">21799643</pub-id>
+        </citation>
+      </ref>
+      <ref id="B55-cells-05-00035">
+        <label>55.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Garbe</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Pepin</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Pelissier</surname>
+              <given-names>F.A.</given-names>
+            </name>
+            <name>
+              <surname>Sputova</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Fridriksdottir</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Villadsen</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Petersen</surname>
+              <given-names>O.W.</given-names>
+            </name>
+            <name>
+              <surname>Borowsky</surname>
+              <given-names>A.D.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Accumulation of multipotent progenitors with a basal differentiation bias during aging of human mammary epithelia</article-title>
+          <source>Cancer Res.</source>
+          <year>2012</year>
+          <volume>72</volume>
+          <fpage>3687</fpage>
+          <lpage>3701</lpage>
+          <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-12-0157</pub-id>
+          <pub-id pub-id-type="pmid">22552289</pub-id>
+        </citation>
+      </ref>
+      <ref id="B56-cells-05-00035">
+        <label>56.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Matsutani</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kang</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>Miyashita</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sasajima</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Choudhry</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Bland</surname>
+              <given-names>K.I.</given-names>
+            </name>
+            <name>
+              <surname>Chaudry</surname>
+              <given-names>I.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Young and middle-age associated differences in cytokeratin expression after bone fracture, tissue trauma, and hemorrhage</article-title>
+          <source>Am. J. Surg.</source>
+          <year>2007</year>
+          <volume>193</volume>
+          <fpage>61</fpage>
+          <lpage>68</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.amjsurg.2006.07.012</pub-id>
+          <pub-id pub-id-type="pmid">17188089</pub-id>
+        </citation>
+      </ref>
+      <ref id="B57-cells-05-00035">
+        <label>57.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morgan</surname>
+              <given-names>T.E.</given-names>
+            </name>
+            <name>
+              <surname>Rozovsky</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Goldsmith</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Stone</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Yoshida</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Finch</surname>
+              <given-names>C.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Increased transcription of the astrocyte gene GFAP during middle-age is attenuated by food restriction: Implications for the role of oxidative stress</article-title>
+          <source>Free Radic Biol. Med.</source>
+          <year>1997</year>
+          <volume>23</volume>
+          <fpage>524</fpage>
+          <lpage>528</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0891-5849(97)00120-2</pub-id>
+        </citation>
+      </ref>
+      <ref id="B58-cells-05-00035">
+        <label>58.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nishio</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Inoue</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Qiao</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kondo</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Mimura</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Senescence and cytoskeleton: overproduction of vimentin induces senescent-like morphology in human fibroblasts</article-title>
+          <source>Histochem. Cell Biol.</source>
+          <year>2001</year>
+          <volume>116</volume>
+          <fpage>321</fpage>
+          <lpage>327</lpage>
+          <pub-id pub-id-type="doi">10.1007/s004180100325</pub-id>
+          <pub-id pub-id-type="pmid">11702190</pub-id>
+        </citation>
+      </ref>
+      <ref id="B59-cells-05-00035">
+        <label>59.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Caron</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Auclair</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Donadille</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Bereziat</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Guerci</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Laville</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Narbonne</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Bodemer</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Lascols</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Capeau</surname>
+              <given-names>J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Human lipodystrophies linked to mutations in A-type lamins and to HIV protease inhibitor therapy are both associated with prelamin A accumulation, oxidative stress and premature cellular senescence</article-title>
+          <source>Cell Death Differ.</source>
+          <year>2007</year>
+          <volume>14</volume>
+          <fpage>1759</fpage>
+          <lpage>1767</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.cdd.4402197</pub-id>
+          <pub-id pub-id-type="pmid">17612587</pub-id>
+        </citation>
+      </ref>
+      <ref id="B60-cells-05-00035">
+        <label>60.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ku</surname>
+              <given-names>N.O.</given-names>
+            </name>
+            <name>
+              <surname>Azhar</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Omary</surname>
+              <given-names>M.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Keratin 8 phosphorylation by p38 kinase regulates cellular keratin filament reorganization: modulation by a keratin 1-like disease causing mutation</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2002</year>
+          <volume>277</volume>
+          <fpage>10775</fpage>
+          <lpage>10782</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M107623200</pub-id>
+          <pub-id pub-id-type="pmid">11788583</pub-id>
+        </citation>
+      </ref>
+      <ref id="B61-cells-05-00035">
+        <label>61.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Toivola</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Ku</surname>
+              <given-names>N.O.</given-names>
+            </name>
+            <name>
+              <surname>Resurreccion</surname>
+              <given-names>E.Z.</given-names>
+            </name>
+            <name>
+              <surname>Nelson</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Wright</surname>
+              <given-names>T.L.</given-names>
+            </name>
+            <name>
+              <surname>Omary</surname>
+              <given-names>M.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Keratin 8 and 18 hyperphosphorylation is a marker of progression of human liver disease</article-title>
+          <source>Hepatology</source>
+          <year>2004</year>
+          <volume>40</volume>
+          <fpage>459</fpage>
+          <lpage>466</lpage>
+          <pub-id pub-id-type="doi">10.1002/hep.20277</pub-id>
+          <pub-id pub-id-type="pmid">15368451</pub-id>
+        </citation>
+      </ref>
+      <ref id="B62-cells-05-00035">
+        <label>62.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burcham</surname>
+              <given-names>P.C.</given-names>
+            </name>
+            <name>
+              <surname>Raso</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Henry</surname>
+              <given-names>P.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Airborne acrolein induces keratin-8 (Ser-73) hyperphosphorylation and intermediate filament ubiquitination in bronchiolar lung cell monolayers</article-title>
+          <source>Toxicology</source>
+          <year>2014</year>
+          <volume>319</volume>
+          <fpage>44</fpage>
+          <lpage>52</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tox.2014.02.010</pub-id>
+          <pub-id pub-id-type="pmid">24594012</pub-id>
+        </citation>
+      </ref>
+      <ref id="B63-cells-05-00035">
+        <label>63.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ku</surname>
+              <given-names>N.O.</given-names>
+            </name>
+            <name>
+              <surname>Omary</surname>
+              <given-names>M.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>A disease- and phosphorylation-related nonmechanical function for keratin 8</article-title>
+          <source>J. Cell Biol.</source>
+          <year>2006</year>
+          <volume>174</volume>
+          <fpage>115</fpage>
+          <lpage>125</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.200602146</pub-id>
+          <pub-id pub-id-type="pmid">16818723</pub-id>
+        </citation>
+      </ref>
+      <ref id="B64-cells-05-00035">
+        <label>64.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jaitovich</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mehta</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Na</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Ciechanover</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Ridge</surname>
+              <given-names>K.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ubiquitin-proteasome-mediated degradation of keratin intermediate filaments in mechanically stimulated A549 cells</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2008</year>
+          <volume>283</volume>
+          <fpage>25348</fpage>
+          <lpage>25355</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M801635200</pub-id>
+          <pub-id pub-id-type="pmid">18617517</pub-id>
+        </citation>
+      </ref>
+      <ref id="B65-cells-05-00035">
+        <label>65.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rogel</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Jaitovich</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ridge</surname>
+              <given-names>K.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of the ubiquitin proteasome pathway in keratin intermediate filament protein degradation</article-title>
+          <source>Proc. Am. Thorac. Soc.</source>
+          <year>2010</year>
+          <volume>7</volume>
+          <fpage>71</fpage>
+          <lpage>76</lpage>
+          <pub-id pub-id-type="doi">10.1513/pats.200908-089JS</pub-id>
+          <pub-id pub-id-type="pmid">20160151</pub-id>
+        </citation>
+      </ref>
+      <ref id="B66-cells-05-00035">
+        <label>66.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Gharib</surname>
+              <given-names>T.G.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>C.C.</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Misek</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Kardia</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Giordano</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Iannettoni</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Orringer</surname>
+              <given-names>M.B.</given-names>
+            </name>
+            <name>
+              <surname>Hanash</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Discordant protein and mRNA expression in lung adenocarcinomas</article-title>
+          <source>Mol. Cell Proteomics</source>
+          <year>2002</year>
+          <volume>1</volume>
+          <fpage>304</fpage>
+          <lpage>313</lpage>
+          <pub-id pub-id-type="doi">10.1074/mcp.M200008-MCP200</pub-id>
+          <pub-id pub-id-type="pmid">12096112</pub-id>
+        </citation>
+      </ref>
+      <ref id="B67-cells-05-00035">
+        <label>67.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gygi</surname>
+              <given-names>S.P.</given-names>
+            </name>
+            <name>
+              <surname>Rochon</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Franza</surname>
+              <given-names>B.R.</given-names>
+            </name>
+            <name>
+              <surname>Aebersold</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Correlation between protein and mRNA abundance in yeast</article-title>
+          <source>Mol. Cell Biol.</source>
+          <year>1999</year>
+          <volume>19</volume>
+          <fpage>1720</fpage>
+          <lpage>1730</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.19.3.1720</pub-id>
+          <pub-id pub-id-type="pmid">10022859</pub-id>
+        </citation>
+      </ref>
+      <ref id="B68-cells-05-00035">
+        <label>68.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Greenbaum</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Colangelo</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Gerstein</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparing protein abundance and mRNA expression levels on a genomic scale</article-title>
+          <source>Genome Biol.</source>
+          <year>2003</year>
+          <volume>4</volume>
+          <fpage>117</fpage>
+          <pub-id pub-id-type="doi">10.1186/gb-2003-4-9-117</pub-id>
+          <pub-id pub-id-type="pmid">12952525</pub-id>
+        </citation>
+      </ref>
+      <ref id="B69-cells-05-00035">
+        <label>69.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rhodes</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Oshima</surname>
+              <given-names>R.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>A regulatory element of the human keratin 18 gene with AP-1-dependent promoter activity</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1998</year>
+          <volume>273</volume>
+          <fpage>26534</fpage>
+          <lpage>26542</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.273.41.26534</pub-id>
+          <pub-id pub-id-type="pmid">9756890</pub-id>
+        </citation>
+      </ref>
+      <ref id="B70-cells-05-00035">
+        <label>70.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Palma</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Nadal</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Medina</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Donat</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Ribes-Koninckx</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Calabuig</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sanz</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intestinal dysbiosis and reduced immunoglobulin-coated bacteria associated with coeliac disease in children</article-title>
+          <source>BMC Microbiol.</source>
+          <year>2010</year>
+          <volume>10</volume>
+          <elocation-id>63</elocation-id>
+          <pub-id pub-id-type="doi">10.1186/1471-2180-10-63</pub-id>
+          <pub-id pub-id-type="pmid">20181275</pub-id>
+        </citation>
+      </ref>
+      <ref id="B71-cells-05-00035">
+        <label>71.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Swidsinski</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Weber</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Loening-Baucke</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Hale</surname>
+              <given-names>L.P.</given-names>
+            </name>
+            <name>
+              <surname>Lochs</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spatial organization and composition of the mucosal flora in patients with inflammatory bowel disease</article-title>
+          <source>J. Clin. Microbiol.</source>
+          <year>2005</year>
+          <volume>43</volume>
+          <fpage>3380</fpage>
+          <lpage>3389</lpage>
+          <pub-id pub-id-type="doi">10.1128/JCM.43.7.3380-3389.2005</pub-id>
+          <pub-id pub-id-type="pmid">16000463</pub-id>
+        </citation>
+      </ref>
+      <ref id="B72-cells-05-00035">
+        <label>72.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Seksik</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Rigottier-Gois</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Gramet</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Sutren</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Pochart</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Marteau</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Jian</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Dore</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Alterations of the dominant faecal bacterial groups in patients with Crohn&#x2019;s disease of the colon</article-title>
+          <source>Gut</source>
+          <year>2003</year>
+          <volume>52</volume>
+          <fpage>237</fpage>
+          <lpage>242</lpage>
+          <pub-id pub-id-type="doi">10.1136/gut.52.2.237</pub-id>
+          <pub-id pub-id-type="pmid">12524406</pub-id>
+        </citation>
+      </ref>
+      <ref id="B73-cells-05-00035">
+        <label>73.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heimesaat</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Bereswill</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Fischer</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Fuchs</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Struck</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Niebergall</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Jahn</surname>
+              <given-names>H.K.</given-names>
+            </name>
+            <name>
+              <surname>Dunay</surname>
+              <given-names>I.R.</given-names>
+            </name>
+            <name>
+              <surname>Moter</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gescher</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Gram-negative bacteria aggravate murine small intestinal Th1-type immunopathology following oral infection with Toxoplasma gondii</article-title>
+          <source>J. Immunol.</source>
+          <year>2006</year>
+          <volume>177</volume>
+          <fpage>8785</fpage>
+          <lpage>8795</lpage>
+          <pub-id pub-id-type="doi">10.4049/jimmunol.177.12.8785</pub-id>
+          <pub-id pub-id-type="pmid">17142781</pub-id>
+        </citation>
+      </ref>
+      <ref id="B74-cells-05-00035">
+        <label>74.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Im</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Riegler</surname>
+              <given-names>F.M.</given-names>
+            </name>
+            <name>
+              <surname>Pothoulakis</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Rhee</surname>
+              <given-names>S.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Elevated lipopolysaccharide in the colon evokes intestinal inflammation, aggravated in immune modulator-impaired mice</article-title>
+          <source>Am. J. Physiol. Gastrointest. Liver Physiol.</source>
+          <year>2012</year>
+          <volume>303</volume>
+          <fpage>G490</fpage>
+          <lpage>G497</lpage>
+          <pub-id pub-id-type="doi">10.1152/ajpgi.00120.2012</pub-id>
+          <pub-id pub-id-type="pmid">22723263</pub-id>
+        </citation>
+      </ref>
+      <ref id="B75-cells-05-00035">
+        <label>75.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cario</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Rosenberg</surname>
+              <given-names>I.M.</given-names>
+            </name>
+            <name>
+              <surname>Brandwein</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Beck</surname>
+              <given-names>P.L.</given-names>
+            </name>
+            <name>
+              <surname>Reinecker</surname>
+              <given-names>H.C.</given-names>
+            </name>
+            <name>
+              <surname>Podolsky</surname>
+              <given-names>D.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lipopolysaccharide activates distinct signaling pathways in intestinal epithelial cell lines expressing Toll-like receptors</article-title>
+          <source>J. Immunol.</source>
+          <year>2000</year>
+          <volume>164</volume>
+          <fpage>966</fpage>
+          <lpage>972</lpage>
+          <pub-id pub-id-type="doi">10.4049/jimmunol.164.2.966</pub-id>
+          <pub-id pub-id-type="pmid">10623846</pub-id>
+        </citation>
+      </ref>
+      <ref id="B76-cells-05-00035">
+        <label>76.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lamkanfi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kanneganti</surname>
+              <given-names>T.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Caspase-7: A protease involved in apoptosis and inflammation</article-title>
+          <source>Int. J. Biochem. Cell Biol.</source>
+          <year>2010</year>
+          <volume>42</volume>
+          <fpage>21</fpage>
+          <lpage>24</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biocel.2009.09.013</pub-id>
+          <pub-id pub-id-type="pmid">19782763</pub-id>
+        </citation>
+      </ref>
+      <ref id="B77-cells-05-00035">
+        <label>77.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hsu</surname>
+              <given-names>R.Y.</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Spicer</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Rousseau</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Giannias</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Rousseau</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ferri</surname>
+              <given-names>L.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>LPS-induced TLR4 signaling in human colorectal cancer cells increases beta1 integrin-mediated cell adhesion and liver metastasis</article-title>
+          <source>Cancer Res.</source>
+          <year>2011</year>
+          <volume>71</volume>
+          <fpage>1989</fpage>
+          <lpage>1998</lpage>
+          <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-10-2833</pub-id>
+          <pub-id pub-id-type="pmid">21363926</pub-id>
+        </citation>
+      </ref>
+      <ref id="B78-cells-05-00035">
+        <label>78.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sanchez</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Gonzalez-Rodriguez</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Arboleya</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lopez</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Suarez</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ruas-Madiedo</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Margolles</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gueimonde</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The effects of Bifidobacterium breve on immune mediators and proteome of HT29 cells monolayers</article-title>
+          <source>Biomed. Res. Int.</source>
+          <year>2015</year>
+          <volume>2015</volume>
+          <fpage>479140</fpage>
+          <pub-id pub-id-type="doi">10.1155/2015/479140</pub-id>
+          <pub-id pub-id-type="pmid">25793196</pub-id>
+        </citation>
+      </ref>
+      <ref id="B79-cells-05-00035">
+        <label>79.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Srinivasan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Theiss</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Merlin</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Sitaraman</surname>
+              <given-names>S.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interleukin-6 induces keratin expression in intestinal epithelial cells: potential role of keratin-8 in interleukin-6-induced barrier function alterations</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2007</year>
+          <volume>282</volume>
+          <fpage>8219</fpage>
+          <lpage>8227</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M604068200</pub-id>
+          <pub-id pub-id-type="pmid">17213200</pub-id>
+        </citation>
+      </ref>
+      <ref id="B80-cells-05-00035">
+        <label>80.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ye</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Pang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Ju</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>The epidemiology and risk factors of inflammatory bowel disease</article-title>
+          <source>Int. J. Clin. Exp. Med.</source>
+          <year>2015</year>
+          <volume>8</volume>
+          <fpage>22529</fpage>
+          <lpage>22542</lpage>
+          <pub-id pub-id-type="pmid">26885239</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures</title>
+      <fig id="cells-05-00035-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Experimental 2% dextran sulphate sodium (DSS)-induced colitis alters keratin levels and increases K8 phosphorylation at S74. To induce active murine colitis, mice (<italic>n</italic> = 3 for controls, lanes 1&#x2013;3 in B and <italic>n</italic> = 6 for DSS-treated, lanes 4&#x2013;9 in B; strain Balb/c) were treated with 2% DSS in drinking water. Samples were collected for protein, RNA and immunofluorescence analysis 8 days after the start of the treatment. (<bold>A</bold>) The daily DAI was calculated on the basis of measurements of body weight loss, stool consistency and presence of blood in stool in order to quantify colitis progression. The arrow indicates time point of sacrifice and sample collection. (<bold>B</bold>,<bold>C</bold>) Downregulation of K8 and K18 and upregulation of K7, K19 and K20 was detected and quantified using Western blot analysis of colon protein samples normalized by protein assay and the loading control Hsc70. * <italic>p</italic> &lt; 0.05, ** <italic>p</italic> &lt; 0.01. (<bold>D</bold>) Despite the K8 downregulation, an increase in K8 pS74 as normalized to K8 levels was seen. *** <italic>p</italic> &lt; 0.001. (<bold>E</bold>) Immunofluorescence staining of K8 pS74 (red) showed more K8 pS74 positive cells in DSS-treated colons (panel b) compared to controls (panel a). Lines indicate the location and orientation of colonic crypts; dashed lines indicate the border between lumen and epithelium and solid lines the border between epithelium and basement membrane. Nuclei (DNA) are shown in blue. L = Lumen, scale bar = 50 &#x3BC;m. (<bold>F</bold>a&#x2013;<bold>F</bold>e) Gene transcription analysis of K7, K18, K19 and K20 showed no significant changes, while K8 gene expression was decreased compared to control mice (normalization to &#x3B2;-actin). n.s = not significant, * <italic>p</italic> &lt; 0.05. Numerical data are shown as average &#xB1; SD. Statistical significance for Western blot and mRNA data was determined by t-test.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-05-00035-g001a.tif"/>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-05-00035-g001b.tif"/>
+      </fig>
+      <fig id="cells-05-00035-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Acute DSS-associated keratin level alterations are not normalized after 7 days of recovery from DSS colitis even if the colon DAI is normalized. Mice (<italic>n</italic> = 3 for controls, lanes 1&#x2013;3 in B, <italic>n</italic> = 6 for DSS, lanes 4&#x2013;9 in B; strain Balb/c) were treated with 2% DSS for 7 days followed by 7 days of recovery time, after which samples were collected for protein and immunofluorescence analysis. (<bold>A</bold>) The daily DAI was calculated on the basis of body weight loss, stool consistency and presence of blood in stool during the whole experimental time of 14 days in order to monitor progression of colitis and recovery. The arrow indicates time point of sacrifice and sample collection. (<bold>B</bold>,<bold>C</bold>) A downregulation of the major keratin pair K8 and K19, together with upregulation of K20 and slight increase in K7, was seen when analyzed by Western blotting as described in <xref ref-type="fig" rid="cells-05-00035-f001">Figure 1</xref>. * <italic>p</italic> &lt; 0.05, ** <italic>p</italic> &lt; 0.01. (<bold>D</bold>) K8 pS74 levels were normalized to K8 protein levels. Despite of the downregulation of K8, an increase in K8 pS74 was seen. *** <italic>p</italic> &lt; 0.001. Numerical data are shown as average &#xB1; SD. Statistical significance for Western blot data was determined by t-test.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-05-00035-g002.tif"/>
+      </fig>
+      <fig id="cells-05-00035-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>K7 and K20 are upregulated keratins in chronic DSS-colitis. To induce chronic colitis, mice (<italic>n</italic> = 3 for controls, <italic>n</italic> = 3 for DSS-treated; strain FVB/n) were given two one-week cycles of 2.5% DSS with two weeks of recovery with normal drinking water after each cycle. Samples for protein, RNA and immunofluorescence analysis were collected at the end of the second recovery period (A, arrow). (<bold>A</bold>) The daily DAI was calculated on the basis of body weight loss, stool consistency and presence of blood in stool during the whole experimental time of 45 days to follow colitis progression during DSS-treatment and the 2-week recovery periods. (<bold>B</bold>,<bold>C</bold>) A significant upregulation of K7 and K20 protein levels (as quantified in <xref ref-type="fig" rid="cells-05-00035-f001">Figure 1</xref>) was seen after chronic DSS-treatment. *** <italic>p</italic> &lt; 0.001. (<bold>D</bold>) Immunofluorescence staining shows that K7 (panels a, c in red) was expressed all over the crypt and also in the top-most crypt cells after chronic DSS-treatment (panel c) compared to controls (panel a). K20 (panels b, d in red) showed a broader crypt-distribution in response to chronic DSS (panel d) compared to controls (panel b). L = lumen, scale bar = 50 &#x3BC;m. Nuclei (DNA) are shown in blue. (<bold>E</bold>) Crypt length and K20-positive crypt areas (white bars) compared to K20 negative crypt areas (black bars) were quantified in controls and after chronic DSS-treatment. (<bold>F</bold>a&#x2013;d) Gene transcription analysis from samples collected on day 45 as indicated in (<bold>A</bold>)) showed no significant changes in the gene transcription of K7, K8, K18 and K19. n.s = not significant. Numerical data are shown as average &#xB1; SD. Statistical significance for Western blot and mRNA data was determined by t-test.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-05-00035-g003a.tif"/>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-05-00035-g003b.tif"/>
+      </fig>
+      <fig id="cells-05-00035-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>K8 and K19 are upregulated after the depletion of microbiota by oral antibiotic treatment. Mice (<italic>n</italic> = 3 for controls, lanes 1&#x2013;3 in (<bold>A</bold>), <italic>n</italic> = 7 for antibiotic-treated, lanes 4&#x2013;10 in (A); strain FVB/n) were treated with or without oral broad-spectrum antibiotics for 56 days and samples for protein, RNA and immunofluorescence analysis were collected at the end of the treatment. The samples were then analyzed to assess changes in keratin levels in response to the depletion of microbiota. (<bold>A</bold>,<bold>B</bold>) The levels of the main colonic keratins K8 and K19 were upregulated after antibiotic-treatment, along with increased levels of stress-responsive HSF2 and K8 pS74 when quantified as in <xref ref-type="fig" rid="cells-05-00035-f001">Figure 1</xref> and shown as average &#xB1; SD. * <italic>p &lt;</italic> 0.05, *** <italic>p &lt;</italic> 0.001. (<bold>C</bold>) The increase of K8 (panel a, d in green), K19 (panel d, f in green) and K8 pS74 (panel b, e in red arrow heads) after antibiotic-treatment was confirmed by confocal microscopy. Nuclei (DNA) are shown in blue. L = lumen, scale bar = 50 &#x3BC;m. (<bold>D</bold>a,b) Gene transcription analysis of K8 (<bold>D</bold>a) and K19 (<bold>D</bold>b) normalized to &#x3B2;-actin showed no significant changes. n.s = not significant. Numerical data are shown as average &#xB1; SD. Statistical significance for Western blot and mRNA data was determined by t-test.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-05-00035-g004.tif"/>
+      </fig>
+      <fig id="cells-05-00035-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Ageing leads to upregulation of all colonic keratins in DC and PC in a differential manner. Proximal colon (PC) and distal colon (DC) keratin levels and distribution were analyzed in 3 and 14 months (mo) old mice (<italic>n</italic> = 3 for 3 months old mice, lanes 1&#x2013;3 and 7&#x2013;9, <italic>n</italic> = 3 for 14 months old mice, lanes 4&#x2013;5 and 10&#x2013;12) by protein analysis and immunofluorescence staining. (<bold>A</bold>&#x2013;<bold>C</bold>) Keratin Western blotting and quantification (normalized to loading control Hsc70) of colon lysates showed that K8, K18 and K20 were upregulated in PC, whereas K7 was highly and K19 slightly upregulated in DC. * <italic>p &lt;</italic> 0.05, *** <italic>p &lt;</italic> 0.001. (<bold>D</bold>,<bold>E</bold>) The K20 upregulation in novel single cells below the luminal epithelium in 14 months old mice was confirmed by immunofluorescence staining in PC (panel a&#x2013;b, b magnified from boxed area in c, arrow heads) and DC (panel d&#x2013;e, e magnified from boxed area in f, arrow heads) as broader localization in the crypts. Nuclei (DNA) are shown in blue. L = lumen, scale bars = 50 &#x3BC;m. (<bold>E</bold>) The increased number of single-cell K20-positive cells/crypt in PC and DC of young and old mice is shown. <italic>N</italic> = 20 crypts. Numerical data are shown as average &#xB1; SD. Statistical significance for Western blot data was determined by t-test.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-05-00035-g005.tif"/>
+      </fig>
+      <fig id="cells-05-00035-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>LPS, as a model for in vitro activation of inflammatory signaling pathways, upregulates K8 and K19 and increases phosphorylation of K8 at S74. Colorectal cancer HT-29 cells were treated with 500 ng/mL and 1000 ng/mL LPS for 48 h to induce inflammatory stress signaling. (<bold>A</bold>,<bold>B</bold>) LPS induced stress-activated inflammatory signaling, as seen by decreased levels of the NF-&#x3BA;B inhibitor I&#x3BA;B&#x3B1;, which was quantified by Western blotting and normalized to Hsc70. HT-29 cells showed an upregulation of the major colonic keratins K8 and K19 following treatment with 1000 ng/mL LPS. An increase in K8 pS74 was seen after treatment with 500 ng/mL LPS. ** <italic>p</italic> &lt; 0.01, *** <italic>p</italic> &lt; 0.001. (<bold>C</bold>) The upregulation of K8 (panels a, d and g; green) and the increase in K8 pS74 (panels b, e and h, and further magnified from white boxes to c, f and i, red) in response to LPS-treatment were confirmed by immunofluorescence staining. Nuclei (DNA) are shown in blue. Scale bar = 25 &#x3BC;m for a, c, d, f, g and i. Scale bar = 75 &#x3BC;m for b, e and h. (<bold>D</bold>) The increase in K8 pS74-positive cells was quantified, and showed a 6.3% increase in the amount of K8 pS74-positive cells after 500 ng/mL LPS-treatment compared to non-treated cells. For 1000 ng/mL LPS-treatment, the corresponding increase compared to non-treated cells was 3.1%. Numerical data are shown as average &#xB1; SD. Statistical significance for Western blot and immunofluorescence data was determined by t-test.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-05-00035-g006.tif"/>
+      </fig>
+      <fig id="cells-05-00035-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Intestinal keratins K7, K8, K18, K19 and K20 are stress-responsive proteins, which display a pair-wise and context-specific upregulation in response to stress. During acute and chronic DSS-stress, the K7&#x2013;K20 pair is the predominantly overexpressed keratin pair. During murine antibiotic-treatment and in vitro LPS-stress, the keratin pair K8&#x2013;K19 is overexpressed. During aging, all colonic keratins are upregulated, but most robustly K7, K8, K18 and K20.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-05-00035-g007.tif"/>
+      </fig>
+    </sec>
+  </back>
+</article>

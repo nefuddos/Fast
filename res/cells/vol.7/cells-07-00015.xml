@@ -1,0 +1,2079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title-group>
+        <journal-title>Cells</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells7020015</article-id>
+      <article-id pub-id-type="publisher-id">cells-07-00015</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Nutrient Limitation Inactivates Mrc1-to-Cds1 Checkpoint Signalling in <italic>Schizosaccharomyces pombe</italic></article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-4911-2711</contrib-id>
+          <name>
+            <surname>Fletcher</surname>
+            <given-names>Jessica</given-names>
+          </name>
+          <xref rid="af1-cells-07-00015" ref-type="aff">1</xref>
+          <xref rid="af2-cells-07-00015" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Griffiths</surname>
+            <given-names>Liam</given-names>
+          </name>
+          <xref rid="af1-cells-07-00015" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-1450-4774</contrib-id>
+          <name>
+            <surname>Caspari</surname>
+            <given-names>Thomas</given-names>
+          </name>
+          <xref rid="af1-cells-07-00015" ref-type="aff">1</xref>
+          <xref rid="af3-cells-07-00015" ref-type="aff">3</xref>
+          <xref rid="c1-cells-07-00015" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-07-00015"><label>1</label>School of Medical Sciences, Bangor University, Bangor LL57 2UW, UK; <email>j.f.fletcher@swansea.ac.uk</email> (J.F.); <email>lbgriffiths90@gmail.com</email> (L.G.)</aff>
+      <aff id="af2-cells-07-00015"><label>2</label>Medical School, Swansea University, Swansea SA2 8PP, UK</aff>
+      <aff id="af3-cells-07-00015"><label>3</label>Postgraduate Doctoral Studies, Paracelsus Medical University, 5020 Salzburg, Austria</aff>
+      <author-notes>
+        <corresp id="c1-cells-07-00015"><label>*</label>Correspondence: <email>thomas.caspari@pmu.ac.at</email>; Tel.: +43-662-2420-80245</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>23</day>
+        <month>02</month>
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="collection">        <month>02</month>
+        <year>2018</year>
+      </pub-date>
+      <volume>7</volume>
+      <issue>2</issue>
+      <elocation-id>15</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>11</day>
+          <month>02</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>21</day>
+          <month>02</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2018 by the authors.</copyright-statement>
+        <copyright-year>2018</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The <italic>S. pombe</italic> checkpoint kinase, Cds1, protects the integrity of stalled DNA replication forks after its phosphorylation at threonine-11 by Rad3 (ATR). Modified Cds1 associates through its N-terminal forkhead-associated domain (FHA)-domain with Mrc1 (Claspin) at stalled forks. We report here that nutrient starvation results in post-translational changes to Cds1 and the loss of Mrc1. A drop in glucose after a down-shift from 3% to 0.1&#x2013;0.3%, or when cells enter the stationary phase, triggers a sharp decline in Mrc1 and the accumulation of insoluble Cds1. Before this transition, Cds1 is transiently activated and phosphorylated by Rad3 when glucose levels fall. Because this coincides with the phosphorylation of histone 2AX at S129 by Rad3, an event that occurs towards the end of every unperturbed S phase, we suggest that a glucose limitation promotes the exit from the S phase. Since nitrogen starvation also depletes Mrc1 while Cds1 is post-translationally modified, we suggest that nutrient limitation is the general signal that promotes exit from S phase before it inactivates the Mrc1&#x2013;Cds1 signalling component. Why Cds1 accumulates in resting cells while its activator Mrc1 declines is, as yet, unclear but suggests a novel function of Cds1 in non-replicating cells.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>replication</kwd>
+        <kwd>kinase</kwd>
+        <kwd>checkpoint</kwd>
+        <kwd>postmitotic</kwd>
+        <kwd>fission yeast</kwd>
+        <kwd><italic>S. pombe</italic></kwd>
+        <kwd>Cds1</kwd>
+        <kwd>starvation</kwd>
+        <kwd>glucose</kwd>
+        <kwd>nitrogen</kwd>
+        <kwd>cell cycle</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-cells-07-00015" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Glucose limitation is a constant problem for cancer cells as they metabolise this sugar very rapidly to lactate by aerobic glycolysis in the cytoplasm [<xref ref-type="bibr" rid="B1-cells-07-00015">1</xref>,<xref ref-type="bibr" rid="B2-cells-07-00015">2</xref>,<xref ref-type="bibr" rid="B3-cells-07-00015">3</xref>]. The intermediates of aerobic glycolysis feed the anabolic pathways that provide protection from oxidative damage through the synthesis of NADPH [<xref ref-type="bibr" rid="B4-cells-07-00015">4</xref>]. High concentrations of lactate promote DNA repair, rendering cancer cells drug resistant [<xref ref-type="bibr" rid="B5-cells-07-00015">5</xref>]. Whether glucose limitation impacts also on the DNA damage checkpoints is currently unknown.</p>
+      <p><italic>Schizosaccharomyces pombe</italic> provides an excellent opportunity to address this question since fission yeast cells resemble cancer cells in their ability to perform aerobic glycolysis (Warburg effect) [<xref ref-type="bibr" rid="B6-cells-07-00015">6</xref>]. Glucose starvation arrests proliferating <italic>S. pombe</italic> cells transiently in G2 through activation of the Cdc2 (CDK1) inhibitor, Wee1 kinase [<xref ref-type="bibr" rid="B7-cells-07-00015">7</xref>]. How Wee1 detects low glucose concentrations is unknown. Once glucose is exhausted, <italic>S. pombe</italic> cells react like cancer cells with an increase in oxidative stress [<xref ref-type="bibr" rid="B8-cells-07-00015">8</xref>,<xref ref-type="bibr" rid="B9-cells-07-00015">9</xref>]. This coincides with the phosphorylation of the MAP kinase, Sty1/Spc1 (p38), at threonine 171 and tyrosine 173 by the MAPK kinase, Wis1 [<xref ref-type="bibr" rid="B10-cells-07-00015">10</xref>]. Glucose availability is sensed by the cAMP-dependent kinase, Pka1, and it may be this pathway that stimulates Sty1/Spc1 prior to an increase in reactive oxygen [<xref ref-type="bibr" rid="B11-cells-07-00015">11</xref>,<xref ref-type="bibr" rid="B12-cells-07-00015">12</xref>,<xref ref-type="bibr" rid="B13-cells-07-00015">13</xref>]. The starvation signal may alternatively be generated by the cell integrity MAP kinase, PMK1 [<xref ref-type="bibr" rid="B14-cells-07-00015">14</xref>] or the phosphatase, Pyp1 [<xref ref-type="bibr" rid="B11-cells-07-00015">11</xref>,<xref ref-type="bibr" rid="B15-cells-07-00015">15</xref>]. The tyrosine phosphatase, Pyp1, together with its paralogue, Pyp2, dephosphorylates Sty1/Spc1 at Y173 [<xref ref-type="bibr" rid="B15-cells-07-00015">15</xref>]. Intriguingly, both phosphatases also regulate Wee1 [<xref ref-type="bibr" rid="B16-cells-07-00015">16</xref>,<xref ref-type="bibr" rid="B17-cells-07-00015">17</xref>]. Since Wee1 is essential for the starvation-induced G2 arrest [<xref ref-type="bibr" rid="B7-cells-07-00015">7</xref>], Pyp1 and Pyp2 may synchronise the cell cycle through the regulation of Sty1. </p>
+      <p>The DNA damage checkpoint kinases, Cds1 (Chk2) and Chk1, phosphorylate Wee1 to block cell cycle progression in G2 when genotoxic stress is detected. Both kinases are activated by Rad3 (ATR) with only a minor role of the second checkpoint kinase, Tel1 (ATM). Rad3 phosphorylates Cds1 at threonine-11 to promote its association with the replication protein, Mrc1 (Claspin) at stalled DNA replication forks [<xref ref-type="bibr" rid="B18-cells-07-00015">18</xref>]. Chk1 is modified at serine-345 by Rad3 to arrest cell division in G2 when chromosomes are damaged [<xref ref-type="bibr" rid="B19-cells-07-00015">19</xref>]. </p>
+      <p>Evidence for a possible link between glucose homoeostasis and the response to DNA damage has emerged so far from work with <italic>Aspergillus nidulans</italic>, <italic>Saccharomyces cerevisiae</italic> and human cells. In <italic>Aspergillus</italic>, the DNA damage sensor, ATM (Tel1), regulates mitochondrial activities and glucose uptake under starvation conditions [<xref ref-type="bibr" rid="B20-cells-07-00015">20</xref>], while in human cells, cytoplasmic ATM mobilises the intracellular glucose transporter pool in the response to insulin signalling [<xref ref-type="bibr" rid="B21-cells-07-00015">21</xref>]. In <italic>S.cerevisiae</italic>, ATR (Mec1) and Tel1 reduce the respiration rate of mitochondria in unchallenged cells and in the presence of DNA lesions, which suggests that checkpoint activation promotes aerobic glycolysis in the cytoplasm [<xref ref-type="bibr" rid="B22-cells-07-00015">22</xref>]. </p>
+      <p>Our results reveal a novel link between glucose availability and Cds1 kinase. A sudden drop in glucose levels or entry into the stationary phase results in the loss of Mrc1 and the accumulation of insoluble and post-translationally changed Cds1 protein. These events occur after transient activation and phosphorylation of Cds1 by Rad3 when glucose levels fall during cell replication. Since the Rad3 dependent phosphorylation of histone 2AX at S129 coincides with the brief activation of Cds1, it is possible that cells try to exit DNA replication after a sudden withdrawal of glucose. We also show that nitrogen starvation, which initiates an exit from G1, results in similar changes to Mrc1 and Cds1. Taken together, this implies that nutrient limitation breaks up the Mrc1-Cds1 checkpoint unit when cells exit the cell cycle. </p>
+    </sec>
+    <sec id="sec2-cells-07-00015" sec-type="results">
+      <title>2. Results</title>
+      <sec id="sec2dot1-cells-07-00015">
+        <title>2.1. Glucose Starvation Transiently Activates Cds1</title>
+        <p>We became interested in a link between Cds1 and glucose levels by a change observation. Fission yeast cells enter the stationary phase from G2 when glucose becomes limiting [<xref ref-type="bibr" rid="B10-cells-07-00015">10</xref>,<xref ref-type="bibr" rid="B23-cells-07-00015">23</xref>]. A Western blot analysis of total protein extracts from growing and stationary cultures revealed a sharp rise in Cds1 levels in post-mitotic cells while the amounts of Mrc1 and Chk1 both declined (<xref ref-type="fig" rid="cells-07-00015-f001">Figure 1</xref>a). This was unexpected because Cds1 has so far only been associated with DNA replication in growing cells. </p>
+        <p>To test whether Cds1 responds to changes in the glucose concentration, we shifted growing <italic>cds1-HA<sub>2</sub>His<sub>6</sub></italic> cells [<xref ref-type="bibr" rid="B24-cells-07-00015">24</xref>] from 3% (166 mM) to 0.3% glucose in rich medium at 30 &#xB0;C. The missing glucose molecules were replaced by 2.7% sorbitol, an inert carbon source, to avoid hypo-osmotic shock [<xref ref-type="bibr" rid="B25-cells-07-00015">25</xref>]. Cells continued to divide for approximately 150 min after the shift before the septation index started to drop (<xref ref-type="fig" rid="cells-07-00015-f001">Figure 1</xref>b). The delayed decline in the septation index of cells without Cds1 (<italic>&#x394;cds1</italic>) was not reproducible and was neither different from wild type, nor from cells lacking Rad3 or Tel1 (<xref ref-type="app" rid="app1-cells-07-00015">Figure S1a</xref>). We then analysed Cds1 protein levels, its in vitro kinase activity and phosphorylation patterns on a phos-tag SDS page and by isoelectric focusing (IF). While the phos-tag reagent slows down the mobility of phosphorylated proteins on the SDS page, IF detects any post-translational modifications that change the overall charge of the protein. </p>
+        <p>Shortly before the septation index declined, around 2 h post-shift, two truncated bands of Cds1 accumulated (<xref ref-type="fig" rid="cells-07-00015-f001">Figure 1</xref>c). Since the HA<sub>2</sub>His<sub>6</sub> tag resides at the C-terminus, it is likely that both bands lack their N-termini. Informed by the presence of an internal translational start site in the <italic>S. pombe rad9</italic> checkpoint gene (M50) [<xref ref-type="bibr" rid="B26-cells-07-00015">26</xref>], we individually mutated the methionine codons in the <italic>cds1</italic> gene to alanine using the Cre-lox gene replacement method [<xref ref-type="bibr" rid="B27-cells-07-00015">27</xref>]. Only the mutation, M159A, that replaces the methionine residue between the forkhead-associated (FHA) and kinase domains (<xref ref-type="app" rid="app1-cells-07-00015">Figure S2c,d</xref>) prevented the appearance of the two inducible bands under glucose limitation conditions (<xref ref-type="app" rid="app1-cells-07-00015">Figure S2e</xref>). This strongly suggests that AUG-159 is utilized as an internal translational start site when glucose becomes limiting. It also implies that the second, larger band is a modified form of the inducible M159 variant. We were, however, not able to identify a biological function for this variant, as <italic>cds1-M159A</italic> mutant cells display no phenotype under starvation conditions. </p>
+        <p>The in vitro kinase assay revealed a weak and transient activation of Cds1, approximately 2 h after the down-shift to 0.3% glucose that was abolished in the kinase-dead <italic>cds1</italic> mutant (D312E) (<xref ref-type="fig" rid="cells-07-00015-f001">Figure 1</xref>d and <xref ref-type="app" rid="app1-cells-07-00015">Figure S1b</xref>). This activation was significantly lower compared to cells that were treated with the replication inhibitor, hydroxyurea, for 2 h (<xref ref-type="fig" rid="cells-07-00015-f001">Figure 1</xref>d), suggesting that glucose limitation does not cause a strong DNA replication block. It was, however, intriguing to see that the phosphorylation of histone 2AX at S129 by Rad3 also transiently peaked 2 h post-shift (<xref ref-type="fig" rid="cells-07-00015-f001">Figure 1</xref>c,g). Although this chromatin mark has been linked with DNA double strand breaks, it also increases during the unperturbed S phase [<xref ref-type="bibr" rid="B28-cells-07-00015">28</xref>]. Consistent with this report, we also detected a sharp rise in H2AX-S129 phosphorylation when synchronised cells were released back into the cell cycle from their mitotic <italic>nda3.KM311</italic> arrest. The <italic>nda3.KM311</italic> mutant gene encodes a cold-sensitive beta-tubulin protein that reversibly blocks spindle formation in mitosis [<xref ref-type="bibr" rid="B29-cells-07-00015">29</xref>]. Since our data show that the modification peak of H2AX coincides with the end of the S phase (<xref ref-type="app" rid="app1-cells-07-00015">Figure S2a,b</xref>), we concluded that a decline in glucose increases the number of forks that exit DNA replication. The weak activation of Cds1 may, therefore, indicate a role of the kinase in the coordination of the exit from S phase under nutrient starvation conditions. This conclusion is supported by the finding that the deletion of <italic>cds1</italic> (<italic>&#x394;cds1</italic>) delayed the peak of H2AX-S129 phosphorylation by 2 h (<xref ref-type="fig" rid="cells-07-00015-f001">Figure 1</xref>g). Hence, a loss of Cds1 may prolong the time replication forks need to terminate S phase when glucose becomes limiting. </p>
+        <p>The results from the phos-tag assay were also in line with the transient activation of Cds1, 2 h post-shift, as Cds1 was highly phosphorylated at this time point (band 5 in <xref ref-type="fig" rid="cells-07-00015-f001">Figure 1</xref>e). Consistent with these observations, the IF assay showed the appearance of two more negatively charged forms of Cds1, 2 h post-shift (<xref ref-type="fig" rid="cells-07-00015-f001">Figure 1</xref>f, bottom panel). In addition to the phosphorylation of Cds1, the pattern of the three less negatively charged forms of Cds1, which were detected under normal glucose conditions (<xref ref-type="fig" rid="cells-07-00015-f001">Figure 1</xref>f, No. 1, 2 and 3, top panel, 3% glucose), also changed when glucose was reduced. This suggests that further post-translational modifications affect Cds1, which are distinct from phosphorylation events. </p>
+        <p>Taken together, these findings support a model in which a decline in glucose results in the activation of Cds1 upon its phosphorylation by Rad3 and that this event is linked with the exit from DNA replication. This event is, however, different from a block of DNA replication by hydroxyurea (HU), as the latter very strongly activates Cds1 (<xref ref-type="fig" rid="cells-07-00015-f001">Figure 1</xref>d) and causes a much more pronounced hyper-phosphorylation of the kinase as detected in the IF assay (<xref ref-type="fig" rid="cells-07-00015-f001">Figure 1</xref>f, middle panel) and by phos-tag analysis (<xref ref-type="fig" rid="cells-07-00015-f002">Figure 2</xref>a). The three less negatively charged forms of Cds1 (<xref ref-type="fig" rid="cells-07-00015-f001">Figure 1</xref>f, No 1&#x2013;3) all disappeared upon HU treatment giving way to a large number of more negatively charged, phosphorylated spots in the IF test.</p>
+      </sec>
+      <sec id="sec2dot2-cells-07-00015">
+        <title>2.2. Low Glucose Concentrations Terminate Cds1 Activation</title>
+        <p>DNA replication is an energy consuming process that requires a steady supply of glucose [<xref ref-type="bibr" rid="B30-cells-07-00015">30</xref>]. We used HU-induced activation of Cds1 via Mrc1 as an assay to find out when cells would stop DNA replication after the down-shift. Cds1-HA<sub>2</sub>His<sub>6</sub> cells were shifted from 3% to 0.3% glucose and exposed to 12 mM HU or 0.5 mM t-butylhydroxyperoxide (tBOOH) at 2 h and 6 h after the reduction in this sugar. While HU stops DNA replication by depleting the nucleotide pool, tBOOH generates oxidative stress. The analysis of total protein extracts on the phos-tag SDS page revealed several highly phosphorylated bands of Cds1 (including band 5) after HU treatment in a normal medium (3%) and 2 h post-shift (<xref ref-type="fig" rid="cells-07-00015-f002">Figure 2</xref>a). This strong modification of Cds1 is in line with the earlier IF experiment (<xref ref-type="fig" rid="cells-07-00015-f001">Figure 1</xref>f, middle panel). tBOOH also activated Cds1, but to a lesser extent. Both chemicals lost, however, their stimulating activities 6 h post-shift, as Cds1 remained unmodified (<xref ref-type="fig" rid="cells-07-00015-f002">Figure 2</xref>a). This result implies that asynchronous cells stopped replicating between 2 h and 6 h after the drop in glucose levels. We also monitored the dual phosphorylation of the MAP kinase, Sty1/Spc1, at T171 and Y173 in the same samples as a marker of oxidative stress. While tBOOH promoted the dual modification independently of the glucose concentration, we noticed a significant drop in the basal Sty1/Spc1 phosphorylation under glucose starvation conditions (<xref ref-type="fig" rid="cells-07-00015-f002">Figure 2</xref>a, bottom panel, <xref ref-type="app" rid="app1-cells-07-00015">Figure S1c</xref>). Interestingly, the shorter Cds1 form was detectable after tBOOH treatment and in all samples 6 h post-shift (<xref ref-type="fig" rid="cells-07-00015-f002">Figure 2</xref>a, middle panel). To test our conclusion that DNA replication stops 6 h post-shift, we analysed the Rad3-dependent phosphorylation of Chk1 at S345 (<italic>chk1-HA<sub>3</sub></italic>) that is easily detected as a mobility shift [<xref ref-type="bibr" rid="B19-cells-07-00015">19</xref>]. This shift was present under all conditions after the addition of tBOOH but disappeared 6 h post-shift when DNA replication forks were damaged with the topoisomerase 1 inhibitor, camptothecin (CPT) (<xref ref-type="fig" rid="cells-07-00015-f002">Figure 2</xref>b). CPT affects cells only in S phase, when replication forks collide with immobilised Top1-DNA complexes [<xref ref-type="bibr" rid="B31-cells-07-00015">31</xref>]. This confirms the absence of replicating cells 6 h after glucose withdrawal. We then repeated the experiment with the <italic>cds1-HA<sub>2</sub>His<sub>6</sub></italic> strain to map, more closely, when cells cease S phase, and to analyse the amounts of Mrc1. Cds1 phosphorylation declined when HU was added 4 h post-shift, the same time as Mrc1 levels started to go down (<xref ref-type="fig" rid="cells-07-00015-f002">Figure 2</xref>c). The loss of Mrc1 was more pronounced when cells were shifted from 3% to 0.1% glucose (<xref ref-type="app" rid="app1-cells-07-00015">Figure S1c</xref>) and was independent of Cds1 (<xref ref-type="app" rid="app1-cells-07-00015">Figure S1d</xref>). </p>
+        <p>Since Cds1 monitors DNA replication in the nucleus [<xref ref-type="bibr" rid="B32-cells-07-00015">32</xref>], we tested whether low glucose affects its cellular localisation. Indirect immunofluorescence microscopy of Cds1-Myc<sub>13</sub> cells showed an interesting decline in the nuclear antibody signal between 4 h and 6 h post-shift (<xref ref-type="fig" rid="cells-07-00015-f002">Figure 2</xref>d). The loss of Cds1 from the nucleus could either indicate translocation to the cytoplasm or that the Myc-epitope becomes inaccessible inside the nucleus. Given the close link between Cds1 and its upstream kinases, Rad3 (ATR) and Tel1 (ATM) [<xref ref-type="bibr" rid="B18-cells-07-00015">18</xref>], we also analysed the abundance of both proteins in glucose-starved Myc-Rad3 and HA-Tel1 strains. While Rad3 levels remained largely unchanged, the amount of Tel1 was increased at 6 h and 24 h post-shift, coinciding with the disappearance of Mrc1 (<xref ref-type="fig" rid="cells-07-00015-f002">Figure 2</xref>e). Tel1 is, however, not required for the decline in Mrc1 protein levels (<xref ref-type="app" rid="app1-cells-07-00015">Figure S1d</xref>). This data set supports a model in which a sudden drop in glucose suppresses DNA replication&#x2014;an early event, which is then followed by a decline in Mrc1 levels and post-translational changes to Cds1 when cells exit the cell cycle from G2. </p>
+      </sec>
+      <sec id="sec2dot3-cells-07-00015">
+        <title>2.3. Cds1 Undergoes a Transformation in the Stationary Phase</title>
+        <p>To exclude the possibility that the changes affecting Cds1 are limited to the sudden removal of glucose, we followed Cds1-HA<sub>2</sub>His<sub>6</sub> cells while they slowly metabolised this sugar during their transition from logarithmic growth into the stationary phase. Cells maintained their viability for up to 8 days in rich medium, and deletion of <italic>cds1</italic> had no impact on cell survival (<xref ref-type="fig" rid="cells-07-00015-f003">Figure 3</xref>a). Consistent with the earlier tests, the nuclear Cds1 signal was lost after 1 day of growth (<xref ref-type="fig" rid="cells-07-00015-f003">Figure 3</xref>b). After 2 days, the N-terminally truncated form appeared (<xref ref-type="fig" rid="cells-07-00015-f003">Figure 3</xref>c, top panel), and the kinase became insoluble (<xref ref-type="fig" rid="cells-07-00015-f003">Figure 3</xref>d). After 3 days, high molecular weight forms of Cds1 started to accumulate (<xref ref-type="fig" rid="cells-07-00015-f003">Figure 3</xref>c, top panel). These findings support the earlier notion that a drop in glucose induces post-translational changes in Cds1, including the activation of the cryptic translational start site at M159 (<xref ref-type="app" rid="app1-cells-07-00015">Figure S2e</xref>). </p>
+        <p>We also subjected total protein extracts of Cds1-HA<sub>2</sub>His<sub>6</sub> cells to IF after 1 day of growth (stationary phase) and observed similar changes as after the sudden removal of glucose. One more negatively charged species of Cds1 appeared in stationary cells, while two of the three more positively charged forms were lost (<xref ref-type="fig" rid="cells-07-00015-f003">Figure 3</xref>e, No 1 + 2). The drop in the nuclear signal and the changes in the post-translational modification pattern correlated with a steep decline in Mrc1 levels after 1 day of growth (<xref ref-type="fig" rid="cells-07-00015-f003">Figure 3</xref>c, bottom panel). The dual phosphorylation of Sty1/Spc1 dropped initially as after the acute removal of glucose but started to accumulate again on the third day in the stationary phase (<xref ref-type="fig" rid="cells-07-00015-f003">Figure 3</xref>c, middle panel). </p>
+        <p>These results confirm the earlier findings and strongly suggest that Cds1 undergoes significant changes when cells exit the cell cycle in the response to glucose starvation. </p>
+      </sec>
+      <sec id="sec2dot4-cells-07-00015">
+        <title>2.4. Nitrogen Starvation Causes Similar Changes to Cds1 and Mrc1</title>
+        <p>Although our data are consistent with a role of glucose in the regulation of Cds1, we could not rule out that the latter events are an indirect outcome of a starvation-induced cell cycle exit. Since fission yeast cells enter the stationary phase from G2 after glucose withdrawal [<xref ref-type="bibr" rid="B23-cells-07-00015">23</xref>], we also investigated Cds1 in nitrogen starved cells, as they exit from G1 to allow the onset of sexual differentiation [<xref ref-type="bibr" rid="B33-cells-07-00015">33</xref>]. After the removal of all auxotrophic markers from the <italic>cds1-HA<sub>2</sub>His<sub>6</sub></italic> strain, cells were first grown overnight at 30 &#xB0;C in minimal medium with nitrogen and then resuspended in the medium without this nutrient. As reported previously [<xref ref-type="bibr" rid="B34-cells-07-00015">34</xref>], cells underwent two consecutive cell cycle rounds within 8 h after the shift (<xref ref-type="fig" rid="cells-07-00015-f004">Figure 4</xref>a). Soon after the removal of nitrogen (1 h post-shift), we noticed the shorter Cds1 variant and a strong increase in phospho-band number 3 of Cds1 in the total protein extracts. Interestingly, the phospho-band 3 appeared to be specific to nitrogen starvation (<xref ref-type="fig" rid="cells-07-00015-f004">Figure 4</xref>h). Both changes remained present throughout the time course (<xref ref-type="fig" rid="cells-07-00015-f004">Figure 4</xref>b). While Mrc1 levels peaked during the first cell division, 1 h post-shift (<xref ref-type="fig" rid="cells-07-00015-f004">Figure 4</xref>b, top panel), as did the S129 phosphorylation of histone 2AX (<xref ref-type="fig" rid="cells-07-00015-f004">Figure 4</xref>d), the amounts of Mrc1 stayed very low during the second cycle (<xref ref-type="fig" rid="cells-07-00015-f004">Figure 4</xref>b, top panel). This decline could be because the last (second) S phase before meiosis differs from a normal mitotic round of DNA replication [<xref ref-type="bibr" rid="B35-cells-07-00015">35</xref>]. In contrast to glucose starvation, the MAP kinase, Sty1/Spc1, was highly phosphorylated at T171 and Y173 throughout the time course (<xref ref-type="fig" rid="cells-07-00015-f004">Figure 4</xref>b,g). This high level of MAP kinase activation is typical for cells grown in minimal medium [<xref ref-type="bibr" rid="B36-cells-07-00015">36</xref>]. When we tested the responsiveness of Mrc1-to-Cds1 signalling by adding 12 mM HU, either before the first cycle (20 min after nitrogen removal) or prior to the second round (4 h after nitrogen removal), Cds1 phosphorylation was clearly reduced in total protein extracts during the second cycle when Mrc1 levels were low (<xref ref-type="fig" rid="cells-07-00015-f004">Figure 4</xref>c). We then analysed soluble protein extracts of <italic>cds1-HA<sub>2</sub>His<sub>6</sub></italic> cells on an SDS page with and without phos-tag. Consistent with the earlier findings, we detected a reduction in Cds1 phosphorylation at the time of the second cycle. Seven hours post-shift, the Cds1 band became a double band, an event that coincided with the loss of a slower migrating, phosphorylated band in the presence of the phos-tag agent (<xref ref-type="fig" rid="cells-07-00015-f004">Figure 4</xref>e). This subtle dephosphorylation continued for the next three days in minimal medium without nitrogen (<xref ref-type="fig" rid="cells-07-00015-f004">Figure 4</xref>e,f). The truncated Cds1 band appeared 24 h after the removal of nitrogen in the soluble extract and continued to accumulate in resting cells (<xref ref-type="fig" rid="cells-07-00015-f004">Figure 4</xref>e,f). Cells without Cds1 maintained viability throughout the experiment (<xref ref-type="fig" rid="cells-07-00015-f004">Figure 4</xref>i). </p>
+        <p>In summary, these findings argue that most key changes to Cds1 and Mrc1 are a more general response to nutrient limitation and the subsequent exit from the cell cycle. Why Cds1 accumulates in post-mitotic cells, while Mrc1 disappears, remains to be understood, since cells without Cds1 do not lose viability under starvation conditions. The cellular functions of the inducible, N-terminal truncated form of Cds1 are also still enigmatic as the Cds1-M159A strain displays no starvation-related phenotypes. Although nutrient limitation or the resulting cell cycle exit appear to be the general signal, there were some differences between glucose and nitrogen starvation. The high molecular weight forms of the kinase accumulated only under glucose limitation conditions, whereas phospho-band 3 appeared only in the absence of nitrogen.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-cells-07-00015" sec-type="discussion">
+      <title>3. Discussion</title>
+      <p>This work identified a novel link between nutrient availability and the termination of Mrc1-to-Cds1 signalling. Glucose starvation initially triggers the transient phosphorylation and activation of Cds1 that coincides with the modification of histone 2AX at S129 by Rad3 2h after the down-shift (<xref ref-type="fig" rid="cells-07-00015-f001">Figure 1</xref>). Since Cds1 is phosphorylated at stalled DNA replication forks and H2AX towards the end of S phase [<xref ref-type="bibr" rid="B28-cells-07-00015">28</xref>,<xref ref-type="bibr" rid="B37-cells-07-00015">37</xref>] (<xref ref-type="app" rid="app1-cells-07-00015">Figure S2b</xref>), it is quite possible that a glucose shortage increases the number of replication forks that exit S phase. Such a synchronising effect was observed in bacteria, where DNA replication stops when nutrients become limiting [<xref ref-type="bibr" rid="B38-cells-07-00015">38</xref>] and in <italic>S. cerevisiae</italic>, where fork elongation slows down as a starvation response [<xref ref-type="bibr" rid="B39-cells-07-00015">39</xref>]. Prolonged starvation of <italic>S. pombe</italic> cells leads to the removal of Mrc1 (<xref ref-type="fig" rid="cells-07-00015-f002">Figure 2</xref>c,e and <xref ref-type="app" rid="app1-cells-07-00015">Figure S1c,d</xref>), the protein that couples Cds1 to stalled DNA replication forks. This transition occurs between 4 h and 6 h post-shift when DNA replication stops (<xref ref-type="fig" rid="cells-07-00015-f002">Figure 2</xref>c). The nuclear signal of Cds1 also declines during this time (<xref ref-type="fig" rid="cells-07-00015-f002">Figure 2</xref>d) suggesting that the kinase either moves to the cytoplasm or undergoes modifications inside the nucleus. Once cells enter the stationary phase, no nuclear Cds1 signal is detectable (<xref ref-type="fig" rid="cells-07-00015-f003">Figure 3</xref>b), and high molecular weight forms of Cds1 accumulate (<xref ref-type="fig" rid="cells-07-00015-f003">Figure 3</xref>c). Why stationary cells acquire large amounts of Cds1 in the absence of its activator Mrc1 remains to be explained. Cds1 is not important for viability (<xref ref-type="fig" rid="cells-07-00015-f003">Figure 3</xref>a) and not required for the induction of the glucose transporters, Ght4 and Ght5 (<xref ref-type="app" rid="app1-cells-07-00015">Figure S3</xref>). We tested both transport proteins, as their expression is induced when cells enter the stationary phase [<xref ref-type="bibr" rid="B40-cells-07-00015">40</xref>]. </p>
+      <p>How a glucose shortage initiates this transition is not yet clear. This could be an indirect consequence of an exit from DNA replication which then triggers a breakdown of Mrc1 when cells arrest in G2. Mrc1 is a labile protein that oscillates during the cycle with a peak in S phase [<xref ref-type="bibr" rid="B41-cells-07-00015">41</xref>]. The changes in the post-translational modification pattern of Cds1 2 h post shift (<xref ref-type="fig" rid="cells-07-00015-f001">Figure 1</xref>f) and in the stationary phase (<xref ref-type="fig" rid="cells-07-00015-f003">Figure 3</xref>e), which are distinct from its Mrc1-dependent modification at stalled forks, support a model in which Cds1 becomes a target of a kinase. The AMP-activated protein kinase, Snf1/Ssp2, is a strong candidate for such a regulator. The subunit, Snf4, of this key glucose sensor is genetically linked with Cds1 (Chk2) during eye development in <italic>Drosophila</italic> [<xref ref-type="bibr" rid="B42-cells-07-00015">42</xref>]. Intriguingly, <italic>S. pombe</italic> Snf1/Ssp2 interacts physically with the replication ATPase, Mgt1 [<xref ref-type="bibr" rid="B43-cells-07-00015">43</xref>] ,which could provide a link between the exit from DNA replication and glucose sensing. Hence, an exit from DNA replication in the response to nutrient limitation could activate Snf1/Ssp2 kinase which, subsequently, phosphorylates Cds1. It should, however, also be noted that such a regulation could go through a phosphatase as a second Cds1 pool becomes more positively charged, which indicates a loss of negatively charged phosphate groups (<xref ref-type="fig" rid="cells-07-00015-f001">Figure 1</xref>f and <xref ref-type="fig" rid="cells-07-00015-f003">Figure 3</xref>e). </p>
+      <p>From the group of DNA damage checkpoint proteins, only ATM (Tel1) and ATR (Rad3, Mec1) have, so far, been linked with the regulation of glucose homoeostasis. Human ATM locates to the cytoplasm to activate the glucose transport proteins, GLUT1 and GLUT4 [<xref ref-type="bibr" rid="B21-cells-07-00015">21</xref>,<xref ref-type="bibr" rid="B44-cells-07-00015">44</xref>]. <italic>Aspergillus</italic> ATM regulates mitochondrial functions and glucose uptake under starvation conditions [<xref ref-type="bibr" rid="B20-cells-07-00015">20</xref>]. In <italic>S. cerevisiae</italic>, ATM (Tel1) and ATR (Mec1) modulate the activity of Snf1/Ssp2 kinase indirectly via the SUMO E3 ligase Mms21, to control glucose fermentation [<xref ref-type="bibr" rid="B22-cells-07-00015">22</xref>]. Mec1 (ATR) is also phosphorylated by Snf1/Ssp2 on the mitochondrial surface to recruit Atg1 which ensures mitochondrial respiration during glucose starvation [<xref ref-type="bibr" rid="B45-cells-07-00015">45</xref>]. Taken together, these findings are in line with our hypothesis that the AMP-activated protein kinase, Snf1/Ssp2, is a strong candidate as the regulator of Cds1 under glucose limiting conditions. It should also be noted that the protein levels of Tel1 (ATM) increase after a sudden drop in glucose availability (<xref ref-type="fig" rid="cells-07-00015-f002">Figure 2</xref>e).</p>
+      <p>The changes to Cds1 are not specific to glucose scarcity as nitrogen starvation induces similar events. One pool of Cds1 becomes phosphorylated (band 3 in <xref ref-type="fig" rid="cells-07-00015-f004">Figure 4</xref>b,h), while a second pool, the soluble kinase, is dephosphorylated (<xref ref-type="fig" rid="cells-07-00015-f004">Figure 4</xref>e,f). The phospho-form number 3 appears to be unique to nitrogen limitation (<xref ref-type="fig" rid="cells-07-00015-f004">Figure 4</xref>h) and the amount of insoluble kinase is also lower than under glucose limitation conditions. Also Mrc1 levels drop after extended nitrogen shortage as they do when glucose becomes scarce. The two Target of Rapamycin (TOR) kinases, Tor1 and Tor2, are good candidates for the regulation of Cds1 under nitrogen limitation and perhaps also under glucose starvation conditions, as they are regulated by the availability of both nutrients [<xref ref-type="bibr" rid="B46-cells-07-00015">46</xref>,<xref ref-type="bibr" rid="B47-cells-07-00015">47</xref>] and converge on the same down-stream targets [<xref ref-type="bibr" rid="B48-cells-07-00015">48</xref>]. </p>
+      <p>In summary, our results support a novel, but yet unknown, role of the DNA replication checkpoint kinase, Cds1, in post-mitotic cells under nutrient limiting conditions. Further work is, however, required to identify this role and to dissect how nutrient limitation terminates Mrc1-to-Cds1 signalling.</p>
+    </sec>
+    <sec id="sec4-cells-07-00015">
+      <title>4. Materials and Methods</title>
+      <sec id="sec4dot1-cells-07-00015">
+        <title>4.1. Yeast Strains</title>
+        <p>The genotype of the strains used in this study was <italic>ade6-M210 leu1-32 ura4-D18</italic>. The <italic>rad3</italic> gene was deleted with the <italic>ade6+</italic> gene, the genes <italic>cds1</italic>, <italic>sty1</italic> and <italic>rad26</italic> gene were deleted with <italic>ura4+</italic> and the <italic>tel1</italic> gene was deleted with <italic>leu2+</italic>. The following strains were used: cds1-HA<sub>2</sub>His<sub>6</sub>&#x2237;ura4+, cds1-T8A+T11A-HA<sub>2</sub>His<sub>6</sub>, cds1-T332A-HA<sub>2</sub>His<sub>6</sub> [<xref ref-type="bibr" rid="B18-cells-07-00015">18</xref>], cds1-M159A-HA<sub>2</sub>His<sub>6</sub> (this study), <italic>cds1-D312E-HA<sub>2</sub>His<sub>6</sub></italic>, <italic>cds1-Myc<sub>13</sub></italic> [<xref ref-type="bibr" rid="B49-cells-07-00015">49</xref>] <italic>chk1-HA<sub>3</sub></italic> [<xref ref-type="bibr" rid="B50-cells-07-00015">50</xref>], Myc-Rad3 and HA-Tel1 [<xref ref-type="bibr" rid="B51-cells-07-00015">51</xref>], Dfp1-His<sub>6</sub>HA<sub>3</sub> <italic>nda3.KM311</italic> [<xref ref-type="bibr" rid="B52-cells-07-00015">52</xref>], Ght4-GFP and Ght5-GFP [<xref ref-type="bibr" rid="B40-cells-07-00015">40</xref>].</p>
+      </sec>
+      <sec id="sec4dot2-cells-07-00015">
+        <title>4.2. Media</title>
+        <p>The glucose experiments were performed in yeast extract-adenine (YEA) medium (3% glucose, 0.5% yeast extract, 100 mg/L adenine) at 30 &#xB0;C. The shift medium contained 0.1&#x2013;0.3% glucose, 2.9&#x2013;2.7% sorbitol, 0.5% yeast extract and 100 mg/L adenine. Nitrogen starvation experiments were performed in minimal medium (3% glucose, 0.67% yeast nitrogen base with or without ammonium sulphate (Formedium)) at 30 &#xB0;C.</p>
+      </sec>
+      <sec id="sec4dot3-cells-07-00015">
+        <title>4.3. Phos-tag SDS Page</title>
+        <p>Phos-tag gels (6%) were prepared and run as reported in [<xref ref-type="bibr" rid="B53-cells-07-00015">53</xref>]. The gel was prepared with phos-tag acrylamide (AAL-107, Wako Ltd., Hong Kong, China). </p>
+      </sec>
+      <sec id="sec4dot4-cells-07-00015">
+        <title>4.4. Isoelectric Focusing (IF)</title>
+        <p>IF experiments were performed on linear strips of pH 3&#x2013;10 (Biorad, Hercules, CA, USA, rapid &#x394;V), as described in [<xref ref-type="bibr" rid="B53-cells-07-00015">53</xref>]. The strips used were IEF Dry Strips, pH 3&#x2013;10, linear (Biorad, 163&#x2013;2000).</p>
+      </sec>
+      <sec id="sec4dot5-cells-07-00015">
+        <title>4.5. In Vitro Kinase Assay</title>
+        <p>Cds1 activity was measured as performed in [<xref ref-type="bibr" rid="B37-cells-07-00015">37</xref>] using anti-HA (haemagglutinin) magnetic beads (Pierce, 88836).</p>
+      </sec>
+      <sec id="sec4dot6-cells-07-00015">
+        <title>4.6. Survival Assays</title>
+        <p>The drop tests assays used are described in [<xref ref-type="bibr" rid="B54-cells-07-00015">54</xref>].</p>
+      </sec>
+      <sec id="sec4dot7-cells-07-00015">
+        <title>4.7. Indirect Immunofluorescence Microscopy </title>
+        <p>Cds1-Myc<sub>13</sub> was detected as reported in [<xref ref-type="bibr" rid="B55-cells-07-00015">55</xref>].</p>
+      </sec>
+      <sec id="sec4dot8-cells-07-00015">
+        <title>4.8. Cell Synchronisation</title>
+        <p>The <italic>nda3.KM311</italic> mitotic arrest was performed in rich medium as reported in [<xref ref-type="bibr" rid="B29-cells-07-00015">29</xref>]. S phase is indicated by the phosphorylation peak of Dfp1 [<xref ref-type="bibr" rid="B52-cells-07-00015">52</xref>].</p>
+      </sec>
+      <sec id="sec4dot9-cells-07-00015">
+        <title>4.9. Antibodies</title>
+        <p>The antibodies used were as follows: anti-HA antibody (BioScource, Covance MMS-101P-200), anti-Mrc1 antibody (ABCAM, ab188269), anti-Cdc2 antibody (ab5467), anti-Sty1/p38 T171-P + Y173-P (ABCAM ab4822), anti-histone 2AX-S129-P antibody (ab17576), anti-Rad4/Cut5 antibody (ab79775), anti-Myc antibody (Santa Cruz SC-40), secondary mouse-HRP (Dako, Beijing, China, P0447), secondary rabbit-HRP (Dako, P0217) and secondary-goat anti-mouse-Alexa Fluor 488 (Molecular Probe A-11029).</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-cells-07-00015">
+        <title>Supplementary Materials</title>
+        <p>The following are available online at <uri>http://www.mdpi.com/2073-4409/7/2/15/s1</uri>.</p>
+		<supplementary-material id="cells-07-00015-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00015-s001.pdf"></supplementary-material>
+      </app>
+    </app-group>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>This work was funded by the Core Teaching Grant to Bangor University from the Higher Education Funding Council for Wales (HEFCW). The authors would like to thank Toni Carr, Paul Russell and Thomas Kelly for supplying strains.</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>J.F. and L.G. performed some experiments. T.C. performed most experiments, designed the study and analysed the results.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>No competing interest declared.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-07-00015">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hirayama</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kami</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Sugimoto</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sugawara</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Toki</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Onozuka</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Kinoshita</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Saito</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Ochiai</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Tomita</surname>
+              <given-names>M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Quantitative metabolome profiling of colon and stomach cancer microenvironment by capillary electrophoresis time-of-flight mass spectrometry</article-title>
+          <source>Cancer Res.</source>
+          <year>2009</year>
+          <volume>69</volume>
+          <fpage>4918</fpage>
+          <lpage>4925</lpage>
+          <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-08-4806</pub-id>
+          <pub-id pub-id-type="pmid">19458066</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-cells-07-00015">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liberti</surname>
+              <given-names>M.V.</given-names>
+            </name>
+            <name>
+              <surname>Locasale</surname>
+              <given-names>J.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Warburg Effect: How Does it Benefit Cancer Cells?</article-title>
+          <source>Trends Biochem. Sci.</source>
+          <year>2016</year>
+          <volume>41</volume>
+          <fpage>211</fpage>
+          <lpage>218</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tibs.2015.12.001</pub-id>
+          <pub-id pub-id-type="pmid">26778478</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-cells-07-00015">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Warburg</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>On respiratory impairment in cancer cells</article-title>
+          <source>Science</source>
+          <year>1956</year>
+          <volume>124</volume>
+          <fpage>269</fpage>
+          <lpage>270</lpage>
+          <pub-id pub-id-type="pmid">13351639</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-cells-07-00015">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gorrini</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Harris</surname>
+              <given-names>I.S.</given-names>
+            </name>
+            <name>
+              <surname>Mak</surname>
+              <given-names>T.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Modulation of oxidative stress as an anticancer strategy</article-title>
+          <source>Nat. Rev. Drug Discov.</source>
+          <year>2013</year>
+          <volume>12</volume>
+          <fpage>931</fpage>
+          <lpage>947</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrd4002</pub-id>
+          <pub-id pub-id-type="pmid">24287781</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-cells-07-00015">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wagner</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Ciszewski</surname>
+              <given-names>W.M.</given-names>
+            </name>
+            <name>
+              <surname>Kania</surname>
+              <given-names>K.D.</given-names>
+            </name>
+          </person-group>
+          <article-title><sc>l</sc>- and <sc>d</sc>-lactate enhance DNA repair and modulate the resistance of cervical carcinoma cells to anticancer drugs via histone deacetylase inhibition and hydroxycarboxylic acid receptor 1 activation</article-title>
+          <source>Cell. Commun. Signal.</source>
+          <year>2015</year>
+          <volume>13</volume>
+          <pub-id pub-id-type="doi">10.1186/s12964-015-0114-x</pub-id>
+          <pub-id pub-id-type="pmid">26208712</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-cells-07-00015">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Flores</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Rodr&#xED;guez</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Petit</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Gancedo</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Carbohydrate and energy-yielding metabolism in non-conventional yeasts</article-title>
+          <source>FEMS Microbiol. Rev.</source>
+          <year>2000</year>
+          <volume>24</volume>
+          <fpage>507</fpage>
+          <lpage>529</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0168-6445(00)00037-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-cells-07-00015">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Masuda</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Ishii</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mori</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Uehara</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Yanagida</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Takeda</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Saitoh</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Glucose restriction induces transient G2 cell cycle arrest extending cellular chronological lifespan</article-title>
+          <source>Sci. Rep.</source>
+          <year>2016</year>
+          <volume>6</volume>
+          <fpage>19629</fpage>
+          <pub-id pub-id-type="doi">10.1038/srep19629</pub-id>
+          <pub-id pub-id-type="pmid">26804466</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-cells-07-00015">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+            <name>
+              <surname>Galoforo</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Berns</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Davis</surname>
+              <given-names>B.H.</given-names>
+            </name>
+            <name>
+              <surname>Sim</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Corry</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Spitz</surname>
+              <given-names>D.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Glucose Deprivation-induced Cytotoxicity and Alterations in Mitogen-activated Protein Kinase Activation Are Mediated by Oxidative Stress in Multidrug-resistant Human Breast Carcinoma Cells</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1998</year>
+          <volume>273</volume>
+          <fpage>5294</fpage>
+          <lpage>5299</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.273.9.5294</pub-id>
+          <pub-id pub-id-type="pmid">9478987</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-cells-07-00015">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Madrid</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Soto</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Franco</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Paredes</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Vicente</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hidalgo</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Gacto</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Cansado</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Cooperative Role for Atf1 and Pap1 in the Detoxification of the Oxidative Stress Induced by Glucose Deprivation in Schizosaccharomyces pombe</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2004</year>
+          <volume>279</volume>
+          <fpage>41594</fpage>
+          <lpage>41602</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M405509200</pub-id>
+          <pub-id pub-id-type="pmid">15247218</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-cells-07-00015">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zuin</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Carmona</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Morales-Ivorra</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Gabrielli</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Vivancos</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>Ayt&#xE9;</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hidalgo</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lifespan extension by calorie restriction relies on the Sty1 MAP kinase stress pathway</article-title>
+          <source>EMBO J.</source>
+          <year>2010</year>
+          <volume>29</volume>
+          <fpage>981</fpage>
+          <lpage>991</lpage>
+          <pub-id pub-id-type="doi">10.1038/emboj.2009.407</pub-id>
+          <pub-id pub-id-type="pmid">20075862</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-cells-07-00015">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dal Santo</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Blanchard</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Hoffman</surname>
+              <given-names>C.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Schizosaccharomyces pombe pyp1 protein tyrosine phosphatase negatively regulates nutrient monitoring pathways</article-title>
+          <source>J. Cell Sci.</source>
+          <year>1996</year>
+          <volume>109</volume>
+          <fpage>1919</fpage>
+          <lpage>1925</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B12-cells-07-00015">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stettler</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Warbrick</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Prochnik</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mackie</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Fantes</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>The wis1 signal transduction pathway is required for expression of cAMP-repressed genes in fission yeast</article-title>
+          <source>J. Cell Sci.</source>
+          <year>1996</year>
+          <volume>109</volume>
+          <fpage>1927</fpage>
+          <lpage>1935</lpage>
+          <pub-id pub-id-type="pmid">8832415</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-cells-07-00015">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Caspari</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Onset of gluconate-H+ symport in Schizosaccharomyces pombe is regulated by the kinases Wis1 and Pka1, and requires the gti1+ gene product</article-title>
+          <source>J. Cell. Sci.</source>
+          <year>1997</year>
+          <volume>110</volume>
+          <fpage>2599</fpage>
+          <lpage>2608</lpage>
+          <pub-id pub-id-type="pmid">9372449</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-cells-07-00015">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Madrid</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fern&#xE1;ndez-Zapata</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>S&#xE1;nchez-Mir</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Soto</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Franco</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Vicente-Soler</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gacto</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Cansado</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of the fission yeast cell integrity MAPK pathway in response to glucose limitation</article-title>
+          <source>BMC Microbiol.</source>
+          <year>2013</year>
+          <volume>13</volume>
+          <elocation-id>34</elocation-id>
+          <pub-id pub-id-type="doi">10.1186/1471-2180-13-34</pub-id>
+          <pub-id pub-id-type="pmid">23398982</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-cells-07-00015">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sugiura</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kobayashi</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Kuno</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>MAP kinase kinase kinase (MAPKKK)-dependent and -independent activation of Sty1 stress MAPK in fission yeast</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2010</year>
+          <volume>285</volume>
+          <fpage>32818</fpage>
+          <lpage>32823</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M110.135764</pub-id>
+          <pub-id pub-id-type="pmid">20729203</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-cells-07-00015">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hannig</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Ottilie</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Schievella</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Erikson</surname>
+              <given-names>R.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison of the biochemical and biological functions of tyrosine phosphatases from fission yeast, budding yeast and animal cells</article-title>
+          <source>Yeast</source>
+          <year>1993</year>
+          <volume>9</volume>
+          <fpage>1039</fpage>
+          <lpage>1052</lpage>
+          <pub-id pub-id-type="doi">10.1002/yea.320091002</pub-id>
+          <pub-id pub-id-type="pmid">8256510</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-cells-07-00015">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ottilie</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Chernoff</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hannig</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Hoffman</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Erikson</surname>
+              <given-names>R.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>The fission yeast genes pyp1+ and pyp2+ encode protein tyrosine phosphatases that negatively regulate mitosis</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <year>1992</year>
+          <volume>12</volume>
+          <fpage>5571</fpage>
+          <lpage>5580</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.12.12.5571</pub-id>
+          <pub-id pub-id-type="pmid">1448087</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-cells-07-00015">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Davenport</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kelly</surname>
+              <given-names>T.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Two-stage mechanism for activation of the DNA replication checkpoint kinase Cds1 in fission yeast</article-title>
+          <source>Genes Dev.</source>
+          <year>2006</year>
+          <volume>20</volume>
+          <fpage>990</fpage>
+          <lpage>1003</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.1406706</pub-id>
+          <pub-id pub-id-type="pmid">16618806</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-cells-07-00015">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Capasso</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Palermo</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Rao</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>John</surname>
+              <given-names>U.P.</given-names>
+            </name>
+            <name>
+              <surname>O&#x2019;Connell</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Walworth</surname>
+              <given-names>N.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phosphorylation activates Chk1 and is required for checkpoint-mediated cell cycle arrest</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2002</year>
+          <volume>115</volume>
+          <fpage>4555</fpage>
+          <lpage>4564</lpage>
+          <pub-id pub-id-type="doi">10.1242/jcs.00133</pub-id>
+          <pub-id pub-id-type="pmid">12415000</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-cells-07-00015">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Krohn</surname>
+              <given-names>N.G.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>N.A.</given-names>
+            </name>
+            <name>
+              <surname>Colabardini</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Reis</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Savoldi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Dinamarco</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>M.H.S.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>G.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Aspergillus nidulans ATM kinase regulates mitochondrial function, glucose uptake and the carbon starvation response</article-title>
+          <source>G3</source>
+          <year>2014</year>
+          <volume>4</volume>
+          <fpage>49</fpage>
+          <lpage>62</lpage>
+          <pub-id pub-id-type="doi">10.1534/g3.113.008607</pub-id>
+          <pub-id pub-id-type="pmid">24192833</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-cells-07-00015">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Halaby</surname>
+              <given-names>M.-J.</given-names>
+            </name>
+            <name>
+              <surname>Hibma</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>D.-Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>ATM protein kinase mediates full activation of Akt and regulates glucose transporter 4 translocation by insulin in muscle cells</article-title>
+          <source>Cell. Signal.</source>
+          <year>2008</year>
+          <volume>20</volume>
+          <fpage>1555</fpage>
+          <lpage>1563</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cellsig.2008.04.011</pub-id>
+          <pub-id pub-id-type="pmid">18534819</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-cells-07-00015">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Simpson-Lavy</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Bronstein</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kupiec</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Johnston</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cross-Talk between Carbon Metabolism and the DNA Damage Response in S. cerevisiae</article-title>
+          <source>Cell Rep.</source>
+          <year>2015</year>
+          <volume>12</volume>
+          <fpage>1865</fpage>
+          <lpage>1875</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.celrep.2015.08.025</pub-id>
+          <pub-id pub-id-type="pmid">26344768</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-cells-07-00015">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Costello</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Rodgers</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Beach</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fission yeast enters the stationary phase G0 state from either mitotic G1 or G2</article-title>
+          <source>Curr. Genet.</source>
+          <year>1986</year>
+          <volume>11</volume>
+          <fpage>119</fpage>
+          <lpage>125</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF00378203</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-cells-07-00015">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boddy</surname>
+              <given-names>M.N.</given-names>
+            </name>
+            <name>
+              <surname>Lopez-Girona</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Shanahan</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Interthal</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Heyer</surname>
+              <given-names>W.-D.</given-names>
+            </name>
+            <name>
+              <surname>Russell</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Damage Tolerance Protein Mus81 Associates with the FHA1 Domain of Checkpoint Kinase Cds1</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <year>2000</year>
+          <volume>20</volume>
+          <fpage>8758</fpage>
+          <lpage>8766</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.20.23.8758-8766.2000</pub-id>
+          <pub-id pub-id-type="pmid">11073977</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-cells-07-00015">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nakayama</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yoshimura</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Iida</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Organellar mechanosensitive channels in fission yeast regulate the hypo-osmotic shock response</article-title>
+          <source>Nat. Commun.</source>
+          <year>2012</year>
+          <volume>3</volume>
+          <fpage>1020</fpage>
+          <pub-id pub-id-type="doi">10.1038/ncomms2014</pub-id>
+          <pub-id pub-id-type="pmid">22910366</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-cells-07-00015">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Janes</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Ashour Garrido</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ney</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Concilio</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zekri</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Caspari</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Heat induction of a novel Rad9 variant from a cryptic translation initiation site reduces mitotic commitment</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2012</year>
+          <volume>125</volume>
+          <fpage>4487</fpage>
+          <lpage>4497</lpage>
+          <pub-id pub-id-type="doi">10.1242/jcs.104075</pub-id>
+          <pub-id pub-id-type="pmid">22797921</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-cells-07-00015">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Watson</surname>
+              <given-names>A.T.</given-names>
+            </name>
+            <name>
+              <surname>Garcia</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Bone</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Carr</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Armstrong</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gene tagging and gene replacement using recombinase-mediated cassette exchange in Schizosaccharomyces pombe</article-title>
+          <source>Gene</source>
+          <year>2008</year>
+          <volume>407</volume>
+          <fpage>63</fpage>
+          <lpage>74</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.gene.2007.09.024</pub-id>
+          <pub-id pub-id-type="pmid">18054176</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-cells-07-00015">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rozenzhak</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mej&#xED;a-Ram&#xED;rez</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Schaffer</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Hammond</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Head</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Russell</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rad3 decorates critical chromosomal domains with gammaH2A to protect genome integrity during S-Phase in fission yeast</article-title>
+          <source>PLoS Genet.</source>
+          <year>2010</year>
+          <volume>6</volume>
+          <elocation-id>e1001032</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pgen.1001032</pub-id>
+          <pub-id pub-id-type="pmid">20661445</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-cells-07-00015">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hiraoka</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Toda</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Yanagida</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The NDA3 gene of fission yeast encodes beta-tubulin: a cold-sensitive nda3 mutation reversibly blocks spindle formation and chromosome movement in mitosis</article-title>
+          <source>Cell</source>
+          <year>1984</year>
+          <volume>39</volume>
+          <fpage>349</fpage>
+          <lpage>358</lpage>
+          <pub-id pub-id-type="doi">10.1016/0092-8674(84)90013-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-cells-07-00015">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fornalewicz</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Wieczorek</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>W&#x119;grzyn</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>&#x141;y&#x17C;e&#x144;</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Silencing of the pentose phosphate pathway genes influences DNA replication in human fibroblasts</article-title>
+          <source>Gene</source>
+          <year>2017</year>
+          <volume>635</volume>
+          <fpage>33</fpage>
+          <lpage>38</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.gene.2017.09.005</pub-id>
+          <pub-id pub-id-type="pmid">28887160</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-cells-07-00015">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pommier</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Leo</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Marchand</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>DNA topoisomerases and their poisoning by anticancer and antibacterial drugs</article-title>
+          <source>Chem. Biol.</source>
+          <year>2010</year>
+          <volume>17</volume>
+          <fpage>421</fpage>
+          <lpage>433</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.chembiol.2010.04.012</pub-id>
+          <pub-id pub-id-type="pmid">20534341</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-cells-07-00015">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brondello</surname>
+              <given-names>J.-M.</given-names>
+            </name>
+            <name>
+              <surname>Boddy</surname>
+              <given-names>M.N.</given-names>
+            </name>
+            <name>
+              <surname>Furnari</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Russell</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Basis for the Checkpoint Signal Specificity That Regulates Chk1 and Cds1 Protein Kinases</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <year>1999</year>
+          <volume>19</volume>
+          <fpage>4262</fpage>
+          <lpage>4269</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.19.6.4262</pub-id>
+          <pub-id pub-id-type="pmid">10330167</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-cells-07-00015">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Egel</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genes involved in mating type expression of fission yeast</article-title>
+          <source>Mol. Gen. Genet.</source>
+          <year>1973</year>
+          <volume>122</volume>
+          <fpage>339</fpage>
+          <lpage>343</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF00269434</pub-id>
+          <pub-id pub-id-type="pmid">4716873</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-cells-07-00015">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mochida</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yanagida</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Distinct modes of DNA damage response in <italic>S. pombe</italic> G0 and vegetative cells</article-title>
+          <source>Genes Cells</source>
+          <year>2006</year>
+          <volume>11</volume>
+          <fpage>13</fpage>
+          <lpage>27</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2443.2005.00917.x</pub-id>
+          <pub-id pub-id-type="pmid">16371129</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-cells-07-00015">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Murakami</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Nurse</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of premeiotic S phase and recombination-related double-strand DNA breaks during meiosis in fission yeast</article-title>
+          <source>Nat. Genet.</source>
+          <year>2001</year>
+          <volume>28</volume>
+          <fpage>290</fpage>
+          <lpage>293</lpage>
+          <pub-id pub-id-type="doi">10.1038/90142</pub-id>
+          <pub-id pub-id-type="pmid">11431703</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-cells-07-00015">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Degols</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Shiozaki</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Russell</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Activation and regulation of the Spc1 stress-activated protein kinase in Schizosaccharomyces pombe</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <year>1996</year>
+          <volume>16</volume>
+          <fpage>2870</fpage>
+          <lpage>2877</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.16.6.2870</pub-id>
+          <pub-id pub-id-type="pmid">8649397</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-cells-07-00015">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lindsay</surname>
+              <given-names>H.D.</given-names>
+            </name>
+            <name>
+              <surname>Griffiths</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Edwards</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Christensen</surname>
+              <given-names>P.U.</given-names>
+            </name>
+            <name>
+              <surname>Murray</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Osman</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Walworth</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Carr</surname>
+              <given-names>A.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>S-phase-specific activation of Cds1 kinase defines a subpathway of the checkpoint response in Schizosaccharomyces pombe</article-title>
+          <source>Genes Dev.</source>
+          <year>1998</year>
+          <volume>12</volume>
+          <fpage>382</fpage>
+          <lpage>395</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.12.3.382</pub-id>
+          <pub-id pub-id-type="pmid">9450932</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-cells-07-00015">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Sanders</surname>
+              <given-names>G.M.</given-names>
+            </name>
+            <name>
+              <surname>Grossman</surname>
+              <given-names>A.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nutritional control of elongation of DNA replication by (p)ppGpp</article-title>
+          <source>Cell</source>
+          <year>2007</year>
+          <volume>128</volume>
+          <fpage>865</fpage>
+          <lpage>875</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2006.12.043</pub-id>
+          <pub-id pub-id-type="pmid">17350574</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-cells-07-00015">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jiang</surname>
+              <given-names>Y.W.</given-names>
+            </name>
+            <name>
+              <surname>Kang</surname>
+              <given-names>C.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Induction of S. cerevisiae filamentous differentiation by slowed DNA synthesis involves Mec1, Rad53 and Swe1 checkpoint proteins</article-title>
+          <source>Mol. Biol. Cell</source>
+          <year>2003</year>
+          <volume>14</volume>
+          <fpage>5116</fpage>
+          <lpage>5124</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.E03-06-0375</pub-id>
+          <pub-id pub-id-type="pmid">14565980</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-cells-07-00015">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saitoh</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mori</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Uehara</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Masuda</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Soejima</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yanagida</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanisms of expression and translocation of major fission yeast glucose transporters regulated by CaMKK/phosphatases, nuclear shuttling, and TOR</article-title>
+          <source>Mol. Biol. Cell</source>
+          <year>2015</year>
+          <volume>26</volume>
+          <fpage>373</fpage>
+          <lpage>386</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.E14-11-1503</pub-id>
+          <pub-id pub-id-type="pmid">25411338</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-cells-07-00015">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Russell</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mrc1 channels the DNA replication arrest signal to checkpoint kinase Cds1</article-title>
+          <source>Nat. Cell Biol.</source>
+          <year>2001</year>
+          <volume>3</volume>
+          <fpage>966</fpage>
+          <lpage>972</lpage>
+          <pub-id pub-id-type="doi">10.1038/ncb1101-966</pub-id>
+          <pub-id pub-id-type="pmid">11715017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-cells-07-00015">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Park</surname>
+              <given-names>S.-Y.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>Y.-H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetic screen for genes involved in Chk2 signaling in Drosophila</article-title>
+          <source>Mol. Cells</source>
+          <year>2008</year>
+          <volume>26</volume>
+          <fpage>350</fpage>
+          <lpage>355</lpage>
+          <pub-id pub-id-type="doi">10.14348/molcells.1385</pub-id>
+          <pub-id pub-id-type="pmid">18612247</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-cells-07-00015">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vo</surname>
+              <given-names>T.V.</given-names>
+            </name>
+            <name>
+              <surname>Das</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Meyer</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Cordero</surname>
+              <given-names>N.A.</given-names>
+            </name>
+            <name>
+              <surname>Akturk</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Fair</surname>
+              <given-names>B.J.</given-names>
+            </name>
+            <name>
+              <surname>Degatano</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Fragoza</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>L.G.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A Proteome-wide Fission Yeast Interactome Reveals Network Evolution Principles from Yeasts to Human</article-title>
+          <source>Cell</source>
+          <year>2016</year>
+          <volume>164</volume>
+          <fpage>310</fpage>
+          <lpage>323</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2015.11.037</pub-id>
+          <pub-id pub-id-type="pmid">26771498</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-cells-07-00015">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Andrisse</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Koehler</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Patel</surname>
+              <given-names>G.D.</given-names>
+            </name>
+            <name>
+              <surname>Vallurupalli</surname>
+              <given-names>V.R.</given-names>
+            </name>
+            <name>
+              <surname>Ratliff</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Warren</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Fisher</surname>
+              <given-names>J.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of GLUT1 in regulation of reactive oxygen species</article-title>
+          <source>Redox Biol.</source>
+          <year>2014</year>
+          <volume>2</volume>
+          <fpage>764</fpage>
+          <lpage>771</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.redox.2014.03.004</pub-id>
+          <pub-id pub-id-type="pmid">25101238</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-cells-07-00015">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yi</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Tong</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Xue</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Zou</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>N.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Formation of a Snf1-Mec1-Atg1 Module on Mitochondria Governs Energy Deprivation-Induced Autophagy by Regulating Mitochondrial Respiration</article-title>
+          <source>Dev. Cell</source>
+          <year>2017</year>
+          <volume>41</volume>
+          <fpage>59</fpage>
+          <lpage>71.e4</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.devcel.2017.03.007</pub-id>
+          <pub-id pub-id-type="pmid">28399401</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-cells-07-00015">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Beck</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hall</surname>
+              <given-names>M.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>The TOR signalling pathway controls nuclear localization of nutrient-regulated transcription factors</article-title>
+          <source>Nature</source>
+          <year>1999</year>
+          <volume>402</volume>
+          <fpage>689</fpage>
+          <lpage>692</lpage>
+          <pub-id pub-id-type="doi">10.1038/45287</pub-id>
+          <pub-id pub-id-type="pmid">10604478</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-cells-07-00015">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weisman</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Roitburg</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Schonbrun</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Harari</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kupiec</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Opposite effects of tor1 and tor2 on nitrogen starvation responses in fission yeast</article-title>
+          <source>Genetics</source>
+          <year>2007</year>
+          <volume>175</volume>
+          <fpage>1153</fpage>
+          <lpage>1162</lpage>
+          <pub-id pub-id-type="doi">10.1534/genetics.106.064170</pub-id>
+          <pub-id pub-id-type="pmid">17179073</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-cells-07-00015">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rodr&#xED;guez-Colman</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Sorolla</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Vall-Llaura</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Tamarit</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ros</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cabiscol</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>The FOX transcription factor Hcm1 regulates oxidative metabolism in response to early nutrient limitation in yeast. Role of Snf1 and Tor1/Sch9 kinases</article-title>
+          <source>Biochim. Biophys. Acta</source>
+          <year>2013</year>
+          <volume>1833</volume>
+          <fpage>2004</fpage>
+          <lpage>2015</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbamcr.2013.02.015</pub-id>
+          <pub-id pub-id-type="pmid">23481038</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-cells-07-00015">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boddy</surname>
+              <given-names>M.N.</given-names>
+            </name>
+            <name>
+              <surname>Furnari</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Mondesert</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Russell</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Replication checkpoint enforced by kinases Cds1 and Chk1</article-title>
+          <source>Science</source>
+          <year>1998</year>
+          <volume>280</volume>
+          <fpage>909</fpage>
+          <lpage>912</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.280.5365.909</pub-id>
+          <pub-id pub-id-type="pmid">9572736</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-cells-07-00015">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walworth</surname>
+              <given-names>N.C.</given-names>
+            </name>
+            <name>
+              <surname>Bernards</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>rad-dependent response of the chk1-encoded protein kinase at the DNA damage checkpoint</article-title>
+          <source>Science</source>
+          <year>1996</year>
+          <volume>271</volume>
+          <fpage>353</fpage>
+          <lpage>356</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.271.5247.353</pub-id>
+          <pub-id pub-id-type="pmid">8553071</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-cells-07-00015">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Edwards</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Bentley</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Carr</surname>
+              <given-names>A.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Rad3-Rad26 complex responds to DNA damage independently of other checkpoint proteins</article-title>
+          <source>Nat. Cell Biol.</source>
+          <year>1999</year>
+          <volume>1</volume>
+          <fpage>393</fpage>
+          <lpage>398</lpage>
+          <pub-id pub-id-type="doi">10.1038/15623</pub-id>
+          <pub-id pub-id-type="pmid">10559981</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52-cells-07-00015">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brown</surname>
+              <given-names>G.W.</given-names>
+            </name>
+            <name>
+              <surname>Kelly</surname>
+              <given-names>T.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cell cycle regulation of Dfp1, an activator of the Hsk1 protein kinase</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>1999</year>
+          <volume>96</volume>
+          <fpage>8443</fpage>
+          <lpage>8448</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.96.15.8443</pub-id>
+          <pub-id pub-id-type="pmid">10411894</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53-cells-07-00015">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Caspari</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hilditch</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Two Distinct Cdc2 Pools Regulate Cell Cycle Progression and the DNA Damage Response in the Fission Yeast <italic>S. pombe</italic></article-title>
+          <source>PLoS ONE</source>
+          <year>2015</year>
+          <volume>10</volume>
+          <elocation-id>e0130748</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0130748</pub-id>
+          <pub-id pub-id-type="pmid">26131711</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54-cells-07-00015">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kai</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Taricani</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>T.S.-F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Methods for studying mutagenesis and checkpoints in Schizosaccharomyces pombe</article-title>
+          <source>Meth. Enzymol.</source>
+          <year>2006</year>
+          <volume>409</volume>
+          <fpage>183</fpage>
+          <lpage>194</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0076-6879(05)09011-7</pub-id>
+          <pub-id pub-id-type="pmid">16793402</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55-cells-07-00015">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Caspari</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Dahlen</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kanter-Smoler</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Lindsay</surname>
+              <given-names>H.D.</given-names>
+            </name>
+            <name>
+              <surname>Hofmann</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Papadimitriou</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Sunnerhagen</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Carr</surname>
+              <given-names>A.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of Schizosaccharomyces pombe Hus1: A PCNA-related protein that associates with Rad1 and Rad9</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <year>2000</year>
+          <volume>20</volume>
+          <fpage>1254</fpage>
+          <lpage>1262</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.20.4.1254-1262.2000</pub-id>
+          <pub-id pub-id-type="pmid">10648611</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures</title>
+      <fig id="cells-07-00015-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Glucose starvation transiently activates Cds1. (<bold>a</bold>) Cds1-HA<sub>2</sub>His<sub>6</sub> (56 kDa), Chk1-HA<sub>3</sub>,(58 kDa), Mrc1 (180 kDa) and Cdc2 (35 kDa) in total protein extracts prepared from growing (G) and stationary cultures (NG) after 24 h of growth in rich medium with 3% glucose at 30 &#xB0;C. (<bold>b</bold>) Septation index (G1/S cells) after the 3&#x2013;0.3% glucose down-shift. (<bold>c</bold>) Cds1-HA<sub>2</sub>His<sub>6</sub>, Cdc2 and H2AX-S129-P in total protein extracts at 3% glucose and post-shift to 0.3% glucose. (<bold>d</bold>) In vitro kinase activity of immunoprecipitated Cds1-HA<sub>2</sub>His<sub>6</sub> on myelin basic protein post-shift (top: phosphorylated myelin basic protein, bottom: precipitated Cds1 protein, asterisk: unspecific band). (<bold>e</bold>) Phos-tag SDS page of total protein extracts (P = phosphorylated forms 2&#x2013;5, arrow = hyper-phosphorylated form 5). (<bold>f</bold>) Isoelectric focusing of Cds1-HA<sub>2</sub>His<sub>6</sub> (P = more negatively charged species, arrows = changes in low glucose medium) (1&#x2013;3) to more positively charged forms of Cds1 in 3% glucose medium. (<bold>g</bold>) H2AX-S129-P and Cdc2 in total protein extracts post-shift in wild type (WT) and selected deletion mutants.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00015-g001.tif"/>
+      </fig>
+      <fig id="cells-07-00015-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Low glucose concentrations terminate DNA replication. (<bold>a</bold>) Phos-tag SDS page of total protein extracts of Cds1-HA<sub>2</sub>His<sub>6</sub> (U = untreated, H = 12 mM hydroxyurea (HU) for 3.5 h, tB = 0.5 mM t-butylhydroxyperoxide 3.5 h). HU and tB were added to growing cells (3%) at 2 h or 6 h post-shift to 0.3% glucose. Cds1-V = N-terminally truncated Cds1 variant, Sty1-P = dual T171 + Y173 phosphorylation. (<bold>b</bold>) SDS page of total protein extracts of Chk1-HA<sub>3</sub>; 0.5 mM tB and 12 &#x3BC;M camptothecin CPT were added at the indicated times and cells were incubated for another 2 h (arrow = Chk1-S345-P shift band). (<bold>c</bold>) Repeat experiment of (<bold>a</bold>). (<bold>d</bold>) Indirect immunofluorescence images of Cds1-Myc<sub>13</sub> 0 h, 4 h and 6 h post-shift to 0.3% glucose (nucleus = DAPI, Cds1 = antibody signal). (<bold>e</bold>) SDS page of total protein extracts 0 h, 2 h, 6 h and 24 h post-shift to 0.3% glucose (Myc-Rad3, HA-Tel1).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00015-g002.tif"/>
+      </fig>
+      <fig id="cells-07-00015-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Cds1 undergoes a transformation in the stationary phase. (<bold>a</bold>) Survival of the indicated strains in 3% glucose medium. Samples were harvested on the indicated days in culture (stationary phase). Cell survival on 3% glucose in the presence of 4 mM hydroxyurea (HU) to verify the <italic>cds1</italic> strains. T8 and T11 are phosphorylated by Rad3; T332 is in the activation loop of the kinase domain of Cds1. (<bold>b</bold>) Indirect immunofluorescence images of Cds1-Myc<sub>13</sub> in growing cells (G) and after 1 day in culture (stationary phase, NG) (overlay of red = DAPI and green = antibody signal). (<bold>c</bold>) Total protein extracts harvested at the indicated days in a 3% glucose culture (G = growing cells, arrow = N-terminally truncated Cds1 form, Sty1-P = dual T171 + Y173 phosphorylation, Mrc1 = 180 kDa band). Sty1-P and Mrc1 were analysed in the Cds1-HA<sub>2</sub>His<sub>6</sub> extracts. (<bold>d</bold>) Samples were withdrawn on the indicated days in 3% glucose culture (sol. = soluble protein, insol. = Insoluble protein, immunoprecipitated Cds1-HA<sub>2</sub>His<sub>6</sub> and in vitro kinase activity). (<bold>e</bold>) Isoelectric focusing of Cds1-HA<sub>2</sub>His<sub>6</sub> (P = more negatively charged species. Arrows = changes in low glucose medium, G = growing cells, NG = 1 day in culture (stationary phase)).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00015-g003.tif"/>
+      </fig>
+      <fig id="cells-07-00015-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Nitrogen starvation causes similar changes to Cds1 and Mrc1. (<bold>a</bold>) Cds1-HA<sub>2</sub>His<sub>6</sub>, cds1 deletion and rad3 deletion strains without auxotrophic markers were grown in minimal medium with nitrogen overnight, washed and resuspended in minimal medium without nitrogen at 30 &#xB0;C. The rise in the septation index (G1/S cells) shows the two rounds of DNA replication post-shift. (<bold>b</bold>) Total protein extracts tested at the indicated hours post-shift and probed for Mrc1, Sty1-T171P + Y173P and Cds1-HA<sub>2</sub>His<sub>6</sub>, (P = phosphorylated Cds1 protein on phostag SDS page), (<bold>c</bold>) Phostag SDS page of Cds1-HA<sub>2</sub>His<sub>6</sub>. Twelve mM HU was added at 20 min (1) post-shift or 4 h (2) post-shift. Cells were harvested 2 h later. (<bold>d</bold>) Total protein extracts analysed at the indicated hours post-shift and probed for H2AX-S129-P and Cdc2. (<bold>e</bold>) Normal and phostag (PT) SDS page of Cds1-HA<sub>2</sub>His<sub>6</sub>, harvested 0 h, 7 h and 24 post-shift. (<bold>f</bold>) PT-SDS page of Cds1-HA<sub>2</sub>His<sub>6</sub> cells, harvested at 0 h, 1 h, 3 h and 7 h (arrow = N-terminally truncated Cds1 form). (<bold>g</bold>) SDS page of Sty1-T171P+Y173P in 0.3% glucose or in minimal medium without nitrogen (-N) at 0 h and 24 h. (<bold>h</bold>) PT-SDS page of Cds1-HA<sub>2</sub>His<sub>6</sub> in 0.3% glucose or in minimal medium without nitrogen (-N) at 0 h and 24 h (3 = phosphorylated form). (<bold>i</bold>) Survival of the indicated strains in minimal medium without nitrogen.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00015-g004.tif"/>
+      </fig>
+    </sec>
+  </back>
+</article>

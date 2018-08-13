@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xml:lang="en" article-type="research-article" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells1020051</article-id>
+      <article-id pub-id-type="publisher-id">cells-01-00051</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Characterization of Spontaneous Immune Responses against Long Peptides Derived from Bcl-X(L) in Cancer Patients Using Elispot</article-title>
+      </title-group>
+      
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Larsen</surname>
+            <given-names>Stine Kiaer</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hansen</surname>
+            <given-names>Morten</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Svane</surname>
+            <given-names>Inge Marie</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Straten</surname>
+            <given-names>Per Thor</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Andersen</surname>
+            <given-names>Mads Hald</given-names>
+          </name>
+          <xref rid="c1-cells-01-00051" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-01-00051">Center for Cancer Immune Therapy (CCIT), Department of Hematology, Copenhagen University Hospital, Herlev, Herlev Ringvej 75, DK-2730 Herlev, Denmark; Email: <email>stine.kiaer.larsen@regionh.dk</email> (S.K.L.); <email>Morten.Hansen.01@regionh.dk</email> (M.H.); <email>inge.marie.svane@regionh.dk</email> (I.M.S.); <email>per.thor.straten@regionh.dk</email> (P.T.S.)</aff>
+      <author-notes>
+        <corresp id="c1-cells-01-00051"><label>*</label> Author  to whom correspondence should be addressed; Email: <email>mads.hald.andersen@regionh.dk</email>; Tel.: +45-3868-2602; Fax: +45-4453-0176.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>26</day>
+        <month>04</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="collection"><month>06</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>1</volume>
+      <issue>2</issue>
+      <fpage>51</fpage>
+      <lpage>60</lpage>
+      <history>
+        <date date-type="received">
+          <day>26</day>
+          <month>02</month>
+          <year>2012</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>07</day>
+          <month>03</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>03</day>
+          <month>04</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#x000A9;  2012 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2012</copyright-year>
+        <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/">
+          <p>This article is an open-access article distributed under the terms and conditions of the Creative Commons Attribution license (http://creativecommons.org/licenses/by/3.0/).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>In recent years we and others have used the ELISPOT assay successfully to identify novel tumor antigens by the characterization of spontaneous HLA class I restricted immune responses against a number of minimal 9&#x2013;10 amino acid long peptide epitopes. In the present study, we examined the capability of using longer peptides when scrutinizing Peripheral Blood Mononuclear Cells (PMBC) from melanoma patients for spontaneous immunity by means of ELISPOT IFN-&#x3B3; secretion assay. To this end, we examined PBMC for the presence of specific T-cell responses against long peptides derived from the tumor associated antigen BCL-X(L). The protein product of the larger BCL-X(L) differs from Bcl-X(S) protein by an inserted region (amino acids 126&#x2013;188). Thus, we scrutinized eight long peptides covering this inserted region for spontaneous immunity. The peptides were overlapping and consisted of 20&#x2013;23 amino acids. PBMC were pre-stimulated with peptide-pulsed autologous dendritic cells (DC) and subjected to the IFN-&#x3B3; ELISPOT assay. Four of the BCL-X(L) derived peptides elicited very frequent responses in several patients. Additionally, in all patients responses against more than one of the peptides could be detected. In conclusion several long BCL-X(L) derived peptide epitopes exist, which may be used in anti-cancer immunity. Furthermore, the ELISPOT assay offers an attractive and sensitive method for the characterization of spontaneous immune reactivity against long peptides.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>ELISPOT</kwd>
+        <kwd>Bcl-X(L)</kwd>
+        <kwd>long peptides</kwd>
+        <kwd>antigen</kwd>
+        <kwd>T cells</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>1. Introduction</title>
+      <p>For many years the measurements of the levels of cellular immune responses, e.g., those mediated by T cells, depended largely on <italic>in vitro</italic> culture and subsequent measurement of specific functions like cytotoxicity, proliferation or bulk cytokine production. Importantly, new approaches to monitor and analyze anti-tumor immune responses, requiring minimal <italic>in vitro</italic> manipulations have opened new avenues to characterize spontaneous as well as treatment-induced T-cell responses [<xref ref-type="bibr" rid="B1-cells-01-00051">1</xref>]. To this end, technical advantages allow the detection of low frequencies of precursor CD8<sup>+</sup> T cells with high sensitivity. Among the different methods available for monitoring of CD8<sup>+</sup> T cells responses due to its high throughput, sensitivity and robustness the ELISPOT assay represents the method of choice in many laboratories. The ELISPOT assay is based on the detection of antigen-induced release of cytokines&#x2014;most often IFN-&#x3B3;&#x2014;by single T cells upon triggering of its TCR [<xref ref-type="bibr" rid="B2-cells-01-00051">2</xref>]. Reactivity of a single T cell can be detected and quantified via binding of the respective cytokine on special nitro-cellulose filter plates. For this purpose, cytokine specific antibodies are coated to the nitro-cellulose to capture secreted cytokines. Target cells, e.g., peptide-pulsed TAP-deficient T2 cells, are incubated together with the cell preparation, which is analyzed whether it contains antigen reactive T-cells. When a T cell recognizes the peptide epitope examined, the T cell releases cytokines that is detected by a colorimetric reaction using an enzyme conjugated to a second cytokine specific antibody. The reaction product is visible as a spot. Ideally, each spot represents the cytokines secreted by a single activated cell. In cases when responses are suspected to be weak an <italic>in vitro</italic> stimulation can be used to enhance sensitivity of the assay. </p>
+      <p>The ELISPOT have proven to be the central assays in studies focusing on identification of novel tumor antigens by the characterization of spontaneous class I HLA-restricted CD8 T-cell responses in PMBC from cancer patients. Thus, this approach has previously proved to be highly effective for identifying tumor specific cytotoxic T-lymphocytes (CTL) in cancer patients [<xref ref-type="bibr" rid="B3-cells-01-00051">3</xref>,<xref ref-type="bibr" rid="B4-cells-01-00051">4</xref>,<xref ref-type="bibr" rid="B5-cells-01-00051">5</xref>]. For these assays, minimal peptide epitopes have been selected on the basis of HLA-binding motifs using the main HLA-specific anchor residues [<xref ref-type="bibr" rid="B6-cells-01-00051">6</xref>] or different predictive computer algorithms, e.g., the one developed by Rammensee <italic>et al.</italic> available at <uri>www.syfpeithi.de</uri>. Longer peptides than minimal 9&#x2013;10 amino acid may contain not only CD8 T cell epitopes but in addition CD4 T helper epitopes. Furthermore, if used in a clinical setting, e.g., for anti-cancer vaccinations, longer peptides may specifically target professional antigen presenting cells, which are capable of the up taking and processing into HLA of larger peptide antigens. </p>
+      <p>Using the ELISPOT it has previously been demonstrated that breast cancer patients, melanoma patients and pancreatic cancer patients host spontaneous HLA class I-restricted CD8 T-cell responses specifically against 9&#x2013;10 amino acid long Bcl-X(L)-derived peptides [<xref ref-type="bibr" rid="B7-cells-01-00051">7</xref>]. In the present study we examined the capability of using longer peptides when scrutinizing PMBC from melanoma patients for spontaneous immunity by means of ELISPOT IFN-&#x3B3; secretion assay.</p>
+    </sec>
+    <sec>
+      <title>2. Materials and Methods</title>
+      <sec>
+        <title>2.1. Donors</title>
+        <p>Peripheral Blood Mononuclear Cells (PBMC) was collected from melanoma patients. The PBMC were obtained prior to entering into a clinical trial, which were concurrently approved by the Danish Medicines Agency and registered at <uri>www.clinicaltrials.gov</uri> (NCT00978913). Written informed consent from the donors was obtained before study entry. All patients had histological verified metastatic disease (stage IV TNM classification) at inclusion. Blood samples from cancer patients were drawn a minimum of four weeks after termination of any kind of anti-cancer therapy. PBMC were isolated using lymphoprep separation, HLA-A2 typed (Department of Clinical Immunology, University Hospital, Copenhagen, Denmark) and frozen in FCS with 10% DMSO. The protocols were approved by the Scientific Ethics Committee for The Capital Region of Denmark and conducted in accordance with the provisions of the Declaration of Helsinki.</p>
+      </sec>
+      <sec>
+        <title>2.2. Peptides</title>
+        <p>The <italic>bcl-x</italic> gene is transcribed into two mRNAs through alternative splicing. The anti-apoptotic protein Bcl-X(L) is produced from the long isoform, while pro-apoptotic Bcl-X(S) is derived from the short isoform mRNA [<xref ref-type="bibr" rid="B8-cells-01-00051">8</xref>]. The protein product of the larger Bcl-X(L) differs from Bcl-X(S) protein by an inserted region (amino acids 126&#x2013;188). Eight synthetic peptides covering this inserted region (including nine amino acids at each end) were synthesized (TAG Copenhagen, Copenhagen, Denmark): Bcl-X1(TAYQSFEQVVNELFRDGVNW), Bcl-X2 (VVNELFRDGVNWGRIVAFFS), Bcl-X3 (GVN WGRIVAFFSFGGALCVE), Bcl-X4 (AFFSFGGALCVESVDKEMQV), Bcl-X5 (LCVESVDKEMQ VLVSRIAAW), Bcl-X6 (EMQVLVSRIAAWMATYLNDH), Bcl-X7 (IAAWMATYLNDHLEPWI QEN) as well as Bcl-X8 (LNDHLEPWIQENGGWDTFVELYG). </p>
+      </sec>
+      <sec>
+        <title>2.3. Generation of Dendritic Cells</title>
+        <p>Dendritic cells were generated from PBMC by plate adherence and five days of incubation with 1,000 U/mL GM-CSF and 250 U/mL of IL-4 in X-VIVO with 5% AB-serum. Maturation was induced for two additional days with a standard cytokine cocktail containing 1,000 U/mL TNF-&#x3B1;, 1,000 U/mL IL-1&#x3B2;, 1,000 U/ml IL-6 and 1 ug/mL PGE2. </p>
+      </sec>
+      <sec>
+        <title>2.4. Phenotype of Mature DCs by Flow Cytometry</title>
+        <p>DCs were pre-blocked with human immunoglobulin and stained with antibodies and matched isotype controls against CCR7 (R&amp;D Systems), CD83, CD80, HLA-DR, CD86, and CD40 (BD Bioscience) and dead cells were excluded by staining with 7-amino-actinomycin D (from Sigma-Aldrich). DCs were analyzed using a BD FACSCanto II flow cytometer and data were processed using FlowJo (Treestar).</p>
+      </sec>
+      <sec>
+        <title>2.5. ELISPOT Assay</title>
+        <p>The ELISPOT assay was used to quantify peptide-specific IFN-&#x3B3; releasing effector cells as described [<xref ref-type="bibr" rid="B3-cells-01-00051">3</xref>]. PBMC were stimulated once <italic>in vitro</italic> with autologous dendritic cells (DC) pulsed with peptide prior to analysis [<xref ref-type="bibr" rid="B9-cells-01-00051">9</xref>] to extend the sensitivity of the assay. After seven days in culture with 25 &#xB5;g/mL peptide and 40 U/mL IL-2 (PeproTech, London, UK), cells were counted and analyzed in ELISPOT. Briefly, nitrocellulose bottomed 96-well plates (MultiScreen MAIP N45; Millipore) were coated overnight with IFN-&#x3B3; capture mAb (Mabtech, Nacka Strand, Sweden). The wells were washed, blocked by X-vivo medium. PBMC at different cell concentrations with 10<sup>4</sup> autologous DC with or without 5 &#xB5;g/mL of the appropriate peptide were added in duplicates. The plates were incubated overnight. The following day, medium was discarded and the wells were washed prior to addition of appropriate biotinylated secondary mAb (Mabtech). The plates were incubated at room temperature (RT) for 2 hours, washed, and Avidin-enzyme conjugate (AP-Avidin; Calbiochem/Invitrogen Life Technologies) was added to each well. Plates were incubated at RT for 1 hour and the enzyme substrate Streptavidin-ALP (Mabtech) was added to each well and incubated at RT for 5&#x2013;10 min. Upon the emergence of dark purple spots, the reaction was terminated by washing with tap water. The spots were counted using the ImmunoSpot Series 2.0 Analyzer (CTL Analyzers). </p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>3. Results</title>
+      <sec>
+        <title>3.1. Dendritic Cells</title>
+        <p>Phenotypic expression of maturation markers (CD83, CD80, CD86, CD40, HLA-DR, CCR7) were confirmed by flow cytometry on harvested DCs. A typical example of a mature standard DC is given in <xref ref-type="fig" rid="cells-01-00051-f001">Figure 1</xref>. However, the DC did not seem to produce any IL-12 (data not shown).</p>
+        <fig id="cells-01-00051-f001" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p>An example of phenotype (expression of CCR7, CD83, CD80, HLA-DR, CD86, and CD40) of standard matured DC. Overlay histograms of maturation markers (black curve) and matched isotype controls (tinted, dotted curve) is shown.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00051-g001.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.2. ELISPOT Responses against Long Bcl-X(L) Derived Peptides</title>
+        <p>The protein product of the larger BCL-X<sub>L</sub> differs from Bcl-X<sub>S</sub> protein by an inserted region (amino acids 126&#x2013;188). We selected and synthesized eight 20&#x2013;23 amino acid overlapping peptides spanning this inserted region. Using the ELISPOT IFN-&#x3B3; secretion assay, we examined peripheral blood T cells from eight melanoma patients for the presence of specific T-cell responses against these Bcl-X(L) derived peptides. First, PBMC were stimulated once <italic>in vitro</italic> before examination by ELISPOT.</p>
+        <p>After 7 days of culture PBMC were screened in ELISPOT assays for release of IFN-&#x3B3; upon peptide recognition. Autologous DC were used as antigen presenting cells (APC) in the ELISPOT assay. Responses were detected against four peptides BclX2, BclX5, BclX6 and BclX8 (<xref ref-type="fig" rid="cells-01-00051-f002">Figure 2</xref> and <xref ref-type="fig" rid="cells-01-00051-f003">Figure 3</xref>) Hence, four of examined patients hosted an immune response against BclX6, whereas we detected a response against BclX8 in two patients. Similary we detected responses against BclX5 in two patients. Finally we detected some weak responses against BclX2. In one patient we could detect a response against BclX3, however in this patient there was in addition high background response. Overall, the responses against the Bcl-X(L)-derived peptides were frequent responses, since responses could be detected in all patients (<xref ref-type="fig" rid="cells-01-00051-f002">Figure 2</xref> and <xref ref-type="fig" rid="cells-01-00051-f003">Figure 3</xref>). </p>
+        <fig id="cells-01-00051-f002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>T-cell responses against Bcl-X(L) as measured by IFN-&#x3B3; ELISPOT. PBMC from eight melanoma patients were analyzed. The peptides Bcl-X1(TAYQSFEQVVNELFR DGVNW) <bold>(A)</bold>, Bcl-X2 (VVNELFRDGVNWGRIVAFFS) <bold>(B)</bold>, Bcl-X3 (GVNWGRIVAFF SFGGALCVE)<bold> (C)</bold>, and Bcl-X4 (AFFSFGGALCVESVDKEMQV) <bold>(D)</bold> were examined. T-lymphocytes were stimulated once with peptide before being plated at 10<sup>5</sup> cells per well in duplicates either with or without peptide. The number of IFN-&#x3B3; without (<italic>dark grey</italic>) or with (<italic>light gray</italic>) added peptide was calculated for each patient using the ImmunoSpot&#xAE; Series 2.0 Analyzer (CTL Analyzers, LLC, Cleveland, USA). </p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00051-g002.tif"/>
+        </fig>
+        <fig id="cells-01-00051-f003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>T-cell responses against Bcl-X(L) as measured by IFN-&#x3B3; ELISPOT. PBMC from eight melanoma patients were analyzed. The peptides Bcl-X5 (LCVESVDKEMQVLVSRI AAW) <bold>(A)</bold>, Bcl-X6 (EMQVLVSRIAAWMATYLNDH)<bold> (B)</bold>, Bcl-X7 (IAAWMATYLND HLEPWIQEN) <bold>(C)</bold>, and Bcl-X8 (LNDHLEPWIQENGGWDTFVELYG) <bold>(D)</bold> were examined. T-lymphocytes were stimulated once with peptide before being plated at 10<sup>5</sup> cells per well in duplicates either without or with peptide. The number of IFN-&#x3B3; without (<italic>dark grey</italic>) or with (<italic>light gray</italic>) added peptide was calculated for each patient using the ImmunoSpot&#xAE; Series 2.0 Analyzer (CTL Analyzers, LLC, Cleveland, USA). </p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00051-g003.tif"/>
+        </fig>
+        <fig id="cells-01-00051-f004" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p>Screening of IFN-&#x3B3; producing T-cell responses against BclX(L)-derived peptides as measured by IFN-&#x3B3; ELISPOT. PBMC from melanoma patients were analyzed. Eight synthetic long Bcl-X(L)-derived peptides were examined. The average number of Bcl-X(L)-specific spots (after subtraction of background activity) was calculated per 10<sup>5</sup> PBMC for each patient (<italic>black circles</italic>).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00051-g004.tif"/>
+        </fig>
+        <p>Hence, numerous long BCL-X(L) derived peptide epitopes exist, which may be used in anti-cancer immunotherapy. Thus, when validated, especially BclX5, BclX6 and BclX8 could be useful targets. <xref ref-type="fig" rid="cells-01-00051-f004">Figure 4</xref> gives an overview of the responses in all eight melanoma patients after subtraction of IFN-&#x3B3; backgrounds.</p>
+        
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>Most human cancers have defects in apoptosis signaling, which renders the cells unresponsive to stimuli that would otherwise inflict cell death. Apoptosis is strictly regulated in cells by a refined balance between pro-apoptotic and anti-apoptotic factors promoting and preventing apoptosis respectively. Many defects in malignant cells are caused by an up regulated expression of anti-apoptotic proteins. One such protein from the Bcl-2 family is Bcl-X(L). Increased expression of Bcl-X(L) has been described in various different malignancies including cancers of hematological origin such as acute myeloid leukemia and multiple myeloma but also in solid cancers like bladder cancer, breast cancer, pancreatic cancer and melanoma [<xref ref-type="bibr" rid="B10-cells-01-00051">10</xref>]. Bcl-X(L) has been directly linked to resistance to conventional forms of therapies and poor prognosis [<xref ref-type="bibr" rid="B10-cells-01-00051">10</xref>] .The functional inhibition of Bcl-X(L) restores the apoptotic process and renders neoplastic cells sensitive to chemical and radiation therapies, whereas manipulation of cancer cell lines to express high levels of Bcl-X(L) results in a multi-drug resistance phenotype. Thus, the attractiveness of targeting Bcl-X(L) in vaccination is based on the fact that down regulation or loss of expression of this protein as some form of immune escape would impair sustained tumor growth. The combination of immunotherapy targeting Bcl-X(L) with conventional chemotherapy appears to be particularly appealing since expression of this protein is correlated with drug resistance [<xref ref-type="bibr" rid="B11-cells-01-00051">11</xref>,<xref ref-type="bibr" rid="B12-cells-01-00051">12</xref>]. Previously, using the ELISPOT assays we demonstrated that cancer patients host spontaneous HLA class I-restricted T-cell responses specifically against Bcl-X(L)-derived peptides [<xref ref-type="bibr" rid="B7-cells-01-00051">7</xref>]. In the present study, we show that longer BCL-X(L) derived peptides likewise elicited responses in melanoma patients. Furthermore, these were frequent responses, since in all patients responses against several peptides could be detected. The use of autologous DC as antigen presenting cells in the ELISPOT seems to generate some background in some assays. This is probably due to non-specific activation of T cells by the <italic>in vitro</italic> generated DC, e.g., due to the presentation of serum-derived antigens on the surface of DC. An alternative could be to perform ELISPOT without antigen presenting cells. However, this would probably be less sensitive due to the lack of antigen-processing because of the low number of DC among human PBMC. In contrast to short peptides the longer peptides used in the present study cannot bind directly to the surface&#x2014;at least not in the context of HLA class I-restricted responses&#x2014;but need to be taken up and processed by antigen presenting cells. Hence, when using long peptides with antigen presenting cells in the ELISPOT possible both CD4- and CD8-restricted responses are detected. In contrast ELISPOT assays performed with only long peptides without antigen presenting cells probably mainly detect CD4<sup>+</sup> T-cell responses, since the binding groove of class II HLA-molecule has open ends and, consequently, can bind longer peptides directly compared to class I HLA-molecules. Furthermore, the expression of class II HLA-molecules are more restricted than class I HLA-molecules, which are expressed by virtually all cells.</p>
+      <p>Hence, numerous long BCL-X(L) derived peptide epitopes exist, which may be used in anti-cancer immune therapy. When validated, the long peptides BclX5, BclX6 and BclX8 described here may be suitable candidates for future vaccine trials as they elicit responses. The IFN-&#x3B3; ELISPOT assay is one of the most useful techniques for immunological monitoring of T-cell responses and has gained increased application as a measure of specific T cell activation. However, other cytokines could be included to further characterize the nature of the immune response, e.g., to identify poly-functional T cells pro-inflammatory cytokines like TNF-&#x3B1; and IL-2 would be informative. IL-17 has been of great interest recently owing to the discovery that the production of IL-17 characterizes subset of CD4<sup>+</sup> T-helper cells (Th17 cells). Furthermore, IFN-&#x3B3; secretion is not limited to only cytolytic cells (e.g., CD4<sup>+</sup> T-helper cells release IFN-&#x3B3;). GranzymeB (GrB) is a key mediator of target cell death via the granule-mediated pathway and the GrB ELISPOT assay was recently demonstrated to provide an estimation of cytotoxic effector cell frequency [<xref ref-type="bibr" rid="B13-cells-01-00051">13</xref>]. Additionally, unlike the IFN-&#x3B3; ELISPOT assay, the GrB ELISPOT directly measures the release of a cytotolytic protein.</p>
+      <p>The long Bcl-X(L)-derived peptides that were subjects to immune responses were all located towards the C-terminal of the inserted region of the protein. Interestingly, the previously described HLA-A2-restricted Bcl-X(L) epitopes were likewise located in this part of the Bcl-X(L) sequence [<xref ref-type="bibr" rid="B7-cells-01-00051">7</xref>]. Only three of the patients in this study were HLA-A2 positive, which taken together suggest that the C-terminal part of the inserted region of Bcl-X(L) is particular immunogenic. In this respect, it has been described previously that T-cell epitopes often cluster together at specific immunogenic regions.</p>
+      <p>It has been repeatedly suggested that when used in the clinical setting, e.g., for anti-cancer vaccinations, longer peptides may elicit stronger response compared to 8&#x2013;10 amino acids minimal epitopes. The longer peptides may specifically target professional antigen presenting cells, which are capable of the up taking and processing into HLA of larger peptide antigens. Hence, vaccination with short peptides is far from optimal because it can lead to immunological tolerance of the immunizing antigens, rather than immunity [<xref ref-type="bibr" rid="B14-cells-01-00051">14</xref>]. It was reported that an increase in the length of the peptide used for vaccination strongly affects the magnitude of the induced CD8<sup>+</sup> T-cell response. In head-to-head comparisons, vaccination with long peptide (20&#x2013;45 amino acids in length) epitopes resulted in more robust and effective T cell responses than vaccination with the minimal peptide epitopes [<xref ref-type="bibr" rid="B15-cells-01-00051">15</xref>]. Long peptides may contain both CD8 and CD4 T cell epitopes. CD4<sup>+</sup> T helper cells have been shown to support tumor cell clearance through various mechanisms. T-helper cells support CTL responses in both the priming and the effector phase as well as in maintaining the CTL response. T-helper cells secrete cytokines essential for CD8<sup>+</sup> T-cell proliferation and clonal expansion, e.g., IL-2. Th1 cells also secrete IFN-&#x3B3; that result in MHC class I up regulation on tumor cells thereby further enhancing CTL recognition [<xref ref-type="bibr" rid="B16-cells-01-00051">16</xref>]. In addition, T-helper cells are able to exert some of their anti-tumor effects through the modulation of components of the innate immune system. The IFN-&#x3B3; secreted by Th1 cells activates macrophages to produce nitric oxide and super-oxide both of which are important mediators of tumor cell killing [<xref ref-type="bibr" rid="B17-cells-01-00051">17</xref>]. </p>
+      <p>In conclusion, we have identified several novel immunogenic epitopes from the tumor associated antigen Bcl-X(L). Furthermore, the ELISPOT assay offers an attractive and sensitive method for the characterization of spontaneous immune reactivity against long peptides. This might be useful for the identification of novel T-antigens and the characterization of highly immunogenic regions in such antigens. Finally, such long peptides might be more suitable for clinical applications than minimal epitopes.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We would like to thank Merete Jonassen for excellent technical assistance. This work is supported by grants from the Novo Nordisk Foundation, The Danish Cancer Society, Danish Medical Research Council, The Lundbeck Foundation, and Herlev Hospital. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-01-00051">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Keilholz</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Weber</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Finke</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Gabrilovich</surname>
+              <given-names>D.I.</given-names>
+            </name>
+            <name>
+              <surname>Kast</surname>
+              <given-names>W.M.</given-names>
+            </name>
+            <name>
+              <surname>Disis</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Kirkwood</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Scheibenbogen</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Schlom</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Maino</surname>
+              <given-names>V.C.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Immunologic monitoring of cancer vaccine therapy: Results of a workshop sponsored by the Society for Biological Therapy</article-title>
+          <source>J. Immunother.</source>
+          <year>2002</year>
+          <volume>25</volume>
+          <fpage>97</fpage>
+          <lpage>138</lpage>
+          <pub-id pub-id-type="doi">10.1097/00002371-200203000-00001</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-cells-01-00051">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Herr</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Schneider</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lohse</surname>
+              <given-names>A.W.</given-names>
+            </name>
+            <name>
+              <surname>Meyer zum Buschenfelde</surname>
+              <given-names>K.H.</given-names>
+            </name>
+            <name>
+              <surname>Wolfel</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Detection and quantification of blood-derived CD8+ T lymphocytes secreting tumor necrosis factor alpha in response to HLA-A2.1-binding melanoma and viral peptide antigens</article-title>
+          <source>J. Immunol. Methods</source>
+          <year>1996</year>
+          <volume>191</volume>
+          <fpage>131</fpage>
+          <lpage>142</lpage>
+          <pub-id pub-id-type="doi">10.1016/0022-1759(96)00007-5</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-cells-01-00051">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Andersen</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Pedersen</surname>
+              <given-names>L.O.</given-names>
+            </name>
+            <name>
+              <surname>Becker</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>thor Straten</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of a Cytotoxic T Lymphocyte Response to the Apoptose Inhibitor Protein Survivin in Cancer Patients</article-title>
+          <source>Cancer Res.</source>
+          <year>2001</year>
+          <volume>61</volume>
+          <fpage>869</fpage>
+          <lpage>872</lpage>
+        </citation>
+      </ref>
+      <ref id="B4-cells-01-00051">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Scheibenbogen</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Keilholz</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Stevanovic</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Asemissen</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Nagorsen</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Thiel</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Rammensee</surname>
+              <given-names>H.G.</given-names>
+            </name>
+            <name>
+              <surname>Schadendorf</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of known and novel immunogenic T-cell epitopes from tumor antigens recognized by peripheral blood T cells from patients responding to IL-2-based treatment</article-title>
+          <source>Int. J. Cancer.</source>
+          <year>2002</year>
+          <volume>20</volume>
+          <fpage>409</fpage>
+          <lpage>414</lpage>
+        </citation>
+      </ref>
+      <ref id="B5-cells-01-00051">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Herr</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Ranieri</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Gambotto</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kierstead</surname>
+              <given-names>L.S.</given-names>
+            </name>
+            <name>
+              <surname>Amoscato</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Gesualdo</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Storkus</surname>
+              <given-names>W.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of naturally processed and HLA-presented Epstein-Barr virus peptides recognized by CD4(+) or CD8(+) T lymphocytes from human blood</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>1999</year>
+          <volume>96</volume>
+          <fpage>12033</fpage>
+          <lpage>12038</lpage>
+        </citation>
+      </ref>
+      <ref id="B6-cells-01-00051">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Andersen</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Sondergaard</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Zeuthen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Elliott</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Haurum</surname>
+              <given-names>J.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Poor correspondence between predicted and experimental binding of peptides to class I MHC molecules</article-title>
+          <source>Tissue Antigens.</source>
+          <year>2000</year>
+          <volume>55</volume>
+          <fpage>519</fpage>
+          <lpage>531</lpage>
+        </citation>
+      </ref>
+      <ref id="B7-cells-01-00051">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Andersen</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Reker</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kvistborg</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Becker</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>thor Straten</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spontaneous immunity against Bcl-X(L) in cancer patients</article-title>
+          <source>J. Immunol.</source>
+          <year>2005</year>
+          <volume>175</volume>
+          <fpage>2709</fpage>
+          <lpage>2714</lpage>
+        </citation>
+      </ref>
+      <ref id="B8-cells-01-00051">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boise</surname>
+              <given-names>L.H.</given-names>
+            </name>
+            <name>
+              <surname>Gonzalez-Garcia</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Postema</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>Ding</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Lindsten</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Turka</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Mao</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Nunez</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Thompson</surname>
+              <given-names>C.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>bcl-x, a bcl-2-related gene that functions as a dominant regulator of apoptotic cell death</article-title>
+          <source>Cell</source>
+          <year>1993</year>
+          <volume>74</volume>
+          <fpage>597</fpage>
+          <lpage>608</lpage>
+        </citation>
+      </ref>
+      <ref id="B9-cells-01-00051">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McCutcheon</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wehner</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Wensky</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kushner</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Doan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hsiao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Calabresi</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Ha</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Tran</surname>
+              <given-names>T.V.</given-names>
+            </name>
+            <name>
+              <surname>Tate</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A sensitive ELISPOT assay to detect low-frequency human T lymphocytes</article-title>
+          <source>J. Immunol. Methods</source>
+          <year>1997</year>
+          <volume>210</volume>
+          <fpage>149</fpage>
+          <lpage>166</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0022-1759(97)00182-8</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-cells-01-00051">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shangary</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>D.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Recent advances in the development of anticancer agents targeting cell death inhibitors in the Bcl-2 protein family</article-title>
+          <source>Leukemia</source>
+          <year>2003</year>
+          <volume>17</volume>
+          <fpage>1470</fpage>
+          <lpage>1481</lpage>
+        </citation>
+      </ref>
+      <ref id="B11-cells-01-00051">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kawasaki</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Altieri</surname>
+              <given-names>D.C.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <name>
+              <surname>Toyoda</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tenjo</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Tanigawa</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Inhibition of apoptosis by survivin predicts shorter survival rates in colorectal cancer</article-title>
+          <source>Cancer Res.</source>
+          <year>1998</year>
+          <volume>58</volume>
+          <fpage>5071</fpage>
+          <lpage>5074</lpage>
+        </citation>
+      </ref>
+      <ref id="B12-cells-01-00051">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nakagawara</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular basis of spontaneous regression of neuroblastoma: Role of neurotrophic signals and genetic abnormalities</article-title>
+          <source>Hum. Cell</source>
+          <year>1998</year>
+          <volume>11</volume>
+          <fpage>115</fpage>
+          <lpage>124</lpage>
+        </citation>
+      </ref>
+      <ref id="B13-cells-01-00051">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shafer-Weaver</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Sayers</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Strobl</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Derby</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Ulderich</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Baseler</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Malyguine</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Granzyme B ELISPOT assay: an alternative to the 51Cr-release assay for monitoring cell-mediated cytotoxicity</article-title>
+          <source>J. Transl. Med.</source>
+          <year>2003</year>
+          <volume>1</volume>
+          <fpage>14</fpage>
+        </citation>
+      </ref>
+      <ref id="B14-cells-01-00051">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Toes</surname>
+              <given-names>R.E.</given-names>
+            </name>
+            <name>
+              <surname>Offringa</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Blom</surname>
+              <given-names>R.J.J.</given-names>
+            </name>
+            <name>
+              <surname>Melief</surname>
+              <given-names>C.J.M.</given-names>
+            </name>
+            <name>
+              <surname>Kast</surname>
+              <given-names>W.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Peptide vaccination can leade to enhanced tumor growth through specific T-cell tolerance induction</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>1996</year>
+          <volume>93</volume>
+          <fpage>7855</fpage>
+          <lpage>7860</lpage>
+        </citation>
+      </ref>
+      <ref id="B15-cells-01-00051">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zwaveling</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ferreira Mota</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>Nouta</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lipford</surname>
+              <given-names>G.B.</given-names>
+            </name>
+            <name>
+              <surname>Offringa</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>van der Burg</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Melief</surname>
+              <given-names>C.J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Established human papillomavirus type 16-expressing tumors are effectively eradicated following vaccination with long peptides</article-title>
+          <source>J. Immunol.</source>
+          <year>2002</year>
+          <volume>169</volume>
+          <fpage>350</fpage>
+          <lpage>358</lpage>
+        </citation>
+      </ref>
+      <ref id="B16-cells-01-00051">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kennedy</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Celis</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multiple roles for CD4+ T cells in anti-tumor immune responses</article-title>
+          <source>Immunol. Rev.</source>
+          <year>2008</year>
+          <volume>222</volume>
+          <fpage>129</fpage>
+          <lpage>144</lpage>
+        </citation>
+      </ref>
+      <ref id="B17-cells-01-00051">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Knutson</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Disis</surname>
+              <given-names>M.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Augmenting T helper cell immunity in cancer</article-title>
+          <source>Curr. Drug Targets Immune Endocr. Metabol. Disord.</source>
+          <year>2005</year>
+          <volume>5</volume>
+          <fpage>365</fpage>
+          <lpage>371</lpage>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

@@ -1,0 +1,1393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xml:lang="en" article-type="research-article" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells1040886</article-id>
+      <article-id pub-id-type="publisher-id">cells-01-00886</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Effects of mTOR Inhibitors on Components of the Salvador-Warts-Hippo Pathway </article-title>
+      </title-group>
+	  <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chiang</surname>
+            <given-names>Jonathan</given-names>
+          </name>
+          <xref rid="af1-cells-01-00886" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Martinez-Agosto</surname>
+            <given-names>Julian A.</given-names>
+          </name>
+          <xref rid="af2-cells-01-00886" ref-type="aff">2</xref>
+          <xref rid="c1-cells-01-00886" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      
+      <aff id="af1-cells-01-00886"><label>1 </label>Department of Human Genetics, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA 90095, USA; Email: <email>jchiang@mednet.ucla.edu</email></aff>
+      <aff id="af2-cells-01-00886"><label>2 </label>Division of Medical Genetics, Department of Pediatrics, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA 90095, USA</aff>
+      <author-notes>
+        <corresp id="c1-cells-01-00886"><label>*</label> Author to whom correspondence should be addressed; Email: <email>julianmartinez@mednet.ucla.edu</email>; Tel.: +1-310-794-2405; Fax: +1-310-794-5446.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>19</day>
+        <month>10</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+	  <month>12</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>1</volume>
+      <issue>4</issue>
+      <fpage>886</fpage>
+      <lpage>904</lpage>
+      <history>
+        <date date-type="received">
+          <day>07</day>
+          <month>08</month>
+          <year>2012</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>11</day>
+          <month>10</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>12</day>
+          <month>10</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#x000A9;  2012 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2012</copyright-year>
+        <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/">
+          <p>This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (<uri>http://creativecommons.org/licenses/by/3.0/</uri>).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The MST/Salvador-Warts-Hippo and mTOR/Akt/PI3K growth signaling pathways have been established as important modulators of cell growth, proliferation and cell survival in controlling organ size in <italic>Drosophila</italic> and mammals. Here, we sought to determine the role of the MST family of kinases, some of which are components of the Hippo pathway, and their closely related Sterile 20-like kinases (STK) as candidates for mediating cross-talk between the Hippo and mTOR pathways. Expression analysis in the HepG2 and MCF7 cell lines demonstrated common expression of MST1/2/4, MAP4K3/4/5, STK 24 (MST3), STK25, STK39, Pak1, SLK, Strad&#x3B1;/&#x3B2; and TAO2. All components of the Hippo signaling pathway are present in both cell lines except for YAP1 in MCF7 cells. mTOR inhibition via rapamycin decreases TAZ levels in HepG2 but not MCF7 cells and increases TEAD1 levels in MCF7 but not HepG2 cells, suggesting a selective role of the mTOR pathway in regulating these Hippo targets in a cell type-specific manner. Furthermore, the cellular localization of TAZ changes in response to mTORC1/2 inhibitors and Akt inhibition. These findings demonstrate the mTOR-dependent regulation of Hippo signaling at the level of the transcriptional regulators TAZ and TEAD1 and highlight the potential role for mTOR inhibitors in regulating Hippo-signaling dependent tumors. </p>
+      </abstract>
+      <kwd-group>
+        <kwd>Hippo pathway</kwd>
+        <kwd>mTOR pathway</kwd>
+        <kwd>Sterile-20 like kinase family</kwd>
+        <kwd>TAZ</kwd>
+        <kwd>TEAD1</kwd>
+        <kwd>signal transduction</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>1. Introduction</title>
+      <p>The development of cancer and tumorigenesis in eukaryotic cells occurs as a result of uncontrolled cell growth and division and ultimately leads to abnormal tissue growth. The Salvador-Warts-Hippo (SWH) tumor suppressor and the mammalian target of rapamycin (mTOR) pathways have been implicated as key regulators of both cell proliferation and apoptosis [<xref ref-type="bibr" rid="B1-cells-01-00886">1</xref>]. The SWH pathway, first described in <italic>Drosophila</italic>, is an evolutionarily conserved molecular mechanism that in mammals consists of a cassette of core kinases, including MST1/2 (Hippo homologue), Lats1/2 (Warts homologue), Mob (Mats homologue), as well as an adaptor protein, Sav1 (Salvador homologue) [<xref ref-type="bibr" rid="B2-cells-01-00886">2</xref>]. Earlier studies have shown that the downstream effectors of this kinase cassette include the transcription coactivators YAP1/2 and TAZ (Yorkie homologues), which work in conjunction with the TEAD transcription factor (Scalloped homologue) to promote cell proliferation and survival [<xref ref-type="bibr" rid="B3-cells-01-00886">3</xref>]. Lats acts in association with Mob to negatively regulate these two nuclear proteins by phosphorylation of YAP and TAZ, a sign of active Hippo signaling [<xref ref-type="bibr" rid="B4-cells-01-00886">4</xref>]. In the absence of phosphorylation, YAP and TAZ translocate to the nucleus, where they activate TEAD1 targets [<xref ref-type="bibr" rid="B5-cells-01-00886">5</xref>]. Upstream of the core kinase group, several kinases have also been found to be implicated in the SWH signaling pathway [<xref ref-type="bibr" rid="B6-cells-01-00886">6</xref>]. The mechanisms by which most of these upstream elements are regulated, however, have yet to be elucidated [<xref ref-type="bibr" rid="B7-cells-01-00886">7</xref>,<xref ref-type="bibr" rid="B8-cells-01-00886">8</xref>]. </p>
+      <p>Hippo/MST belongs to the family of kinases that share homology with Sterile 20p (Ste20p), a serine/threonine mitogen-activated protein kinase (MAPK) which was first discovered in yeast [<xref ref-type="bibr" rid="B9-cells-01-00886">9</xref>]. Its mammalian homologues, MST1 and MST2, are kinases that comprise a subset of the family of about 28 Ste20-like protein kinases that have been discovered in mammals [<xref ref-type="bibr" rid="B10-cells-01-00886">10</xref>]. These kinases function as messengers for both intracellular and extracellular signals that include signal transduction among various other functions [<xref ref-type="bibr" rid="B11-cells-01-00886">11</xref>]. The Ste20p family consists of two structurally distinct subfamilies, the p21-activated kinase (PAK) family and the germinal center kinase (GCK) family. Ste-20 like kinases have been established to be important regulators of the MAP kinase cascades that respond to extracellular signals to regulate gene expression. One of the MAPK activators, the Ras-ERK pathway, has been found to regulate the mTOR pathway, which uses extracellular signals such as nutrient availability to control cell fate in cell survival, growth and metabolism [<xref ref-type="bibr" rid="B12-cells-01-00886">12</xref>]. This raises the interesting possibility that Ste20-like kinases may regulate or mediate the cross-talk between different growth signaling pathways, in particular MST1 and MST2, which have been identified as major components of the SWH pathway [<xref ref-type="bibr" rid="B13-cells-01-00886">13</xref>]. In this study we examine the expression of SWH pathway components as well as several of the Ste20-like kinases in the hepatocarcinoma HepG2 and breast cancer MCF7 cell lines. We identify a role for mTOR activity in regulating TAZ and TEAD1 levels as well as the intracellular localization of TAZ, linking the growth-promoting effects of the SWH and mTORC1 pathways. </p>
+    </sec>
+    <sec sec-type="results">
+      <title>2. Results and Discussion</title>
+      <sec>
+        <title>2.1. Hippo Pathway Components and STK Kinases Are Expressed in HepG2 and MCF7 Cell Lines</title>
+        <p>In order to determine the regulation of the SWH pathway in the HepG2 cell line, we first tested for expression of transcripts for the core components of the pathway and Ste20-like kinases. We identified expression of all the components involved in Hippo signaling (Mob1, NF2, MST1/2, Lats2) and their downstream effectors (TEAD1, TAZ, YAP1) in HepG2 cells. We also found that several Ste20-like kinases are expressed in HepG2 cells. These kinases include: Pak1, SLK, TAO2, MAP4K3, MAP4K4, MAP4K5, Strad&#x3B1;/&#x3B2;, MST4, STK24 (MST3), STK25, STK39 and Scrib (<xref ref-type="fig" rid="cells-01-00886-f001">Figure 1</xref>A). Other genes tested for but not expressed include: Fat2, YSK4 and TAO3. Pak1, TAO2, MAP4K3, MAP4K5, STK24 (MST3), STK25, and Scrib are expressed at low levels.</p>
+        <fig id="cells-01-00886-f001" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p>Expression of Hippo pathway components and Ste20-like kinases in HepG2 and MCF7 cell lines. (A) Transcript expression levels of Hippo pathway components (left) and Ste20-like kinases (right) do not change in response to rapamycin treatment in HepG2 cells. Mob1, TAO2, Map4K5 and Scrib are expressed at very low levels. (B) Expression levels of Hippo pathway components and Ste20-like kinases transcripts do not change in response to rapamycin treatment in MCF7 cells. Pak1, TAO2, Map4K3, Map4K4, Strad&#x3B1; and STK24 are expressed at low levels. YAP1 is not expressed. Note: Mob1, Map4K5, STK25 and Scrib are expressed at higher levels in MCF7 cells than in HepG2 cells, while Map4K4 and Strad&#x3B1; are expressed at lower levels in MCF7 cells than in HepG2 cells. For both cell lines, GAPDH and the ribosomal protein rpS6 are included as housekeeping gene controls. </p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00886-g001.tif"/>
+        </fig>
+        <p>Similar findings were observed for the MCF7 cell line (<xref ref-type="fig" rid="cells-01-00886-f001">Figure 1</xref>B). We identified the expression of Hippo signaling components (Mob1, NF2, MST1/2, Lats2) and their targets TEAD1 and TAZ in these cells. Importantly, we noted the absence of YAP transcripts. This result was further confirmed through immunocytochemical analysis (<xref ref-type="fig" rid="cells-01-00886-f008">Figure S1</xref>). Ste20-like kinases expressed include: Pak1, SLK, TAO2, MAP4K3, MAP4K4, MAP4K5, Strad&#x3B1;/&#x3B2;, STK24 (MST3), MST4, STK25, STK39, and Scrib. Other genes tested for but not expressed include: Fat2, YSK4 and TAO3. Mob1, MAP4K5, STK25 and Scrib are expressed at higher levels in MCF7 cells than in HepG2 cells, while MAP4K4 and Strad&#x3B1; are expressed at lower levels in MCF7 cells than in HepG2 cells. <italic>2.2.</italic><italic>Inhibition of mTOR Signaling Does Not Affect Transcription of Hippo and Ste20-like Kinases in HepG2 and MCF7 Cell Lines</italic></p>
+        <p>Signaling through mTOR occurs through two different complexes: mTORC1 and mTORC2 [<xref ref-type="bibr" rid="B14-cells-01-00886">14</xref>]. Rapamycin inhibits mTORC1 by inhibiting the interaction of Raptor with mTOR [<xref ref-type="bibr" rid="B15-cells-01-00886">15</xref>,<xref ref-type="bibr" rid="B16-cells-01-00886">16</xref>]. To study the effect of mTOR on Hippo signaling, we blocked mTOR activity by adding rapamycin to HepG2 cells and re-examined expression of Hippo components and Ste20-like kinases. We observed no changes in expression of pathway components and Ste20-like kinases when cells were treated with rapamycin (<xref ref-type="fig" rid="cells-01-00886-f001">Figure 1</xref>A). Similar studies in MCF7 cells confirmed the same results (<xref ref-type="fig" rid="cells-01-00886-f001">Figure 1</xref>B). Taken altogether, these results demonstrate that mTOR signaling does not regulate Hippo or Ste20-like kinase levels at the transcriptional level.</p>
+      </sec>
+      <sec>
+        <title>2.2. Rapamycin Alters TEAD1 Protein Expression in MCF7 Cells</title>
+        <p>We determined the intracellular localization and expression levels of the Hippo target YAP, for both its phosphorylated and unphosphorylated forms, in HepG2 cells, via immunocytochemistry in low and high cell density conditions (<xref ref-type="fig" rid="cells-01-00886-f009">Figure S2</xref>). We observed that YAP and P-YAP proteins are mainly cytosolic and their expression levels or intracellular localization do not appear to be affected by cell density. Upon treatment with rapamycin, we observed that YAP and P-YAP remained cytosolic with drug treatment and that the expression levels of YAP and P-YAP did not change in response to cell density (<xref ref-type="fig" rid="cells-01-00886-f009">Figure S2</xref>). </p>
+        <p>In contrast, the transcription factor TEAD1, a binding partner for YAP and target of the Hippo pathway, is mainly nuclear at low cell density conditions, but less nuclear at high density in HepG2 cells (<xref ref-type="fig" rid="cells-01-00886-f002">Figure 2</xref>). While no appreciable change in TEAD1 expression was found upon treatment with drug in both high and low cell density conditions, rapamycin enhances the nuclear localization of TEAD1 in both cell density conditions (<xref ref-type="fig" rid="cells-01-00886-f002">Figure 2</xref>). However, TEAD1 is mainly cytosolic in MCF7 cells and its expression levels increase upon treatment with rapamycin without affecting intracellular localization (<xref ref-type="fig" rid="cells-01-00886-f003">Figure 3</xref>). We further confirmed these findings by using an inhibitor of both mTORC1 and mTORC2, OSI-027 [<xref ref-type="bibr" rid="B17-cells-01-00886">17</xref>] (<xref ref-type="fig" rid="cells-01-00886-f004">Figure 4</xref>). A similar increase in TEAD1 levels was observed upon Akt inhibition, but not with upregulation of Akt activity via treatment with a PTEN inhibitor (<xref ref-type="fig" rid="cells-01-00886-f004">Figure 4</xref>). These results demonstrate that mTORC1 signaling selectively regulates specific Hippo pathway components and their intracellular localization in a cell-type specific manner: in HepG2 cells, it regulates nuclear localization of TEAD1, while in MCF7 cells, it determines its expression levels.</p>
+        </sec>
+      <sec>
+        <title>2.3. mTOR Inhibition Affects the Expression Levels of the Hippo Target TAZ in HepG2 Cells But Not MCF7 Cells</title>
+        <p>To further investigate the relationship between the Hippo and mTOR pathways, we next examined the effect of mTOR inhibition on the Hippo target TAZ. In both cell lines, TAZ and P-TAZ are localized in the nucleus at low cell density, but translocate to the cytosol in response to increased cell density (<xref ref-type="fig" rid="cells-01-00886-f005">Figure 5</xref>, <xref ref-type="fig" rid="cells-01-00886-f010">Figure S3</xref>, <xref ref-type="fig" rid="cells-01-00886-f011">Figure S4</xref>). However, inhibition of mTOR signaling via rapamycin treatment yielded no change in localization or expression of TAZ or P-TAZ in MCF7 cells (<xref ref-type="fig" rid="cells-01-00886-f010">Figure S3</xref>). In contrast, we found that inhibition of the mTOR pathway via rapamycin treatment in HepG2 cells resulted in decreased expression levels of TAZ without affecting levels of P-TAZ (<xref ref-type="fig" rid="cells-01-00886-f005">Figure 5</xref> and <xref ref-type="fig" rid="cells-01-00886-f011">Figure S4</xref>). Additionally, TAZ in rapamycin-treated HepG2 cells at low cell density appears to translocate to the cytosol (<xref ref-type="fig" rid="cells-01-00886-f005">Figure 5</xref>), while TAZ in rapamycin-treated cells at high density appears to translocate to the nucleus, compared to controls (<xref ref-type="fig" rid="cells-01-00886-f005">Figure 5</xref>). Interestingly, while inhibition of Akt decreases TAZ levels and causes an increase in its nuclear localization as is the case with rapamycin (mTORC1 inhibition with partial mTORC2 inhibition), to our surprise OSI-027 (mTORC1 + mTORC2 inhibition) treatment decreases TAZ levels but does not increase nuclear localization (<xref ref-type="fig" rid="cells-01-00886-f006">Figure 6</xref>A). A similar decrease in TAZ levels occurs upon reduction of serum levels (<xref ref-type="fig" rid="cells-01-00886-f006">Figure 6</xref>B). These results indicate that mTORC1 signaling regulates levels of TAZ, while its localization to the nucleus may be more dependent on mTORC2 in high cell density conditions. </p>
+		<fig id="cells-01-00886-f002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>Rapamycin treatment does not affect TEAD1 protein expression levels but affects its nuclear localization in HepG2 cells. TEAD1 (green) expression does not change with and without rapamycin treatment at low and high cell density conditions. Bottom panels represent the boxes in top images: localization of TEAD1 at low and high cell density conditions demonstrates that, in contrast to MCF7 cells, it is mainly nuclear in low density conditions, while it is less nuclear at high density conditions. Rapamycin treatment increases nuclear localization at high density conditions. TOPRO3 (blue) labels nuclei. Scale bars, 20 &#xB5;m.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00886-g002.tif"/>
+        </fig>
+        <fig id="cells-01-00886-f003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>mTOR pathway inhibition increases TEAD1 levels in MCF7 cells. Elevated levels of TEAD1 (green) were observed at both high and low cell densities after treatment with rapamycin. Bottom panels represent the boxes in top images: localization of TEAD1 at low and high cell density conditions demonstrates cytoplasmic localization that does not change with rapamycin treatment. TOPRO3 (blue) labels nuclei. Scale bars, 20&#xB5;m.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00886-g003.tif"/>
+        </fig>
+        </sec>
+      <sec>
+        <title>2.4. Discussion</title>
+        <p>Previous studies have shown that the SWH signaling pathway is critical in regulating cellular development and homeostasis [<xref ref-type="bibr" rid="B2-cells-01-00886">2</xref>,<xref ref-type="bibr" rid="B7-cells-01-00886">7</xref>], and interference with pathway components results directly in dysregulation of tissue and organ size. Our results confirmed expression of the key SWH pathway machinery (Mob1, MST2, Lats2) transcripts in HepG2 and MCF7 cells. We also confirmed the transcriptional expression of several Ste20p-like kinases in HepG2 and MCF7 cells. Upon treatment with rapamycin, the transcript expression of both SWH pathway components and Ste20p-like kinases in these cell lines did not change, demonstrating that mTOR does not regulate these elements of the Hippo pathway at the transcriptional level. This data also suggests that select Ste20p-like kinases (Pak1, SLK, TAO2, MAP4K3, MAP4K4, MAP4K5, Strad&#x3B1;/&#x3B2;, MST4, STK24, STK25, STK39, and Scrib) are not regulated by mTORC1 signaling. Despite the lack of effect on transcription levels, the known role of mTOR in promoting protein translation suggested the possibility that it may regulate components of the Hippo pathway at the translational level. </p>
+		<fig id="cells-01-00886-f004" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p>Akt pathway inhibition increases TEAD1 levels in MCF7 cells. Elevated levels of TEAD1 (green) were observed at high cell density conditions after treatment with an Akt inhibitor. The observed effects of rapamycin were confirmed with the mTORC1/2 inhibitor OSI-027. Panels on the right represent boxed images on the left: localization of TEAD1 at high cell density demonstrates cytoplasmic localization that does not change with drug treatment. TOPRO3 (blue) labels nuclei. Scale bars, 20&#xB5;m.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00886-g004.tif"/>
+        </fig>
+      
+        <fig id="cells-01-00886-f005" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <p>mTOR pathway inhibition affects expression and localization of TAZ in HepG2 cells. Decreased levels of TAZ (green) were observed at both high and low cell densities after treatment with rapamycin. Bottom panels represent the boxes in top images: localization of TAZ at low cell density conditions demonstrates mostly nuclear expression that becomes cytoplasmic upon rapamycin treatment, while in high density conditions, TAZ is mostly cytoplasmic in control cells but shifts to the nucleus upon rapamycin treatment. TOPRO3 (blue) labels nuclei. Scale bars, 20 &#xB5;m.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00886-g005.tif"/>
+        </fig>
+        
+        <p>TEA Domain family member 1 (TEAD1) is a known homologue of the <italic>Drosophila melanogaster</italic> transcription factor Scalloped, a known effector of the Hippo pathway that interacts with WW-domain coactivators. In vertebrates, these coactivators are encoded by the <italic>YAP</italic> and <italic>TAZ</italic> genes and they promote cell cycle progression [<xref ref-type="bibr" rid="B18-cells-01-00886">18</xref>], cell proliferation, and differentiation [<xref ref-type="bibr" rid="B19-cells-01-00886">19</xref>]. TEAD1 has been shown to play a role in retaining TAZ in the nucleus to promote cell proliferation [<xref ref-type="bibr" rid="B20-cells-01-00886">20</xref>], mediate YAP-dependent growth control [<xref ref-type="bibr" rid="B21-cells-01-00886">21</xref>], and its knockdown has been shown to decrease cell proliferation [<xref ref-type="bibr" rid="B22-cells-01-00886">22</xref>]. While increases in TEAD1 expression levels are associated with decreased survival in prostate cancer [<xref ref-type="bibr" rid="B22-cells-01-00886">22</xref>], and in conjunction with TAZ induces epithelial-mesenchymal transition [<xref ref-type="bibr" rid="B3-cells-01-00886">3</xref>], there is limited data on the role of TEAD1 in cancer. Our immunocytochemical results demonstrate a differential effect of rapamycin on increasing TEAD1 levels in MCF7 but not HepG2 cells, and this was confirmed with the mTORC1/2 inhibitor OSI-027. This difference is likely due to a cell-type specific effect of TEAD1 in breast cancer cells that awaits further study. </p>
+		<fig id="cells-01-00886-f006" position="float">
+          <label>Figure 6</label>
+          <caption>
+            <p>Akt pathway inhibition and changes in serum levels affects expression and localization of TAZ in HepG2 cells. (A) Decreased levels of TAZ (green) were observed at high cell density conditions after treatment with an Akt inhibitor but not with the PTEN inhibitor bpV(phen). (B) Decreased levels of TAZ were also observed at high cell density conditions after a reduction in serum levels. Panels on the right represent boxed images on the left: localization of TAZ in high cell density conditions demonstrates mostly cytoplasmic expression that does not change upon OSI-027 treatment but shifts to the nucleus upon Akt1/2 inhibitor treatment. TOPRO3 (blue) labels nuclei. Scale bars, 20 &#xB5;m.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00886-g006.tif"/>
+        </fig>
+      
+        <p>The lack of changes in P-YAP in response to rapamycin treatment suggests that there is no YAP-mediated interaction between the SWH and mTOR pathways both at the transcriptional and post-translational levels. However, our study was limited to the use of an antibody that recognizes phosphorylation at the Serine 127 and Serine 89 residues [<xref ref-type="bibr" rid="B23-cells-01-00886">23</xref>]. This accounts for the higher levels of P-YAP compared to total YAP seen in HepG2 cells. Therefore, it remains to be determined if additional phosphorylation sites may potentially mediate cross-talk between the two pathways. </p>
+        <p>TAZ is a demonstrated transcriptional coactivator regulated by the Hippo pathway that promotes cell proliferation and epithelial-mesenchymal transition [<xref ref-type="bibr" rid="B23-cells-01-00886">23</xref>,<xref ref-type="bibr" rid="B24-cells-01-00886">24</xref>]. Phosphorylation at key residues by Hippo pathway kinases causes retention of TAZ in the cytoplasm and prevents its growth-promoting activity [<xref ref-type="bibr" rid="B22-cells-01-00886">22</xref>]. We did not observe changes in P-TAZ levels or intracellular localization upon rapamycin treatment in both cell lines. TAZ can be phosphorylated at four different serine residues (Ser89, Ser66, Ser117, Ser311) [<xref ref-type="bibr" rid="B22-cells-01-00886">22</xref>]. We examined only the Ser89 residue because it is most commonly dependent on Hippo signaling. It is possible that the expression levels of TAZ that has been phosphorylated at other sites in the protein change in response to rapamycin treatment. More importantly, our results demonstrate that the intracellular localization of TAZ is actively regulated in both MCF7 and HepG2 cell lines. In conditions of high cell density, TAZ translocates to the cytosol and this is associated with contact-inhibition of cell growth. However, inhibition of mTOR signaling via rapamycin had no effect in MCF7 cells but decreased TAZ levels in HepG2 cells, as do decreases in serum levels. This decrease in expression was accompanied by TAZ translocation to the nucleus at high density, likely the result of inhibition of translation of proteins required for its cytosolic retention. Similarly, Akt inhibition decreases its expression levels and promotes its nuclear localization, consistent with the changes observed with rapamycin. Interestingly, while mTORC1 inhibition with rapamycin in high cell density conditions promotes the nuclear localization of TAZ, the mTORC1/2 inhibitor OSI-027 has no effect on localization in HepG2 cells. This suggests a potential role for mTORC2 in the nuclear localization of TAZ upon mTOR inhibition. </p>
+        <p>Based on our findings, TAZ represents a novel biomarker for investigation in liver cancer, and its responsiveness to rapamycin specifically in this type of tumor suggests a potential therapeutic intervention for hepatic tumors in which TAZ is upregulated. Elevated levels of TAZ have been correlated with breast cancer cell migration, invasion, and tumorigenesis, while TAZ knockdown in breast cancer cell lines have impaired the tumorigenic ability of those cells [<xref ref-type="bibr" rid="B25-cells-01-00886">25</xref>]. These findings have defined TAZ as an important regulator of breast cancer development and progression. However, the correlation of TAZ levels with other types of tumors has been limited to a few cases, including non-small cell lung cancer cell lines [<xref ref-type="bibr" rid="B26-cells-01-00886">26</xref>] and papillary thyroid carcinoma [<xref ref-type="bibr" rid="B27-cells-01-00886">27</xref>]. The decrease in TAZ levels upon rapamycin treatment suggests a potential role for the mTOR pathway in maintaining TAZ levels, and further studies of this mechanism in other cancers may help elucidate the role of Hippo signaling in tumorigenesis. </p>
+      </sec>
+    </sec>
+    <sec>
+      <title>3. Experimental Section</title>
+      <sec>
+        <title>3.1. Cell Lines and Cell Culture</title>
+        <p>HepG2 and MCF7 cells (ATCC, Manassas) were cultured in Dulbecco&#x2019;s Modification of Eagle&#x2019;s Medium (4.5 g/L glucose, with L-glutamine and sodium pyruvate; Cellgro, Manassas) and supplemented with 10% heat-inactivated fetal bovine serum (Life Technologies, Grand Island) and Penicillin-Streptomycin-Neomycin antibiotic mixture (Life Technologies, Grand Island) and grown at 37 &#xB0;C and 5% CO<sub>2</sub>. For experiments, cells were plated on 60 mm petri dishes and grown for 48 hours to 70%&#x2013;80% confluence before drug treatment. Petri dishes were separated into triplicates, with each dish exposed to one of three conditions: (1) No drug treatment (control) (2) 0.1% DMSO (Fisher Scientific, Fair Lawn) or (3) 20 n&#x39C; rapamycin in 0.1% DMSO (LC Laboratories, Woburn) and incubated for 24 hours. Rapamycin effectiveness was determined by effects on P-4EBP1 immunofluorescence (<xref ref-type="fig" rid="cells-01-00886-f012">Figure S5</xref>). Other drugs used in our study include: 10 nM Akt1/2 kinase inhibitor (Sigma-Aldrich, St. Louis), 100 nM bpV(phen) (Calbiochem, Billerica), and 500 pM OSI-027 (ChemieTek, Indianapolis).</p>
+      </sec>
+      <sec>
+        <title>3.2. RNA Extraction, Purification and cDNA Synthesis</title>
+        <p>Triplicate dishes of drug-treated cells were lysed using TRIzol&#xAE; Reagent and processed as per manufacturer's protocol. RNA was then treated with DNase I (Roche, Indianapolis) for 30 minutes. RNA was extracted with Phenol/Chloroform/Isoamyl Alcohol (Fisher Scientific, Fair Lawn), 3M Sodium Acetate Trihydrate (Sigma, St. Louis), 1 mM EDTA, glycogen (Ambion, Austin) and ethanol. cDNA was synthesized using the Superscript&#xAE; III First-Strand Synthesis System for RT-PCR (Life Technologies, Carlsbad). For each condition, 1 &#xB5;g of DNAse-treated RNA was used. </p>
+      </sec>
+      <sec>
+        <title>3.3. Semi-Quantitative PCR Amplification of Target Genes</title>
+        <p>PCR primers (<xref ref-type="fig" rid="cells-01-00886-f013">Figure S6</xref>) were designed to span introns to ensure specificity of amplification. A 100ng sample of cDNA was subjected to PCR using the following procedures: 94 &#xB0;C for 3 minutes, followed by 34 cycles of 94 &#xB0;C for 45 seconds, 55 &#xB0;C for 30 seconds, and 72 &#xB0;C for 90 seconds. Samples were then incubated at 72&#xB0; for 10 minutes. All cDNA synthesis and PCR procedures were performed using the Bio-Rad C1000&#x2122; Thermal Cycler. PCR products were resolved in a 1% agarose gel. Each experimental condition and gene expression level was replicated in a minimum of four samples. </p>
+      </sec>
+      <sec>
+        <title>3.4. Immunocytochemistry</title>
+        <p>Primary antibodies used in our study included: TEAD1 (1:100; Lifespan Biosciences, Seattle), TAZ, P-TAZ (1:200; Ser89, Santa Cruz Biotechnology, Santa Cruz), P-4EBP1 (1:400), YAP, and P-YAP (1:100; Ser127, Cell Signaling Technology, Danvers). Cells were plated on poly-D-Lysine coated coverslips (BD Biosciences, Bedford) and grown to 80% confluence, washed once with PBS (Cellgro, Manassas), and fixed with 4% paraformaldehyde. Cells were washed three times with PBS, permeabilized with 0.05% Triton X-100/PBS and blocked with 10% NGS/PBS. Cells were then incubated overnight at 4 &#xB0;C with primary antibody, rinsed twice with 10% NGS in 0.05% Triton X-100/PBS and incubated for two hours with secondary antibody coupled to FITC (Jackson ImmunoResearch Laboratories, West Grove) in a 1:400 dilution. Finally, coverslips were washed twice with PBS, incubated in TOPRO3 (Life Technologies, Eugene) with a 1:500 dilution and washed once with water. Coverslips were then mounted onto microscope slides using Vectashield (Vector Laboratories, Burlingame) mounting medium and examined using a Carl Zeiss LSM 310 Laser Scanning Confocal Microscope. Each of the experimental findings was replicated with a minimum of five samples. </p>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>In this study we demonstrate expression of all components of the Hippo signaling pathway in both the HepG2 liver and MCF7 breast cancer cell lines, except YAP in MCF7 cells. mTOR inhibition via rapamycin treatment decreases TAZ levels in HepG2 but not MCF7 cells and increases TEAD1 levels in MCF7 but not HepG2 cells, while altering the nuclear localization of TAZ depending on the conditions of cell density (<xref ref-type="fig" rid="cells-01-00886-f007">Figure 7</xref>). Akt inhibition causes similar effects to mTOR, increasing TEAD1 in MCF7 cells and decreasing TAZ levels in HepG2 cells, but causing nuclear accumulation of TAZ. Our findings suggest a novel selective role of the mTOR pathway in regulating these Hippo targets in a cell type-specific manner and highlight the potential role for mTOR inhibitors in regulating Hippo-signaling dependent tumors.</p>
+      <fig id="cells-01-00886-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Effects of rapamycin treatment on Hippo pathway components in HepG2 and MCF7 cells. Cytoplasmic (C) or nuclear (N) localization and downregulation (D) or upregulation (U) of Hippo pathway components at low density (left) and high density (right) conditions. </p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00886-g007.tif"/>
+      </fig>
+    </sec>
+  </body>
+  <back>
+  <ack>
+      <title>Acknowledgments</title>
+      <p>We thank all members of the Martinez-Agosto lab for helpful suggestions. </p>
+    </ack>
+    <notes>
+      <title>Conflict of Interest</title>
+      <p>The authors declare no conflict of interest. </p>
+    </notes>
+    <ref-list>
+      <title>References and Notes</title>
+      <ref id="B1-cells-01-00886">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Udan</surname>
+              <given-names>R.S.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ikenoue</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Ye</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Chinnaiyan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Halder</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Lai</surname>
+              <given-names>Z.-C.</given-names>
+            </name>
+            <name>
+              <surname>Guan</surname>
+              <given-names>K.-L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Inactivation of YAP oncoprotein by the Hippo pathway is involved in cell contact inhibition and tissue growth control</article-title>
+          <source>Genes Dev.</source>
+          <year>2007</year>
+          <volume>21</volume>
+          <fpage>2747</fpage>
+          <lpage>2761</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.1602907</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-cells-01-00886">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sudol</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Harvey</surname>
+              <given-names>K.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Modularity in the Hippo signaling pathway</article-title>
+          <source>Trends BiochemSci.</source>
+          <year>2010</year>
+          <volume>35</volume>
+          <fpage>627</fpage>
+          <lpage>633</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tibs.2010.05.010</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-cells-01-00886">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.-Y.</given-names>
+            </name>
+            <name>
+              <surname>Zha</surname>
+              <given-names>Z.-Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Xiong</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lei</surname>
+              <given-names>Q.-Y.</given-names>
+            </name>
+            <name>
+              <surname>Guan</surname>
+              <given-names>K.-L.</given-names>
+            </name>
+          </person-group>
+          <article-title>TEAD Transcription Factors Mediate the Function of TAZ in Cell Growth and Epithelial-Mesenchymal Transition</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2009</year>
+          <volume>284</volume>
+          <fpage>13355</fpage>
+          <lpage>13362</lpage>
+        </citation>
+      </ref>
+      <ref id="B4-cells-01-00886">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Barry</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lawrence</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Dawson</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Willis</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Markowitz</surname>
+              <given-names>S.D.</given-names>
+            </name>
+            <name>
+              <surname>Camargo</surname>
+              <given-names>F.D.</given-names>
+            </name>
+            <name>
+              <surname>Avruch</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mst1 and Mst2 protein kinases restrain intestinal stem cell proliferation and colonic tumorigenesis by inhibition of Yes-associated protein (Yap) overabundance</article-title>
+          <source>Proc. Natl. Acad. Sci.</source>
+          <year>2011</year>
+          <volume>108</volume>
+          <fpage>E1312</fpage>
+          <lpage>E1320</lpage>
+        </citation>
+      </ref>
+      <ref id="B5-cells-01-00886">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Degerny</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>X.-J.</given-names>
+            </name>
+          </person-group>
+          <article-title>YAP, TAZ, and Yorkie: a conserved family of signal-responsive transcriptional coregulators in animal development and human diseaseThis paper is one of a selection of papers published in this Special Issue, entitled CSBMCB&#x2019;s 51st Annual Meeting &#x2013; Epigenetics and Chromatin Dynamics, and has undergone the Journal&#x2019;s usual peer review process</article-title>
+          <source>Biochem. Cell Biol.</source>
+          <year>2009</year>
+          <volume>87</volume>
+          <fpage>77</fpage>
+          <lpage>91</lpage>
+          <pub-id pub-id-type="doi">10.1139/O08-114</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-cells-01-00886">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harvey</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Tapon</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Salvador-Warts-Hippo pathway- an emerging tumour-suppressor network</article-title>
+          <source>Nat. Rev. Cancer</source>
+          <year>2007</year>
+          <volume>7</volume>
+          <fpage>182</fpage>
+          <lpage>191</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrc2070</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-cells-01-00886">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Lei</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Guan</surname>
+              <given-names>K.-L.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Hippo-YAP pathway in organ size control and tumorigenesis: an updated version</article-title>
+          <source>Genes Dev.</source>
+          <year>2010</year>
+          <volume>24</volume>
+          <fpage>862</fpage>
+          <lpage>874</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.1909210</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-cells-01-00886">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grusche</surname>
+              <given-names>F.A.</given-names>
+            </name>
+            <name>
+              <surname>Richardson</surname>
+              <given-names>H.E.</given-names>
+            </name>
+            <name>
+              <surname>Harvey</surname>
+              <given-names>K.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Upstream Regulation of the Hippo Size Control Pathway</article-title>
+          <source>Curr. Biol.</source>
+          <year>2010</year>
+          <volume>20</volume>
+          <fpage>R574</fpage>
+          <lpage>R582</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cub.2010.05.023</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-cells-01-00886">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ling</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>T.-J.</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>C.-J.</given-names>
+            </name>
+            <name>
+              <surname>Lai</surname>
+              <given-names>M.-D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biosignaling of mammalian Ste20-related kinases</article-title>
+          <source>Cell. Signalling</source>
+          <year>2008</year>
+          <volume>20</volume>
+          <fpage>1237</fpage>
+          <lpage>1247</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cellsig.2007.12.019</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-cells-01-00886">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dan</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Watanabe</surname>
+              <given-names>N.M.</given-names>
+            </name>
+            <name>
+              <surname>Kusumi</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Ste20 group kinases as regulators of MAP kinase cascades</article-title>
+          <source>Trends Cell Biol.</source>
+          <year>2001</year>
+          <volume>11</volume>
+          <fpage>220</fpage>
+          <lpage>230</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0962-8924(01)01980-8</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-01-00886">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Delpire</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>The mammalian family of sterile 20p-like protein kinases</article-title>
+          <source>Pflugers Arch.</source>
+          <year>2009</year>
+          <volume>458</volume>
+          <fpage>953</fpage>
+          <lpage>967</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00424-009-0674-y</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-cells-01-00886">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mendoza</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Er</surname>
+              <given-names>E.E.</given-names>
+            </name>
+            <name>
+              <surname>Blenis</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Ras-ERK and PI3K-mTOR pathways: cross-talk and compensation</article-title>
+          <source>Trends Biochem. Sci.</source>
+          <year>2011</year>
+          <volume>36</volume>
+          <fpage>320</fpage>
+          <lpage>328</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tibs.2011.03.006</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13-cells-01-00886">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Radu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Chernoff</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The DeMSTification of Mammalian Ste20 Kinases</article-title>
+          <source>Curr. Biol.</source>
+          <year>2009</year>
+          <volume>19</volume>
+          <fpage>R421</fpage>
+          <lpage>R425</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cub.2009.04.022</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-cells-01-00886">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gulhati</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Bowen</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Stevens</surname>
+              <given-names>P.D.</given-names>
+            </name>
+            <name>
+              <surname>Rychahou</surname>
+              <given-names>P.G.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>E.Y.</given-names>
+            </name>
+            <name>
+              <surname>Weiss</surname>
+              <given-names>H.L.</given-names>
+            </name>
+            <name>
+              <surname>O'Connor</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Evers</surname>
+              <given-names>B.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>mTORC1 and mTORC2 Regulate EMT, Motility, and Metastasis of Colorectal Cancer via RhoA and Rac1 Signaling Pathway</article-title>
+          <source>Cancer Res.</source>
+          <year>2011</year>
+          <volume>71</volume>
+          <fpage>3246</fpage>
+          <lpage>3256</lpage>
+        </citation>
+      </ref>
+      <ref id="B15-cells-01-00886">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oshiro</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Yoshino</surname>
+              <given-names>K.-i.</given-names>
+            </name>
+            <name>
+              <surname>Hidayat</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tokunaga</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Hara</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Eguchi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Avruch</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yonezawa</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dissociation of raptor from mTOR is a mechanism of rapamycin-induced inhibition of mTOR function</article-title>
+          <source>Genes Cells</source>
+          <year>2004</year>
+          <volume>9</volume>
+          <fpage>359</fpage>
+          <lpage>366</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1356-9597.2004.00727.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-cells-01-00886">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hsu</surname>
+              <given-names>P.P.</given-names>
+            </name>
+            <name>
+              <surname>Kang</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Rameseder</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ottina</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Lim</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Peterson</surname>
+              <given-names>T.R.</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Gray</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Yaffe</surname>
+              <given-names>M.B.</given-names>
+            </name>
+            <name>
+              <surname>Marto</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Sabatini</surname>
+              <given-names>D.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The mTOR-Regulated Phosphoproteome Reveals a Mechanism of mTORC1-Mediated Inhibition of Growth Factor Signaling</article-title>
+          <source>Science</source>
+          <year>2011</year>
+          <volume>332</volume>
+          <fpage>1317</fpage>
+          <lpage>1322</lpage>
+        </citation>
+      </ref>
+      <ref id="B17-cells-01-00886">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Jia</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bai</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Targeting of mTORC2 prevents cell migration and promotes apoptosis in breast cancer</article-title>
+          <source>Breast Cancer Res. Treat.</source>
+          <year>2012</year>
+          <volume>134</volume>
+          <fpage>1057</fpage>
+          <lpage>1066</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10549-012-2036-2</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18-cells-01-00886">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cao</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Pfaff</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Gage</surname>
+              <given-names>F.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>YAP regulates neural progenitor cell number via the TEA domain transcription factor</article-title>
+          <source>Genes Dev.</source>
+          <year>2008</year>
+          <volume>22</volume>
+          <fpage>3320</fpage>
+          <lpage>3334</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.1726608</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19-cells-01-00886">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Xin</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ye</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Kaplan</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Dean</surname>
+              <given-names>D.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Taz-Tead1 Links Cell-Cell Contact to Zeb1 Expression, Proliferation, and Dedifferentiation in Retinal Pigment Epithelial Cells</article-title>
+          <source>Invest. Ophthalmology Visual Sci.</source>
+          <year>2010</year>
+          <volume>51</volume>
+          <fpage>3372</fpage>
+          <lpage>3378</lpage>
+          <pub-id pub-id-type="doi">10.1167/iovs.09-4321</pub-id>
+        </citation>
+      </ref>
+      <ref id="B20-cells-01-00886">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chan</surname>
+              <given-names>S.W.</given-names>
+            </name>
+            <name>
+              <surname>Lim</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Loo</surname>
+              <given-names>L.S.</given-names>
+            </name>
+            <name>
+              <surname>Chong</surname>
+              <given-names>Y.F.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Hong</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>TEADs Mediate Nuclear Retention of TAZ to Promote Oncogenic Transformation</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2009</year>
+          <volume>284</volume>
+          <fpage>14347</fpage>
+          <lpage>14358</lpage>
+        </citation>
+      </ref>
+      <ref id="B21-cells-01-00886">
+        <label>21.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Ye</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>C.-Y.</given-names>
+            </name>
+            <name>
+              <surname>Chinnaiyan</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Lai</surname>
+              <given-names>Z.-C.</given-names>
+            </name>
+            <name>
+              <surname>Guan</surname>
+              <given-names>K.-L.</given-names>
+            </name>
+          </person-group>
+          <article-title>TEAD mediates YAP-dependent gene induction and growth control</article-title>
+          <source>Genes Dev.</source>
+          <year>2008</year>
+          <volume>22</volume>
+          <fpage>1962</fpage>
+          <lpage>1971</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.1664408</pub-id>
+        </citation>
+      </ref>
+      <ref id="B22-cells-01-00886">
+        <label>22.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Knight</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Shepherd</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Rizzo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Brewer</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Jhavar</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Dodson</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Cooper</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Eeles</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Falconer</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kovacs</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Garrett</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Norman</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Shipley</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hudson</surname>
+              <given-names>D.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>TEAD1 and c-Cbl are novel prostate basal cell markers that correlate with poor clinical outcome in prostate cancer</article-title>
+          <source>Br. J. Cancer</source>
+          <year>2008</year>
+          <volume>99</volume>
+          <fpage>1849</fpage>
+          <lpage>1858</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.bjc.6604774</pub-id>
+        </citation>
+      </ref>
+      <ref id="B23-cells-01-00886">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lei</surname>
+              <given-names>Q.-Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Zha</surname>
+              <given-names>Z.-Y.</given-names>
+            </name>
+            <name>
+              <surname>Bai</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Pei</surname>
+              <given-names>X.-H.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Xiong</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Guan</surname>
+              <given-names>K.-L.</given-names>
+            </name>
+          </person-group>
+          <article-title>TAZ Promotes Cell Proliferation and Epithelial-Mesenchymal Transition and Is Inhibited by the Hippo Pathway</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <year>2008</year>
+          <volume>28</volume>
+          <fpage>2426</fpage>
+          <lpage>2436</lpage>
+        </citation>
+      </ref>
+      <ref id="B24-cells-01-00886">
+        <label>24.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kanai</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Marignani</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Sarbassova</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Yagi</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Hall</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Donowitz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hisaminato</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Fujiwara</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ito</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Cantley</surname>
+              <given-names>L.C.</given-names>
+            </name>
+            <name>
+              <surname>Yaffe</surname>
+              <given-names>M.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>TAZ: a novel transcriptional co-activator regulated by interactions with 14-3-3 and PDZ domain proteins</article-title>
+          <source>EMBO J.</source>
+          <year>2000</year>
+          <volume>19</volume>
+          <fpage>6778</fpage>
+          <lpage>6791</lpage>
+          <pub-id pub-id-type="doi">10.1093/emboj/19.24.6778</pub-id>
+        </citation>
+      </ref>
+      <ref id="B25-cells-01-00886">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chan</surname>
+              <given-names>S.W.</given-names>
+            </name>
+            <name>
+              <surname>Lim</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ng</surname>
+              <given-names>C.P.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Hunziker</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Zeng</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Hong</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Role for TAZ in Migration, Invasion, and Tumorigenesis of Breast Cancer Cells</article-title>
+          <source>Cancer Res.</source>
+          <year>2008</year>
+          <volume>68</volume>
+          <fpage>2592</fpage>
+          <lpage>2598</lpage>
+          <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-07-2696</pub-id>
+        </citation>
+      </ref>
+      <ref id="B26-cells-01-00886">
+        <label>26.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Hao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Raptis</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Tsao</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>TAZ is a novel oncogene in non-small cell lung cancer</article-title>
+          <source>Oncogene</source>
+          <year>2011</year>
+          <volume>30</volume>
+          <fpage>2181</fpage>
+          <lpage>2186</lpage>
+          <pub-id pub-id-type="doi">10.1038/onc.2010.606</pub-id>
+        </citation>
+      </ref>
+      <ref id="B27-cells-01-00886">
+        <label>27.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>de Cristofaro</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Di Palma</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ferraro</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Corrado</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lucci</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Franco</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Fusco</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Zannini</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>TAZ/WWTR1 is overexpressed in papillary thyroid carcinoma</article-title>
+          <source>Eur. J. Cancer</source>
+          <year>2011</year>
+          <volume>47</volume>
+          <fpage>926</fpage>
+          <lpage>933</lpage>
+        </citation>
+      </ref>
+    </ref-list>
+	<app-group><app>
+	<title>Supplementary Materials</title>
+      <fig id="cells-01-00886-f008" position="float">
+        <label>Figure S1</label>
+        <caption>
+          <p>YAP is not expressed in MCF7 cells. (A-B) Immunofluorescent staining of YAP(A, green) and P-YAP (B, green) in MCF7 cells with and without rapamycin treatment at low and high cell density conditions. TOPRO3 (blue) labels nuclei. Scale bars, 100&#xB5;m.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00886-g008.tif"/>
+      </fig>
+      <fig id="cells-01-00886-f009" position="float">
+        <label>Figure S2</label>
+        <caption>
+          <p>Rapamycin treatment does not affect YAP/P-YAP expression or localization in HepG2 cells. (A-B) Immunofluorescent staining of YAP (A, green) and P-YAP (B, green) in MCF7 cells with and without rapamycin treatment at low and high cell density conditions demonstrates no changes. Bottom panels represent box in top images: localization of YAP or P-YAP at low and high cell density conditions demonstrates cytoplasmic localization and does not change with rapamycin treatment. TOPRO3 (blue) labels nuclei. Scale bars, 50 &#xB5;m.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00886-g009.tif"/>
+      </fig>
+      <fig id="cells-01-00886-f010" position="float">
+        <label>Figure S3</label>
+        <caption>
+          <p>mTOR pathway inhibition does not affect TAZ/P-TAZ expression or localization in MCF7 cells. (A-B) Immunofluorescent staining of TAZ (A, green) and P-TAZ (B, green) in MCF7 cells with and without rapamycin treatment at low and high cell density conditions demonstrates no changes. Bottom panels represent box in top images: localization of TAZ and P-TAZ at low cell density conditions demonstrates mostly nuclear localization that does not change upon rapamycin treatment, while in high density conditions, TAZ and P-TAZ is cytoplasmic and does not change upon rapamycin treatment. TOPRO3 (blue) labels nuclei. Scale bars, 20 &#xB5;m.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00886-g010.tif"/>
+      </fig>
+      <fig id="cells-01-00886-f011" position="float">
+        <label>Figure S4</label>
+        <caption>
+          <p>Rapamycin treatment does not affect P-TAZ expression or localization in HepG2 cells. Immunofluorescent staining of P-TAZ (green) in HepG2 cells with and without rapamycin treatment at low and high cell density conditions demonstrates no changes. Bottom panels represent box in top images: localization of P-TAZ at low cell density conditions demonstrates mostly nuclear localization that does not change upon rapamycin treatment, while in high density conditions, P-TAZ is cytoplasmic and does not change upon rapamycin treatment. TOPRO3 (blue) labels nuclei. Scale bars, 20 &#xB5;m.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00886-g011.tif"/>
+      </fig>
+      <fig id="cells-01-00886-f012" position="float">
+        <label>Figure S5</label>
+        <caption>
+          <p>Rapamycin treatment decreases P-4EBP1 levels. Immunocytochemistry for the mTORC1 target P-4EBP1 (green) demonstrates a decrease in levels upon treatment with rapamycin. TOPRO3 (blue) labels nuclei. Scale bars, 20 &#xB5;m.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00886-g012.tif"/>
+      </fig>
+      <fig id="cells-01-00886-f013" position="float">
+        <label>Figure S6</label>
+        <caption>
+          <p>Nucleotide sequences of PCR primers used in the study.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00886-g013.tif"/>
+      </fig>
+      
+	</app></app-group>
+  </back>
+</article>

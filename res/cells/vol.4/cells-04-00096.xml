@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells4010096</article-id>
+      <article-id pub-id-type="publisher-id">cells-04-00096</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Normal Distribution of CD8+ T-Cell-Derived ELISPOT Counts within Replicates Justifies the Reliance on Parametric Statistics for Identifying Positive Responses</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Karulin</surname>
+            <given-names>Alexey Y.</given-names>
+          </name>
+          <xref rid="af1-cells-04-00096" ref-type="aff">1</xref>
+          <xref rid="c1-cells-04-00096" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Caspell</surname>
+            <given-names>Richard</given-names>
+          </name>
+          <xref rid="af1-cells-04-00096" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dittrich</surname>
+            <given-names>Marcus</given-names>
+          </name>
+          <xref rid="af2-cells-04-00096" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lehmann</surname>
+            <given-names>Paul V.</given-names>
+          </name>
+          <xref rid="af1-cells-04-00096" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Kalyuzhny</surname>
+            <given-names>Alexander E.</given-names>
+          </name>
+		  <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-04-00096"><label>1</label>Cellular Technology Ltd., 20521 Chagrin Blvd. Shaker Heights, OH 44122, USA; E-Mails: <email>richard.caspell@immunospot.com</email> (R.C.); <email>pvl@immunospot.com</email> (P.V.L.)</aff>
+      <aff id="af2-cells-04-00096"><label>2</label>Biocenter, University Wuerzburg, Am Hubland, W&#xFC;rzburg 97074, Germany; E-Mail: <email>marcus.dittrich@biozentrum.uni-wuerzburg.de</email></aff>
+      <author-notes>
+        <corresp id="c1-cells-04-00096"><label>*</label>Author to whom correspondence should be addressed; E-Mail: <email>ayk@immunospot.com</email>; Tel.: +1-216-791-5084; Fax: +1-216-791-8814.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>02</day>
+        <month>03</month>
+        <year>2015</year>
+      </pub-date>
+      <pub-date pub-type="collection">        <month>03</month>
+        <year>2015</year>
+      </pub-date>
+      <volume>4</volume>
+      <issue>1</issue>
+      <fpage>96</fpage>
+      <lpage>111</lpage>
+      <history>
+        <date date-type="received">
+          <day>23</day>
+          <month>10</month>
+          <year>2014</year>
+        </date>
+        <date date-type="accepted">
+          <day>16</day>
+          <month>01</month>
+          <year>2015</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2015 by the authors.</copyright-statement>
+        <copyright-year>2015</copyright-year>
+        <license license-type="open-access">
+          <p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Accurate assessment of positive ELISPOT responses for low frequencies of antigen-specific T-cells is controversial. In particular, it is still unknown whether ELISPOT counts within replicate wells follow a theoretical distribution function, and thus whether high power parametric statistics can be used to discriminate between positive and negative wells. We studied experimental distributions of spot counts for up to 120 replicate wells of IFN-&#x3B3; production by CD8+ T-cell responding to EBV LMP2A (426 &#x2013; 434) peptide in human PBMC. The cells were tested in serial dilutions covering a wide range of average spot counts per condition, from just a few to hundreds of spots per well. Statistical analysis of the data using diagnostic Q-Q plots and the Shapiro-Wilk normality test showed that in the entire dynamic range of ELISPOT spot counts within replicate wells followed a normal distribution. This result implies that the Student <italic>t</italic>-Test and ANOVA are suited to identify positive responses. We also show experimentally that borderline responses can be reliably detected by involving more replicate wells, plating higher numbers of PBMC, addition of IL-7, or a combination of these. Furthermore, we have experimentally verified that the number of replicates needed for detection of weak responses can be calculated using parametric statistics.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>ELISPOT</kwd>
+        <kwd>statistics</kwd>
+        <kwd><italic>t</italic>-Test</kwd>
+        <kwd>ANOVA</kwd>
+        <kwd>normal distribution</kwd>
+        <kwd>T-cells</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>1. Introduction</title>
+      <p>T-cell ELISPOT assays measure the antigen-induced reactivation of effector memory T-lymphocytes (T<sub>EM</sub>) via the detection of the cytokines that individual T-cells secrete. In this assay, each antigen-specific T<sub>EM</sub> cell leaves behind a cytokine footprint, in the form of a spot, which is visualized either by enzymatic or fluorescent means. Counting the positive responses within the total number of PBMC plated therefore establishes the frequency of the antigen-specific T<sub>EM</sub> cells in the cell sample tested. In addition to testing the antigen-induced spots, the assay requires the inclusion of &#x201C;medium control wells&#x201D; as negative controls to establish spot counts when the cells are plated without antigen. Such spots can result from non-T-cells constitutively secreting the cytokine that needs to be distinguished from cognate antigen-induced cytokine production by T-cells. When assay conditions are carefully selected, including the use of serum-free medium, the medium spot counts for IFN-&#x3B3;, IL-2, IL-4, IL-5 and IL-17 are very low or undetectable for healthy donors [<xref ref-type="bibr" rid="B1-cells-04-00096">1</xref>,<xref ref-type="bibr" rid="B2-cells-04-00096">2</xref>]. Cytokine storms in diseased individuals, however, can result in an elevated medium background, primarily resulting from cytokine production by cells of the innate immune system, such as macrophages, NK cells and dendritic cells. Most of the time, such background spots are smaller than the T<sub>EM</sub> cell-derived, antigen-induced spots and proper gating strategies are capable of discerning between the two [<xref ref-type="bibr" rid="B3-cells-04-00096">3</xref>]. ELISPOT counts determined without involving the analysis of spot size distributions and proper gating could be unreliable, and subsequently, their statistical analysis may not be suited for detecting T-cell responses.</p>
+      <p>To establish the presence of T-cell reactivity in an individual, therefore, ELISPOT results are evaluated in terms of spot counts in antigen-containing <italic>vs.</italic> medium control wells. To test for increased frequencies of antigen-reactive T-cells in subject groups, such antigen-specific reactivity levels are compared. For example, when vaccines are tested, the frequency of antigen-specific T-cells in PBMC is tested prior to vaccination, as well as after, and vaccinated subject groups are compared with control (unimmunized or placebo) groups. The basis of all of these comparisons is, however, the precise determination of the frequency of the antigen-specific T-cells in each subject, as determined by the difference between (properly gated) spot counts in replicate wells of the medium control <italic>vs.</italic> antigen-induced wells.</p>
+      <p>Because T-cells in the blood encompass millions of antigen-specificities, those specific for a given antigen often occur in low frequencies, even after they have undergone clonal expansion. ELISPOT tests therefore need to reliably detect T-cells that occur in low frequency in the blood, resulting in moderately elevated spot counts in antigen-stimulated wells <italic>vs.</italic> those in medium control wells. After being initially employed as a basic science research tool, during the past decade, T-cell ELISPOT has become widely used for immune monitoring in various clinical fields, and several of these fields independently adopted different acceptance criteria for defining the cut-off between positive and negative responses. Criteria were selected considering the possible false results of the test. Some of these tests require high specificity (e.g., vaccine testing), ensuring low rates of false positive results, whereas others need high sensitivity (<italic>i.e.</italic>, disease diagnostics where false negative results are a greater danger). Biologically-relevant protective responses could be weak in ELISPOT, yet clinically highly significant, requiring positive response detection criteria with high sensitivity. This is particularly relevant when measuring anti-tumor CD8+ T-cell responses with ELISPOT.</p>
+      <p>All acceptance criteria for T-cell responses can be divided into two major categories: empirical and statistical. Empirical criteria most often are based on a combination of the minimal number of spots detected and a &#x201C;fold difference&#x201D; between antigen-containing and control wells. For example, an empirical criteria widely used in the HIV field states that an IFN-&#x3B3; ELISPOT response to an HIV peptide pool is positive if the average number of spots per 2 &#xD7; 10<sup>5</sup> PBMCs is higher than 10 and at least four-fold the average number of spots in negative wells [<xref ref-type="bibr" rid="B4-cells-04-00096">4</xref>]. Empirical criteria, however, are justified only when they are correlated with the clinical outcomes [<xref ref-type="bibr" rid="B5-cells-04-00096">5</xref>].</p>
+      <p>In most areas of immune monitoring, however, there is still no known correlation between the disease-protective effect and the magnitude and the Th1/Th2/Th17/polyfunctional quality of the T-cell response [<xref ref-type="bibr" rid="B6-cells-04-00096">6</xref>]. Rather, the goal of immune monitoring is to identify whether a T-cell response has been engaged in the test subject. These data on T-cell immunity can then be correlated with clinical outcomes. Such a correlation, in turn, must be established using appropriate statistical methods. When such a correlation cannot be established, objective statistical criteria must be applied. In this case, it is not possible to make conclusions about the biological relevance of particular treatments based on the ELISPOT results. Rather, with a defined probability (usually 95%), it can be established whether spot counts in antigen-containing wells and control wells are statistically different, that is whether a T-cell response has been engaged.</p>
+      <p>Since the presence or absence of a T-cell response is reflected in the frequency of antigen-specific T-cells, statistical methods should be applicable to unambiguously identify an antigen-specific response. In statistical analysis, the significance of the result is expressed in terms of &#x201C;null&#x201D; hypothesis testing. The &#x201C;null&#x201D; hypothesis states that any difference that occurs between the means of two groups (in this case, spot counts in replicate medium control wells <italic>vs.</italic> spot counts in antigen-stimulated replicate wells, after proper gating) is due to random errors. The level of significance (&#x3B1;) defines the probability of a Type 1 error rejecting the &#x201C;null&#x201D; hypothesis and, thus, reporting a significant difference when there is none. The confidence level (1 &#x2212; &#x3B1;) &#xD7; 100% is the probability of accepting the &#x201C;null&#x201D; hypothesis when it is true. A Type 2 error is the probability (&#x3B2;) of accepting the &#x201C;null&#x201D; hypothesis when it is not true and, thus, missing the existing difference. The probability of rejecting the &#x201C;null&#x201D; hypothesis when it is not true is called the &#x201C;power&#x201D; of the test and is equal to (1 &#x2212; &#x3B2;) &#xD7; 100%. Thus, the test significance (&#x3B1;) is similar to the specificity and defines the rate of false positive results. The power of the test (1 &#x2212; &#x3B2;) is similar to the sensitivity and defines the rate of false negative results. Significance and power are in the same reciprocal relationship as the sensitivity and specificity of any bioassay. When a statistical test is performed, the level of significance &#x3B1; (usually 0.05) is set by the investigator.</p>
+      <p>All statistical methods used in the ELISPOT field can, in turn, be divided into two major categories: parametric and non-parametric. Parametric methods (e.g., <italic>t</italic>-test, ANOVA) generally have higher statistical power, but are appropriate only if the ELISPOT counts within replicate wells follow a known theoretical distribution function (for example, a normal distribution). Among non-parametric methods used for ELISPOT, we should mention the Wilcoxon rank-sum test (the non-parametric analog of the <italic>t</italic>-test) [<xref ref-type="bibr" rid="B7-cells-04-00096">7</xref>] and different variants of bootstrap (permutation based) strategies [<xref ref-type="bibr" rid="B8-cells-04-00096">8</xref>] including distribution-free resampling (DFR) [<xref ref-type="bibr" rid="B9-cells-04-00096">9</xref>,<xref ref-type="bibr" rid="B10-cells-04-00096">10</xref>,<xref ref-type="bibr" rid="B11-cells-04-00096">11</xref>,<xref ref-type="bibr" rid="B12-cells-04-00096">12</xref>]. Non-parametric methods do not require that the distribution is known, and they typically show a high level of specificity (the rate of false positives is low), but a low power (the rate of false negative results is high) [<xref ref-type="bibr" rid="B13-cells-04-00096">13</xref>].</p>
+      <p>It has been argued that parametric methods may have higher rates of false positive results in multiple comparison tests (known as family-wise error) when, for example, several antigens are tested for the same donor [<xref ref-type="bibr" rid="B11-cells-04-00096">11</xref>]. However, there are several efficient ways to correct for the rate of false positive responses in multiple comparisons [<xref ref-type="bibr" rid="B14-cells-04-00096">14</xref>,<xref ref-type="bibr" rid="B15-cells-04-00096">15</xref>,<xref ref-type="bibr" rid="B16-cells-04-00096">16</xref>,<xref ref-type="bibr" rid="B17-cells-04-00096">17</xref>], and there are examples when such corrections were used for ELISPOT data [<xref ref-type="bibr" rid="B18-cells-04-00096">18</xref>,<xref ref-type="bibr" rid="B19-cells-04-00096">19</xref>]. We have limited the scope of this study to single comparison tests, where, for each given donor, the response to each antigen is compared to the corresponding medium control.</p>
+      <p>To establish whether ELISPOT counts in replicate wells follow a certain theoretical distribution, one should test a high number of replicate wells, ideally more than 100 wells. In addition, a wide range of cell numbers should be tested, covering the entire spectrum of spot counts: from a few to hundreds of spots per well. The amount of cell material needed for this type of a study makes it prohibitive when testing patient samples. Patient material is typically tested in triplicate wells for both antigen and medium. In the absence of data showing whether or not ELISPOT counts in replicate wells are normally distributed, non-parametric tests have been favored [<xref ref-type="bibr" rid="B11-cells-04-00096">11</xref>], but as stated above, these have a high rate of false negative results. When the sensitive detection of T-cell reactivity is an issue, the ability to use high power parametric statistics becomes crucial.</p>
+      <p>This study addressed the issue of ELISPOT data distribution and experimentally tested the implications. In a preceding approach, we used IFN-&#x3B3; constitutively expressing transfected CHO cells and found that ELISPOT counts in replicate wells followed a normal distribution over a wide range (except for counts below 20 spots per well, where the Poisson distribution showed a somewhat better fit) [<xref ref-type="bibr" rid="B13-cells-04-00096">13</xref>]. This simplified approach allowed us to model ELISPOT measurements when cytokine production is constitutive and independent of antigen-presenting cells (APC). Requiring the antigen-specific T-cells to become activated on APC, however, might produce more complex results. We therefore extend our study here to antigen-specific T-cell ELISPOT, testing the HLA-A2-restricted CD8+ T-cell IFN- response to a dominant peptide of human Epstein-Barr virus, EBV LMP2A (426 &#x2013; 434), using a large number (120) of replicate wells for several serial dilutions of PBMC. The data clearly show that starting from an average of six spots per well and up to 350 spots per well, antigen-specific CD8+ T-cell-derived ELISPOT results also follows a normal distribution function. The presence of normally-distributed data, in turn, means that parametric tests, such as the <italic>t</italic>-test or ANOVA, can be used to establish with high confidence the difference between replicates of medium control wells and antigen-containing wells.</p>
+      <p>If spot counts are normally distributed and the well-to-well variance is known, the significance level, power of the test and number of replicates are in a known relationship. Therefore, predictions can be made on how many replicates should be used and, most important for practical use, how to minimize the number of replicate wells while still obtaining statistically-significant results. These predictions were tested experimentally using weak ELISPOT responses from two HLA-A2 EBV-positive donors to a subdominant HLA-A2-restriced EBV BMLF1 (259&#x2013;267) peptide. Both donors were seropositive to EBV and had a strong IFN-&#x3B3; response to LMP2A (426&#x2013;434). We found that theoretical predictions based on a normal distribution closely matched the experimentally-defined numbers of replicate wells necessary to discriminate these responses from medium controls. We also showed experimentally that plating higher numbers of PBMC per well and adding IL-7 to the wells can be used to detect weak reactivity with fewer replicates and that increasing the number of replicates using fewer PBMC per well accomplishes the same goal with much higher efficiency in cell utilization.</p>
+    </sec>
+    <sec>
+      <title>2. Experimental Section</title>
+      <sec>
+        <title>2.1. Cells</title>
+        <p>Cryopreserved human PBMC of 2 HLA-A2-positive donors were acquired from a library of PBMC (ePBMC, CP1, CTL, Shaker Heights, OH, USA). In addition to high-resolution HLA-typing, these PBMC had been previously characterized for T-cell reactivity to a panel of antigens. Prior to testing, the PBMC cryovials, stored in the liquid N<sub>2</sub> vapor phase, were transferred to dry ice in Styrofoam containers for transport to and short-term storage in the laboratory. The cells were thawed following a protocol established to provide the optimal recovery and functionality for cryopreserved PBMC [<xref ref-type="bibr" rid="B2-cells-04-00096">2</xref>]. Specifically, to rapidly warm up to 37 &#xB0;C, the cryovials were placed for 8 min in a 37 &#xB0;C glass bead bath (CTL-BB-001). The cryovials were inverted twice to re-suspend the cells, and the 1-mL cell suspension contained in each cryovial (10 million cells) was gently aspirated utilizing a wide-bore 2-mL pipette and transferred into a 15-mL V-bottom Falcon tube. To recover the residual cells, the cryovials were rinsed by adding 1 mL 37 &#xB0;C warm CTL Anti-Aggregate Wash&#x2122; medium (CTL-AA-005) containing benzonase. An additional 8 mL CTL Anti-Aggregate Wash&#x2122; medium at 37 &#xB0;C was added to the 15-mL tube at a rate of 2 mL per 5 s. Before washing, an aliquot of these PBMC was counted by fluorescence microscopy using Acridine orange and ethidium bromide (AO/EB) to stain live and dead cells, respectively. PBMC were washed twice in 10 mL CTL-Test&#x2122; medium (CTLT-005) and re-suspended at a final concentration of 3 &#xD7; 10<sup>6</sup> PBMC/mL in the same medium. The freshly-thawed PBMC were plated onto an ELISPOT assay plate (Msn HTS IP, Millipore, MA, USA) within 1 h of thawing. The IFN-&#x3B3;-expressing CHO cells were generated in our laboratory [<xref ref-type="bibr" rid="B13-cells-04-00096">13</xref>].</p>
+      </sec>
+      <sec>
+        <title>2.2. ELISPOT</title>
+        <p>Human Interferon-&#x3B3; ImmunoSpot&#xAE; kits (CTL-H1FNG-1/5M) were obtained from CTL. The assay was performed according to the manufacturer&#x2019;s recommendations. The antigens (EBV-dominant peptide LMP2A (426 &#x2013; 434) and subdominant EBV BMLF1 (259 &#x2013; 267) (EZ Biolab Inc., Carmel, IN, USA)) were plated at 4 &#x3BC;g/mL first into the capture antibody-coated assay plate in a final volume of 100 &#xB5;L per well. The antigens were dissolved in CTL-Test&#x2122; medium (CTLT-005). In a previous work, we observed that adding IL-7 can improve the signal-to-noise performance of ELISPOT assays [<xref ref-type="bibr" rid="B20-cells-04-00096">20</xref>]. Therefore, where specified, the IL-7-supplemented CTL-Test Plus&#x2122; medium was used (CTLTP-005). These media, without dissolved antigen, constituted the medium negative controls. The plates containing the antigens and medium controls were stored at 37 &#xB0;C in a CO<sub>2</sub> incubator until the cells were ready for plating. Thawed PBMC were adjusted in CTL test medium to the required concentrations, and 100 &#xB5;L/well were plated using wide-bore pipette tips. Plates were gently tapped on each side to ensure even distribution of the cells as they settled and incubated for 24 h at 37 &#xB0;C in a CO<sub>2</sub> incubator. Following completion of the ELISPOT protocol, the plates were air dried in a laminar flow hood prior to analysis.</p>
+        <p>ELISPOT plates were scanned and analyzed using an ImmunoSpot&#xAE; S6 UV Reader by CTL. Spots were counted automatically by using the ImmunoSpot&#xAE; v.5.3 Software (Basic Count&#x2122; mode) for each antigen stimulation condition and the medium negative controls.</p>
+      </sec>
+      <sec>
+        <title>2.3. Statistical Evaluation</title>
+        <p>To analyze the empirical distributions of ELISPOT data, the Shapiro-Wilk normality test was used in combination with analytical Q-Q plots. To detect positive responses over medium controls, the Student&#x2019;s two-sided <italic>t</italic>-test was used. In all cases (unless specified otherwise), statistical tests were performed with a significance level &#x3B1; = 0.05. Statistical analysis was carried out using the SPSS [<xref ref-type="bibr" rid="B21-cells-04-00096">21</xref>] and XLSTAT [<xref ref-type="bibr" rid="B22-cells-04-00096">22</xref>] software suites.</p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>3. Results and Discussion</title>
+      <sec>
+        <title>3.1. ELISPOT Counts Are Linear in the Range between 2.5 &#xD7; 10<sup>4</sup> and 10<sup>6</sup> PBMC Plated per Well</title>
+		<fig id="cells-04-00096-f001" position="float">
+          <label>Figure 1</label>
+          <caption>
+           <p>ELISPOT counts and plated PBMC numbers have a linear relationship in the range between 2.5 &#xD7; 10<sup>4</sup> and 10<sup>6</sup> PBMC per well. The PBMC of an HLA-A2-positive donor were plated for each of the cell numbers specified on the X-axis per well, with 120 replicates for each cell number. The mean number of IFN-&#x3B3; spots elicited by EBV peptide LMP2A (426&#x2013;434) from these 120 replicate wells is shown on the Y-axis. Error bars represent &#xB1; SD.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00096-g001.tif"/>
+        </fig>
+        <p>To become activated by an antigen, T-cells must make contact with APC. Therefore, the numbers at which PBMC are plated will affect the results: when plated at less than 5 &#xD7; 10<sup>4</sup> PBMC per well in a 96-well plate, the cells no longer form a monolayer, and recall responses become undetectable [<xref ref-type="bibr" rid="B23-cells-04-00096">23</xref>]. On the other hand, when plated at more than 10<sup>6</sup> PBMC per well, the cells become crowded and settle in several layers, also leading to a loss of accurate ELISPOT counts. We systematically studied spot counts within these two extremes. We performed serial dilutions of PBMC that exhibited strong CD8+ T-cell reactivity to LMP2A (426&#x2013;434), with cell numbers ranging from 2.5 &#xD7; 10<sup>4</sup> to 10<sup>6</sup> cells per well, using 120 replicative wells. The resulting spot counts (between six and ~350 per well) displayed a linear relationship to the numbers of PBMC plated over this range (<xref ref-type="fig" rid="cells-04-00096-f001">Figure 1</xref>). The linear relationship between the numbers of PBMC plated and spot numbers eliminates the possibility of systematic errors resulting from cell counting, dilution or plating. Therefore, any errors in ELISPOT counts can be considered random.</p>
+      </sec>
+      <sec>
+        <title>3.2. ELISPOT Counts between Six and 350 per Well Follow Normal Distribution Function</title>
+        <p>To study the distribution function of ELISPOT counts in replicate wells, the results of the serial dilutions shown in <xref ref-type="fig" rid="cells-04-00096-f001">Figure 1</xref> were subjected to statistical evaluation. To test the hypothesis of a normal data distribution, we used diagnostic (Q-Q) plots and Shapiro-Wilk normality tests with a significance level &#x3B1; = 0.05 (<xref ref-type="fig" rid="cells-04-00096-f002">Figure 2</xref>). The Shapiro-Wilk null hypothesis states that samples come from a normally-distributed population. This test is optimal for sample sizes between 20 and 2000 and was shown to have higher power than other standard normality tests [<xref ref-type="bibr" rid="B24-cells-04-00096">24</xref>,<xref ref-type="bibr" rid="B25-cells-04-00096">25</xref>]. The Q-Q-plots generated for all cell dilutions tested were close to linear, suggesting that spot counts in repetitive wells follow a normal distribution function. <italic>p</italic>-values calculated by the Shapiro-Wilk test were above the set level of significance for all cell dilutions (see the inserts in <xref ref-type="fig" rid="cells-04-00096-f002">Figure 2</xref>), allowing us to accept the null hypothesis about the normal spot count distribution. Therefore, in the entire practical range of cell numbers that can be tested in T-cell ELISPOT assays, the data in the repetitive wells were found to be normally distributed.</p>
+      </sec>
+      <sec>
+        <title>3.3. Theoretical Predictions and Experimental Data for the Number of Necessary Replicates Closely Match</title>
+        <p>As ELISPOT counts are normally distributed, parametric statistical methods, such as the Student&#x2019;s <italic>t</italic>-test, can be used to compare mean values of positive (peptide-containing) and negative (medium control) wells. For normally-distributed data, the variance, level of significance, power and sample size are in a known relation. Therefore, the sample size (number or replicates) required to detect an existing difference between positive and negative wells can be predicted when the standard deviation (&#x3C3;), level of significance (&#x3B1;) and power (&#x3B2;) are known. In statistics, the difference between two means, &#x3BC;<sub>1</sub> and &#x3BC;<sub>2</sub>, is often expressed as folds of standard deviation &#x3B4;/&#x3C3; (effect size), where &#x3B4; = &#x3BC;<sub>1</sub> &#x2212; &#x3BC;<sub>2</sub>. Sample size calculators for normal distribution are freely available online, e.g., [<xref ref-type="bibr" rid="B26-cells-04-00096">26</xref>]. <xref ref-type="fig" rid="cells-04-00096-f003">Figure 3</xref> shows an example for such calculations using the Student&#x2019;s <italic>t</italic>-test with the power set to 90%, and two levels of significance: 5% and 10%. As follows from the graph, to detect a mean difference equal to 2&#x3C3;, with &#x3B1; = 0.05 and &#x3B2; = 0.1, six repetitive wells are needed. It is important to mention that such predictions are possible only in parametric statistics when the distribution function is known.</p>
+        <p>We set out to test experimentally whether these predictions are true for ELISPOT assays by comparing theoretical curves (similar to those shown in <xref ref-type="fig" rid="cells-04-00096-f003">Figure 3</xref>) with experimental data generated using IFN-&#x3B3;-transfected CHO cells. As every transfected CHO cell secrets IFN-&#x3B3;, one can generate any number of spots per well, including the simulation of various background levels. As an example of such a simulation for generating specific spot counts over different background levels, a certain number of transfected CHO cell was plated in &#x201C;medium control wells&#x201D; to create known artificial background counts. For the corresponding &#x201C;positive wells&#x201D;, additional CHO cells were added, creating defined positive responses over that known background.</p>
+        <fig id="cells-04-00096-f002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>Spot counts between six and 350 per well follow a normal distribution function. Therefore, parametric statistical tests (<italic>t-</italic>test, ANOVA) can be used to discriminate between negative and positive responses over the full range of potential ELISPOT assay results. A representative experiment with a single HLA-A2-positive donor&#x2019;s CD8+ T-cell IFN-&#x3B3; response to EBV peptide LMP2A (426 &#x2013; 434) is shown. For each cell number plated per well (<bold>A</bold>&#x2013;<bold>F</bold>), the distributional properties of the spot counts were analyzed in 120 replicate wells using diagnostic plots (Q-Q plots) and Shapiro-Wilk statistical normality tests with a significance level of &#x3B1; = 0.05 (shown in the picture inserts). The X-axis labels the quantile experimental counts; the Y-axis labels the quantile theoretical counts for the normal distribution. &#x201C;W&#x201D; is the calculated Shapiro-Wilk statistics.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00096-g002.tif"/>
+        </fig>
+		<fig id="cells-04-00096-f003" position="float">
+          <label>Figure 3</label>
+          <caption>
+          <p>Theoretical prediction for the number of replicate wells required for detecting the difference between two means expressed by &#x201C;folds&#x201D; of &#x3C3;. The numbers of replicates (Y) are calculated in a two-tailed test for a given effect value = &#x3B4;/&#x3C3; (X) for two levels of significance &#x3B1; equal to 0.05 and 0.1 and power &#x3B2; set to 0.1.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00096-g003.tif"/>
+        </fig>
+        <p>In <xref ref-type="fig" rid="cells-04-00096-f004">Figure 4</xref>A, an example of such a simulation is shown where negative wells contained on average 0, 10, 20 or 40 spots, and the average difference between the spots in negative and positive wells was always equal to three spots. For one data point, the background was set to be 10 spots (by plating an average of 10 cytokine-producing CHO cells per well), and the experimental wells were set to be 13 spots (by adding an average of 13 cells per well). The same numbers of spots in negative wells (0, 10, 20 and 40) were used to simulate positive responses with spot counts equal to 6, 12, 24 and 48 over the background. The total number of replicates for each condition was 29. To define the minimal number of replicates required for the detection of these positive responses with &#x3B1; = 0.05 and &#x3B2; = 0.1, we used all possible combinations (permutations) of the numbers of wells <italic>n</italic> = 1, 2, 3, 4, <italic>etc.</italic>, up to 29, while testing each permutation in the Student&#x2019;s <italic>t</italic>-test. The percentage of significant positive results for each sample size is shown in <xref ref-type="fig" rid="cells-04-00096-f004">Figure 4</xref>A. The number of replicates needed for at least 90% significant results (power 1 &#x2212; &#x3B2; = 0.9) was used to create an experimental sample size prediction graph. This experimental (observed) and the theoretical (expected) data sample prediction graphs are superimposed in <xref ref-type="fig" rid="cells-04-00096-f004">Figure 4</xref>B. A strong correlation was observed between experimental numbers and theoretical predictions (coefficient of correlation <italic>r</italic> = 0.98). As follows from the graph, to detect three spots over a background of 10 spots, one needs about 11&#x2013;13 replicates, and to detect three spots over a background of 20, roughly 20&#x2013;23 replicates are needed.</p>
+      </sec>
+      <sec>
+        <title>3.4. Using More Cells per Well Reduces the Number of Replicate Wells Required for the Detection of Weak Responses</title>
+        <p>To extend the results obtained with transfected CHO cells to the detection of actual antigen-specific T-cell responses, we selected two confirmed EBV HLA-A2-positive donors who showed a strong response against the dominant EBV peptide LMP2A (426 &#x2013; 434) and studied their CD8+ T-cell IFN-&#x3B3; response to the subdominant EBV peptide BMLF1 (259 &#x2013; 267), which is also HLA-A2 restricted. With a high probability, both donors theoretically should respond to this peptide. The goal of this experiment was to determine under which conditions these subdominant responses could be detected with statistical significance. As the factors affecting assay variance within replicate wells result from pipetting errors and spot counting accuracy, these random errors within replicates should be independent of the specific donor-antigen combination. The PBMC were tested at 1, 2, 4 and 8 &#xD7; 10<sup>5</sup> cells per well, with 12 replicates for each cell number. Panels A and B in <xref ref-type="fig" rid="cells-04-00096-f005">Figure 5</xref> show the responses of Donors 1 and 2, respectively, with and without added human recombinant IL-7 as an assay enhancer in the CTL Test Plus&#x2122; medium [<xref ref-type="bibr" rid="B20-cells-04-00096">20</xref>]. When 12 replicates were used, both donors had a detectable IFN-&#x3B3; response to BMLF1 (259 &#x2013; 267), over the medium control background. To determine the minimal number of replicates needed to reveal this response with statistical significance, data permutation analysis was carried out as described above for <xref ref-type="fig" rid="cells-04-00096-f004">Figure 4</xref>B. Panel C in <xref ref-type="fig" rid="cells-04-00096-f005">Figure 5</xref> shows a graphical representation for the minimal number of replicates required to detect these weak responses by the Student&#x2019;s <italic>t</italic>-test with the level of significance &#x3B1; = 0.05. With 10<sup>5</sup> cells plated, eight and six replicate wells were required for Donors 1 and 2, respectively. The data show that for Donor 1, the positive response became statistically significant when eight replicates were used for both antigen- and medium-containing wells. For Donor 1, therefore, 1.6 &#xD7; 10<sup>6</sup> PBMC were required to reveal the positive response (two conditions multiplied by eight replicates multiplied by 1 &#xD7; 10<sup>5</sup> PBMC/well). At 4 &#xD7; 10<sup>5</sup> cells per well, 4&#x2013;5 replicates were needed (with five replicates for both conditions requiring 4 &#xD7; 10<sup>6</sup> PBMC). The number of replicates needed was reduced to 3&#x2013;4 at 8 &#xD7; 10<sup>5</sup> cells per well (with four replicates for both conditions, requiring 6.4 &#xD7; 10<sup>6</sup> PBMC). These data also show that increasing the number of PBMC plated decreases the number of replicates needed to detect weak responses. However, the goal of using fewer replicates is accomplished with far higher economy of PBMC usage when the number of replicates is higher and fewer cells are plated.</p>
+        <fig id="cells-04-00096-f004" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p>Observed and expected numbers of replicate wells required for detecting a statistically-significant difference between spot counts in positive and negative wells match closely. (<bold>A</bold>) The percentage of statistically-significant positive responses is plotted <italic>vs.</italic> the number of replicative wells for four different, artificially-created weak positive responses (zero background spots plus three spots, 10 plus three, 20 plus three and 40 plus three). The percentage of significant results was calculated for different numbers of replicate wells (from two to 29) generated using permutations of all 29 experimental replicate wells. (<bold>B</bold>) The theoretically-predicted (expected) and experimentally-observed numbers of replicates, necessary for a percentage of significant results over 90% in a two-tailed test, are plotted <italic>vs.</italic> the effect value (&#x3B4;/&#x3C3;).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00096-g004.tif"/>
+        </fig>
+		<fig id="cells-04-00096-f005" position="float">
+          <label>Figure 5</label>
+          <caption>
+          <p>Using more cells per well reduced the number of replicate wells required to detect weak  subdominant responses. Using IL-7 containing signal-enhancing CTL-Test Plus&#x2122; medium further increased the signal-to-background ratio to the point where even a single well suffices to reveal a positive response, even at low cell numbers. A representative experiment using two HLA-A2-positive donors with a dominant CD8+ T-cell IFN-&#x3B3; response to EBV peptide LMP2A (426&#x2013;434) and a weak positive response to the subdominant EBV BMLF1 (259&#x2013;267) is shown. PBMC were plated at 1, 2, 4 and 8 &#xD7; 10<sup>5</sup> cells per well, as specified on the X-axis. (<bold>A</bold>, <bold>B</bold>) The responses for Donors 1 and 2 against subdominant EBV BMLF1 (259&#x2013;267) are shown as the numbers of spots counted <italic>vs.</italic> the numbers of PBMC plated per well. The assay was performed using standard CTL-Test&#x2122; medium and with signal-enhancing CTL-Test Plus&#x2122; medium with or without antigen, as shown in (A) and (B), respectively. The mean spot counts and SD for 12 replicate wells for each condition are shown on the Y-axis. Different numbers (from two to 12) of replicates were analyzed using a permutation analysis (similar to the one used in <xref ref-type="fig" rid="cells-04-00096-f004">Figure 4</xref>) in a two-sample Student&#x2019;s <italic>t</italic>-test. Minimal required numbers of replicate wells to detect a response with &#x3B1; = 0.05 at different PBMC numbers are shown in (<bold>C</bold>).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00096-g005.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.5. The Relative Experimental Error Decreases with Increasing the Number of Spot Counts per Well</title>
+        <p>The coefficient of variation (CV) or relative experimental error is calculated as the standard deviation divided by the mean value (&#x3C3;/&#x3BC;). Using the relative, rather than the absolute, error allows for comparisons of the well-to-well variation at different cell dilutions. <xref ref-type="fig" rid="cells-04-00096-f006">Figure 6</xref> shows how the CV depends on the number of PBMC plated. The figure summarizes data from eight independent serial dilution experiments, each done with 12 replicate wells for each cell dilution. Error bars on the graph represent the standard deviation of the CV. The data imply that the relative well-to-well error decreases with increasing the number of cells plated. At 5 &#xD7; 10<sup>4</sup> cells per well, the CV was around 20%; at 4 &#xD7; 10<sup>5</sup> cells per well, it dropped to about 5%. This finding explains why using higher cell numbers requires fewer replicate wells for detecting weak responses.</p>
+		<fig id="cells-04-00096-f006" position="float">
+          <label>Figure 6</label>
+          <caption>
+          <p>The relative experimental error (coefficient of variation, CV) decreases with increasing number of spot counts per well. Testing PBMC at higher cell numbers helps establish positivity when statistical analysis is at the limit of confidence. CV data were obtained from eight independent experiments using a single donor with a dominant CD8+ T-cell IFN-&#x3B3; response to EBV peptide LMP2A (426&#x2013;434). Error bars show &#xB1;&#x3C3; between individual experiments. In individual experiments, CVs were calculated for each of four cell dilutions (5 &#xD7; 10<sup>4</sup>; 1 &#xD7; 10<sup>5</sup>; 2 &#xD7; 10<sup>5</sup>; 4 &#xD7; 10<sup>5</sup>) using 12 replicate wells for each dilution.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00096-g006.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.6. Discussion</title>
+        <p>In ELISPOT assays, each spot is the signature of an individual analyte-secreting cell. In T-cell ELISPOT assays, therefore, the frequency of antigen-specific T-cells in the blood is measured at the single-cell level. The spot size distribution in ELISPOT wells allows the identification of T-cell-derived cytokine <italic>vs.</italic> background noise resulting from the secretory activity of cells of the innate immune system (or from non-specific substrate precipitation and other artifacts that can contribute to noise). Establishing firm and objective spot counts for each well, therefore, must be the first step of ELISPOT data analysis, before any subsequent statistical analysis of these numbers becomes meaningful [<xref ref-type="bibr" rid="B3-cells-04-00096">3</xref>]. Our present study on the spot count distribution within replicate wells starts at this point, after correct spot counts per well have been firmly established.</p>
+        <p>One of the primary reasons why ELISPOT has succeeded in many different fields of immune monitoring (vaccine trials, tumor and transplant immunology, autoimmunity) is that the assay allows the investigator to detect rare antigen-specific T-cells among all of the other lymphocytes with irrelevant antigen specificity. Furthermore, the data are at the single-cell level. When the frequencies of antigen-specific T-cells are in the medium range, e.g., at 1/10<sup>4</sup>, one can expect to detect 100 spots within 10<sup>5</sup> PBMC plated, with a medium background of fewer than 10 (properly gated) and, many times, zero spots. Frequently, such clear-cut results are obtained with a low background and high signal-to-noise resolution [<xref ref-type="bibr" rid="B27-cells-04-00096">27</xref>]. There is no need for statistical proof when positive wells show 10&#x2013;200-fold spot numbers over negative controls. For strong positive responses, duplicate wells should suffice (for example, to rule out a systematic error when cells or antigens are plated). The Chebyshev theorem defines an interval outside which practically no statistical evaluation is required to prove the difference between positive and negative wells. It states that for any k = 1, 2, 3,&#x2026; <italic>n</italic>, the probability (P) for the mean value (&#x3BC;) to be in the range of &#xB1;k standard deviations is: (&#x3BC; &#x2013; k &#xD7; &#x3C3; &#x2264; &#x3BC; &#x2264; &#x3BC; + k &#xD7; &#x3C3;) is equal or higher than (1 &#x2212; 1/k<sup>2</sup>), where &#x3C3; is the standard deviation of the mean. Therefore, for the commonly-accepted level of significance &#x3C3; = 0.05 the probability P = 0.95 = (1 &#x2212; 1/k<sup>2</sup>), and the minimal effect k = &#xB1;4.72 &#xD7; &#x3C3;. In other words, with 95% (double sided) probability, positive responses are guaranteed to be different from the negative control if their mean values are at least 4.72 &#xD7; &#x3C3; apart. This simple universal criterion is similar to the &#x201C;three standard deviations&#x201D; rule, the difference being that the Chebyshev inequality does not require knowledge of the data distribution function (whereas the 3&#x3C3; rule assumes a normal distribution). What is common for both is the low power to detect weak true positive responses. When the rate of false negative results is not an issue, but false positive results are highly undesirable (testing of vaccines is efficient only when a strong response is protective), the Chebyshev inequality could be very useful and universal.</p>
+        <p>Parametric statistics becomes essential when it is important to distinguish with high power (sensitivity) between weakly positive and negative results. In this study, we present (to our knowledge, for the first time) statistically-validated evidence that ELISPOT counts obtained from human PBMC for antigen-specific IFN-&#x3B3; responses of CD8+ T-cells follow a normal (Gaussian) distribution. This notion justifies the use of parametric statistics for the discrimination between negative and positive well counts.</p>
+        <p>The normal distribution of ELISPOT counts allows answering two other important questions: how many replicates should be used in a particular ELISPOT experiment, and how does the number of replicates depend on the number of cells plated? First, using transfected CHO cells, we experimentally created various levels of &#x201C;background&#x201D; spots and increased that number slightly by adding known numbers of CHO cells to create &#x201C;weakly positive experimental wells&#x201D;. The predicted and measured numbers of replicates needed to detect these modeled weak responses by using the Student&#x2019;s <italic>t</italic>-test matched, verifying the suitability of the predictions. As an example of such analysis on PBMC, we used weak CD8+ T-cell responses of healthy HLA-A2 donors against the subdominant EBV determinant, BMLF1 (259&#x2013;267). Furthermore, in this case, the number of replicate wells required for a statistically-significant difference between antigen-induced responses and medium control wells closely matched the theoretical predictions based on the normal data distribution. Translating these findings into practical recommendations, our data suggest that in most cases, using 4&#x2013;5 replicates should be suitable for detecting even weak positive responses with effects between 2&#x3C3; and 3&#x3C3; (depending on experimental assay variance). Increased numbers of replicates and/or of cells plated per well can be used if even higher resolution is needed to unambiguously detect weak responses.</p>
+        <p>Our data showed that the well-to-well coefficient of variation decreased with increasing numbers of PBMC per well. In other words, for weak responses, the relative experimental error in ELISPOT counts is smaller at higher numbers of cells per well. As a result, the number of required replicates was lower with higher numbers of PBMC plated per well. The relationship between increasing replicates or cell numbers detecting weak responses leads to interesting implications of our analysis. If cells are limiting, spot counts obtained after seeding a lower amount of cells in a higher number of replicates will reach the significance level substantially faster than when only cell numbers are increased. If material and labor costs rather than cells are limiting, increasing cell numbers can be recommended. Both effects are additive and are recommended when neither is limiting, as also is the addition of IL-7 to the culture.</p>
+        <p>In parametric statistical tests, such as the Student&#x2019;s <italic>t</italic>-test, the greatest statistical error usually comes from experimental estimations of standard deviations (and, to a much lesser extent, from estimations of mean values), in particular when few replicates are used. Therefore, when a trial is planned using small numbers of replicates (3&#x2013;4 is quite common), it could be recommended to have standard deviations of negative and positive wells estimated first in a small pilot study that involves more (10&#x2013;20) replicates. Experimental errors in ELISPOT are primarily caused by cell pipetting and spot counting errors and do not depend much on the particular donor or antigen. Limited pilot studies allow different laboratories to determine the extent of systematic error in that laboratory, so that this can be taken into account, beyond the random, Gaussian variation. Planning for too few replicate wells going into a study can jeopardize the entire study or clinical trial.</p>
+        <p>This study was restricted to CD8+ T-cells. CD8+ T-cells recognize the antigen on MHC class I molecules that are expressed on all cell types of the body and, unlike CD4+ T-cells, have permissive costimulatory requirements. Therefore, while essentially any cell type can be an antigen-presenting or target cell for CD8+ T-cells, CD4+ T-cells require &#x201C;professional APC&#x201D;, such as dendritic cells and B-cells for activation. Therefore, when studying CD8+ T-cell recall responses, the likelihood of detecting every antigen-specific CD8+ T-cell under standard ELISPOT assay conditions is non-restrictive. Subsequently, our data clearly show that within replicate wells, CD8+ T-cell recall responses follow a normal distribution, and in the case of week responses, increasing cell numbers reduces the relative error within replicates. For the aforementioned reasons, this rule may or may not apply for CD4+ T-cells, and this topic is under ongoing investigation in our laboratory.</p>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>Using statistical analysis of spot counts in large numbers of replicate wells, we have shown that ELISPOT counts follow a normal distribution function. The normality of the ELISPOT data enables high power statistical acceptance criteria (Student&#x2019;s <italic>t</italic>-test, ANOVA) for positive responses. It also allows for predictions of the number of replicate wells needed to detect weak positive responses with known significance and power. Theoretical predictions based on the normal distribution correlated strongly with the experimental observations studying spot counts from weak CD8+ T-cell IFN-&#x3B3; responses against the subdominant EBV peptide and IFN-&#x3B3;-transfected CHO cells. We observed that the well-to-well coefficient of variation decreases with increasing numbers of PBMC plated per well. We also showed experimentally that borderline responses can be reliably detected using fewer replicate wells, by plating higher numbers of PBMC, by the addition of IL-7 or a combination of these.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors would like to acknowledge Villian Naeem for editing the document.</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Alexey Y. Karulin, Srividya Sundararaman, Richard Caspell and Marcus Dittrich carried out experimental work. Alexey Y. Karulin and Marcus Dittrich performed statistical analysis. Alexey Y. Karulin and Paul V. Lehmann planned out the study and wrote the manuscript.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>Alexey Y. Karulin, Srividya Sundararaman, Richard Caspell and Paul V. Lehmann are employed by Cellular Technology Limited, which builds software and hardware for ELISPOT analysis.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-04-00096">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kuerten</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Batoulis</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Recks</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Karacsony</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Subbramanian</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Resting of cryopreserved PBMC does not generally benefit the performance of antigen-specific T-cell ELISPOT assays</article-title>
+          <source>Cells</source>
+          <year>2012</year>
+          <volume>1</volume>
+          <fpage>409</fpage>
+          <lpage>427</lpage>
+        </citation>
+      </ref>
+      <ref id="B2-cells-04-00096">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ramachandran</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Laux</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Moldovan</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Caspell</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Subbramanian</surname>
+              <given-names>R.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Optimal thawing of cryopreserved peripheral blood mononuclear cells for use in high-throughput human immune monitoring studies</article-title>
+          <source>Cells</source>
+          <year>2012</year>
+          <volume>1</volume>
+          <fpage>313</fpage>
+          <lpage>324</lpage>
+        </citation>
+      </ref>
+      <ref id="B3-cells-04-00096">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Objective, user-independent ELISPOT data analysis based on scientifically validated principles</article-title>
+          <source>Methods Mol. Biol.</source>
+          <year>2012</year>
+          <volume>792</volume>
+          <fpage>155</fpage>
+          <lpage>171</lpage>
+        </citation>
+      </ref>
+      <ref id="B4-cells-04-00096">
+        <label>4.</label>
+        <citation citation-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mogg</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Fan</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Dubey</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Shiver</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Mehrotra</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Statistical cross-validation of Merck&#x2019;s IFN-&#x3B3; ELISPOT assay positivity criterion</article-title>
+          <source>Presented at AIDS Vaccine Conference</source>
+          <publisher-name>New York, NY, USA</publisher-name>
+          <month>September</month>
+          <year>2003</year>
+        </citation>
+      </ref>
+      <ref id="B5-cells-04-00096">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dubey</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Clair</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Guan</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Long</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Mogg</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Anderson</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Collins</surname>
+              <given-names>K.B.</given-names>
+            </name>
+            <name>
+              <surname>Gaunt</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Fernandez</surname>
+              <given-names>V.R.</given-names>
+            </name>
+			<etal/>
+          </person-group>
+          <article-title>Detection of HIV vaccine-induced cell-mediated immunity in HIV-seronegative clinical trial participants using an optimized and validated Enzyme-Linked ImmunoSpot assay</article-title>
+          <source>J. Acquir. Immune Defic. Syndr.</source>
+          <year>2007</year>
+          <volume>45</volume>
+          <fpage>20</fpage>
+          <lpage>27</lpage>
+        </citation>
+      </ref>
+      <ref id="B6-cells-04-00096">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thakur</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Pedersen</surname>
+              <given-names>L.E.</given-names>
+            </name>
+            <name>
+              <surname>Jungersen</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Immune markers and correlates of protection for vaccine induced immune responses</article-title>
+          <source>Vaccine</source>
+          <year>2012</year>
+          <volume>30</volume>
+          <fpage>4907</fpage>
+          <lpage>4920</lpage>
+        </citation>
+      </ref>
+      <ref id="B7-cells-04-00096">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McCutcheon</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wehner</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Wensky</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kushner</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Doan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hsiao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Calabresi</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Ha</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Tran</surname>
+              <given-names>T.V.</given-names>
+            </name>
+            <name>
+              <surname>Tate</surname>
+              <given-names>K.M.</given-names>
+            </name>
+			<etal/>
+          </person-group>
+          <article-title>A sensitive ELISPOT assay to detect low-frequency human T lymphocytes</article-title>
+          <source>J. Immunol. Methods</source>
+          <year>1997</year>
+          <volume>210</volume>
+          <fpage>149</fpage>
+          <lpage>166</lpage>
+        </citation>
+      </ref>
+      <ref id="B8-cells-04-00096">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hudgens</surname>
+              <given-names>M.G.</given-names>
+            </name>
+            <name>
+              <surname>Self</surname>
+              <given-names>S.G.</given-names>
+            </name>
+            <name>
+              <surname>Chiu</surname>
+              <given-names>Y.L.</given-names>
+            </name>
+            <name>
+              <surname>Russell</surname>
+              <given-names>N.D.</given-names>
+            </name>
+            <name>
+              <surname>Horton</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>McElrath</surname>
+              <given-names>M.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Statistical considerations for the design and analysis of the elispot assay in HIV-1 vaccine trials</article-title>
+          <source>J. Immunol. Methods</source>
+          <year>2004</year>
+          <volume>288</volume>
+          <fpage>19</fpage>
+          <lpage>34</lpage>
+        </citation>
+      </ref>
+      <ref id="B9-cells-04-00096">
+        <label>9.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Efron</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Tibshirani</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <source>An Introduction to the Bootstrap</source>
+          <publisher-name>Chapman &amp; Hall</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>1993</year>
+          <volume>volume XVI</volume>
+          <fpage>436</fpage>
+        </citation>
+      </ref>
+      <ref id="B10-cells-04-00096">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moodie</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Gu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Hural</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Self</surname>
+              <given-names>S.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Statistical positivity criteria for the analysis of ELISPOT assay data in HIV-1 vaccine trials</article-title>
+          <source>J. Immunol. Methods</source>
+          <year>2006</year>
+          <volume>315</volume>
+          <fpage>121</fpage>
+          <lpage>132</lpage>
+        </citation>
+      </ref>
+      <ref id="B11-cells-04-00096">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moodie</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Price</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Gouttefangeas</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Mander</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Janetzki</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lower</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Welters</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Ottensmeier</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>van der Burg</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Britten</surname>
+              <given-names>C.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Response definition criteria for ELISPOT assays revisited</article-title>
+          <source>Cancer Immunol. Immunother.</source>
+          <year>2010</year>
+          <volume>59</volume>
+          <fpage>1489</fpage>
+          <lpage>1501</lpage>
+        </citation>
+      </ref>
+      <ref id="B12-cells-04-00096">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moodie</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Price</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Janetzki</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Britten</surname>
+              <given-names>C.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Response determination criteria for elispot: Toward a standard that can be applied across laboratories</article-title>
+          <source>Methods Mol. Biol.</source>
+          <year>2012</year>
+          <volume>792</volume>
+          <fpage>185</fpage>
+          <lpage>196</lpage>
+        </citation>
+      </ref>
+      <ref id="B13-cells-04-00096">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dittrich</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Statistical analysis of ELISPOT assays</article-title>
+          <source>Methods Mol. Biol.</source>
+          <year>2012</year>
+          <volume>792</volume>
+          <fpage>173</fpage>
+          <lpage>183</lpage>
+        </citation>
+      </ref>
+      <ref id="B14-cells-04-00096">
+        <label>14.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hsu</surname>
+              <given-names>J.C.</given-names>
+            </name>
+          </person-group>
+          <source>Multiple comparisons: Theory and Methods</source>
+          <publisher-name>Chapman and Hall</publisher-name>
+          <publisher-loc>London, UK</publisher-loc>
+          <year>1996</year>
+        </citation>
+      </ref>
+      <ref id="B15-cells-04-00096">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hochberg</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Benjamini</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>More powerful procedures for multiple significance testing</article-title>
+          <source>Stat. Med.</source>
+          <year>1990</year>
+          <volume>9</volume>
+          <fpage>811</fpage>
+          <lpage>818</lpage>
+        </citation>
+      </ref>
+      <ref id="B16-cells-04-00096">
+        <label>16.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Westfall</surname>
+              <given-names>P.H.</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>S.S.</given-names>
+            </name>
+          </person-group>
+          <source>Resampling-Based Multiple Testing: Exapmples and Methods for p-Value Adjustment</source>
+          <publisher-name>John Wiley and Sons</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>1993</year>
+        </citation>
+      </ref>
+      <ref id="B17-cells-04-00096">
+        <label>17.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hochberg</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Westfall</surname>
+              <given-names>P.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>On some multiplicity problems and multiple comparison procedures in biostatistics</article-title>
+          <source>Handbook of Statistics</source>
+          <publisher-name>Elsevier</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2000</year>
+          <volume>Volume 18</volume>
+          <fpage>75</fpage>
+        </citation>
+      </ref>
+      <ref id="B18-cells-04-00096">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>X.L.</given-names>
+            </name>
+            <name>
+              <surname>Fan</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Kalinyak</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Mellors</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Rinaldo</surname>
+              <given-names>C.R.</given-names>
+			  <suffix>Jr.</suffix>
+            </name>
+          </person-group>
+          <article-title>Cd8(+) T-cell gamma interferon production specific for Human Immunodeficiency Virus type 1 (HIV-1) in HIV-1-infected subjects</article-title>
+          <source>Clin. Diagn. Lab. Immunol.</source>
+          <year>2000</year>
+          <volume>7</volume>
+          <fpage>279</fpage>
+          <lpage>287</lpage>
+        </citation>
+      </ref>
+      <ref id="B19-cells-04-00096">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nagorsen</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Keilholz</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Rivoltini</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Schmittel</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Letsch</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Asemissen</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Berger</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Buhr</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Thiel</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Scheibenbogen</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Natural T-cell response against MHC class I epitopes of epithelial cell adhesion molecule, Her-2/Neu, and carcinoembryonic antigen in patients with colorectal cancer</article-title>
+          <source>Cancer Res.</source>
+          <year>2000</year>
+          <volume>60</volume>
+          <fpage>4850</fpage>
+          <lpage>4854</lpage>
+        </citation>
+      </ref>
+      <ref id="B20-cells-04-00096">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kuerten</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Schlingmann</surname>
+              <given-names>T.R.</given-names>
+            </name>
+            <name>
+              <surname>Rajasalu</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Angelov</surname>
+              <given-names>D.N.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lack of disease specificity limits the usefulness of <italic>in vitro</italic> costimulation in HIV- and HCV-infected patients</article-title>
+          <source>Clin. Dev. Immunol.</source>
+          <year>2008</year>
+          <volume>2008</volume>
+	      <pub-id pub-id-type="doi">10.1155/2008/590941</pub-id>
+        </citation>
+      </ref>
+      <ref id="B21-cells-04-00096">
+        <label>21.</label>
+        <citation citation-type="web">
+          <person-group person-group-type="author">
+            <collab>SPSS Statistics</collab>
+          </person-group>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www-01.ibm.com/software/analytics/spss/products/statistics" ext-link-type="uri">http://www-01.ibm.com/software/analytics/spss/products/statistics</ext-link></comment>
+          <access-date>(accessed on 20 January 2015)</access-date>
+        </citation>
+      </ref>
+      <ref id="B22-cells-04-00096">
+        <label>22.</label>
+        <citation citation-type="web">
+          <person-group person-group-type="author">
+            <collab>XL Stat</collab>
+          </person-group>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.xlstat.com" ext-link-type="uri">http://www.xlstat.com</ext-link></comment>
+          <access-date>(accessed on 20 January 2015)</access-date>
+        </citation>
+      </ref>
+      <ref id="B23-cells-04-00096">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hanson</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sundararaman</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Caspell</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Karacsony</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Karulin</surname>
+              <given-names>A.Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Elispot assays in 384 well format: Testing 30 data points with only 1 million cells</article-title>
+          <source>Cells</source>
+          <year>2015</year>
+          <volume>4</volume>
+          <fpage>71</fpage>
+          <lpage>83</lpage>
+        </citation>
+      </ref>
+      <ref id="B24-cells-04-00096">
+        <label>24.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Royston</surname>
+              <given-names>J.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>An extension of Shapiro and Wilk&#x2019;s W tests for normality to large samples</article-title>
+          <source>Appl. Stat.</source>
+          <year>1982</year>
+          <volume>31</volume>
+          <fpage>115</fpage>
+          <lpage>124</lpage>
+        </citation>
+      </ref>
+      <ref id="B25-cells-04-00096">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Razali</surname>
+              <given-names>N.M.</given-names>
+            </name>
+            <name>
+              <surname>Wah</surname>
+              <given-names>Y.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Power comparison of shapiro-wilk, kolmogorov-smirnov, lilliefors and anderson-darling tests</article-title>
+          <source>J. Stat. Model. Anal.</source>
+          <year>2011</year>
+          <volume>2</volume>
+          <fpage>21</fpage>
+          <lpage>33</lpage>
+        </citation>
+      </ref>
+      <ref id="B26-cells-04-00096">
+        <label>26.</label>
+        <citation citation-type="web">
+          <article-title>Inference for Means, Comparing Two Independent Samples</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.stat.ubc.ca/~rollin/stats/ssize/n2.html" ext-link-type="uri">http://www.stat.ubc.ca/~rollin/stats/ssize/n2.html</ext-link></comment>
+          <access-date>(accessed on 20 January 2015)</access-date>
+        </citation>
+      </ref>
+      <ref id="B27-cells-04-00096">
+        <label>27.</label>
+        <citation citation-type="web">
+          <person-group person-group-type="author">
+            <collab>PBMC Searchable Database</collab>
+          </person-group>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://epbmc.immunospot.com" ext-link-type="uri">http://epbmc.immunospot.com</ext-link></comment>
+          <access-date>(accessed on 20 January 2015)</access-date>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

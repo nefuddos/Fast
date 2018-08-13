@@ -1,0 +1,3230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title-group>
+        <journal-title>Cells</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells7020013</article-id>
+      <article-id pub-id-type="publisher-id">cells-07-00013</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Linear Regression QSAR Models for Polo-Like Kinase-1 Inhibitors</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Duchowicz</surname>
+            <given-names>Pablo R.</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-07-00013">Instituto de Investigaciones Fisicoqu&#xED;micas Te&#xF3;ricas y Aplicadas (INIFTA), CONICET, UNLP, Diag. 113 y 64, C.C. 16, Sucursal 4,  La Plata 1900, Argentina; <email>pabloducho@gmail.com</email>; Tel.: +54-(221)-425-7430; Fax: +54-(221)-425-4642</aff>
+      <pub-date pub-type="epub">
+        <day>14</day>
+        <month>02</month>
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="collection">        <month>02</month>
+        <year>2018</year>
+      </pub-date>
+      <volume>7</volume>
+      <issue>2</issue>
+      <elocation-id>13</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>27</day>
+          <month>11</month>
+          <year>2017</year>
+        </date>
+        <date date-type="accepted">
+          <day>02</day>
+          <month>02</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2018 by the author.</copyright-statement>
+        <copyright-year>2018</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>A structurally diverse dataset of 530 polo-like kinase-1 (PLK1) inhibitors is compiled from the ChEMBL database and studied by means of a conformation-independent quantitative structure-activity relationship (QSAR) approach. A large number (26,761) of molecular descriptors are explored with the main intention of capturing the most relevant structural characteristics affecting the bioactivity. The structural descriptors are derived with different freeware, such as PaDEL, Mold<sup>2</sup>, and QuBiLs-MAS; such descriptor software complements each other and improves the QSAR results. The best multivariable linear regression models are found with the replacement method variable subset selection technique. The balanced subsets method partitions the dataset into training, validation, and test sets. It is found that the proposed linear QSAR model improves previously reported models by leading to a simpler alternative structure-activity relationship.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>polo-like kinase-1 inhibitors</kwd>
+        <kwd>quantitative structure-activity relationships</kwd>
+        <kwd>half-maximal inhibitory concentration</kwd>
+        <kwd>replacement method</kwd>
+        <kwd>molecular descriptors</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-cells-07-00013" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Polo-like kinases (PLKs) are characterized by a multidomain structure consisting of a highly conserved N-terminal catalytic domain (KD) and a relatively divergent C-terminal polo-box domain (PBD), composed of either one or two polo boxes [<xref ref-type="bibr" rid="B1-cells-07-00013">1</xref>,<xref ref-type="bibr" rid="B2-cells-07-00013">2</xref>]. This serine/threonine kinase family is an important regulator of mitotic progression [<xref ref-type="bibr" rid="B3-cells-07-00013">3</xref>]. </p>
+      <p>Among the different identified PLKs, PLK1 is the most investigated member of the family because it is highly expressed in proliferating cells and overexpressed in many cancers, thus resulting in an attractive target for anticancer therapeutic development [<xref ref-type="bibr" rid="B4-cells-07-00013">4</xref>].</p>
+      <p>Polo-like kinase 1 (PLK1) is involved in centrosome maturation, kinetochore function, spindle formation, chromosome segregation, and cytokinesis [<xref ref-type="bibr" rid="B5-cells-07-00013">5</xref>]. The PBD is critical to PLK1 localization and function and negatively regulates the kinase activity of the catalytic domain [<xref ref-type="bibr" rid="B1-cells-07-00013">1</xref>]. Inhibitors targeting KD, the so-called ATP-competitive PLK1 inhibitors, have attracted much attention over the last years [<xref ref-type="bibr" rid="B6-cells-07-00013">6</xref>]. </p>
+      <p>Inhibiting PLK1 activity results in a potent antitumor effect both in vitro and in vivo [<xref ref-type="bibr" rid="B7-cells-07-00013">7</xref>]; therefore, much attention has been focused on characterizing PLK1 and synthesizing its inhibitors [<xref ref-type="bibr" rid="B5-cells-07-00013">5</xref>]. <xref ref-type="fig" rid="cells-07-00013-f001">Figure 1</xref> shows the molecular structures of some encouraging agents in current clinical trials. </p>
+      <p>Among the various methodologies available in the literature for predicting the biological activities of compounds, the quantitative structure-activity relationship (QSAR) theory [<xref ref-type="bibr" rid="B8-cells-07-00013">8</xref>,<xref ref-type="bibr" rid="B9-cells-07-00013">9</xref>,<xref ref-type="bibr" rid="B10-cells-07-00013">10</xref>,<xref ref-type="bibr" rid="B11-cells-07-00013">11</xref>,<xref ref-type="bibr" rid="B12-cells-07-00013">12</xref>] is considered as a useful and well-known strategy. The main hypothesis behind every QSAR study is that the chemical structure is responsible for the bioactivity of the compound. </p>
+      <p>Therefore, the structure is quantified through molecular descriptors; in other words, numerical quantities carrying specific and relevant information about the constitutional, topological, geometrical, hydrophobic, and/or electronic characteristics of the compounds are investigated [<xref ref-type="bibr" rid="B13-cells-07-00013">13</xref>,<xref ref-type="bibr" rid="B14-cells-07-00013">14</xref>,<xref ref-type="bibr" rid="B15-cells-07-00013">15</xref>,<xref ref-type="bibr" rid="B16-cells-07-00013">16</xref>]. Thousands of molecular descriptors are now available in the literature, and it has to be decided how to select those numerical variables that best characterize the experimental activity under consideration. </p>
+      <p>The most relevant descriptors are selected with an appropriate mathematical technique and statistically correlated to the experimental activity, resulting in a mathematical model that is used to find out useful structure-activity parallelisms. In this way, QSAR models constitute a fast and cost-effective alternative to experimental measurements. </p>
+      <p>The availability of newer and higher quality experimental measurements has encouraged and justified the development of newer and alternative QSAR models with improved statistical quality; therefore, this research field has continued to evolve over the years.</p>
+      <p>A large number of structure-activity relationship (SAR) studies has been reported in the past for analyzing the PLK1 inhibition although, however, very few account for quantitative approaches [<xref ref-type="bibr" rid="B17-cells-07-00013">17</xref>,<xref ref-type="bibr" rid="B18-cells-07-00013">18</xref>,<xref ref-type="bibr" rid="B19-cells-07-00013">19</xref>,<xref ref-type="bibr" rid="B20-cells-07-00013">20</xref>]. Therefore, in the present work, we develop a QSAR analysis for searching predictive models on a large and structurally diverse dataset of 530 PLK1 inhibitors. For this purpose, we resort to the conformation-independent QSAR approach and consider constitutional and topological representations of the inhibitors&#x2019; chemical structures for deriving the molecular descriptors.</p>
+      <p>The main advantage of not considering molecular conformations is that the only experimental data needed for establishing the QSAR models is the experimental inhibitory activity being analyzed [<xref ref-type="bibr" rid="B21-cells-07-00013">21</xref>,<xref ref-type="bibr" rid="B22-cells-07-00013">22</xref>,<xref ref-type="bibr" rid="B23-cells-07-00013">23</xref>,<xref ref-type="bibr" rid="B24-cells-07-00013">24</xref>]. No further experimental information is required, such as data on the experimental X-ray crystal structure of the PLK1 kinase domain with a given inhibitor in certain conformation [<xref ref-type="bibr" rid="B25-cells-07-00013">25</xref>]. In addition, it is known that the ligand&#x2013;receptor complex has not been solved for all inhibitor types having different interaction modes&#x2014;that is, in a heterogeneous dataset like the one considered in this work. </p>
+      <p>The inclusion of more specific experimental information is appropriate whenever a microscopic and more sophisticated modeling methodology is involved, such as CoMFA (comparative molecular field analysis) and CoMSIA (comparative molecular similarity indices analysis) [<xref ref-type="bibr" rid="B17-cells-07-00013">17</xref>,<xref ref-type="bibr" rid="B26-cells-07-00013">26</xref>]. However, as commented previously, such specific experimental details are usually unavailable for any chemical system of interest; therefore, the application of the conformation-independent QSAR approach can be considered as a useful and valid alternative.</p>
+    </sec>
+    <sec id="sec2-cells-07-00013">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-cells-07-00013">
+        <title>2.1. Experimental Dataset</title>
+        <p>The structurally diverse PLK1 inhibitors were compiled from ChEMBL [<xref ref-type="bibr" rid="B27-cells-07-00013">27</xref>,<xref ref-type="bibr" rid="B28-cells-07-00013">28</xref>], an open data resource of binding, functional, and ADMET bioactivity data. The experimental inhibitory effectiveness is expressed as the half-maximal inhibitory concentration <inline-formula>
+          <mml:math display="block" id="mm1">
+            <mml:semantics>
+              <mml:mrow>
+                <mml:mi>I</mml:mi>
+                <mml:msub>
+                  <mml:mi>C</mml:mi>
+                  <mml:mrow>
+                    <mml:mn>50</mml:mn>
+                  </mml:mrow>
+                </mml:msub>
+              </mml:mrow>
+            </mml:semantics>
+          </mml:math>
+        </inline-formula> (nM). </p>
+        <p>After removing duplicates, compounds with ambiguous data, compounds having molecular weights higher than 1000 g mol<sup>&#x2212;1</sup>, and compounds without reported bioactivities, the dataset consisted of 530 compounds with <inline-formula>
+          <mml:math display="block" id="mm2">
+            <mml:semantics>
+              <mml:mrow>
+                <mml:mi>I</mml:mi>
+                <mml:msub>
+                  <mml:mi>C</mml:mi>
+                  <mml:mrow>
+                    <mml:mn>50</mml:mn>
+                  </mml:mrow>
+                </mml:msub>
+              </mml:mrow>
+            </mml:semantics>
+          </mml:math>
+        </inline-formula> values ranging from 0.8 to 145,000 nM and molecular weights ranging from 164.2 to 949.97 g mol<sup>&#x2212;1</sup>. The complete list of compounds studied here is provided in <xref ref-type="app" rid="app1-cells-07-00013">Table S1 as Supplementary Material</xref>.</p>
+      </sec>
+      <sec id="sec2dot2-cells-07-00013">
+        <title>2.2. Structural Representation and Molecular Descriptors Calculation</title>
+        <p>The 530 chemical structures studied here are provided as canonical SMILES notation in <xref ref-type="app" rid="app1-cells-07-00013">Table S1 of the Supplementary Material</xref> section. All file format conversions were performed with Open Babel for Windows [<xref ref-type="bibr" rid="B29-cells-07-00013">29</xref>]. The molecular structures were visualized with ACDLabs ChemSketch freeware [<xref ref-type="bibr" rid="B30-cells-07-00013">30</xref>]. </p>
+        <p>The conformation-independent molecular descriptors were computed as follows. We used the Pharmaceutical Data Exploration Laboratory (PaDEL) freeware version 2.20 [<xref ref-type="bibr" rid="B31-cells-07-00013">31</xref>] because it has the advantage that it is a freely available and open-source program. PaDEL allowed us to calculate 1444 0D-2D descriptors and 12 fingerprint types (16,092 bits) [<xref ref-type="bibr" rid="B32-cells-07-00013">32</xref>]. The categorical (indicator) fingerprint descriptors involve the presence or count of specific chemical substructures: we treated the fingerprints like they were &#x201C;constitutional descriptors&#x201D; describing the molecular composition and, as such, they could be used for modeling any property of interest.</p>
+        <p>More molecular descriptors were calculated with the Molecular Descriptors from 2D structures (Mold<sup>2</sup>) freeware [<xref ref-type="bibr" rid="B33-cells-07-00013">33</xref>], which generated 777 1D-2D structural variables with molecules in MDL sdf format. </p>
+        <p>Finally, 2D molecular descriptors were calculated with the Quadratic, Bilinear and N-Linear MapS (QuBiLs) [<xref ref-type="bibr" rid="B34-cells-07-00013">34</xref>] suite by using the graph-theoretic electronic-density matrices and atomic weightings (MAS) module from the ToMoCoMD-CARDD free multi-platform freeware. The QuBiLs-MAS algebraic module calculated 8448 quadratic, bilinear, and linear maps based on pseudograph-theoretic electronic-density matrices and atomic weightings, when the program was used with the following options selected: &#x2018;bilinear&#x2019;, &#x2018;linear&#x2019;, and &#x2018;quadratic&#x2019; algebraic forms; &#x2018;atom-based&#x2019;, &#x2018;non-chiral&#x2019; and &#x2018;duplex&#x2019; constraints; &#x2018;non-stochastic&#x2019;, &#x2018;simple stochastic&#x2019;, &#x2018;double stochastic&#x2019; and &#x2018;mutual probability&#x2019; matrix forms (maximum order 15); &#x2018;keep all&#x2019; cut-off; &#x2018;total&#x2019; groups; &#x2018;Ghose-Crippen LogP&#x2019;, &#x2018;polarizability&#x2019;, &#x2018;charge&#x2019;, &#x2018;polar surface area&#x2019;, &#x2018;electronegativity&#x2019;, &#x2018;refractivity&#x2019;, &#x2018;mass&#x2019; and &#x2018;van der Waals volume&#x2019; properties; &#x2018;Euclidean distance&#x2019;, &#x2018;arithmetic mean&#x2019;, and &#x2018;standard deviation&#x2019; invariants (non-standardized option). </p>
+        <p>Through PaDEL, Mold<sup>2</sup>, and QuBiLs-MAS we derived 26,761 non-conformational molecular descriptors with the intention of exploring the most relevant structural characteristics affecting the studied PLK1 bioactivity.</p>
+      </sec>
+      <sec id="sec2dot3-cells-07-00013">
+        <title>2.3. Model Development </title>
+        <sec id="sec2dot3dot1-cells-07-00013">
+          <title>2.3.1. Molecular Descriptors Selection</title>
+          <p>First, the &#x2018;collinear&#x2019; or linearly dependent descriptor pairs were identified, and only one variable from each pair was kept for further analysis. Non-informative descriptors not relevant to the QSAR analysis were excluded (i.e., descriptors with constant and near-constant values and descriptors with at least one missing value), leading to a pool of 11,565 linearly independent non-conformational descriptors.</p>
+          <p>We employed the replacement method (RM) technique [<xref ref-type="bibr" rid="B35-cells-07-00013">35</xref>] in order to generate multivariable linear regression (MLR) models on the training set (train) by searching in a pool having <italic>D</italic> = 11,565 descriptors for optimal subsets containing <italic>d</italic> descriptors (<italic>d</italic> is much lower than <italic>D</italic>), with the smallest values for the standard deviation (<inline-formula>
+            <mml:math display="block" id="mm3">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:msub>
+                    <mml:mi>S</mml:mi>
+                    <mml:mrow>
+                      <mml:mi>t</mml:mi>
+                      <mml:mi>r</mml:mi>
+                      <mml:mi>a</mml:mi>
+                      <mml:mi>i</mml:mi>
+                      <mml:mi>n</mml:mi>
+                    </mml:mrow>
+                  </mml:msub>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>). </p>
+          <p>The main idea behind the RM is that one can approach the minimum of <inline-formula>
+            <mml:math display="block" id="mm4">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:msub>
+                    <mml:mi>S</mml:mi>
+                    <mml:mrow>
+                      <mml:mi>t</mml:mi>
+                      <mml:mi>r</mml:mi>
+                      <mml:mi>a</mml:mi>
+                      <mml:mi>i</mml:mi>
+                      <mml:mi>n</mml:mi>
+                    </mml:mrow>
+                  </mml:msub>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula> by judiciously taking into account the relative errors of the coefficients of the least-squares model given by a set of <italic>d</italic> descriptors. In other words, we should find the global minimum of <inline-formula>
+            <mml:math display="block" id="mm5">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:msub>
+                    <mml:mi>S</mml:mi>
+                    <mml:mrow>
+                      <mml:mi>t</mml:mi>
+                      <mml:mi>r</mml:mi>
+                      <mml:mi>a</mml:mi>
+                      <mml:mi>i</mml:mi>
+                      <mml:mi>n</mml:mi>
+                    </mml:mrow>
+                  </mml:msub>
+                  <mml:mo stretchy="false">(</mml:mo>
+                  <mml:mi>d</mml:mi>
+                  <mml:mo stretchy="false">)</mml:mo>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula> in a subspace of <inline-formula>
+            <mml:math display="block" id="mm6">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:mrow>
+                    <mml:mrow>
+                      <mml:mi>D</mml:mi>
+                      <mml:mtext>!</mml:mtext>
+                    </mml:mrow>
+                    <mml:mo>/</mml:mo>
+                    <mml:mrow>
+                      <mml:mo stretchy="false">[</mml:mo>
+                      <mml:mi>d</mml:mi>
+                      <mml:mo>!</mml:mo>
+                      <mml:mo stretchy="false">(</mml:mo>
+                      <mml:mi>D</mml:mi>
+                      <mml:mo>&#x2212;</mml:mo>
+                      <mml:mi>d</mml:mi>
+                    </mml:mrow>
+                  </mml:mrow>
+                  <mml:mo stretchy="false">)</mml:mo>
+                  <mml:mo>!</mml:mo>
+                  <mml:mo stretchy="false">]</mml:mo>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula> points <italic>d</italic>, where <italic>D</italic> represents the total number of available descriptors. </p>
+          <p>The quality of the results achieved with this technique approaches that obtained by performing an exact (combinatorial) full search of molecular descriptors although, of course, requires much less computational work. The RM is computationally more expensive than the stepwise regression (SR) and genetics algorithm (GA) approaches, although produces similar or better results than GA and better results than SR [<xref ref-type="bibr" rid="B36-cells-07-00013">36</xref>].</p>
+          <p><xref ref-type="app" rid="app1-cells-07-00013">Table S2</xref> includes a list of mathematical equations involved in the present study. All the MatLab programmed algorithms used in our calculations are available upon request.</p>
+        </sec>
+        <sec id="sec2dot3dot2-cells-07-00013">
+          <title>2.3.2. Model Validation</title>
+          <p>The complete molecular set of 530 inhibitors was split into three subsets: training (<italic>train</italic>), validation (<italic>val</italic>), and test sets. The training set was used to calibrate the model and to obtain its parameters through the RM technique, while the validation set helped to calibrate and partially validate the model by predicting the bioactivity of compounds not included in train. Finally, the test set contained compounds &#x201C;never seen&#x201D; during the calibration step with <italic>train</italic> and <italic>val</italic>, and demonstrates the real predictive capability of the QSAR.</p>
+          <p>The dataset partitioning has to achieve similar structure-activity relationships in the three subsets; in other words, the training set molecules should be representative of the validation and test set compounds. For this purpose, the split of the dataset was carried out by means of the balanced subsets method (BSM) [<xref ref-type="bibr" rid="B37-cells-07-00013">37</xref>,<xref ref-type="bibr" rid="B38-cells-07-00013">38</xref>], a procedure proposed by our group that ensures that balanced subsets are generated. The BSM is based on the k-means cluster analysis (k-MCA) method [<xref ref-type="bibr" rid="B39-cells-07-00013">39</xref>]: the essence of k-MCA is to create k-clusters or groups of compounds in such a way that compounds in the same cluster are very similar in terms of distance metrics (i.e., Euclidean distance), and compounds in different clusters are very distinct. </p>
+          <p>The linear regression models are also theoretically validated through the leave-one-out cross-validation (<italic>loo</italic>) procedure [<xref ref-type="bibr" rid="B40-cells-07-00013">40</xref>], and also through the more rigorous leave-30%-out cross-validation (l30&#x2030;) method.</p>
+        </sec>
+        <sec id="sec2dot3dot3-cells-07-00013">
+          <title>2.3.3. Applicability Domain</title>
+          <p>A predictive QSAR model is only able to predict molecules falling within its applicability domain (AD), so that the predicted activity is not a result of substantial extrapolation (unreliable prediction) [<xref ref-type="bibr" rid="B41-cells-07-00013">41</xref>,<xref ref-type="bibr" rid="B42-cells-07-00013">42</xref>]. The AD definition is dependent on the model&#x2019;s descriptors and the experimental activity.</p>
+          <p>In this work, we determined the AD through two alternative methodologies. The first one is based on the well-known leverage approach [<xref ref-type="bibr" rid="B43-cells-07-00013">43</xref>] where a test set compound <italic>i</italic> must have a calculated leverage <inline-formula>
+            <mml:math display="block" id="mm7">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:msub>
+                    <mml:mi>h</mml:mi>
+                    <mml:mi>i</mml:mi>
+                  </mml:msub>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula> smaller than the warning leverage <inline-formula>
+            <mml:math display="block" id="mm8">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:msup>
+                    <mml:mi>h</mml:mi>
+                    <mml:mo>*</mml:mo>
+                  </mml:msup>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>. The second one is based on a simple standardization approach [<xref ref-type="bibr" rid="B42-cells-07-00013">42</xref>]: a given test set compound <italic>i</italic> having <italic>d</italic> standardized descriptor values <inline-formula>
+            <mml:math display="block" id="mm9">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:msub>
+                    <mml:mi>s</mml:mi>
+                    <mml:mrow>
+                      <mml:mi>i</mml:mi>
+                      <mml:mi>k</mml:mi>
+                    </mml:mrow>
+                  </mml:msub>
+                  <mml:mo>,</mml:mo>
+                  <mml:mi>k</mml:mi>
+                  <mml:mo>=</mml:mo>
+                  <mml:mn>1</mml:mn>
+                  <mml:mo>,</mml:mo>
+                  <mml:mo>&#x2026;</mml:mo>
+                  <mml:mo>,</mml:mo>
+                  <mml:mi>d</mml:mi>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula> must have a maximum value <inline-formula>
+            <mml:math display="block" id="mm10">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:msubsup>
+                    <mml:mi>s</mml:mi>
+                    <mml:mrow>
+                      <mml:mi>i</mml:mi>
+                      <mml:mi>k</mml:mi>
+                    </mml:mrow>
+                    <mml:mrow>
+                      <mml:mi>max</mml:mi>
+                    </mml:mrow>
+                  </mml:msubsup>
+                  <mml:mo>&#x2264;</mml:mo>
+                  <mml:mn>3</mml:mn>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>. In the case that <inline-formula>
+            <mml:math display="block" id="mm11">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:msubsup>
+                    <mml:mi>s</mml:mi>
+                    <mml:mrow>
+                      <mml:mi>i</mml:mi>
+                      <mml:mi>k</mml:mi>
+                    </mml:mrow>
+                    <mml:mrow>
+                      <mml:mi>max</mml:mi>
+                    </mml:mrow>
+                  </mml:msubsup>
+                  <mml:mo>&gt;</mml:mo>
+                  <mml:mn>3</mml:mn>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula> and its minimum value <inline-formula>
+            <mml:math display="block" id="mm12">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:msubsup>
+                    <mml:mi>s</mml:mi>
+                    <mml:mrow>
+                      <mml:mi>i</mml:mi>
+                      <mml:mi>k</mml:mi>
+                    </mml:mrow>
+                    <mml:mrow>
+                      <mml:mi>min</mml:mi>
+                    </mml:mrow>
+                  </mml:msubsup>
+                  <mml:mo>&lt;</mml:mo>
+                  <mml:mn>3</mml:mn>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>, then the <inline-formula>
+            <mml:math display="block" id="mm13">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:msubsup>
+                    <mml:mi>s</mml:mi>
+                    <mml:mi>i</mml:mi>
+                    <mml:mrow>
+                      <mml:mi>n</mml:mi>
+                      <mml:mi>e</mml:mi>
+                      <mml:mi>w</mml:mi>
+                    </mml:mrow>
+                  </mml:msubsup>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula> parameter has to be calculated and must fulfill the condition: <inline-formula>
+            <mml:math display="block" id="mm14">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:msubsup>
+                    <mml:mi>s</mml:mi>
+                    <mml:mi>i</mml:mi>
+                    <mml:mrow>
+                      <mml:mi>n</mml:mi>
+                      <mml:mi>e</mml:mi>
+                      <mml:mi>w</mml:mi>
+                    </mml:mrow>
+                  </mml:msubsup>
+                  <mml:mo>=</mml:mo>
+                  <mml:mrow>
+                    <mml:mo>&#x2329;</mml:mo>
+                    <mml:mrow>
+                      <mml:msub>
+                        <mml:mi>s</mml:mi>
+                        <mml:mi>i</mml:mi>
+                      </mml:msub>
+                    </mml:mrow>
+                    <mml:mo>&#x232A;</mml:mo>
+                  </mml:mrow>
+                  <mml:mo>+</mml:mo>
+                  <mml:mn>1.28</mml:mn>
+				  <mml:mo>.</mml:mo>
+                  <mml:msub>
+                    <mml:mi>&#x3C3;</mml:mi>
+                    <mml:mrow>
+                      <mml:msub>
+                        <mml:mi>s</mml:mi>
+                        <mml:mi>i</mml:mi>
+                      </mml:msub>
+                    </mml:mrow>
+                  </mml:msub>
+                  <mml:mo>&#x2264;</mml:mo>
+                  <mml:mn>3</mml:mn>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>, where <inline-formula>
+            <mml:math display="block" id="mm15">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:mrow>
+                    <mml:mo>&#x2329;</mml:mo>
+                    <mml:mrow>
+                      <mml:msub>
+                        <mml:mi>s</mml:mi>
+                        <mml:mi>i</mml:mi>
+                      </mml:msub>
+                    </mml:mrow>
+                    <mml:mo>&#x232A;</mml:mo>
+                  </mml:mrow>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula> is the mean of <inline-formula>
+            <mml:math display="block" id="mm16">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:msub>
+                    <mml:mi>s</mml:mi>
+                    <mml:mrow>
+                      <mml:mi>i</mml:mi>
+                      <mml:mi>k</mml:mi>
+                    </mml:mrow>
+                  </mml:msub>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula> values for <italic>i</italic> and <inline-formula>
+            <mml:math display="block" id="mm17">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:msub>
+                    <mml:mi>&#x3C3;</mml:mi>
+                    <mml:mrow>
+                      <mml:msub>
+                        <mml:mi>s</mml:mi>
+                        <mml:mi>i</mml:mi>
+                      </mml:msub>
+                    </mml:mrow>
+                  </mml:msub>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula> is the standard deviation for such values.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="sec3-cells-07-00013" sec-type="results">
+      <title>3. Results and Discussion</title>
+      <p>After partitioning the dataset of 530 PLK1 inhibitors into <italic>train</italic>, <italic>val</italic>, and test sets using the BSM technique, we obtain balanced subsets with <inline-formula>
+        <mml:math display="block" id="mm18">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mi>N</mml:mi>
+                <mml:mrow>
+                  <mml:mi>t</mml:mi>
+                  <mml:mi>r</mml:mi>
+                  <mml:mi>a</mml:mi>
+                  <mml:mi>i</mml:mi>
+                  <mml:mi>n</mml:mi>
+                </mml:mrow>
+              </mml:msub>
+              <mml:mo>=</mml:mo>
+              <mml:mn>265</mml:mn>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula>, <inline-formula>
+        <mml:math display="block" id="mm19">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mi>N</mml:mi>
+                <mml:mrow>
+                  <mml:mi>v</mml:mi>
+                  <mml:mi>a</mml:mi>
+                  <mml:mi>l</mml:mi>
+                </mml:mrow>
+              </mml:msub>
+              <mml:mo>=</mml:mo>
+              <mml:mn>133</mml:mn>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> and <inline-formula>
+        <mml:math display="block" id="mm20">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mi>N</mml:mi>
+                <mml:mrow>
+                  <mml:mi>t</mml:mi>
+                  <mml:mi>e</mml:mi>
+                  <mml:mi>s</mml:mi>
+                  <mml:mi>t</mml:mi>
+                </mml:mrow>
+              </mml:msub>
+              <mml:mo>=</mml:mo>
+              <mml:mn>132</mml:mn>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> compounds; in addition, <xref ref-type="app" rid="app1-cells-07-00013">Table S1</xref> denotes the members of <italic>val</italic> (^) and <italic>test</italic> (*) sets. Therefore, the calibration compounds in train and <italic>val</italic> constitute 75% of the whole dataset. </p>
+      <p>The best MLR models, including the most representative 1&#x2013;9 molecular descriptors, are presented in <xref ref-type="table" rid="cells-07-00013-t001">Table 1</xref>. A brief description of such descriptors is also supplied in <xref ref-type="app" rid="app1-cells-07-00013">Table S3</xref>. From the results of <xref ref-type="table" rid="cells-07-00013-t001">Table 1</xref>, it is clearly appreciated that the <inline-formula>
+        <mml:math display="block" id="mm21">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mi>S</mml:mi>
+                <mml:mrow>
+                  <mml:mi>t</mml:mi>
+                  <mml:mi>r</mml:mi>
+                  <mml:mi>a</mml:mi>
+                  <mml:mi>i</mml:mi>
+                  <mml:mi>n</mml:mi>
+                </mml:mrow>
+              </mml:msub>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> parameter continuously improves with the addition of molecular descriptors into the linear equation. However, according to the validation set results, the most predictive models (lowest <inline-formula>
+        <mml:math display="block" id="mm22">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mi>S</mml:mi>
+                <mml:mrow>
+                  <mml:mi>v</mml:mi>
+                  <mml:mi>a</mml:mi>
+                  <mml:mi>l</mml:mi>
+                </mml:mrow>
+              </mml:msub>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula>) have 8 and 9 descriptors. We kept the model&#x2019;s dimension as small as possible and selected the following 8-descriptor model and associated statistical quality:<disp-formula id="FD1-cells-07-00013">
+        <label>(1)</label>
+        <mml:math display="block" id="mm23">
+          <mml:semantics>
+            <mml:mtable columnalign="left">
+              <mml:mtr>
+                <mml:mtd>
+                  <mml:msub>
+                    <mml:mi>log</mml:mi>
+                    <mml:mrow>
+                      <mml:mn>10</mml:mn>
+                    </mml:mrow>
+                  </mml:msub>
+                  <mml:mi>I</mml:mi>
+                  <mml:msub>
+                    <mml:mi>C</mml:mi>
+                    <mml:mrow>
+                      <mml:mn>50</mml:mn>
+                    </mml:mrow>
+                  </mml:msub>
+                  <mml:mo>=</mml:mo>
+                  <mml:mn>0.46</mml:mn>
+                  <mml:mi>m</mml:mi>
+                  <mml:mi>i</mml:mi>
+                  <mml:mi>n</mml:mi>
+                  <mml:mi>d</mml:mi>
+                  <mml:mi>s</mml:mi>
+                  <mml:mi>s</mml:mi>
+                  <mml:mi>C</mml:mi>
+                  <mml:mo>&#x2212;</mml:mo>
+                  <mml:mn>0.85</mml:mn>
+                  <mml:mi>m</mml:mi>
+                  <mml:mi>a</mml:mi>
+                  <mml:mi>x</mml:mi>
+                  <mml:mi>H</mml:mi>
+                  <mml:mi>C</mml:mi>
+                  <mml:mi>s</mml:mi>
+                  <mml:mi>a</mml:mi>
+                  <mml:mi>t</mml:mi>
+                  <mml:mi>s</mml:mi>
+                  <mml:mo>+</mml:mo>
+                  <mml:mn>0.88</mml:mn>
+                  <mml:mi>M</mml:mi>
+                  <mml:mn>66</mml:mn>
+                  <mml:mo>&#x2212;</mml:mo>
+                  <mml:mn>0.54</mml:mn>
+                  <mml:mi>P</mml:mi>
+                  <mml:mi>C</mml:mi>
+                  <mml:mn>494</mml:mn>
+                  <mml:mo>&#x2212;</mml:mo>
+                </mml:mtd>
+              </mml:mtr>
+              <mml:mtr>
+                <mml:mtd>
+                  <mml:mo>&#xA0;</mml:mo>
+                  <mml:mn>2.76</mml:mn>
+                  <mml:mi>P</mml:mi>
+                  <mml:mi>C</mml:mi>
+                  <mml:mn>534</mml:mn>
+                  <mml:mo>&#x2212;</mml:mo>
+                  <mml:mn>1.12</mml:mn>
+                  <mml:mi>P</mml:mi>
+                  <mml:mi>C</mml:mi>
+                  <mml:mn>686</mml:mn>
+                  <mml:mo>+</mml:mo>
+                  <mml:mn>2.68</mml:mn>
+                  <mml:mi>K</mml:mi>
+                  <mml:mi>R</mml:mi>
+                  <mml:mn>3577</mml:mn>
+                  <mml:mo>&#x2212;</mml:mo>
+                  <mml:mn>1.44</mml:mn>
+                  <mml:mi>K</mml:mi>
+                  <mml:mi>R</mml:mi>
+                  <mml:mn>4268</mml:mn>
+                  <mml:mo>+</mml:mo>
+                  <mml:mn>4.37</mml:mn>
+                </mml:mtd>
+              </mml:mtr>
+            </mml:mtable>
+          </mml:semantics>
+        </mml:math>
+      </disp-formula>
+      <disp-formula id="FD2-cells-07-00013">
+        <mml:math display="block" id="mm24">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mrow>
+                <mml:msub>
+                  <mml:mi>N</mml:mi>
+                  <mml:mrow>
+                    <mml:mi>t</mml:mi>
+                    <mml:mi>r</mml:mi>
+                    <mml:mi>a</mml:mi>
+                    <mml:mi>i</mml:mi>
+                    <mml:mi>n</mml:mi>
+                  </mml:mrow>
+                </mml:msub>
+                <mml:mo>=</mml:mo>
+                <mml:mn>265</mml:mn>
+                <mml:mo>,</mml:mo>
+				<mml:mtext>&#xA0;</mml:mtext>
+              </mml:mrow>
+              <mml:mrow>
+                <mml:msubsup>
+                  <mml:mi>R</mml:mi>
+                  <mml:mrow>
+                    <mml:mi>t</mml:mi>
+                    <mml:mi>r</mml:mi>
+                    <mml:mi>a</mml:mi>
+                    <mml:mi>i</mml:mi>
+                    <mml:mi>n</mml:mi>
+                  </mml:mrow>
+                  <mml:mn>2</mml:mn>
+                </mml:msubsup>
+                <mml:mo>=</mml:mo>
+                <mml:mn>0.69</mml:mn>
+              </mml:mrow>
+              <mml:mo>,</mml:mo>
+			  <mml:mtext>&#xA0;</mml:mtext>
+              <mml:mrow>
+                <mml:msub>
+                  <mml:mi>S</mml:mi>
+                  <mml:mrow>
+                    <mml:mi>t</mml:mi>
+                    <mml:mi>r</mml:mi>
+                    <mml:mi>a</mml:mi>
+                    <mml:mi>i</mml:mi>
+                    <mml:mi>n</mml:mi>
+                  </mml:mrow>
+                </mml:msub>
+                <mml:mo>=</mml:mo>
+                <mml:mtext>&#xA0;</mml:mtext>
+                <mml:mn>0.80</mml:mn>
+              </mml:mrow>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </disp-formula>
+      <disp-formula id="FD5-cells-07-00013">
+        <mml:math display="block" id="mm27">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mrow>
+                <mml:msubsup>
+                  <mml:mi>R</mml:mi>
+                  <mml:mrow>
+                    <mml:mi>i</mml:mi>
+                    <mml:mi>j</mml:mi>
+                  </mml:mrow>
+                  <mml:mrow>
+                    <mml:mn>2</mml:mn>
+                    <mml:mi>max</mml:mi>
+                  </mml:mrow>
+                </mml:msubsup>
+                <mml:mo>=</mml:mo>
+                <mml:mn>0.14</mml:mn>
+                <mml:mo>,</mml:mo>
+				<mml:mtext>&#xA0;</mml:mtext>
+              </mml:mrow>
+              <mml:mrow>
+                <mml:mi>V</mml:mi>
+                <mml:mi>I</mml:mi>
+                <mml:msup>
+                  <mml:mi>F</mml:mi>
+                  <mml:mrow>
+                    <mml:mi>max</mml:mi>
+                  </mml:mrow>
+                </mml:msup>
+                <mml:mo>=</mml:mo>
+                <mml:mn>1.11</mml:mn>
+              </mml:mrow>
+              <mml:mo>,</mml:mo>
+			  <mml:mtext>&#xA0;</mml:mtext>
+              <mml:mrow>
+                <mml:mi>o</mml:mi>
+                <mml:mn>3</mml:mn>
+                <mml:mo>=</mml:mo>
+                <mml:mn>1</mml:mn>
+              </mml:mrow>
+              <mml:mo>,</mml:mo>
+			  <mml:mtext>&#xA0;</mml:mtext>
+              <mml:mrow>
+                <mml:msubsup>
+                  <mml:mi>R</mml:mi>
+                  <mml:mrow>
+                    <mml:mi>r</mml:mi>
+                    <mml:mi>a</mml:mi>
+                    <mml:mi>n</mml:mi>
+                    <mml:mi>d</mml:mi>
+                  </mml:mrow>
+                  <mml:mn>2</mml:mn>
+                </mml:msubsup>
+                <mml:mo>=</mml:mo>
+                <mml:mn>0.13</mml:mn>
+              </mml:mrow>
+              <mml:mo>,</mml:mo>
+			  <mml:mtext>&#xA0;</mml:mtext>
+              <mml:mrow>
+                <mml:msup>
+                  <mml:mi>S</mml:mi>
+                  <mml:mrow>
+                    <mml:mi>r</mml:mi>
+                    <mml:mi>a</mml:mi>
+                    <mml:mi>n</mml:mi>
+                    <mml:mi>d</mml:mi>
+                  </mml:mrow>
+                </mml:msup>
+                <mml:mo>=</mml:mo>
+                <mml:mn>1.35</mml:mn>
+              </mml:mrow>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </disp-formula>
+      <disp-formula id="FD10-cells-07-00013">
+        <mml:math display="block" id="mm32">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mrow>
+                <mml:msubsup>
+                  <mml:mi>R</mml:mi>
+                  <mml:mrow>
+                    <mml:mi>l</mml:mi>
+                    <mml:mi>o</mml:mi>
+                    <mml:mi>o</mml:mi>
+                  </mml:mrow>
+                  <mml:mn>2</mml:mn>
+                </mml:msubsup>
+                <mml:mo>=</mml:mo>
+                <mml:mn>0.67</mml:mn>
+                <mml:mo>,</mml:mo>
+				<mml:mtext>&#xA0;</mml:mtext>
+              </mml:mrow>
+              <mml:mrow>
+                <mml:msub>
+                  <mml:mi>S</mml:mi>
+                  <mml:mrow>
+                    <mml:mi>l</mml:mi>
+                    <mml:mi>o</mml:mi>
+                    <mml:mi>o</mml:mi>
+                  </mml:mrow>
+                </mml:msub>
+                <mml:mo>=</mml:mo>
+                <mml:mn>0.83</mml:mn>
+              </mml:mrow>
+              <mml:mo>,</mml:mo>
+			  <mml:mtext>&#xA0;</mml:mtext>
+              <mml:mrow>
+                <mml:msubsup>
+                  <mml:mi>R</mml:mi>
+                  <mml:mrow>
+                    <mml:mi>l</mml:mi>
+                    <mml:mn>30</mml:mn>
+                    <mml:mo>%</mml:mo>
+                    <mml:mi>o</mml:mi>
+                  </mml:mrow>
+                  <mml:mn>2</mml:mn>
+                </mml:msubsup>
+                <mml:mo>=</mml:mo>
+                <mml:mn>0.58</mml:mn>
+              </mml:mrow>
+              <mml:mo>,</mml:mo>
+			  <mml:mtext>&#xA0;</mml:mtext>
+              <mml:mrow>
+                <mml:msub>
+                  <mml:mi>S</mml:mi>
+                  <mml:mrow>
+                    <mml:mi>l</mml:mi>
+                    <mml:mn>30</mml:mn>
+                    <mml:mo>%</mml:mo>
+                    <mml:mi>o</mml:mi>
+                  </mml:mrow>
+                </mml:msub>
+                <mml:mo>=</mml:mo>
+                <mml:mn>0.95</mml:mn>
+              </mml:mrow>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </disp-formula>
+      <disp-formula id="FD14-cells-07-00013">
+        <mml:math display="block" id="mm36">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mrow>
+                <mml:msub>
+                  <mml:mi>N</mml:mi>
+                  <mml:mrow>
+                    <mml:mi>v</mml:mi>
+                    <mml:mi>a</mml:mi>
+                    <mml:mi>l</mml:mi>
+                  </mml:mrow>
+                </mml:msub>
+                <mml:mo>=</mml:mo>
+                <mml:mn>133</mml:mn>
+                <mml:mo>,</mml:mo>
+				<mml:mtext>&#xA0;</mml:mtext>
+              </mml:mrow>
+              <mml:mrow>
+                <mml:msubsup>
+                  <mml:mi>R</mml:mi>
+                  <mml:mrow>
+                    <mml:mi>v</mml:mi>
+                    <mml:mi>a</mml:mi>
+                    <mml:mi>l</mml:mi>
+                  </mml:mrow>
+                  <mml:mn>2</mml:mn>
+                </mml:msubsup>
+                <mml:mo>=</mml:mo>
+                <mml:mn>0.75</mml:mn>
+              </mml:mrow>
+              <mml:mo>,</mml:mo>
+			  <mml:mtext>&#xA0;</mml:mtext>
+              <mml:mrow>
+                <mml:msub>
+                  <mml:mi>S</mml:mi>
+                  <mml:mrow>
+                    <mml:mi>v</mml:mi>
+                    <mml:mi>a</mml:mi>
+                    <mml:mi>l</mml:mi>
+                  </mml:mrow>
+                </mml:msub>
+                <mml:mo>=</mml:mo>
+                <mml:mn>0.82</mml:mn>
+              </mml:mrow>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </disp-formula>
+      <disp-formula id="FD17-cells-07-00013">
+        <mml:math display="block" id="mm39">
+          <mml:semantics>
+		  <mml:mrow>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mi>N</mml:mi>
+                <mml:mrow>
+                  <mml:mi>t</mml:mi>
+                  <mml:mi>e</mml:mi>
+                  <mml:mi>s</mml:mi>
+                  <mml:mi>t</mml:mi>
+                </mml:mrow>
+              </mml:msub>
+              <mml:mo>=</mml:mo>
+              <mml:mn>132</mml:mn>
+              <mml:mo>,</mml:mo>
+			  <mml:mtext>&#xA0;</mml:mtext>
+            </mml:mrow>
+            <mml:mrow>
+              <mml:msubsup>
+                <mml:mi>R</mml:mi>
+                <mml:mrow>
+                  <mml:mi>t</mml:mi>
+                  <mml:mi>e</mml:mi>
+                  <mml:mi>s</mml:mi>
+                  <mml:mi>t</mml:mi>
+                </mml:mrow>
+                <mml:mn>2</mml:mn>
+              </mml:msubsup>
+              <mml:mo>=</mml:mo>
+              <mml:mn>0.69</mml:mn>
+            </mml:mrow>
+            <mml:mo>,</mml:mo>
+			<mml:mtext>&#xA0;</mml:mtext>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mi>S</mml:mi>
+                <mml:mrow>
+                  <mml:mi>t</mml:mi>
+                  <mml:mi>e</mml:mi>
+                  <mml:mi>s</mml:mi>
+                  <mml:mi>t</mml:mi>
+                </mml:mrow>
+              </mml:msub>
+              <mml:mo>=</mml:mo>
+              <mml:mn>0.85</mml:mn>
+            </mml:mrow>
+			</mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </disp-formula></p>
+      <p>A plot for the <inline-formula>
+        <mml:math display="block" id="mm42">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mrow>
+                  <mml:mi>log</mml:mi>
+                </mml:mrow>
+                <mml:mrow>
+                  <mml:mn>10</mml:mn>
+                </mml:mrow>
+              </mml:msub>
+              <mml:mi>I</mml:mi>
+              <mml:msub>
+                <mml:mi>C</mml:mi>
+                <mml:mrow>
+                  <mml:mn>50</mml:mn>
+                </mml:mrow>
+              </mml:msub>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> predictions given by Equation (1) as a function of the experimental values is provided in <xref ref-type="fig" rid="cells-07-00013-f002">Figure 2</xref>. The dispersion plot of residuals in <xref ref-type="fig" rid="cells-07-00013-f003">Figure 3</xref> tends to obey a random pattern around the zero line, suggesting that Equation (1) predicts the whole dataset without systematic errors or residual bias. </p>
+      <p>The <inline-formula>
+        <mml:math display="block" id="mm50">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mi>o</mml:mi>
+              <mml:mn>3</mml:mn>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> parameter indicates the number of outlier compounds in the training set having a residual (difference between experimental and predicted activity) greater than 3 times <inline-formula>
+        <mml:math display="block" id="mm51">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mi>S</mml:mi>
+                <mml:mrow>
+                  <mml:mi>t</mml:mi>
+                  <mml:mi>r</mml:mi>
+                  <mml:mi>a</mml:mi>
+                  <mml:mi>i</mml:mi>
+                  <mml:mi>n</mml:mi>
+                </mml:mrow>
+              </mml:msub>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula>. The only outlier in the training set is <bold>171</bold>, 1-{4-[(4-chlorophenyl)methoxy]-3-methoxyphenyl}-<italic>N</italic>-[(pyridin-4-yl)methyl]methanamine. After close inspection of this specific compound, it is easily concluded that the abnormal behavior can be completely attributed to the highly heterogeneous dataset being analyzed, involving molecular weights from 164.2 to 949.97 g mol<sup>&#x2212;1</sup> and bioactivities from 0.8 to 145,000 nM.</p>
+      <p>Our proposed 8-descriptor model approves the internal validation process of loo and l30&#x2030; (500,000 cases) cross-validation procedures through the prediction of 1 or 80 molecules excluded at a time from the training set. According to the specialized literature [<xref ref-type="bibr" rid="B40-cells-07-00013">40</xref>], the cross-validation <inline-formula>
+        <mml:math id="mm52" display="block">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msubsup>
+                <mml:mi>R</mml:mi>
+                <mml:mrow>
+                  <mml:mi>l</mml:mi>
+                  <mml:mi>o</mml:mi>
+                  <mml:mi>o</mml:mi>
+                </mml:mrow>
+                <mml:mn>2</mml:mn>
+              </mml:msubsup>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> and <inline-formula>
+        <mml:math id="mm53" display="block">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msubsup>
+                <mml:mi>R</mml:mi>
+                <mml:mrow>
+                  <mml:mi>l</mml:mi>
+                  <mml:mn>30</mml:mn>
+                  <mml:mo>&#x2030;</mml:mo>
+                </mml:mrow>
+                <mml:mn>2</mml:mn>
+              </mml:msubsup>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> explained variances should be greater than 0.5, although this is a necessary but not sufficient condition for the real predictive power.</p>
+      <p>As a way of demonstrating that the QSAR model is not a result of chance correlation, the experimental <inline-formula>
+        <mml:math display="block" id="mm54">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mrow>
+                  <mml:mi>log</mml:mi>
+                </mml:mrow>
+                <mml:mrow>
+                  <mml:mn>10</mml:mn>
+                </mml:mrow>
+              </mml:msub>
+              <mml:mi>I</mml:mi>
+              <mml:msub>
+                <mml:mi>C</mml:mi>
+                <mml:mrow>
+                  <mml:mn>50</mml:mn>
+                </mml:mrow>
+              </mml:msub>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> activity values were scrambled with Y-randomization [<xref ref-type="bibr" rid="B44-cells-07-00013">44</xref>] (100,000 cases). When <inline-formula>
+        <mml:math display="block" id="mm55">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msup>
+                <mml:mi>S</mml:mi>
+                <mml:mrow>
+                  <mml:mi>r</mml:mi>
+                  <mml:mi>a</mml:mi>
+                  <mml:mi>n</mml:mi>
+                  <mml:mi>d</mml:mi>
+                </mml:mrow>
+              </mml:msup>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> (<italic>S</italic> for Y-randomization) is greater than <inline-formula>
+        <mml:math display="block" id="mm56">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mi>S</mml:mi>
+                <mml:mrow>
+                  <mml:mi>t</mml:mi>
+                  <mml:mi>r</mml:mi>
+                  <mml:mi>a</mml:mi>
+                  <mml:mi>i</mml:mi>
+                  <mml:mi>n</mml:mi>
+                </mml:mrow>
+              </mml:msub>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula>, a valid and useful structure-activity relationship is found, as is the case for Equation (1). </p>
+      <p>The recommended external validation criteria to assure predictive capability [<xref ref-type="bibr" rid="B40-cells-07-00013">40</xref>] are also achieved: <inline-formula>
+        <mml:math display="block" id="mm57">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mn>1</mml:mn>
+              <mml:mo>&#x2212;</mml:mo>
+              <mml:mrow>
+                <mml:mrow>
+                  <mml:msubsup>
+                    <mml:mi>R</mml:mi>
+                    <mml:mn>0</mml:mn>
+                    <mml:mn>2</mml:mn>
+                  </mml:msubsup>
+                </mml:mrow>
+                <mml:mo>/</mml:mo>
+                <mml:mrow>
+                  <mml:msubsup>
+                    <mml:mi>R</mml:mi>
+                    <mml:mrow>
+                      <mml:mi>t</mml:mi>
+                      <mml:mi>e</mml:mi>
+                      <mml:mi>s</mml:mi>
+                      <mml:mi>t</mml:mi>
+                    </mml:mrow>
+                    <mml:mn>2</mml:mn>
+                  </mml:msubsup>
+                </mml:mrow>
+              </mml:mrow>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:mn>1.18</mml:mn>
+              <mml:mo>&#xD7;</mml:mo>
+              <mml:msup>
+                <mml:mrow>
+                  <mml:mn>10</mml:mn>
+                </mml:mrow>
+                <mml:mrow>
+                  <mml:mo>&#x2212;</mml:mo>
+                  <mml:mn>3</mml:mn>
+                </mml:mrow>
+              </mml:msup>
+              <mml:mo stretchy="false">)</mml:mo>
+              <mml:mo>&lt;</mml:mo>
+              <mml:mn>0.1</mml:mn>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> or <inline-formula>
+        <mml:math display="block" id="mm58">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mn>1</mml:mn>
+              <mml:mo>&#x2212;</mml:mo>
+              <mml:mrow>
+                <mml:mrow>
+                  <mml:msubsup>
+                    <mml:mi>R</mml:mi>
+                    <mml:mn>0</mml:mn>
+                    <mml:mrow>
+                      <mml:mo>&#x2032;</mml:mo>
+                      <mml:mn>2</mml:mn>
+                    </mml:mrow>
+                  </mml:msubsup>
+                </mml:mrow>
+                <mml:mo>/</mml:mo>
+                <mml:mrow>
+                  <mml:msubsup>
+                    <mml:mi>R</mml:mi>
+                    <mml:mrow>
+                      <mml:mi>t</mml:mi>
+                      <mml:mi>e</mml:mi>
+                      <mml:mi>s</mml:mi>
+                      <mml:mi>t</mml:mi>
+                    </mml:mrow>
+                    <mml:mn>2</mml:mn>
+                  </mml:msubsup>
+                  <mml:mo stretchy="false">(</mml:mo>
+                  <mml:mn>0.12</mml:mn>
+                  <mml:mo stretchy="false">)</mml:mo>
+                </mml:mrow>
+              </mml:mrow>
+              <mml:mo>&lt;</mml:mo>
+              <mml:mn>0.1</mml:mn>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula>; <inline-formula>
+        <mml:math display="block" id="mm59">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mn>0.85</mml:mn>
+              <mml:mo>&#x2264;</mml:mo>
+              <mml:mi>k</mml:mi>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:mn>0.93</mml:mn>
+              <mml:mo stretchy="false">)</mml:mo>
+              <mml:mo>&#x2264;</mml:mo>
+              <mml:mn>1.15</mml:mn>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> or <inline-formula>
+        <mml:math display="block" id="mm60">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mn>0.85</mml:mn>
+              <mml:mo>&#x2264;</mml:mo>
+              <mml:msup>
+                <mml:mi>k</mml:mi>
+                <mml:mo>&#x2032;</mml:mo>
+              </mml:msup>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:mn>1.00</mml:mn>
+              <mml:mo stretchy="false">)</mml:mo>
+              <mml:mo>&#x2264;</mml:mo>
+              <mml:mn>1.15</mml:mn>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula>; <inline-formula>
+        <mml:math display="block" id="mm61">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msubsup>
+                <mml:mi>R</mml:mi>
+                <mml:mi>m</mml:mi>
+                <mml:mn>2</mml:mn>
+              </mml:msubsup>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:mn>0.67</mml:mn>
+              <mml:mo stretchy="false">)</mml:mo>
+              <mml:mo>&gt;</mml:mo>
+              <mml:mn>0.5</mml:mn>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula>.</p>
+      <p>The <inline-formula>
+        <mml:math display="block" id="mm62">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msubsup>
+                <mml:mi>R</mml:mi>
+                <mml:mrow>
+                  <mml:mi>i</mml:mi>
+                  <mml:mi>j</mml:mi>
+                </mml:mrow>
+                <mml:mrow>
+                  <mml:mi>max</mml:mi>
+                </mml:mrow>
+              </mml:msubsup>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> parameter from Equation (1) is the maximum correlation coefficient between descriptor pairs: <inline-formula>
+        <mml:math display="block" id="mm63">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msubsup>
+                <mml:mi>R</mml:mi>
+                <mml:mrow>
+                  <mml:mi>i</mml:mi>
+                  <mml:mi>j</mml:mi>
+                </mml:mrow>
+                <mml:mrow>
+                  <mml:mn>2</mml:mn>
+                  <mml:mi>max</mml:mi>
+                </mml:mrow>
+              </mml:msubsup>
+              <mml:mo>=</mml:mo>
+              <mml:mn>0.14</mml:mn>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> indicates that there is no serious overlapping structural information. <inline-formula>
+        <mml:math display="block" id="mm64">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mi>V</mml:mi>
+              <mml:mi>I</mml:mi>
+              <mml:msup>
+                <mml:mi>F</mml:mi>
+                <mml:mrow>
+                  <mml:mi>max</mml:mi>
+                </mml:mrow>
+              </mml:msup>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> is the maximum variance inflation factor, a parameter that measures the maximum multicollinearity among descriptors. A <italic>VIF</italic> of 1 for a specific descriptor means that there is no correlation between this descriptor and all the remaining descriptors of the model, and a <italic>VIF</italic> exceeding 10 indicates that multicollinearity is a problem in the dataset [<xref ref-type="bibr" rid="B45-cells-07-00013">45</xref>]. For Equation (1), <inline-formula>
+        <mml:math display="block" id="mm65">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mi>V</mml:mi>
+              <mml:mi>I</mml:mi>
+              <mml:msup>
+                <mml:mi>F</mml:mi>
+                <mml:mrow>
+                  <mml:mi>max</mml:mi>
+                </mml:mrow>
+              </mml:msup>
+              <mml:mo>=</mml:mo>
+              <mml:mn>1.11</mml:mn>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula>. The complete squared correlation matrix and <italic>VIF</italic> values are provided in <xref ref-type="app" rid="app1-cells-07-00013">Table S4</xref>.</p>
+      <p>It is known that a successful QSAR model is established only when it surpasses the validation process, in other words, by testing its ability to predict the experimental bioactivity of compounds that are not considered during the model calibration [<xref ref-type="bibr" rid="B46-cells-07-00013">46</xref>,<xref ref-type="bibr" rid="B47-cells-07-00013">47</xref>]. The QSAR of Equation (1) has an acceptable predictive capability for the external test set of 132 &#x201C;never seen&#x201D; experimental <inline-formula>
+        <mml:math display="block" id="mm66">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mrow>
+                  <mml:mi>log</mml:mi>
+                </mml:mrow>
+                <mml:mrow>
+                  <mml:mn>10</mml:mn>
+                </mml:mrow>
+              </mml:msub>
+              <mml:mi>I</mml:mi>
+              <mml:msub>
+                <mml:mi>C</mml:mi>
+                <mml:mrow>
+                  <mml:mn>50</mml:mn>
+                </mml:mrow>
+              </mml:msub>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> values according to <inline-formula>
+        <mml:math display="block" id="mm67">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msubsup>
+                <mml:mi>R</mml:mi>
+                <mml:mrow>
+                  <mml:mi>t</mml:mi>
+                  <mml:mi>e</mml:mi>
+                  <mml:mi>s</mml:mi>
+                  <mml:mi>t</mml:mi>
+                </mml:mrow>
+                <mml:mn>2</mml:mn>
+              </mml:msubsup>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> and <inline-formula>
+        <mml:math display="block" id="mm68">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mi>S</mml:mi>
+                <mml:mrow>
+                  <mml:mi>t</mml:mi>
+                  <mml:mi>e</mml:mi>
+                  <mml:mi>s</mml:mi>
+                  <mml:mi>t</mml:mi>
+                </mml:mrow>
+              </mml:msub>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> parameters and <xref ref-type="fig" rid="cells-07-00013-f002">Figure 2</xref> and <xref ref-type="fig" rid="cells-07-00013-f003">Figure 3</xref>. This QSAR can thus be applied to predict new inhibitors with unknown experimental <inline-formula>
+        <mml:math display="block" id="mm69">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mi>I</mml:mi>
+              <mml:msub>
+                <mml:mi>C</mml:mi>
+                <mml:mrow>
+                  <mml:mn>50</mml:mn>
+                </mml:mrow>
+              </mml:msub>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula>.</p>
+      <p>The eight conformation-independent structural indices of Equation (1) have quite a straightforward structural interpretation:<list list-type="bullet">
+        <list-item>
+          <p>Two electrotopological state atom-type descriptors: <italic>mindssC</italic>, the minimum atom-type E-state: =C&lt;; and <italic>maxHCsats</italic>, the maximum atom-type H E-state: H bonded to B, Si, P, Ge, As, Se, Sn, or Pb.</p>
+        </list-item>
+        <list-item>
+          <p>A MACCS fingerprint descriptor: <italic>M</italic>66, the number of CC(C)(C)A fragments, where A is any valid periodic table element symbol.</p>
+        </list-item>
+        <list-item>
+          <p>Three PubChem fingerprint descriptors: <italic>PC</italic>494, the presence of O=C-C:N fragment, where &#x2018;:&#x2019; denotes bond aromaticity; <italic>PC</italic>534, the presence of S-C:C-O fragment; and <italic>PC</italic>686, the presence of O=C-C-C-C-O fragment.</p>
+        </list-item>
+        <list-item>
+          <p>Two Klekota&#x2013;Roth fingerprint descriptors: <italic>KR</italic>3577, the presence of SMARTS substructure Cc1cccc(C)c1NC=O; and <italic>KR</italic>4268, the presence of SMARTS substructure Nc1ccccc1O.</p>
+        </list-item>
+      </list></p>
+      <p>The numerical values for these descriptors are provided in <xref ref-type="app" rid="app1-cells-07-00013">Table S5</xref>: all of them have positive numerical values with the exception of <italic>mindssC</italic>, which has either positive or negative values. The sign of the regression coefficient in the linear model indicates when the descriptor contribution increases or decreases the predicted <inline-formula>
+        <mml:math display="block" id="mm70">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mrow>
+                  <mml:mi>log</mml:mi>
+                </mml:mrow>
+                <mml:mrow>
+                  <mml:mn>10</mml:mn>
+                </mml:mrow>
+              </mml:msub>
+              <mml:mi>I</mml:mi>
+              <mml:msub>
+                <mml:mi>C</mml:mi>
+                <mml:mrow>
+                  <mml:mn>50</mml:mn>
+                </mml:mrow>
+              </mml:msub>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> values. Therefore, it is possible to propose the following useful QSAR guide for the chemical synthesis of new PLK1 inhibitors. Molecular structures of inhibitors simultaneously having higher positive values of <inline-formula>
+        <mml:math display="block" id="mm71">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mi>m</mml:mi>
+              <mml:mi>a</mml:mi>
+              <mml:mi>x</mml:mi>
+              <mml:mi>H</mml:mi>
+              <mml:mi>C</mml:mi>
+              <mml:mi>s</mml:mi>
+              <mml:mi>a</mml:mi>
+              <mml:mi>t</mml:mi>
+              <mml:mi>s</mml:mi>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula>, <inline-formula>
+        <mml:math display="block" id="mm72">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mi>P</mml:mi>
+              <mml:mi>C</mml:mi>
+              <mml:mn>494</mml:mn>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula>, <inline-formula>
+        <mml:math display="block" id="mm73">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mi>P</mml:mi>
+              <mml:mi>C</mml:mi>
+              <mml:mn>534</mml:mn>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula>, <inline-formula>
+        <mml:math display="block" id="mm74">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mi>P</mml:mi>
+              <mml:mi>C</mml:mi>
+              <mml:mn>686</mml:mn>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula>, and <inline-formula>
+        <mml:math display="block" id="mm75">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mi>K</mml:mi>
+              <mml:mi>R</mml:mi>
+              <mml:mn>4268</mml:mn>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> and lower values for <inline-formula>
+        <mml:math display="block" id="mm76">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mi>m</mml:mi>
+              <mml:mi>i</mml:mi>
+              <mml:mi>n</mml:mi>
+              <mml:mi>d</mml:mi>
+              <mml:mi>s</mml:mi>
+              <mml:mi>s</mml:mi>
+              <mml:mi>C</mml:mi>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula>, <inline-formula>
+        <mml:math display="block" id="mm77">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mi>M</mml:mi>
+              <mml:mn>66</mml:mn>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula>, and <inline-formula>
+        <mml:math display="block" id="mm78">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mi>K</mml:mi>
+              <mml:mi>R</mml:mi>
+              <mml:mn>3577</mml:mn>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> would exhibit lower predicted <inline-formula>
+        <mml:math display="block" id="mm79">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mrow>
+                  <mml:mi>log</mml:mi>
+                </mml:mrow>
+                <mml:mrow>
+                  <mml:mn>10</mml:mn>
+                </mml:mrow>
+              </mml:msub>
+              <mml:mi>I</mml:mi>
+              <mml:msub>
+                <mml:mi>C</mml:mi>
+                <mml:mrow>
+                  <mml:mn>50</mml:mn>
+                </mml:mrow>
+              </mml:msub>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> values, being predicted as more active PLK1 inhibitors.</p>
+      <p>In order to apply the proposed QSAR guide, the molecular structures to be predicted have to fall within the model&#x2019;s applicability domain (AD). Within the leverage approach [<xref ref-type="bibr" rid="B43-cells-07-00013">43</xref>], a compound with high leverage (<inline-formula>
+        <mml:math display="block" id="mm80">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mi>h</mml:mi>
+                <mml:mi>i</mml:mi>
+              </mml:msub>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula>) would reinforce the model if the compound is in the <italic>train</italic> or <italic>val</italic> (good leverage) calibration sets; but such a compound in the test set could have unreliable predicted data, the result of substantial extrapolation of the model (bad leverage) [<xref ref-type="bibr" rid="B41-cells-07-00013">41</xref>]. Equation (1) reveals that most of the test set compounds have <inline-formula>
+        <mml:math display="block" id="mm81">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mi>h</mml:mi>
+                <mml:mi>i</mml:mi>
+              </mml:msub>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> values falling under the <inline-formula>
+        <mml:math display="block" id="mm82">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msup>
+                <mml:mi>h</mml:mi>
+                <mml:mo>*</mml:mo>
+              </mml:msup>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> limit (0.1019) with the exception of five test set compounds: <bold>495</bold>, <bold>508</bold>, <bold>509</bold>, <bold>511</bold>, and <bold>516</bold>. The Williams plot (standardized residuals as a function of the <inline-formula>
+        <mml:math display="block" id="mm83">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mi>h</mml:mi>
+                <mml:mi>i</mml:mi>
+              </mml:msub>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> values) is provided in <xref ref-type="fig" rid="cells-07-00013-f004">Figure 4</xref>. </p>
+      <p>This result obtained with the leverage approach for the test set approximately coincides with the one obtained by using the standardization approach, as the two conditions <inline-formula>
+        <mml:math display="block" id="mm84">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msubsup>
+                <mml:mi>s</mml:mi>
+                <mml:mrow>
+                  <mml:mi>i</mml:mi>
+                  <mml:mi>k</mml:mi>
+                </mml:mrow>
+                <mml:mrow>
+                  <mml:mi>max</mml:mi>
+                </mml:mrow>
+              </mml:msubsup>
+              <mml:mo>&#x2264;</mml:mo>
+              <mml:mn>3</mml:mn>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> or <inline-formula>
+        <mml:math display="block" id="mm85">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msubsup>
+                <mml:mi>s</mml:mi>
+                <mml:mi>i</mml:mi>
+                <mml:mrow>
+                  <mml:mi>n</mml:mi>
+                  <mml:mi>e</mml:mi>
+                  <mml:mi>w</mml:mi>
+                </mml:mrow>
+              </mml:msubsup>
+              <mml:mo>&#x2264;</mml:mo>
+              <mml:mn>3</mml:mn>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> are followed by all the test set compounds with the exception of seven compounds: the five previous test compounds and two more compounds lying near the <inline-formula>
+        <mml:math display="block" id="mm86">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msup>
+                <mml:mi>h</mml:mi>
+                <mml:mo>*</mml:mo>
+              </mml:msup>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> limit: <bold>453</bold> and <bold>457</bold>. Thus, the predicted <inline-formula>
+        <mml:math display="block" id="mm790">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mrow>
+                  <mml:mi>log</mml:mi>
+                </mml:mrow>
+                <mml:mrow>
+                  <mml:mn>10</mml:mn>
+                </mml:mrow>
+              </mml:msub>
+              <mml:mi>I</mml:mi>
+              <mml:msub>
+                <mml:mi>C</mml:mi>
+                <mml:mrow>
+                  <mml:mn>50</mml:mn>
+                </mml:mrow>
+              </mml:msub>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> values for most of the test set compounds can be considered as reliable. </p>
+      <p>Finally, the obtained regression model in Equation (1) can be converted into a classification model by classifying compounds with experimental <italic>IC</italic><sub>50</sub> &#x2264; 1000 nM as highly active inhibitors and experimental <italic>IC</italic><sub>50</sub> &gt; 1000 nM as poorly active inhibitors. Then, the Cooper statistics [<xref ref-type="bibr" rid="B48-cells-07-00013">48</xref>] related to accuracy (<italic>A</italic>%), sensitivity (<italic>SE</italic>), and specificity (<italic>SP</italic>) and the Matthews correlation coefficient (<italic>MCC</italic>) can be calculated. The classification results for Equation (1) in the test set are acceptable as <italic>A</italic>% = 83%, <italic>SE</italic> = 0.73, <italic>SP</italic> = 0.95, <italic>MCC</italic> = 0.69.</p>
+      <p>A previous study developed by Kong and Yan [<xref ref-type="bibr" rid="B20-cells-07-00013">20</xref>] employed the current ChEMBL database of PLK1 inhibitors for establishing various in silico classification models. The 16 single classifier models and one consensus Kohonen&#x2019;s self-organizing map (SOM) model were applied to a dataset of 601 noncongeneric PLK1 inhibitors. For these 16 single classifier models, four machine learning methods were used: support vector machine (SVM), naive Bayes (NB), C4.5 decision tree (C4.5 DT), and random forest (RF), with <italic>MCC</italic> ranging from 0.609 to 0.864 and <italic>A</italic>% ranging from 78.7% to 93.1% for the test set. Then, a consensus SOM model was built based on four single classifier models to obtain a more reliable and robust model, outperforming all the single classifier models with <italic>MCC</italic> = 0.87 and <italic>A</italic>% = 93.6% on the test set.</p>
+      <p>The models reported in [<xref ref-type="bibr" rid="B20-cells-07-00013">20</xref>] achieved acceptable results. However, the linear QSAR model of Equation (1) represents an improved alternative model having the following characteristics: <list list-type="roman-lower">
+        <list-item>
+		<label>i.</label>
+          <p>Our proposed model performs both regression and classification.</p>
+        </list-item>
+        <list-item>
+		<label>ii.</label>
+          <p>Dataset partitioning: three subsets are considered, such as <italic>train</italic>, <italic>val</italic>, and test instead of only two (<italic>train</italic> and <italic>test</italic>) in [<xref ref-type="bibr" rid="B20-cells-07-00013">20</xref>]. In this way, it is more convenient for analyzing the predictive performance of the model. </p>
+        </list-item>
+        <list-item>
+		<label>iii.</label>
+          <p>Model&#x2019;s size: a fewer number of molecular descriptors are involved in the final selected model&#x2014;i.e., 8 instead of 10&#x2013;15. Therefore, the parsimony&#xB4;s principle is accomplished (Ockham&#x2019;s razor) [<xref ref-type="bibr" rid="B49-cells-07-00013">49</xref>] by following the common practice of keeping the model&#x2019;s dimension as small as possible.</p>
+        </list-item>
+        <list-item>
+		<label>iv.</label>
+          <p>No energy or geometry optimization is performed on the inhibitor chemical structures. The conformation-independent QSAR approach considers only constitutional and topological representations for deriving the molecular descriptors.</p>
+        </list-item>
+        <list-item>
+		<label>v.</label>
+          <p>A simpler modeling methodology based on MLR analysis is applied in the present study.</p>
+        </list-item>
+      </list></p>
+    </sec>
+    <sec id="sec4-cells-07-00013" sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>Polo-like kinase-1 is an attractive target for anticancer therapeutic development so the prediction of its inhibitors has been of great interest during the last years. The linear regression QSAR model established in this work on a structurally diverse set of 530 PLK1 inhibitors has an acceptable predictive capability in the external test set and is based on eight non-conformational molecular descriptors. </p>
+      <p>For chemical structures falling within the applicability domain of this model, a QSAR guide for the chemical synthesis of new PLK1 inhibitors is provided as follows: molecular structures of inhibitors simultaneously having higher positive values of <italic>maxHCsats</italic>, <italic>PC</italic>494, <italic>PC</italic>534, <italic>PC</italic>686, and <italic>KR</italic>4268 and lower values for <italic>mindssC</italic>, <italic>M</italic>66, and <italic>KR</italic>3577 would exhibit lower predicted log<sub>10</sub><italic>IC</italic><sub>50</sub> values, being predicted as more active PLK1 inhibitors.</p>
+      <p>The consideration of the constitutional and topological aspects of the molecular structures in the conformation-independent QSAR approach achieves acceptable results. New investigations on other physicochemical and biological properties of interest will be published soon elsewhere.</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-cells-07-00013">
+        <title>Supplementary Materials</title>
+        <p>The following are available online at <uri>http://www.mdpi.com/2073-4409/7/2/13/s1</uri>.</p>
+		<supplementary-material id="cells-07-00013-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00013-s001.pdf"></supplementary-material>
+      </app>
+    </app-group>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The author is a researcher from the National Scientific and Technical Research Council (CONICET) of Argentina and is grateful for the financial support of PIP11220130100311 project and for the electronic library facilities of the Ministry of Science, Technology and Productive Innovation.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The author declares no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-07-00013">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lowery</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Lim</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Yaffe</surname>
+              <given-names>M.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure and function of Polo-like kinases</article-title>
+          <source>Oncogene</source>
+          <year>2005</year>
+          <volume>24</volume>
+          <fpage>248</fpage>
+          <lpage>259</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.onc.1208280</pub-id>
+          <pub-id pub-id-type="pmid">15640840</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-cells-07-00013">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McInnes</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wyatt</surname>
+              <given-names>M.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>PLK1 as an oncology target: Current status and future potential</article-title>
+          <source>Drug Discov. Today</source>
+          <year>2011</year>
+          <volume>16</volume>
+          <fpage>619</fpage>
+          <lpage>625</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.drudis.2011.05.002</pub-id>
+          <pub-id pub-id-type="pmid">21601650</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-cells-07-00013">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shakil</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Baig</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Tabrez</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Danish Rizvi</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Zaidi</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Ashraf</surname>
+              <given-names>G.M.</given-names>
+            </name>
+            <name>
+              <surname>Ansari</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Parwaz Khan</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Al-Qahtani</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Abuzenadah</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Molecular and enzoinformatics perspectives of targeting Polo-like kinase 1 in cancer therapy</article-title>
+          <source>Semin. Cancer Biol.</source>
+          <year>2017</year>
+          <pub-id pub-id-type="doi">10.1016/j.semcancer.2017.11.004</pub-id>
+          <pub-id pub-id-type="pmid">29122685</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-cells-07-00013">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>K.S.</given-names>
+            </name>
+            <name>
+              <surname>Burke</surname>
+              <given-names>T.R.</given-names>
+              <suffix>Jr.</suffix>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Bang</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Recent Advances and New Strategies in Targeting PLK1 for Anticancer Therapy</article-title>
+          <source>Trends Pharmacol. Sci.</source>
+          <year>2015</year>
+          <volume>36</volume>
+          <fpage>858</fpage>
+          <lpage>877</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tips.2015.08.013</pub-id>
+          <pub-id pub-id-type="pmid">26478211</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-cells-07-00013">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Strebhardt</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Becker</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Matthess</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thoughts on the current assessment of Polo-like kinase inhibitor drug discovery</article-title>
+          <source>Expert Opin. Drug Discov.</source>
+          <year>2015</year>
+          <volume>10</volume>
+          <fpage>1</fpage>
+          <lpage>8</lpage>
+          <pub-id pub-id-type="doi">10.1517/17460441.2015.962510</pub-id>
+          <pub-id pub-id-type="pmid">25263688</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-cells-07-00013">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>P.Y.</given-names>
+            </name>
+            <name>
+              <surname>Gray</surname>
+              <given-names>N.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Targeting cancer with small molecule kinase inhibitors</article-title>
+          <source>Nat. Rev. Cancer</source>
+          <year>2009</year>
+          <volume>9</volume>
+          <fpage>28</fpage>
+          <lpage>39</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrc2559</pub-id>
+          <pub-id pub-id-type="pmid">19104514</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-cells-07-00013">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chopra</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Sethi</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Dastidar</surname>
+              <given-names>S.G.</given-names>
+            </name>
+            <name>
+              <surname>Ray</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Polo-like kinase inhibitors: An emerging opportunity for cancer therapeutics</article-title>
+          <source>Expert Opin. Investig. Drugs</source>
+          <year>2010</year>
+          <volume>19</volume>
+          <fpage>27</fpage>
+          <lpage>43</lpage>
+          <pub-id pub-id-type="doi">10.1517/13543780903483191</pub-id>
+          <pub-id pub-id-type="pmid">20001553</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-cells-07-00013">
+        <label>8.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hansch</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Leo</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <source>Exploring QSAR. Fundamentals and Applications in Chemistry and Biology</source>
+          <publisher-name>American Chemical Society</publisher-name>
+          <publisher-loc>Washington, DC, USA</publisher-loc>
+          <year>1995</year>
+        </element-citation>
+      </ref>
+      <ref id="B9-cells-07-00013">
+        <label>9.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Esposito</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Hopfinger</surname>
+              <given-names>A.J.</given-names>
+            </name>
+          </person-group>
+          <source>Multi-Dimensional QSAR: Methods and Applications for Drug Discovery and Polymer Science</source>
+          <publisher-name>CRC Press</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2012</year>
+        </element-citation>
+      </ref>
+      <ref id="B10-cells-07-00013">
+        <label>10.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Putz</surname>
+              <given-names>M.V.</given-names>
+            </name>
+          </person-group>
+          <source>QSAR and SPECTRAL-SAR in Computational Ecotoxicology</source>
+          <publisher-name>CRC Press</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2012</year>
+        </element-citation>
+      </ref>
+      <ref id="B11-cells-07-00013">
+        <label>11.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Benfenati</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <source>Theory, Guidance and Applications on QSAR and REACH</source>
+          <publisher-name>Orchestra</publisher-name>
+          <publisher-loc>Milan, Italy</publisher-loc>
+          <year>2012</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://ebook.insilico.eu/insilico-ebook-orchestra-benfenati-ed1_rev-June2013.pdf" ext-link-type="uri">http://ebook.insilico.eu/insilico-ebook-orchestra-benfenati-ed1_rev-June2013.pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2017-11-24">(accessed on 24 November 2017)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B12-cells-07-00013">
+        <label>12.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roy</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <source>Advances in QSAR Modeling. Applications in Pharmaceutical, Chemical, Food, Agricultural and Environmental Sciences</source>
+          <publisher-name>Springer International Publishing</publisher-name>
+          <publisher-loc>Berlin, Germany</publisher-loc>
+          <year>2017</year>
+        </element-citation>
+      </ref>
+      <ref id="B13-cells-07-00013">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Katritzky</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Goordeva</surname>
+              <given-names>E.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Traditional Topological Indices vs. Electronic, Geometrical, and Combined Molecular Descriptors in QSAR/QSPR Research</article-title>
+          <source>J. Chem. Inf. Comput. Sci.</source>
+          <year>1993</year>
+          <volume>33</volume>
+          <fpage>835</fpage>
+          <lpage>857</lpage>
+          <pub-id pub-id-type="doi">10.1021/ci00016a005</pub-id>
+          <pub-id pub-id-type="pmid">8113335</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-cells-07-00013">
+        <label>14.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Diudea</surname>
+              <given-names>M.V.E.</given-names>
+            </name>
+          </person-group>
+          <source>QSPR/QSAR Studies by Molecular Descriptors</source>
+          <publisher-name>Nova Science Publishers</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2001</year>
+        </element-citation>
+      </ref>
+      <ref id="B15-cells-07-00013">
+        <label>15.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Todeschini</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Consonni</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <source>Molecular Descriptors for Chemoinformatics (Methods and Principles in Medicinal Chemistry)</source>
+          <publisher-name>Wiley-VCH</publisher-name>
+          <publisher-loc>Weinheim, Germany</publisher-loc>
+          <year>2009</year>
+        </element-citation>
+      </ref>
+      <ref id="B16-cells-07-00013">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Masand</surname>
+              <given-names>V.H.</given-names>
+            </name>
+            <name>
+              <surname>Rastija</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>PyDescriptor: A new PyMOL plugin for calculating thousands of easily understandable molecular descriptors</article-title>
+          <source>Chemom. Intell. Lab. Syst.</source>
+          <year>2017</year>
+          <volume>169</volume>
+          <fpage>12</fpage>
+          <lpage>18</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.chemolab.2017.08.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-cells-07-00013">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cao</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>QSAR, molecular docking studies of thiophene and imidazopyridine derivatives as polo-like kinase 1 inhibitors</article-title>
+          <source>J. Mol. Struct.</source>
+          <year>2012</year>
+          <volume>1020</volume>
+          <fpage>167</fpage>
+          <lpage>176</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molstruc.2012.03.033</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-cells-07-00013">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Comelli</surname>
+              <given-names>N.C.</given-names>
+            </name>
+            <name>
+              <surname>Duchowicz</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>Castro</surname>
+              <given-names>E.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>QSAR models for thiophene and imidazopyridine derivatives inhibitors of the Polo-Like Kinase 1</article-title>
+          <source>Eur. J. Pharm. Sci.</source>
+          <year>2014</year>
+          <volume>62</volume>
+          <fpage>171</fpage>
+          <lpage>179</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ejps.2014.05.029</pub-id>
+          <pub-id pub-id-type="pmid">24909730</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-cells-07-00013">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chekkara</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kandakatla</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Gorla</surname>
+              <given-names>V.R.</given-names>
+            </name>
+            <name>
+              <surname>Tenkayala</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Susithra</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Theoretical studies on benzimidazole and imidazo [1, 2-a] pyridine derivatives as Polo-like kinase 1 (Plk1) inhibitors: Pharmacophore modeling, atom-based 3D-QSAR and molecular docking approach</article-title>
+          <source>J. Saudi Chem. Soc.</source>
+          <year>2017</year>
+          <volume>21</volume>
+          <fpage>S311</fpage>
+          <lpage>S321</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jscs.2014.03.007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-cells-07-00013">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kong</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>QSAR models for predicting the bioactivity of Polo-Like Kinase 1 inhibitors</article-title>
+          <source>Chemom. Intell. Lab. Syst.</source>
+          <year>2017</year>
+          <volume>167</volume>
+          <fpage>214</fpage>
+          <lpage>225</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.chemolab.2017.06.011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-cells-07-00013">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Duchowicz</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>Comelli</surname>
+              <given-names>N.C.</given-names>
+            </name>
+            <name>
+              <surname>Ortiz</surname>
+              <given-names>E.V.</given-names>
+            </name>
+            <name>
+              <surname>Castro</surname>
+              <given-names>E.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>QSAR study for carcinogenicity in a large set of organic compounds</article-title>
+          <source>Curr. Drug Saf.</source>
+          <year>2012</year>
+          <volume>7</volume>
+          <fpage>282</fpage>
+          <lpage>288</lpage>
+          <pub-id pub-id-type="doi">10.2174/157488612804096623</pub-id>
+          <pub-id pub-id-type="pmid">23062240</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-cells-07-00013">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Duchowicz</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>Bennardi</surname>
+              <given-names>D.O.</given-names>
+            </name>
+            <name>
+              <surname>Baselo</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Bonifazi</surname>
+              <given-names>E.L.</given-names>
+            </name>
+            <name>
+              <surname>Rios-Luci</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Padr&#xF3;n</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Burton</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Misico</surname>
+              <given-names>R.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>QSAR on Antiproliferative Naphthoquinones Based on a Conformation-Independent Approach</article-title>
+          <source>Eur. J. Med. Chem.</source>
+          <year>2014</year>
+          <volume>77</volume>
+          <fpage>176</fpage>
+          <lpage>184</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ejmech.2014.02.057</pub-id>
+          <pub-id pub-id-type="pmid">24631897</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-cells-07-00013">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ortiz</surname>
+              <given-names>E.V.</given-names>
+            </name>
+            <name>
+              <surname>Bennardi</surname>
+              <given-names>D.O.</given-names>
+            </name>
+            <name>
+              <surname>Bacelo</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Fioressi</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Duchowicz</surname>
+              <given-names>P.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The conformation-independent QSPR approach for predicting the oxidation rate constant of water micropollutants</article-title>
+          <source>Environ. Sci. Pollut. Res.</source>
+          <year>2017</year>
+          <pub-id pub-id-type="doi">10.1007/s11356-017-0315-5</pub-id>
+          <pub-id pub-id-type="pmid">28975527</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-cells-07-00013">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aranda</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Bacelo</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Leguizam&#xF3;n Aparicio</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Ocsachoque</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Castro</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Duchowicz</surname>
+              <given-names>P.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Predicting the Bioconcentration Factor through a Conformation-Independent QSPR Study</article-title>
+          <source>SAR&amp;QSAR Environ. Res.</source>
+          <year>2017</year>
+          <volume>28</volume>
+          <fpage>749</fpage>
+          <lpage>763</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B25-cells-07-00013">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kothe</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kohls</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Low</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Coli</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Jacques</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>T.L.</given-names>
+            </name>
+            <name>
+              <surname>Lewis</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Loh</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Nonomiya</surname>
+              <given-names>J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Structure of the catalytic domain of human polo-like kinase 1</article-title>
+          <source>Biochemistry</source>
+          <year>2007</year>
+          <volume>46</volume>
+          <fpage>5960</fpage>
+          <lpage>5971</lpage>
+          <pub-id pub-id-type="doi">10.1021/bi602474j</pub-id>
+          <pub-id pub-id-type="pmid">17461553</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-cells-07-00013">
+        <label>26.</label>
+        <element-citation publication-type="book">
+		<person-group person-group-type="editor">
+            <name>
+              <surname>Kubinyi</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <source>Comparative Molecular Field Analysis (CoMFA)</source>
+          <publisher-name>Wiley-VCH Verlag GmbH</publisher-name>
+          <publisher-loc>Weinheim, Germany</publisher-loc>
+          <year>2003</year>
+        </element-citation>
+      </ref>
+      <ref id="B27-cells-07-00013">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gaulton</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bellis</surname>
+              <given-names>L.J.</given-names>
+            </name>
+            <name>
+              <surname>Bento</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>Chambers</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Davies</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hersey</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Light</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>McGlinchey</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Michalovich</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Al-Lazikani</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>ChEMBL: A large-scale bioactivity database for drug discovery</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2012</year>
+          <volume>40</volume>
+          <fpage>D1100</fpage>
+          <lpage>D1107</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkr777</pub-id>
+          <pub-id pub-id-type="pmid">21948594</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-cells-07-00013">
+        <label>28.</label>
+        <element-citation publication-type="web">
+          <article-title>ChEMBL</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ebi.ac.uk/chembl/" ext-link-type="uri">https://www.ebi.ac.uk/chembl/</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2017-11-24">(accessed on 24 November 2017)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B29-cells-07-00013">
+        <label>29.</label>
+        <element-citation publication-type="web">
+          <article-title>Open Babel for Windows</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://openbabel.org/wiki/Category:Installation" ext-link-type="uri">http://openbabel.org/wiki/Category:Installation</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2017-11-24">(accessed on 24 November 2017)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B30-cells-07-00013">
+        <label>30.</label>
+        <element-citation publication-type="web">
+          <article-title>ACD/ChemSketch</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="www.acdlabs.com" ext-link-type="uri">www.acdlabs.com</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2017-11-24">(accessed on 24 November 2017)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B31-cells-07-00013">
+        <label>31.</label>
+        <element-citation publication-type="web">
+          <article-title>Pharmaceutical Data Exploration Laboratory (PaDEL)</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.yapcwsoft.com/" ext-link-type="uri">http://www.yapcwsoft.com/</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2017-11-24">(accessed on 24 November 2017)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B32-cells-07-00013">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yap</surname>
+              <given-names>C.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>PaDEL-Descriptor: An open source software to calculate molecular descriptors and fingerprints</article-title>
+          <source>J. Comput. Chem.</source>
+          <year>2011</year>
+          <volume>32</volume>
+          <fpage>1466</fpage>
+          <lpage>1474</lpage>
+          <pub-id pub-id-type="doi">10.1002/jcc.21707</pub-id>
+          <pub-id pub-id-type="pmid">21425294</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-cells-07-00013">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hong</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Ge</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Qian</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Su</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Perkins</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Tong</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mold2, molecular descriptors from 2D structures for chemoinformatics and toxicoinformatics</article-title>
+          <source>J. Chem. Inf. Model.</source>
+          <year>2008</year>
+          <volume>48</volume>
+          <fpage>1337</fpage>
+          <lpage>1344</lpage>
+          <pub-id pub-id-type="doi">10.1021/ci800038f</pub-id>
+          <pub-id pub-id-type="pmid">18564836</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-cells-07-00013">
+        <label>34.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Valdes-Martini</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Garc&#xED;a Jacas</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Marrero-Ponce</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Silveira Vaz&#x2018;d Almeida</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Morrel</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <source>QuBiLS-MAS: Free Software for Molecular Descriptors Calculator from Quadratic, Bilinear and Linear Maps Based on Graph&#x2013;Theoretic Electronic-Density Matrices and Atomic Weightings</source>
+		  <comment>Version 1.0; CAMD-BIR Unit, CENDA Number of Register: 2373-2012</comment>
+          <publisher-name>Central University of Las Villas</publisher-name>
+          <publisher-loc>Villa Clara, Cuba</publisher-loc>
+          <year>2012</year>
+        </element-citation>
+      </ref>
+      <ref id="B35-cells-07-00013">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Duchowicz</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>Castro</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Fern&#xE1;ndez</surname>
+              <given-names>F.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Alternative Algorithm for the Search of an Optimal Set of Descriptors in QSAR-QSPR Studies</article-title>
+          <source>MATCH Commun. Math. Comput. Chem.</source>
+          <year>2006</year>
+          <volume>55</volume>
+          <fpage>179</fpage>
+          <lpage>192</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B36-cells-07-00013">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morales</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Duchowicz</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>Cabrera P&#xE9;rez</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Castro</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Cordeiro</surname>
+              <given-names>M.N.D.S.</given-names>
+            </name>
+            <name>
+              <surname>Gonz&#xE1;lez</surname>
+              <given-names>M.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Application of the replacement method as a novel variable selection strategy in QSAR. 1. Carcinogenic potential</article-title>
+          <source>Chemom. Intell. Lab. Syst.</source>
+          <year>2006</year>
+          <volume>81</volume>
+          <fpage>180</fpage>
+          <lpage>187</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.chemolab.2005.12.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-cells-07-00013">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rojas</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Duchowicz</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>Tripaldi</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Pis Diez</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Quantitative structure-property relationship analysis for the retention index of fragrance-like compounds on a polar stationary phase</article-title>
+          <source>J. Chromatogr. A</source>
+          <year>2015</year>
+          <volume>1422</volume>
+          <fpage>277</fpage>
+          <lpage>288</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.chroma.2015.10.028</pub-id>
+          <pub-id pub-id-type="pmid">26521096</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-cells-07-00013">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Duchowicz</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>Fioressi</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Castro</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Wr&#xF3;bel</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ibezim</surname>
+              <given-names>N.E.</given-names>
+            </name>
+            <name>
+              <surname>Bacelo</surname>
+              <given-names>D.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Conformation-independent QSAR study on human epidermal growth factor receptor-2 (HER2) inhibitors</article-title>
+          <source>Chem. Sel.</source>
+          <year>2017</year>
+          <volume>2</volume>
+          <fpage>3725</fpage>
+          <lpage>3731</lpage>
+          <pub-id pub-id-type="doi">10.1002/slct.201700436</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-cells-07-00013">
+        <label>39.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaufman</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Rousseeuw</surname>
+              <given-names>P.J.</given-names>
+            </name>
+          </person-group>
+          <source>Finding Groups in Data: An Introduction to Cluster Analysis</source>
+          <publisher-name>Wiley</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2005</year>
+        </element-citation>
+      </ref>
+      <ref id="B40-cells-07-00013">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Golbraikh</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Tropsha</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Beware of q2!</article-title>
+          <source>J. Mol. Graph. Model.</source>
+          <year>2002</year>
+          <volume>20</volume>
+          <fpage>269</fpage>
+          <lpage>276</lpage>
+          <pub-id pub-id-type="doi">10.1016/S1093-3263(01)00123-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-cells-07-00013">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gramatica</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Principles of QSAR models validation: Internal and external</article-title>
+          <source>QSAR Comb. Sci.</source>
+          <year>2007</year>
+          <volume>26</volume>
+          <fpage>694</fpage>
+          <lpage>701</lpage>
+          <pub-id pub-id-type="doi">10.1002/qsar.200610151</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-cells-07-00013">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roy</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kar</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ambure</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>On a simple approach for determining applicability domain of QSAR models</article-title>
+          <source>Chemom. Intell. Lab. Syst.</source>
+          <year>2015</year>
+          <volume>145</volume>
+          <fpage>22</fpage>
+          <lpage>29</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.chemolab.2015.04.013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-cells-07-00013">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eriksson</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Jaworska</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Worth</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>Cronin</surname>
+              <given-names>M.T.</given-names>
+            </name>
+            <name>
+              <surname>McDowell</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Gramatica</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Methods for Reliability and Uncertainty Assessment and for Applicability Evaluations of Classification- and Regression-Based QSARs</article-title>
+          <source>Environ. Health Perspect.</source>
+          <year>2003</year>
+          <volume>111</volume>
+          <fpage>1361</fpage>
+          <lpage>1375</lpage>
+          <pub-id pub-id-type="doi">10.1289/ehp.5758</pub-id>
+          <pub-id pub-id-type="pmid">12896860</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-cells-07-00013">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>R&#xFC;cker</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>R&#xFC;cker</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Meringer</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Y-Randomization and its variants in QSPR/QSAR</article-title>
+          <source>J. Chem. Inf. Model.</source>
+          <year>2007</year>
+          <volume>47</volume>
+          <fpage>2345</fpage>
+          <lpage>2357</lpage>
+          <pub-id pub-id-type="doi">10.1021/ci700157b</pub-id>
+          <pub-id pub-id-type="pmid">17880194</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-cells-07-00013">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roy</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Roy</surname>
+              <given-names>P.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparative chemometric modeling of cytochrome 3A4 inhibitory activity of structurally diverse compounds using stepwise MLR, FAMLR, PLS, GFA, G/PLS and ANN techniques</article-title>
+          <source>Eur. J. Med. Chem.</source>
+          <year>2009</year>
+          <volume>44</volume>
+          <fpage>2913</fpage>
+          <lpage>2922</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ejmech.2008.12.004</pub-id>
+          <pub-id pub-id-type="pmid">19128860</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-cells-07-00013">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gramatica</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Sangion</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Historical Excursus on the Statistical Validation Parameters for QSAR Models: A Clarification Concerning Metrics and Terminology</article-title>
+          <source>J. Chem. Inf. Model.</source>
+          <year>2016</year>
+          <volume>56</volume>
+          <fpage>1127</fpage>
+          <lpage>1131</lpage>
+          <pub-id pub-id-type="doi">10.1021/acs.jcim.6b00088</pub-id>
+          <pub-id pub-id-type="pmid">27218604</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-cells-07-00013">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roy</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Das</surname>
+              <given-names>R.N.</given-names>
+            </name>
+            <name>
+              <surname>Ambure</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Aher</surname>
+              <given-names>R.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Be aware of error measures. Further studies on validation of predictive QSAR models</article-title>
+          <source>Chemom. Intell. Lab. Syst.</source>
+          <year>2016</year>
+          <volume>152</volume>
+          <fpage>18</fpage>
+          <lpage>33</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.chemolab.2016.01.008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-cells-07-00013">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cooper</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Saracci</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Cole</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Describing the validity of carcinogen screening tests</article-title>
+          <source>Br. J. Cancer</source>
+          <year>1979</year>
+          <volume>39</volume>
+          <fpage>87</fpage>
+          <lpage>89</lpage>
+          <pub-id pub-id-type="doi">10.1038/bjc.1979.10</pub-id>
+          <pub-id pub-id-type="pmid">758931</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-cells-07-00013">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hoffmann</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Minkin</surname>
+              <given-names>V.I.</given-names>
+            </name>
+            <name>
+              <surname>Carpenter</surname>
+              <given-names>B.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ockham&#x2019;s Razor and Chemistry</article-title>
+          <source>Bull. Soc. Chim. Fr.</source>
+          <year>1996</year>
+          <volume>133</volume>
+          <fpage>117</fpage>
+          <lpage>130</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Table</title>
+      <fig id="cells-07-00013-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Some polo-like kinase-1 (PLK1) inhibitors involved in current clinical trials [<xref ref-type="bibr" rid="B5-cells-07-00013">5</xref>].</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00013-g001.tif"/>
+      </fig>
+      <fig id="cells-07-00013-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Predicted and experimental <inline-formula>
+            <mml:math display="block" id="mm49">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:msub>
+                    <mml:mrow>
+                      <mml:mi>log</mml:mi>
+                    </mml:mrow>
+                    <mml:mrow>
+                      <mml:mn>10</mml:mn>
+                    </mml:mrow>
+                  </mml:msub>
+                  <mml:mi>I</mml:mi>
+                  <mml:msub>
+                    <mml:mi>C</mml:mi>
+                    <mml:mrow>
+                      <mml:mn>50</mml:mn>
+                    </mml:mrow>
+                  </mml:msub>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula> values according to the quantitative structure-activity relationship (QSAR) of Equation (1).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00013-g002.tif"/>
+      </fig>
+      <fig id="cells-07-00013-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Dispersion plot of residuals for Equation (1).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00013-g003.tif"/>
+      </fig>
+      <fig id="cells-07-00013-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Williams plot for Equation (1).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00013-g004.tif"/>
+      </fig>
+      <table-wrap id="cells-07-00013-t001" position="float">
+        <object-id pub-id-type="pii">cells-07-00013-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Molecular descriptors involved in the best linear regression quantitative structure-activity relationship (QSAR) models for polo-like kinase-1 (PLK1) inhibitors. The selected model appears in bold.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>d</italic></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Descriptors</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><inline-formula>
+                  <mml:math display="block" id="mm43">
+                    <mml:semantics>
+                      <mml:mstyle mathvariant="bold">
+                        <mml:mrow>
+                          <mml:msubsup>
+                            <mml:mi mathvariant="bold-italic">R</mml:mi>
+                            <mml:mrow>
+                              <mml:mi mathvariant="bold-italic">t</mml:mi>
+                              <mml:mi mathvariant="bold-italic">r</mml:mi>
+                              <mml:mi mathvariant="bold-italic">a</mml:mi>
+                              <mml:mi mathvariant="bold-italic">i</mml:mi>
+                              <mml:mi mathvariant="bold-italic">n</mml:mi>
+                            </mml:mrow>
+                            <mml:mn>2</mml:mn>
+                          </mml:msubsup>
+                        </mml:mrow>
+                      </mml:mstyle>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><inline-formula>
+                  <mml:math display="block" id="mm44">
+                    <mml:semantics>
+                      <mml:mstyle mathvariant="bold">
+                        <mml:mrow>
+                          <mml:msub>
+                            <mml:mi mathvariant="bold-italic">S</mml:mi>
+                            <mml:mrow>
+                              <mml:mi mathvariant="bold-italic">t</mml:mi>
+                              <mml:mi mathvariant="bold-italic">r</mml:mi>
+                              <mml:mi mathvariant="bold-italic">a</mml:mi>
+                              <mml:mi mathvariant="bold-italic">i</mml:mi>
+                              <mml:mi mathvariant="bold-italic">n</mml:mi>
+                            </mml:mrow>
+                          </mml:msub>
+                        </mml:mrow>
+                      </mml:mstyle>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><inline-formula>
+                  <mml:math display="block" id="mm45">
+                    <mml:semantics>
+                      <mml:mstyle mathvariant="bold">
+                        <mml:mrow>
+                          <mml:msubsup>
+                            <mml:mi mathvariant="bold-italic">R</mml:mi>
+                            <mml:mrow>
+                              <mml:mi mathvariant="bold-italic">v</mml:mi>
+                              <mml:mi mathvariant="bold-italic">a</mml:mi>
+                              <mml:mi mathvariant="bold-italic">l</mml:mi>
+                            </mml:mrow>
+                            <mml:mn>2</mml:mn>
+                          </mml:msubsup>
+                        </mml:mrow>
+                      </mml:mstyle>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><inline-formula>
+                  <mml:math display="block" id="mm46">
+                    <mml:semantics>
+                      <mml:mstyle mathvariant="bold">
+                        <mml:mrow>
+                          <mml:msub>
+                            <mml:mi mathvariant="bold-italic">S</mml:mi>
+                            <mml:mrow>
+                              <mml:mi mathvariant="bold-italic">v</mml:mi>
+                              <mml:mi mathvariant="bold-italic">a</mml:mi>
+                              <mml:mi mathvariant="bold-italic">l</mml:mi>
+                            </mml:mrow>
+                          </mml:msub>
+                        </mml:mrow>
+                      </mml:mstyle>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><inline-formula>
+                  <mml:math display="block" id="mm47">
+                    <mml:semantics>
+                      <mml:mstyle mathvariant="bold">
+                        <mml:mrow>
+                          <mml:msubsup>
+                            <mml:mi mathvariant="bold-italic">R</mml:mi>
+                            <mml:mrow>
+                              <mml:mi mathvariant="bold-italic">t</mml:mi>
+                              <mml:mi mathvariant="bold-italic">e</mml:mi>
+                              <mml:mi mathvariant="bold-italic">s</mml:mi>
+                              <mml:mi mathvariant="bold-italic">t</mml:mi>
+                            </mml:mrow>
+                            <mml:mn>2</mml:mn>
+                          </mml:msubsup>
+                        </mml:mrow>
+                      </mml:mstyle>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><inline-formula>
+                  <mml:math display="block" id="mm48">
+                    <mml:semantics>
+                      <mml:mstyle mathvariant="bold">
+                        <mml:mrow>
+                          <mml:msub>
+                            <mml:mi mathvariant="bold-italic">S</mml:mi>
+                            <mml:mrow>
+                              <mml:mi mathvariant="bold-italic">t</mml:mi>
+                              <mml:mi mathvariant="bold-italic">e</mml:mi>
+                              <mml:mi mathvariant="bold-italic">s</mml:mi>
+                              <mml:mi mathvariant="bold-italic">t</mml:mi>
+                            </mml:mrow>
+                          </mml:msub>
+                        </mml:mrow>
+                      </mml:mstyle>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">Sub99</td>
+              <td align="center" valign="middle">0.31</td>
+              <td align="center" valign="middle">1.18</td>
+              <td align="center" valign="middle">0.39</td>
+              <td align="center" valign="middle">1.25</td>
+              <td align="center" valign="middle">0.28</td>
+              <td align="center" valign="middle">1.31</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2</td>
+              <td align="center" valign="middle">PC534; AP170</td>
+              <td align="center" valign="middle">0.49</td>
+              <td align="center" valign="middle">1.02</td>
+              <td align="center" valign="middle">0.56</td>
+              <td align="center" valign="middle">1.08</td>
+              <td align="center" valign="middle">0.52</td>
+              <td align="center" valign="middle">1.06</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">PC534; KR4261; AP170</td>
+              <td align="center" valign="middle">0.52</td>
+              <td align="center" valign="middle">0.99</td>
+              <td align="center" valign="middle">0.68</td>
+              <td align="center" valign="middle">0.95</td>
+              <td align="center" valign="middle">0.57</td>
+              <td align="center" valign="middle">0.98</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">4</td>
+              <td align="center" valign="middle">nHBAcc3; PC534; KR4261; AP170</td>
+              <td align="center" valign="middle">0.57</td>
+              <td align="center" valign="middle">0.94</td>
+              <td align="center" valign="middle">0.71</td>
+              <td align="center" valign="middle">0.90</td>
+              <td align="center" valign="middle">0.62</td>
+              <td align="center" valign="middle">0.93</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">PC534; KR3577; KR4268; AP170; KRC3897</td>
+              <td align="center" valign="middle">0.61</td>
+              <td align="center" valign="middle">0.90</td>
+              <td align="center" valign="middle">0.71</td>
+              <td align="center" valign="middle">0.89</td>
+              <td align="center" valign="middle">0.71</td>
+              <td align="center" valign="middle">0.83</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">6</td>
+              <td align="center" valign="middle">maxHCsats; M66; PC534; KR3577; KR4268; KRC3897</td>
+              <td align="center" valign="middle">0.64</td>
+              <td align="center" valign="middle">0.87</td>
+              <td align="center" valign="middle">0.74</td>
+              <td align="center" valign="middle">0.85</td>
+              <td align="center" valign="middle">0.69</td>
+              <td align="center" valign="middle">0.84</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">7</td>
+              <td align="center" valign="middle">maxHCsats; M66; PC534; PC686; KR3577; KR4268; AP159</td>
+              <td align="center" valign="middle">0.66</td>
+              <td align="center" valign="middle">0.84</td>
+              <td align="center" valign="middle">0.74</td>
+              <td align="center" valign="middle">0.84</td>
+              <td align="center" valign="middle">0.66</td>
+              <td align="center" valign="middle">0.89</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><bold>8</bold></td>
+              <td align="center" valign="middle"><bold>mindssC; maxHCsats; M66; PC494; PC534; PC686; KR3577; KR4268</bold></td>
+              <td align="center" valign="middle"><bold>0.69</bold></td>
+              <td align="center" valign="middle"><bold>0.80</bold></td>
+              <td align="center" valign="middle"><bold>0.75</bold></td>
+              <td align="center" valign="middle"><bold>0.82</bold></td>
+              <td align="center" valign="middle"><bold>0.69</bold></td>
+              <td align="center" valign="middle"><bold>0.85</bold></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">mindssC; maxHCsats; M66; PC494; PC534; PC686; KR3577; KR4268; APC510</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.70</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.79</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.75</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.82</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.70</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.85</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

@@ -1,0 +1,1983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xml:lang="en" article-type="research-article" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells1020035</article-id>
+      <article-id pub-id-type="publisher-id">cells-01-00035</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Cytomegalovirus (CMV)-Specific Perforin and Granzyme B ELISPOT Assays Detect Reactivation of CMV Infection in Inflammatory Bowel Disease </article-title>
+      </title-group>      
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Nowacki</surname>
+            <given-names>Tobias M.</given-names>
+          </name>
+          <xref rid="af1-cells-01-00035" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bettenworth</surname>
+            <given-names>Dominik</given-names>
+          </name>
+          <xref rid="af1-cells-01-00035" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ross</surname>
+            <given-names>Matthias</given-names>
+          </name>
+          <xref rid="af1-cells-01-00035" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Heidemann</surname>
+            <given-names>Jan</given-names>
+          </name>
+          <xref rid="af1-cells-01-00035" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lehmann</surname>
+            <given-names>Paul V.</given-names>
+          </name>
+          <xref rid="af2-cells-01-00035" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>L&#xFC;gering</surname>
+            <given-names>Andreas</given-names>
+          </name>
+          <xref rid="af3-cells-01-00035" ref-type="aff">3</xref>
+          <xref rid="c1-cells-01-00035" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+	  <aff id="af1-cells-01-00035"><label>1 </label>Department of Medicine B, University of M&#xFC;nster, M&#xFC;nster 48149, Germany; E-Mails: <email>tobias.nowacki@ukmuenster.de</email> (T.M.N.); <email>dominik.bettenworth@ukmuenster.de</email> (D.B.); <email>matthias.ross@ukmuenster.de</email> (M.R.); <email>jan.heidemann@ukmuenster.de</email> (J.H.)</aff>
+      <aff id="af2-cells-01-00035"><label>2 </label>Cellular Technology Limited, Shaker Heights, OH 44122-5350, USA; E-Mail: <email>paul.lehmann@immunospot.com</email></aff>
+      <aff id="af3-cells-01-00035"><label>3 </label>Medical Care Center Portal 10, M&#xFC;nster 48155, Germany</aff>
+      <author-notes>
+        <corresp id="c1-cells-01-00035"><label>*</label> Author  to whom correspondence should be addressed; E-Mail: <email>luegering@gmail.com</email>; Tel.: +49-251-919190.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>23</day>
+        <month>04</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>06</month>
+		<year>2012</year>
+      </pub-date>
+      <volume>1</volume>
+      <issue>2</issue>
+      <fpage>35</fpage>
+      <lpage>50</lpage>
+      <history>
+        <date date-type="received">
+          <day>22</day>
+          <month>03</month>
+          <year>2012</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>12</day>
+          <month>04</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>16</day>
+          <month>04</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#x000A9; 2012 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2012</copyright-year>
+        <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/">
+          <p>This article is an open-access article distributed under the terms and conditions of the Creative Commons Attribution license (http://creativecommons.org/licenses/by/3.0/).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The role of cytomegalovirus (CMV) infection in the pathogenesis and exacerbation of Inflammatory Bowel Disease (IBD) has been unresolved. Typically, the CMV genome remains dormant in infected cells, but a breakdown of immune surveillance can lead to re-activation of viral replication in the gut mucosa, which is not necessarily associated with viremia or changes in antibody titers. We hypothesized that the detection of CMV-specific CD8 effector T cells should permit the distinction between dormant and active CMV infection. As CD8 effector T cells, unlike memory CD8 T cells, have perforin (PFN) and granzyme B (GzB) preformed in their cytoplasmic granules, we employed single cell resolution ELISPOT assays to measure the CMV antigen-triggered release of these molecules by CD8 T cells isolated from subjects with IBD, and age-matched healthy controls. The frequencies of CMV-specific (GzB) and PFN-producing CD8 T cells were increased in IBD patients compared to healthy controls. Furthermore, the increased CMV reactivity was associated with active IBD disease and with longer disease duration. Notably, PCR on serum frequently failed to detect CMV DNA during flares. The data show that during active IBD there is a flare of CD8 T cell activity against CMV in a substantial proportion of IBD patients, suggesting CMV reactivation that serum PCR does not detect. While it remains open whether CMV reactivation is a cause or consequence of IBD, our data suggest that monitoring CMV antigen-specific effector CD8 T cells with GzB and PFN ELISPOT analysis can provide novel insights into the role of CMV infection in IBD. Additionally, our data have implications for the fields of transplantation, HIV, cancer, and autoimmune diseases, in all of which patient care critically depends on sensitive and reliable detection of a reactivation of CMV infection. </p>
+      </abstract>
+      <kwd-group>
+        <kwd>cytomegalovirus infection</kwd>
+        <kwd>CMV</kwd>
+        <kwd>ELISPOT</kwd>
+        <kwd>immunomonitoring</kwd>
+        <kwd>inflammatory bowel disease</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+  <sec><title>Abbreviations</title>
+  <def-list><def-item><term id="G1">CMV</term><def><p>cytomegalovirus</p></def></def-item>
+  <def-item><term id="G2">GzB</term><def><p>granzyme B</p></def></def-item>
+  <def-item><term id="G3">PFN</term><def><p>perforin</p></def></def-item>
+  <def-item><term id="G4">IBD</term><def><p>inflammatory bowel disease</p></def></def-item>
+  </def-list>
+  </sec>   
+    <sec sec-type="intro">
+      <title>1. Introduction</title>
+      <p>The etiology of Crohn&#x2019;s disease and ulcerative colitis remains unknown. Various reports suggest that viral infections, CMV in particular, are associated with the onset and aggravation of IBD [<xref ref-type="bibr" rid="B1-cells-01-00035">1</xref>,<xref ref-type="bibr" rid="B2-cells-01-00035">2</xref>,<xref ref-type="bibr" rid="B3-cells-01-00035">3</xref>,<xref ref-type="bibr" rid="B4-cells-01-00035">4</xref>]. It is unclear whether these infections occur as cause or consequence of IBD, or as a complication of its treatment; in addition, the flare of the infections in itself represents a complication for disease management. The prevalence of CMV infection in IBD patients has been estimated to range from 21% to 34% in patients suffering from severe ulcerative colitis and from 33% to 36% in patients with steroid refractory ulcerative colitis [<xref ref-type="bibr" rid="B3-cells-01-00035">3</xref>,<xref ref-type="bibr" rid="B5-cells-01-00035">5</xref>,<xref ref-type="bibr" rid="B6-cells-01-00035">6</xref>,<xref ref-type="bibr" rid="B7-cells-01-00035">7</xref>]. </p>
+      <p>CMV, like all related herpes viruses, typically remains latent within the body over long periods of time, but can give rise to renewed viral replication also leading to a flare of the anti-CMV T cell response. Viral replication is primarily controlled by CD4 and CD8 T cells. Presently, diagnostic algorithms allowing for a reliable distinction between latent and active infection are missing. In the case of IBD, reactivation or <italic>de novo</italic> infection can worsen colitis and cause steroid refractory disease whereas in other situations evidence of a viral infection might be of little pathogenic relevance [<xref ref-type="bibr" rid="B4-cells-01-00035">4</xref>,<xref ref-type="bibr" rid="B8-cells-01-00035">8</xref>,<xref ref-type="bibr" rid="B9-cells-01-00035">9</xref>]. The challenge to distinguish between latent and active infection is further complicated by the fact that most tissues in the body can be infected whereby immune surveillance and viral replication in the different organs follow fundamentally different rules. Moreover, a multitude of techniques have been proposed to monitor CMV infections, among which are endoscopy, histology, serology, viral culture, antigen testing and DNA testing [<xref ref-type="bibr" rid="B10-cells-01-00035">10</xref>,<xref ref-type="bibr" rid="B11-cells-01-00035">11</xref>,<xref ref-type="bibr" rid="B12-cells-01-00035">12</xref>]. Yet, none seems sufficient enough to reflect CMV activity in general, and in IBD in particular. For example, the detection of the CMV genome in blood or intestinal tissue was associated with a short duration of IBD but not with the severity of the disease, its activity at colonoscopy or the development of pancolitis [<xref ref-type="bibr" rid="B13-cells-01-00035">13</xref>]. </p>
+      <p>Immune-mediated therapies for IBD are primarily immunosuppressive or immunomodulatory in nature. However, immunosuppressive or immune modulating drugs render patients susceptible to the reactivation of latent viral infections such as CMV [<xref ref-type="bibr" rid="B14-cells-01-00035">14</xref>]. Without the ability to reliably monitor the reactivation of the CMV infection, clinicians cannot identify patients at risk to develop complications of such, and cannot provide rational treatment.</p>
+      <p>Recently, GzB and PFN ELISPOT assays have been introduced that allow for the identification of CD8 effector T cells that had been actively involved in immune surveillance <italic>in vivo</italic> [<xref ref-type="bibr" rid="B15-cells-01-00035">15</xref>,<xref ref-type="bibr" rid="B16-cells-01-00035">16</xref>]. CD8 T cells play a crucial role in the control of viral infections [<xref ref-type="bibr" rid="B17-cells-01-00035">17</xref>,<xref ref-type="bibr" rid="B18-cells-01-00035">18</xref>,<xref ref-type="bibr" rid="B19-cells-01-00035">19</xref>]. Before the first encounter of &#x201C;their&#x201D; antigen, CD8 T cells are na&#xEF;ve, occur in low clonal sizes, do not express PFN and GzB, and are not capable of killing [<xref ref-type="bibr" rid="B20-cells-01-00035">20</xref>]. Infection or vaccination triggers the specific na&#xEF;ve CD8 T cells to engage in an immune response: these CD8 T cells undergo clonal expansion, start synthesizing and storing GzB and PFN, and acquire the ability to kill [<xref ref-type="bibr" rid="B21-cells-01-00035">21</xref>]. They can also secrete IFN-&#x3B3;, TNF, and other effector molecules. Such recently activated CD8 T cells are called effector cells. CD8 effector T cells are short lived. As soon as the virus is cleared, or if a virus persists, as soon as viral replication stops, they become quiescent memory cells that do not express PFN and GzB anymore, and temporarily lose their ability to kill. Upon renewed antigen encounter, the memory cells are capable of secreting cytokines such as IFN-&#x3B3;; however it takes about 3 days for them to replenish their granules with PFN and GzB and to reacquire the ability to kill. In this reactivated state they are referred to as effector memory cells [<xref ref-type="bibr" rid="B22-cells-01-00035">22</xref>,<xref ref-type="bibr" rid="B23-cells-01-00035">23</xref>,<xref ref-type="bibr" rid="B24-cells-01-00035">24</xref>]. CD8 effector and effector memory T cells kill target cells utilizing PFN and GzB: the effector cells release these molecules towards the target cell [<xref ref-type="bibr" rid="B25-cells-01-00035">25</xref>,<xref ref-type="bibr" rid="B26-cells-01-00035">26</xref>], PFN punches holes into the cell membrane through which GzB penetrates to induce apoptosis via activation of caspase pathways [<xref ref-type="bibr" rid="B27-cells-01-00035">27</xref>,<xref ref-type="bibr" rid="B28-cells-01-00035">28</xref>,<xref ref-type="bibr" rid="B29-cells-01-00035">29</xref>]. CD8 T cells can also kill utilizing Fas&#x2013;FasL interactions [<xref ref-type="bibr" rid="B30-cells-01-00035">30</xref>,<xref ref-type="bibr" rid="B31-cells-01-00035">31</xref>]. In the absence of continued antigen stimulation (in the case of CMV, in the absence of active viral protein synthesis), also CD8 effector memory T cells become quiescent, acquire a resting phenotype, and within about 30 days lose PFN and GzB. They continue to be able to secrete IFN-&#x3B3;, however. Such resting CD8 cells are called central memory T cells [<xref ref-type="bibr" rid="B32-cells-01-00035">32</xref>]. </p>
+      <p>Therefore, the ability to instantaneously engage into PFN and GzB secretion is a characteristic of CD8 effector and effector memory T cells that have had antigen exposure <italic>in vivo</italic> less than 30 days ago. In contrast, CD8 memory T cells that encountered antigen in the distant past are not capable of instantaneous PFN and GzB secretion, but can re-acquire it within 3 days [<xref ref-type="bibr" rid="B22-cells-01-00035">22</xref>]. Therefore, PFN and GzB ELISPOT assays of 24 h duration detect only antigen-specific CD8 effector/effector memory T cells permitting the identification of antigens that are being actively targeted by CD8 T cells <italic>in vivo</italic> [<xref ref-type="bibr" rid="B15-cells-01-00035">15</xref>,<xref ref-type="bibr" rid="B16-cells-01-00035">16</xref>]. In this study, we tested the hypothesis that CMV is actively recognized in IBD by CD8 T cells. </p>
+    </sec>
+    <sec sec-type="results">
+      <title>2. Results</title>
+      <sec sec-type="subjects">
+        <title>2.1. Increased Frequencies of Cytomegalovirus CMV-Reactive T Cells Producing IFN-&#x3B3;, Granzyme B (GzB), and Perforin (PFN) in Inflammatory Bowel Disease (IBD) Patients</title>
+        <p>We tested in freshly isolated peripheral blood mononuclear cells (PBMC) the frequencies of CMV antigen-specific CD8 T cells that qualify as effector/effector memory cells by virtue of their ability to secrete GzB and PFN, as only CD8 T cells that had been recently activated <italic>in vivo</italic> secrete these molecules when challenged <italic>in vitro</italic> in an ELISPOT assay of 24 h duration. PBMC were isolated from 32 IBD patients and 15 healthy controls. The cells were plated at 200,000 cells per well, and challenged with a CMV peptide pool that contained 5 immunodominant peptides of the virus. An ELISPOT assay of 24 h duration was performed to measure numbers of cells that engage in peptide-induced production of IFN-&#x3B3;, GzB and PFN. In previous studies we [<xref ref-type="bibr" rid="B15-cells-01-00035">15</xref>,<xref ref-type="bibr" rid="B16-cells-01-00035">16</xref>] and others [<xref ref-type="bibr" rid="B33-cells-01-00035">33</xref>] established that these CMV peptides activate CD8 cells, and that the peptide-induced IFN-&#x3B3;, GzB, and PFN are CD8 cell derived. The results are summarized in <xref ref-type="fig" rid="cells-01-00035-f001">Figure 1</xref>. A positive release of GzB (&gt;10 SFU &#xB1; SD) and/or PFN (&gt;20 SFU &#xB1; SD) was detected in 12 of 32 (37.5%) of IBD patients, whereas none of the control samples showed a significant release of GzB or PFN after stimulation (p &lt; 0.05). The frequency of GzB and PFN producing CMV peptide-specific cells reached up to 90 and 100 with means 12 and 18, respectively, within the 200,000 PBMC tested. In the healthy controls, in contrast, the maximal numbers of GzB- and PFN- producing CMV-specific T cells was less than 20 and 40, with means 3 and 9 respectively, within the 200,000 PBMC tested. Also, the frequencies of CMV peptide-specific IFN-&#x3B3; producing cells were higher in the IBD patients, reaching a maximum at 320 per 200,000 PBMC, and a mean of 50, relative to the controls (maximal frequency 210, and a mean of 23 per 200,000 PBMC). CMV-reactive T cells were observed in patients suffering from ulcerative colitis (n = 7) as well as Crohn&#x2019;s disease (n = 5). A proportional distribution was found between male and female patients (not shown).</p>
+        </sec>
+      <sec sec-type="subjects">
+        <title>2.2. Increased Per Cell IFN-&#x3B3; Productivity of CMV-Reactive T Cells in IBD Patients</title>
+        <p>In addition to the frequency, the mean IFN-&#x3B3; spot size was also significantly higher in the IBD patients who tested positive for GzB and PFN secretion as compared to healthy controls (13.12 &#xB1; 0.45 sqmm <italic>vs</italic>. 7.11 &#xB1; 1.13 sqmm, p &lt; 0.05) (<xref ref-type="fig" rid="cells-01-00035-f002">Figure 2</xref>). IFN-&#x3B3; is secreted by both resting memory T cells and recently-activated T cells. Increased per cell IFN-&#x3B3; productivity that is reflected in ELISPOTs of increased size, is, like PFN and GzB secretion, a characteristic of CD8 T cells that had been recently activated <italic>in vivo</italic> [<xref ref-type="bibr" rid="B34-cells-01-00035">34</xref>]. In contrast to IFN-&#x3B3;, GzB and PFN are not produced by resting CD8 T cells, and activated CD8 T cells produce these analytes for a couple of weeks after activation. Consistent with this notion, we have found GzB and PFN producing CMV-specific CD8 cells in a subset of IBD patients, but not in healthy controls. Unlike for IFN-&#x3B3;, therefore, recall antigen-induced GzB and PFN spots sized cannot be compared. Therefore, four independent parameters of CD8 T cell immunity suggest a recent anti-CMV immune activation in IBD patients: namely increased clonal sizes, secretion of GzB, of PFN, and increased per cell IFN-&#x3B3; productivity. </p>
+        </sec>
+      <sec>
+        <title>2.3. CMV-Specific T Cell Activity <italic>vs</italic>. the Clinical Activity of IBD</title>
+        <p>While the number of IBD subjects studied was not high enough to obtain definitive results regarding how T cell reactivity to CMV reflects on the clinical course of IBD, initial trends have become apparent. For the 32 IBD subjects studied, we compared patients with a positive GzB/PFN response and non-responders with regard to disease activity indices, as well as C-reactive protein serum levels, steroid medication and the presence of disease flares (<xref ref-type="fig" rid="cells-01-00035-f003">Figure 3</xref>). Only 1 of 12 IBD patients that displayed strong signs of recent T cell activation against CMV was in clinical remission (HBI &#x2264; 4 or CAI &#x2264; 3) compared to 12 of 20 patients in the group that showed low level of T cell activation to CMV (p &lt; 0.01) (<xref ref-type="fig" rid="cells-01-00035-f003">Figure 3</xref>A). An acute flare-up of disease had occurred in 10 of 12 (83%) patients with signs of recent T cell activation to CMV <italic>vs</italic>. in 11 of 20 (55%) IBD patients who displayed only resting memory T cell activity to CMV. In both cases, our definition was that the flare-up needed to occur within the last 60 days prior to the T cell testing (<xref ref-type="fig" rid="cells-01-00035-f003">Figure 3</xref>B). At the time of visiting, patients suffering from Crohn&#x2019;s disease as well as ulcerative colitis both exhibited an increased disease activity score when GzB and PFN reactive for CMV peptides compared to non-reactive patients (Harvey Bradshaw index 6.4 &#xB1; 3.78 <italic>vs</italic>. 4.1 &#xB1; 3.45; Colitis activity index 7.6 &#xB1; 3.13 <italic>vs</italic>. 5.9 &#xB1; 5.7) (<xref ref-type="fig" rid="cells-01-00035-f003">Figure 3</xref>C&#x2013;D). In addition, 58% of the patients with a positive CRP level (CRP &gt; 1.0 mg/dl) showed evidence of recent T cell activation, while only 35% of the non-responsive patients had CRP levels exceeding 1.0 mg/dL. (<xref ref-type="fig" rid="cells-01-00035-f003">Figure 3</xref>E). Also, the proportion of patients requiring a daily steroid treatment of &#x2265;10 mg prednisone for longer than 4 weeks prior to analysis for CMV reactivity was higher in CMV reactive patients (42% <italic>vs</italic>. 25%) (<xref ref-type="fig" rid="cells-01-00035-f003">Figure 3</xref>F). Because the IBD patients were under variable therapies, receiving different immunomodulators (azathioprine, mercaptopurine, methotrexate) as well as anti-TNF agents, we did not have sufficient subjects in our study to analyze the impact of the respective therapy on the T cell reactivity to CMV. Laboratory data such as leukocyte- and thrombocyte count, GPT, and creatinine were not different between the GzB/PFN responsive and the non-responsive IBD patients. </p>
+        <fig id="cells-01-00035-f001" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p>Detection of Cytomegalovirus (CMV)-reactive effector T cells in Inflammatory Bowel Disease (IBD) patients and healthy controls. Peripheral blood mononuclear cells (PBMC) from 32 patients with IBD (ulcerative colitis (UC) or Crohn&#x2019;s disease (CD)) and from 15 healthy control donors (hc) were plated at 200,000 cells per well and cultured with a CMV peptide pool containing 5 immunodominant peptides of CMV for 24 h, and the peptide-induced production of IFN-&#x3B3; (panel A), GzB (panel B) and perforin PFN (panel C) was measured in duplicate wells in an ELISPOT assays specific for the respective analyte. Each column represents the test result for a single donor with the mean spot count per well shown (&#xB1;SD). The applied cutoff is indicated as a dotted line in panel B and C. Representative images are shown for each analyte.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00035-g001.tif"/>
+        </fig>
+		<fig id="cells-01-00035-f002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>IFN- &#x3B3; spot size measurements. IFN- &#x3B3; spot size &#x2013; a reflection of the amount of cytokine released by each cell &#x2013; was measured comparing IBD patients, who tested positive for <italic>ex vivo</italic> GzB and PFN secretion and healthy controls. Representative images are shown. Statistical significance was evaluated by Student&#x2019;s t-test. </p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00035-g002.tif"/>
+        </fig>
+		<fig id="cells-01-00035-f003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>Detection of CMV reactive T effector cells in relation to disease activity. Each panel specifies a clinical criterion for ulcerative colitis (UC) and/or Crohn`s disease (CD). The percentages of GzB/PFN responsive <italic>vs</italic>. non responsive subjects with IBD (represented by the solid and open bars, respectively) are shown for each criterion. Also, disease activity indices are depicted for patients with CD and UC. Reactive IBD subjects were defined as individuals in whose PBMC the CMV peptide pool elicited spot counts of &#x2265;10 GzB-SFU &#xB1; SD, &#x2265;20 PFN-SFU &#xB1; SD (background subtracted) respectively. The Mann&#x2013;Whitney rank sum test was used to evaluate statistical significance of differences in disease activity indices (panel C and D). For all other clinical criteria Fisher&#x2019;s exact test was used.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00035-g003.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>2.4. Detection of T Cell Activation by CMV <italic>vs</italic>. Viral Replication Measured by PCR</title>
+        <p>None of the IBD patients showed a positive result for CMV DNA at the time tested for ELISPOT CMV-reactivity (<xref ref-type="table" rid="cells-01-00035-t001">Table 1</xref>). Three patients had a known history of a positive CMV-PCR multiple months before the study but did not display strong GzB or PFN responses: this observation is in line with the notion that the PFN/GzB positive state of effector/effector memory CD8 T cells last for about one month. Overall, strong signs of recent T cell activation in the absence of detecting an increase in viral load in the blood by PCR suggest that the T cell test is more sensitive in detecting reactivation of the viral infection. </p>
+        <table-wrap id="cells-01-00035-t001" position="float">
+          <object-id pub-id-type="pii">cells-01-00035-t001_Table 1</object-id>
+          <label>Table 1</label>
+          <caption>
+            <p>Detection of CMV viral replication measured by PCR. When blood was obtained from IBD patients (ulcerative colitis (UC) or Crohn&#x2019;s disease (CD)) for PBMC isolation for ELISPOT CMV-reactivity analysis, CMV DNA was also measured by PCR in blood samples. </p>
+          </caption>
+          <table style="border:solid thin">
+            <thead>
+              <tr>
+                <th colspan="2" align="left" valign="middle">CMV DNA PCR replication measurements </th>
+                <th align="left" valign="middle"> </th>
+                <th align="left" valign="middle"> </th>
+              </tr>
+              <tr>
+                <th align="left" valign="middle"> </th>
+                <th colspan="3" align="center" valign="middle">CMV DNA PCR [copies/mL]</th>
+              </tr>
+              <tr>
+                <th align="left" valign="middle"> </th>
+                <th align="center" valign="middle">at ELISPOT testing</th>
+                <th align="center" valign="middle">1 month prior</th>
+                <th align="center" valign="middle">&#x2265; 2 months prior</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">IBD patient</td>
+                <td align="left" valign="middle"> </td>
+                <td align="left" valign="middle"> </td>
+                <td align="left" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">all CD, all UC except 8,14,19</td>
+                <td align="center" valign="middle">neg.</td>
+                <td align="center" valign="middle"> not tested</td>
+                <td align="center" valign="middle">not tested</td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">UC 8</td>
+                <td align="center" valign="middle">neg.</td>
+                <td align="center" valign="middle">2270</td>
+                <td align="center" valign="middle">not tested</td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">UC 14</td>
+                <td align="center" valign="middle">neg.</td>
+                <td align="center" valign="middle">not tested</td>
+                <td align="center" valign="middle">1892</td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">UC 19</td>
+                <td align="center" valign="middle">neg.</td>
+                <td align="center" valign="middle">5403</td>
+                <td align="center" valign="middle">31000</td>
+              </tr>
+            </tbody>
+</table>
+        </table-wrap>
+      </sec>
+      <sec>
+        <title>2.5. Disease Duration in IBD Patients with High CMV-Reactivity</title>
+        <p>We tested whether IBD duration influences the incidence of active T cell immunity against CMV in IBD patients. We therefore compared both groups (patients with signs of recent T cell activation against CMV, denominated by the detection of GzB and/or PFN <italic>vs</italic>. patients with no GzB/PFN response) regarding the time that had elapsed since the first definitive diagnosis of IBD. CMV-reactive patients had a significantly longer disease duration when compared to non-CMV reactive patients (8.16 &#xB1; 1.7 years <italic>vs</italic>. 4.5 &#xB1; 0.86 years, p &lt; 0.05) (<xref ref-type="fig" rid="cells-01-00035-f004">Figure 4</xref>).</p>
+        <fig id="cells-01-00035-f004" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p>Disease duration in CMV reactive patients. Mean duration of Inflammatory Bowel Disease (Crohn&#x2019;s disease and Ulcerative colitis) was established for patients who tested positive for CMV reactivity in GzB or PFN ELISPOT assays <italic>vs</italic>. nonresponders. Statistical significance was evaluated by Mann&#x2013;Whitney rank sum test. </p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00035-g004.tif"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>3. Discussion</title>
+      <p>In this study, we show for the first time that a significant fraction of IBD patients exhibit a recently activated immune response to CMV, possibly drawing attention to the relevance of this herpes virus infection in the context of IBD. CMV-specific T cells were found to be in an activated state in a significant number of patients suffering from Crohn&#x2019;s disease as well as ulcerative colitis, in particular during flare-ups of the disease, whereas no anti-CMV effector T cell activity was found in healthy controls. </p>
+      <p>The difference between the groups with respect to responsiveness <italic>vs</italic>. non-responsiveness was clear cut, suggesting that follow-up studies should be warranted. In contrast to the dichotomous positive/negative evaluation of the data, the number of subjects studied was not high enough to permit reliable statistical evaluation based on the mean number of spots in each group. As opposed to the binary positive/negative assessment, systematic future studies in larger cohorts of patients and controls will be required to provide a definitive answer to the question of whether the observed differences in a subgroup of IBD patients apply to IBD patients in general. A comparison of disease activity indices in GzB/PFN responsive and non-responsive IBD patients demonstrated that GzB/PFN responsive patients were seven times less likely to be in clinical remission compared to non-responsive patients. In contrast, clinical IBD activity was not correlated with the detection of CMV DNA in the serum as none of the patients tested positive for CMV DNA by PCR. This finding can be reconciled with the very nature of immune surveillance by T cells. CMV infects many tissues of the body, including the gut mucosa, where it can stay latent for prolonged time periods. In the context of T cell immunity, latency means that no viral proteins are actively biosynthesized. While viral DNA, and possibly even viral proteins synthesized in the past are present in infected cells, it takes <italic>de novo</italic> intracellular protein synthesis to load viral peptides onto HLA-class I molecules (HLA-A, B and C) and to display these to T cells on the surface of the infected cells. Thus, as soon as viral protein synthesis initiates in an infected tissue, such as the gut mucosa, viral peptides become presented to T cells on the infected cells. It takes only a few viral peptide-loaded HLA-class I molecules to activate a CD8 T cell. Therefore, the T cell system responds to trace amounts of antigen, in any organ: CD8 T cells actively survey all tissues of the body migrating from organ to organ seeking for &#x201C;their&#x201D; antigen. Since T cells utilize the bloodstream for their dissemination in the organism and recirculation, activated T cells can be readily detected in the blood even if T cell activation occurred e.g., in the mucosal tissue of the gut. In contrast, viremia resulting from massive viral replication is required for viral DNA to be detectable in the serum. Moreover, for detection by PCR in the serum, virions need to be present in the blood in spite of the presence of neutralizing antibodies that all CMV-infected individuals have. These antibodies precipitate virions in the infected tissue, and virions that reach the blood will be coated with antibody and trapped in immune complexes that are rapidly cleared from circulation in the reticulo-endothelial system, primarily the lungs, liver and spleen. Therefore, the detection of active CMV replication via the emergence of activated virus-specific T cells in the blood should be more sensitive than virion detection in serum by PCR. To our knowledge, this is the first report that provides experimental evidence in support of this notion. Detecting CMV&#x2013;specific activated T cells, therefore, could gain substantial clinical significance for patient care managing complications of CMV infection. By extrapolation, GzB and PFN ELISPOT assays should also permit the detection of a reactivation of other viral infections, or re-infections. Hereby, the use of readily available unseparated PBMC (as pertinent for clinical immune diagnostic) seems justified, since previous studies have confirmed the CD 8 T cell origin of the measured cytokines when using HLA Class I restricted T cell epitopes for antigenic stimulation [<xref ref-type="bibr" rid="B15-cells-01-00035">15</xref>,<xref ref-type="bibr" rid="B16-cells-01-00035">16</xref>,<xref ref-type="bibr" rid="B33-cells-01-00035">33</xref>].</p>
+      <p>Serological tools (CMV-specific IgM and IgG antibodies) are very sensitive and specific in detecting whether an individual has been infected with CMV, but do not distinguish between a latent state and re-activation of the infection. After re-activation, antibody titers change slowly over several weeks to months and such changes are not necessarily related to an active immune response. CMV antigens (late structural protein pp65), like CMV DNA, can be detected in serum and other body fluids. However, for the reasons discussed above, previous studies suggested that the absence of viral DNA might not be indicative of a CMV unrelated disease event [<xref ref-type="bibr" rid="B35-cells-01-00035">35</xref>]. Additionally, positive testing for CMV DNA or pp65 Ag might also not reflect an active immunologic process within the intestinal mucosa. </p>
+      <p>The detection of CMV in the inflamed colonic mucosa is at present the gold standard for identifying CMV-related intestinal disease. However, the detection rate is limited even in the case of an otherwise proven CMV disease, even if CMV-directed antibodies or DNA hybridization methods are used. More importantly, CMV detection in the mucosa does not necessarily reflect active biosynthesis of the virus, and therefore the display of viral peptides to the T cell system resulting in an active immune response. In addition, this method is dependent on biopsy material that, unlike PBMC, is not readily available for routine clinical monitoring. </p>
+      <p>Our data suggest a link between active CMV infection and IBD, but leave mechanistic interpretations open. Similarly to other herpes virus-mediated diseases, acute infections are frequently asymptomatic, but once acquired, the virus persists lifelong. In IBD, the reactivation of CMV infection is thought to cause severe colitis, particularly in patients with ulcerative colitis that are treated with immunosuppressive agents. However, in these cases it is hard to determine whether CMV is a non-pathogenic bystander or if the virus is triggering the onset of the disease, and if the therapeutic strategy should be adapted to this finding. Indeed, Eyre-Brook demonstrated that antiviral treatment only marginally alters the course of IBD [<xref ref-type="bibr" rid="B36-cells-01-00035">36</xref>]. CMV might also spontaneously be cleared over time as shown by Matsuoka <italic>et al</italic>. [<xref ref-type="bibr" rid="B37-cells-01-00035">37</xref>]. However, other studies provided evidence that it is crucial to confirm an active ongoing infection by CMV to deflect a therapeutic consequence [<xref ref-type="bibr" rid="B38-cells-01-00035">38</xref>]. Some authors have suggested a crucial role of the inflamed mucosa in inducing and sustaining CMV reactivation as epithelial cells can serve as permissive hosts for CMV during inflammatory responses. This could possibly create a permissive environment for CMV reactivation and replication which in turn enhances the chance of chronic viral infection, resulting in an increased proportion of CMV infections over time [<xref ref-type="bibr" rid="B39-cells-01-00035">39</xref>]. Yet, the data on the correlation between duration of disease and CMV infection are conflicting. While some studies report shorter disease duration in CMV positive patients, others saw a trend towards a longer duration [<xref ref-type="bibr" rid="B13-cells-01-00035">13</xref>,<xref ref-type="bibr" rid="B40-cells-01-00035">40</xref>]. This disparity is most likely due to the different diagnostic approaches towards defining a CMV infection. As we pointed out before, none of the CMV-reactive patients was positive for serum CMV DNA at the time tested. </p>
+      <p>IBD patients are usually immunosuppressed due to a number of reasons, such as poor nutrition, possible NK cell impairment or immunosuppressive treatment. Together with CMV tropism for sites of inflammation, these factors leave IBD patients at increased risk of active CMV infection. CMV infects areas of active IBD and causes colonic injury in most cases. As viral multiplication is most likely a localized phenomenon strictly occurring within the inflamed mucosa, it is conceivable that mucosal CMV replication triggers acute and fulminant courses of disease, while in other cases the prolonged history of inflammation favors the acquisition of CMV infection in a long course of disease (<xref ref-type="scheme" rid="cells-01-00035-f005">Schema 1</xref>). Our finding that CMV responsiveness is associated with longer disease duration as well as greater disease activity suggests that mucosal injury over a long course of disease might establish a permissive environment for CMV acquisition and replication. However there do seem to be situations in which CMV infection and replication leads to enhanced tissue damage, causing a breakdown of mucosal barrier functions and subsequent development or exacerbation of acute and fulminant courses of IBD.</p>
+      <fig id="cells-01-00035-f005" position="float">
+        <label>Schema 1</label>
+        <caption>
+          <p>CMV infection an IBD.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00035-g005.tif"/>
+      </fig>
+    </sec>
+    <sec>
+      <title>3. Experimental Section-Materials and Methods</title>
+      <sec>
+        <title>3.1. Subjects, Cell Separation</title>
+        <p>Peripheral blood was obtained from 32 IBD patients routinely visiting the outpatient IBD clinic of the University of M&#xFC;nster as well as the Medizinisches Versorgungszentrum Portal 10 after informed consent. Data regarding their disease were recorded, standard laboratory marker (CRP, leukocyte and thrombocyte count, ALT, creatinine) measured and IBD indices (Harvey Bradshaw index, Colitis activity Index; [<xref ref-type="bibr" rid="B41-cells-01-00035">41</xref>,<xref ref-type="bibr" rid="B42-cells-01-00035">42</xref>]) determined. The patient characteristics were as follows: 13 patients with Crohn`s Disease, 19 with Ulcerative Colitis, aged between 20&#x2013;65 years (mean 37) and a disease duration ranging from 0&#x2013;21 years (mean 5). 21 were male, 11 females. Extraintestinal manifestations were observed in 19%. All patients were negative for CMV DNA by real-time PCR testing at the time tested for ELISPOT CMV-reactivity. Three patients had a known history of a positive CMV-PCR and subsequent antiviral treatment with ganciclovir multiple months before ELISPOT testing with viral loads reaching from 1800&#x2013;31,000 copies/mL.</p>
+        <p>Laboratory parameters were as follows: Creatinine ranged from 0.5&#x2013;1.2 mg/dL (mean 0.9), Alanin Aminotransferase from 5&#x2013;81 U/L (mean 21), C-reactive Protein from &lt;0.5&#x2013;36.7 mg/dL (mean 0.8), Leukocyte count from 3.7&#x2013;18.0 10<sup>3</sup>/&#xB5;L (mean 7) and Thrombocyte count from 162&#x2013;512 10<sup>3</sup>/&#xB5;L (mean 326.5). 47% of patients were treated with steroids, while 59% received steroids for &gt;3 months and 59% received a steroid dosage of &gt;40 mg (prednisolone equivalent) within the last 12 months. 31% received azathioprine at visit, 28% anti-TNF-&#x3B1; therapies and 16% had received antibiotics in the past 3 months. Endoscopic examinations were not performed. An aged matched control cohort of 15 volunteers was used as reference. All studies were performed under the approval of the Institutional Review Board for Human Investigation at the University Hospital of M&#xFC;nster. </p>
+        <p>PBMC were isolated from heparinized blood by standard Ficoll-Hypaque density gradient centrifugation (using Biocoll, Biochrom AG Berlin, Germany). Positivity for HLA-A2 haplotype was assessed by FACS analysis using a FITC-labeled mouse anti human HLA-A2 Antibody (BD Pharmingen, Franklin Lakes, NJ, USA). Cells were subsequently frozen and stored in liquid nitrogen storage until further usage while remaining fully functional as has been previously described [<xref ref-type="bibr" rid="B43-cells-01-00035">43</xref>]. Briefly, PBMC were suspended at a concentration of 2 &#xD7; 10<sup>7</sup>/mL in 2 mL of freezing medium A (60% FCS, 40% RPMI) at room temperature. An equal volume of freezing medium B (20% DMSO, 80% FCS), was added dropwise. The cell suspension was aliquoted into 1.8 mL cryovials (Greiner Labortechnik, Frickenhausen, Germany), frozen overnight in a &#x2212;80 &#xB0;C freezer before transfer to a liquid nitrogen tank for indefinite storage until testing. </p>
+      </sec>
+      <sec>
+        <title>3.2. CMV PCR Assay</title>
+        <p>All CMV PCR assays were performed in the Center for Laboratory Medicine of the University Hospital of M&#xFC;nster that operates under GLP and is accredited to perform routine CMV PCR analysis. Genetic material was extracted from EDTA blood samples using QIAamp MinElute Virus Spin Kit (QIAGEN, Hilden, Germany). An in-house, real-time TaqMan PCR assay with specific primers that amplify a sequence of the Major Immediate-Early Gene of HCMV was used (sequences of the forward and reverse primers: 5&#x2019;-<sub>2791</sub>AGCGCC GCA TTG AGG A<sub>2806</sub>-3&#x2019; and 5&#x2019;-<sub>2833</sub>CAG ACT CTC AGA GGA TCG GCC<sub>2853</sub>-3&#x2019;, respectively. Sequence of the probe: 5&#x2019;-<sub>2808</sub>ATC TGC ATG AAG GTC TTT GCC CAG TAC ATT<sub>2827</sub>-3&#x2019;). The TaqMan probe was labeled at the 5&#x2019; end with 6-carboxyfluorescin and at the 3&#x2019; end with 6-carboxytetramethylrhodamine (Applera). PCR amplification was performed using an ABI prism 7700 instrument (Applera) in a total volume of 25 &#x3BC;L with TaqMan Universal PCR master mix 2&#xD7; (Applera) and each primer at 300 nM and the probe at 200 nM. Cycling conditions were as follows: 2 min at 50 &#xB0;C, 10 min at 95 &#xB0;C, and 45 cycles of 95 &#xB0;C for 15 s and 60 &#xB0;C for 1 min. A plasmid containing the amplified sequence of AD 169 strain was used as an external standard with amplifications of serial dilutions (range, 10<sup>5</sup> to 10 copies) allowing for the construction of a standard curve and the quantification of CMV in clinical samples. Results are reported as the number of CMV genome copies/ml of whole blood with a calculated detection threshold of &#x2265;200 copies/mL.</p>
+      </sec>
+      <sec>
+        <title>3.3. Antigens</title>
+        <p>A CMV-peptide pool containing five HLA Class I restricted T-cell epitopes from human Cytomegalovirus was obtained from CTL Europe GmbH (Bonn, Germany). Immunodominant HLA Class I peptide determinants for CMV recognized by CD8 T cells have been characterized previously [<xref ref-type="bibr" rid="B44-cells-01-00035">44</xref>,<xref ref-type="bibr" rid="B45-cells-01-00035">45</xref>,<xref ref-type="bibr" rid="B46-cells-01-00035">46</xref>,<xref ref-type="bibr" rid="B47-cells-01-00035">47</xref>]. The chosen epitopes are presented by the most common Caucasian HLA types and have been shown to induce CD8 T cell recall responses in ELISPOT assays in the majority of Caucasians who have been previously exposed to CMV [<xref ref-type="bibr" rid="B33-cells-01-00035">33</xref>]. The following peptides are contained in the pool: NLVPMVATV (HCMV, HLA-A2), SDEEEAIVAYTL (HCMV, HLA-B18), IPSINVHHY (HCMV, HLA-B35), EFFWDANDIY (HCMV, HLA-B44), and TPRVTGGGAM (HCMV, HLA-B7). Additionally, HLA-A2-restricted peptides of CMV (HCMV pp65, peptide 495&#x2013;503 NLVPMVATV, and HCMV AE 44 VLGPISGHV) were purchased from CTL Europe GmbH (Bonn, Germany) and used to confirm results obtained from peptide pool experiments if the ELISPOT analysis exhibited a marginally positive reaction after stimulation with the peptide pool (n = 5). Only individuals reacting to at least one single peptide were considered positive.</p>
+      </sec>
+      <sec>
+        <title>3.4. Cell Thawing and ELISPOT Assays</title>
+        <p>Cells were thawed as previously described [<xref ref-type="bibr" rid="B43-cells-01-00035">43</xref>]. Briefly, cryotubes were placed in 37 &#xB0;C water until the sample had completely thawed. Cells were transferred into a 50 mL tube containing a 2-fold volume of complete RPMI medium (93% RPMI- 1640, 5% heat-inactivated AB serum, 1% L-glutamine 1% Penicillin&#x2013;Streptomycin) at room temperature and subsequently washed twice. Interferon-&#x3B3;, GzB-, and PFN-release was measured by ELISPOT assays as described previously [<xref ref-type="bibr" rid="B48-cells-01-00035">48</xref>]. Briefly, MultiScreen-IP plates (Millipore, Billerica, MA, USA were coated overnight at 4 &#xB0;C with the cytokine-specific capture antibody diluted in phosphate buffered saline (PBS). Before plating of cells and antigens, the plates were blocked with bovine serum albumin (BSA) (10 g/L in PBS: PBS&#x2013;BSA) for 1 h and washed 3&#xD7; with PBS. PBMC were plated in complete RPMI medium at 2 &#xD7; 10<sup>5</sup> cells per well (as specified in the table and figure legends). Pre-established optimal antigen concentrations were used for the ELISPOT assay [<xref ref-type="bibr" rid="B48-cells-01-00035">48</xref>]. All peptides were used at 20 &#xB5;g/mL; phytohemagglutinin (PHA) was used as positive control in all assays and obtained from Sigma (10 &#xB5;g/mL). Negative control wells contained PBMCs with medium alone. Experiments were performed in duplicate wells for each antigen and cytokine tested.</p>
+        <p>24 h ELISPOT assays were used for IFN-&#x3B3;, GzB, and PFN. Thereafter, the plates were washed 3&#xD7; with PBS, then 3&#xD7; with PBS&#x2013;Tween (0.025%), and the detection antibodies (in PBS&#x2013;BSA&#x2013;Tween) were added at previously established concentrations. After an overnight incubation at 4 &#xB0;C, plates were washed 4&#xD7; with PBS&#x2013;Tween and Streptavidin-AP (DakoCytomation, 1/1000 dilution) diluted in PBS/BSA/Tween was added to all plates, which were then incubated for 1 h at room temperature. The plates were developed on the same day by using nitroblue tetrazolium 5-bromo-4-chloro-3-indolyl phosphatase substrate. The reaction was stopped by rinsing with distilled water when spots became clearly visible macroscopically (10 to 45 min, dependent on the cytokine) </p>
+        <p>The plates were then air-dried overnight before subjecting them to ELISPOT counting using an ImmunoSpot-Analyzer (Cellular Technology Ltd.) specifically designed for the ELISPOT assay. The methods and criteria for the automated counting of spots in the ELISPOT assay have been described previously in detail [<xref ref-type="bibr" rid="B15-cells-01-00035">15</xref>,<xref ref-type="bibr" rid="B49-cells-01-00035">49</xref>,<xref ref-type="bibr" rid="B50-cells-01-00035">50</xref>,<xref ref-type="bibr" rid="B51-cells-01-00035">51</xref>]. Briefly, the ImmunoSpot software uses pattern recognition algorithms to analyze digitized images for the presence of areas in which color density exceeds background. After background noise subtraction, the density distribution is analyzed to identify spots of specific morphology, separating touching and overlapping spots. The measurement of spot-size distribution is also a built-in function of the ImmunoSpot software. Data are recorded as mean spot forming units (SFU) per well of duplicate wells (&#xB1;SD), <italic>i.e</italic>., the number of spots/well. For the ELISPOT assays, ready-to-use primary and secondary antibodies as well as development solution were obtained from H&#xF6;lzel Diagnostika GmbH (Cologne, Germany). The following capture-antibodies were used: IFN-&#x3B3; (B-B1), GzB (GB-11) and PFN (B-E48). The following biotinylated detection antibodies were used: IFN-&#x3B3; (B-G1), GzB (GB-10) and PFN (B-C48). All Antibodies were used according to the manufacturer&#x2019;s instructions.</p>
+      </sec>
+      <sec>
+        <title>3.5. Statistics</title>
+        <p>Statistical analysis was performed using the Mann-Whitney U (Rank-Sum Test), Student&#x2019;s <italic>t</italic>-test or Fisher&#x2019;s exact test where indicated.</p>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>Even though this study was primarily designed to confirm the presence of recently activated anti-CMV immune responses in the context of inflammatory bowel disease by ELISPOT, it also demonstrated that CMV-reactive patients also tend to have a more severe disease with a significantly smaller amount of patients being in remission. Therefore, these data provide a rationale for further exploration in the clinical context. </p>
+      <p>Larger studies will be needed to evaluate the association of CMV immune reactivity to e.g., IBD history and phenotype. It also seems reasonable to analyze CMV reactivity after induction of active therapies to identify drugs that have a risk of reactivation of CMV infection as shown previously for azathioprine. Finally, the hypotheses will need to be tested that the detection of an active T cell response to CMV can function as a biomarker for predicting the efficacy of different therapeutic interventions or adverse effects, permitting improvement of therapeutic strategies, and personalizing them to individual IBD patients. </p>
+    </sec>
+    </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We thank Sonja Dufentester, Elke Weber and Karin Menzel for excellent technical assistance. </p>
+    </ack>
+    <ref-list>
+      <title>Reference</title>
+      <ref id="B1-cells-01-00035">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Criscuoli</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Rizzuto</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Cottone</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytomegalovirus and inflammatory bowel disease: Is there a link?</article-title>
+          <source>World J. Gastroenterol.</source>
+          <year>2006</year>
+          <volume>12</volume>
+          <fpage>4813</fpage>
+          <lpage>4818</lpage>
+        </citation>
+      </ref>
+      <ref id="B2-cells-01-00035">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Irving</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Gibson</surname>
+              <given-names>P.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Infections and IBD</article-title>
+          <source>Nat. Clin. Pract. Gastroenterol. Hepatol.</source>
+          <year>2008</year>
+          <volume>5</volume>
+          <fpage>18</fpage>
+          <lpage>27</lpage>
+        </citation>
+      </ref>
+      <ref id="B3-cells-01-00035">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kishore</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ghoshal</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Ghoshal</surname>
+              <given-names>U.C.</given-names>
+            </name>
+            <name>
+              <surname>Krishnani</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ayyagari</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Infection with cytomegalovirus in patients with inflammatory bowel disease: Prevalence, clinical significance and outcome</article-title>
+          <source>J. Med. Microbiol.</source>
+          <year>2004</year>
+          <volume>53</volume>
+          <fpage>1155</fpage>
+          <lpage>1160</lpage>
+          <pub-id pub-id-type="doi">10.1099/jmm.0.45629-0</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-cells-01-00035">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rahbar</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bostrom</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Lagerstedt</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Magnusson</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Soderberg-Naucler</surname>
+              <given-names>C.V.</given-names>
+            </name>
+            <name>
+              <surname>Sundqvist</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evidence of active cytomegalovirus infection and increased production of IL-6 in tissue specimens obtained from patients with inflammatory bowel diseases</article-title>
+          <source>Inflamm. Bowel Dis.</source>
+          <year>2003</year>
+          <volume>9</volume>
+          <fpage>154</fpage>
+          <lpage>161</lpage>
+          <pub-id pub-id-type="doi">10.1097/00054725-200305000-00002</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-cells-01-00035">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cottone</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Pietrosi</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Martorana</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Casa</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Pecoraro</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Oliva</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Orlando</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Rosselli</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Rizzo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Pagliaro</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Prevalence of cytomegalovirus infection in severe refractory ulcerative and Crohn&#x2019;s colitis</article-title>
+          <source>Am. J. Gastroenterol.</source>
+          <year>2001</year>
+          <volume>96</volume>
+          <fpage>773</fpage>
+          <lpage>775</lpage>
+        </citation>
+      </ref>
+      <ref id="B6-cells-01-00035">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kandiel</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lashner</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytomegalovirus colitis complicating inflammatory bowel disease</article-title>
+          <source>Am. J. Gastroenterol.</source>
+          <year>2006</year>
+          <volume>101</volume>
+          <fpage>2857</fpage>
+          <lpage>2865</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1572-0241.2006.00869.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-cells-01-00035">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vega</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Bertran</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Menacho</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Domenech</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Moreno de Vega</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Hombrados</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Cabre</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Ojanguren</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Gassull</surname>
+              <given-names>M.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytomegalovirus infection in patients with inflammatory bowel disease</article-title>
+          <source>Am. J. Gastroenterol.</source>
+          <year>1999</year>
+          <volume>94</volume>
+          <fpage>1053</fpage>
+          <lpage>1056</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1572-0241.1999.01013.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-cells-01-00035">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Orvar</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Murray</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Carmen</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Conklin</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytomegalovirus infection associated with onset of inflammatory bowel disease</article-title>
+          <source>Dig. Dis. Sci.</source>
+          <year>1993</year>
+          <volume>38</volume>
+          <fpage>2307</fpage>
+          <lpage>2310</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF01299914</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-cells-01-00035">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pfau</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kochman</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Furth</surname>
+              <given-names>E.E.</given-names>
+            </name>
+            <name>
+              <surname>Lichtenstein</surname>
+              <given-names>G.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytomegalovirus colitis complicating ulcerative colitis in the steroid-naive patient</article-title>
+          <source>Am. J. Gastroenterol.</source>
+          <year>2001</year>
+          <volume>96</volume>
+          <fpage>895</fpage>
+          <lpage>899</lpage>
+        </citation>
+      </ref>
+      <ref id="B10-cells-01-00035">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>de la Hoz</surname>
+              <given-names>R.E.</given-names>
+            </name>
+            <name>
+              <surname>Stephens</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Sherlock</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Diagnosis and treatment approaches of CMV infections in adult patients</article-title>
+          <source>J. Clin. Virol.</source>
+          <year>2002</year>
+          <volume>25</volume>
+          <fpage>S1</fpage>
+          <lpage>S12</lpage>
+        </citation>
+      </ref>
+      <ref id="B11-cells-01-00035">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mazzulli</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Drew</surname>
+              <given-names>L.W.</given-names>
+            </name>
+            <name>
+              <surname>Yen-Lieberman</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Jekic-McMullen</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kohn</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Isada</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Moussa</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Chua</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Walmsley</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multicenter comparison of the digene hybrid capture CMV DNA assay (version 2.0), the pp65 antigenemia assay, and cell culture for detection of cytomegalovirus viremia</article-title>
+          <source>J. Clin. Microbiol.</source>
+          <year>1999</year>
+          <volume>37</volume>
+          <fpage>958</fpage>
+          <lpage>963</lpage>
+        </citation>
+      </ref>
+      <ref id="B12-cells-01-00035">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rawlinson</surname>
+              <given-names>W.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Broadsheet Number 50: Diagnosis of human cytomegalovirus infection and disease</article-title>
+          <source>Pathology</source>
+          <year>1999</year>
+          <volume>31</volume>
+          <fpage>109</fpage>
+          <lpage>115</lpage>
+          <pub-id pub-id-type="doi">10.1080/003130299105287</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13-cells-01-00035">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dimitroulia</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Spanakis</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Konstantinidou</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <name>
+              <surname>Legakis</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Tsakris</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Frequent detection of cytomegalovirus in the intestine of patients with inflammatory bowel disease</article-title>
+          <source>Inflamm. Bowel Dis.</source>
+          <year>2006</year>
+          <volume>12</volume>
+          <fpage>879</fpage>
+          <lpage>884</lpage>
+          <pub-id pub-id-type="doi">10.1097/01.mib.0000231576.11678.57</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-cells-01-00035">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>D&#x2019;Ovidio</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Vernia</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Gentile</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Capobianchi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Marcheggiano</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Viscido</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Martino</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Caprilli</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytomegalovirus infection in inflammatory bowel disease patients undergoing anti-TNFalpha therapy</article-title>
+          <source>J. Clin. Virol.</source>
+          <year>2008</year>
+          <volume>43</volume>
+          <fpage>180</fpage>
+          <lpage>183</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jcv.2008.06.002</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15-cells-01-00035">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kuerten</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nowacki</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Kleen</surname>
+              <given-names>T.O.</given-names>
+            </name>
+            <name>
+              <surname>Asaad</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dissociated production of perforin, granzyme B, and IFN-gamma by HIV-specific CD8(+) cells in HIV infection</article-title>
+          <source>AIDS Res. Hum. Retrovir.</source>
+          <year>2008</year>
+          <volume>24</volume>
+          <fpage>62</fpage>
+          <lpage>71</lpage>
+          <pub-id pub-id-type="doi">10.1089/aid.2007.0125</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-cells-01-00035">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nowacki</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Kuerten</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Shive</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Kreher</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Boehm</surname>
+              <given-names>B.O.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Granzyme B production distinguishes recently activated CD8(+) memory cells from resting memory cells</article-title>
+          <source>Cell Immunol.</source>
+          <year>2007</year>
+          <volume>247</volume>
+          <fpage>36</fpage>
+          <lpage>48</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cellimm.2007.07.004</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17-cells-01-00035">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harty</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Tvinnereim</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>White</surname>
+              <given-names>D.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>CD8+ T cell effector mechanisms in resistance to infection</article-title>
+          <source>Annu. Rev. Immunol.</source>
+          <year>2000</year>
+          <volume>18</volume>
+          <fpage>275</fpage>
+          <lpage>308</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev.immunol.18.1.275</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18-cells-01-00035">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ramshaw</surname>
+              <given-names>I.A.</given-names>
+            </name>
+            <name>
+              <surname>Ramsay</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Karupiah</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Rolph</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Mahalingam</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ruby</surname>
+              <given-names>J.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytokines and immunity to viral infections</article-title>
+          <source>Immunol. Rev.</source>
+          <year>1997</year>
+          <volume>159</volume>
+          <fpage>119</fpage>
+          <lpage>135</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1600-065X.1997.tb01011.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19-cells-01-00035">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wong</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Pamer</surname>
+              <given-names>E.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>CD8 T cell responses to infectious pathogens</article-title>
+          <source>Annu. Rev. Immunol.</source>
+          <year>2003</year>
+          <volume>21</volume>
+          <fpage>29</fpage>
+          <lpage>70</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev.immunol.21.120601.141114</pub-id>
+        </citation>
+      </ref>
+      <ref id="B20-cells-01-00035">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oehen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Brduscha-Riem</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Differentiation of naive CTL to effector and memory CTL: Correlation of effector function with phenotype and cell division</article-title>
+          <source>J. Immunol.</source>
+          <year>1998</year>
+          <volume>161</volume>
+          <fpage>5338</fpage>
+          <lpage>5346</lpage>
+        </citation>
+      </ref>
+      <ref id="B21-cells-01-00035">
+        <label>21.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wherry</surname>
+              <given-names>E.J.</given-names>
+            </name>
+            <name>
+              <surname>Ahmed</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Memory CD8 T-cell differentiation during viral infection</article-title>
+          <source>J. Virol.</source>
+          <year>2004</year>
+          <volume>78</volume>
+          <fpage>5535</fpage>
+          <lpage>5545</lpage>
+          <pub-id pub-id-type="doi">10.1128/JVI.78.11.5535-5545.2004</pub-id>
+        </citation>
+      </ref>
+      <ref id="B22-cells-01-00035">
+        <label>22.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaech</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Ahmed</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Memory CD8+ T cell differentiation: Initial antigen encounter triggers a developmental program in naive cells</article-title>
+          <source>Nat. Immunol.</source>
+          <year>2001</year>
+          <volume>2</volume>
+          <fpage>415</fpage>
+          <lpage>422</lpage>
+        </citation>
+      </ref>
+      <ref id="B23-cells-01-00035">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takata</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Takiguchi</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Three memory subsets of human CD8+ T cells differently expressing three cytolytic effector molecules</article-title>
+          <source>J. Immunol.</source>
+          <year>2006</year>
+          <volume>177</volume>
+          <fpage>4330</fpage>
+          <lpage>4340</lpage>
+        </citation>
+      </ref>
+      <ref id="B24-cells-01-00035">
+        <label>24.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wherry</surname>
+              <given-names>E.J.</given-names>
+            </name>
+            <name>
+              <surname>Teichgraber</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Becker</surname>
+              <given-names>T.C.</given-names>
+            </name>
+            <name>
+              <surname>Masopust</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kaech</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Antia</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>von Andrian</surname>
+              <given-names>U.H.</given-names>
+            </name>
+            <name>
+              <surname>Ahmed</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lineage relationship and protective immunity of memory CD8 T cell subsets</article-title>
+          <source>Nat. Immunol.</source>
+          <year>2003</year>
+          <volume>4</volume>
+          <fpage>225</fpage>
+          <lpage>234</lpage>
+        </citation>
+      </ref>
+      <ref id="B25-cells-01-00035">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shresta</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Pham</surname>
+              <given-names>C.T.</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Graubert</surname>
+              <given-names>T.A.</given-names>
+            </name>
+            <name>
+              <surname>Ley</surname>
+              <given-names>T.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>How do cytotoxic lymphocytes kill their targets?</article-title>
+          <source>Curr. Opin. Immunol.</source>
+          <year>1998</year>
+          <volume>10</volume>
+          <fpage>581</fpage>
+          <lpage>587</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0952-7915(98)80227-6</pub-id>
+        </citation>
+      </ref>
+      <ref id="B26-cells-01-00035">
+        <label>26.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Trambas</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Griffiths</surname>
+              <given-names>G.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Delivering the kiss of death</article-title>
+          <source>Nat. Immunol.</source>
+          <year>2003</year>
+          <volume>4</volume>
+          <fpage>399</fpage>
+          <lpage>403</lpage>
+        </citation>
+      </ref>
+      <ref id="B27-cells-01-00035">
+        <label>27.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Catalfamo</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Henkart</surname>
+              <given-names>P.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Perforin and the granule exocytosis cytotoxicity pathway</article-title>
+          <source>Curr. Opin. Immunol.</source>
+          <year>2003</year>
+          <volume>15</volume>
+          <fpage>522</fpage>
+          <lpage>527</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0952-7915(03)00114-6</pub-id>
+        </citation>
+      </ref>
+      <ref id="B28-cells-01-00035">
+        <label>28.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Trapani</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Smyth</surname>
+              <given-names>M.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional significance of the perforin/granzyme cell death pathway</article-title>
+          <source>Nat. Rev. Immunol.</source>
+          <year>2002</year>
+          <volume>2</volume>
+          <fpage>735</fpage>
+          <lpage>747</lpage>
+          <pub-id pub-id-type="doi">10.1038/nri911</pub-id>
+        </citation>
+      </ref>
+      <ref id="B29-cells-01-00035">
+        <label>29.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Trapani</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Sutton</surname>
+              <given-names>V.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Granzyme B: Pro-apoptotic, antiviral and antitumor functions</article-title>
+          <source>Curr. Opin. Immunol.</source>
+          <year>2003</year>
+          <volume>15</volume>
+          <fpage>533</fpage>
+          <lpage>543</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0952-7915(03)00107-9</pub-id>
+        </citation>
+      </ref>
+      <ref id="B30-cells-01-00035">
+        <label>30.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Henkart</surname>
+              <given-names>P.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lymphocyte-mediated cytotoxicity: Two pathways and multiple effector molecules</article-title>
+          <source>Immunity</source>
+          <year>1994</year>
+          <volume>1</volume>
+          <fpage>343</fpage>
+          <lpage>346</lpage>
+          <pub-id pub-id-type="doi">10.1016/1074-7613(94)90063-9</pub-id>
+        </citation>
+      </ref>
+      <ref id="B31-cells-01-00035">
+        <label>31.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>van den Brink</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Burakoff</surname>
+              <given-names>S.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytolytic pathways in haematopoietic stem-cell transplantation</article-title>
+          <source>Nat. Rev. Immunol.</source>
+          <year>2002</year>
+          <volume>2</volume>
+          <fpage>273</fpage>
+          <lpage>281</lpage>
+          <pub-id pub-id-type="doi">10.1038/nri775</pub-id>
+        </citation>
+      </ref>
+      <ref id="B32-cells-01-00035">
+        <label>32.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lanzavecchia</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sallusto</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Understanding the generation and function of memory T cell subsets</article-title>
+          <source>Curr. Opin. Immunol.</source>
+          <year>2005</year>
+          <volume>17</volume>
+          <fpage>326</fpage>
+          <lpage>332</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.coi.2005.04.010</pub-id>
+        </citation>
+      </ref>
+      <ref id="B33-cells-01-00035">
+        <label>33.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Currier</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Kuta</surname>
+              <given-names>E.G.</given-names>
+            </name>
+            <name>
+              <surname>Turk</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Earhart</surname>
+              <given-names>L.B.</given-names>
+            </name>
+            <name>
+              <surname>Loomis-Price</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Janetzki</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ferrari</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Birx</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Cox</surname>
+              <given-names>J.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>A panel of MHC class I restricted viral peptides for use as a quality control for vaccine trial ELISPOT assays</article-title>
+          <source>J. Immunol. Methods</source>
+          <year>2002</year>
+          <volume>260</volume>
+          <fpage>157</fpage>
+          <lpage>172</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0022-1759(01)00535-X</pub-id>
+        </citation>
+      </ref>
+      <ref id="B34-cells-01-00035">
+        <label>34.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schlingmann</surname>
+              <given-names>T.R.</given-names>
+            </name>
+            <name>
+              <surname>Shive</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Targoni</surname>
+              <given-names>O.S.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Increased per cell IFN-gamma productivity indicates recent <italic>in vivo</italic> activation of T cells</article-title>
+          <source>Cell Immunol.</source>
+          <year>2009</year>
+          <volume>258</volume>
+          <fpage>131</fpage>
+          <lpage>137</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cellimm.2009.04.002</pub-id>
+        </citation>
+      </ref>
+      <ref id="B35-cells-01-00035">
+        <label>35.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Navalpotro</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Gimeno</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Navarro</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>PCR detection of viral DNA in serum as an ancillary analysis for the diagnosis of acute mononucleosis-like syndrome due to human cytomegalovirus (HCMV) in immunocompetent patients</article-title>
+          <source>J. Clin. Virol.</source>
+          <year>2006</year>
+          <volume>35</volume>
+          <fpage>193</fpage>
+          <lpage>196</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jcv.2005.07.008</pub-id>
+        </citation>
+      </ref>
+      <ref id="B36-cells-01-00035">
+        <label>36.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eyre-Brook</surname>
+              <given-names>I.A.</given-names>
+            </name>
+            <name>
+              <surname>Dundas</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Incidence and clinical significance of colonic cytomegalovirus infection in idiopathic inflammatory bowel disease requiring colectomy</article-title>
+          <source>Gut</source>
+          <year>1986</year>
+          <volume>27</volume>
+          <fpage>1419</fpage>
+          <lpage>1425</lpage>
+          <pub-id pub-id-type="doi">10.1136/gut.27.12.1419</pub-id>
+        </citation>
+      </ref>
+      <ref id="B37-cells-01-00035">
+        <label>37.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Matsuoka</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Iwao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Mori</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sakuraba</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Yajima</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hisamatsu</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Okamoto</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Morohoshi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Izumiya</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ichikawa</surname>
+              <given-names>H.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Cytomegalovirus is frequently reactivated and disappears without antiviral agents in ulcerative colitis patients</article-title>
+          <source>Am. J. Gastroenterol.</source>
+          <year>2007</year>
+          <volume>102</volume>
+          <fpage>331</fpage>
+          <lpage>337</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1572-0241.2006.00989.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B38-cells-01-00035">
+        <label>38.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yoshino</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nakase</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Mikami</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nio</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ueno</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Uza</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Ohmori</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Manabe</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Chiba</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Importance of diagnosis of concomitant cytomegalovirus infection in patients with intestinal Behcet&#x2019;s disease</article-title>
+          <source>Inflamm. Bowel Dis.</source>
+          <year>2008</year>
+          <volume>14</volume>
+          <fpage>877</fpage>
+          <lpage>878</lpage>
+          <pub-id pub-id-type="doi">10.1002/ibd.20400</pub-id>
+        </citation>
+      </ref>
+      <ref id="B39-cells-01-00035">
+        <label>39.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hommes</surname>
+              <given-names>D.W.</given-names>
+            </name>
+            <name>
+              <surname>Sterringa</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>van Deventer</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Tytgat</surname>
+              <given-names>G.N.</given-names>
+            </name>
+            <name>
+              <surname>Weel</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The pathogenicity of cytomegalovirus in inflammatory bowel disease: A systematic review and evidence-based recommendations for future research</article-title>
+          <source>Inflamm. Bowel Dis.</source>
+          <year>2004</year>
+          <volume>10</volume>
+          <fpage>245</fpage>
+          <lpage>250</lpage>
+          <pub-id pub-id-type="doi">10.1097/00054725-200405000-00011</pub-id>
+        </citation>
+      </ref>
+      <ref id="B40-cells-01-00035">
+        <label>40.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Domenech</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Vega</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Ojanguren</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Hernandez</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Garcia-Planella</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Bernal</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Rosinach</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Boix</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cabre</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Gassull</surname>
+              <given-names>M.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytomegalovirus infection in ulcerative colitis: A prospective, comparative study on prevalence and diagnostic strategy</article-title>
+          <source>Inflamm. Bowel Dis.</source>
+          <year>2008</year>
+          <volume>14</volume>
+          <fpage>1373</fpage>
+          <lpage>1379</lpage>
+          <pub-id pub-id-type="doi">10.1002/ibd.20498</pub-id>
+        </citation>
+      </ref>
+      <ref id="B41-cells-01-00035">
+        <label>41.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harvey</surname>
+              <given-names>R.F.</given-names>
+            </name>
+            <name>
+              <surname>Bradshaw</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>A simple index of Crohn&#x2019;s-disease activity</article-title>
+          <source>Lancet</source>
+          <year>1980</year>
+          <volume>1</volume>
+          <fpage>514</fpage>
+        </citation>
+      </ref>
+      <ref id="B42-cells-01-00035">
+        <label>42.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rachmilewitz</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Coated mesalazine (5-aminosalicylic acid) <italic>versus</italic> sulphasalazine in the treatment of active ulcerative colitis: A randomised trial</article-title>
+          <source>BMJ</source>
+          <year>1989</year>
+          <volume>298</volume>
+          <fpage>82</fpage>
+          <lpage>86</lpage>
+          <pub-id pub-id-type="doi">10.1136/bmj.298.6666.82</pub-id>
+        </citation>
+      </ref>
+      <ref id="B43-cells-01-00035">
+        <label>43.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kreher</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Dittrich</surname>
+              <given-names>M.T.</given-names>
+            </name>
+            <name>
+              <surname>Guerkov</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Boehm</surname>
+              <given-names>B.O.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>CD4+ and CD8+ cells in cryopreserved human PBMC maintain full functionality in cytokine ELISPOT assays</article-title>
+          <source>J. Immunol. Methods</source>
+          <year>2003</year>
+          <volume>278</volume>
+          <fpage>79</fpage>
+          <lpage>93</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0022-1759(03)00226-6</pub-id>
+        </citation>
+      </ref>
+      <ref id="B44-cells-01-00035">
+        <label>44.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gavin</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Gilbert</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Riddell</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Greenberg</surname>
+              <given-names>P.D.</given-names>
+            </name>
+            <name>
+              <surname>Bevan</surname>
+              <given-names>M.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Alkali hydrolysis of recombinant proteins allows for the rapid identification of class I MHC-restricted CTL epitopes</article-title>
+          <source>J. Immunol.</source>
+          <year>1993</year>
+          <volume>151</volume>
+          <fpage>3971</fpage>
+          <lpage>3980</lpage>
+        </citation>
+      </ref>
+      <ref id="B45-cells-01-00035">
+        <label>45.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kondo</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Akatsuka</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kuzushima</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Tsujimura</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Asakura</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tajima</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kagami</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kodera</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Tanimoto</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Morishima</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of novel CTL epitopes of CMV-pp65 presented by a variety of HLA alleles</article-title>
+          <source>Blood</source>
+          <year>2004</year>
+          <volume>103</volume>
+          <fpage>630</fpage>
+          <lpage>638</lpage>
+          <pub-id pub-id-type="doi">10.1182/blood-2003-03-0824</pub-id>
+        </citation>
+      </ref>
+      <ref id="B46-cells-01-00035">
+        <label>46.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McLaughlin-Taylor</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Pande</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Forman</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Tanamachi</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Zaia</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Greenberg</surname>
+              <given-names>P.D.</given-names>
+            </name>
+            <name>
+              <surname>Riddell</surname>
+              <given-names>S.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of the major late human cytomegalovirus matrix protein pp65 as a target antigen for CD8+ virus-specific cytotoxic T lymphocytes</article-title>
+          <source>J. Med. Virol.</source>
+          <year>1994</year>
+          <volume>43</volume>
+          <fpage>103</fpage>
+          <lpage>110</lpage>
+          <pub-id pub-id-type="doi">10.1002/jmv.1890430119</pub-id>
+        </citation>
+      </ref>
+      <ref id="B47-cells-01-00035">
+        <label>47.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wills</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Carmichael</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Mynard</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Jin</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Weekes</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Plachter</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Sissons</surname>
+              <given-names>J.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>The human cytotoxic T-lymphocyte (CTL) response to cytomegalovirus is dominated by structural protein pp65: Frequency, specificity, and T-cell receptor usage of pp65-specific CTL</article-title>
+          <source>J. Virol.</source>
+          <year>1996</year>
+          <volume>70</volume>
+          <fpage>7569</fpage>
+          <lpage>7579</lpage>
+        </citation>
+      </ref>
+      <ref id="B48-cells-01-00035">
+        <label>48.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guerkov</surname>
+              <given-names>R.E.</given-names>
+            </name>
+            <name>
+              <surname>Targoni</surname>
+              <given-names>O.S.</given-names>
+            </name>
+            <name>
+              <surname>Kreher</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Boehm</surname>
+              <given-names>B.O.</given-names>
+            </name>
+            <name>
+              <surname>Herrera</surname>
+              <given-names>M.T.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Schwander</surname>
+              <given-names>S.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Detection of low-frequency antigen-specific IL-10-producing CD4(+) T cells via ELISPOT in PBMC: Cognate <italic>vs</italic>. nonspecific production of the cytokine</article-title>
+          <source>J. Immunol. Methods</source>
+          <year>2003</year>
+          <volume>279</volume>
+          <fpage>111</fpage>
+          <lpage>121</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0022-1759(03)00240-0</pub-id>
+        </citation>
+      </ref>
+      <ref id="B49-cells-01-00035">
+        <label>49.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hawkins</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Self</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wakefield</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The automated counting of spots for the ELISpot assay</article-title>
+          <source>J. Immunol. Methods</source>
+          <year>2006</year>
+          <volume>316</volume>
+          <fpage>52</fpage>
+          <lpage>58</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jim.2006.08.005</pub-id>
+        </citation>
+      </ref>
+      <ref id="B50-cells-01-00035">
+        <label>50.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hesse</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Karulin</surname>
+              <given-names>A.Y.</given-names>
+            </name>
+            <name>
+              <surname>Boehm</surname>
+              <given-names>B.O.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>A T cell clone&#x2019;s avidity is a function of its activation state</article-title>
+          <source>J. Immunol.</source>
+          <year>2001</year>
+          <volume>167</volume>
+          <fpage>1353</fpage>
+          <lpage>1361</lpage>
+        </citation>
+      </ref>
+      <ref id="B51-cells-01-00035">
+        <label>51.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karulin</surname>
+              <given-names>A.Y.</given-names>
+            </name>
+            <name>
+              <surname>Hesse</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Single-cytokine-producing CD4 memory cells predominate in type 1 and type 2 immunity</article-title>
+          <source>J. Immunol.</source>
+          <year>2000</year>
+          <volume>164</volume>
+          <fpage>1862</fpage>
+          <lpage>1872</lpage>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

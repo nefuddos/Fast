@@ -1,0 +1,1426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xml:lang="en" article-type="research-article" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells1041121</article-id>
+      <article-id pub-id-type="publisher-id">cells-01-01121</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Intravital Microscopy Reveals Differences in the Kinetics of Endocytic Pathways between Cell Cultures and Live Animals</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Masedunskas</surname>
+            <given-names>Andrius</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Porat-Shliom</surname>
+            <given-names>Natalie</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rechache</surname>
+            <given-names>Kamil</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Aye</surname>
+            <given-names>Myo-Pale&#x2019;</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Weigert</surname>
+            <given-names>Roberto</given-names>
+          </name>
+          <xref rid="c1-cells-01-01121" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-01-01121">Intracellular Membrane Trafficking Unit, Oral and Pharyngeal Cancer Branch, National Institute of Dental and Craniofacial Research, National Institutes of Health, 30 Convent Dr. 303A, Bethesda 20892-4340, MD, USA; Email: <email>andrius.masedunskas@gmail.com</email> (A.M.); <email>poratshliomn@nidcr.nih.gov</email> (N.P.-S.); <email>kamilrechache@rcsi.ie</email> (K.R.); <email>myopaleaye@gmail.com</email> (M.-P.A.)</aff>
+      <author-notes>
+        <corresp id="c1-cells-01-01121"><label>*</label> Author to whom correspondence should be addressed; Email: <email>weigertr@mail.nih.gov</email>; Tel.: +1-301-496-9969; Fax: +1-301-496-1966.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>16</day>
+        <month>11</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="collection"><month>12</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>1</volume>
+      <issue>4</issue>
+      <fpage>1121</fpage>
+      <lpage>1132</lpage>
+      <history>
+        <date date-type="received">
+          <day>16</day>
+          <month>10</month>
+          <year>2012</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>06</day>
+          <month>11</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>07</day>
+          <month>11</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9;  2012 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2012</copyright-year>
+        <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/">
+          <p>This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (http://creativecommons.org/licenses/by/3.0/).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Intravital microscopy has enabled imaging of the dynamics of subcellular structures in live animals, thus opening the door to investigating membrane trafficking under physiological conditions. Here, we sought to determine whether the architecture and the environment of a fully developed tissue influences the dynamics of endocytic processes. To this aim, we imaged endocytosis in the stromal cells of rat salivary glands both <italic>in situ</italic> and after they were isolated and cultured on a solid surface. We found that the internalization of transferrin and dextran, two molecules that traffic <italic>via</italic> distinct mechanisms, is substantially altered in cultured cells, supporting the idea that the three dimensional organization of the tissue and the cues generated by the surrounding environment strongly affect membrane trafficking events. </p>
+      </abstract>
+      <kwd-group>
+        <kwd>intravital microscopy</kwd>
+        <kwd><italic>in vivo</italic> imaging</kwd>
+        <kwd>endocytosis</kwd>
+        <kwd>cytoskeleton</kwd>
+        <kwd>salivary glands</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>1. Introduction</title>
+      <p>The advent of GFP technology and fluorescent light microscopy has significantly changed cell biology [<xref ref-type="bibr" rid="B1-cells-01-01121">1</xref>,<xref ref-type="bibr" rid="B2-cells-01-01121">2</xref>]. Specifically, the ability to image subcellular structures has provided groundbreaking information in several fields such as membrane traffic, cell signaling and cell metabolism [<xref ref-type="bibr" rid="B1-cells-01-01121">1</xref>,<xref ref-type="bibr" rid="B2-cells-01-01121">2</xref>]. Recently, the introduction of super resolution microcopy has enabled imaging beyond the diffraction limit of light, thus opening a new era of investigations at the level of single molecules [<xref ref-type="bibr" rid="B3-cells-01-01121">3</xref>,<xref ref-type="bibr" rid="B4-cells-01-01121">4</xref>]. Most of these technologies have been applied to cells cultured on solid surfaces (e.g., glass or plastic). These versatile models allow proper control of the experimental conditions and can be easily manipulated both pharmacologically and genetically. However, one of their main limitations is the lack of the complex organization that is found in fully developed tissues [<xref ref-type="bibr" rid="B5-cells-01-01121">5</xref>,<xref ref-type="bibr" rid="B6-cells-01-01121">6</xref>]. Indeed, in tissues, cells are located in a three-dimensional environment and interact with both components of the extracellular matrix and other cells. On the other hand, cells grown on solid surfaces are engaged in interactions with the substrate only on one side, thus creating an artificial polarity. Finally, cells in a living tissue constantly receive cues from both the vasculature, the nervous systems and from other cells, which all contribute to their function. </p>
+      <p>Imaging biological processes in live animals has been a daunting task. Although the surgical techniques to access the organs have been available for the past several decades, the lack of appropriate microscopes, light sources, optics, and probes have hampered the use of light microscopy for live animal imaging. In the early nineties, the first two-photon microscope was built by the Web laboratory enabling deep tissue imaging [<xref ref-type="bibr" rid="B7-cells-01-01121">7</xref>], and giving birth to a new field called intravital microscopy (IVM) [<xref ref-type="bibr" rid="B8-cells-01-01121">8</xref>,<xref ref-type="bibr" rid="B9-cells-01-01121">9</xref>,<xref ref-type="bibr" rid="B10-cells-01-01121">10</xref>]. Initially, IVM has been used in neuroscience to image synaptic plasticity in live animals, and later its use has been extended to study cell movement during immuno-response and cell migration during invasion and metastasis [<xref ref-type="bibr" rid="B3-cells-01-01121">3</xref>,<xref ref-type="bibr" rid="B4-cells-01-01121">4</xref>,<xref ref-type="bibr" rid="B6-cells-01-01121">6</xref>,<xref ref-type="bibr" rid="B8-cells-01-01121">8</xref>,<xref ref-type="bibr" rid="B9-cells-01-01121">9</xref>,<xref ref-type="bibr" rid="B11-cells-01-01121">11</xref>,<xref ref-type="bibr" rid="B12-cells-01-01121">12</xref>,<xref ref-type="bibr" rid="B13-cells-01-01121">13</xref>,<xref ref-type="bibr" rid="B14-cells-01-01121">14</xref>,<xref ref-type="bibr" rid="B15-cells-01-01121">15</xref>]. In the last few years, IVM has been used to image subcellular structures, such as nuclei [<xref ref-type="bibr" rid="B16-cells-01-01121">16</xref>], mitochondria [<xref ref-type="bibr" rid="B10-cells-01-01121">10</xref>], endosomes [<xref ref-type="bibr" rid="B17-cells-01-01121">17</xref>,<xref ref-type="bibr" rid="B18-cells-01-01121">18</xref>,<xref ref-type="bibr" rid="B19-cells-01-01121">19</xref>], and secretory granules [<xref ref-type="bibr" rid="B20-cells-01-01121">20</xref>,<xref ref-type="bibr" rid="B21-cells-01-01121">21</xref>]. The first time lapse images of endocytosis  <italic>in vivo</italic> were performed in the kidney of live rats and mice where the internalization of fluorescently labeled dextrans and folate have been imaged in proximal tubuli [<xref ref-type="bibr" rid="B22-cells-01-01121">22</xref>,<xref ref-type="bibr" rid="B23-cells-01-01121">23</xref>]. However, these studies were limited to short time sequences due to the motion artifacts derived from heartbeat and respiration. More recently, our group has developed an experimental model based on the use of the salivary glands (SGs) as a model organ, which makes possible imaging at a subcellular resolution by minimizing the motion artifacts and extending the imaging time (see [<xref ref-type="bibr" rid="B24-cells-01-01121">24</xref>] for a detailed protocol). Using this experimental model we have investigated several aspect of membrane trafficking such as, regulated exocytosis of large secretory granules [<xref ref-type="bibr" rid="B20-cells-01-01121">20</xref>,<xref ref-type="bibr" rid="B25-cells-01-01121">25</xref>], endocytosis and trafficking of molecules through the endo-lysosomal system [<xref ref-type="bibr" rid="B17-cells-01-01121">17</xref>,<xref ref-type="bibr" rid="B26-cells-01-01121">26</xref>], and stimulated uptake of plasmid DNAs from the apical plasma membrane of the SG epithelium [<xref ref-type="bibr" rid="B18-cells-01-01121">18</xref>,<xref ref-type="bibr" rid="B27-cells-01-01121">27</xref>]. Interestingly, we found that both the regulation and the modality of exocytic events differed significantly between animal models and <italic>in vitro</italic> experimental systems [<xref ref-type="bibr" rid="B20-cells-01-01121">20</xref>,<xref ref-type="bibr" rid="B28-cells-01-01121">28</xref>]. Here, we sought to extend our investigations to endocytic events. Specifically, we imaged and compared the kinetics of uptake of transferrin (Tfn) and dextran in a population of stromal cells both in the SGs of live rats and after the cells were explanted and grown on glass. </p>
+    </sec>
+    <sec sec-type="results">
+      <title>2. Results and Discussion</title>
+      <sec>
+        <title>2.1. Cell Architecture and Organization of Endocytic Organelles Differ between Cell Cultures and Fully Developed Tissue</title>
+        <p>Cells cultured on solid surfaces are exposed to an environment that is different from the one surrounding cells in a living multicellular organism. In order to determine whether environment and spatial organization affect the architecture of subcellular compartments, we compared cells grown either on glass or in a 3D matrix with cells in intact tissues. Specifically, we used a cell line derived from human submandibular glands (HSG) (<xref ref-type="fig" rid="cells-01-01121-f001">Figure 1</xref>A upper panel) [<xref ref-type="bibr" rid="B29-cells-01-01121">29</xref>,<xref ref-type="bibr" rid="B30-cells-01-01121">30</xref>] which forms polarized acinar-like structures that morphologically resemble the acini in intact SGs, when cultured in matrigel (<xref ref-type="fig" rid="cells-01-01121-f001">Figure 1</xref>A center panel) [<xref ref-type="bibr" rid="B31-cells-01-01121">31</xref>,<xref ref-type="bibr" rid="B32-cells-01-01121">32</xref>]. First, HSG cells were stained with phalloidin, to reveal the organization of the actin cytoskeleton (<xref ref-type="fig" rid="cells-01-01121-f001">Figure 1</xref>B). In HSG grown either on glass or plastic surfaces actin formed stress fibers and the nuclei where localized in the center of the cells (<xref ref-type="fig" rid="cells-01-01121-f001">Figure 1</xref>B upper panel). When grown in matrigel, cells formed polarized acini with the nuclei located at the basolateral plasma membrane and actin reorganized in thick bundles at the apical cell cortex (<xref ref-type="fig" rid="cells-01-01121-f001">Figure 1</xref>B middle panel, arrow). Notably, in intact SGs the organization of actin was more complex. Indeed, actin decorated very narrow canaliculi that are localized exclusively at the apical plasma membrane (<xref ref-type="fig" rid="cells-01-01121-f001">Figure 1</xref>B lower panels, arrows). These results suggest that in SGs-derived cells removing the constrains imposed by the interaction with a solid substrate and establishing cell-cell interactions in three dimensions is sufficient to promote a dramatic rearrangement of the architecture of the cells, the actin cytoskeleton, and to initiate polarity. Similar conclusions were derived for mouse fibroblasts grown under similar conditions and compared with mouse tissue [<xref ref-type="bibr" rid="B33-cells-01-01121">33</xref>]. Next, we analyzed the localization of transferrin receptor (TfnR), a marker for early and recycling endosomes [<xref ref-type="bibr" rid="B34-cells-01-01121">34</xref>], and VAMP8, a SNARE protein that has been implicated in regulated exocytosis in several systems [<xref ref-type="bibr" rid="B35-cells-01-01121">35</xref>,<xref ref-type="bibr" rid="B36-cells-01-01121">36</xref>]. Interestingly, in both 2D and 3D cell cultures, VAMP8 colocalized with TfnR (<xref ref-type="fig" rid="cells-01-01121-f001">Figure 1</xref>C upper and center panels), whereas in the intact tissue they did not. More specifically, in SGs, VAMP8 localized in the subapical area of the acinar cells, whereas TfnR localized in intracellular vesicles closer to the perinuclear area (<xref ref-type="fig" rid="cells-01-01121-f001">Figure 1</xref>C lower panels). These findings strongly suggest that both the spatial organization and the unique combination of molecules that are present in the intact tissue substantially affect the organization of the intracellular compartments. </p>
+      </sec>
+      <sec>
+        <title>2.2. The Dynamics of Endocytosis in Live Animals Differs from that in Cell Culture</title>
+        <p>These morphological differences raise a fundamental question on whether the dynamics of membrane trafficking events may vary between cultured cells and live animals. Since we have recently shown that both the regulation and the modality of exocytosis in live animals are significantly different from what reported in <italic>in vitro</italic> model systems [<xref ref-type="bibr" rid="B20-cells-01-01121">20</xref>], here we sought to extend our investigation to endocytic events. We imaged fluorescently-labeled Tfn and dextran in the submandibular SGs of live rats, two molecules that are internalized by clathrin-dependent and clathrin-independent pathways, respectively [<xref ref-type="bibr" rid="B37-cells-01-01121">37</xref>,<xref ref-type="bibr" rid="B38-cells-01-01121">38</xref>]. To this aim, Texas-Red Tfn (TXR-Tfn) and Alexa-488 dextran (488-D) were injected systemically in the tail artery of anesthetized rats, as previously described [<xref ref-type="bibr" rid="B17-cells-01-01121">17</xref>,<xref ref-type="bibr" rid="B26-cells-01-01121">26</xref>]. Since excess of Tfn can be diverted to non-clathrin pathways, we injected 200 &#x3BC;g of fluorescent Tfn an amount equivalent to approximately 1:100 of the Tfn plasma levels, as estimated by others [<xref ref-type="bibr" rid="B39-cells-01-01121">39</xref>]. Moreover, in order to minimize any difference between the diffusion of the two probes either from the vasculature or throughout the stroma, we used a 70-kDa dextran that has a MW close to that of Tfn (80 kDa). We found that both molecules appeared in the vasculature and diffused into the stroma a few seconds after injection (<xref ref-type="fig" rid="cells-01-01121-f002">Figure 2</xref>A, arrow). Three min after the injection only dextran was internalized in stromal cells (<xref ref-type="fig" rid="cells-01-01121-f002">Figure 2</xref>A arrowheads) whereas Tfn was detected in endosomal vesicles after 10 min (not shown). Interestingly, endocytosis was evident mainly in stromal cells while the polarized epithelium did not seem to internalize the fluorescent Tfn and dextran. Furthermore, the observed Tfn internalization by stromal cells was slower than what has been reported in tissue culture. One explanation for the delayed internalization of Tfn with respect to dextran is a difference in the diffusion rate out of the vasculature, in spite of their similar MW. To overcome this potential issue we delivered the probes by a direct injection into the exposed glands, and imaged in an area distant from the injection site (<xref ref-type="fig" rid="cells-01-01121-f002">Figure 2</xref>B). Interestingly, although both molecules were clearly observed in the stroma (<xref ref-type="fig" rid="cells-01-01121-f002">Figure 2</xref>B left panels, arrows), only dextran was internalized by stromal cells within 5 min from the injection (<xref ref-type="fig" rid="cells-01-01121-f002">Figure 2</xref>B left panels, arrowhead). After 20 min, Tfn was internalized and localized in endosomes different than those containing dextran (<xref ref-type="fig" rid="cells-01-01121-f002">Figure 2</xref>B, center panels, asterisks). After 30 min, both molecules overlapped in a small subpopulation of endosomes (<xref ref-type="fig" rid="cells-01-01121-f002">Figure 2</xref>B, right panels). Notably, the slower rate of Tfn internalization was not due to the lack of expression of TfnR and/or clathrin, as shown in <xref ref-type="fig" rid="cells-01-01121-f002">Figure 2</xref>C, suggesting that  <italic>in vivo</italic> Tfn uptake may be regulated differently than <italic>in vitro</italic>. </p>
+        <p>Indeed, in cell culture Tfn has been reported to be internalized in few seconds, whereas dextran exhibits a slower kinetics of internalization [<xref ref-type="bibr" rid="B40-cells-01-01121">40</xref>]. To determine whether the kinetics of internalization observed in live animals is a unique property of the SGs stromal cells, we developed a procedure to isolate and culture them on glass. Specifically, a 70 kDa Cy5-dextran was injected in the SGs, and after one h they were excised, minced, and the stromal cells were enzymatically isolated, as described in the experimental procedures. Cells were then seeded on glass coverslips and the presence of dextran was assessed by confocal microscopy (<xref ref-type="fig" rid="cells-01-01121-f003">Figure 3</xref>A). After 24 h, adherent cells were incubated with fluorescent 488-D and TXR-Tfn. Strikingly, Tfn was internalized within 30 seconds, whereas dextran was internalized after 10–15 min (<xref ref-type="fig" rid="cells-01-01121-f003">Figure 3</xref>B). After 30 min, both probes were detected in intracellular structures and no colocalization was detected. </p>
+        <p>These results suggest that endocytic pathways undergo substantial modifications when cells are removed from their <italic>in vivo</italic> environment. These modifications can be interpreted as an adaptive response to the new environment. For example, we can speculate that the increase in the kinetics of Tfn internalization may be related to a need to increase iron metabolism, as protection from either oxidative stress or bacterial infection. Indeed, the increase in oxygen levels and the lack of cytokines from the immune system may work as a trigger to alter these processes. Alternatively, it is possible that the interactions between cells and extracellular matrix <italic>in vivo</italic> may negatively regulate receptor-mediated endocytosis. Understanding the mechanisms underlying these modifications may provide novel information on the regulation of endocytosis under physiological conditions. </p>
+        <fig id="cells-01-01121-f001" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p>Cell architecture and organization of subcellular compartments depend on the experimental model—human submandibular glands (HSG) cells were cultured either on glass (2D, upper panels) or on 5 mg/mL matrigel (3D, center panels), as described in Material and Methods. (<bold>A</bold>) Phase contrast images of HSG cells grown in 2D (upper panel) or in 3D (center panel). In 3D cells form acinar-like structures that resemble the acini in intact SGs. In the lower panel an intact rat submandibular gland was imaged by two-photon microscopy (Excitation 740 nm) as previously described [<xref ref-type="bibr" rid="B17-cells-01-01121">17</xref>]. An acinus is highlighted (red broken line). (<bold>B</bold>) HSG cells grown in 2D or 3D and intact salivary glands were labeled with Hoechst (blue) and Texas-Red Phallodin (red) to highlight nuclei and actin respectively. Z-scans were acquired by confocal microsopy (excitation 405 nm and 562 nm) and maximal projections of the stacks are shown. In 2D, actin is mainly localized in stress fibers (upper panels, arrow), whereas in 3D is localized at the plasma membrane (center panel, arrow). In intact SGs, actin is localized primarily at the apical plasma membrane and decorates the acinar canaliculi (lower panel, arrows). Bars, 10 &#x3BC;m. (<bold>C</bold>) HSG cells and intact SGs were labeled with antibodies against VAMP8 (red) and TfnR (green). HSG cells were also labeled with Hoechst (blue), whereas SGs were labeled with phalloidin (Cyan). Note that in SGs VAMP8 is localized close to the apical plasma membrane and does not colocalize with TfnR (lower panel). Bars, 10 &#x3BC;m.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-01121-g001.tif"/>
+        </fig>
+        <fig id="cells-01-01121-f002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>Kinetics of internalization of dextran and transferrin <italic>in vivo</italic>. (<bold>A</bold>) The submandibular SGs of an anesthetized rat were exposed and imaged in time-lapse by two-photon microscopy (excitation wavelength 840 nm). A mixture of 10 &#x3BC;g/mL TXR-Tfn and Alexa 488-dextran (70 kDa) was injected into the tail artery of the animal (time 0:00). After few seconds both probes appeared in the vasculature (time 0:03) and diffused into the stroma (time 0:40, arrow). After few min (time 3:30 and 7:00) only dextran (green) was internalized by stromal cells (arrowheads). (<bold>B</bold>) Left panel. Diagram showing the procedure for intra-organ injection. Right panel. A mixture of 10 &#x3BC;g/mL TXR-Tfn and Alexa 488-dextran (70 kDa) was injected into the stroma of the rat SGs and the internalization was imaged in time-lapse by intravital two-photon microscopy (Excitation wavelength, 840 nm). Snapshots were taken at 6, 20 and 30 min. Tfn in red and dextran in green. Bar, 20 &#x3BC;m. (<bold>C</bold>) Rat submandibular SGs were either fixed immediately (upper panel) and labeled for TfnR (green) and the nuclei (blue) or injected with TXR-Tfn (lower panel, red), and then processed for immunocytochemistry to reveal clathrin (green) and the nuclei (blue). Note, that at steady state TfnR1 is primarily localized in endosomal structures. The levels at the plasma membrane are low and not easily detectable by antibody staining. Bar 5 &#x3BC;m.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-01121-g002.tif"/>
+        </fig>
+        <fig id="cells-01-01121-f003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>Kinetics of internalization of dextran and transferrin <italic>in vitro</italic>. (<bold>A</bold>) Diagram showing the procedure to label and isolate stromal cells from rat submandibular SGs. Anesthetized animals were injected with Cy5-dextran and euthanized after 1 h. The submandibular SGs were removed and imaged by two-photon microscopy (excitation 930 nm) to detect the internalization of the dextran (red) in stromal cells (upper panel, arrows). Collagen fibers were also imaged (cyan). The glands were minced and dispersed by enzymatic digestion. Cells were sorted by FACS and cultured on glass coverslips. To check whether cy5-dextran was retained in cultures, cells were labeled with Hoechst (blue) imaged by confocal microscopy (lower panel). (<bold>B</bold>) Rat derived stromal cellswere grown on coverslips for 24 h and incubated with a mixture of 10 &#x3BC;g/mL TXR-Tfn and Alexa-488 dextran (70 kDa). Cells were imaged in time-lapse by using confocal microscopy (excitation 488 nm and 561 nm). Snapshots were taken at 2, 15 and 30 min. Tfn (red) was internalized within the first 2 min (left panels) whereas dextran (green) appeared after 10–15 min (center and right panels). Bar, 5 &#x3BC;m<bold>.</bold></p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-01121-g003.tif"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec>
+      <title>3. Experimental Section</title>
+      <sec>
+        <title>3.1. Fluorescent Probes</title>
+        <p>All the fluorescent molecules and the secondary antibodies were purchased from Invitrogen (Carlsbad, CA, USA). Mouse anti-clathrin and rabbit anti VAMP8 antibodies were from Abcam Inc. (Cambridge, MA, USA), mouse anti-TfnR antibody was from Zymed (Carlsbad, CA, USA). </p>
+      </sec>
+      <sec sec-type="methods">
+        <title>3.2. Animal Procedures</title>
+        <p>Sprague–Dawley male rats weighing 150–250 g were obtained from Harlan Laboratories Inc. (Frederick, MD, USA). The animals were acclimated for one week before used for the procedures. Water and food were provided <italic>ad libitum</italic>. All the experiments were approved by the National Institute of Dental and Craniofacial Research (NIDCR, National Institute of Health, Bethesda, MD, USA) Animal Care and Use Committee. The animals were anesthetized by an IM injection of a mixture of Ketamine and Xylazine (100 mg/kg an 20 mg/kg respectively) with additional injections as needed. Intravital microscopy and injection of the probes were preformed as described in [<xref ref-type="bibr" rid="B17-cells-01-01121">17</xref>,<xref ref-type="bibr" rid="B24-cells-01-01121">24</xref>]</p>
+      </sec>
+      <sec>
+        <title>3.3. Intravital and Conventional Microscopy</title>
+        <p>An IX81 inverted confocal microscope (Olympus, Melville, NY, USA) was modified to perform two-photon microscopy as described previously [<xref ref-type="bibr" rid="B26-cells-01-01121">26</xref>]. The excised glands and cultured cells were imaged in the inverted setting while time lapse imaging on the live animal was performed in the upright configuration using an objective inverter (LSM Technology Inc., Shrewsbury, PA, USA) [<xref ref-type="bibr" rid="B41-cells-01-01121">41</xref>]. For the time lapse imaging the acquisition speed was set to 0.3 frames/sec. All the images and movies were acquired using a UPLSAPO 60X NA 1.2 water immersion objective (Olympus). </p>
+      </sec>
+      <sec>
+        <title>3.4. Image Processing</title>
+        <p>When needed, the background noise was reduced by applying to each image one or two rounds of a 2 &#xD7; 2 pixel low-pass filter by using METAMORPH (Molecular Devices). Brightness, contrast and gamma correction were applied. Volume rendering was performed using IMARIS 5.6 and 6.0 64 bit (Bitplane). The final preparation of the images was conducted with ADOBE PHOTOSHOP CS. </p>
+      </sec>
+      <sec>
+        <title>3.5. Cell Cultures in 2D and 3D</title>
+        <p>HSG cells [<xref ref-type="bibr" rid="B30-cells-01-01121">30</xref>] were cultured in Dulbecco&#x2019;s modified Eagle&#x2019;s medium/Ham&#x2019;s F-12 (1:1) (Invitrogen, CA) in the presence of 5% fetal bovine serum, 100 U/mL penicillin, and 100 mg/mL streptomycin (Sigma-Aldrich, MO) at 37 &#xB0;C in a 5% CO<sub>2</sub> humidified atmosphere. </p>
+        <p>Growth factor-reduced matrigel (Trevigen, MD, USA) was diluted in complete medium at the appropriate concentration (2.0–6.0 mg/mL), added to a 12-well tissue culture dish, and incubated for 1 h at 37 &#xB0;C before culturing of the cells. 50 cells/mm<sup>2</sup> were added onto the pre-solidified matrigel and grown for different times. Acinar cells were recovered from the matrigel by incubating in cell recovery solution (Trevigen, MD) for 30 min on ice. Acinar cells released from the matrigel were spread on glass coverslips and dehydrated at 37 &#xB0;C for 15 min. Cells were then fixed in 2% formaldehyde/PBS, incubated first in blocking solution (10% FBS, 0.02% sodium azide in PBS) for 15 min, and later with various primary antibodies for 1 h at RT. Cells were then washed and incubated with the appropriate secondary antibodies for 1 h at RT. After three washes with blocking solution, nuclei were labeled by incubating the cells with Hoechst 33342 before mounting.</p>
+      </sec>
+      <sec>
+        <title>3.6. Whole Mount Immunocytochemistry</title>
+        <p>Isolated glands were fixed for 20 min in 0.05% Glutharaldehyde/4% formaldehyde in 0.2M Hepes pH 7.3 and then transferred for 1 h in 4% formaldehyde. The glands were sliced from the surface and fixed again in 4% formaldehyde for 30 min. The fixative was washed in PBS and the slices were blocked overnight at 4 &#xB0;C in PBS, 10% fetal bovine serum, 0.04% saponin (blocking solution). The slices were incubated for 1 h with the primary antibody in blocking solution, washed 3 &#xD7; 10&#x2019; in PBS and then incubated with the appropriate secondary antibody for 1 h at R.T. The samples were washed 3 &#xD7; 10&#x2019; in PBS and then imaged by either two-photon or confocal microscopy.</p>
+      </sec>
+      <sec>
+        <title>3.7. Cell Cultures from Rat Salivary Glands</title>
+        <p>Sprague-Dawley rats were anesthetized, the submandibular SGs exposed, and 50 &#x3BC;L of 10 &#x3BC;g/mL Cy5 dextran were injected on the side of each gland. After one h, the glands were excised, placed in ice-cold 1% BSA in DMEM. The glands were then injected with the same medium using a syringe equipped with a 30 GG needle. After 5-10 injections the connective tissue was separated from the SGs lobules, collected, and incubated for 1 h at 37 &#xB0;C in 2 mg/mL collagenase and 0.125 mg/mL dispase (Invitrogen). The tissue was homogenized by continuous pipetting with a 10 mL pipette and filtered through a sterile gauze to remove large fragments. The cells suspension was centrifuged at 2,000 rpm for 5 min and the pellet suspended in fresh DMEM containing 5% fetal bovine serum, 100 U/mL penicillin, and 100 mg/mL streptomycin (Sigma-Aldrich, MO, USA). The cells suspension was seeded on sterilized glass coverslips and grown at 37 &#xB0;C in a 5% CO<sub>2</sub> humidified atmosphere. After 24 h the coverslips were incubated for 30 min with 0.5% BSA in DMEM and the internalization of Tfn and dextran was performed in the same medium. </p>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>So far, the gold standard for the study of cell biological processes has been cell cultures. For example, most of our knowledge about membrane trafficking events is derived from <italic>in vitro</italic> studies and the use of very sophisticated experimental approaches and techniques. Cell cultures models are an extremely powerful tool to tease out complex molecular machineries and they will continue to be the main workhorse for studying several aspects of cell biology. However, the recent introduction of IVM as a tool to image subcellular structures offers the opportunity to address basic cell biology questions in the live animal. Furthermore, it would allow us to challenge various paradigms, arising from tissue culture models, in the context of a fully developed organ. </p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>This research was supported by the Intramural Research Program of the NIH, National Institute of Dental and Craniofacial Research.</p>
+    </ack>
+    <notes>
+      <title>Conflict of Interest</title>
+      <p>The authors declare no conflict of interest. </p>
+    </notes>
+    <ref-list>
+      <title>References and Notes</title>
+      <ref id="B1-cells-01-01121">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lippincott-Schwartz</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bridging structure and process in developmental biology through new imaging technologies</article-title>
+          <source>Dev. Cell.</source>
+          <year>2011</year>
+          <volume>21</volume>
+          <fpage>5</fpage>
+          <lpage>10</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.devcel.2011.06.030</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-cells-01-01121">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lippincott-Schwartz</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Emerging  <italic>in vivo</italic> analyses of cell function using fluorescence imaging (*)</article-title>
+          <source>Annu. Rev. Biochem.</source>
+          <year>2011</year>
+          <volume>80</volume>
+          <fpage>327</fpage>
+          <lpage>332</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev-biochem-121010-125553</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-cells-01-01121">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kedrin</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Gligorijevic</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Wyckoff</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Verkhusha</surname>
+              <given-names>V.V.</given-names>
+            </name>
+            <name>
+              <surname>Condeelis</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Segall</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>van Rheenen</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intravital imaging of metastatic behavior through a mammary imaging window</article-title>
+          <source>Nat. Methods</source>
+          <year>2008</year>
+          <volume>5</volume>
+          <fpage>1019</fpage>
+          <lpage>1021</lpage>
+        </citation>
+      </ref>
+      <ref id="B4-cells-01-01121">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wyckoff</surname>
+              <given-names>J.B.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>E.Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Goswami</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Stanley</surname>
+              <given-names>E.R.</given-names>
+            </name>
+            <name>
+              <surname>Segall</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Pollard</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Condeelis</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Direct visualization of macrophage-assisted tumor cell intravasation in mammary tumors</article-title>
+          <source>Cancer Res.</source>
+          <year>2007</year>
+          <volume>67</volume>
+          <fpage>2649</fpage>
+          <lpage>2656</lpage>
+        </citation>
+      </ref>
+      <ref id="B5-cells-01-01121">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ghajar</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Bissell</surname>
+              <given-names>M.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Extracellular matrix control of mammary gland morphogenesis and tumorigenesis: insights from imaging</article-title>
+          <source>Histochem. Cell. Biol.</source>
+          <year>2008</year>
+          <volume>130</volume>
+          <fpage>1105</fpage>
+          <lpage>1118</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00418-008-0537-1</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-cells-01-01121">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Boudreau</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bissell</surname>
+              <given-names>M.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Tissue architecture and function: dynamic reciprocity via extra- and intra-cellular matrices</article-title>
+          <source>Cancer Metastasis. Rev.</source>
+          <year>2009</year>
+          <volume>28</volume>
+          <fpage>167</fpage>
+          <lpage>176</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10555-008-9178-z</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-cells-01-01121">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Denk</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Strickler</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Webb</surname>
+              <given-names>W.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Two-photon laser scanning fluorescence microscopy</article-title>
+          <source>Science</source>
+          <year>1990</year>
+          <volume>248</volume>
+          <fpage>73</fpage>
+          <lpage>76</lpage>
+        </citation>
+      </ref>
+      <ref id="B8-cells-01-01121">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Amornphimoltham</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Masedunskas</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Weigert</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intravital microscopy as a tool to study drug delivery in preclinical studies</article-title>
+          <source>Adv. Drug Deliv. Rev.</source>
+          <year>2011</year>
+          <volume>63</volume>
+          <fpage>119</fpage>
+          <lpage>128</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.addr.2010.09.009</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-cells-01-01121">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ritsma</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ponsioen</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>van Rheenen</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intravital imaging of cell signaling in mice</article-title>
+          <source>IntraVital</source>
+          <year>2012</year>
+          <volume>1</volume>
+          <fpage>2</fpage>
+          <lpage>10</lpage>
+        </citation>
+      </ref>
+      <ref id="B10-cells-01-01121">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weigert</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Sramkova</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Parente</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Amornphimoltham</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Masedunskas</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intravital microscopy: A novel tool to study cell biology in living animals</article-title>
+          <source>Histochem. Cell. Biol.</source>
+          <year>2010</year>
+          <volume>133</volume>
+          <fpage>481</fpage>
+          <lpage>491</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00418-010-0692-z</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-01-01121">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alexander</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Koehl</surname>
+              <given-names>G.E.</given-names>
+            </name>
+            <name>
+              <surname>Hirschberg</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Geissler</surname>
+              <given-names>E.K.</given-names>
+            </name>
+            <name>
+              <surname>Friedl</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dynamic imaging of cancer growth and invasion: A modified skin-fold chamber model</article-title>
+          <source>Histochem. Cell. Biol.</source>
+          <year>2008</year>
+          <volume>130</volume>
+          <fpage>1147</fpage>
+          <lpage>1154</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00418-008-0529-1</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-cells-01-01121">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mempel</surname>
+              <given-names>T.R.</given-names>
+            </name>
+            <name>
+              <surname>Henrickson</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Von Andrian</surname>
+              <given-names>U.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>T-cell priming by dendritic cells in lymph nodes occurs in three distinct phases</article-title>
+          <source>Nature</source>
+          <year>2004</year>
+          <volume>427</volume>
+          <fpage>154</fpage>
+          <lpage>159</lpage>
+        </citation>
+      </ref>
+      <ref id="B13-cells-01-01121">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pan</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Gan</surname>
+              <given-names>W.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Two-photon imaging of dendritic spine development in the mouse cortex</article-title>
+          <source>Dev. Neurobiol.</source>
+          <year>2008</year>
+          <volume>68</volume>
+          <fpage>771</fpage>
+          <lpage>778</lpage>
+          <pub-id pub-id-type="doi">10.1002/dneu.20630</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-cells-01-01121">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pittet</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Weissleder</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intravital imaging</article-title>
+          <source>Cell</source>
+          <year>2011</year>
+          <volume>147</volume>
+          <fpage>983</fpage>
+          <lpage>991</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2011.11.004</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15-cells-01-01121">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Svoboda</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Yasuda</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Principles of two-photon excitation microscopy and its applications to neuroscience</article-title>
+          <source>Neuron</source>
+          <year>2006</year>
+          <volume>50</volume>
+          <fpage>823</fpage>
+          <lpage>839</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.neuron.2006.05.019</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-cells-01-01121">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Orth</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Kohler</surname>
+              <given-names>R.H.</given-names>
+            </name>
+            <name>
+              <surname>Foijer</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Sorger</surname>
+              <given-names>P.K.</given-names>
+            </name>
+            <name>
+              <surname>Weissleder</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Mitchison</surname>
+              <given-names>T.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of mitosis and antimitotic drug responses in tumors by  <italic>in vivo</italic> microscopy and single-cell pharmacodynamics</article-title>
+          <source>Cancer Res.</source>
+          <year>2011</year>
+          <volume>71</volume>
+          <fpage>4608</fpage>
+          <lpage>4616</lpage>
+          <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-11-0412</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17-cells-01-01121">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Masedunskas</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Weigert</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intravital two-photon microscopy for studying the uptake and trafficking of fluorescently conjugated molecules in live rodents</article-title>
+          <source>Traffic</source>
+          <year>2008</year>
+          <volume>9</volume>
+          <fpage>1801</fpage>
+          <lpage>1810</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1600-0854.2008.00798.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18-cells-01-01121">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sramkova</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Masedunskas</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Weigert</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Plasmid DNA is internalized from the apical plasma membrane of the salivary gland epithelium in live animals</article-title>
+          <source>Histochem. Cell. Biol.</source>
+          <year>2012</year>
+          <volume>138</volume>
+          <fpage>201</fpage>
+          <lpage>213</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00418-012-0959-7</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19-cells-01-01121">
+        <label>19.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sramkova</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Porat-Shliom</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Masedunskas</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Wigand</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Amornphimoltham</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Weigert</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Salivary Glands: A Powerful Experimental System to Study Cell Biology in Live Animals by</article-title>
+          <source>travital Microscopy. In Current Frontiers and Perspectives in Cell Biology</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Najman</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Intech</publisher-name>
+          <publisher-loc>Rijek,Croatia</publisher-loc>
+          <year>2012</year>
+        </citation>
+      </ref>
+      <ref id="B20-cells-01-01121">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Masedunskas</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sramkova</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Parente</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Sales</surname>
+              <given-names>K.U.</given-names>
+            </name>
+            <name>
+              <surname>Amornphimoltham</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Bugge</surname>
+              <given-names>T.H.</given-names>
+            </name>
+            <name>
+              <surname>Weigert</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role for the actomyosin complex in regulated exocytosis revealed by intravital microscopy</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2011</year>
+          <volume>108</volume>
+          <fpage>13552</fpage>
+          <lpage>13557</lpage>
+        </citation>
+      </ref>
+      <ref id="B21-cells-01-01121">
+        <label>21.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Masedunskas</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Milber</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Porat-Shliom</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Wigand</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Amornphimoltham</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Weigert</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intravital Microscopy: A practical guide on imaging intracellular structures in live animals</article-title>
+          <source>Bioarchitecture</source>
+          <year>2012</year>
+          <volume>2</volume>
+          <fpage>143</fpage>
+          <lpage>157</lpage>
+        </citation>
+      </ref>
+      <ref id="B22-cells-01-01121">
+        <label>22.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dunn</surname>
+              <given-names>K.W.</given-names>
+            </name>
+            <name>
+              <surname>Sandoval</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Kelly</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Dagher</surname>
+              <given-names>P.C.</given-names>
+            </name>
+            <name>
+              <surname>Tanner</surname>
+              <given-names>G.A.</given-names>
+            </name>
+            <name>
+              <surname>Atkinson</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Bacallao</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Molitoris</surname>
+              <given-names>B.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional studies of the kidney of living animals using multicolor two-photon microscopy</article-title>
+          <source>Am. J. Physiol. Cell. Physiol.</source>
+          <year>2002</year>
+          <volume>283</volume>
+          <fpage>C905</fpage>
+          <lpage>C916</lpage>
+        </citation>
+      </ref>
+      <ref id="B23-cells-01-01121">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sandoval</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Kennedy</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Low</surname>
+              <given-names>P.S.</given-names>
+            </name>
+            <name>
+              <surname>Molitoris</surname>
+              <given-names>B.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Uptake and trafficking of fluorescent conjugates of folic acid in intact kidney determined using intravital two-photon microscopy</article-title>
+          <source>Am. J. Physiol. Cell. Physiol.</source>
+          <year>2004</year>
+          <volume>287</volume>
+          <fpage>C517</fpage>
+          <lpage>C526</lpage>
+          <pub-id pub-id-type="doi">10.1152/ajpcell.00006.2004</pub-id>
+        </citation>
+      </ref>
+      <ref id="B24-cells-01-01121">
+        <label>24.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Masedunskas</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sramkova</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Parente</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Weigert</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intravital Microscopy to Image Membrane Trafficking in Live Rats</article-title>
+          <source>Methods Mol. Biol.</source>
+          <year>2012</year>
+          <volume>931</volume>
+          <fpage>153</fpage>
+          <lpage>167</lpage>
+        </citation>
+      </ref>
+      <ref id="B25-cells-01-01121">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Masedunskas</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Porat-Shliom</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Weigert</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulated exocytosis: Novel insights from intravital microscopy</article-title>
+          <source>Traffic</source>
+          <year>2012</year>
+          <volume>13</volume>
+          <fpage>627</fpage>
+          <lpage>634</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1600-0854.2012.01328.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B26-cells-01-01121">
+        <label>26.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Masedunskas</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Weigert</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Internalization of fluorescent dextrans in the submandibular salivaryglands of live animals: A study combining intravital two-photon microscopy and second harmonic generation</article-title>
+          <source>SPIE</source>
+          <year>2008</year>
+          <volume>6860</volume>
+          <fpage>V68601</fpage>
+          <lpage>V68612</lpage>
+          <pub-id pub-id-type="doi">10.1117/12.768051</pub-id>
+        </citation>
+      </ref>
+      <ref id="B27-cells-01-01121">
+        <label>27.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sramkova</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Masedunskas</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Parente</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Molinolo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Weigert</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression of plasmid DNA in the salivary gland epithelium: Novel approaches to study dynamic cellular processes in live animals</article-title>
+          <source>Am. J. Physiol. Cell. Physiol.</source>
+          <year>2009</year>
+          <volume>297</volume>
+          <fpage>C1347</fpage>
+          <lpage>C1357</lpage>
+          <pub-id pub-id-type="doi">10.1152/ajpcell.00262.2009</pub-id>
+        </citation>
+      </ref>
+      <ref id="B28-cells-01-01121">
+        <label>28.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Masedunskas</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sramkova</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Weigert</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Homeostasis of the apical plasma membrane during regulated exocytosis in the salivary glands of live rodents</article-title>
+          <source>Bioarchitecture</source>
+          <year>2011</year>
+          <volume>1</volume>
+          <fpage>225</fpage>
+          <lpage>229</lpage>
+          <pub-id pub-id-type="doi">10.4161/bioa.18405</pub-id>
+        </citation>
+      </ref>
+      <ref id="B29-cells-01-01121">
+        <label>29.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Cukierman</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Swaim</surname>
+              <given-names>W.D.</given-names>
+            </name>
+            <name>
+              <surname>Yamada</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Baum</surname>
+              <given-names>B.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Extracellular matrix protein-induced changes in human salivary epithelial cell organization and proliferation on a model biological substratum</article-title>
+          <source>Biomaterials</source>
+          <year>1999</year>
+          <volume>11</volume>
+          <fpage>1043</fpage>
+          <lpage>1049</lpage>
+        </citation>
+      </ref>
+      <ref id="B30-cells-01-01121">
+        <label>30.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Royce</surname>
+              <given-names>L.S.</given-names>
+            </name>
+            <name>
+              <surname>Kibbey</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Mertz</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kleinman</surname>
+              <given-names>H.K.</given-names>
+            </name>
+            <name>
+              <surname>Baum</surname>
+              <given-names>B.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Human neoplastic submandibular intercalated duct cells express an acinar phenotype when cultured on a basement membrane matrix</article-title>
+          <source>Differentiation</source>
+          <year>1993</year>
+          <volume>52</volume>
+          <fpage>247</fpage>
+          <lpage>255</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1432-0436.1993.tb00637.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B31-cells-01-01121">
+        <label>31.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hoffman</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Nomizu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Roque</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Jung</surname>
+              <given-names>D.W.</given-names>
+            </name>
+            <name>
+              <surname>Yamada</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kleinman</surname>
+              <given-names>H.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Laminin-1 and laminin-2 G-domain synthetic peptides bind syndecan-1 and are involved in acinar formation of a human submandibular gland cell line</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1998</year>
+          <volume>273</volume>
+          <fpage>28633</fpage>
+          <lpage>28641</lpage>
+        </citation>
+      </ref>
+      <ref id="B32-cells-01-01121">
+        <label>32.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hoffman</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Kibbey</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Letterio</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Kleinman</surname>
+              <given-names>H.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of laminin-1 and TGF-beta 3 in acinar differentiation of a human submandibular gland cell line (HSG)</article-title>
+          <source>J. Cell. Sci.</source>
+          <year>1996</year>
+          <volume>109</volume>
+          <fpage>2013</fpage>
+          <lpage>2021</lpage>
+        </citation>
+      </ref>
+      <ref id="B33-cells-01-01121">
+        <label>33.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cukierman</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Pankov</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Stevens</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Yamada</surname>
+              <given-names>K.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Taking cell-matrix adhesions to the third dimension</article-title>
+          <source>Science</source>
+          <year>2001</year>
+          <volume>294</volume>
+          <fpage>1708</fpage>
+          <lpage>1712</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1064829</pub-id>
+        </citation>
+      </ref>
+      <ref id="B34-cells-01-01121">
+        <label>34.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mayle</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Le</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Kamei</surname>
+              <given-names>D.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>The intracellular trafficking pathway of transferrin</article-title>
+          <source>Biochim. Biophys. Acta</source>
+          <year>2010</year>
+          <volume>1820</volume>
+          <fpage>264</fpage>
+          <lpage>281</lpage>
+        </citation>
+      </ref>
+      <ref id="B35-cells-01-01121">
+        <label>35.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thorn</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Gaisano</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular control of compound Exocytosis: A key role for VAMP8</article-title>
+          <source>Commun. Integr. Biol.</source>
+          <year>2012</year>
+          <volume>5</volume>
+          <fpage>61</fpage>
+          <lpage>63</lpage>
+          <pub-id pub-id-type="doi">10.4161/cib.18058</pub-id>
+        </citation>
+      </ref>
+      <ref id="B36-cells-01-01121">
+        <label>36.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lam</surname>
+              <given-names>P.P.</given-names>
+            </name>
+            <name>
+              <surname>Dolai</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Cai</surname>
+              <given-names>E.P.</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Schroer</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Kang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Allister</surname>
+              <given-names>E.M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Dual Role of VAMP8 in Regulating Insulin Exocytosis and Islet beta Cell Growth</article-title>
+          <source>Cell. Metab.</source>
+          <year>2012</year>
+          <volume>16</volume>
+          <fpage>238</fpage>
+          <lpage>249</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cmet.2012.07.001</pub-id>
+        </citation>
+      </ref>
+      <ref id="B37-cells-01-01121">
+        <label>37.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Donaldson</surname>
+              <given-names>J.G.</given-names>
+            </name>
+            <name>
+              <surname>Porat-Shliom</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>L.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Clathrin-independent endocytosis: A unique platform for cell signaling and PM remodeling</article-title>
+          <source>Cell. Signal.</source>
+          <year>2009</year>
+          <volume>21</volume>
+          <fpage>1</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cellsig.2008.06.020</pub-id>
+        </citation>
+      </ref>
+      <ref id="B38-cells-01-01121">
+        <label>38.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sandvig</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Pust</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Skotland</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>van Deurs</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Clathrin-independent endocytosis: Mechanisms and function</article-title>
+          <source>Curr. Opin. Cell. Biol.</source>
+          <year>2011</year>
+          <volume>23</volume>
+          <fpage>413</fpage>
+          <lpage>420</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ceb.2011.03.007</pub-id>
+        </citation>
+      </ref>
+      <ref id="B39-cells-01-01121">
+        <label>39.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morgan</surname>
+              <given-names>E.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transferrin and albumin distribution and turnover in the rat</article-title>
+          <source>Am. J. Physiol.</source>
+          <year>1966</year>
+          <volume>211</volume>
+          <fpage>1486</fpage>
+          <lpage>1494</lpage>
+        </citation>
+      </ref>
+      <ref id="B40-cells-01-01121">
+        <label>40.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Naslavsky</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Weigert</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Donaldson</surname>
+              <given-names>J.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of a nonclathrin endocytic pathway: Membrane cargo and lipid requirements</article-title>
+          <source>Mol. Biol. Cell.</source>
+          <year>2004</year>
+          <volume>15</volume>
+          <fpage>3542</fpage>
+          <lpage>3552</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.E04-02-0151</pub-id>
+        </citation>
+      </ref>
+      <ref id="B41-cells-01-01121">
+        <label>41.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rothstein</surname>
+              <given-names>E.C.</given-names>
+            </name>
+            <name>
+              <surname>Nauman</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Chesnick</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Balaban</surname>
+              <given-names>R.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multi-photon excitation microscopy in intact animals</article-title>
+          <source>J. Microsc.</source>
+          <year>2006</year>
+          <volume>222</volume>
+          <fpage>58</fpage>
+          <lpage>64</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2818.2006.01570.x</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

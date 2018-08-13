@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xml:lang="en" article-type="research-article" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells3020247</article-id>
+      <article-id pub-id-type="publisher-id">cells-03-00247</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>PKC-dependent Phosphorylation of the H1 Histamine Receptor Modulates TRPC6 Activity</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chen</surname>
+            <given-names>Xingjuan</given-names>
+          </name>
+          <xref rid="af1-cells-03-00247" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Egly</surname>
+            <given-names>Christian</given-names>
+          </name>
+          <xref rid="af1-cells-03-00247" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Riley</surname>
+            <given-names>Ashley M.</given-names>
+          </name>
+          <xref rid="af1-cells-03-00247" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Wennan</given-names>
+          </name>
+          <xref rid="af1-cells-03-00247" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tewson</surname>
+            <given-names>Paul</given-names>
+          </name>
+          <xref rid="af2-cells-03-00247" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hughes</surname>
+            <given-names>Thomas E.</given-names>
+          </name>
+          <xref rid="af2-cells-03-00247" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Quinn</surname>
+            <given-names>Anne Marie</given-names>
+          </name>
+          <xref rid="af2-cells-03-00247" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Obukhov</surname>
+            <given-names>Alexander G.</given-names>
+          </name>
+          <xref rid="af1-cells-03-00247" ref-type="aff">1</xref>
+          <xref rid="af3-cells-03-00247" ref-type="aff">3</xref>
+          <xref rid="c1-cells-03-00247" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+	  <aff id="af1-cells-03-00247"><label>1</label>Indiana University School of Medicine, 635 Barnhill Dr., MS360A, Indianapolis, IN 46202, USA</aff>
+      <aff id="af2-cells-03-00247"><label>2</label>Montana Molecular, Bozeman, MT 59715, USA</aff>
+      <aff id="af3-cells-03-00247"><label>3</label>Stark Neurosciences Research Institute, Indiana University School of Medicine, Indianapolis, IN 46202, USA</aff>
+      <author-notes>
+        <corresp id="c1-cells-03-00247"><label>*</label>Author to whom correspondence should be addressed; E-Mail: <email>aobukhov@iu.edu</email>; Tel.: +1-317-274-8078; Fax: +1-317-274-3318.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>04</day>
+        <month>04</month>
+        <year>2014</year>
+      </pub-date>
+      <pub-date pub-type="collection">	    <month>06</month>
+        <year>2014</year>
+      </pub-date>
+      <volume>3</volume>
+      <issue>2</issue>
+      <fpage>247</fpage>
+      <lpage>257</lpage>
+      <history>
+        <date date-type="received">
+          <day>18</day>
+          <month>02</month>
+          <year>2014</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>17</day>
+          <month>03</month>
+          <year>2014</year>
+        </date>
+        <date date-type="accepted">
+          <day>25</day>
+          <month>03</month>
+          <year>2014</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#x000A9; 2014 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2014</copyright-year>
+        <license>
+          <p>This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (http://creativecommons.org/licenses/by/3.0/).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Transient receptor potential canonical 6 (TRPC6) is a cation selective, DAG-regulated, Ca<sup>2+</sup>-permeable channel activated by the agonists of G<sub>q</sub>-protein-coupled heptahelical receptors. Dysfunctions of TRPC6 are implicated in the pathogenesis of various cardiovascular and kidney conditions such as vasospasm and glomerulosclerosis. When stimulated by agonists of the histamine H1 receptor (H1R), TRPC6 activity decays to the baseline despite the continuous presence of the agonist. In this study, we examined whether H1R desensitization contributes to regulating the decay rate of TRPC6 activity upon receptor stimulation. We employed the HEK expression system and a biosensor allowing us to simultaneously detect the changes in intracellular diacylglycerol (DAG) and Ca<sup>2+</sup> concentrations. We found that the histamine-induced DAG response was biphasic, in which a transient peak was followed by maintained elevated plateau, suggesting that desensitization of H1R takes place in the presence of histamine. The application of PKC inhibitor G&#xF6;6983 slowed the decay rate of intracellular DAG concentration. Activation of the mouse H1R mutant lacking a putative PKC phosphorylation site, Ser399, responsible for the receptor desensitization, resulted in a prolonged intracellular DAG increase and greater Mn<sup>2+</sup> influx through the TRPC6 channel. Thus, our data support the hypothesis that PKC-dependent H1R phosphorylation leads to a reduced production of intracellular DAG that contributes to TRPC6 activity regulation.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>TRPC6</kwd>
+        <kwd>desensitization</kwd>
+        <kwd>DAG</kwd>
+        <kwd>PKC</kwd>
+        <kwd>H1 receptor</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Transient Receptor Potential Canonical (TRPC) proteins form plasma membrane cation channels that are Ca<sup>2+</sup>-permeable. TRPCs are activated by the agonists of G-protein coupled receptors (GPCRs) in a phospholipase C (PLC) dependent manner. There are seven members in the TRPC subfamily (TRPC1-7). The TRPC6 channel is widely expressed in vascular smooth muscle, where it contributes to regulating vascular tone [<xref ref-type="bibr" rid="B1-cells-03-00247">1</xref>], and the kidney, where it is localized to the glomerular podocyte &#x201C;split diaphragm&#x201D; complex [<xref ref-type="bibr" rid="B1-cells-03-00247">1</xref>,<xref ref-type="bibr" rid="B2-cells-03-00247">2</xref>]. Increased expression of TRPC6 was implicated in the pathogenesis of idiopathic pulmonary arterial hypertension (IPAH) [<xref ref-type="bibr" rid="B3-cells-03-00247">3</xref>,<xref ref-type="bibr" rid="B4-cells-03-00247">4</xref>]. The gain-of-function mutants of TRPC6 are strongly associated with the progression of focal segmental glomerulosclerosis (FSGS) [<xref ref-type="bibr" rid="B5-cells-03-00247">5</xref>]. Besides TRPC6 roles in the cardiovascular systems and the kidney, the channel upregulation was reported in some cancer cell models, such as liver cancer cells [<xref ref-type="bibr" rid="B6-cells-03-00247">6</xref>].</p>
+      <p>It has been demonstrated that diacylglycerol (DAG) is important for gating the TRPC6 channel. DAG is produced by PLC that breaks down phosphatidylinositol diphosphate (PIP<sub>2</sub>) [<xref ref-type="bibr" rid="B7-cells-03-00247">7</xref>]. Two signaling molecules, DAG and inositol triphosphate, are formed upon PIP<sub>2</sub> break down by PLC. IP<sub>3</sub> binds to its receptor, IP<sub>3</sub>R, on the endoplasmic reticulum (ER) and releases Ca<sup>2+</sup> from the ER, an intracellular Ca<sup>2+</sup> store. This results in a transient intracellular [Ca<sup>2+</sup>] increase in the stimulated cells. DAG acting in concert with intracellular Ca<sup>2+</sup>-activates protein kinase C (PKC), which then translocates to the plasma membrane, where the kinase phosphorylates various protein including channels and membrane receptors.</p>
+      <p>The activation of non-selective Ca<sup>2+</sup>-permeable channels, such as TRPCs, contributes to the second sustained phase of receptor-induced intracellular Ca<sup>2+</sup> increases. When activated by histamine via the H1 receptor (H1R), TRPC6 exhibits robust activity that decays over time despite the continuous presence of the agonist. Several seminal studies implicated the DAG-dependent activation of PKC followed by TRPC6 phosphorylation at the residues Serine448 [<xref ref-type="bibr" rid="B8-cells-03-00247">8</xref>] and Ser768/714 (Ser768 in TRPC6A isoforms and Ser714 in TRPC6B) [<xref ref-type="bibr" rid="B9-cells-03-00247">9</xref>] as a cause of TRPC6 activity decay. However, the role of histamine receptor phosphorylation and inactivation has not been considered so far. Indeed, DAG can regulate the functional activity of a plethora of G-protein coupled receptors. There have been several studies that indicated that serine residues (Ser396, Ser398) in the intracellular domain of H1R are potential phosphorylation sites of PKC and site-directed mutagenesis studies suggested that Ser398 residue was primarily involved in PKC-mediate receptor desensitization [<xref ref-type="bibr" rid="B10-cells-03-00247">10</xref>,<xref ref-type="bibr" rid="B11-cells-03-00247">11</xref>,<xref ref-type="bibr" rid="B12-cells-03-00247">12</xref>,<xref ref-type="bibr" rid="B13-cells-03-00247">13</xref>]. Since phosphorylation of GPCR by various kinases is suggested to be an important step in initiating receptor desensitization [<xref ref-type="bibr" rid="B14-cells-03-00247">14</xref>], we hypothesized that TRPC6 channel inactivation may involve the desensitization of the H1 receptor.</p>
+      <p>In the present study, we used the human embryonic kidney (HEK) cell expression model to investigate the relationship between the intracellular DAG concentration and TRPC6 activity. We found that the histamine-induced DAG production, assessed by using a recently developed fluorescent biosensor [<xref ref-type="bibr" rid="B15-cells-03-00247">15</xref>], results in negative feedback on H1R itself via a PKC-dependent pathway, indicating that desensitization of H1R takes place during prolonged application of histamine. Our results indicate that the inactivation of TRPC6 channel activity in the presence of histamine might be attributed in part to H1R desensitization.</p>
+    </sec>
+    <sec>
+      <title>2. Experimental Section</title>
+      <sec>
+        <title>2.1. Cell Culture and Transfection</title>
+        <p>HEK cells (American Type Culture Collection, Manassas, VA, USA) were cultured in the Eagle&#x2019;s minimum essential medium supplemented with 10% fetal bovine serum. HEK cells were transfected using the Lipofectamine LTX reagent (Invitrogen, Carlsbad, CA, USA) in accordance with the manufacturer&#x2019;s recommendations. The Downward DAG+R-GECO sensor plasmid and the red fluorescent PIP2 sensor plasmid were a gift from Montana Molecular (Bozeman, MT, USA). The mouse H1 receptor plasmid was a gift from Dr. Jean-Charles Schwartz (Centre de recherche, Bioprojet-Biotech, Saint Gregoire Cedex, France) and the pig TRPC6 plasmid was cloned by us previously [<xref ref-type="bibr" rid="B16-cells-03-00247">16</xref>]. We used the following cDNAs mixtures during the transfection procedures: (1) 0.5 &#xB5;g DAG+R-GECO sensor plasmid, 0.5 &#xB5;g H1R, and 2 &#xB5;g TRPC6 plasmid; (2) 0.5 &#xB5;g DAG+R-GECO sensor plasmid, 0.5 &#xB5;g H1R, and 2 &#xB5;g pcDNA3; (3) 0.5 &#xB5;g PIP<sub>2</sub> sensor plasmid [<xref ref-type="bibr" rid="B17-cells-03-00247">17</xref>] and 0.5 &#xB5;g H1R. The cells were cultured for 24&#x2013;50 h before the fluorescence imaging experiments were performed.</p>
+      </sec>
+      <sec>
+        <title>2.2. Fluorescence Imaging</title>
+        <p>Transfected HEK cells were imaged either directly 30&#x2013;50 h post-transfection time or loaded with Fura-2AM (4 &#xB5;M) in PBS containing Ca<sup>2+</sup> and Mg<sup>2+</sup> for an hour, followed by a 30 min additional incubation in PBS containing no fluorescence dye. A Till Photonics single-cell fluorescence imaging system equipped with an Andor DU885 charge-coupled device camera (Andor Technology PLC, South Windsor, CT, USA) was used to monitor intracellular Ca<sup>2+</sup> changes in single Fura-2-loaded HEK cells and sensor-expressing HEK cells. The cells were perfused continuously with the test solutions at a rate of 1.5 mL/min.</p>
+      </sec>
+      <sec>
+        <title>2.3. Molecular Biology</title>
+        <p>The single-point mutation in the mouse H1 histamine receptor was introduced using a QuikChange Lightning site-directed mutagenesis kit from Agilent Technologies (Santa Clara, CA, USA) as described in the manufacturer&#x2019;s instructions. The following primer set was used to construct the mutant: GAGGCTCCGCTCACATGCCAGACAGTATGTG (forward primer) and CACATACTGTCTGGC-ATGTGAGCGGAGCCTC (reverse primer). The mutation was verified by sequencing.</p>
+      </sec>
+      <sec>
+        <title>2.4. Materials</title>
+        <p>Eagle&#x2019;s minimum essential medium and fetal bovine serum for HEK cell culture were purchased from Life Technology (Carlsbad, CA, USA); Histamine, G&#xF6;6983 and other chemicals were brought from Sigma-Aldrich (St. Louis, MO, USA). The stock solutions were made in water or DMSO and were diluted to the indicated concentrations with the standard extracellular solutions.</p>
+      </sec>
+      <sec>
+        <title>2.5. Statistics</title>
+        <p>The statistical analysis was performed using the SigmaPlot 12 software package. The <italic>t</italic>-test followed by the Mann Whitney Rank Sum Test was used to determine whether there is a statistically significant difference between the tested groups. The significance level was set to &lt;0.05. All of the data were presented as mean &#xB1; SEM.</p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>3. Results and Discussion</title>
+      <sec>
+        <title>3.1. Histamine-induced TRPC6 Activity Decays in the Present of Histamine</title>
+        <p>The TRPC6 channel mediates Ca<sup>2+</sup> influx in various physiological cellular systems. It was demonstrated that DAG production is a key event for activating TRPC6 [<xref ref-type="bibr" rid="B7-cells-03-00247">7</xref>]. In this work, we employed a dual fluorescent downward DAG and Ca<sup>2+</sup> biosensor (downward DAG+R-GECO sensor, DDRG) [<xref ref-type="bibr" rid="B15-cells-03-00247">15</xref>] to examine whether the kinetics of TRPC6-mediated Ca<sup>2+</sup> influx correlates with DAG intracellular concentration changes. We also used a PIP<sub>2</sub> sensor to confirm that DAG changes reflect the changes in PIP<sub>2</sub> hydrolysis as was described elsewhere [<xref ref-type="bibr" rid="B17-cells-03-00247">17</xref>]. Since TRPC6 also allows Mn<sup>2+</sup> influx, we assessed both Ca<sup>2+</sup> intracellular transients and Mn<sup>2+</sup> influx in HEK cells expressing pig TRPC6 using the Mn<sup>2+</sup> quench approach [<xref ref-type="bibr" rid="B7-cells-03-00247">7</xref>,<xref ref-type="bibr" rid="B18-cells-03-00247">18</xref>].</p>
+        <p>Fura-2 Mn<sup>2+</sup> quench experiments demonstrated that histamine (40 &#xB5;M)-induced Mn<sup>2+</sup> influx was significantly greater in HEK expressing H1R (the percent of Fura-2 quenching was 0.28 &#xB1; 0.021, <italic>n</italic> = 26) and TRPC6 than in cells expressing H1R-pcDNA3 (empty plasmid, 0.14 &#xB1; 0.017, <italic>n</italic> = 21, <xref ref-type="fig" rid="cells-03-00247-f001">Figure 1</xref>A). Since Mn<sup>2+</sup> quench assays the cumulative Mn<sup>2+</sup> influx through TRPC6, we did not use the approach for kinetics studies. Instead, we investigated the kinetics of intracellular Ca<sup>2+</sup> transients that were consistently larger in TRPC6 expressing cells as compared to pcDNA3-expressing control HEK cells. As noted by many previous studies [<xref ref-type="bibr" rid="B7-cells-03-00247">7</xref>], we observed that during the continuous presence of histamine, the intracellular [Ca<sup>2+</sup>] increased to a peak at about 30 s after histamine application and subsequently declined slowly with a time constant of 43.89 &#xB1; 5.265 s (<italic>n</italic> = 18; <xref ref-type="fig" rid="cells-03-00247-f001">Figure 1</xref>B). To avoid potential interference due to TRPC6-mediated intracellular Ca<sup>2+</sup> changes, we next examined intracellular DAG/Ca<sup>2+</sup> changes in HEK cells expressing H1R and a novel fluorescent dual downward DAG/Ca<sup>2+</sup> sensor. The downward DAG/Ca<sup>2+</sup> sensor is a fusion of a PKC&#x3B4; fragment with circular permuted enhanced green fluorescent protein (GFP) combined by a 2A peptide sequence with a red fluorescent Ca<sup>2+</sup> sensor R-GECO in one plasmid for stoichiometric co-expression of the sensors ([<xref ref-type="bibr" rid="B15-cells-03-00247">15</xref>], <xref ref-type="fig" rid="cells-03-00247-f001">Figure 1</xref>C, D). The downward DAG+R-GECO sensor (DAG/Ca<sup>2+</sup>R) was excited at 570 nm for detecting intracellular Ca<sup>2+</sup> transients and at 480 nm for detecting DAG. <xref ref-type="fig" rid="cells-03-00247-f001">Figure 1</xref>C, D showed Ca<sup>2+</sup> changes (<xref ref-type="fig" rid="cells-03-00247-f001">Figure 1</xref>C, excited at 570 nm) and DAG transients (<xref ref-type="fig" rid="cells-03-00247-f001">Figure 1</xref>D, excited at 480 nm). Using this approach, we found that histamine-induced [Ca<sup>2+</sup>]<sub>i</sub> changes were transient in H1R-expressing HEK cells, reflecting the depletion of the intracellular Ca<sup>2+</sup> stores. We also determined that the production of DAG was not constant over time and exponentially decayed with a close time constant of 48.61 &#xB1; 7.07 s (<italic>n</italic> = 23) as intracellular [Ca<sup>2+</sup>] declined (43.89 &#xB1; 5.265 s, <italic>n</italic> = 18), suggesting that H1R desensitization may take place. This result was consistent with the data, which we obtained using the red fluorescent PIP<sub>2</sub> sensor, a fusion of the pleckstrin homology (PH) domain of PLC&#x3B4; and dimerization-dependent red fluorescent proteins [<xref ref-type="bibr" rid="B17-cells-03-00247">17</xref>] that showed a slowing of intracellular PIP<sub>2</sub> hydrolysis despite the continuous presence of histamine in the bath (<xref ref-type="fig" rid="cells-03-00247-f001">Figure 1</xref>E). Importantly, since DAG activates the TRPC6 channel, decreased production of DAG would result in a reduced TRPC6 activity.</p>
+        <fig id="cells-03-00247-f001" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p>Histamine induces transient intracellular diacylglycerol (DAG), phosphatidylinositol diphosphate (PIP<sub>2</sub>) and Ca<sup>2+</sup> increases in histamine H1 receptor (H1R)-expressing human embryonic kidney (HEK) cells. (<bold>A</bold>, <bold>B</bold>) The traces show fluorescence changes in HEK cells expressing H1R + pcDNA3 or H1R + TRPC6. Mn<sup>2+</sup> (0.5 mM) influx was determined in the control group and cells expressing TRPC6 channel using the Mn<sup>2+</sup> quench approach. Fura-2 fluorescence was excited at 360 nm and the percent of fura-2 fluorescence decrease was shown in (<bold>A</bold>). (<bold>B</bold>) shows fluorescence intensity ratios (F<sub>345</sub>/F<sub>380</sub>) acquired during the same experiment. The fluorescence was normalized to the baseline fluorescence. To detect intracellular Ca<sup>2+</sup> transients, the downward DAG+R-GECO sensor (DAG/Ca<sup>2+</sup>R) was excited at 570 nm, whereas DAG transients were assessed when DAG+R-GECO sensor fluorescence was excited at 480 nm (<bold>C</bold>, <bold>D</bold>). (<bold>E</bold>) shows the averaged trace (<italic>n</italic> = 12) of PIP<sub>2</sub> level changes in the presence of histamine in HEK cells co-expressing the red fluorescent PIP<sub>2</sub> sensor and H1R.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-00247-g001.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.2. The Effect of PKC Inhibition on TRPC6 Inactivation Rate and Decay of DAG</title>
+        <p>It was demonstrated that PKC phosphorylation inactivates TRPC6. Therefore, we first used G&#xF6;6983 to confirm whether PKC activity is important for regulating the kinetics of TRPC6 responses. Indeed, we observed that TRPC6 responses decayed much slower in the presence of the PKC inhibitor (48.56 &#xB1; 14.77 s, <italic>n</italic> = 41 to 136.30 &#xB1; 29.36 s, <italic>n</italic> = 39, <italic>p</italic> &lt; 0.05, <xref ref-type="fig" rid="cells-03-00247-f002">Figure 2</xref>A, B). Since DAG production also decayed with time, as was determined using the dual DAG/Ca<sup>2+</sup> sensor, we next investigated whether PKC phosphorylation regulates H1R activity that is known to exhibit PKC-dependent inactivation in other species [<xref ref-type="bibr" rid="B19-cells-03-00247">19</xref>]. We observed that 500 nM G&#xF6;6983 also slowed the decay of DAG (48.61 &#xB1; 7.07 s, <italic>n</italic> = 17 <italic>vs</italic>. 132.84 &#xB1; 23.97 s, <italic>n</italic> = 27, <italic>p</italic> &lt; 0.05, <xref ref-type="fig" rid="cells-03-00247-f002">Figure 2</xref>C, D).</p>
+        <fig id="cells-03-00247-f002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>PKC inhibitor G&#xF6;6983 slowed the decay of Ca<sup>2+</sup> and DAG signals in the HEK model. (<bold>A</bold>, <bold>B</bold>) Histamine-induced Ca<sup>2+</sup> transients in HEK cells expressing H1R + TRPC6 in the absence or presence of PKC inhibitor G&#xF6;6983 (500 nM). Fura-2 fluorescence ratios (F<sub>345</sub>/F<sub>380</sub>) are shown. (<bold>A</bold>) Traces of averaged Ca<sup>2+</sup> transients in the control group and cells treated with G&#xF6;6983 (control, <italic>n</italic> = 41 <italic>vs</italic><italic>.</italic> G&#xF6;6983, <italic>n</italic> = 39). The ratio data were normalized to the peak amplitude following the baseline fluorescence ratio at time zero was subtracted. (<bold>B</bold>) Summary data comparing the decay time constants for the Ca<sup>2+</sup> transients shown in (<bold>A</bold>). (<bold>C</bold>, <bold>D</bold>) DAG transients assessed with the downwards DAG+R-GECO sensor excited at 480 nm. The fluorescence was normalized to the baseline fluorescence. The bold and broken lines represent the averaged traces, and the vertical gray lines are the SEM values. Data in (<bold>B</bold>, <bold>D</bold>) are presented as mean &#xB1; S.E. Asterisk = <italic>p</italic> &lt; 0.05.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-00247-g002.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.3. H1 Receptor Mutant (H1R<sub>S399A</sub>) Maintained A Prolonged DAG Production</title>
+        <p>In 1998, Fukui&#x2019;s study provided evidence that ser398 in human H1 receptor was primarily involved in the PKC-mediated desensitization of the receptor [<xref ref-type="bibr" rid="B19-cells-03-00247">19</xref>]. Therefore, we constructed the mouse H1R S399A mutant, H1R<sub>S398A</sub>, lacking a homologous PKC-phosphorylation site (<xref ref-type="fig" rid="cells-03-00247-f003">Figure 3</xref>A), to investigate whether the mutated receptor would exhibit a slower inactivation rate and more prolonged production of DAG. <xref ref-type="fig" rid="cells-03-00247-f003">Figure 3</xref>B, C show that the H1R mutant potentiated the Ca<sup>2+</sup> and DAG responses induced by 40 &#xB5;M histamine. The normalized DAG response traces and summary data recorded in HEK cells expressing either H1R or its S399A mutant (H1R: 44.31 &#xB1; 6.54 s <italic>vs</italic><italic>.</italic> S399A: 68.78 &#xB1; 11.21 s) are shown in <xref ref-type="fig" rid="cells-03-00247-f003">Figure 3</xref>D, E.</p>
+        <fig id="cells-03-00247-f003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>DAG production is more sustained in H1R<sub>S399A</sub>-expressing HEK cells. (<bold>A</bold>) Amino acid sequences and PKC phosphorylation sites in human and mouse H1 receptors. (<bold>B</bold>) Ca<sup>2+</sup> changes in H1R and H1R<sub>S399A</sub> expressing HEK cells. The downward DAG+R-GECO sensor (DAG/Ca<sup>2+</sup>R) was excited at 570 nm for detecting intracellular Ca<sup>2+</sup> transients. (<bold>C</bold>) DAG transients assessed with the downward DAG + R-GECO sensor excited at 480 nm. (<bold>D</bold>, <bold>E</bold>) Summary data on the decay time constants for DAG transients. The bold and broken lines represent the averaged traces, and the vertical gray lines are the SEM values. Averaged traces in H1R and H1R<sub>S399A</sub> expressing HEK cells are shown as solid and broken lines. Data in (<bold>E</bold>) are presented as mean &#xB1; S.E. Asterisk = <italic>p</italic> &lt; 0.05.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-00247-g003.tif"/>
+        </fig>
+        <p>We next compared Mn<sup>2+</sup> influx in HEK cells expressing either H1R and TRPC6 or H1R<sub>S399A</sub> and TRPC6 to assess the effect of increased DAG production on TRPC6 activity. Indeed, we observed a significantly greater Mn<sup>2+</sup> influx in the H1R mutant expressing cells, indicating that H1R desensitization results in reduced production of DAG and smaller TRPC6 responses. The summary data are shown in <xref ref-type="fig" rid="cells-03-00247-f004">Figure 4</xref>B. The percent of fura-2 quenching in H1R and TRPC6 expressing cells was 0.27 &#xB1; 0.026, <italic>n</italic> = 17, while that in H1R mutant cells co-expressing the TRPC6 channel was 0.35 &#xB1; 0.025, <italic>n</italic> = 18. The influx of Mn<sup>2+</sup> was significantly increased in cells expressing PKC-phosphorylated deficient H1R mutant (<xref ref-type="fig" rid="cells-03-00247-f004">Figure 4</xref>, <italic>p</italic> &lt; 0.05).</p>
+        <fig id="cells-03-00247-f004" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p>The H1 receptor mutant potentiated the TRPC6 channel activity in HEK model. (<bold>A</bold>) Mn<sup>2+</sup> (0.5 mM) influx in H1R/TRPC6 expressing HEK cells versus H1R<sub>S399A</sub>/TRPC6 expressing HEK cells, which were measured by the percent of Fura-2 quenching (Fura-2 was excited at 360 nm) at the time point of 5 min. (<bold>B</bold>) The summary data comparing the percent of Fura-2 quenching are shown. The bold and broken lines represent the averaged traces, and the vertical gray lines are the SEM values. Data in (<bold>B</bold>) are presented as mean &#xB1; S.E. Asterisk = <italic>p</italic> &lt; 0.05.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-00247-g004.tif"/>
+        </fig>
+        <p>Thus, we investigated the role of H1R desensitization in regulating TRPC6 activity using the pharmacological and molecular tools. PKC inhibitor G&#xF6;6983 slowed the decay of DAG and prolonged TRPC6 activity. The mouse H1 receptor mutant, S399A, which is lacking a critical PKC-phosphorylation site, also potentiated Mn<sup>2+</sup> influx through TRPC6. However, we also noticed that the effect of G&#xF6;6983 was more pronounced on the decay of DAG production and TRPC6 activity as compared to the data obtained with H1R<sub>S399A</sub>. Comparing with G&#xF6;6983, the mutant effect only reached a half of the PKC inhibitor efficacy: G&#xF6;6983 prolonged the decay time constant from 48.61 &#xB1; 7.07 s to 132.84 &#xB1; 23.97 s, while the mutant did from 44.31 &#xB1; 6.54 s to 68.78 &#xB1; 11.21 s. This indicates that PKC phosphorylation of the TRPC6 channel is also a key step for regulating TRPC6 activity. Indeed, it was shown that TRPC6 ser448 is the substrate of PKC [<xref ref-type="bibr" rid="B8-cells-03-00247">8</xref>]. Therefore, G&#xF6;6983 not only inhibited receptor phosphorylation but also channel phosphorylation, resulting in a more powerful effect on TRPC6 activity. Our data also suggest that the termination of DAG signaling may be driven, at least in part, by receptor desensitization in addition to the activation of such DAG regulating enzymes as diacylglycerol kinase.</p>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>Here, for the first time, we present evidence that PKC activation negatively regulates TRPC6 activity in part due to H1R desensitization. Our data also support the conclusions of other groups [<xref ref-type="bibr" rid="B8-cells-03-00247">8</xref>,<xref ref-type="bibr" rid="B9-cells-03-00247">9</xref>] that PKC phosphorylation of the TRPC6 protein is important for regulating TRPC6 inactivation rate (see graphic abstract). Increased understanding of the molecular mechanisms underlying TRPC6 channel inactivation may be important for developing novel therapeutic approaches for treating TRPC6 associated dysfunctions. This study also demonstrates that the novel dual DAG/Ca<sup>2+</sup> and the red fluorescent PIP<sub>2</sub> sensors are useful tools for studying PLC dependent pathways in native cells.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We thank the members of Obukhov lab for useful discussions and technical assistance and Jean-Charles Schwartz for the histamine H1 receptor cDNA. This work was supported by grants from the National Heart, Lung, and Blood Institute at the National Institutes of Health (R01HL083381 and R01HL115140 to AGO).</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>XC, CLE, and WL performed the fluorescence imaging experiments. AMR generated the H1 receptor mutant. XC analyzed the data. PT, TEH and AMQ developed the downward DAG+R-GECO and PIP<sub>2</sub> sensors and contributed to manuscript preparation. AGO and XC designed the experiments and prepared the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Conflicts of Interest</title>
+      <p>Paul Tewson, Thomas E. Hughes and Anne Marie Quinn are employed by Montana Molecular (Bozeman, Montana) with funding from the National Institute of Neurologic Disease and Stroke (NINDS) 9R44NS082222-02A1, the National Science Foundation 1248138 and Montana State Matching Funds #13&#x2013;50 RCSBIR-003.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-03-00247">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Loga</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Domes</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Freichel</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Flockerzi</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Dietrich</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Birnbaumer</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Hofmann</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Wegener</surname>
+              <given-names>J.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of cGMP/cGKI signalling and trpc channels in regulation of vascular tone</article-title>
+          <source>Cardiovasc. Res.</source>
+          <year>2013</year>
+          <volume>100</volume>
+          <fpage>280</fpage>
+          <lpage>287</lpage>
+          <pub-id pub-id-type="doi">10.1093/cvr/cvt176</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-cells-03-00247">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kistler</surname>
+              <given-names>A.D.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Altintas</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Fernandez</surname>
+              <given-names>I.C.</given-names>
+            </name>
+            <name>
+              <surname>Gu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wilson</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Srivastava</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Dietrich</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Walz</surname>
+              <given-names>K.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Transient receptor potential channel 6 (TRPC6) protects podocytes during complement-mediated glomerular disease</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2013</year>
+          <volume>288</volume>
+          <fpage>36598</fpage>
+          <lpage>36609</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M113.488122</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-cells-03-00247">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ding</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Winters</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ding</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Graham</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Akopova</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Muallem</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Hong</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Gryczynski</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Reactive oxygen species-mediated TRPC6 protein activation in vascular myocytes, a mechanism for vasoconstrictor-regulated vascular tone</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2011</year>
+          <volume>286</volume>
+          <fpage>31799</fpage>
+          <lpage>31809</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M111.248344</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-cells-03-00247">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Keller</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Remillard</surname>
+              <given-names>C.V.</given-names>
+            </name>
+            <name>
+              <surname>Safrina</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Nicholson</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Vangala</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Landsberg</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.Y.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A functional single-nucleotide polymorphism in the TRPC6 gene promoter associated with idiopathic pulmonary arterial hypertension</article-title>
+          <source>Circulation</source>
+          <year>2009</year>
+          <volume>119</volume>
+          <fpage>2313</fpage>
+          <lpage>2322</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCULATIONAHA.108.782458</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-cells-03-00247">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Krall</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Canales</surname>
+              <given-names>C.P.</given-names>
+            </name>
+            <name>
+              <surname>Kairath</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Carmona-Mora</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Molina</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Carpio</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Ruiz</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Mezzano</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>C.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Podocyte-specific overexpression of wild type or mutant trpc6 in mice is sufficient to cause glomerular disease</article-title>
+          <source>PLoS One</source>
+          <year>2010</year>
+          <volume>5</volume>
+          <fpage>e12859</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0012859</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-cells-03-00247">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>El</surname>
+              <given-names>B.C.</given-names>
+            </name>
+            <name>
+              <surname>Bidaux</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Enfissi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Delcourt</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Prevarskaya</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Capiod</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Capacitative calcium entry and transient receptor potential canonical 6 expression control human hepatoma cell proliferation</article-title>
+          <source>Hepatology</source>
+          <year>2008</year>
+          <volume>47</volume>
+          <fpage>2068</fpage>
+          <lpage>2077</lpage>
+          <pub-id pub-id-type="doi">10.1002/hep.22263</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-cells-03-00247">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hofmann</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Obukhov</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Schaefer</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Harteneck</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Gudermann</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Schultz</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Direct activation of human TRPC6 and TRPC3 channels by diacylglycerol</article-title>
+          <source>Nature</source>
+          <year>1999</year>
+          <volume>397</volume>
+          <fpage>259</fpage>
+          <lpage>263</lpage>
+          <pub-id pub-id-type="doi">10.1038/16711</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-cells-03-00247">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bousquet</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Monet</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Boulay</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Protein kinase C-dependent phosphorylation of transient receptor potential canonical 6 (TRPC6) on serine 448 causes channel inhibition</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2010</year>
+          <volume>285</volume>
+          <fpage>40534</fpage>
+          <lpage>40543</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M110.160051</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-cells-03-00247">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>J.Y.</given-names>
+            </name>
+            <name>
+              <surname>Saffen</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Activation of M1 muscarinic acetylcholine receptors stimulates the formation of a multiprotein complex centered on TRPC6 channels</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2005</year>
+          <volume>280</volume>
+          <fpage>32035</fpage>
+          <lpage>32047</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M500429200</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-cells-03-00247">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miyoshi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Das</surname>
+              <given-names>A.K.</given-names>
+            </name>
+            <name>
+              <surname>Fujimoto</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Horio</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Fukui</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Recent advances in molecular pharmacology of the histamine systems: Regulation of histamine H1 receptor signaling by changing its expression level</article-title>
+          <source>J. Pharmacol. Sci.</source>
+          <year>2006</year>
+          <volume>101</volume>
+          <fpage>3</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="doi">10.1254/jphs.FMJ06001X2</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-03-00247">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Horio</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kato</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ogawa</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fujimoto</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Fukui</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Two threonine residues and two serine residues in the second and third intracellular loops are both involved in histamine H1 receptor downregulation</article-title>
+          <source>FEBS Lett.</source>
+          <year>2004</year>
+          <volume>573</volume>
+          <fpage>226</fpage>
+          <lpage>230</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.febslet.2004.07.072</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-cells-03-00247">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Horio</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ogawa</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kawakami</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Fujimoto</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Fukui</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of amino acid residues responsible for agonist-induced down-regulation of histamine H(1) receptors</article-title>
+          <source>J. Pharmacol. Sci.</source>
+          <year>2004</year>
+          <volume>94</volume>
+          <fpage>410</fpage>
+          <lpage>419</lpage>
+          <pub-id pub-id-type="doi">10.1254/jphs.94.410</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13-cells-03-00247">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kawakami</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Miyoshi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Horio</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yoshimura</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yamauchi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Fukui</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Direct phosphorylation of histamine H1 receptor by various protein kinases <italic>in vitro</italic></article-title>
+          <source>Methods Find. Exp. Clin. Pharmacol.</source>
+          <year>2003</year>
+          <volume>25</volume>
+          <fpage>685</fpage>
+          <lpage>693</lpage>
+          <pub-id pub-id-type="doi">10.1358/mf.2003.25.9.793335</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-cells-03-00247">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liggett</surname>
+              <given-names>S.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phosphorylation barcoding as a mechanism of directing GPCR signaling</article-title>
+          <source>Sci. Signal.</source>
+          <year>2011</year>
+          <volume>4</volume>
+          <fpage>e36</fpage>
+          <pub-id pub-id-type="doi">10.1126/scisignal.2002331</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15-cells-03-00247">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tewson</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Westenberg</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>R.E.</given-names>
+            </name>
+            <name>
+              <surname>Quinn</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Hughes</surname>
+              <given-names>T.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Simultaneous detection of Ca<sup>2+</sup> and diacylglycerol signaling in living cells</article-title>
+          <source>PLoS One</source>
+          <year>2012</year>
+          <volume>7</volume>
+          <fpage>e42791</fpage>
+        </citation>
+      </ref>
+      <ref id="B16-cells-03-00247">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hu</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Oboukhova</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sturek</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Obukhov</surname>
+              <given-names>A.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Canonical transient receptor potential channels expression is elevated in a porcine model of metabolic syndrome</article-title>
+          <source>Mol. Endocrinol.</source>
+          <year>2009</year>
+          <volume>23</volume>
+          <fpage>689</fpage>
+          <lpage>699</lpage>
+          <pub-id pub-id-type="doi">10.1210/me.2008-0350</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17-cells-03-00247">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tewson</surname>
+              <given-names>P.H.</given-names>
+            </name>
+            <name>
+              <surname>Quinn</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Hughes</surname>
+              <given-names>T.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>A multiplexed fluorescent assay for independent second-messenger systems: Decoding GPCR activation in living cells</article-title>
+          <source>J. Biomol. Screen.</source>
+          <year>2013</year>
+          <volume>18</volume>
+          <fpage>797</fpage>
+          <lpage>806</lpage>
+          <pub-id pub-id-type="doi">10.1177/1087057113485427</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18-cells-03-00247">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Merritt</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Jacob</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Hallam</surname>
+              <given-names>T.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Use of manganese to discriminate between calcium influx and mobilization from internal stores in stimulated human neutrophils</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1989</year>
+          <volume>264</volume>
+          <fpage>1522</fpage>
+          <lpage>1527</lpage>
+        </citation>
+      </ref>
+      <ref id="B19-cells-03-00247">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fujimoto</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ohta</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kangawa</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kikkawa</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Ogino</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Fukui</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of protein kinase C phosphorylation sites involved in phorbol ester-induced desensitization of the histamine H1 receptor</article-title>
+          <source>Mol. Pharmacol.</source>
+          <year>1999</year>
+          <volume>55</volume>
+          <fpage>735</fpage>
+          <lpage>742</lpage>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

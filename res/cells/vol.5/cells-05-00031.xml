@@ -1,0 +1,2451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" article-type="research-article" dtd-version="2.3">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells5030031</article-id>
+      <article-id pub-id-type="publisher-id">cells-05-00031</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Antisense-Based Progerin Downregulation in HGPS-Like Patients&#x2019; Cells</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Harhouri</surname>
+            <given-names>Karim</given-names>
+          </name>
+          <xref rid="af1-cells-05-00031" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Navarro</surname>
+            <given-names>Claire</given-names>
+          </name>
+          <xref rid="af1-cells-05-00031" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Baquerre</surname>
+            <given-names>Camille</given-names>
+          </name>
+          <xref rid="af1-cells-05-00031" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Da Silva</surname>
+            <given-names>Nathalie</given-names>
+          </name>
+          <xref rid="af1-cells-05-00031" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bartoli</surname>
+            <given-names>Catherine</given-names>
+          </name>
+          <xref rid="af1-cells-05-00031" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Casey</surname>
+            <given-names>Frank</given-names>
+          </name>
+          <xref rid="af2-cells-05-00031" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mawuse</surname>
+            <given-names>Guedenon Koffi</given-names>
+          </name>
+          <xref rid="af3-cells-05-00031" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Doubaj</surname>
+            <given-names>Yassamine</given-names>
+          </name>
+          <xref rid="af4-cells-05-00031" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+		  <surname>L&#xE9;vy</surname>
+		  <given-names>Nicolas</given-names>
+		  </name>
+		  <xref rid="af1-cells-05-00031" ref-type="aff">1</xref>
+          <xref rid="af5-cells-05-00031" ref-type="aff">5</xref>
+		  </contrib>
+		  <contrib contrib-type="author">
+		  <name>
+            <surname>De Sandre-Giovannoli</surname>
+            <given-names>Annachiara</given-names>
+          </name>
+          <xref rid="af1-cells-05-00031" ref-type="aff">1</xref>
+          <xref rid="af5-cells-05-00031" ref-type="aff">5</xref>
+          <xref rid="c1-cells-05-00031" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Dechat</surname>
+            <given-names>Thomas</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-05-00031"><label>1</label>Aix Marseille Universit&#xE9;, INSERM, GMGF UMR_S 910, 13385 Marseille, France; <email>Karim.HARHOURI@univ-amu.fr</email> (K.H.); <email>Claire.NAVARRO@univ-amu.fr</email> (C.N.); <email>camille.baquerre1@orange.fr</email> (C.B.); <email>Nathalie.DASILVA@univ-amu.fr</email> (N.D.S.); <email>catherine.bartoli@univ-amu.fr</email> (C.B.); <email>nicolas.levy@univ-amu.fr</email> (N.L.)</aff>
+      <aff id="af2-cells-05-00031"><label>2</label>Royal Belfast, Pediatric Cardiology, Hospital for Sick Children, Belfast BT9 7AB Northern Ireland; <email>frank.casey@belfasttrust.hscni.net</email></aff>
+      <aff id="af3-cells-05-00031"><label>3</label>CHU Sylvanus Olympio de Lom&#xE9;, Unit&#xE9; de G&#xE9;n&#xE9;tique Humaine, Lom&#xE9; BP 1515, Togo; <email>julesblack@yahoo.fr</email></aff>
+      <aff id="af4-cells-05-00031"><label>4</label>D&#xE9;partement de G&#xE9;n&#xE9;tique M&#xE9;dicale, Institut National d&#x2019;Hygi&#xE8;ne, 11400 Rabat, Morocco; <email>y.doubaj@gmail.com</email></aff>
+      <aff id="af5-cells-05-00031"><label>5</label>Departement of Medical Genetics, la Timone Children&#x2019;s Hospital, APHM, 13385 Marseille, France</aff>
+      <author-notes>
+        <corresp id="c1-cells-05-00031"><label>*</label>Correspondence: <email>annachiara.desandre-giovannoli@univ-amu.fr</email>; Tel.: +33-491-38-77-87</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>11</day>
+        <month>07</month>
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="collection">        <month>09</month>
+        <year>2016</year>
+      </pub-date>
+      <volume>5</volume>
+      <issue>3</issue>
+      <elocation-id>31</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>28</day>
+          <month>04</month>
+          <year>2016</year>
+        </date>
+        <date date-type="accepted">
+          <day>04</day>
+          <month>07</month>
+          <year>2016</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2016 by the authors.</copyright-statement>
+        <copyright-year>2016</copyright-year>
+        <license license-type="open-access">
+          <p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC-BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Progeroid laminopathies, including Hutchinson-Gilford Progeria Syndrome (HGPS, OMIM #176670), are premature and accelerated aging diseases caused by defects in nuclear A-type Lamins. Most HGPS patients carry a de novo point mutation within exon 11 of the <italic>LMNA</italic> gene encoding A-type Lamins. This mutation activates a cryptic splice site leading to the deletion of 50 amino acids at its carboxy-terminal domain, resulting in a truncated and permanently farnesylated Prelamin A called Prelamin A &#x394;50 or Progerin. Some patients carry other <italic>LMNA</italic> mutations affecting exon 11 splicing and are named &#x201C;HGPS-like&#x201D; patients. They also produce Progerin and/or other truncated Prelamin A isoforms (&#x394;35 and &#x394;90) at the transcriptional and/or protein level. The results we present show that morpholino antisense oligonucleotides (AON) prevent pathogenic <italic>LMNA</italic> splicing, markedly reducing the accumulation of Progerin and/or other truncated Prelamin A isoforms (Prelamin A &#x394;35, Prelamin A &#x394;90) in HGPS-like patients&#x2019; cells. Finally, a patient affected with Mandibuloacral Dysplasia type B (MAD-B, carrying a homozygous mutation in ZMPSTE24, encoding an enzyme involved in Prelamin A maturation, leading to accumulation of wild type farnesylated Prelamin A), was also included in this study. These results provide preclinical proof of principle for the use of a personalized antisense approach in HGPS-like and MAD-B patients, who may therefore be eligible for inclusion in a therapeutic trial based on this approach, together with classical HGPS patients.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>HGPS-like</kwd>
+        <kwd>MAD-B</kwd>
+        <kwd>antisense oligonucleotides</kwd>
+        <kwd>Progerin</kwd>
+        <kwd>Prelamin A &#x394;90</kwd>
+        <kwd>Prelamin A &#x394;35</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-cells-05-00031" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Progeroid laminopathies are a recently discovered group of accelerated aging syndromes caused by altered A-type Lamins processing [<xref ref-type="bibr" rid="B1-cells-05-00031">1</xref>]. Lamins A and C (hereafter called Lamin A/C) are encoded by the <italic>LMNA</italic> gene through physiological alternative splicing; Lamin A being encoded by exons 1&#x2013;12 and Lamin C by exons 1&#x2013;10. The use of a splice site within exon 10 leads to the production of Prelamin A-encoding transcripts [<xref ref-type="bibr" rid="B2-cells-05-00031">2</xref>,<xref ref-type="bibr" rid="B3-cells-05-00031">3</xref>]. Together with B-type Lamins, Lamin A/C are major components of the nuclear Lamina, a protein meshwork located underneath the inner membrane of the nuclear envelope and dispersed through nuclear matrix [<xref ref-type="bibr" rid="B4-cells-05-00031">4</xref>]. Lamin A is synthesized as a precursor protein, called Prelamin A, that undergoes a complex maturation process. Prelamin A contains a conserved C-terminal CaaX motif (C, cysteine; A, aliphatic; X, any amino acid) that undergoes farnesylation upon the action of a farnesyl-transferase [<xref ref-type="bibr" rid="B5-cells-05-00031">5</xref>]. Following farnesylation, the three C-terminal amino acids (aaX) of Prelamin A are cleaved and the new C terminus is methylated. This cleavage event does not require the endopeptidase ZMPSTE24 in physiological conditions [<xref ref-type="bibr" rid="B6-cells-05-00031">6</xref>]. Subsequently, farnesylated Prelamin A undergoes a second endoproteolytic cleavage, which, on the contrary, is uniquely mediated by ZMPSTE24 in humans, removing the last 15 C-terminal residues, including the farnesylated Cysteine residue. This multistep processing physiologically yields mature Lamin A that contains no farnesyl moiety [<xref ref-type="bibr" rid="B7-cells-05-00031">7</xref>]. Mutations in the <italic>LMNA</italic> gene have been described to cause HGPS (Hutchinson-Gilford Progeria Syndrome) [<xref ref-type="bibr" rid="B8-cells-05-00031">8</xref>,<xref ref-type="bibr" rid="B9-cells-05-00031">9</xref>], an extremely rare genetic disorder that affects 1 in 4&#x2013;8 million newborns worldwide. HGPS patients generally appear normal at birth, but prematurely develop growth retardation and clinical signs recalling physiological aging including thin skin with hyperpigmented lesions, loss of subcutaneous fat, alopecia, osteoporosis and severe and generalized arteriosclerosis leading in most cases to myocardial infarction and death at the mean age of 13.5 years [<xref ref-type="bibr" rid="B10-cells-05-00031">10</xref>]. Most HGPS patients carry a de novo point mutation in exon 11 (c.1824C &gt; T, p.G608G). This mutation activates a cryptic donor splice site within exon 11 that leads to the in-frame deletion of 150 nucleotides at its C-terminal domain comprising the ZMPSTE24 cleavage site. Accordingly, incomplete processing of Prelamin A results in the expression of a truncated and toxic Lamin A precursor called Prelamin A &#x394;50 or Progerin. As a result, Progerin remains permanently farnesylated, and it accumulates in patients&#x2019; cells nuclei exerting toxic effects [<xref ref-type="bibr" rid="B8-cells-05-00031">8</xref>,<xref ref-type="bibr" rid="B9-cells-05-00031">9</xref>,<xref ref-type="bibr" rid="B11-cells-05-00031">11</xref>]. Other de novo heterozygous mutations of the <italic>LMNA</italic> gene have been identified in patients with variable features of HGPS. These mutations affect exon 11 splicing leading to the production of Progerin and/or other truncated Prelamin A isoforms (&#x394;35 and &#x394;90) at the transcriptional and/or protein level [<xref ref-type="bibr" rid="B12-cells-05-00031">12</xref>,<xref ref-type="bibr" rid="B13-cells-05-00031">13</xref>,<xref ref-type="bibr" rid="B14-cells-05-00031">14</xref>,<xref ref-type="bibr" rid="B15-cells-05-00031">15</xref>,<xref ref-type="bibr" rid="B16-cells-05-00031">16</xref>]. In particular, Prelamin A &#x394;90 transcript excludes the 270 nucleotides of exon 11 because of the abolition of the normal donor splice site. The resulting deletion is predicted to preserve the Prelamin A open reading frame (r.[=, 1699_1968del], p.(Gly567_Gln656del)). The mutation responsible for the production of Prelamin A &#x394;35 generates a conservative substitution of serine with threonine and activates a cryptic splice site resulting in expression of Lamin A with a 35 amino acid truncation (r.[=, 1864_1968del], p.[Thr623Ser, Val622_Gln656del]); patients are affected with &#x201C;Progeria-like&#x201D; syndromes and have thus been recently named &#x201C;HGPS-like&#x201D; patients [<xref ref-type="bibr" rid="B12-cells-05-00031">12</xref>]. Patients affected with mandibuloacral dysplasia type B (MAD-B), carry biallelic mutations in the <italic>FACE1/ZMPSTE24</italic> gene. As a consequence, the last cleavage step of Prelamin A maturation is only partially performed, leading to the accumulation of wild type, permanently farnesylated and toxic Prelamin A isoforms [<xref ref-type="bibr" rid="B17-cells-05-00031">17</xref>,<xref ref-type="bibr" rid="B18-cells-05-00031">18</xref>,<xref ref-type="bibr" rid="B19-cells-05-00031">19</xref>].</p>
+      <p>To date, several therapeutic strategies have been proposed to either: (a) counteract the toxic effects of Prelamin A isoforms accumulated in patients&#x2019; cells [<xref ref-type="bibr" rid="B20-cells-05-00031">20</xref>]; or (b) reduce the quantities of aberrant Prelamin A isoforms [<xref ref-type="bibr" rid="B21-cells-05-00031">21</xref>,<xref ref-type="bibr" rid="B22-cells-05-00031">22</xref>]. (a) The first attempts aiming to decrease Prelamin A toxicity by reducing its farnesylation, used Farnesyl-transferase inhibitors (FTIs) [<xref ref-type="bibr" rid="B23-cells-05-00031">23</xref>,<xref ref-type="bibr" rid="B24-cells-05-00031">24</xref>] or, more globally, its prenylation, used zoledronate and pravastatin [<xref ref-type="bibr" rid="B6-cells-05-00031">6</xref>]. (b) The second approach aimed to reduce Prelamin A quantities by blocking the cryptic splice site leading to Progerin mRNA production using morpholino antisense oligonucleotides (AON) [<xref ref-type="bibr" rid="B1-cells-05-00031">1</xref>,<xref ref-type="bibr" rid="B25-cells-05-00031">25</xref>,<xref ref-type="bibr" rid="B26-cells-05-00031">26</xref>]. Morpholinos are small modified oligonucleotides that modulate splicing via steric blockade of pre-mRNA targets [<xref ref-type="bibr" rid="B27-cells-05-00031">27</xref>]. (c) Subsequent attempts aimed to reduce downstream toxic effects of Prelamin A accumulation, by acting on inflammation or IGF-1 levels [<xref ref-type="bibr" rid="B28-cells-05-00031">28</xref>,<xref ref-type="bibr" rid="B29-cells-05-00031">29</xref>]. Other therapeutic strategies for Progeria could be considered, such as gene therapy approach (CRISPR), cell-based replacement therapies, particularly targeting the vascular tissue, using either matching wild-type cells or tissue-stem cells generated from genetically corrected HGPS iPS cells, RNA Therapy based on RNA interference, or the antioxidant based approach [<xref ref-type="bibr" rid="B30-cells-05-00031">30</xref>,<xref ref-type="bibr" rid="B31-cells-05-00031">31</xref>].</p>
+      <p>The efficiency of AON in blocking the aberrant <italic>LMNA</italic> splicing leading to Progerin production has been previously proven in vitro on classical HGPS patient&#x2019;s cells and in vivo on a knock-in mouse model (<italic>Lmna<sup>G609G/G609G</sup></italic>) closely mimicking Hutchinson-Gilford Progeria [<xref ref-type="bibr" rid="B25-cells-05-00031">25</xref>]. In the latter mouse line, Osorio et al. tested the combined administration of two AONs: &#x201C;MmEx11&#x201D; targeting the exon 11 aberrant splice site activated by the Progeria mutation in order to hamper its use, and &#x201C;MmEx10&#x201D;, targeting the physiological exon 10 splice site, in order to reinforce the action of the first AON, by shifting splicing events towards Lamin C mRNAs while reducing the production of all Lamin A isoforms, including Progerin.</p>
+      <p>To increase the uptake of oligonucleotides by tissues, Vivo-morpholinos were used, which consist of morpholinos modified by covalent binding of an octaguanidin dendrimere allowing to increase AON biodistribution in vivo [<xref ref-type="bibr" rid="B32-cells-05-00031">32</xref>]. Intravenous administration of these AONs in mice led to reduced Progerin amounts, marked amelioration of their progeroid phenotypes and lifespan extension [<xref ref-type="bibr" rid="B25-cells-05-00031">25</xref>]. These results represented an unprecedented and fundamental proof of concept in the field of Progeria therapeutics and suggest that splicing modulation using AONs might be tested in a future clinical trial. In order to expand the cohort of progeroid patients eligible to future treatment by AON, we tested the efficacy of this approach to block the aberrant and pathological splicing in cells from other patients with HGPS-like or mandibuloacral dysplasia with type B lipodystrophy (MAD-B) [<xref ref-type="bibr" rid="B17-cells-05-00031">17</xref>].</p>
+    </sec>
+    <sec id="sec2-cells-05-00031">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-cells-05-00031">
+        <title>2.1. Patients and Samples</title>
+        <p>Samples were collected from seven patients affected with typical HGPS, HGPS-like or MAD-B syndromes, showing variable clinical phenotypes and disease severity but having in common the accumulation of aberrant Prelamin A isoforms. Patients were from France (HGPS-L5), Greece (HGPS-L3), UK (HGPS-L2 and HGPS-L4), USA (HGPS-L1) and Togo (MAD-B). Informed consents were obtained from the patients or the parents of minor patients included in this work, allowing studies on their cells as part of a diagnostic and research program, complying with the ethical guidelines of the institutions involved. Parents also gave written consent for picture publication. The dermal fibroblast cell line from patient HGPS-L 1 was provided by the Progeria Research Foundation Cell and Tissue Bank under the cell line name PSADFN386 (<uri>www.progeriaresearch.org</uri>); the other human dermal fibroblast cell lines were issued from a skin biopsy, prepared and stored by the labeled Biological Resource Center (CRB TAC), Department of Medical Genetics, Timone Hospital of Marseille (A. Robaglia-Schlupp and K. Bertaux) according to the French regulation. The fibroblast cell lines used belong to a biological sample collection declared to the French ministry of Health (declaration number DC-2008-429) whose use for research purposes was authorized by the French ministry of Health (authorization number AC-2011-1312). The fibroblasts cell lines were cultured in Dulbecco&#x2019;s modified Eagle&#x2019;s medium (Life Technologies, Waltham, MA, USA) supplemented with 15% fetal bovine serum (Life Technologies), 2 mm <sc>l</sc>-glutamine (Life Technologies) and 100 U/mL of penicillin, streptomycin and amphotericin B mix (Life Technologies) at 37 &#xB0;C in a humidified atmosphere containing 5% CO<sub>2</sub>.</p>
+      </sec>
+      <sec id="sec2dot2-cells-05-00031">
+        <title>2.2. Delivery of Morpholino Oligonucleotides</title>
+        <p>For morpholino delivery, we used the Endoporter system and followed the manufacturer&#x2019;s instructions (Gene Tools, LLC, Philomath, OR, USA). Briefly, cells were plated at 50% subconfluence in DMEM (Life Technologies) containing 10% fetal bovine serum (Life Technologies) and 2 mm <sc>l</sc>-glutamine (Life Technologies) at 37 &#xB0;C in a humidified atmosphere of 5% CO<sub>2</sub>. Each morpholino oligonucleotide was added at a final concentration of 20 &#xB5;M to cell cultures in six-well plates. Endoporter reagent was added at a final concentration of 6 &#xB5;M. Cells were retransfected 48 h later. The effect of morpholino oligonucleotides was assayed 96 h after the first transfection. All transfection experiments were repeated three times.</p>
+      </sec>
+      <sec id="sec2dot3-cells-05-00031">
+        <title>2.3. Morpholino Sequences</title>
+        <p>Combinations of morpholino oligonucleotides sequences were personalized for each patient&#x2019;s <italic>LMNA</italic> genotype as described in <xref ref-type="table" rid="cells-05-00031-t001">Table 1</xref>. Indeed, as previously mentioned, Lamins A/C are generated by alternative splicing of the <italic>LMNA</italic> gene. The use of a donor splice site within exon 10, generates the Prelamin A-encoding transcripts. A common SNP (dbSNP rs4641: C &gt; T) is located at this alternative splice site [<xref ref-type="bibr" rid="B33-cells-05-00031">33</xref>,<xref ref-type="bibr" rid="B34-cells-05-00031">34</xref>,<xref ref-type="bibr" rid="B35-cells-05-00031">35</xref>], at position c.1698 of the Prelamin A-encoding transcript (NM_170707.3) and was contained in the Ex10 morpholino target sequence (indicated in bold in <xref ref-type="table" rid="cells-05-00031-t001">Table 1</xref>). The rs4641 allele segregating in cis on the mutated chromosomes of HGPS-like patients was determined from each patient&#x2019;s cell line by Sanger sequencing of aberrant Prelamin A transcripts, amplified by RT-PCRs spanning exons 10 and 11, in order to be able to design for each patient the most efficient Ex10 morpholino AON targeting the mutated pre-mRNAs. For the MAD-B patient, for whom rs4641 was homozygous &#x201C;C&#x201D; at the genomic level, only the morpholino directed against exon 10 and targeting all the Prelamin A transcripts was used (<xref ref-type="table" rid="cells-05-00031-t001">Table 1</xref>). For HGPS-L4 a specific morpholino directed against Prelamin A &#x394;35 was designed and used in combination with Morpholino-Ex10.</p>
+      </sec>
+      <sec id="sec2dot4-cells-05-00031">
+        <title>2.4. RNA Isolation, Transcriptional Analysis and Real-Time Quantitative PCR</title>
+        <p>Total RNAs were isolated from cultured cells using RNeasy plus extraction kit (Qiagen, Valencia, CA, USA) and the samples were quantified and evaluated for purity (260 nm/280 nm ratio) with a NanoDrop ND-1000 spectrophotometer. Five hundred nanograms of RNA was reverse transcribed using the High Capacity cDNA Reverse Transcription Kit (Applied Biosystems, Waltham, MA, USA), using random hexamers. PCR amplifications were performed with 2 &#xB5;L of RT-product with specific primers using the following program: a denaturation step at 95 &#xB0;C for 3 min, followed by 30 cycles including 95 &#xB0;C for 30 s, 60 &#xB0;C for 30 s and finally 72 &#xB0;C for 45 s and a final elongation step of 3 min. PCR products were separated by electrophoresis in a 2% agarose gel containing ethidium bromide. Primers used for Lamin transcripts amplification were located in exons 9 and 12: forward (5&#x2032;-GTGGAAGGCACAGAACACCT-3&#x2032;) and reverse (5&#x2032;-GTGAGGAGGACGCAGGAA-3&#x2032;). To analyze the effect of antisense oligonucleotides on &#x3B2;-actin and GAPDH the following primers were used: &#x3B2;-actin ex4-ex5F: 5&#x2032;-CGCGAGCACAGAGCCTCG-3&#x2032;; &#x3B2;-actin ex4-ex5R: 5&#x2032;-TCTTCTCGCGGTTGGCCTTG-3&#x2032;; &#x3B2;-actin ex3-ex4F: 5&#x2032;-ACCCAGATCATGTTTGAGAC-3&#x2032;; &#x3B2;-actin ex3-ex4R: 5&#x2032;-GGCAGTGATCTCCTTCTGC-3&#x2032;; &#x3B2;-actin ex1-ex3F: 5&#x2032;-CCAGCACAATGAAGATCAAGATC-3&#x2032;; &#x3B2;-actin ex1-ex3R: 5&#x2032;-TTCAACTGGTCTCAAGTCAGTG-3&#x2032;; GAPDH ex7-ex9F: 5&#x2032;-TCCTCCTGTTCGACAGTCAG-3&#x2032;; GAPDH ex7-ex9R: 5&#x2032;-AGTTGGTGGTGCAGGAGGC-3&#x2032;; GAPDH ex1-ex7F: 5&#x2032;-CCTGGCCAAGGTCATCCATG-3&#x2032;; GAPDH ex1-ex7R: 5&#x2032;-GTACTTTATTGATGGTACATGAC-3&#x2032;.</p>
+        <p>Quantitative RT-PCR (qRT-PCR) was carried out with the TaqMan Gene Expression Master Mix on a LightCycler 480 (Roche, Berlin, Germany) using pre-designed primers for GAPDH (Hs00266705_g1), Progerin (F: ACTGCAGCAGCTCGGGG. R: TCTGGGGGCTCTGGGC and probe: CGCTGAGTACAACCT), Lamin A (F: TCTTCTGCCTCCAGTGTCACG. R: AGTTCTGGGGGCTCTGGGT and probe: ACTCGCAGCTACCG), Lamin C (F: CAACTCCACTGGGGAAGAAGTG. R: CGGCGGCTACCACTCAC and probe: ATGCGCAAGCTGGTG), Prelamin A &#x394;90 (F: CGAGGATGAGGATGGAGATGA. R: CAGGTCCCAGATTACATGATGCT, overlapping exons 10 and 12 and probe: CACCACAGCCCCCAGA) (Applied Biosystems) using the program: UNG incubation at 50 &#xB0;C for 2 min, initial denaturation at 95 &#xB0;C for 10 min, 45 cycles of amplification: denaturation at 95 &#xB0;C for 15 s and annealing at 60 &#xB0;C for 1 min. All PCR reactions were performed in triplicate. Threshold cycle (Ct) values were used to calculate relative mRNA expression by the 2-&#x394;&#x394;CT relative quantification method using normalization to GAPDH expression and EP condition as the reference value for each patient.</p>
+      </sec>
+      <sec id="sec2dot5-cells-05-00031">
+        <title>2.5. Western-Blot</title>
+        <p>Total fibroblast proteins were extracted in 200 &#x3BC;L of NP40 Cell Lysis buffer (Invitrogen, Carlsbad, CA, USA) containing Protease and Phosphatase Inhibitor Cocktail (Thermo Fisher Scientific Inc. Waltham, MA, USA). Cells were sonicated twice (30 s each), incubated at 4 &#xB0;C for 30 min and then centrifuged at 10,000 g for 10 min. Protein concentration was evaluated with the bicinchoninic acid technique (Pierce BCA Protein Assay Kit), absorbance at 562 nm is measured using nanodrop 1000 (Thermo Fisher Scientific Inc. Waltham, MA, USA) Equal amounts of proteins (40 &#xB5;g) were loaded onto 10% Tis-Glycine gel (CriterionTM XT precast gel) using XT Tricine running Buffer (Biorad, Hercules, CA, USA). After electrophoresis, gels were electro transferred onto nitrocellulose membranes or Immobilon-FL polyvinylidene fluoride membranes (Millipore), blocked in Odyssey Blocking Buffer diluted 1:1 in PBS for 1 h at room temperature, and incubated overnight at 4 &#xB0;C or 2 h at room temperature with various primary antibodies diluted in blocking buffer added with 0.1% Tween 20: 1:1000 rabbit polyclonal anti-Lamin A/C (sc-20681, Santa Cruz Biotechnology, Dallas, TX, USA), 1:200 goat polyclonal anti-Lamin A/C (sc-6215, Santa Cruz Biotechnology), 1:1000 mouse monoclonal anti-Progerin (ab66587, Abcam, Cambridge, UK), 1:1000 mouse monoclonal anti-actin (MAB1501, Merck Millipore, Darmstadt, Germany) and 1:40,000 monoclonal anti-glyceraldehyde-3-phosphate dehydrogenase (GAPDH) (MAB374, Merck Millipore). Blots were washed with TBS-T buffer [20 mM tris (pH 7.4), 150 mm NaCl, and 0.05% Tween 20] and incubated with 1:10,000 IR-Dye 800-conjugated secondary donkey anti-goat or IR-Dye 700-conjugated secondary anti-mouse antibodies (LI-COR Biosciences) in blocking buffer added with 0.1% Tween 20 (LI-COR Biosciences, Lincoln, NE, USA). For IR-Dye 800 and IR-Dye 700 detection, an Odyssey Infrared Imaging System (LI-COR Biosciences) was used. GAPDH, &#x3B1;-tubulin or &#x3B2;-actin were used as a total cellular protein loading control.</p>
+      </sec>
+      <sec id="sec2dot6-cells-05-00031">
+        <title>2.6. Senescence Assay</title>
+        <p>Senescence was measured with a Beta-Glo Assay kit (Promega), according to the manufacturer&#x2019;s instructions. Luminescence intensity was determined as relative light units (RLUs) using a GloMax-Multi Detection System: Luminometer (Promega, Madison, WI, USA).</p>
+      </sec>
+      <sec id="sec2dot7-cells-05-00031">
+        <title>2.7. Quantitation of Abnormal Nuclear Morphology</title>
+        <p>Fibroblasts from HGPS and HGPS-like patients were cultured with DMEM medium containing 20 &#xB5;M AON, or 6 &#xB5;M of vehicle (Endoporter) for 96 h. Cells stained for Lamin A/C or DAPI were examined by fluorescence microscopy with an Axioplan 2 imaging microscope (Carl Zeiss, Oberkochen, Germany). For quantitation of abnormal nuclear morphology, the percentage of normal nuclei (nuclei with a smooth oval shape) and abnormal nuclei (nuclei with blebs, irregular shape, or multiple folds) was calculated using the Nuclear Irregularity Index (NII) plugin of the Image J Software (Version 1.6.0, NIH, USA). The analysis uses measures of nuclear area and of four parameters of irregularity, named Aspect, Area/Box, Radius Ratio and Roundness. These four parameters are used to generate a Nuclear Irregularity Index (NII) which, added to area measurement, classify the nuclei in normal or abnormal morphology. At least 100 fibroblast nuclei were randomly selected for each cell line.</p>
+      </sec>
+      <sec id="sec2dot8-cells-05-00031">
+        <title>2.8. Statistical Analyses</title>
+        <p>Statistical analyses were performed with GraphPad Prism 6 (GraphPad Software, Inc. San Diego, CA, USA). Differences between groups were assayed using a two-tailed Student&#x2019;s t-test. In all cases the experimental data were assumed to fulfill t-test requirements (normal distribution and similar variance); in those cases, where the assumption of the t-test was not valid, a non-parametric statistical method was used (Mann&#x2013;Whitney test). A <italic>p</italic> value less than 0.05 was considered as significant. Error bars indicate the standard error of the mean.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-cells-05-00031" sec-type="results">
+      <title>3. Results</title>
+      <sec id="sec3dot1-cells-05-00031">
+        <title>3.1. Patients&#x2019; Molecular and Clinical Features</title>
+        <p>Patients included in this study showed variable disease severity compared to classical HGPS but presented with similar phenotypes, including poor growth, hair loss, prominent forehead, prominent superficial veins, thin skin, loss of subcutaneous fat and lipodystrophy (<xref ref-type="fig" rid="cells-05-00031-f001">Figure 1</xref>A). HGPS-like patients were previously reported to present distinct aberrant splicing patterns of Prelamin A pre-mRNAs due to mutations located around exon 11 donor splice site (<xref ref-type="fig" rid="cells-05-00031-f001">Figure 1</xref>B,C). Patient HGPS-L1 carrying the <italic>LMNA</italic> heterozygous c.1968 + 2T &gt; C mutation was referred to our center at age five years old. She was diagnosed with the disease when she was 10 months old, presenting with a typical HGPS clinical phenotype, including frontal bossing, prominent veins on her scalp and forehead, sparse hair, micrognathism with delayed dentition, growth retardation (since birth, her length varied from the 2nd to the 10th centiles for age; the weight was stably &lt;3rd centile for age), subcutaneous lipoatrophy, dry skin with pigmentary changes on the neck and trunk, acroosteolyses with onychodystrophy of hands and feet; laboratory findings have evidenced recurrent thrombocytosis (480&#x2013;535 k/&#xB5;L; normal values: 140&#x2013;450 k/&#xB5;L), elevated transaminases, glucose, calcium and phosphorus, as already observed in classical HGPS patients [<xref ref-type="bibr" rid="B36-cells-05-00031">36</xref>]. HGPS-L2 patient, carrying the heterozygous <italic>LMNA</italic> c.1968 + 1G &gt; A mutation, showed a very similar progeroid laminopathy, though evolving more severely. She was diagnosed at nine months of age and already showed contractions of her ankles, knees, and wrist. She subsequently developed arthritis on several articulations. Her feeding was poor and she had frequent constipation episodes. She had bilateral hip dislocation and at the age of three years she suffered from a femur fracture. At age six, she suffered from tachycardia together with sudden right arm paresis; cerebral CT scan/MRI showed multiple micro-infarcts, including recent and old ones, while echocardiography showed left ventricular thickening. After partial recovery from stroke, she suffered from a chest infection together with painful nails&#x2019; infections. Patients HGPS-L3 (<italic>LMNA</italic> heterozygous c.1968 + 5G &gt; C), HGPS-L4 (<italic>LMNA</italic> heterozygous c.1868C &gt; G) and HGPS-L5 (<italic>LMNA</italic> heterozygous c.1968G &gt; A) were previously reported by Barthelemy et al. [<xref ref-type="bibr" rid="B12-cells-05-00031">12</xref>]. The MAD-B patient was first referred to us at age 6.5 years. She presented with growth retardation, exophtalmia, low-set ears, retro-micrognathism (mandibular hypoplasia), sparse hair and thin, dry skin with hypopigmented lesions, especially on the trunk. Subcutaneous lipoatrophy gave her a muscular pseudo-hypertrophic appearance. Molecular genetic diagnosis allowed the identification of a new homozygous mutation in the <italic>ZMPSTE24/FACE1</italic> gene&#x2019;s exon 10: c.1274T &gt; C, p.(Leu425Pro), confirming the B-type Mandibuloacral dysplasia phenotype in the patient [<xref ref-type="bibr" rid="B19-cells-05-00031">19</xref>].</p>
+      </sec>
+      <sec id="sec3dot2-cells-05-00031">
+        <title>3.2. Efficient Reduction of Aberrant Pre-mRNA Splicing in HGPS-Like and MAB-B Patient Cells Using Antisense Morpholinos</title>
+        <p>To evaluate the effects of antisense morpholinos in reducing aberrant <italic>LMNA</italic> splicing, we treated the primary fibroblasts cell lines of five patients with HGP-like syndromes, one patient with HGPS and one patient with MAD-B, following the same protocol described in [<xref ref-type="bibr" rid="B25-cells-05-00031">25</xref>] and adapted depending on the splice donor site and the genotype of the patient at dbSNP rs4641.</p>
+        <p>As shown in <xref ref-type="fig" rid="cells-05-00031-f002">Figure 2</xref>A, the effect of antisense morpholinos was first assessed at the transcriptional level by semi-quantitative RT-PCR using primers flanking the region between exons 9 and 12 of the LMNA gene (cf. <xref ref-type="sec" rid="sec2dot4-cells-05-00031">Section 2.4</xref>) and generating amplicons that were, respectively, 510 bp (Lamin A), 405 bp (Prelamin A &#x394;35) and 360 bp (Prelamin A &#x394;50). The results show that treatment of cells either with scrambled AON or with Endoporter had no effect on the levels of aberrant Prelamin A transcripts, which were similar to non-treated (NT) samples and did not result in generation of any aberrant splice products for &#x3B2;-actin and GAPDH suggesting that the observed response was specific to the personalized morpholino AON. For the cell lines of patients HGPS-L2 and -L3, the exploration was not entirely replicated since the AON used were exactly the same as for patient HGPS-L1, in whom no aberrant splicing was evidenced (cf. <xref ref-type="table" rid="cells-05-00031-t001">Table 1</xref>). When compared to control cells treated with Endoporter (EP), the analysis of aberrant transcripts&#x2019; amounts upon morpholino treatment revealed clear reductions in Lamin A and Prelamin A &#x394;50 mRNA in HGPS, HGPS-L1, HGPS-L2, HGPS-L3 and HGPS-L5 patients&#x2019; cells and Prelamin A &#x394;35 mRNA in HGPS-L4 patient cells. We obtained similar results when we analyzed the amounts of these aberrant isoforms, including Prelamin A &#x394;90, in morpholino-treated cells using quantitative RT-PCR (<xref ref-type="fig" rid="cells-05-00031-f002">Figure 2</xref>B). Indeed, deleted Prelamin A transcripts were greatly reduced, and the one corresponding to Lamin C was increased, as expected, due to the directed splicing shift of LMNA pre-mRNAs, favoring Lamin C production at the expense of Lamin A isoforms. The treatment also significantly decreased the production of Lamin A transcripts in MAD-B fibroblasts.</p>
+      </sec>
+      <sec id="sec3dot3-cells-05-00031">
+        <title>3.3. Antisense Morpholinos Reduce Aberrant Prelamin A Levels in HGPS-Like and MAB-B Patient Cells</title>
+        <p>The significant reduction of aberrant Prelamin A mRNA levels prompted us to evaluate the corresponding protein levels upon morpholino AON treatment. As shown in <xref ref-type="fig" rid="cells-05-00031-f003">Figure 3</xref>, we observed that treatment of patients&#x2019; fibroblasts with morpholinos led to a marked decrease of all aberrant Prelamin A protein levels relative to Endoporter treated cells (control) in all patients, including the MAD-B patient.</p>
+        <p>Moreover, given the heterozygous status of the LMNA rs4641 allele in the HGPS patient, carrying the rs4641 &#x201C;C&#x201D; genotype in cis of the c.1824C &gt; T mutation, we showed that the use of morpholino-Ex10 &#x201C;C allele&#x201D; was about 25% more effective in reducing Progerin levels than the Ex10-morpholino &#x201C;T allele&#x201D;. Similarly, we have shown that treatments with scrambled AON as well as with the Endoporter had no effect on Prelamin A levels, indicating the specific action of the personalized morpholino AON in reducing Prelamin A isoforms&#x2019; expression.</p>
+      </sec>
+      <sec id="sec3dot4-cells-05-00031">
+        <title>3.4. Antisense Morpholinos Reduce Senescence in HGPS-Like and MAB-B Patient Cells and Improve Nuclear Shape Abnormalities</title>
+        <p>Finally, since cellular senescence is considered as a major hallmark of HGPS, we assessed senescence levels, measured by &#x3B2;-galactosidase quantification, upon morpholino AON treatment in HGPS, HGPS-like and MAD-B fibroblasts. As shown in <xref ref-type="fig" rid="cells-05-00031-f004">Figure 4</xref>A, in all the tested cell lines, senescence-associated &#x3B2;-galactosidase activity levels were decreased by a 10-day-long morpholino treatment, when compared to the same cell lines treated the same number of days with Endoporter. In addition, Using Lamin A/C and DAPI staining, the characteristic nuclear defects have been explored to determine the effectiveness of AON treatments towards reversing HGPS and HGPS-like nuclear abnormalities. As shown in <xref ref-type="fig" rid="cells-05-00031-f004">Figure 4</xref>B, among the cells tested, HGPS, HGPS-L3 and HGPS-L4 exhibited a significant reduction in nuclear blebbing compared with the passage-matched and Endoporter-treated cells.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-cells-05-00031" sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>We previously showed that the reduction of Progerin levels can be achieved via an antisense therapeutic approach, with beneficial effects both in vitro on human HGPS fibroblasts and <italic>Lmna<sup>G609G/G609G</sup></italic> fibroblasts and in vivo on the <italic>Lmna<sup>G609G/G609G</sup></italic> mouse model [<xref ref-type="bibr" rid="B25-cells-05-00031">25</xref>], establishing the first in vivo proof of principle of efficacy for a future trial based on antisense approaches in HGPS. Recently, similar results were obtained by another group on the same <italic>Lmna<sup>G609G/G609G</sup></italic> mouse model, confirming the efficacy of this approach [<xref ref-type="bibr" rid="B37-cells-05-00031">37</xref>]. However, <italic>LMNA</italic> mutations other than the classical p.G608G have been shown to cause the production of Progerin and/or other truncated Prelamin A isoforms in patients affected with HGPS-like syndromes [<xref ref-type="bibr" rid="B12-cells-05-00031">12</xref>,<xref ref-type="bibr" rid="B13-cells-05-00031">13</xref>,<xref ref-type="bibr" rid="B14-cells-05-00031">14</xref>,<xref ref-type="bibr" rid="B15-cells-05-00031">15</xref>,<xref ref-type="bibr" rid="B16-cells-05-00031">16</xref>]. These patients are theoretical candidates to enter into the same kind of clinical trial, since they share the same pathophysiological mechanism based on abnormal pre-mRNA splicing, leading to the accumulation of Progerin and/or other truncated Prelamin A isoforms. Towards this end, obtaining further in vitro preclinical evidence of benefit and efficacy of such an approach by adapting the AON treatment to the different genotypes was indicated. In this study, we assessed this treatment&#x2019;s efficacy in reducing the production of all Lamin A isoforms, notably including aberrantly accumulated Prelamin A isoforms, either truncated or wild type, in HGPS-like and MAD-B patients&#x2019; cells. The treatment&#x2019;s efficacy was analyzed at the transcriptional and protein levels in all HGPS-like patients. We show a significant decrease of each aberrant transcript&#x2019;s production (Prelamin A &#x394;35, &#x394;50 and &#x394;90) and also of the corresponding abnormal proteins, excepted for Prelamin A &#x2206;90 against which there is no specific antibody and whose size is equal to that of Lamin C, thus making it unidentifiable using an anti-Lamin A/C antibody. Nonetheless, this issue is of little concern since previous studies using mass spectrometry in cell lines of patients producing high levels of the Prelamin A &#x2206;90 transcript failed to evidence the production of a peptide corresponding to this isoform, suggesting that its transcript is not or very faintly translated [<xref ref-type="bibr" rid="B12-cells-05-00031">12</xref>]. A MAD-B patient, carrying the homozygous missense mutation p.Leu425Pro in the FACE1/ZMPSTE24 gene, was also included in this study, in order to expand the cohort of patients eligible to treatment by the antisense approach.</p>
+      <p>In all patients, AON treatment elicited Lamin C transcripts&#x2019; upregulation. This increase, observed by quantitative RT-PCR, was expected. Indeed, these transcripts are produced from pre-mRNAs encoded by the <italic>LMNA</italic> gene when the splice site within exon 10 leading to the production of Prelamin A isoforms is not used. In most cases, although depending on organism and tissues, the production of Lamin A vs. Lamin C isoforms is physiologically relatively balanced (with the exception of neural cells [<xref ref-type="bibr" rid="B38-cells-05-00031">38</xref>,<xref ref-type="bibr" rid="B39-cells-05-00031">39</xref>]); in our work, the steric blockade of the exon 10 splice site forces a shift in the splicing balance towards Lamin C-encoding transcripts. Based on previous preclinical data, it is expected that Lamin C can, at least partially, compensate the absence of Lamin A since mice expressing Lamin C only show no phenotypic abnormality and even an extended lifespan [<xref ref-type="bibr" rid="B25-cells-05-00031">25</xref>,<xref ref-type="bibr" rid="B40-cells-05-00031">40</xref>,<xref ref-type="bibr" rid="B41-cells-05-00031">41</xref>]. Anyway, considering the severe phenotypes of HGPS, HGPS-like and MAD-B patients, the benefit/risk balance is undoubtedly in favor of reducing toxic isoforms of Prelamin A. Further supporting the view of a favorable effect induced by Prelamin A reduction, we provided evidence that prolonged treatment with morpholino AONs also had beneficial functional consequences, shown by a reduced number of cells expressing the senescence marker &#x3B2;-galactosidase and reducing the typical nuclear blebbing in some of the tested cell lines after a short-term treatment.</p>
+      <p>Importantly, several preclinical results or patient-extrapolated data support the idea that even relatively small reductions in the amounts of accumulated Prelamin A may have important clinical/phenotypic beneficial consequences, making this approach very promising in terms of disease prevention/recovery [<xref ref-type="bibr" rid="B42-cells-05-00031">42</xref>].</p>
+      <p>The spectacular absence of pathological phenotypes in <italic>Zmpste24<sup>&#x2212;/&#x2212;</sup></italic> <italic>Lmna<sup>+/&#x2212;</sup></italic> mice, protecting them from all of the pathological consequences of Zmpste24 deficiency and the disease phenotypes of Progeria [<xref ref-type="bibr" rid="B43-cells-05-00031">43</xref>], suggests that reducing by half the quantities of accumulated Prelamin A may be the gold standard for treatment efficacy. Nonetheless, the prevention of progeroid phenotypes upon treatment with antisense morpholino oligonucleotides was demonstrated in vivo even if the reduction of the amounts of Progerin (protein) accumulated in mice tissues was relatively low [<xref ref-type="bibr" rid="B25-cells-05-00031">25</xref>]. Similar beneficial results with very limited reduction of Progerin amounts in vivo was recently confirmed [<xref ref-type="bibr" rid="B37-cells-05-00031">37</xref>]. Furthermore, other studies suggest that at least certain pathological phenotypes (e.g., of bone) may be even reverted upon lowering the expression of Progerin [<xref ref-type="bibr" rid="B42-cells-05-00031">42</xref>].</p>
+      <p>AON chemistries are also continually evolving with increasing bioavailabilities and biodistribution properties; e.g., tricyclo-DNA oligomers enable dystrophin rescue and functional improvement in all tissues affected by the lack of dystrophin in mouse DMD models [<xref ref-type="bibr" rid="B44-cells-05-00031">44</xref>]. Finally, a splicing modulation strategy (exon skipping) using morpholino AONs was successfully already used in pediatric populations, in the context of Duchenne muscular dystrophy [<xref ref-type="bibr" rid="B45-cells-05-00031">45</xref>,<xref ref-type="bibr" rid="B46-cells-05-00031">46</xref>], making the use of AON with similar chemistry more secure.</p>
+      <p>Overall, the choice of AON chemistry and route of administration will be particularly important for future therapeutic approaches involving splicing-modulation by antisense oligonucleotides in diseases that are amenable to this approach like HGPS and related syndromes. The results we report establish a preclinical proof of principle for the use of antisense morpholino oligonucleotides in HGPS-like and MAD-B syndromes, further extending, besides classical HGPS, the eligibility of patients for the inclusion in a future trial based on this therapeutic approach.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We thank Fran&#xE7;oise Merono for her excellent support and assistance.</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Karim Harhouri, Camille Baquerre, Nathalie Da Silva and Catherine Bartoli performed the experiments and analyzed the data. Frank Casey, Yassamine Doubaj, Guedenon Koffi Mawuse and Annachiara De Sandre Giovannoli provided medical care for the patients and contacts with their families. Karim Harhouri, Annachiara De Sandre Giovannoli, Claire Navarro and Nicolas Levy conceived and designed the experiments. Karim Harhouri and Annachiara De Sandre Giovannoli wrote the manuscript.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-05-00031">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cau</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Navarro</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Harhouri</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Roll</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Sigaudy</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kaspi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Perrin</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>De Sandre-Giovannoli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Levy</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nuclear matrix, nuclear envelope and premature aging syndromes in a translational research perspective</article-title>
+          <source>Semin. Cell Dev. Biol.</source>
+          <year>2014</year>
+          <volume>19</volume>
+          <fpage>125</fpage>
+          <lpage>147</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.semcdb.2014.03.021</pub-id>
+          <pub-id pub-id-type="pmid">24662892</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-cells-05-00031">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fisher</surname>
+              <given-names>D.Z.</given-names>
+            </name>
+            <name>
+              <surname>Chaudhary</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Blobel</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cdna sequencing of nuclear lamins a and c reveals primary and secondary structural homology to intermediate filament proteins</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>1986</year>
+          <volume>83</volume>
+          <fpage>6450</fpage>
+          <lpage>6454</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.83.17.6450</pub-id>
+          <pub-id pub-id-type="pmid">3462705</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-cells-05-00031">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Worman</surname>
+              <given-names>H.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural organization of the human gene encoding nuclear lamin a and nuclear lamin c</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1993</year>
+          <volume>268</volume>
+          <fpage>16321</fpage>
+          <lpage>16326</lpage>
+          <pub-id pub-id-type="pmid">8344919</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-cells-05-00031">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hetzer</surname>
+              <given-names>M.W.</given-names>
+            </name>
+            <name>
+              <surname>Wente</surname>
+              <given-names>S.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Border control at the nucleus: Biogenesis and organization of the nuclear membrane and pore complexes</article-title>
+          <source>Dev. Cell</source>
+          <year>2009</year>
+          <volume>17</volume>
+          <fpage>606</fpage>
+          <lpage>616</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.devcel.2009.10.007</pub-id>
+          <pub-id pub-id-type="pmid">19922866</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-cells-05-00031">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weber</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Plessmann</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Traub</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Maturation of nuclear lamin a involves a specific carboxy-terminal trimming, which removes the polyisoprenylation site from the precursor; implications for the structure of the nuclear lamina</article-title>
+          <source>FEBS Lett.</source>
+          <year>1989</year>
+          <volume>257</volume>
+          <fpage>411</fpage>
+          <lpage>414</lpage>
+          <pub-id pub-id-type="doi">10.1016/0014-5793(89)81584-4</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-cells-05-00031">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Varela</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Pereira</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ugalde</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>Navarro</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Suarez</surname>
+              <given-names>M.F.</given-names>
+            </name>
+            <name>
+              <surname>Cau</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Cadinanos</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Osorio</surname>
+              <given-names>F.G.</given-names>
+            </name>
+            <name>
+              <surname>Foray</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Cobo</surname>
+              <given-names>J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Combined treatment with statins and aminobisphosphonates extends longevity in a mouse model of human premature aging</article-title>
+          <source>Nat. Med.</source>
+          <year>2008</year>
+          <volume>14</volume>
+          <fpage>767</fpage>
+          <lpage>772</lpage>
+          <pub-id pub-id-type="doi">10.1038/nm1786</pub-id>
+          <pub-id pub-id-type="pmid">18587406</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-cells-05-00031">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dechat</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Pfleghaar</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Sengupta</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Shimi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Shumaker</surname>
+              <given-names>D.K.</given-names>
+            </name>
+            <name>
+              <surname>Solimando</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>R.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nuclear lamins: Major factors in the structural organization and function of the nucleus and chromatin</article-title>
+          <source>Genes Dev.</source>
+          <year>2008</year>
+          <volume>22</volume>
+          <fpage>832</fpage>
+          <lpage>853</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.1652708</pub-id>
+          <pub-id pub-id-type="pmid">18381888</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-cells-05-00031">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Sandre-Giovannoli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bernard</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Cau</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Navarro</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Amiel</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Boccaccio</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Lyonnet</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Stewart</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Munnich</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Le Merrer</surname>
+              <given-names>M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Lamin a truncation in hutchinson-gilford progeria</article-title>
+          <source>Science</source>
+          <year>2003</year>
+          <volume>300</volume>
+          <fpage>2055</fpage>
+          <pub-id pub-id-type="doi">10.1126/science.1084125</pub-id>
+          <pub-id pub-id-type="pmid">12702809</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-cells-05-00031">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eriksson</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>W.T.</given-names>
+            </name>
+            <name>
+              <surname>Gordon</surname>
+              <given-names>L.B.</given-names>
+            </name>
+            <name>
+              <surname>Glynn</surname>
+              <given-names>M.W.</given-names>
+            </name>
+            <name>
+              <surname>Singer</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Erdos</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Robbins</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Moses</surname>
+              <given-names>T.Y.</given-names>
+            </name>
+            <name>
+              <surname>Berglund</surname>
+              <given-names>P.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Recurrent de novo point mutations in lamin a cause hutchinson-gilford progeria syndrome</article-title>
+          <source>Nature</source>
+          <year>2003</year>
+          <volume>423</volume>
+          <fpage>293</fpage>
+          <lpage>298</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature01629</pub-id>
+          <pub-id pub-id-type="pmid">12714972</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-cells-05-00031">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hennekam</surname>
+              <given-names>R.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hutchinson-gilford progeria syndrome: Review of the phenotype</article-title>
+          <source>Am. J. Med. Genet. A</source>
+          <year>2006</year>
+          <volume>140</volume>
+          <fpage>2603</fpage>
+          <lpage>2624</lpage>
+          <pub-id pub-id-type="doi">10.1002/ajmg.a.31346</pub-id>
+          <pub-id pub-id-type="pmid">16838330</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-05-00031">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goldman</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Shumaker</surname>
+              <given-names>D.K.</given-names>
+            </name>
+            <name>
+              <surname>Erdos</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Eriksson</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <name>
+              <surname>Gordon</surname>
+              <given-names>L.B.</given-names>
+            </name>
+            <name>
+              <surname>Gruenbaum</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Khuon</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mendez</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Varga</surname>
+              <given-names>R.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Accumulation of mutant lamin a causes progressive changes in nuclear architecture in hutchinson-gilford progeria syndrome</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2004</year>
+          <volume>101</volume>
+          <fpage>8963</fpage>
+          <lpage>8968</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0402943101</pub-id>
+          <pub-id pub-id-type="pmid">15184648</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-cells-05-00031">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barthelemy</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Navarro</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Fayek</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Da Silva</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Roll</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Sigaudy</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Oshima</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Bonne</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Papadopoulou-Legbelou</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Evangeliou</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Truncated prelamin A expression in HGPS-like patients: A transcriptional study</article-title>
+          <source>Eur. J. Hum. Genet.</source>
+          <year>2015</year>
+          <volume>23</volume>
+          <fpage>1051</fpage>
+          <lpage>1061</lpage>
+          <pub-id pub-id-type="doi">10.1038/ejhg.2014.239</pub-id>
+          <pub-id pub-id-type="pmid">25649378</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13-cells-05-00031">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hisama</surname>
+              <given-names>F.M.</given-names>
+            </name>
+            <name>
+              <surname>Lessel</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Leistritz</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Friedrich</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>McBride</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Pastore</surname>
+              <given-names>M.T.</given-names>
+            </name>
+            <name>
+              <surname>Gottesman</surname>
+              <given-names>G.S.</given-names>
+            </name>
+            <name>
+              <surname>Saha</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>G.M.</given-names>
+            </name>
+            <name>
+              <surname>Kubisch</surname>
+              <given-names>C.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Coronary artery disease in a werner syndrome-like form of progeria characterized by low levels of progerin, a splice variant of lamin A</article-title>
+          <source>Am. J. Med. Genet. A</source>
+          <year>2011</year>
+          <volume>155</volume>
+          <fpage>3002</fpage>
+          <lpage>3006</lpage>
+          <pub-id pub-id-type="doi">10.1002/ajmg.a.34336</pub-id>
+          <pub-id pub-id-type="pmid">22065502</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-cells-05-00031">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fukuchi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Katsuya</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sugimoto</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kuremura</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>H.D.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ogihara</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lmna mutation in a 45 year old japanese subject with hutchinson-gilford progeria syndrome</article-title>
+          <source>J. Med. Genet.</source>
+          <year>2004</year>
+          <volume>41</volume>
+          <fpage>e67</fpage>
+          <pub-id pub-id-type="doi">10.1136/jmg.2003.014688</pub-id>
+          <pub-id pub-id-type="pmid">15121795</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15-cells-05-00031">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moulson</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Fong</surname>
+              <given-names>L.G.</given-names>
+            </name>
+            <name>
+              <surname>Gardner</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Farber</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Go</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Passariello</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Grange</surname>
+              <given-names>D.K.</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>S.G.</given-names>
+            </name>
+            <name>
+              <surname>Miner</surname>
+              <given-names>J.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Increased progerin expression associated with unusual lmna mutations causes severe progeroid syndromes</article-title>
+          <source>Hum. Mutat.</source>
+          <year>2007</year>
+          <volume>28</volume>
+          <fpage>882</fpage>
+          <lpage>889</lpage>
+          <pub-id pub-id-type="doi">10.1002/humu.20536</pub-id>
+          <pub-id pub-id-type="pmid">17469202</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-cells-05-00031">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shalev</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>De Sandre-Giovannoli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Shani</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Levy</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>An association of hutchinson-gilford progeria and malignancy</article-title>
+          <source>Am. J. Med. Genet. A</source>
+          <year>2007</year>
+          <volume>143</volume>
+          <fpage>1821</fpage>
+          <lpage>1826</lpage>
+          <pub-id pub-id-type="doi">10.1002/ajmg.a.31803</pub-id>
+          <pub-id pub-id-type="pmid">17618517</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17-cells-05-00031">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Agarwal</surname>
+              <given-names>A.K.</given-names>
+            </name>
+            <name>
+              <surname>Fryns</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Auchus</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Garg</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Zinc metalloproteinase, ZMPSTE24, is mutated in mandibuloacral dysplasia</article-title>
+          <source>Hum. Mol. Genet.</source>
+          <year>2003</year>
+          <volume>12</volume>
+          <fpage>1995</fpage>
+          <lpage>2001</lpage>
+          <pub-id pub-id-type="doi">10.1093/hmg/ddg213</pub-id>
+          <pub-id pub-id-type="pmid">12913070</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18-cells-05-00031">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shackleton</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Smallwood</surname>
+              <given-names>D.T.</given-names>
+            </name>
+            <name>
+              <surname>Clayton</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wilson</surname>
+              <given-names>L.C.</given-names>
+            </name>
+            <name>
+              <surname>Agarwal</surname>
+              <given-names>A.K.</given-names>
+            </name>
+            <name>
+              <surname>Garg</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Trembath</surname>
+              <given-names>R.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Compound heterozygous ZMPSTE24 mutations reduce prelamin a processing and result in a severe progeroid phenotype</article-title>
+          <source>J. Med. Genet.</source>
+          <year>2005</year>
+          <volume>42</volume>
+          <fpage>e36</fpage>
+          <pub-id pub-id-type="doi">10.1136/jmg.2004.029751</pub-id>
+          <pub-id pub-id-type="pmid">15937076</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19-cells-05-00031">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ben Yaou</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Navarro</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Quijano-Roy</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bertrand</surname>
+              <given-names>A.T.</given-names>
+            </name>
+            <name>
+              <surname>Massart</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>De Sandre-Giovannoli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Cadinanos</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Mamchaoui</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Butler-Browne</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Estournet</surname>
+              <given-names>B.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Type B mandibuloacral dysplasia with congenital myopathy due to homozygous ZMPSTE24 missense mutation</article-title>
+          <source>Eur. J. Hum. Genet.</source>
+          <year>2011</year>
+          <volume>19</volume>
+          <fpage>647</fpage>
+          <lpage>654</lpage>
+          <pub-id pub-id-type="doi">10.1038/ejhg.2010.256</pub-id>
+          <pub-id pub-id-type="pmid">21267004</pub-id>
+        </citation>
+      </ref>
+      <ref id="B20-cells-05-00031">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Blondel</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Jaskowiak</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Egesipe</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Le Corf</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Navarro</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Cordette</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Martinat</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Laabi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Djabali</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>de Sandre-Giovannoli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Induced pluripotent stem cells reveal functional differences between drugs currently investigated in patients with hutchinson-gilford progeria syndrome</article-title>
+          <source>Stem Cells Transl. Med.</source>
+          <year>2014</year>
+          <volume>3</volume>
+          <fpage>510</fpage>
+          <lpage>519</lpage>
+          <pub-id pub-id-type="doi">10.5966/sctm.2013-0168</pub-id>
+          <pub-id pub-id-type="pmid">24598781</pub-id>
+        </citation>
+      </ref>
+      <ref id="B21-cells-05-00031">
+        <label>21.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cenni</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Capanni</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Columbaro</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ortolani</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>D&#x2019;Apice</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Novelli</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Fini</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Marmiroli</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Scarano</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Maraldi</surname>
+              <given-names>N.M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Autophagic degradation of farnesylated prelamin A as a therapeutic approach to lamin-linked progeria</article-title>
+          <source>Eur. J. Histochem.</source>
+          <year>2011</year>
+          <volume>55</volume>
+          <fpage>e36</fpage>
+          <pub-id pub-id-type="doi">10.4081/ejh.2011.e36</pub-id>
+          <pub-id pub-id-type="pmid">22297442</pub-id>
+        </citation>
+      </ref>
+      <ref id="B22-cells-05-00031">
+        <label>22.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cao</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Graziotto</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Blair</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <name>
+              <surname>Mazzulli</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Erdos</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Krainc</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Collins</surname>
+              <given-names>F.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rapamycin reverses cellular phenotypes and enhances mutant protein clearance in hutchinson-gilford progeria syndrome cells</article-title>
+          <source>Sci. Transl. Med.</source>
+          <year>2011</year>
+          <volume>3</volume>
+          <fpage>89ra58</fpage>
+          <pub-id pub-id-type="doi">10.1126/scitranslmed.3002346</pub-id>
+          <pub-id pub-id-type="pmid">21715679</pub-id>
+        </citation>
+      </ref>
+      <ref id="B23-cells-05-00031">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Toth</surname>
+              <given-names>J.I.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Qiao</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Beigneux</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>Gelb</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Moulson</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Miner</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>S.G.</given-names>
+            </name>
+            <name>
+              <surname>Fong</surname>
+              <given-names>L.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Blocking protein farnesyltransferase improves nuclear shape in fibroblasts from humans with progeroid syndromes</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2005</year>
+          <volume>102</volume>
+          <fpage>12873</fpage>
+          <lpage>12878</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0505767102</pub-id>
+          <pub-id pub-id-type="pmid">16129834</pub-id>
+        </citation>
+      </ref>
+      <ref id="B24-cells-05-00031">
+        <label>24.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Bergo</surname>
+              <given-names>M.O.</given-names>
+            </name>
+            <name>
+              <surname>Toth</surname>
+              <given-names>J.I.</given-names>
+            </name>
+            <name>
+              <surname>Qiao</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sandoval</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Meta</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bendale</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Gelb</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>S.G.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Blocking protein farnesyltransferase improves nuclear blebbing in mouse fibroblasts with a targeted hutchinson-gilford progeria syndrome mutation</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2005</year>
+          <volume>102</volume>
+          <fpage>10291</fpage>
+          <lpage>10296</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0504641102</pub-id>
+          <pub-id pub-id-type="pmid">16014412</pub-id>
+        </citation>
+      </ref>
+      <ref id="B25-cells-05-00031">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Osorio</surname>
+              <given-names>F.G.</given-names>
+            </name>
+            <name>
+              <surname>Navarro</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Cadinanos</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lopez-Mejia</surname>
+              <given-names>I.C.</given-names>
+            </name>
+            <name>
+              <surname>Quiros</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Bartoli</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Rivera</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Tazi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Guzman</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Varela</surname>
+              <given-names>I.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Splicing-directed therapy in a new mouse model of human accelerated aging</article-title>
+          <source>Sci. Transl. Med.</source>
+          <year>2011</year>
+          <volume>3</volume>
+          <fpage>106ra107</fpage>
+          <pub-id pub-id-type="doi">10.1126/scitranslmed.3002847</pub-id>
+          <pub-id pub-id-type="pmid">22030750</pub-id>
+        </citation>
+      </ref>
+      <ref id="B26-cells-05-00031">
+        <label>26.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Scaffidi</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Misteli</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Reversal of the cellular phenotype in the premature aging disease hutchinson-gilford progeria syndrome</article-title>
+          <source>Nat. Med.</source>
+          <year>2005</year>
+          <volume>11</volume>
+          <fpage>440</fpage>
+          <lpage>445</lpage>
+          <pub-id pub-id-type="doi">10.1038/nm1204</pub-id>
+          <pub-id pub-id-type="pmid">15750600</pub-id>
+        </citation>
+      </ref>
+      <ref id="B27-cells-05-00031">
+        <label>27.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Parra</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <name>
+              <surname>Gee</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mohandas</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Conboy</surname>
+              <given-names>J.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Efficient in vivo manipulation of alternative pre-mrna splicing events using antisense morpholinos in mice</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2011</year>
+          <volume>286</volume>
+          <fpage>6033</fpage>
+          <lpage>6039</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M110.158154</pub-id>
+          <pub-id pub-id-type="pmid">21156798</pub-id>
+        </citation>
+      </ref>
+      <ref id="B28-cells-05-00031">
+        <label>28.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Osorio</surname>
+              <given-names>F.G.</given-names>
+            </name>
+            <name>
+              <surname>Barcena</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Soria-Valles</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ramsay</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>de Carlos</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Cobo</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Fueyo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Freije</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Lopez-Otin</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nuclear lamina defects cause atm-dependent nf-kappab activation and link accelerated aging to a systemic inflammatory response</article-title>
+          <source>Genes Dev.</source>
+          <year>2012</year>
+          <volume>26</volume>
+          <fpage>2311</fpage>
+          <lpage>2324</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.197954.112</pub-id>
+          <pub-id pub-id-type="pmid">23019125</pub-id>
+        </citation>
+      </ref>
+      <ref id="B29-cells-05-00031">
+        <label>29.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marino</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Ugalde</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>Fernandez</surname>
+              <given-names>A.F.</given-names>
+            </name>
+            <name>
+              <surname>Osorio</surname>
+              <given-names>F.G.</given-names>
+            </name>
+            <name>
+              <surname>Fueyo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Freije</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Lopez-Otin</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Insulin-like growth factor 1 treatment extends longevity in a mouse model of human premature aging by restoring somatotroph axis function</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2010</year>
+          <volume>107</volume>
+          <fpage>16268</fpage>
+          <lpage>16273</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1002696107</pub-id>
+          <pub-id pub-id-type="pmid">20805469</pub-id>
+        </citation>
+      </ref>
+      <ref id="B30-cells-05-00031">
+        <label>30.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kubben</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Voss</surname>
+              <given-names>T.C.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Qu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>G.H.</given-names>
+            </name>
+            <name>
+              <surname>Misteli</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Repression of the antioxidant NRF2 pathway in premature aging</article-title>
+          <source>Cell</source>
+          <year>2016</year>
+          <volume>165</volume>
+          <fpage>1361</fpage>
+          <lpage>1374</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2016.05.017</pub-id>
+          <pub-id pub-id-type="pmid">27259148</pub-id>
+        </citation>
+      </ref>
+      <ref id="B31-cells-05-00031">
+        <label>31.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gabriel</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Roedl</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Gordon</surname>
+              <given-names>L.B.</given-names>
+            </name>
+            <name>
+              <surname>Djabali</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sulforaphane enhances progerin clearance in hutchinson-gilford progeria fibroblasts</article-title>
+          <source>Aging cell</source>
+          <year>2015</year>
+          <volume>14</volume>
+          <fpage>78</fpage>
+          <lpage>91</lpage>
+          <pub-id pub-id-type="doi">10.1111/acel.12300</pub-id>
+          <pub-id pub-id-type="pmid">25510262</pub-id>
+        </citation>
+      </ref>
+      <ref id="B32-cells-05-00031">
+        <label>32.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morcos</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vivo-morpholinos: A non-peptide transporter delivers morpholinos into a wide array of mouse tissues</article-title>
+          <source>Biotechniques</source>
+          <year>2008</year>
+          <volume>45</volume>
+          <fpage>613</fpage>
+          <lpage>614</lpage>
+          <pub-id pub-id-type="doi">10.2144/000113005</pub-id>
+          <pub-id pub-id-type="pmid">19238792</pub-id>
+        </citation>
+      </ref>
+      <ref id="B33-cells-05-00031">
+        <label>33.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wegner</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Anthonsen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bork-Jensen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Dalgaard</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Hansen</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Pedersen</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Poulsen</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Vaag</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>LMNA rs4641 and the muscle lamin a and c isoforms in twins&#x2014;Metabolic implications and transcriptional regulation</article-title>
+          <source>J. Clin. Endocrinol. Metab.</source>
+          <year>2010</year>
+          <volume>95</volume>
+          <fpage>3884</fpage>
+          <lpage>3892</lpage>
+          <pub-id pub-id-type="doi">10.1210/jc.2009-2675</pub-id>
+          <pub-id pub-id-type="pmid">20501691</pub-id>
+        </citation>
+      </ref>
+      <ref id="B34-cells-05-00031">
+        <label>34.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mesa</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Loos</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Franks</surname>
+              <given-names>P.W.</given-names>
+            </name>
+            <name>
+              <surname>Ong</surname>
+              <given-names>K.K.</given-names>
+            </name>
+            <name>
+              <surname>Luan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>O&#x2019;Rahilly</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wareham</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Barroso</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lamin A/C polymorphisms, type 2 diabetes, and the metabolic syndrome: Case-control and quantitative trait studies</article-title>
+          <source>Diabetes</source>
+          <year>2007</year>
+          <volume>56</volume>
+          <fpage>884</fpage>
+          <lpage>889</lpage>
+          <pub-id pub-id-type="doi">10.2337/db06-1055</pub-id>
+          <pub-id pub-id-type="pmid">17327461</pub-id>
+        </citation>
+      </ref>
+      <ref id="B35-cells-05-00031">
+        <label>35.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wegner</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Andersen</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Sparso</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Grarup</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Glumer</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Borch-Johnsen</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Jorgensen</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hansen</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Pedersen</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Common variation in LMNA increases susceptibility to type 2 diabetes and associates with elevated fasting glycemia and estimates of body fat and height in the general population: Studies of 7495 danish whites</article-title>
+          <source>Diabetes</source>
+          <year>2007</year>
+          <volume>56</volume>
+          <fpage>694</fpage>
+          <lpage>698</lpage>
+          <pub-id pub-id-type="doi">10.2337/db06-0927</pub-id>
+          <pub-id pub-id-type="pmid">17327437</pub-id>
+        </citation>
+      </ref>
+      <ref id="B36-cells-05-00031">
+        <label>36.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Merideth</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Gordon</surname>
+              <given-names>L.B.</given-names>
+            </name>
+            <name>
+              <surname>Clauss</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sachdev</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Perry</surname>
+              <given-names>M.B.</given-names>
+            </name>
+            <name>
+              <surname>Brewer</surname>
+              <given-names>C.C.</given-names>
+            </name>
+            <name>
+              <surname>Zalewski</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Solomon</surname>
+              <given-names>B.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Phenotype and course of hutchinson-gilford progeria syndrome</article-title>
+          <source>N. Engl. J. Med.</source>
+          <year>2008</year>
+          <volume>358</volume>
+          <fpage>592</fpage>
+          <lpage>604</lpage>
+          <pub-id pub-id-type="doi">10.1056/NEJMoa0706898</pub-id>
+          <pub-id pub-id-type="pmid">18256394</pub-id>
+        </citation>
+      </ref>
+      <ref id="B37-cells-05-00031">
+        <label>37.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Nobumori</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Tu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Jung</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Vickers</surname>
+              <given-names>T.A.</given-names>
+            </name>
+            <name>
+              <surname>Rigo</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Bennett</surname>
+              <given-names>C.F.</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>S.G.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Modulation of lmna splicing as a strategy to treat prelamin a diseases</article-title>
+          <source>J. Clin. Investig.</source>
+          <year>2016</year>
+          <volume>126</volume>
+          <fpage>1592</fpage>
+          <lpage>1602</lpage>
+          <pub-id pub-id-type="doi">10.1172/JCI85908</pub-id>
+          <pub-id pub-id-type="pmid">26999604</pub-id>
+        </citation>
+      </ref>
+      <ref id="B38-cells-05-00031">
+        <label>38.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nissan</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Blondel</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Navarro</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Maury</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Denis</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Girard</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Martinat</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>De Sandre-Giovannoli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Levy</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Peschanski</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Unique preservation of neural cells in hutchinson-Gilford progeria syndrome is due to the expression of the neural-specific miR-9 microRNA</article-title>
+          <source>Cell Rep.</source>
+          <year>2012</year>
+          <volume>2</volume>
+          <fpage>1</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.celrep.2012.05.015</pub-id>
+          <pub-id pub-id-type="pmid">22840390</pub-id>
+        </citation>
+      </ref>
+      <ref id="B39-cells-05-00031">
+        <label>39.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jung</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Coffinier</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Choe</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Beigneux</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>Davies</surname>
+              <given-names>B.S.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Barnes</surname>
+              <given-names>R.H.</given-names>
+			  <suffix>2nd</suffix>
+            </name>
+			<name>
+			  <surname>Hong</surname>
+			  <given-names>J.</given-names>
+			</name>
+			<name>
+			  <surname>Sun</surname>
+			  <given-names>T.</given-names>
+			</name>
+			<name>
+			  <surname>Pleasure</surname>
+			  <given-names>S.J.</given-names>
+			</name>
+			<etal/>
+          </person-group>
+          <article-title>Regulation of prelamin A but not lamin C by mir-9, a brain-specific microRNA</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2012</year>
+          <volume>109</volume>
+          <fpage>E423</fpage>
+          <lpage>E431</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1111780109</pub-id>
+          <pub-id pub-id-type="pmid">22308344</pub-id>
+        </citation>
+      </ref>
+      <ref id="B40-cells-05-00031">
+        <label>40.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fong</surname>
+              <given-names>L.G.</given-names>
+            </name>
+            <name>
+              <surname>Ng</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>Lammerding</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Vickers</surname>
+              <given-names>T.A.</given-names>
+            </name>
+            <name>
+              <surname>Meta</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Cote</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Gavino</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Qiao</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>S.Y.</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Prelamin A and lamin A appear to be dispensable in the nuclear lamina</article-title>
+          <source>J. Clin. Investig.</source>
+          <year>2006</year>
+          <volume>116</volume>
+          <fpage>743</fpage>
+          <lpage>752</lpage>
+          <pub-id pub-id-type="doi">10.1172/JCI27125</pub-id>
+          <pub-id pub-id-type="pmid">16511604</pub-id>
+        </citation>
+      </ref>
+      <ref id="B41-cells-05-00031">
+        <label>41.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lopez-Mejia</surname>
+              <given-names>I.C.</given-names>
+            </name>
+            <name>
+              <surname>Vautrot</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>De Toledo</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Behm-Ansmant</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Bourgeois</surname>
+              <given-names>C.F.</given-names>
+            </name>
+            <name>
+              <surname>Navarro</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Osorio</surname>
+              <given-names>F.G.</given-names>
+            </name>
+            <name>
+              <surname>Freije</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Stevenin</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>De Sandre-Giovannoli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A conserved splicing mechanism of the lmna gene controls premature aging</article-title>
+          <source>Hum. Mol. Genet.</source>
+          <year>2011</year>
+          <volume>20</volume>
+          <fpage>4540</fpage>
+          <lpage>4555</lpage>
+          <pub-id pub-id-type="doi">10.1093/hmg/ddr385</pub-id>
+          <pub-id pub-id-type="pmid">21875900</pub-id>
+        </citation>
+      </ref>
+      <ref id="B42-cells-05-00031">
+        <label>42.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Strandgren</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Nasser</surname>
+              <given-names>H.A.</given-names>
+            </name>
+            <name>
+              <surname>McKenna</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Koskela</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Tuukkanen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ohlsson</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Rozell</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Eriksson</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transgene silencing of the hutchinson-gilford progeria syndrome mutation results in a reversible bone phenotype, whereas resveratrol treatment does not show overall beneficial effects</article-title>
+          <source>FASEB J.</source>
+          <year>2015</year>
+          <volume>29</volume>
+          <fpage>3193</fpage>
+          <lpage>3205</lpage>
+          <pub-id pub-id-type="doi">10.1096/fj.14-269217</pub-id>
+          <pub-id pub-id-type="pmid">25877214</pub-id>
+        </citation>
+      </ref>
+      <ref id="B43-cells-05-00031">
+        <label>43.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fong</surname>
+              <given-names>L.G.</given-names>
+            </name>
+            <name>
+              <surname>Ng</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>Meta</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Cote</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Stewart</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Sullivan</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Burghardt</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Majumdar</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Reue</surname>
+              <given-names>K.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Heterozygosity for Lmna deficiency eliminates the progeria-like phenotypes in Zmpste24-deficient mice</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2004</year>
+          <volume>101</volume>
+          <fpage>18111</fpage>
+          <lpage>18116</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0408558102</pub-id>
+          <pub-id pub-id-type="pmid">15608054</pub-id>
+        </citation>
+      </ref>
+      <ref id="B44-cells-05-00031">
+        <label>44.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goyenvalle</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Griffith</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Babbs</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>El Andaloussi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ezzat</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Avril</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Dugovic</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Chaussenot</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Ferry</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Voit</surname>
+              <given-names>T.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Functional correction in mouse models of muscular dystrophy using exon-skipping tricyclo-DNA oligomers</article-title>
+          <source>Nat. Med.</source>
+          <year>2015</year>
+          <volume>21</volume>
+          <fpage>270</fpage>
+          <lpage>275</lpage>
+          <pub-id pub-id-type="doi">10.1038/nm.3765</pub-id>
+          <pub-id pub-id-type="pmid">25642938</pub-id>
+        </citation>
+      </ref>
+      <ref id="B45-cells-05-00031">
+        <label>45.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mendell</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Rodino-Klapac</surname>
+              <given-names>L.R.</given-names>
+            </name>
+            <name>
+              <surname>Sahenk</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Roush</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Bird</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Lowes</surname>
+              <given-names>L.P.</given-names>
+            </name>
+            <name>
+              <surname>Alfano</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Gomez</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Lewis</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kota</surname>
+              <given-names>J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Eteplirsen for the treatment of duchenne muscular dystrophy</article-title>
+          <source>Ann. Neurol.</source>
+          <year>2013</year>
+          <volume>74</volume>
+          <fpage>637</fpage>
+          <lpage>647</lpage>
+          <pub-id pub-id-type="doi">10.1002/ana.23982</pub-id>
+          <pub-id pub-id-type="pmid">23907995</pub-id>
+        </citation>
+      </ref>
+      <ref id="B46-cells-05-00031">
+        <label>46.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>Q.L.</given-names>
+            </name>
+            <name>
+              <surname>Cirak</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Partridge</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>What can we learn from clinical trials of exon skipping for DMD?</article-title>
+          <source>Mol. Ther. Nucleic Acids</source>
+          <year>2014</year>
+          <volume>3</volume>
+          <fpage>e152</fpage>
+          <pub-id pub-id-type="doi">10.1038/mtna.2014.6</pub-id>
+          <pub-id pub-id-type="pmid">24618851</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Table</title>
+      <fig id="cells-05-00031-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Clinical and molecular characterization of the patients. (<bold>A</bold>) Facial features of Hutchinson-Gilford Progeria Syndrome-like (HGPS-like) and Mandibuloacral Dysplasia type B (MAD-B) patients reveal a spectrum of progeroid clinical features including alopecia or sparse hair, thin and transparent skin with loss of subcutaneous fat and prominence of subcutaneous vessels, broad forehead with frontal bossing. (<bold>B</bold>) Molecular characterization of <italic>LMNA</italic> and <italic>FACE1(ZMPSTE24)</italic> gene mutations in HGPS-like and MAD-B patients eliciting aberrant Prelamin A splicing or wild type Prelamin A accumulation. Variable disease severities compared to classical HGPS are indicated with &#x201C;+&#x201D;: more, &#x201C;&#x2212;&#x201C;: less, or &#x201C;=&#x201D;: equal severity. The ratios of aberrant Prelamin A to Lamin A isoforms are shown, issued from Western Blot data, except for Prelamin A against which no antibodies are available and so were determined based on the transcript levels. (<bold>C</bold>) Schematic representation of the aberrant Prelamin A isoforms and the morpholino-based strategy for <italic>LMNA</italic> splicing modulation. SD: Splice Donor site, SA: Splice Acceptor site.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-05-00031-g001.tif"/>
+      </fig>
+      <fig id="cells-05-00031-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Morpholino treatment downregulates aberrant Prelamin A transcripts production without causing aberrant splicing in off-target genes. (<bold>A</bold>) Upper panels: Semi-quantitative RT-PCR analyses showing Lamin A, Progerin (Prelamin A &#x394;50), Prelamin A &#x394;35, &#x3B2;-actin and GAPDH mRNA levels in Hutchinson-Gilford Progeria Syndrome (HGPS) and HGPS-like fibroblasts treated with morpholino antisense oligonucleotides (AON, 20 &#xB5;M each) relative to Endo-porter (EP, which is the AON vehicle used as Control), scrambled oligonucleotides (Scr) treated cells and untreated cells (NT). Fragments covering all exons of &#x3B2;-actin (3 fragments, 5 exons) and GAPDH (2 fragments, 9 exons) cDNAs were amplified for each couple of AON used. Given that in patients HGPS-L2 and -L3, the same AON couple as in patient HGPS-L1 was used, the splicing study was only partially replicated. Lower panels: Relative levels of Lamin A, Progerin, Prelamin A &#x394;35 to GAPDH ex7&#x2013;ex9 and the indicated fragments of &#x3B2;-actin and GAPDH transcripts ratios using Image J software and compared to EP treated cells. (mean &#xB1; SEM, <italic>n</italic> = 4, Student&#x2019;s t-test, * <italic>p</italic> &lt; 0.05, ** <italic>p</italic> &lt; 0.01, *** <italic>p</italic> &lt; 0.001, AON-treated vs. EP-control). (<bold>B</bold>) Quantitative RT-PCR analyses of Lamin A, Progerin (Prelamin A &#x394;50), Prelamin A &#x394;35, Prelamin A &#x394;90 (when detected at baseline, in EP assays), Lamin C and GAPDH mRNA levels in HGPS, HGPS-like and Mandibuloacral Dysplasia type B (MAD-B) fibroblasts treated with AON, 20 &#xB5;M each relative to Endoporter (EP: vehicle used as Control). The fold change of each transcript was determined by normalizing its value to that of GAPDH for each condition. (mean &#xB1; SEM, <italic>n</italic> = 4, Student&#x2019;s t-test, * <italic>p</italic> &lt; 0.05, ** <italic>p</italic> &lt; 0.01, *** <italic>p</italic> &lt; 0.001, experimental vs. control).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-05-00031-g002a.tif"/>
+		<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-05-00031-g002b.tif"/>
+      </fig>
+      <fig id="cells-05-00031-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Antisense morpholinos reduce aberrant Prelamin A protein levels in Hutchinson-Gilford Progeria Syndrome-like (HGPS-like) and Mandibuloacral Dysplasia type B (MAB-B) patient cells. Left panels: Western blotting evaluation of Lamin A/C, Progerin, Prelamin A, Prelamin A &#x2206;35, actin and GAPDH in whole lysates from HGPS, HGPS-like and MAD-B fibroblasts treated with Endoporter (&#x2212;) (control), antisense morpholinos: AON (+). Right panels: Lamin A/C, Progerin, Prelamin A, Prelamin A &#x2206;35 expression levels were normalized to GAPDH values using ImageJ software. (mean &#xB1; SEM, <italic>n</italic> = 3, Student&#x2019;s t-test, * <italic>p</italic> &lt; 0.05, ** <italic>p</italic> &lt; 0.01. AON-treated vs. control, EP-treated cells).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-05-00031-g003.tif"/>
+      </fig>
+      <fig id="cells-05-00031-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Antisense morpholinos reduce senescence in Hutchinson-Gilford Progeria Syndrome (HGPS), HGPS-like and Mandibuloacral Dysplasia type B (MAD-B) cell lines and improves nuclear shape abnormalities. (<bold>A</bold>) Senescence levels in HGPS, HGPS-like and MAD-B fibroblasts treated with antisense morpholinos (AON) for 10 days, relative to control, Endoporter-treated cells (EP). Senescence is determined as relative light units (RLU); bars show mean &#xB1; SEM, <italic>n</italic> = 3, Student&#x2019;s t-test, * <italic>p</italic> &lt; 0.05, ** <italic>p</italic> &lt; 0.01). (<bold>B</bold>) The percentage of abnormal nuclei (nuclei with blebs, irregular shape, or multiple folds) of HGPS and HGPS-like fibroblasts treated with 20 &#xB5;M of each antisense morpholino (AON) for 96 h, relative to control, i.e., Endoporter-treated cells (EP), was calculated using the Nuclear Irregularity Index (NII) plugin of the Image J Software. The mean values of three different experiments are shown. * <italic>p</italic> &lt; 0.05.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-05-00031-g004.tif"/>
+      </fig>
+      <table-wrap id="cells-05-00031-t001" position="float">
+        <object-id pub-id-type="pii">cells-05-00031-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Morpholino oligonucleotides&#x2019; sequences used in this study depending on each patient&#x2019;s <italic>LMNA</italic> genotype at exons 10 and 11 target sites.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Patient</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">rs4641 Allele (Verified on the Aberrant Prelamin A cDNA)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Morpholino Name</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Morpholino Sequence</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">HGPS</td>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">C</td>
+              <td align="center" valign="middle">Ex10-allele C</td>
+              <td align="center" valign="middle">5&#x2032;-GCTACCACTCACGTGGTGGTGATGG-3&#x2032;</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Ex11-HGPSmut</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5&#x2032;-GGGTCCACCCACCTGGGCTCCTGAG-3&#x2032;</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">HGPS-L1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">T</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">Ex10-allele T Ex11</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">5&#x2032;-GCTACCACTCACATGGTGGTGATGG-3&#x2032; 5&#x2032;-GGGTCCGCCCACCTGGGCTCCTGAG-3&#x2032;</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">HGPS-L2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">T</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">HGPS-L3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">T</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">HGPS-L4</td>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">C</td>
+              <td align="center" valign="middle">Ex10-allele C</td>
+              <td align="center" valign="middle">5&#x2032;-GCTACCACTCACGTGGTGGTGATGG-3&#x2032;</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Ex11-&#x394;35</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5&#x2032;-ACTGACCGTGACACTGGAGGCAGAA-3&#x2032;</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">HGPS-L5</td>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">C</td>
+              <td align="center" valign="middle">Ex10-allele C</td>
+              <td align="center" valign="middle">5&#x2032;-GCTACCACTCACGTGGTGGTGATGG-3&#x2032;</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Ex11</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5&#x2032;-GGGTCCGCCCACCTGGGCTCCTGAG-3&#x2032;</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">MAD-B</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Homozygous C</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Ex10-allele C</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5&#x2032;-GCTACCACTCACGTGGTGGTGATGG-3&#x2032;</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">Negative controls</td>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle">Ex10-scrambled</td>
+              <td align="center" valign="middle">5&#x2032;-ATCGGCTTGTCGCGTGAGCGATCGA-3&#x2032;</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Ex11-scrambled</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5&#x2032;-ACCAGTGGCGTCGCCTCGCAGGTCC-3&#x2032;</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

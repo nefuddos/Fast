@@ -1,0 +1,1566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells3041102</article-id>
+      <article-id pub-id-type="publisher-id">cells-03-01102</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Stepping up ELISpot: Multi-Level Analysis in FluoroSpot Assays</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Janetzki</surname>
+            <given-names>Sylvia</given-names>
+          </name>
+          <xref rid="af1-cells-03-01102" ref-type="aff">1</xref>
+          <xref rid="c1-cells-03-01102" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rueger</surname>
+            <given-names>Markus</given-names>
+          </name>
+          <xref rid="af2-cells-03-01102" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dillenbeck</surname>
+            <given-names>Tomas</given-names>
+          </name>
+          <xref rid="af3-cells-03-01102" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Kalyuzhny</surname>
+            <given-names>Alexander E.</given-names>
+          </name>
+		  <role>External Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-03-01102"><label>1</label>ZellNet Consulting, Inc., 555 North Avenue, Suite 25-S, Fort Lee, NJ 07024, USA</aff>
+      <aff id="af2-cells-03-01102"><label>2</label>Autoimmun Diagnostika GmbH, Ebinger Strasse 4, D-72479 Strassberg, Germany; E-Mail: <email>rueger@aid-diagnostika.com</email></aff>
+      <aff id="af3-cells-03-01102"><label>3</label>Mabtech AB, Box 1233, SE-131 28 Nacka Strand, Sweden; E-Mail: <email>Tomas.Dillenbeck@mabtech.com</email></aff>
+      <author-notes>
+        <corresp id="c1-cells-03-01102"><label>*</label>Author to whom correspondence should be addressed; E-Mail: <email>sylvia@zellnet.com</email>; Tel.: +1-201-346-0710; Fax: +1-201-346-0715.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>27</day>
+        <month>11</month>
+        <year>2014</year>
+      </pub-date>
+      <pub-date pub-type="collection">        <month>12</month>
+        <year>2014</year>
+      </pub-date>
+      <volume>3</volume>
+      <issue>4</issue>
+      <fpage>1102</fpage>
+      <lpage>1115</lpage>
+      <history>
+        <date date-type="received">
+          <day>08</day>
+          <month>10</month>
+          <year>2014</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>13</day>
+          <month>11</month>
+          <year>2014</year>
+        </date>
+        <date date-type="accepted">
+          <day>14</day>
+          <month>11</month>
+          <year>2014</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2014 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2014</copyright-year>
+        <license>
+          <p>This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (http://creativecommons.org/licenses/by/4.0/).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>ELISpot is one of the most commonly used immune monitoring assays, which allows the functional assessment of the immune system at the single cell level. With its outstanding sensitivity and ease of performance, the assay has recently advanced from the mere single function cell analysis to multifunctional analysis by implementing detection reagents that are labeled with fluorophores (FluoroSpot), allowing the detection of secretion patterns of two or more analytes in a single well. However, the automated evaluation of such assays presents various challenges for image analysis. Here we dissect the technical and methodological requirements for a reliable analysis of FluoroSpot assays, introduce important quality control measures and provide advice for proper interpretation of results obtained by automated imaging systems.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>FluoroSpot</kwd>
+        <kwd>ELISpot</kwd>
+        <kwd>immunomonitoring</kwd>
+        <kwd>image analysis</kwd>
+        <kwd>fluorochromes</kwd>
+        <kwd>fluorophores</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>1. Introduction</title>
+      <p>After its first description in 1983 [<xref ref-type="bibr" rid="B1-cells-03-01102">1</xref>], the solid-phase enzyme-linked immunospot (ELISpot) assay became one of the most commonly used immune monitoring assays in basic and translational research in many fields of immunology [<xref ref-type="bibr" rid="B2-cells-03-01102">2</xref>]. In addition to numerous research applications, it is nowadays also applied in clinical trials to search for biomarkers indicative of the success of immunotherapeutic interventions [<xref ref-type="bibr" rid="B3-cells-03-01102">3</xref>], or even as a diagnostic tool [<xref ref-type="bibr" rid="B4-cells-03-01102">4</xref>]. The importance of the ELISpot assay is further underlined by the wealth of conducted and ongoing projects that aim at the quality of assay performance and its reproducibility across laboratories [<xref ref-type="bibr" rid="B5-cells-03-01102">5</xref>,<xref ref-type="bibr" rid="B6-cells-03-01102">6</xref>,<xref ref-type="bibr" rid="B7-cells-03-01102">7</xref>,<xref ref-type="bibr" rid="B8-cells-03-01102">8</xref>,<xref ref-type="bibr" rid="B9-cells-03-01102">9</xref>,<xref ref-type="bibr" rid="B10-cells-03-01102">10</xref>,<xref ref-type="bibr" rid="B11-cells-03-01102">11</xref>]. Established ELISpot harmonization guidelines have reduced the variability in reported results [<xref ref-type="bibr" rid="B12-cells-03-01102">12</xref>], and proficiency panel testing is now available for any laboratory seeking an external validation of their assay conduct [<xref ref-type="bibr" rid="B13-cells-03-01102">13</xref>].</p>
+      <p>The widespread use of ELISpot over the past decades can mainly be attributed to its outstanding sensitivity, ease of implementation, and robustness. Further, the technique itself varies only little, if at all, for the analysis of a great variety of cytokines, antibodies, and other secreted proteins, e.g., chemokines or apolipoproteins [<xref ref-type="bibr" rid="B14-cells-03-01102">14</xref>,<xref ref-type="bibr" rid="B15-cells-03-01102">15</xref>]. Hence it was only a question of time until the polyfunctional analysis capabilities of ELISpot were addressed by looking at the simultaneous secretion of two analytes in one well. This was originally attempted with the establishment of dual color enzymatic ELISpot assays [<xref ref-type="bibr" rid="B16-cells-03-01102">16</xref>]. Plates were coated and developed with two antibody pairs with affinities for different cytokines, e.g., IFN&#x263; and IL-2 [<xref ref-type="bibr" rid="B17-cells-03-01102">17</xref>]. Spots were developed using two different combinations of enzymes and substrates (e.g., alkaline phosphatase with a blue colored spot-forming chromogenic substrate for the first analyte, and horseradish peroxidase with a red spot-forming substrate for the second). Such assays opened the possibility to determine the number of cells secreting either one of the two analytes or both analytes simultaneously by using spot color to differentiate between the three cell populations. Double secreting cells would produce purple colored spots while single secreting cells would give blue or red spots. However, it became evident early on that such spots are difficult to interpret [<xref ref-type="bibr" rid="B2-cells-03-01102">2</xref>,<xref ref-type="bibr" rid="B16-cells-03-01102">16</xref>] as their color may range across all shades of purple, from completely red to completely blue. Specifically the problem lies in a bias towards single secretion for dual colored spots with a considerable difference in size and/or intensity, where a weaker spot in one color is easily obscured by a stronger spot in a second color (<xref ref-type="fig" rid="cells-03-01102-f001">Figure 1</xref>). This can lead to an underestimation of the number of double spots, but also an underestimation of the total number of spots in each color as faint double spots may be missed completely.</p>
+      <p>The introduction of the FluoroSpot assay [<xref ref-type="bibr" rid="B18-cells-03-01102">18</xref>,<xref ref-type="bibr" rid="B19-cells-03-01102">19</xref>], with visualization of spots by fluorophores instead of enzyme and substrate combinations, led to an improvement in the detection of double stained spots [<xref ref-type="bibr" rid="B19-cells-03-01102">19</xref>]. But still, at that time assay analysis by automated spot-counting systems was based on spot color. Only with the introduction of a new, two level image analysis technology, an unambiguous differentiation between single and double (or even triple) stained spots became possible. We provide here a detailed description of the improved analysis technology for accurate FluoroSpot evaluation, technical requirements related to fluorophores and the automated imaging system, important controls for deeming an imaging system suitable for FluoroSpot evaluation, and an assessment of results obtained with automated evaluation of FluoroSpot assays.</p>
+      <fig id="cells-03-01102-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Color bias in colorimetric dual color ELISpot assay. Evaluation of enzymatic dual color ELISpot assays is solely based on spot color, with single cytokine spots being red or blue, and dual cytokine spots theoretically purple. Dual spots with high intensity in only one color risk being misinterpreted as single spots as the stronger spot will obscures the weaker one. This will result in an underestimate of the number of dual secreting cells as well as an underestimate of the total number of spots for the weaker color.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-01102-g001.tif"/>
+      </fig>
+    </sec>
+    <sec>
+      <title>2. Experimental Section</title>
+      <p>This section is written in compliance with the MIATA guidelines for transparent reporting [<xref ref-type="bibr" rid="B20-cells-03-01102">20</xref>].</p>
+      <p><italic>The Sample:</italic> Peripheral blood mononuclear cells (PBMC) were prepared by Ficoll density centrifugation of buffy coats obtained from heparinized blood from two anonymous healthy blood donors at Karolinska Hospital, Solna, Sweden. The time frame between blood draw and PBMC isolation averaged 20 h. PBMC were frozen at &#x2212;80&#xB0;C in 20% fetal calf serum (FCS)/10% dimethyl sulfoxide (DMSO) using a Mr. Frosty device, and transferred and stored in liquid nitrogen until further use (within &lt; 1 year). PBMC were thawed and washed twice before left to rest for two hours at 37&#xB0;C and 5% CO<sub>2</sub>. Cell concentration and viability were determined by the Guava ViaCount assay (Guava Technologies, Hayward, CA, USA). Viability was &gt;90%.</p>
+      <p><italic>The Assay</italic>: RPMI 1640, HEPES, penicillin/streptomycin, and low endotoxin FCS were purchased from Invitrogen Life Technologies (Carlsbad, CA, USA). The serum lot was pretested to check for adverse effects. Pre-coated human IFN&#x263;/IL-2 FluoroSpot plates (monoclonal antibodies (mAbs) 1-D1K and MT2A91/2C95), pre-coated human IFN&#x263; /IL-22/IL-17A FluoroSpot plates (mAbs 1-D1K, MT12A3, and MT44.6), detection reagents: 7-B6-1-FS-FITC, 7-B6-1-biotin, 7-B6-1-BAM, MT8G10-biotin, MT7B27-biotin, MT504-BAM, anti-FITC-490, streptavidin-550 (SA-550), anti-BAM-640, and fluorescence enhancer, as well as stimuli: CEF peptide pool, anti-CD3 mAb, and anti-CD28 mAb, were all obtained from Mabtech, Nacka Strand, Sweden (Mabtech kit for IFN&#x263;/IL-2: cat# FSP-0102, and for IFN&#x263;/IL-22/IL-17A: cat# FSP-011803). The FluoroSpot plates, which contain a low auto-fluorescent PVDF membrane, were originally obtained from Millipore (cat# S5EJ104I07). <italic>Candida albicans</italic> extract was obtained from Greer, Lenoir, NC, USA. Pre-coated human IFN&#x263;/IL-2 FluoroSpot plates were washed five times with 200 &#xB5;L/well sterile phosphate-buffered saline (PBS), and blocked for 1 h with 200 &#xB5;L/well cell culture medium (RPMI 1640 supplemented with 10% heat-inactivated FCS, 1 mM glutamine, 100 units/mL penicillin, 100 &#xB5;g/mL streptomycin and 0.5 mM HEPES). The blocking medium was removed and 100 &#xB5;L/well of new medium with 0.1 &#xB5;g/mL anti-CD28 mAb (to counter-act the absorption effect of IL-2 that leads to decreased costimulation and potentially lower IFN&#x263; spot counts), with or without stimuli (2 &#xB5;g/mL CEF) added to each well. Rested PBMC were added at 250,000 cells in 100 &#xB5;L to each well, with each sample and condition analyzed in triplicates. The plates were then incubated for 20 h at 37 &#xB0;C and 5% CO<sub>2</sub>. The following day, the cells were removed by washing five times with PBS (200 &#xB5;L/well) in an automated ELISA washer (Bio-Tek Instruments Inc., Winooski, VT, USA). For single stained wells detection antibodies conjugated with FITC, biotin, or BAM peptide were individually diluted in PBS with 0.1% BSA (PBS/BSA) to 1 &#xB5;g/mL, and 100 &#xB5;L were added to each well for two hours of incubation at room temperature (RT). Plates were then washed five times as described above before the addition of one of the secondary reagents: anti-FITC-490, SA-550, or anti-BAM-640 (each diluted 1:200 in PBS/BSA), followed by an one hour incubation at RT. Plates were again washed as described above, and 50 &#xB5;L/well of fluorescence enhancer added for a 15 min incubation. Plates were emptied thoroughly and the underdrain removed before leaving the plates to dry protected from light.</p>
+      <p>For IFN&#x263; /IL-2 dual FluoroSpot, anti-IFN&#x263; (7-B6-1-FS-FITC, diluted 1:200) and anti-IL-2 (MT8G10-biotin, diluted to 1 &#xB5;g/ML) detection mAbs were together added to each well in 100 &#xB5;L PBS/BSA for a two hour incubation at RT. After washing, anti-FITC-490 and SA-550 (both diluted 1:200) were added to all wells and incubated for one hour at RT.</p>
+      <p>For IFN&#x263;/IL-22/IL-17A triple FluoroSpot, 300,000 PBMC were seeded per well and incubated over two nights with or without <italic>Candida albicans</italic> extract (20 &#xB5;g/mL), considering the slower secretion kinetics especially for IL-17A with the given stimulating agent. On day three the cells were washed away as described above, and anti-IFN&#x263; (7-B6-1-FS-FITC, diluted 1:200), anti-IL-22 (MT7B27-biotin, diluted to 0.5 &#xB5;g/mL), and anti-IL-17A (MT504-BAM, diluted 1:200) detection mAbs were mixed and 100 &#xB5;L added to each well for two hours incubation at RT. The plates were washed and the secondary reagents: anti-FITC-490, SA-550, and anti-BAM-640, were all diluted 1:200 and added to all wells for one hour incubation at RT.</p>
+      <p><italic>Data Acquisition</italic>: Analysis and counting of spots were done with a FluoroSpot reader system (iSpot Spectrum, AID, Strassberg, Germany) with software version 7.0, build 14790, where fluorescent spots were counted utilizing separate filters for FITC, Cy3, and Cy5. Camera settings (Exposure and Gain) were adapted for each filter to obtain high quality spot images preventing over- or underexposure. Fluorophore-specific spot parameters were defined using spot size, spot intensity and spot gradient (fading of staining intensity from center to periphery of spot); and a spot separation algorithm was applied for optimal spot detection. Parameters were fine-tuned comparing negative control wells (PBMC alone) and wells containing CEF-stimulated PBMC. Additional images were taken by a Zeiss ELISpot reader (Carl Zeiss, Inc., Thornwood, NY, USA) equipped with a double band fluorescence filter for FITC and Rhodamine for fluorescent signal detection in one image by color discrimination, using KS ELISpot 4.9 software.</p>
+      <p><italic>Data and Response determination:</italic> Raw data can be made available upon request. No statistical analysis or response determination was performed for this study.</p>
+      <p><italic>Lab Operations</italic>: The experiments were performed in accordance with established Standard Operating Procedures (SOPs) and with validated reagents in an investigative laboratory that operates in accordance with ISO 9001/ISO 13485. The laboratory participates in ELISpot proficiency panels conducted by the Cancer Immunotherapy Consortium (CIC), the Association for Cancer Immunotherapy (CIMT) and Immudex.</p>
+    </sec>
+    <sec sec-type="results">
+      <title>3. Results and Discussion</title>
+      <sec>
+        <title>3.1. The Multi-Dimensional FluoroSpot Analysis</title>
+        <p>The introduction of a new approach for FluoroSpot analysis was driven by the need to overcome the limitations of spot analysis by color (<xref ref-type="table" rid="cells-03-01102-t001">Table 1</xref>).</p>
+        <table-wrap id="cells-03-01102-t001" position="float">
+          <object-id pub-id-type="pii">cells-03-01102-t001_Table 1</object-id>
+          <label>Table 1</label>
+          <caption>
+            <p>Summary of the pros and cons for automated evaluation of different ELISpot assay formats.</p>
+          </caption>
+          <table>
+			<thead>
+              <tr>
+                <th align="center" valign="middle"></th>
+                <th align="center" valign="middle">ELISpot</th>
+                <th align="center" valign="middle">Dual ELISpot</th>
+                <th align="center" valign="middle">FluoroSpot</th>
+    		  </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <bold>Assay Qualities</bold>
+                </td>
+                <td align="center" valign="middle"></td>
+                <td align="center" valign="middle"></td>
+                <td align="center" valign="middle"></td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Signal stability</td>
+                <td align="center" valign="middle">+</td>
+                <td align="center" valign="middle">+</td>
+                <td align="center" valign="middle">+</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Assay sensitivity</td>
+                <td align="center" valign="middle">+</td>
+                <td align="center" valign="middle">+</td>
+                <td align="center" valign="middle">+</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">High-throughput</td>
+                <td align="center" valign="middle">+</td>
+                <td align="center" valign="middle">(+)</td>
+                <td align="center" valign="middle">+</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Amount of data generated per sample</td>
+                <td align="center" valign="middle">+</td>
+                <td align="center" valign="middle">+ +</td>
+                <td align="center" valign="middle">+ + +</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Robustness</td>
+                <td align="center" valign="middle">+</td>
+                <td align="center" valign="middle">&#x2212;</td>
+                <td align="center" valign="middle">+</td>
+              </tr>
+              <tr style="border-top: solid thin">
+                <td align="center" valign="middle">
+                  <bold>Level of Analysis</bold>
+                </td>
+                <td align="center" valign="middle"></td>
+                <td align="center" valign="middle"></td>
+                <td align="center" valign="middle"></td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Simultaneous analytes</td>
+                <td align="center" valign="middle">&#x2212;</td>
+                <td align="center" valign="middle">+</td>
+                <td align="center" valign="middle">+ +</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Subpopulation analysis</td>
+                <td align="center" valign="middle">&#x2212;</td>
+                <td align="center" valign="middle">(+)</td>
+                <td align="center" valign="middle">+</td>
+              </tr>
+              <tr style="border-top: solid thin">
+                <td align="center" valign="middle">
+                  <bold>Reader Compatibility</bold>
+                </td>
+                <td align="center" valign="middle"></td>
+                <td align="center" valign="middle"></td>
+                <td align="center" valign="middle"></td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Standard ELISpot reader</td>
+                <td align="center" valign="middle">+</td>
+                <td align="center" valign="middle">+</td>
+                <td align="center" valign="middle">&#x2212;</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Standard FluoroSpot reader</td>
+                <td align="center" valign="middle">+</td>
+                <td align="center" valign="middle">+</td>
+                <td align="center" valign="middle">+</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">(Filter sets, strong light source, and multi-level image analysis)</td>
+                <td align="center" valign="middle"></td>
+                <td align="center" valign="middle"></td>
+                <td align="center" valign="middle"></td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <fn>
+              <p>&#x2212; not possible or applicable; (+) limited; + good or applicable; ++ very good; +++ outstanding.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>Analysis by color can lead to either falsely defined single color spots (the fainter spot is simply not distinguishable due to overlay by the stronger spot), or to falsely defined dual colored spots when the larger spot partially overlays a smaller spot that is located in its periphery, but which is produced by a different cell (<xref ref-type="fig" rid="cells-03-01102-f002">Figure 2</xref>). Further, spots of very high intensity (e.g., for Cy3, typically dark orange to red with most broadband filters) may appear with a yellow center, wrongly implying a dual colored spot (<xref ref-type="fig" rid="cells-03-01102-f002">Figure 2</xref>). Lastly, since camera settings cannot be set individually for two fluorophores when using a dual band filter, spots of one color (e.g., green spots for FITC) may appear as weak signals while spots of another color (e.g., orange-red spots for Cy3) may be overexposed (<xref ref-type="fig" rid="cells-03-01102-f002">Figure 2</xref>).</p>
+        <fig id="cells-03-01102-f002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>Challenges of broadband filter analysis of FluoroSpot plates. PBMC were stimulated with the CEF peptide pool (<bold>A</bold>) or anti-CD3 (<bold>B</bold>) and tested simultaneously for IFN&#x263; and IL-2 secretion using FITC (for IFN&#x263;) and Cy3 (for IL-2) fluorophores. Images were taken with a Zeiss reader utilizing a dual band filter for FITC and Rhodamine. FITC signals are weak and small, while Cy3 signals are strong and larger, overlaying smaller FITC spots (<bold>B</bold>), leading to false low counts for green spots. In panel (<bold>A</bold>), the blue arrow points to a yellow spot that is likely to be caused by dual secretion of cytokine by one cell (see insert for close up). Similar yellow signals can also be found in the center of larger, high intensity red spots (green arrows), leading to false high dual spot counts (see insert for close-up). The challenges of such one level FluoroSpot analysis are illustrated on the right.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-01102-g002.tif"/>
+        </fig>
+        <fig id="cells-03-01102-f003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>Two level FluoroSpot analysis. PBMC were stimulated with CEF peptide pool and tested simultaneously for IFN&#x263; and IL-2 secretion using FITC (for IFN&#x263;) and Cy3 (for IL-2) fluorophores. Images were taken with an AID Imaging Analyzer utilizing narrow band filters for each fluorophore. Panel (<bold>A</bold>) demonstrates the two separate images taken of the same well (Level one analysis). Spots are analyzed for e.g., spot size, spot intensity and location. Images are then superimposed and a location algorithm is applied that allows the identification of spots resulting from single and dual cytokine-producing cells based on the exact location parameters of each spot center (Level two analysis, panel (<bold>B</bold>)).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-01102-g003.tif"/>
+        </fig>
+        <p>The key innovation introduced for FluoroSpot plate evaluation is a two level analysis of every well (<xref ref-type="fig" rid="cells-03-01102-f003">Figure 3</xref>). On the first level, separate images of each analyte/fluorophore are acquired and analyzed. In case of a dual color FluoroSpot, two separate images are taken; in case of triple color FluoroSpot, three separate images are taken <italic>etc.</italic> Importantly, camera settings (e.g., Exposure, Gain) can be adjusted for every analyte/fluorophore to compensate for different fluorescent intensities.</p>
+        <p>Two prerequisites are essential for successful FluoroSpot evaluation:
+		<list list-type="order">
+			<list-item><p>Narrow band filters with specific excitation and emission wavelength range for each fluorophore to avoid bleed-over between different fluorophores (<xref ref-type="fig" rid="cells-03-01102-f004">Figure 4</xref>);</p></list-item>
+			<list-item><p>Software features for the identification of the exact position of each spot in a two dimensional coordinate system.</p></list-item>
+		</list>
+		</p>
+        <fig id="cells-03-01102-f004" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p><bold>Excitation and Emission ranges for selected narrow band filters.</bold> A selection of narrow band filters as used in the AID Imaging Analyzer for the evaluation of FluoroSpot assays is depicted. Of note, these filters provide filtration on two levels: 1. Filtering of the incoming excitation light to prevent excitation of fluorophores with partial spectral overlap, and 2. Filtering of emitted signals to obtain defined spot images.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-01102-g004.tif"/>
+        </fig>
+        <p>At level one, the analysis of each image obtained per well is done separately with analyte/fluorophore specific parameters as defined by the user following lab-specific or SOP-defined steps (also see Materials and Methods section, Data Acquisition).</p>
+        <p>During the second level of analysis, the positions of counted spots in the separate images are compared by a location algorithm. If spots in different images (for different fluorophores) of the same well have identical positions as defined by the location of the spot center they are detected as multi-stained spots, otherwise they are counted as single stained spots of the respective analyte/fluorophore (<xref ref-type="fig" rid="cells-03-01102-f003">Figure 3</xref>). For this approach, it is important that the automated reader system i. locks in the plate at a specifically designated well position, and ii. allows an automated switch of filters as defined by the fluorophores used in the assay. The imaging software applied should further allow the definition of maximum acceptable space between centers of spots detected for different fluorophores for the identification of multi-colored spots. In other words, the different kinetics of cytokine secretion (related to onset, speed, duration, strength) as well as cell movement during incubation may cause a minimal shift of spot centers for a given analyte (typically in the &#xB5;m range) that needs to be taken into consideration for cells secreting more than one analyte upon stimulation. Technical causes have to also be considered, which can, for example, be related to the image alignment. Rebhahn <italic>et al.</italic> have addressed this topic in detail previously [<xref ref-type="bibr" rid="B21-cells-03-01102">21</xref>]. The authors show that, likely due to the reasons given above, a spot is not perfectly round. Different circularity values for overlaying spots, as determined by measurements of the radial variability (distance of the pixels with highest intensity [namely the spot center mass] to all pixels distributed in its periphery), consequently lead to slight shifts of spot centers. They further address the random overlay of spots by determining a coincidence limit using matched and unmatched image overlays. In our experiments, it was empirically determined that for medium sized spots as apparent in <xref ref-type="fig" rid="cells-03-01102-f003">Figure 3</xref>, <xref ref-type="fig" rid="cells-03-01102-f005">Figure 5</xref>, <xref ref-type="fig" rid="cells-03-01102-f006">Figure 6</xref> and <xref ref-type="fig" rid="cells-03-01102-f007">Figure 7</xref>, a pixel shift with the AID Spectrum reader of app. five pixels (roughly 15 &#xB5;m) works well for capturing the true dual secretors while keeping the rate of random overlay at a minimum.</p>
+      </sec>
+      <sec>
+        <title>3.2. Fluorophores and Testing of Imaging Systems for Signal Bleed-Over</title>
+        <p>Currently there are only a limited number of fluorophores used in FluoroSpot, and their selection is mainly driven by the goal of obtaining efficient signal strength and stability while being able to prevent bleed-over signals, also see [<xref ref-type="bibr" rid="B22-cells-03-01102">22</xref>]. The most commonly used fluorophores are FITC, Cy3 and Cy5. A significant overlap of excitation and emission spectra exists for these three fluorophores. However, the use of narrow band filters for the excitation as well as emission can efficiently prevent bleed-over (<xref ref-type="fig" rid="cells-03-01102-f004">Figure 4</xref>).</p>
+        <fig id="cells-03-01102-f005" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <p>Testing of FluoroSpot imaging systems for signal bleed-over. PBMC were stimulated with CEF and tested for IFN&#x263; secretion using different fluorophore-labeled detection systems. The level one images for each detection system and filter are shown (Top row: FITC spots with all filters; Middle row: Cy3 spots with all filters; Lower row: Cy5 spots with all filters). Only with the appropriate filter spots are detected. There are no signals apparent for the same well when other filters are used.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-01102-g005.tif"/>
+        </fig>
+        <p>It is advisable to test if the automated imaging system chosen for FluoroSpot analysis does indeed prevent signal bleed-over and with that offers accurate plate analysis capabilities. This is efficiently achieved, for example, by using only one fluorophore per well for the detection of cytokine secretion, but evaluating each well with all filters. No signal should be detected when using any filter other than the one designated for the used fluorophore (<xref ref-type="fig" rid="cells-03-01102-f005">Figure 5</xref>).</p>
+      </sec>
+      <sec>
+        <title>3.3. The True Meaning of Color in FluoroSpot Analysis</title>
+        <p>It is important to realize that - different to colorimetric ELISpot assays and FluoroSpot analysis by color (see <xref ref-type="fig" rid="cells-03-01102-f001">Figure 1</xref> and <xref ref-type="fig" rid="cells-03-01102-f002">Figure 2</xref>) - spot color in the captured image is of no importance to FluoroSpot analysis. Fluorescent signals are separated by filters (as discussed above), and image color will only affect the graphical visualization of data. The analysis of FluoroSpot assays as described for this two level technology uses gray values of spots for their identification, and is based on spot parameters as spot size, intensity and position in the first level of analysis. In imaging processing it is a common approach to calculate the intensities of objects across a picture by converting it to a grayscale. The translation of an 8-bit grayscale image into a binary image gives 256 possibilities (from 0 to 255, with 0 being black and 255 being white). Image color in FluoroSpot assays has a pure visualization aspect and colors may be substituted by the software user based on personal preferences to provide a clearer and more intuitive presentation of different spot types or cell populations (see <xref ref-type="fig" rid="cells-03-01102-f006">Figure 6</xref> and <xref ref-type="fig" rid="cells-03-01102-f007">Figure 7</xref>). Caution is advised for existing reports about more than three or four color Fluorospot capabilities, which may simply refer to the different subpopulations detectable, which are marked with different colors by the operator using appropriate software features (see also <xref ref-type="fig" rid="cells-03-01102-f007">Figure 7</xref>E).</p>
+        <fig id="cells-03-01102-f006" position="float">
+          <label>Figure 6</label>
+          <caption>
+            <p>Influence of spot color on spot counts. Overlay images of one well of PBMC stimulated with CEF peptide pool stained for IFN&#x263; (FITC) and IL-2 secretion (Cy3) are shown with natural appearing colors (left image), color substitution for Cy3 spots (center image) and substitution of both FITC and Cy3 with gray values (right image). Spot counts for each cytokine in each of the three color schemes are presented in the graph, indicating that independent of color adjustments to spots, overall evaluation results are the same for each cytokine and for dual secretion.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-01102-g006.tif"/>
+        </fig>
+        <fig id="cells-03-01102-f007" position="float">
+          <label>Figure 7</label>
+          <caption>
+            <p>Triple cytokine FluoroSpot assay. PBMC were stimulated with <italic>Candida albicans</italic> extract and tested for IFN&#x263; (FITC), IL-22 (Cy3) and IL-17A (Cy5) secretion. Level one images for separate fluorophores are depicted in panel (<bold>A</bold>)&#x2013;(<bold>C</bold>). The level two image overlay and color substituted overlay for visualization purposes are shown in panel (<bold>D</bold>) and (<bold>E</bold>), respectively. The overall spot counts for all seven subpopulations are presented.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-01102-g007.tif"/>
+        </fig>
+      </sec>
+	  <sec>
+        <title>3.4. Discussion</title>
+		<p>The introduction of detection systems using fluorophores for the ELISpot technique has opened the door to the successful analysis of multiple secreted analytes within one well. For data acquisition, existing imaging systems have to be equipped with a strong light source and special filters. It became evident rather fast that evaluation of FluoroSpot plates based on color differentiation of spots provided insurmountable challenges. The solution was found in a two level analysis approach during which a separate image is taken for each fluorophore, the image evaluated for fluorophore-specific spots and the spot location recorded. The separate images for the same well are then checked for spots with the same coordinates to define single and dual (or more) secretors. This approach has already been successfully applied in various fields, like Tuberculosis research [<xref ref-type="bibr" rid="B23-cells-03-01102">23</xref>], HIV research [<xref ref-type="bibr" rid="B24-cells-03-01102">24</xref>], research related to other infectious diseases [<xref ref-type="bibr" rid="B25-cells-03-01102">25</xref>], as well as vaccination and translational research [<xref ref-type="bibr" rid="B26-cells-03-01102">26</xref>,<xref ref-type="bibr" rid="B27-cells-03-01102">27</xref>,<xref ref-type="bibr" rid="B28-cells-03-01102">28</xref>]. One of the key elements of this evaluation approach is the use of narrow band filters for excitation and emission. The commonly used fluorophores FITC, Cy3 and Cy5 exhibit significant spectral overlap, but by use of specific filters bleed-over between signals can be reduced to inconsequential levels. Such filters are widely available nowadays, and various FluoroSpot imagers can be readily expanded for the simultaneous use of multiple filters. Hence, the hardware required for complex FluoroSpot analysis does not limit the FluoroSpot technique to the detection of only two analytes.</p>
+		<p>In addition, the large antibody binding capacity of FluoroSpot plates (roughly 100 &#xB5;g/well) generally allows the expansion of the number of tested cytokines per well, considering the average use of only 1&#x2013;2 &#xB5;g per well of coating antibody for a specific analyte. A review of the chemical features of the PVDF membranes applied for ELISpot and FluoroSpot assays has been given elsewhere [<xref ref-type="bibr" rid="B29-cells-03-01102">29</xref>], and demonstrates the effective binding mechanism of proteins by the PVDF membrane if pretreated with Ethanol, and their stabilization for prolonged times when the coating procedure is followed by the addition of proteins (as done by &#x201C;blocking&#x201D; as included in most Elispot protocols, or the addition of stabilizer solutions, as done for commercially available pre-coated plates). A hypothetical situation where a region on the membrane efficiently binds one capture mAb but not the two other capture mAbs, resulting in single stained spots rather than dual or triple stained spots, is highly unlikely. If the membrane displayed such drastic variation in protein binding across a well, results within e.g., triplicates would display unusual high variation. Elsewhere in this issue, Dillenbeck <italic>et al.</italic> describe a comparison between results obtained from single and triple FluoroSpot for IFN-&#x263;, IL-17A and IL-22. The two methods yielded a high correlation with similar spot numbers as well as spot intensities and quality. This too supports the excellent binding capacity of PVDF membranes for multiple capture mAbs.</p>
+		<p>Currently there are commercial kits available that test the secretion pattern for three cytokines in one well simultaneously. Such triple cytokine FluoroSpot approach is reviewed elsewhere in this issue (Dillenbeck <italic>et al.</italic>). When looking at multiple secretion patterns in FluoroSpot with more than two cytokines, it becomes evident that plate evaluation with a two level approach is essential for accurate analysis. The analysis of secretion patterns for three cytokines in one well will reveal seven sub-populations of cells (three single secretors, three combinations of dual secretors, and one triple secretor) (<xref ref-type="fig" rid="cells-03-01102-f007">Figure 7</xref>), which will be impossible to separate by spot color. Furthermore, for every additional fluorophore introduced the number of potential subpopulations will roughly double, which in the case of a fourth analyte will require the software to identify 15 individual subpopulations (four single secretors, six combinations of dual secretors, four combinations of triple secretors, and one quadruple secretor). Hence the future of FluoroSpot has the potential to offer an extensive amount of data related to cytokine secretion patterns, while being performed in a similar straight-forward format as the conventional single color ELISpot.</p>
+		<p>The main current limitation for more complex FluoroSpot assays is the availability of high quality detection reagents, with high sensitivity and photostability. The same principles used for the analysis of two and three color FluoroSpot assays can be adapted to handle additional analytes in assays with more colors. Considering that a FluoroSpot assay evaluating two or three analytes simultaneously is principally as easy and straightforward to perform as a single color enzymatic ELISpot assay and exhibits comparable sensitivity, it can only be a question of time until complex FluoroSpot analysis will enter the market on a wide scale [<xref ref-type="bibr" rid="B30-cells-03-01102">30</xref>]. The principles for data acquisition and analysis have already been developed, as described here, and are in place for further expansion of the FluoroSpot technology.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>SJ, MR, TD designed research; SJ and TD performed research and analyzed the data; SJ, MR, TD wrote the paper. All authors read and approved the final manuscript.</p>
+    </notes>
+    <notes>
+      <title>Conflicts of Interest</title>
+      <p>SJ is the president of ZellNet Consulting, an ELISpot consulting company. MR is employed by Autoimmun Diagnostika GmbH, a company providing automated imagers for ELISpot and FluoroSpot analysis. TD is employed by Mabtech, a company providing ELISpot and FluoroSpot kits.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-03-01102">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Czerkinsky</surname>
+              <given-names>C.C.</given-names>
+            </name>
+            <name>
+              <surname>Nilsson</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Nygren</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ouchterlony</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Tarkowski</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>A solid-phase enzyme-linked immunospot (Elispot) assay for enumeration of specific antibody-secreting cells</article-title>
+          <source>J. Immunol. Methods</source>
+          <year>1983</year>
+          <volume>65</volume>
+          <fpage>109</fpage>
+          <lpage>121</lpage>
+          <pub-id pub-id-type="pmid">6361139</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-cells-03-01102">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cox</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Ferrari</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Janetzki</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Measurement of cytokine release at the single cell level using the Elispot assay</article-title>
+          <source>Methods</source>
+          <year>2006</year>
+          <volume>38</volume>
+          <fpage>274</fpage>
+          <lpage>282</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ymeth.2005.11.006</pub-id>
+          <pub-id pub-id-type="pmid">16473524</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-cells-03-01102">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hoos</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Eggermont</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Janetzki</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hodi</surname>
+              <given-names>F.S.</given-names>
+            </name>
+            <name>
+              <surname>Ibrahim</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Anderson</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Humphrey</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Blumenstein</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Old</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wolchok</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Improved endpoints for cancer immunotherapy trials</article-title>
+          <source>J. Natl. Cancer Inst.</source>
+          <year>2010</year>
+          <volume>102</volume>
+          <fpage>1388</fpage>
+          <lpage>1397</lpage>
+          <pub-id pub-id-type="doi">10.1093/jnci/djq310</pub-id>
+          <pub-id pub-id-type="pmid">20826737</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-cells-03-01102">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Meier</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Eulenbruch</surname>
+              <given-names>H.P.</given-names>
+            </name>
+            <name>
+              <surname>Wrighton-Smith</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Enders</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Regnath</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sensitivity of a new commercial enzyme-linked immunospot assay (T spot-Tb) for diagnosis of tuberculosis in clinical practice</article-title>
+          <source>Eur. J. Clin. Microbiol. Infect. Dis.</source>
+          <year>2005</year>
+          <volume>24</volume>
+          <fpage>529</fpage>
+          <lpage>536</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10096-005-1377-8</pub-id>
+          <pub-id pub-id-type="pmid">16133410</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-cells-03-01102">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cox</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Ferrari</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Kalams</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Lopaczynski</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Oden</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>D&#x2019;Souza</surname>
+              <given-names>M.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Results of an Elispot proficiency panel conducted in 11 laboratories participating in international human immunodeficiency virus type 1 vaccine trials</article-title>
+          <source>AIDS Res. Hum. Retroviruses</source>
+          <year>2005</year>
+          <volume>21</volume>
+          <fpage>68</fpage>
+          <lpage>81</lpage>
+          <pub-id pub-id-type="doi">10.1089/aid.2005.21.68</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-cells-03-01102">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Janetzki</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Panageas</surname>
+              <given-names>K.S.</given-names>
+            </name>
+            <name>
+              <surname>Ben-Porat</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Boyer</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Britten</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Clay</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Kalos</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Maecker</surname>
+              <given-names>H.T.</given-names>
+            </name>
+            <name>
+              <surname>Romero</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Results and harmonization guidelines from two large-scale international Elispot proficiency panels conducted by the Cancer Vaccine Consortium (CVC/SVI)</article-title>
+          <source>Cancer Immunol. Immunother.</source>
+          <year>2008</year>
+          <volume>57</volume>
+          <fpage>303</fpage>
+          <lpage>315</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00262-007-0380-6</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-cells-03-01102">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Britten</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Gouttefangeas</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Welters</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Pawelec</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Koch</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ottensmeier</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Mander</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Walter</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Paschen</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Muller-Berghaus</surname>
+              <given-names>J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The CIMT-monitoring panel: A two-step approach to harmonize the enumeration of antigen-specific CD8+ T lymphocytes by structural and functional assays</article-title>
+          <source>Cancer Immunol. Immunother.</source>
+          <year>2008</year>
+          <volume>57</volume>
+          <fpage>289</fpage>
+          <lpage>302</lpage>
+        </citation>
+      </ref>
+      <ref id="B8-cells-03-01102">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boaz</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Hayes</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Tarragona</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Seamons</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Cooper</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Birungi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kitandwe</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Semaganda</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kaleebu</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Stevens</surname>
+              <given-names>G.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Concordant proficiency in measurement of T-cell immunity in human immunodeficiency virus vaccine clinical trials by peripheral blood mononuclear cell and enzyme-linked immunospot assays in laboratories from three continents</article-title>
+          <source>Clin. Vaccine Immunol.</source>
+          <year>2009</year>
+          <volume>16</volume>
+          <fpage>147</fpage>
+          <lpage>155</lpage>
+        </citation>
+      </ref>
+      <ref id="B9-cells-03-01102">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Janetzki</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Price</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Britten</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>van der Burg</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Caterini</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Currier</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Ferrari</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Gouttefangeas</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Hayes</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kaempgen</surname>
+              <given-names>E.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Performance of serum-supplemented and serum-free media in IFN-gamma Elispot assays for human T cells</article-title>
+          <source>Cancer Immunol. Immunother.</source>
+          <year>2010</year>
+          <volume>59</volume>
+          <fpage>609</fpage>
+          <lpage>618</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00262-009-0788-2</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-cells-03-01102">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Filbert</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Attig</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bidmon</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Renard</surname>
+              <given-names>B.Y.</given-names>
+            </name>
+            <name>
+              <surname>Janetzki</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sahin</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Welters</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Ottensmeier</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>van der Burg</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Gouttefangeas</surname>
+              <given-names>C.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Serum-free freezing media support high cell quality and excellent Elispot assay performance across a wide variety of different assay protocols</article-title>
+          <source>Cancer Immunol. Immunother.</source>
+          <year>2013</year>
+          <volume>62</volume>
+          <fpage>615</fpage>
+          <lpage>627</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00262-012-1359-5</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-03-01102">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sanchez</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Rountree</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Berrong</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Garcia</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Schuetz</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Cox</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Frahm</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Manak</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sarzotti-Kelsoe</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>D'Souza</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The external quality assurance oversight laboratory (EQAPOL) proficiency program for IFN-gamma enzyme-linked immunospot (IFN-gamma Elispot) assay</article-title>
+          <source>J. Immunol. Method.</source>
+          <year>2014</year>
+          <volume>409C</volume>
+          <fpage>31</fpage>
+          <lpage>43</lpage>
+        </citation>
+      </ref>
+      <ref id="B12-cells-03-01102">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Janetzki</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Britten</surname>
+              <given-names>C.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The impact of harmonization on Elispot assay performance</article-title>
+          <source>Method. Mol. Biol.</source>
+          <year>2012</year>
+          <volume>792</volume>
+          <fpage>25</fpage>
+          <lpage>36</lpage>
+        </citation>
+      </ref>
+      <ref id="B13-cells-03-01102">
+        <label>13.</label>
+        <citation citation-type="web">
+          <person-group person-group-type="author">
+            <collab>Immudex</collab>
+          </person-group>
+		  <article-title>Proficiency panel testing</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.proficiencypanel.com" ext-link-type="uri">http://www.proficiencypanel.com</ext-link></comment>
+          <access-date>(accessed on 2 September 2014)</access-date>		  
+        </citation>
+      </ref>
+      <ref id="B14-cells-03-01102">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Braesch-Andersen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Paulie</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Smedman</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Mia</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kumagai-Braesch</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>ApoE production in human monocytes and its regulation by inflammatory cytokines</article-title>
+          <source>PLoS One</source>
+          <year>2013</year>
+          <volume>8</volume>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0079908</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15-cells-03-01102">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smedman</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Gardlund</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Nihlmark</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Gille-Johnson</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Andersson</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Paulie</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Elispot analysis of LPS-stimulated leukocytes: Human granulocytes selectively secrete IL-8, MIP-1beta and TNF-alpha</article-title>
+          <source>J. Immunol. Method.</source>
+          <year>2009</year>
+          <volume>346</volume>
+          <fpage>1</fpage>
+          <lpage>8</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jim.2009.04.001</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-cells-03-01102">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Okamoto</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Abe</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Niwa</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Mizuhashi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nishida</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Development of a dual color enzyme-linked immunospot assay for simultaneous detection of murine T helper type 1- and T helper type 2-cells</article-title>
+          <source>Immunopharmacology</source>
+          <year>1998</year>
+          <volume>39</volume>
+          <fpage>107</fpage>
+          <lpage>116</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0162-3109(98)00007-1</pub-id>
+          <pub-id pub-id-type="pmid">9716257</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17-cells-03-01102">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boulet</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ndongala</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Peretz</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Boisvert</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Boulassel</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Tremblay</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Routy</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Sekaly</surname>
+              <given-names>R.P.</given-names>
+            </name>
+            <name>
+              <surname>Bernard</surname>
+              <given-names>N.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>A dual color Elispot method for the simultaneous detection of IL-2 and IFN-gamma HIV-specific immune responses</article-title>
+          <source>J. Immunol. Method.</source>
+          <year>2007</year>
+          <volume>320</volume>
+          <fpage>18</fpage>
+          <lpage>29</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jim.2006.11.010</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18-cells-03-01102">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gazagne</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Claret</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Wijdenes</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yssel</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Bousquet</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Levy</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Vielh</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Scotte</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Goupil</surname>
+              <given-names>T.L.</given-names>
+            </name>
+            <name>
+              <surname>Fridman</surname>
+              <given-names>W.H.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A Fluorospot assay to detect single T lymphocytes simultaneously producing multiple cytokines</article-title>
+          <source>J. Immunol. Method.</source>
+          <year>2003</year>
+          <volume>283</volume>
+          <fpage>91</fpage>
+          <lpage>98</lpage>
+        </citation>
+      </ref>
+      <ref id="B19-cells-03-01102">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gazagne</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Malkusch</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Vingert</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Fridman</surname>
+              <given-names>W.H.</given-names>
+            </name>
+            <name>
+              <surname>Tartour</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fluorospot assay: Methodological analysis</article-title>
+          <source>Method. Mol. Biol.</source>
+          <year>2005</year>
+          <volume>302</volume>
+          <fpage>289</fpage>
+          <lpage>296</lpage>
+        </citation>
+      </ref>
+      <ref id="B20-cells-03-01102">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Britten</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Janetzki</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Butterfield</surname>
+              <given-names>L.H.</given-names>
+            </name>
+            <name>
+              <surname>Ferrari</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Gouttefangeas</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Huber</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Kalos</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Levitsky</surname>
+              <given-names>H.I.</given-names>
+            </name>
+            <name>
+              <surname>Maecker</surname>
+              <given-names>H.T.</given-names>
+            </name>
+            <name>
+              <surname>Melief</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>T cell assays and MIATA: The essential minimum for maximum impact</article-title>
+          <source>Immunity</source>
+          <year>2012</year>
+          <volume>37</volume>
+          <fpage>1</fpage>
+          <lpage>2</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.immuni.2012.07.010</pub-id>
+        </citation>
+      </ref>
+      <ref id="B21-cells-03-01102">
+        <label>21.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rebhahn</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Bishop</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Divekar</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Jiminez-Garcia</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kobie</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>F.E.</given-names>
+            </name>
+            <name>
+              <surname>Maupin</surname>
+              <given-names>G.M.</given-names>
+            </name>
+            <name>
+              <surname>Snyder-Cappione</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Zaiss</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Mosmann</surname>
+              <given-names>T.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Automated analysis of two- and three-color fluorescent Elispot (Fluorospot) assays for cytokine secretion</article-title>
+          <source>Comp. Method. Prog. Biomed.</source>
+          <year>2008</year>
+          <volume>92</volume>
+          <fpage>54</fpage>
+          <lpage>65</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cmpb.2008.06.002</pub-id>
+        </citation>
+      </ref>
+      <ref id="B22-cells-03-01102">
+        <label>22.</label>
+        <citation citation-type="web">
+          <person-group person-group-type="author">
+            <collab>Biolegend</collab>
+          </person-group>
+		  <article-title>Spectraanalyzer</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.biolegend.com/spectraanalyzer" ext-link-type="uri">http://www.biolegend.com/spectraanalyzer</ext-link></comment>
+          <access-date>(accessed on 24 November 2014)</access-date>
+        </citation>
+      </ref>
+      <ref id="B23-cells-03-01102">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Casey</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Blumenkrantz</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Millington</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Montamat-Sicotte</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kon</surname>
+              <given-names>O.M.</given-names>
+            </name>
+            <name>
+              <surname>Wickremasinghe</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bremang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Magtoto</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sridhar</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Connell</surname>
+              <given-names>D.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Enumeration of functional T-cell subsets by fluorescence-immunospot defines signatures of pathogen burden in tuberculosis</article-title>
+          <source>PLoS One</source>
+          <year>2010</year>
+          <volume>5</volume>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0015619</pub-id>
+        </citation>
+      </ref>
+      <ref id="B24-cells-03-01102">
+        <label>24.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sunshine</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Carlson</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Heckerman</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Czartoski</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Migueles</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Maenza</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>McElrath</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Mullins</surname>
+              <given-names>J.I.</given-names>
+            </name>
+            <name>
+              <surname>Frahm</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Increased sequence coverage through combined targeting of variant and conserved epitopes correlates with control of HIV replication</article-title>
+          <source>J. Virol.</source>
+          <year>2014</year>
+          <volume>88</volume>
+          <fpage>1354</fpage>
+          <lpage>1365</lpage>
+          <pub-id pub-id-type="doi">10.1128/JVI.02361-13</pub-id>
+          <pub-id pub-id-type="pmid">24227851</pub-id>
+        </citation>
+      </ref>
+      <ref id="B25-cells-03-01102">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Han</surname>
+              <given-names>W.G.</given-names>
+            </name>
+            <name>
+              <surname>van Twillert</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Poelen</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Helm</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>van de Kassteele</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Verheij</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Versteegh</surname>
+              <given-names>F.G.</given-names>
+            </name>
+            <name>
+              <surname>Boog</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>van Els</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Loss of multi-epitope specificity in memory CD4(+) T cell responses to B. Pertussis with age</article-title>
+          <source>PLoS One</source>
+          <year>2013</year>
+          <volume>8</volume>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0083583</pub-id>
+          <pub-id pub-id-type="pmid">24386394</pub-id>
+        </citation>
+      </ref>
+      <ref id="B26-cells-03-01102">
+        <label>26.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hallengard</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Haller</surname>
+              <given-names>B.K.</given-names>
+            </name>
+            <name>
+              <surname>Maltais</surname>
+              <given-names>A.K.</given-names>
+            </name>
+            <name>
+              <surname>Gelius</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Nihlmark</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Wahren</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Brave</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison of plasmid vaccine immunization schedules using intradermal <italic>in vivo</italic> electroporation</article-title>
+          <source>Clin. Vaccine Immunol.</source>
+          <year>2011</year>
+          <volume>18</volume>
+          <fpage>1577</fpage>
+          <lpage>1581</lpage>
+          <pub-id pub-id-type="doi">10.1128/CVI.05045-11</pub-id>
+          <pub-id pub-id-type="pmid">21752954</pub-id>
+        </citation>
+      </ref>
+      <ref id="B27-cells-03-01102">
+        <label>27.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ohrmalm</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Smedman</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Broliden</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Tolfvenstam</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Norbeck</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Decreased functional T lymphocyte-mediated cytokine responses in patients with chemotherapy-induced neutropenia</article-title>
+          <source>J. Intern. Med.</source>
+          <year>2013</year>
+          <volume>274</volume>
+          <fpage>363</fpage>
+          <lpage>370</lpage>
+          <pub-id pub-id-type="pmid">23789642</pub-id>
+        </citation>
+      </ref>
+      <ref id="B28-cells-03-01102">
+        <label>28.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smedman</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ernemar</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Gudmundsdotter</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Gille-Johnson</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Somell</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Nihlmark</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Gardlund</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Andersson</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Paulie</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fluorospot analysis of TLR-activated monocytes reveals several distinct cytokine secreting subpopulations</article-title>
+          <source>Scand. J. Immunol.</source>
+          <year>2011</year>
+        </citation>
+      </ref>
+      <ref id="B29-cells-03-01102">
+        <label>29.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weiss</surname>
+              <given-names>A.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Overview of membranes and membrane plates used in research and diagnostic Elispot assays</article-title>
+          <source>Method. Mol. Biol.</source>
+          <year>2012</year>
+          <volume>792</volume>
+          <fpage>243</fpage>
+          <lpage>256</lpage>
+        </citation>
+      </ref>
+      <ref id="B30-cells-03-01102">
+        <label>30.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ahlborg</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Axelsson</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dual- and triple-color Fluorospot</article-title>
+          <source>Method. Mol. Biol.</source>
+          <year>2012</year>
+          <volume>792</volume>
+          <fpage>77</fpage>
+          <lpage>85</lpage>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

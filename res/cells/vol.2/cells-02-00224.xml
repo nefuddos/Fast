@@ -1,0 +1,1581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xml:lang="en" article-type="research-article" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells2020224</article-id>
+      <article-id pub-id-type="publisher-id">cells-02-00224</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Temporal Gene Expression Kinetics for Human Keratinocytes Exposed to Hyperthermic Stress</article-title>
+      </title-group>
+      
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Echchgadda</surname>
+            <given-names>Ibtissam</given-names>
+          </name>
+          <xref rid="af1-cells-02-00224" ref-type="aff">1</xref>
+          <xref rid="af2-cells-02-00224" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Roth</surname>
+            <given-names>Caleb C.</given-names>
+          </name>
+          <xref rid="af3-cells-02-00224" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cerna</surname>
+            <given-names>Cesario Z.</given-names>
+          </name>
+          <xref rid="af4-cells-02-00224" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wilmink</surname>
+            <given-names>Gerald J.</given-names>
+          </name>
+          <xref rid="af1-cells-02-00224" ref-type="aff">1</xref>
+          <xref rid="c1-cells-02-00224" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-02-00224"><label>1 </label>Air Force Research Laboratory, 711th Human Performance Wing, Human Effectiveness Directorate, Bioeffects Division, Radio Frequency Bioeffects Branch, 4141 Petroleum Road, Bldg. 3260, Fort Sam Houston, TX 78234, USA; E-Mail: <email>ibtissam.echchgadda.ctr@mail.mil</email></aff>
+      <aff id="af2-cells-02-00224"><label>2 </label>National Academy of Sciences NRC Research Associateship, Fort Sam Houston, TX 78234, USA</aff>
+      <aff id="af3-cells-02-00224"><label>3 </label>Department of Radiology, University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA; E-Mail: <email>rothc@livemail.uthscsa.edu</email></aff>
+      <aff id="af4-cells-02-00224"><label>4 </label>General Dynamics Information Technology, Fort Sam Houston, TX 78234, USA; E-Mail: <email>cesario.z.cerna.ctr@mail.mil</email> </aff>
+      <author-notes>
+        <corresp id="c1-cells-02-00224"><label>*</label> Author to whom correspondence should be addressed; E-Mail: <email>gerald.j.wilmink.civ@mail.mil</email>; Tel.: +1-210-539-8004; Fax: +1-210-539-7945.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>10</day>
+        <month>04</month>
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="collection"><month>06</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>2</volume>
+      <issue>2</issue>
+      <fpage>224</fpage>
+      <lpage>243</lpage>
+      <history>
+        <date date-type="received">
+          <day>28</day>
+          <month>02</month>
+          <year>2013</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>29</day>
+          <month>03</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>02</day>
+          <month>04</month>
+          <year>2013</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#x000A9;  2013 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2013</copyright-year>
+        <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/">
+          <p>This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (http://creativecommons.org/licenses/by/3.0/).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The gene expression kinetics for human cells exposed to hyperthermic stress are not well characterized. In this study, we identified and characterized the genes that are differentially expressed in human epidermal keratinocyte (HEK) cells exposed to hyperthermic stress. In order to obtain temporal gene expression kinetics, we exposed HEK cells to a heat stress protocol (44 &#xB0;C for 40 min) and used messenger RNA (mRNA) microarrays at 0 h, 4 h and 24 h post-exposure. Bioinformatics software was employed to characterize the chief biological processes and canonical pathways associated with these heat stress genes. The data shows that the genes encoding for heat shock proteins (HSPs) that function to prevent further protein denaturation and aggregation, such as HSP40, HSP70 and HSP105, exhibit maximal expression immediately after exposure to hyperthermic stress. In contrast, the smaller HSPs, such as HSP10 and HSP27, which function in mitochondrial protein biogenesis and cellular adaptation, exhibit maximal expression during the &#x201C;recovery phase&#x201D;, roughly 24 h post-exposure. These data suggest that the temporal expression kinetics for each particular HSP appears to correlate with the cellular function that is required at each time point. In summary, these data provide additional insight regarding the expression kinetics of genes that are triggered in HEK cells exposed to hyperthermic stress.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>keratinocytes</kwd>
+        <kwd>heat shock</kwd>
+        <kwd>gene expression</kwd>
+        <kwd>cellular stress response</kwd>
+        <kwd>bioinformatics</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Human beings frequently encounter a wide variety of hyperthermic stressors. Common examples include exposure to hot conducting objects, elevated environmental temperatures, as well as electromagnetic radiation from the sun and numerous man-made sources, such as lasers, communication devices and imaging systems [<xref ref-type="bibr" rid="B1-cells-02-00224">1</xref>,<xref ref-type="bibr" rid="B2-cells-02-00224">2</xref>,<xref ref-type="bibr" rid="B3-cells-02-00224">3</xref>,<xref ref-type="bibr" rid="B4-cells-02-00224">4</xref>,<xref ref-type="bibr" rid="B5-cells-02-00224">5</xref>,<xref ref-type="bibr" rid="B6-cells-02-00224">6</xref>,<xref ref-type="bibr" rid="B7-cells-02-00224">7</xref>,<xref ref-type="bibr" rid="B8-cells-02-00224">8</xref>,<xref ref-type="bibr" rid="B9-cells-02-00224">9</xref>,<xref ref-type="bibr" rid="B10-cells-02-00224">10</xref>]. The heat generated by hyperthermic stressors can be harmful to organisms, because it can temporarily or permanently alter the conformation and function of vital intracellular biomacromolecules (<italic>i.e.</italic>, lipids, proteins and nucleic acids). Such modifications can result in an array of damaging effects, including cellular morphological alterations (<italic>i.e.</italic>, shape, size, irregularities and roughness), cytoskeleton restructuring, organelle reorganization and/or fragmentation and direct interference with intracellular transport processes [<xref ref-type="bibr" rid="B11-cells-02-00224">11</xref>].</p>
+      <p>Hyperthermic effects can interfere with an organism&#x2019;s normal homeostasis, and thus, if they are not adequately counteracted, they can threaten its survival. In order to survive and minimize the effects of hyperthermic stress, virtually all cells in living organisms have evolved sophisticated sensing, response and adaptation mechanisms. The crux of these mechanisms is the molecular defense reaction, most commonly referred to as the cellular stress response (CSR). The CSR is immediately activated in response to stress stimuli, and a hallmark of this response is the robust transcriptional expression of hundreds of diverse genes. These genes encode for a multitude of proteins involved in many important functions, including cellular survival, deoxyribonucleic acid (DNA) sensing and repair, redox regulation, proteolysis, molecular chaperoning, cell cycle control and apoptosis [<xref ref-type="bibr" rid="B12-cells-02-00224">12</xref>,<xref ref-type="bibr" rid="B13-cells-02-00224">13</xref>]. Furthermore, each CSR gene exhibits unique expression profiles, which differ in magnitude, onset time and duration of expression [<xref ref-type="bibr" rid="B4-cells-02-00224">4</xref>,<xref ref-type="bibr" rid="B10-cells-02-00224">10</xref>]. </p>
+      <p>The epidermis, the outermost layer of an organism&#x2019;s skin, regularly encounters a wide variety of stressors. In fact, the primary function of the epidermis is to give organisms a physiological protection barrier against environmental stimuli, such as hyperthermic stressors. This protective role is mediated primarily by keratinocytes, the predominant epithelial cell type (~95%). Due to their anatomical location, keratinocytes are habitually exposed to environmental temperature variations, and thus, they are the primary and frequent target of hyperthermic stress. In addition, their frequent exposure to heat stress has also been reported to render them with specialized cellular responses, which make them more resistant to stress than virtually all other cell types [<xref ref-type="bibr" rid="B14-cells-02-00224">14</xref>,<xref ref-type="bibr" rid="B15-cells-02-00224">15</xref>]. Clearly, keratinocytes carry a disproportionate burden in maintaining homeostasis for organisms; thus, they are vital players in sensing, responding and adapting to the burdens of hyperthermic stress.</p>
+      <p>Over the past decade, numerous microarray experiments have been performed to better understand the stress response of human epidermal keratinocytes (HEK) [<xref ref-type="bibr" rid="B15-cells-02-00224">15</xref>,<xref ref-type="bibr" rid="B16-cells-02-00224">16</xref>,<xref ref-type="bibr" rid="B17-cells-02-00224">17</xref>,<xref ref-type="bibr" rid="B18-cells-02-00224">18</xref>,<xref ref-type="bibr" rid="B19-cells-02-00224">19</xref>]. These studies have been particularly fruitful, because they have resulted in the identification of hundreds of stress-inducible genes. However, previous gene expression studies have failed to provide a comprehensive picture of the cellular stress response for several reasons. First, the microarray gene chips utilized in most of the previous studies were incomplete and, thus, provided expression kinetics for only a fraction of the genes in the human genome. Second, many previous studies made gene expression measurements at a single time point; as a result, temporal gene expression kinetics could not be ascertained. Finally, the majority of past studies examined the response of skin cells to ultraviolet stress; however, few studies have specifically analyzed the transcriptional response of HEK to hyperthermic stress [<xref ref-type="bibr" rid="B10-cells-02-00224">10</xref>].</p>
+      <p>In this study, we sought to identify and characterize the genes that are differentially expressed in HEK exposed to hyperthermic stress. To obtain temporal gene expression kinetics, we exposed HEK to a heat stress protocol (44 &#xB0;C for 40 min) and used mRNA microarrays at three time points: 0 h, 4 h and 24 h post-heat treatment, as outlined in <xref ref-type="fig" rid="cells-02-00224-f001">Figure 1</xref>A. Then, we used bioinformatics software to characterize the chief biological processes and canonical pathways associated with these genes. These data provide valuable new insights that give us a much clearer picture of the genes and intracellular signaling pathways that are triggered in human cells exposed to hyperthermic stress.</p>
+      <fig id="cells-02-00224-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>(<bold>A</bold>) A schematic of the heat shock exposure protocol and post analysis techniques. (<bold>B</bold>) Cellular MTT viability for keratinocytes exposed to hyperthermic stress. Viability percentage data (relative to untreated samples) was measured for wells with concentration densities ranging from 10,000 to 100,000 cells per well. Viability was measured at 0, 4 and 24 h post-heat treatment. (<bold>C</bold>) Microarray global gene expression profiles. The data shows that 762, 1,422 and 1,478 total genes were differentially expressed at 0, 4 and 24 h post-exposure, respectively. (<bold>D</bold>) Gene expression for minimal stress protein, heat shock protein 70 (HSPA6) using qRT-PCR. The mRNA expression fold values were measured for sham and heat treatment groups. For each time point, three samples (S1, S2 and S3) were assessed, each in triplicates. Values were calculated in relation to &#x3B2;-actin and normalized to a separate RNA calibrator.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-02-00224-g001.tif"/>
+      </fig>
+    </sec>
+    <sec sec-type="results">
+      <title>2. Results and Discussion</title>
+      <sec>
+        <title>2.1. Keratinocytes Induce an Appreciable Stress Response When Exposed To Hyperthermic Stress</title>
+        <p>We conducted an initial set of experiments to investigate the impact that our selected hyperthermia stress protocol had on cellular viability. For these studies, HEKs were exposed to hyperthermic stress and cellular metabolic activity was measured at 0, 4 and 24 h post-exposure using MTT assays (<xref ref-type="fig" rid="cells-02-00224-f001">Figure 1</xref>B). For all cell densities tested, the data shows that greater than 90% of the cells survive after being exposed to our hyperthermic stress protocol. This data confirms that the HEKs cells were viable post-heat exposure.</p>
+        <p>After confirming that the HEK cells survived post-exposure, we then sought to test whether our selected hyperthermic stress protocol induced an appreciable transcriptional stress response To investigate the transcriptional stress response, we exposed HEK cells to hyperthermic stress and used microarray gene chips to quantify the expression level of genes at 0, 4 and 24 h post-exposure (<xref ref-type="fig" rid="cells-02-00224-f001">Figure 1</xref>A). Since a signature feature of an appreciable stress response is the rapid and marked upregulation of minimal stress genes [<xref ref-type="bibr" rid="B12-cells-02-00224">12</xref>], we conducted microarray and PCR analyses to examine the genes that HEKs express when exposed to hyperthermia (<xref ref-type="fig" rid="cells-02-00224-f001">Figure 1</xref>C,D). Using Ingenuity Pathway Analysis (IPA) software, we filtered the microarray data using the following cut-offs: (i) an absolute value of expression magnitude (log<sub>2</sub> ratio relative to control) greater or equal to 1.5; and (ii) a <italic>p</italic>-value less than or equal to 0.05. Of the 54,675 probe sets tested on each gene chip, we found that 762, 1,422 and 1,478 genes were differentially expressed at the 0, 4 and 24 h time points, respectively (<xref ref-type="fig" rid="cells-02-00224-f001">Figure 1</xref>C). The number of upregulated genes increased in a logarithmic fashion from 466 at 0 h, 872 at 4 h and up to 1,127 at 24 h. Interestingly, roughly 60% of the transcripts regulated at 0 and 4 h were upregulated, but by 24 h, ~75% of the differentially expressed genes were upregulated.</p>
+        <p>Specifically, we found that the heat-treated groups expressed transcripts for many heat shock proteins (Hsps). We also found that the transcripts encoding for heat shock protein 70 (HSPA6) exhibited the greatest increase in expression and the highest level of statistical significance. To validate these microarray results, we then conducted qRT-PCR analyses for HSPA6 (Hsp70) (<xref ref-type="fig" rid="cells-02-00224-f001">Figure 1</xref>D). For all of the samples tested, we found that the heat-treated treatment group exhibited statistically significant increases in HSPA6 expression, ranging between 10- and 25-fold compared to the sham group. These results were consistent with the microarray data, which showed that HSPA6 expression increased between 4- and 32-fold.</p>
+      </sec>
+      <sec>
+        <title>2.2. Temporal Gene Expression Profiles for Keratinocytes Exposed To Hyperthermic Stress</title>
+        <p>In order to visualize the global distribution of the gene expression profiles, we then created volcano plots for all genes at each time point. In these plots, the level of statistical significance (<italic>p</italic>-value) for each gene is plotted <italic>versus</italic> the fold-change in expression level relative to untreated sham (<xref ref-type="fig" rid="cells-02-00224-f002">Figure 2</xref>). Genes with the highest level of statistical significance appear on the right side of the plot. In addition, upregulated genes that display large-magnitude fold-changes appear towards the top of the plot (denoted with green triangles), whereas downregulated genes appear towards the bottom (denoted with red triangles). We found that considerably more genes were differentially expressed at 4 h and 24 h than at the 0 h time point. We also found that the transcripts expressed at the later time points also exhibited lower <italic>p</italic>-values and larger-magnitude changes in expression level than the genes at 0 h. Collectively, our results show that hyperthermic stress triggers a rapid, robust and extensive transcriptional response in HEK cells. The temporal kinetics expression data also show that this stress response is immediately activated in response to stress and is sustained for many hours after exposure.</p>
+        <fig id="cells-02-00224-f002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>Volcano plots of the gene expression profiles at each time point. The magnitude of differential expression (log<sub>2</sub> fold-change) is plotted <italic>versus</italic> the level of statistical significance (<italic>p</italic>-value) of all genes in the microarray for 0, 4 and 24 h post-heat exposure. Upregulated and downregulated genes with absolute log<sub>2</sub> ratios &#x2265;1.5 and <italic>p</italic>-values &#x2264;0.05 are depicted with green and red triangle symbols, respectively. Insignificant genes are denoted with light gray symbols.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-02-00224-g002.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>2.3. Biological Functions of Heat-Shock-Induced Genes</title>
+        <p>After identifying the genes expressed in response to hyperthermic stress, we then used IPA software to identify each gene&#x2019;s primary biological functions. <xref ref-type="fig" rid="cells-02-00224-f003">Figure 3</xref> contains pie charts of the total number of genes associated with each cellular and molecular function. We found that 23 biological functions were common to all three time points. Interestingly, only nine functions in this group were either unique to one or shared by two time points (<xref ref-type="fig" rid="cells-02-00224-f003">Figure 3</xref>). In general, the 0 h and 24 h time points share many genes with functions required for free radical scavenging, whereas only the 4 h time point contains genes with functions dedicated primarily to protein regulation (<italic>i.e.</italic>, protein trafficking and protein folding) (<xref ref-type="fig" rid="cells-02-00224-f003">Figure 3</xref>B).</p>
+        <fig id="cells-02-00224-f003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>Diagrams of cellular and molecular functions associated with genes expressed in human epidermal keratinocyte (HEK) cells exposed to heat shock. Following an Ingenuity Pathway Analysis (IPA) core analysis, the molecular and cellular functions linked to each recovery period were sorted and illustrated. (<bold>A</bold>) A list of the 23 biological functions common to all three time points and nine functions unique to one time point or shared between two time points; (<bold>B</bold>) Pie charts of gene functions at 0, 4 and 24 h post-exposure. The pie chart sectors represent the number of genes associated with each function.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-02-00224-g003.tif"/>
+        </fig>
+        <p>Next, we identified the biological function groups that had the greatest number of differentially expressed genes. For each time point, we generated color-coded pie charts containing the top five biological functions and the number of genes in each group (<xref ref-type="fig" rid="cells-02-00224-f004">Figure 4</xref>). We found that two biological functions (<italic>i.e.</italic>, cellular growth and proliferation and cell death) appeared in the top five at each time point. In addition to these functions, the 0 h and 4 h time points also shared two more top functions, which are associated with cellular development and gene expression. The only major difference between these time points was that the 0 h time point had more genes associated with molecular transport, whereas the 4 h group had more genes involved in cellular movement functions. In contrast, despite exhibiting a similar number of regulated genes, the 4 h and 24 h groups only shared three top functions: cellular movement, cell death and cell growth. The primary difference between these time points is that the 4 h group had more genes dedicated to cellular development and gene expression, whereas the 24 h group exhibited genes with cellular function and cell cycle processes.</p>
+        <fig id="cells-02-00224-f004" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p>Pie chart of the top five cellular and molecular functions at each time point. Each sector of the pie chart represents the total number of genes expressed for each cellular function. Genes were filtered for an absolute value log<sub>2</sub> ratio &#x2265;1.5 and a significance value of <italic>p</italic> &#x2264; 0.05.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-02-00224-g004.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>2.4. Identification of Shared and Unique Genes</title>
+        <p>We next sought to determine whether any of the differentially expressed genes were observed at all time points. To answer this question, we performed a biomarker filter analysis. This tool allowed us to identify the genes that were unique and shared by each group. The Venn diagram in <xref ref-type="fig" rid="cells-02-00224-f005">Figure 5</xref> shows the total number of genes that were shared and unique to each time point. A total of 492, 1,066 and 1,142 genes were unique to the 0 h, 4 h and 24 h evaluation groups, respectively. We found that 121 genes were common to both the 0 h and 4 h, 107 genes to the 0 h and 24 h and 183 genes to the 4 h and 24 h. Notably, only 50 genes were shared among all three recovery time points. A comprehensive list of these genes is provided as supplementary material (Supplementary Tables 1&#x2013;6).</p>
+        <fig id="cells-02-00224-f005" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <p>Identification of unique and shared genes. The Venn diagram indicates the number of unique and common differentially expressed genes at each time point. Biomarker comparison analysis was performed in IPA.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-02-00224-g005.tif"/>
+        </fig>
+        <p>After identifying the 50 genes that were expressed at each time point, we then performed a series of analyses to better understand the function of each gene. For these analyses, we used the following web-based resources: IPA, GeneCards Human Gene Database, HGNC and Gene Ontology (GO). The pie chart in <xref ref-type="fig" rid="cells-02-00224-f006">Figure 6</xref> contains the symbols for each of the 50 common genes. This pie chart is also further divided by the family of each gene and the number of genes per family, which is denoted by the number towards the center of each sector of the pie chart. The gene families are color coded and are specified in the legend. The following eight families are provided in the figure: ligand-dependent nuclear receptor, peptidase, phosphatase, transporter, ion channel, kinase, transcription regulator, enzymes and others. The twenty-four genes included in the &#x201C;other&#x201D; group consist of genes that were not classified by IPA.</p>
+        <fig id="cells-02-00224-f006" position="float">
+          <label>Figure 6</label>
+          <caption>
+            <p>Pie chart of 50 shared biomarkers. Each sector of the pie represents the number of genes associated with each function. The symbols and number of genes are also provided for each function. Genes were filtered for an absolute value log<sub>2</sub> ratio &#x2265;1.5 and a significance value of <italic>p</italic> &#x2264; 0.05.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-02-00224-g006.tif"/>
+        </fig>
+        <p>Next, we sought to examine the temporal expression kinetics for the genes with known biological functions. We found that only 44 of the 50 genes identified had well-characterized biological processes and GO annotations. <xref ref-type="fig" rid="cells-02-00224-f007">Figure 7</xref> provides the magnitude of the fold-change in expression for each of these genes as a function of time. The asterisks denote genes that have multiple key biological functions. The genes include the chaperones that function in response to stress and protein unfolding. These genes encode for the following heat shock 70 kDa proteins: HSPA6, HSPA1L and HSPA1A/A1B.</p>
+        <fig id="cells-02-00224-f007" position="float">
+          <label>Figure 7</label>
+          <caption>
+            <p>The temporal expression kinetics for the genes with known gene ontology (GO). Asterisks indicate the genes with more than one biological process.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-02-00224-g007.tif"/>
+        </fig>
+        <p>Additional genes responsible for the response to stress or heat are CDHR1 (cadherin-related family member 1), TUB (tubby protein homolog), NOX1 (NADPH oxidase 1) and IRF1 (interferon regulatory factor 1). Two genes&#x2014;PSMB2 (proteasome subunit beta type 2) and UBA6 (ubiquitin-like modifier activating enzyme 6)&#x2014;play roles in protein ubiquitination. CDHR1, ARHGEF40 (Rho guanine nucleotide exchange factor (GEF) 40), CD9 (CD9 molecule), DST (dystonin), LRRN2 (leucine rich repeat neuronal 2) and PCDH11X/Y (protocadherin 11 Y-linked) support cell adhesion. ALPK1 (alpha-kinase 1), AGK (acylglycerol kinase), CAMK2B (calcium/calmodulin-dependent protein kinase II beta), MYLK (myosin light chain kinase) and TLK2 (tousled-like kinase 2) assist in phosphorylation, whereas, GRID1 (glutamate receptor delta-1 subunit), KCNK10 (potassium channel subfamily K member 10), ARL4C (ADP-ribosylation factor-like 4), HBA1/HBA2 (hemoglobin alpha 1), PITPNC1 (cytoplasmic phosphatidylinositol transfer protein 1), CAMK2B and NOX1 support the transport function. In addition, CADM2 (cell adhesion molecule 2), HIST1H2AG (histone cluster 1, H2ag), NEBL (nebulette) and IGHA1 play roles in junction organization, nucleosome assembly, actin filament length and immune response, respectively. Furthermore, as indicated in <xref ref-type="fig" rid="cells-02-00224-f007">Figure 7</xref>, some of the above mentioned genes and the remaining ones are involved in processes related to homeostasis response. These include regulation of transcription, apoptosis, metabolism and signal transduction related-genes.</p>
+        <p>The gene families related to the unique genes or the genes shared between each two time points, as well as the number of genes per each family are illustrated in the pie charts in <xref ref-type="fig" rid="cells-02-00224-f008">Figure 8</xref>. The gene families included those mentioned for the 50 common genes in addition to other gene families, such as G-protein coupled receptor, growth factor, cytokine, translation regulator and transmembrane receptor family. The genes classified by IPA as &#x201C;other&#x201D; were omitted in this representation. A list of all these genes and fold-change following heat-shock in the different interval of recovery is added as tables in the supplemental materials.</p>
+        <fig id="cells-02-00224-f008" position="float">
+          <label>Figure 8</label>
+          <caption>
+            <p>Gene family of the genes that are unique or are shared at two time points. The pie chart sectors represent the number of genes associated with each function indicated in the legend. The numbers of these genes are indicated for each function. The genes classified by IPA as &#x201C;other&#x201D; were not included in this representation. Genes were filtered for an absolute value log<sub>2</sub> ratio &#x2265;1.5 and a significance value of <italic>p</italic> &#x2264; 0.05.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-02-00224-g008.tif"/>
+        </fig>
+        <p>In <xref ref-type="fig" rid="cells-02-00224-f009">Figure 9</xref>, we highlight a set of genes from the unique genes list that are recognized to play roles in cellular stress response. These include genes involved as heat shock proteins and genes supporting DNA damage and repair, inflammation and apoptosis.</p>
+        <fig id="cells-02-00224-f009" position="float">
+          <label>Figure 9</label>
+          <caption>
+            <p>Gene expression profiles for a set of unique genes involved in several well-characterized pathways of the cellular stress response.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-02-00224-g009.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>2.5. Pathway Analysis of Microarray Analyzed Data</title>
+        <p>We next used IPA to analyze the metabolic and signaling pathways that are affected in response to heat stress following the three post-heat time points. We found that at 0 h, 33 of 247 canonical pathways were expressed with statistical significance, defined as [(&#x2212;log(<italic>p</italic>-value) &#x2265; 1.3 or <italic>p</italic>-value &#x2264; 0.05] (<xref ref-type="table" rid="cells-02-00224-t001">Table 1</xref>). At 4 h post-heat, 19 out of 198 scored Ingenuity Canonical Pathways had significant likelihood (<xref ref-type="table" rid="cells-02-00224-t002">Table 2</xref>). At 24 h post-heat, IPA scored 229 Ingenuity Canonical Pathways, of which 36 had significant <italic>p</italic>-values (<xref ref-type="table" rid="cells-02-00224-t003">Table 3</xref>).</p>
+        <table-wrap id="cells-02-00224-t001" position="float">
+          <object-id pub-id-type="pii">cells-02-00224-t001_Table 1</object-id>
+          <label>Table 1</label>
+          <caption>
+            <p>Significant canonical pathways at 0 h post-heat exposure. Two-hundred seventy-four Ingenuity Canonical Pathways were scored at 0 h post-heat exposure; only the 33 listed pathways fit the cut-off of <italic>p</italic>-value &#x2264; 0.05.</p>
+          </caption>
+          		<table rules="all">
+            <thead>
+              <tr>
+                <th style="border-top:solid thin" align="left" valign="middle">Ingenuity Canonical Pathways</th>
+                <th style="border-top:solid thin" align="center" valign="middle">&#x2212;log(<italic>p</italic>-value)</th>
+                <th style="border-top:solid thin" align="center" valign="middle">Ratio</th>
+                <th style="border-top:solid thin" align="center" valign="middle"># of Molecules</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="top">IL-12 Signaling and Production in Macrophages</td>
+                <td align="center" valign="top">4.66</td>
+                <td align="center" valign="top">0.118</td>
+                <td align="center" valign="top">16</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Glucocorticoid Receptor Signaling</td>
+                <td align="center" valign="top">1.83</td>
+                <td align="center" valign="top">0.061</td>
+                <td align="center" valign="top">16</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Role of Macrophages, Fibroblasts and Endothelial Cells in Rheumatoid Arthritis</td>
+                <td align="center" valign="top">1.41</td>
+                <td align="center" valign="top">0.054</td>
+                <td align="center" valign="top">16</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Production of Nitric Oxide and Reactive Oxygen Species in Macrophages</td>
+                <td align="center" valign="top">1.85</td>
+                <td align="center" valign="top">0.070</td>
+                <td align="center" valign="top">13</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Clathrin-Mediated Endocytosis Signaling</td>
+                <td align="center" valign="top">1.80</td>
+                <td align="center" valign="top">0.069</td>
+                <td align="center" valign="top">13</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Dopamine-DARPP32 Feedback in cAMP Signaling</td>
+                <td align="center" valign="top">1.46</td>
+                <td align="center" valign="top">0.067</td>
+                <td align="center" valign="top">11</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">NF-&#x3BA;B Signaling</td>
+                <td align="center" valign="top">1.42</td>
+                <td align="center" valign="top">0.065</td>
+                <td align="center" valign="top">11</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">RAR Activation</td>
+                <td align="center" valign="top">1.35</td>
+                <td align="center" valign="top">0.063</td>
+                <td align="center" valign="top">11</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Neuropathic Pain Signaling in Dorsal Horn Neurons</td>
+                <td align="center" valign="top">2.35</td>
+                <td align="center" valign="top">0.094</td>
+                <td align="center" valign="top">10</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Type II Diabetes Mellitus Signaling</td>
+                <td align="center" valign="top">2.07</td>
+                <td align="center" valign="top">0.079</td>
+                <td align="center" valign="top">10</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Virus Entry via Endocytic Pathways</td>
+                <td align="center" valign="top">2.28</td>
+                <td align="center" valign="top">0.098</td>
+                <td align="center" valign="top">9</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Synaptic Long-Term Potentiation</td>
+                <td align="center" valign="top">1.88</td>
+                <td align="center" valign="top">0.087</td>
+                <td align="center" valign="top">9</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">fMLP Signaling in Neutrophils</td>
+                <td align="center" valign="top">1.78</td>
+                <td align="center" valign="top">0.077</td>
+                <td align="center" valign="top">9</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">PKC&#x3B8; Signaling in T-lymphocytes</td>
+                <td align="center" valign="top">1.64</td>
+                <td align="center" valign="top">0.071</td>
+                <td align="center" valign="top">9</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Role of Pattern Recognition Receptors in Recognition of Bacteria and Viruses</td>
+                <td align="center" valign="top">2.29</td>
+                <td align="center" valign="top">0.104</td>
+                <td align="center" valign="top">8</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">T-cell Receptor Signaling</td>
+                <td align="center" valign="top">1.61</td>
+                <td align="center" valign="top">0.078</td>
+                <td align="center" valign="top">8</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">iCOS-iCOSL Signaling in T Helper Cells</td>
+                <td align="center" valign="top">1.45</td>
+                <td align="center" valign="top">0.071</td>
+                <td align="center" valign="top">8</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Rac Signaling</td>
+                <td align="center" valign="top">1.45</td>
+                <td align="center" valign="top">0.068</td>
+                <td align="center" valign="top">8</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Pancreatic Adenocarcinoma Signaling</td>
+                <td align="center" valign="top">1.41</td>
+                <td align="center" valign="top">0.070</td>
+                <td align="center" valign="top">8</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Renin-Angiotensin Signaling</td>
+                <td align="center" valign="top">1.33</td>
+                <td align="center" valign="top">0.070</td>
+                <td align="center" valign="top">8</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Erythropoietin Signaling</td>
+                <td align="center" valign="top">1.95</td>
+                <td align="center" valign="top">0.095</td>
+                <td align="center" valign="top">7</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Macropinocytosis Signaling</td>
+                <td align="center" valign="top">1.92</td>
+                <td align="center" valign="top">0.092</td>
+                <td align="center" valign="top">7</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">NF-&#x3BA;B Activation by Viruses</td>
+                <td align="center" valign="top">1.76</td>
+                <td align="center" valign="top">0.089</td>
+                <td align="center" valign="top">7</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Ceramide Signaling</td>
+                <td align="center" valign="top">1.62</td>
+                <td align="center" valign="top">0.085</td>
+                <td align="center" valign="top">7</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">RANK Signaling in Osteoclasts</td>
+                <td align="center" valign="top">1.42</td>
+                <td align="center" valign="top">0.076</td>
+                <td align="center" valign="top">7</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Calcium-induced T-lymphocyte Apoptosis</td>
+                <td align="center" valign="top">1.72</td>
+                <td align="center" valign="top">0.098</td>
+                <td align="center" valign="top">6</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Growth Hormone Signaling</td>
+                <td align="center" valign="top">1.42</td>
+                <td align="center" valign="top">0.085</td>
+                <td align="center" valign="top">6</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Complement System</td>
+                <td align="center" valign="top">2.24</td>
+                <td align="center" valign="top">0.152</td>
+                <td align="center" valign="top">5</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">MSP-RON Signaling Pathway</td>
+                <td align="center" valign="top">1.66</td>
+                <td align="center" valign="top">0.109</td>
+                <td align="center" valign="top">5</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Cell Cycle: G1/S Checkpoint Regulation</td>
+                <td align="center" valign="top">1.33</td>
+                <td align="center" valign="top">0.085</td>
+                <td align="center" valign="top">5</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Role of CHK Proteins in Cell Cycle Checkpoint Control</td>
+                <td align="center" valign="top">1.50</td>
+                <td align="center" valign="top">0.114</td>
+                <td align="center" valign="top">4</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">IL-9 Signaling</td>
+                <td align="center" valign="top">1.46</td>
+                <td align="center" valign="top">0.105</td>
+                <td align="center" valign="top">4</td>
+              </tr>
+              <tr>
+                <td style="border-bottom:solid thin" align="left" valign="top">April Mediated Signaling</td>
+                <td style="border-bottom:solid thin" align="center" valign="top">1.31</td>
+                <td style="border-bottom:solid thin" align="center" valign="top">0.095</td>
+                <td style="border-bottom:solid thin" align="center" valign="top">4</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <table-wrap id="cells-02-00224-t002" position="float">
+          <object-id pub-id-type="pii">cells-02-00224-t002_Table 2</object-id>
+          <label>Table 2</label>
+          <caption>
+            <p>Significant canonical pathways in 4 h post-heat exposure. 198 Ingenuity Canonical Pathways were scored at 4 h post-heat exposure; only the 19 listed pathways fit the cut-off of <italic>p</italic>-value &#x2264; 0.05.</p>
+          </caption>
+          		<table rules="all">
+            <thead>
+              <tr>
+                <th style="border-top:solid thin" align="left" valign="middle">Ingenuity Canonical Pathways</th>
+                <th style="border-top:solid thin" align="center" valign="middle">&#x2212;log(<italic>p</italic>-value)</th>
+                <th style="border-top:solid thin" align="center" valign="middle">Ratio</th>
+                <th style="border-top:solid thin" align="center" valign="middle"># of Molecules</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="top">Leukocyte Extravasation Signaling</td>
+                <td align="center" valign="top">2.58</td>
+                <td align="center" valign="top">0.127</td>
+                <td align="center" valign="top">24</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Huntington&#x2019;s Disease Signaling</td>
+                <td align="center" valign="top">2.39</td>
+                <td align="center" valign="top">0.114</td>
+                <td align="center" valign="top">26</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Tight Junction Signaling</td>
+                <td align="center" valign="top">2.34</td>
+                <td align="center" valign="top">0.127</td>
+                <td align="center" valign="top">20</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Bladder Cancer Signaling</td>
+                <td align="center" valign="top">2.15</td>
+                <td align="center" valign="top">0.144</td>
+                <td align="center" valign="top">13</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">VDR/RXR Activation</td>
+                <td align="center" valign="top">2.12</td>
+                <td align="center" valign="top">0.152</td>
+                <td align="center" valign="top">12</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">ATM Signaling</td>
+                <td align="center" valign="top">2.04</td>
+                <td align="center" valign="top">0.167</td>
+                <td align="center" valign="top">9</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Coagulation System</td>
+                <td align="center" valign="top">2.02</td>
+                <td align="center" valign="top">0.200</td>
+                <td align="center" valign="top">7</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Colorectal Cancer Metastasis Signaling</td>
+                <td align="center" valign="top">1.90</td>
+                <td align="center" valign="top">0.107</td>
+                <td align="center" valign="top">26</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Wnt/&#x3B2;-catenin Signaling</td>
+                <td align="center" valign="top">1.90</td>
+                <td align="center" valign="top">0.118</td>
+                <td align="center" valign="top">20</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Cyclins and Cell Cycle Regulation</td>
+                <td align="center" valign="top">1.76</td>
+                <td align="center" valign="top">0.126</td>
+                <td align="center" valign="top">11</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Role of Macrophages, Fibroblasts and Endothelial Cells in Rheumatoid Arthritis</td>
+                <td align="center" valign="top">1.70</td>
+                <td align="center" valign="top">0.096</td>
+                <td align="center" valign="top">30</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Nur77 Signaling in T-lymphocytes</td>
+                <td align="center" valign="top">1.62</td>
+                <td align="center" valign="top">0.140</td>
+                <td align="center" valign="top">8</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">IL-17A Signaling in Gastric Cells</td>
+                <td align="center" valign="top">1.57</td>
+                <td align="center" valign="top">0.200</td>
+                <td align="center" valign="top">5</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Cell Cycle: G1/S Checkpoint Regulation</td>
+                <td align="center" valign="top">1.49</td>
+                <td align="center" valign="top">0.136</td>
+                <td align="center" valign="top">8</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">IL-17A Signaling in Fibroblasts</td>
+                <td align="center" valign="top">1.49</td>
+                <td align="center" valign="top">0.154</td>
+                <td align="center" valign="top">6</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Nitrogen Metabolism</td>
+                <td align="center" valign="top">1.49</td>
+                <td align="center" valign="top">0.171</td>
+                <td align="center" valign="top">6</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Production of Nitric Oxide and Reactive Oxygen Species in Macrophages</td>
+                <td align="center" valign="top">1.37</td>
+                <td align="center" valign="top">0.103</td>
+                <td align="center" valign="top">19</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Ceramide Signaling</td>
+                <td align="center" valign="top">1.35</td>
+                <td align="center" valign="top">0.122</td>
+                <td align="center" valign="top">10</td>
+              </tr>
+              <tr>
+                <td style="border-bottom:solid thin" align="left" valign="top">Aldosterone Signaling in Epithelial Cells</td>
+                <td style="border-bottom:solid thin" align="center" valign="top">1.35</td>
+                <td style="border-bottom:solid thin" align="center" valign="top">0.106</td>
+                <td style="border-bottom:solid thin" align="center" valign="top">17</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <table-wrap id="cells-02-00224-t003" position="float">
+          <object-id pub-id-type="pii">cells-02-00224-t003_Table 3</object-id>
+          <label>Table 3</label>
+          <caption>
+            <p>Significant canonical pathways at 24 h post-heat exposure. 229 Ingenuity Canonical Pathways were scored at 24 h post-heat exposure; only the 36 listed pathways fit the cut-off of <italic>p</italic>-value &#x2264; 0.05.</p>
+          </caption>
+          		<table rules="all">
+            <thead>
+              <tr>
+                <th style="border-top:solid thin" align="left" valign="middle">Ingenuity Canonical Pathways</th>
+                <th style="border-top:solid thin" align="center" valign="middle">&#x2212;log(p-value)</th>
+                <th style="border-top:solid thin" align="center" valign="middle">Ratio</th>
+                <th style="border-top:solid thin" align="center" valign="middle"># of Molecules</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="top">Aryl Hydrocarbon Receptor Signaling</td>
+                <td align="center" valign="top">4.33</td>
+                <td align="center" valign="top">0.170</td>
+                <td align="center" valign="top">23</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Linoleic Acid Metabolism</td>
+                <td align="center" valign="top">2.78</td>
+                <td align="center" valign="top">0.197</td>
+                <td align="center" valign="top">11</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Role of IL-17A in Psoriasis</td>
+                <td align="center" valign="top">2.74</td>
+                <td align="center" valign="top">0.385</td>
+                <td align="center" valign="top">4</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Bladder Cancer Signaling</td>
+                <td align="center" valign="top">2.72</td>
+                <td align="center" valign="top">0.167</td>
+                <td align="center" valign="top">14</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Oncostatin M Signaling</td>
+                <td align="center" valign="top">2.52</td>
+                <td align="center" valign="top">0.235</td>
+                <td align="center" valign="top">7</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">TREM1 Signaling</td>
+                <td align="center" valign="top">2.39</td>
+                <td align="center" valign="top">0.189</td>
+                <td align="center" valign="top">9</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Cell Cycle: G1/S Checkpoint Regulation</td>
+                <td align="center" valign="top">2.21</td>
+                <td align="center" valign="top">0.169</td>
+                <td align="center" valign="top">9</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Fc&#x3B3; Receptor-mediated Phagocytosis in Macrophages and Monocytes</td>
+                <td align="center" valign="top">2.08</td>
+                <td align="center" valign="top">0.149</td>
+                <td align="center" valign="top">13</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Role of CHK Proteins in Cell Cycle Checkpoint Control</td>
+                <td align="center" valign="top">2.00</td>
+                <td align="center" valign="top">0.200</td>
+                <td align="center" valign="top">6</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Glucocorticoid Receptor Signaling</td>
+                <td align="center" valign="top">1.94</td>
+                <td align="center" valign="top">0.108</td>
+                <td align="center" valign="top">29</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Atherosclerosis Signaling</td>
+                <td align="center" valign="top">1.90</td>
+                <td align="center" valign="top">0.128</td>
+                <td align="center" valign="top">15</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Cell Cycle: G2/M DNA Damage Checkpoint Regulation</td>
+                <td align="center" valign="top">1.88</td>
+                <td align="center" valign="top">0.167</td>
+                <td align="center" valign="top">7</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Amino sugars Metabolism</td>
+                <td align="center" valign="top">1.88</td>
+                <td align="center" valign="top">0.159</td>
+                <td align="center" valign="top">10</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Metabolism of Xenobiotics by Cytochrome P450</td>
+                <td align="center" valign="top">1.86</td>
+                <td align="center" valign="top">0.148</td>
+                <td align="center" valign="top">12</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">IL-8 Signaling</td>
+                <td align="center" valign="top">1.77</td>
+                <td align="center" valign="top">0.118</td>
+                <td align="center" valign="top">20</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Airway Pathology in Chronic Obstructive Pulmonary Disease</td>
+                <td align="center" valign="top">1.75</td>
+                <td align="center" valign="top">0.375</td>
+                <td align="center" valign="top">2</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">LPS/IL-1 Mediated Inhibition of RXR Function</td>
+                <td align="center" valign="top">1.74</td>
+                <td align="center" valign="top">0.112</td>
+                <td align="center" valign="top">22</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Chronic Myeloid Leukemia Signaling</td>
+                <td align="center" valign="top">1.71</td>
+                <td align="center" valign="top">0.127</td>
+                <td align="center" valign="top">12</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Arachidonic Acid Metabolism</td>
+                <td align="center" valign="top">1.71</td>
+                <td align="center" valign="top">0.137</td>
+                <td align="center" valign="top">13</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Sphingosine-1-phosphate Signaling</td>
+                <td align="center" valign="top">1.70</td>
+                <td align="center" valign="top">0.126</td>
+                <td align="center" valign="top">14</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Hereditary Breast Cancer Signaling</td>
+                <td align="center" valign="top">1.67</td>
+                <td align="center" valign="top">0.125</td>
+                <td align="center" valign="top">14</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Leukocyte Extravasation Signaling</td>
+                <td align="center" valign="top">1.66</td>
+                <td align="center" valign="top">0.116</td>
+                <td align="center" valign="top">21</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Role of BRCA1 in DNA Damage Response</td>
+                <td align="center" valign="top">1.65</td>
+                <td align="center" valign="top">0.153</td>
+                <td align="center" valign="top">8</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Pancreatic Adenocarcinoma Signaling</td>
+                <td align="center" valign="top">1.61</td>
+                <td align="center" valign="top">0.123</td>
+                <td align="center" valign="top">13</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Role of IL-17F in Allergic Inflammatory Airway Diseases</td>
+                <td align="center" valign="top">1.56</td>
+                <td align="center" valign="top">0.167</td>
+                <td align="center" valign="top">6</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">IL-10 Signaling</td>
+                <td align="center" valign="top">1.53</td>
+                <td align="center" valign="top">0.139</td>
+                <td align="center" valign="top">9</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">IL-22 Signaling</td>
+                <td align="center" valign="top">1.52</td>
+                <td align="center" valign="top">0.208</td>
+                <td align="center" valign="top">4</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Cellular Effects of Sildenafil (Viagra)</td>
+                <td align="center" valign="top">1.47</td>
+                <td align="center" valign="top">0.121</td>
+                <td align="center" valign="top">15</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Inhibition of Angiogenesis by TSP1</td>
+                <td align="center" valign="top">1.47</td>
+                <td align="center" valign="top">0.182</td>
+                <td align="center" valign="top">5</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Role of JAK Family Kinases in IL-6-type Cytokine Signaling</td>
+                <td align="center" valign="top">1.45</td>
+                <td align="center" valign="top">0.192</td>
+                <td align="center" valign="top">4</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Tryptophan Metabolism</td>
+                <td align="center" valign="top">1.45</td>
+                <td align="center" valign="top">0.127</td>
+                <td align="center" valign="top">13</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Purine Metabolism</td>
+                <td align="center" valign="top">1.41</td>
+                <td align="center" valign="top">0.106</td>
+                <td align="center" valign="top">27</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">Parkinson&#x2019;s Signaling</td>
+                <td align="center" valign="top">1.39</td>
+                <td align="center" valign="top">0.222</td>
+                <td align="center" valign="top">3</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">p53 Signaling</td>
+                <td align="center" valign="top">1.35</td>
+                <td align="center" valign="top">0.126</td>
+                <td align="center" valign="top">11</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">cAMP-Mediated Signaling</td>
+                <td align="center" valign="top">1.33</td>
+                <td align="center" valign="top">0.107</td>
+                <td align="center" valign="top">22</td>
+              </tr>
+              <tr>
+                <td style="border-bottom:solid thin" align="left" valign="top">IL-15 Production</td>
+                <td style="border-bottom:solid thin" align="center" valign="top">1.32</td>
+                <td style="border-bottom:solid thin" align="center" valign="top">0.172</td>
+                <td style="border-bottom:solid thin" align="center" valign="top">4</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <p>Subsequently, in order to highlight the pathways more relevant to cellular stress response, we further refined our analysis by excluding signaling pathway categories, such as cancer, cardiovascular and nervous system signaling, toxicity list and disease-specific pathways, in addition to non-skin cell-type-specific canonical pathways. <xref ref-type="fig" rid="cells-02-00224-f010">Figure 10</xref> shows a refined presentation of the top canonical pathways for each post-heat recovery time point. For the cell cycle, the G1/S checkpoint regulation pathway was affected in all three time points<bold>. </bold>The ceramide signaling pathway was affected in both 0 h and 4 h. The glucocorticoid receptor signaling pathway and role of CHK proteins in cell cycle checkpoint control were affected in both 0 h and 24 h. All the remaining canonical pathways involved were exclusive to a particular time point. Notably, although most of the canonical pathways in each post-heat time point were unique, they actually serve overlapping top cellular functions. The canonical pathways playing a role in cellular function and maintenance that were affected in 0 h post-heat consisted of MSP-RON signaling, Rac signaling pathways and two endocytosis pathways. Both endocytosis pathways, namely, macropinocytosis and clathrin-mediated endocytosis signaling pathways, play important roles in plasma membrane reorganization, internalization of extracellular molecules and in transduction of signals within the cell and between cells. Deregulation of seven and 13 genes in macropinocytosis signaling and clathrin-mediated endocytosis signaling, respectively, starting 0 h post-heat, implicate an immediate effect of heat shock on the plasma membrane and signal transduction. Macropinocytosis depends on signaling to the actin cytoskeleton, such as the Rac signaling pathway, which was also affected at 0 h post-heat, with eight deregulated genes, including the Rac activator, TIAM1 (T-lymphoma invasion and metastasis 1). Immediately, TIAM1 mRNA showed more than a 4-fold increase. Interestingly, TIAM1 has been reported to prevent cell death in heat-stressed wild-type murine keratinocytes, since the TIAM1 knock-out cells displayed increased apoptosis [<xref ref-type="bibr" rid="B20-cells-02-00224">20</xref>].</p>
+        <fig id="cells-02-00224-f010" position="float">
+          <label>Figure 10</label>
+          <caption>
+            <p>Classification of differentially expressed genes into various cellular stress response implicated canonical pathways. The [&#x2212;log(<italic>p</italic>-value)] is the maximum <italic>p</italic>-value for all of the genes in each particular canonical pathway family. The ratio plot indicates the number of the genes expressed at each time point relative to the total number of genes in that particular canonical pathway group.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-02-00224-g010.tif"/>
+        </fig>
+        <p>Of the canonical pathways affected at 4 h post-heat, tight junction signaling plays a role in cellular function and maintenance, whereas those affected at 24 h post-heat included amino sugar metabolism and cAMP-mediated signaling pathways. The latter is also important in controlling cellular assembly and organization in addition to post-translational modification. Notably, tight junction signaling also plays a role in cellular assembly and organization in addition to cell-to-cell signaling and interaction. The 0 h time-point post-heat affected pathways playing roles in the regulation of cellular development and/or in cellular growth and proliferation comprised cell cycle G1/S checkpoint regulation, the glucocorticoid receptor, IL-9, NF-&#x3BA;B, April-mediated and growth hormone signaling. The 24 h post-heat assessment showed that pathways regulating these functions are the cell cycle G1/S checkpoint regulation, the glucocorticoid receptor, IL-10 signaling, the role of JAK family kinases in IL-6-type cytokine signaling and purine metabolism, while affected pathways at 4 h post-heat included cell cycle G1/S checkpoint regulation only. The cell cycle control function is regulated by two pathways at 0 h post-heat, namely cell cycle G1/S checkpoint regulation and growth hormone signaling.</p>
+        <p>Whereas, four of the canonical pathways affected at 4 h post-heat (ATM signaling, cyclins, cell cycle regulation, nitrogen metabolism and cell cycle G1/S checkpoint regulation) function in the control of cell cycle progression. Six of the 17 canonical pathways affected at 24 h post-heat play a role in cell cycle control. These are aryl hydrocarbon receptor signaling, cell cycle G1/S checkpoint regulation, the role of CHK proteins in cell cycle checkpoint control, cell cycle G2/M DNA damage checkpoint regulation and the two metabolic pathways, linoleic acid metabolism and tryptophan metabolism. Cell death, on the other hand, is controlled by the ceramide signaling pathway that was affected at 0 and 4 h post-heat and by the related sphingosine-1-phosphate signaling pathway, as well as by the aryl hydrocarbon receptor signaling and cell cycle G2/M DNA damage checkpoint regulation, which were affected at 24 h post-heat. Interestingly, the canonical pathways involved in inflammatory response were only affected at 24 h post-heat. They consist of IL-10 and IL-22 signaling. The DNA replication, recombination and repair function involves the role of CHK proteins in cell cycle checkpoint control that was affected at 4 h and 24 h post-heat, the ATM signaling pathway that was affected at 4 h post-heat only and cell cycle G2/M DNA damage checkpoint regulation that was affected at 24 h post-heat only.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>3. Experimental Section</title>
+      <sec>
+        <title>3.1. Cell Culture Conditions and Hyperthermia Stress Protocol</title>
+        <p>HEK were cultured in EpiLife<sup>&#xAE;</sup> medium containing supplement S7, as per the manufacturer&#x2019;s recommendations (Life Technologies). For the heat-shock experiment, cells were put in 1.7 mL tubes (1.0 &#xD7; 10<sup>6</sup> cells/tube) that were sealed with Para-film<sup>&#xAE;</sup> and placed in a circulating water bath at 44 &#xB0;C for 40 min. No significant change in pH was observed. Following hyperthermia, cells were either harvested within 5 min or were first allowed to recover in the incubator at 37 &#xB0;C/95% humidity/5% CO<sub>2</sub> for 4 h or for 24 h. Control cells harvested alongside the heat-treated cells were also put in 1.7 mL tubes (1.0 &#xD7; 10<sup>6</sup> cells/tube), but were maintained at all time in an incubator at 37 &#xB0;C/95% humidity/5% CO<sub>2</sub>.</p>
+      </sec>
+      <sec>
+        <title>3.2. Cellular Viability Assays</title>
+        <p>Viability was evaluated at different post-exposure time points using MTT (3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide) assays (ATCC, Manassas, VA, USA). In brief, HEKs were exposed to hyperthermic stress, then were incubated for 5 min (0 h post-heat), 4 h (4 h post-heat) or 24 h (24 h post-heat). Subsequently, MTT reagents and detergents were added, as per the manufacturer&#x2019;s instructions. Absorbance readings were measured at 570 nm with a Synergy HT Plate Reader (Biotech, Winooski, VT, USA). Absorbance readings were also measured for a ladder of serial dilutions (10<sup>3</sup>&#x2013;10<sup>6</sup> cells) in culture medium. Absorbance values were plotted <italic>versus</italic> the cell number, and these curves were used to determine the number of viable cells in each well.</p>
+      </sec>
+      <sec>
+        <title>3.3. RNA Isolation and Normalization</title>
+        <p>RNA was extracted from the heat-treated and control cells using a RNeasy Mini-Kit (Qiagen), according to the manufactures instructions. RNA extraction was performed at three different time intervals as follows: within 5 min following heat-shock (0 h post-heat), after a 4 h recovery period at 37 &#xB0;C (4 h post-heat) or after a 24 h recovery period at 37 &#xB0;C (24 h post-heat). At each time point, the RNA concentration was assessed on a NanoDrop Spectrophotometer (NanoDrop Technologies), and the quality was measured on a 2100 Bioanalyzer&#x2122; (Agilent Technologies). RNA samples with a RNA Integrity Number greater than 9.5 were subjected to microarray analysis.</p>
+      </sec>
+      <sec>
+        <title>3.4. Microarray Data Analysis</title>
+        <p>Expression analysis was performed for each time point in triplicates (three control and three heat-shock treated) using the Affymetrix GeneChip<sup>&#xAE;</sup> Human Genome U133 (HG-U133) plus 2.0 Array that contains 54,675 probe sets. Briefly, two micrograms of RNA were used for preparation of biotin-labeled targets (cRNA) using MessageAmp&#x2122;-based protocols (Ambion, Inc.). Labeled cRNA was fragmented (0.5 &#x3BC;g/&#x3BC;L per reaction) and was used for array hybridization and washing. The cRNA was mixed with a hybridization cocktail, heated to 99 &#xB0;C for 5 min and then incubated at 45 &#xB0;C for 5 min. Hybridization arrays were conducted for 16 h in an Affymetrix Model 640 hybridization oven (45 &#xB0;C, 60 rpm). Arrays were washed and stained on an FS450 Fluidics station and were scanned on a GeneChip<sup>&#xAE;</sup> Scanner 3000 7G. Image signal data, detection calls and annotations were generated for every gene using the Affymetrix Statistical Algorithm MAS 5.0 (GeneChip<sup>&#xAE;</sup> Operating Software v1.3). A log<sub>2</sub> transformation was conducted and a Student&#x2019;s <italic>t</italic>-test was performed for comparison of the two groups (control and heat-shocked). We conducted multiple testing correction&#x2014;Benjamini and Hochberg&#x2014;to determine the false discovery rate, and statistical significant genes were identified using Bonferroni correction procedures (&#x2212;log<sub>10</sub> p<sub>cutoff</sub> &gt; 6.04) [<xref ref-type="bibr" rid="B21-cells-02-00224">21</xref>].</p>
+        <p>For interpretation of the results, the Ingenuity Pathways Analysis tool (IPA version 8.7, Ingenuity<sup>&#xAE;</sup> Systems Inc., Redwood City, CA, USA; [<xref ref-type="bibr" rid="B22-cells-02-00224">22</xref>]) was used. IPA is a web-based software application, which enables filtering and dataset comparisons, to identify biological mechanisms, pathways and functions most relevant to experimental datasets or differentially expressed genes. The cut-off criteria for our IPA analysis were: an absolute value of log<sub>2</sub> ratio &#x2265;1.5 and a <italic>p</italic>-value &#x2264;0.05. Other web-based resources, such as the GeneCards Human Gene Database [<xref ref-type="bibr" rid="B23-cells-02-00224">23</xref>], The HUGO Gene Nomenclature Committee (HGNC, [<xref ref-type="bibr" rid="B24-cells-02-00224">24</xref>]) and the Gene Ontology [<xref ref-type="bibr" rid="B25-cells-02-00224">25</xref>] were also used to further supplement the analysis. The targets identified in the microarray study were validated using qRT-PCR. Runs were performed using TaqMan<sup>&#xAE;</sup> RNA-to-CT&#x2122; 1-Step Kits and TaqMan<sup>&#xAE;</sup> Assays for: HSPA6 and GAPDH (Applied Biosystems). Calibrator RNA was used as the control (Cell Applications Inc.). All assays were performed by Asuragen Services.</p>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>In this study, we examined the temporal gene expression kinetics for HEK cells exposed to hyperthermic stress. Collectively, our results demonstrate that hyperthermic stress triggers a rapid, robust and extensive transcriptional response in HEK cells. The temporal kinetics expression data show that this cellular response is immediately activated in response to stress and is sustained for many hours after exposure. Specifically, we show that the number of upregulated genes increased in logarithmic fashion as a function of time, ranging from 466 at 0 h, 872 at 4 h and up to 1,127 at 24 h. This finding is consistent with previous <italic>in vivo</italic> studies, which show that HSP70 expression is bi-phasic and peaks at both 12 h and 24 h post-exposure [<xref ref-type="bibr" rid="B5-cells-02-00224">5</xref>,<xref ref-type="bibr" rid="B7-cells-02-00224">7</xref>,<xref ref-type="bibr" rid="B8-cells-02-00224">8</xref>]. However, this data is in contrast to previous <italic>in vitro </italic>reports, which show that the number of regulated genes is maximal roughly 4 to 12 h post-exposure [<xref ref-type="bibr" rid="B3-cells-02-00224">3</xref>,<xref ref-type="bibr" rid="B4-cells-02-00224">4</xref>,<xref ref-type="bibr" rid="B5-cells-02-00224">5</xref>]. Furthermore, in this study, we show that many of the genes activated at 24 h encode for chemokines that play central roles in inflammation (<italic>i.e.</italic>, IL-8, IL-10, IL-22, IL-15 and JAK family kinases). This suggests that the second expression peak at 24 h is likely due to cellular inflammation.</p>
+      <p>We identified a large group of diverse heat-inducible genes in this work. The temporal kinetics data shows that each individual gene exhibits distinct expression profiles, which vary dramatically in magnitude, onset time and duration of expression. From the data, we determined that the heat-inducible genes can be grouped according to their temporal expression phases. The first group belongs to an immediate-expression phase consisting of genes that are rapidly expressed shortly (<italic>i.e.</italic>, 5&#x2013;20 min) after exposure to hyperthermic stress. The second group consists of genes expressed several minutes up to 4 h post exposure, and the third group can be considered an &#x201C;adaption or recovery phase&#x201D; that occurs 4 h to 24 h post exposure.</p>
+      <p>The majority of genes expressed during the immediate expression phase encode for proteins involved in molecular transport, cellular growth and heat shock response. One notable molecular transport gene is HBA1/HBA2, which functions to facilitate the delivery of oxygen. Another interesting finding is that only the well characterized HSPs (<italic>i.e.</italic>, HSP40 and HSP70) are expressed at the early time points, while the smaller HSPs and chaperonins (HSPE1, HSP60; HSPE1, HSP10; HSPB2, HSP27) are expressed at roughly 24 h post-exposure. Furthermore, other HSPs, such as HSPH1 (HSP105), which function primarily to prevent protein aggregation, exhibit maximal expression at the 4 h time-point. This data strongly supports that each particular type of HSP exhibits expression kinetics that appear to be directly correlated with the function that is required at each time point. In summary, these data provide valuable new insights that give us a much clearer picture of the genes and intracellular signaling pathways that are triggered in human epithelial keratinocytes exposed to hyperthermic stress.</p>
+    </sec>
+    
+  </body>
+  <back>
+  <ack>
+      <title>Acknowledgments</title>
+      <p>This study was supported by the Air Force Office of Scientific Research LRIR entitled &#x201C;Coupling of terahertz radiation to intracellular biomolecules for non-contact control and activation of adaptive cellular responses.&#x201D; The ideas and opinions presented here are those of the authors and not those of the US Air Force.</p>
+    </ack>
+    <notes>
+      <title>Conflict of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-02-00224">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schreck</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Albermann</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Baeuerle</surname>
+              <given-names>P.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nuclear factor kappa B: An oxidative stress-responsive transcription factor of eukaryotic cells (a review)</article-title>
+          <source>Free Radic. Res. Commun.</source>
+          <year>1992</year>
+          <volume>17</volume>
+          <fpage>221</fpage>
+          <lpage>237</lpage>
+          <pub-id pub-id-type="doi">10.3109/10715769209079515</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-cells-02-00224">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilmink</surname>
+              <given-names>G.J.</given-names>
+            </name>
+            <name>
+              <surname>Grundt</surname>
+              <given-names>J.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Invited review article: Current state of research on biological effects of terahertz radiation</article-title>
+          <source>J. Infrared. Millim. Te.</source>
+          <year>2011</year>
+          <volume>32</volume>
+          <fpage>1074</fpage>
+          <lpage>1122</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10762-011-9794-5</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-cells-02-00224">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilmink</surname>
+              <given-names>G.J.</given-names>
+            </name>
+            <name>
+              <surname>Opalenik</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Beckham</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Abraham</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Nanney</surname>
+              <given-names>L.B.</given-names>
+            </name>
+            <name>
+              <surname>Mahadevan-Jansen</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Davidson</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Jansen</surname>
+              <given-names>E.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular imaging-assisted optimization of hsp70 expression during laser-induced thermal preconditioning for wound repair enhancement</article-title>
+          <source>J. Invest. Dermatol.</source>
+          <year>2009</year>
+          <volume>129</volume>
+          <fpage>205</fpage>
+          <lpage>216</lpage>
+          <pub-id pub-id-type="doi">10.1038/jid.2008.175</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-cells-02-00224">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilmink</surname>
+              <given-names>G.J.</given-names>
+            </name>
+            <name>
+              <surname>Opalenik</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Beckham</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Davidson</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Jansen</surname>
+              <given-names>E.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessing laser-tissue damage with bioluminescent imaging</article-title>
+          <source>J. Biomed. Opt.</source>
+          <year>2006</year>
+          <volume>11</volume>
+          <fpage>041114</fpage>
+          <pub-id pub-id-type="doi">10.1117/1.2339012</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-cells-02-00224">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilmink</surname>
+              <given-names>G.J.</given-names>
+            </name>
+            <name>
+              <surname>Opalenik</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Beckham</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Mackanos</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Nanney</surname>
+              <given-names>L.B.</given-names>
+            </name>
+            <name>
+              <surname>Contag</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Davidson</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Jansen</surname>
+              <given-names>E.D.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>In-vivo </italic>optical imaging of hsp70 expression to assess collateral tissue damage associated with infrared laser ablation of skin</article-title>
+          <source>J. Biomed. Opt.</source>
+          <year>2008</year>
+          <volume>13</volume>
+          <fpage>054066</fpage>
+          <pub-id pub-id-type="doi">10.1117/1.2992594</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-cells-02-00224">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilmink</surname>
+              <given-names>G.J.</given-names>
+            </name>
+            <name>
+              <surname>Rivest</surname>
+              <given-names>B.D.</given-names>
+            </name>
+            <name>
+              <surname>Roth</surname>
+              <given-names>C.C.</given-names>
+            </name>
+            <name>
+              <surname>Ibey</surname>
+              <given-names>B.L.</given-names>
+            </name>
+            <name>
+              <surname>Payne</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Cundin</surname>
+              <given-names>L.X.</given-names>
+            </name>
+            <name>
+              <surname>Grundt</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Peralta</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Mixon</surname>
+              <given-names>D.G.</given-names>
+            </name>
+            <name>
+              <surname>Roach</surname>
+              <given-names>W.P.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>In vitro </italic>investigation of the biological effects associated with human dermal fibroblasts exposed to 2.52 THz radiation</article-title>
+          <source>Laser. Surg. Med.</source>
+          <year>2011</year>
+          <volume>43</volume>
+          <fpage>152</fpage>
+          <lpage>163</lpage>
+          <pub-id pub-id-type="doi">10.1002/lsm.20960</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-cells-02-00224">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Beckham</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Wilmink</surname>
+              <given-names>G.J.</given-names>
+            </name>
+            <name>
+              <surname>Mackanos</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Contag</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Jansen</surname>
+              <given-names>E.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of HSP70 in cellular thermotolerance</article-title>
+          <source>Laser. Surg. Med.</source>
+          <year>2008</year>
+          <volume>40</volume>
+          <fpage>704</fpage>
+          <lpage>715</lpage>
+          <pub-id pub-id-type="doi">10.1002/lsm.20713</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-cells-02-00224">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Beckham</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Wilmink</surname>
+              <given-names>G.J.</given-names>
+            </name>
+            <name>
+              <surname>Opalenik</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Mackanos</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Abraham</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Contag</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Jansen</surname>
+              <given-names>E.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Microarray analysis of cellular thermotolerance</article-title>
+          <source>Laser. Surg. Med.</source>
+          <year>2010</year>
+          <volume>42</volume>
+          <fpage>752</fpage>
+          <lpage>765</lpage>
+          <pub-id pub-id-type="doi">10.1002/lsm.20963</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-cells-02-00224">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kabakov</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <name>
+              <surname>Budagova</surname>
+              <given-names>K.R.</given-names>
+            </name>
+            <name>
+              <surname>Latchman</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Kampinga</surname>
+              <given-names>H.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Stressful preconditioning and HSP70 overexpression attenuate proteotoxicity of cellular ATP depletion</article-title>
+          <source>Am. J. Physiol. Cell Physiol.</source>
+          <year>2002</year>
+          <volume>283</volume>
+          <fpage>C521</fpage>
+          <lpage>C534</lpage>
+        </citation>
+      </ref>
+      <ref id="B10-cells-02-00224">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilmink</surname>
+              <given-names>G.J.</given-names>
+            </name>
+            <name>
+              <surname>Roth</surname>
+              <given-names>C.C.</given-names>
+            </name>
+            <name>
+              <surname>Ibey</surname>
+              <given-names>B.L.</given-names>
+            </name>
+            <name>
+              <surname>Ketchum</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Bernhard</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cerna</surname>
+              <given-names>C.Z.</given-names>
+            </name>
+            <name>
+              <surname>Roach</surname>
+              <given-names>W.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of microRNAs associated with hyperthermia-induced cellular stress response</article-title>
+          <source>Cell Stress Chaperon.</source>
+          <year>2010</year>
+          <volume>15</volume>
+          <fpage>1027</fpage>
+          <lpage>1038</lpage>
+          <pub-id pub-id-type="doi">10.1007/s12192-010-0189-7</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-02-00224">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Richter</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Haslbeck</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Buchner</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The heat shock response: Life on the verge of death</article-title>
+          <source>Mol. Cell</source>
+          <year>2010</year>
+          <volume>40</volume>
+          <fpage>253</fpage>
+          <lpage>266</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2010.10.006</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-cells-02-00224">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kultz</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evolution of the cellular stress proteome: From monophyletic origin to ubiquitous function</article-title>
+          <source>J. Exp. Biol.</source>
+          <year>2003</year>
+          <volume>206</volume>
+          <fpage>3119</fpage>
+          <lpage>3124</lpage>
+          <pub-id pub-id-type="doi">10.1242/jeb.00549</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13-cells-02-00224">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kultz</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular and evolutionary basis of the cellular stress response</article-title>
+          <source>Annu. Rev. Physiol.</source>
+          <year>2005</year>
+          <volume>67</volume>
+          <fpage>225</fpage>
+          <lpage>257</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev.physiol.67.040403.103635</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-cells-02-00224">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Otto</surname>
+              <given-names>A.I.</given-names>
+            </name>
+            <name>
+              <surname>Riou</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Marionnet</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Mori</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sarasin</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Magnaldo</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Differential behaviors toward ultraviolet A and B radiation of fibroblasts and keratinocytes from normal and DNA-repair-deficient patients</article-title>
+          <source>Cancer Res.</source>
+          <year>1999</year>
+          <volume>59</volume>
+          <fpage>1212</fpage>
+          <lpage>1218</lpage>
+        </citation>
+      </ref>
+      <ref id="B15-cells-02-00224">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sesto</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of the ultraviolet B response in primary human keratinocytes using oligonucleotide microarrays</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2002</year>
+          <volume>99</volume>
+          <fpage>2965</fpage>
+          <lpage>2970</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.052678999</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-cells-02-00224">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Turi</surname>
+              <given-names>T.G.</given-names>
+            </name>
+            <name>
+              <surname>Schuck</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Freedberg</surname>
+              <given-names>I.M.</given-names>
+            </name>
+            <name>
+              <surname>Khitrov</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Blumenberg</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rays and arrays: The transcriptional program in the response of human epidermal keratinocytes to UVB illumination</article-title>
+          <source>FASEB J.</source>
+          <year>2001</year>
+          <volume>15</volume>
+          <fpage>2533</fpage>
+          <lpage>2535</lpage>
+        </citation>
+      </ref>
+      <ref id="B17-cells-02-00224">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Howell</surname>
+              <given-names>B.G.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Freed</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Mamelak</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Watanabe</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Sauder</surname>
+              <given-names>D.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Microarray analysis of UVB-regulated genes in keratinocytes: Downregulation of angiogenesis inhibitor thrombospondin-1</article-title>
+          <source>J. Dermatol. Sci.</source>
+          <year>2004</year>
+          <volume>34</volume>
+          <fpage>185</fpage>
+          <lpage>194</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jdermsci.2004.01.004</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18-cells-02-00224">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bender</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Blattner</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Knebel</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Iordanov</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Herrlich</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Rahmsdorf</surname>
+              <given-names>H.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>UV-induced signal transduction</article-title>
+          <source>J. Photochem. Photobiol. B Biol.</source>
+          <year>1997</year>
+          <volume>37</volume>
+          <fpage>1</fpage>
+          <lpage>17</lpage>
+          <pub-id pub-id-type="doi">10.1016/S1011-1344(96)07459-3</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19-cells-02-00224">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tyrrell</surname>
+              <given-names>R.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Activation of mammalian gene expression by the UV component of sunlight&#x2014;From models to reality</article-title>
+          <source>BioEssays</source>
+          <year>1996</year>
+          <volume>18</volume>
+          <fpage>139</fpage>
+          <lpage>148</lpage>
+          <pub-id pub-id-type="doi">10.1002/bies.950180210</pub-id>
+        </citation>
+      </ref>
+      <ref id="B20-cells-02-00224">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rygiel</surname>
+              <given-names>T.P.</given-names>
+            </name>
+            <name>
+              <surname>Mertens</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <name>
+              <surname>Strumane</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>van der Kammen</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Collard</surname>
+              <given-names>J.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Rac activator Tiam1 prevents keratinocytes apoptosis by controlling ROS-mediated ERK phosphorylation</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2008</year>
+          <volume>121</volume>
+          <fpage>1183</fpage>
+          <lpage>1192</lpage>
+          <pub-id pub-id-type="doi">10.1242/jcs.017194</pub-id>
+        </citation>
+      </ref>
+      <ref id="B21-cells-02-00224">
+        <label>21.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Benjamini</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Hochberg</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Controlling the false discovery rate: A practical and powerful approach to multiple testing</article-title>
+          <source>J. Roy. Stat. Soc. Ser. B</source>
+          <year>1995</year>
+          <volume>57</volume>
+          <fpage>289</fpage>
+          <lpage>300</lpage>
+        </citation>
+      </ref>
+      <ref id="B22-cells-02-00224">
+        <label>22.</label>
+        <citation citation-type="web">
+          <article-title>Ingenuity Systems, Inc. Home Page</article-title>
+          
+          <comment>Available online:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.ingenuity.com/" ext-link-type="uri">http://www.ingenuity.com/</ext-link></comment>
+		  <access-date>(accessed on 1 August 2012)</access-date>
+        </citation>
+      </ref>
+      <ref id="B23-cells-02-00224">
+        <label>23.</label>
+        <citation citation-type="web">
+          <article-title>GeneCards<sup>&#xAE;</sup> Home Page</article-title>
+          
+          <comment>Available online:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.genecards.org/" ext-link-type="uri">http://www.genecards.org/</ext-link></comment>
+		  <access-date>(accessed on 1 August 2012)</access-date>
+        </citation>
+      </ref>
+      <ref id="B24-cells-02-00224">
+        <label>24.</label>
+        <citation citation-type="web">
+          <article-title>HGNC, HUGO Gene Nomenclature Committee Home Page</article-title>
+          
+          <comment>Available online:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.genenames.org/" ext-link-type="uri">http://www.genenames.org/</ext-link></comment>
+		  <access-date>(accessed on 1 August 2012)</access-date>
+        </citation>
+      </ref>
+      <ref id="B25-cells-02-00224">
+        <label>25.</label>
+        <citation citation-type="web">
+          <article-title>The Gene Ontology Home Page</article-title>
+          
+          <comment>Available online:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://geneontology.org/" ext-link-type="uri">http://geneontology.org/</ext-link></comment>
+		  <access-date>(accessed on 1 August 2012)</access-date>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

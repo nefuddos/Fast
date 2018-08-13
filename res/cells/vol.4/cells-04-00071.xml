@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells4010071</article-id>
+      <article-id pub-id-type="publisher-id">cells-04-00071</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>ELISPOT Assays in 384-Well Format: Up to 30 Data Points with One Million Cells</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hanson</surname>
+            <given-names>Jodi</given-names>
+          </name>
+          <xref rid="fn1-cells-04-00071" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sundararaman</surname>
+            <given-names>Srividya</given-names>
+          </name>
+          <xref rid="fn1-cells-04-00071" ref-type="fn">&#x2020;</xref>
+          <xref rid="c1-cells-04-00071" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Caspell</surname>
+            <given-names>Richard</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Karacsony</surname>
+            <given-names>Edith</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Karulin</surname>
+            <given-names>Alexey Y.</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lehmann</surname>
+            <given-names>Paul V.</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Kalyuzhny</surname>
+            <given-names>Alexander E.</given-names>
+          </name>
+		  <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-04-00071">Cellular Technology Ltd, 20521 Chagrin Blvd., Shaker Heights, OH, 44122 USA; E-Mails: <email>jodi.hanson@immunospot.com</email> (J.H.); <email>richard.caspell@immunospot.com</email> (R.C.); <email>edith.karacsony@immunospot.com</email> (E.K.); <email>ayk@immunospot.com</email> (A.Y.K.); <email>pvl@immunospot.com</email> (P.V.L.)</aff>
+      <author-notes>
+        <fn id="fn1-cells-04-00071">
+          <label>&#x2020;</label>
+          <p>These authors contributed equally to this work.</p>
+        </fn>
+        <corresp id="c1-cells-04-00071"><label>*</label>Author to whom correspondence should be addressed; E-Mail: <email>srividya.sundararaman@immunospot.com</email>; Tel.: +1-888-791-4005 (ext. 192); Fax: +1-216-325-7234.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>29</day>
+        <month>01</month>
+        <year>2015</year>
+      </pub-date>
+      <pub-date pub-type="collection"><month>03</month>
+        <year>2015</year>
+      </pub-date>
+      <volume>4</volume>
+      <issue>1</issue>
+      <fpage>71</fpage>
+      <lpage>83</lpage>
+      <history>
+        <date date-type="received">
+          <day>30</day>
+          <month>10</month>
+          <year>2014</year>
+        </date>
+        <date date-type="accepted">
+          <day>01</day>
+          <month>12</month>
+          <year>2014</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2015 by the authors.</copyright-statement>
+        <copyright-year>2015</copyright-year>
+        <license license-type="open-access">
+          <p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Comprehensive immune monitoring requires that frequencies of T cells, producing different cytokines, are measured to establish the magnitude of Th1, Th2, and Th17 components of cell-mediated immunity. Antigen titration provides additional information about the affinity of T cell response. In tumor immunity, it is also advisable to account for determinant spreading by testing multiple epitopes. Efforts for comprehensive immune monitoring would require substantial numbers of PBMC to run the above tests systematically, which in most test cases is limiting. Immune monitoring with ELISPOT assays have been performed, thus far, in a 96-well format. In this study we show that one can increase cell utilization by performing the assay in 384-well plates whose membrane surface area is one third that of 96-well plates. Systematic testing of PBMC for antigen-specific T cell response in the two formats demonstrated that the 384-well assay corresponds to a one-in-three miniaturization of the 96-well assay. The lowest number of cells that can be used in the 384-well format, while allowing for sufficient contact with APC, is 33,000 PBMC/well. Therefore, with one million PBMC typically obtained from 1 mL of blood, a 30 well T cell ELISPOT assay can be performed in a 384-well format.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>384-well</kwd>
+        <kwd>ELISPOT</kwd>
+        <kwd>T cell response</kwd>
+        <kwd>assay miniaturization</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>1. Introduction</title>
+      <p>T-lymphocytes are major players in the body&#x2019;s defense against cancer and various infections. One of the biggest challenges in monitoring T cell-mediated immunity is that these cells occur in various effector classes, secreting different, and in most cases mutually-exclusive, effector molecules. It has become clear that only if all these classes are assessed, will the true nature of T cell immunity be revealed [<xref ref-type="bibr" rid="B1-cells-04-00071">1</xref>]. Another challenge is that many times a multitude of antigens/peptides are targeted by T cells, and only if these are all tested will one obtain reliable information on the magnitude of T cell immunity. Titrating antigen(s) will reveal the affinity of the T cell response. Comprehensive immune monitoring by ELISPOT, therefore, will include testing a multitude of analytes and test conditions. Frequently, trial protocols require several other cellular assays to be performed in parallel, requiring additional PBMC. Ideally, PBMC are cryopreserved for batch testing, but this involves additional cell loss. For all of the above reasons, the number of PBMC that can be obtained from test subjects is often the limiting factor for cellular immune monitoring in general, and in particular for trials that involve pediatric, geriatric, immunosuppressed or oncologic test subjects.</p>
+      <p>Presently there is no single assay that can measure all the relevant parameters of T cell immunity. ELISPOT assays reveal frequencies and cytokine signatures of antigen-reactive Th1, Th2, and Th17 cells. Measuring the co-expression of IL-2 and IFN-&#x3B3; in dual color ELISPOT assays (enzymatic or fluorescent) provides information on the numbers of polyfunctional T cells with the same sensitivity as flow cytometry, but requires fewer cells [<xref ref-type="bibr" rid="B2-cells-04-00071">2</xref>]. Detecting T cells that produce Granzyme B and Perforin within 24 h of antigen exposure <italic>ex vivo</italic> signifies that the CD8+ effector cells were recently activated <italic>in vivo</italic> [<xref ref-type="bibr" rid="B3-cells-04-00071">3</xref>]. In contrast, an absence of Granzyme B and Perforin producing T cells within 24 h <italic>ex vivo</italic>, but with detection of these cytokines 3&#x2013;4 days after subsequent <italic>ex vivo</italic> antigen stimulation, signifies CD8+ memory cells that were resting <italic>in vivo</italic>, but have cytolytic potential upon reactivation [<xref ref-type="bibr" rid="B4-cells-04-00071">4</xref>]. The concentration of the test antigen can be titrated to reveal the affinity of the T cells for said antigen [<xref ref-type="bibr" rid="B5-cells-04-00071">5</xref>], and measurements of such are particularly important for oncologic and autoimmune trials.</p>
+      <p>In ELISPOT assays every cell seeded in an assay is tested. Increasing the economy of cell utilization even further, the cells survive ELISPOT testing unaffected, and can be reused in subsequent assays [<xref ref-type="bibr" rid="B6-cells-04-00071">6</xref>,<xref ref-type="bibr" rid="B7-cells-04-00071">7</xref>]. Yet, PBMC numbers are frequently limiting for immune monitoring. In an effort to reduce the number of PBMC used, recent studies have introduced ELISPOT assays in which the cells are first pre-activated with antigen in 384-well and 1536-well plates, and then transferred into regular 96-well ELISPOT plates for establishing the numbers of cytokine producing cells [<xref ref-type="bibr" rid="B8-cells-04-00071">8</xref>]. Since such cell transfers are error prone and labor intensive, we verified whether ELISPOT assays could be performed by plating the PBMC directly in dedicated 384-well ELISPOT plates that have a PVDF membrane surface, similar to 96-well ELISPOT plates. It should be noted that these 384-well plates have a membrane surface area that is one-third that of a regular 96-well plate (as opposed to one-fourth, as one might expect based on the number of wells). Since ELISPOT assays are predicated on the detection of T cells in a monolayer, whereby each T cell needs to make contact with an antigen presenting cell (APC), we hypothesized that 384-well assays could be performed with exactly one-third the amount of reagents, including cell material, as would be required for 96-well assays.</p>
+    </sec>
+    <sec>
+      <title>2. Experimental Section</title>
+      <sec>
+        <title>2.1. Peripheral Blood Mononuclear Cells</title>
+        <p>The human PBMC used for this study were from healthy donors, selected from the reference database at Cellular Technology Ltd [<xref ref-type="bibr" rid="B9-cells-04-00071">9</xref>]. All donors are HLA typed and pre-characterized for T cell activity. The cells were thawed according to an optimized thawing protocol [<xref ref-type="bibr" rid="B10-cells-04-00071">10</xref>]. Briefly, cryovials were stored in nitrogen vapor until being placed in a 37 &#xB0;C glass bead bath for 10 min (CTL-BB-001, CTL, Cleveland, OH, USA). The cells were diluted slowly with pre-warmed 37 &#xB0;C Anti-Aggregate medium from CTL (Cat # CTL-AA-005, CTL, Cleveland, OH, USA). PBMC were then centrifuged for 10 min, the supernatant was decanted, the cell pellet was tapped to re-suspend, and then Anti-Aggregate medium was added. A sample of the cells was then counted to determine viability using the Live/Dead/Apoptotic cell counting platform by CTL (Cat# CTL-LDAC-100). Once counted, cells were centrifuged again and then re-suspended in appropriate volumes of CTL-Test Medium (Cat# CTLT-005, CTL, Cleveland, OH, USA) in order to plate the number of human PBMC for each assay as specified.</p>
+      </sec>
+      <sec>
+        <title>2.2. Human IFN-&#x3B3; ELISPOT Assays</title>
+        <p>Both the 384- and the 96-well ELISPOT assays were performed using human IFN-&#x3B3; kits from Cellular Technology Ltd. (Cat # hIFNG-1M/5 for 96-well kit, and Cat # hIFNG-3M/5 for 384-well kit) Plates and all antibodies, tertiaries, diluents and substrate are contained in the kits. For both plate types, the assay was performed as per manufacturer&#x2019;s instructions. Briefly, the plates were coated with Human IFN-&#x3B3; Coating Antibody overnight. The next day, plates were washed once with PBS and then HCMVpp65 antigen (Cat # CEF32-07-005) was plated in CTL-Test Medium. After plating the PBMC in 100 &#xB5;L for the 96-well plate, or 33 &#xB5;L for a 384-well plate, the plates were placed in a humidified incubator at 37 &#xB0;C with 7% CO<sub>2</sub>. After 24 h of incubation, the PBMC were removed, and the detection antibody and development reagents from the kit were added. Following completion of the ELISPOT assay, the plates were air dried in a laminar flow hood prior to analysis.</p>
+        <p>ELISPOT plates were scanned and analyzed using an ImmunoSpot<sup>&#xAE;</sup> S6 Ultimate Reader (S6ULT9000, CTL, Cleveland, OH, USA). Spot Forming Units (SFU) were automatically calculated by the ImmunoSpot<sup>&#xAE;</sup> Software for each antigen stimulation condition and the medium (negative) control using the SmartCount&#x2122; and Autogate&#x2122; functions [<xref ref-type="bibr" rid="B11-cells-04-00071">11</xref>].</p>
+      </sec>
+      <sec>
+        <title>2.3. Fluorescence Detection of PBMC</title>
+        <p>PBMC were stained with Calcein AM (C3100MP, Invitrogen, Carlsbad, CA, USA) by incubating 1.0 &#xD7; 10<sup>6</sup> PBMC per mL in CTL-Test Media with 1 &#xB5;L of 1 mM Calcein AM dye in DMSO (Sigma, St. Louis, MO, USA). Following incubation, cells were centrifuged for 10 min and the supernatant was discarded. The cells were washed two times in CTL-Test media and then used in the study.</p>
+        <p>Fluorescence measurements were performed using the ImmunoSpot<sup>&#xAE;</sup> S6 Ultimate Reader (S6ULT9000 CTL, Cleveland, OH, USA) by activating the 480 nm excitation wavelength, and detecting using the 520 &#xB1; 20 nm emission wavelength filter.</p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>3. Results and Discussion</title>
+      <sec>
+        <title>3.1. CD8+ Cell-Derived IFN-&#x3B3; ELISPOTs Show Identical Size Distributions in 96-Well and 384-Well Assays</title>
+        <p>Human IFN-&#x3B3; ELISPOT assays were performed in parallel in 96- and 384-well plates, using the CEF peptide pool to stimulate CD8+ cells in PBMC. Since the membrane surface in the 384-well format is one-third of the 96-well format, one-third the number of PBMC, as well as all other assay reagents, was used in the 384-well plate. <xref ref-type="fig" rid="cells-04-00071-f001">Figure 1</xref>A, B show representative well images from both 96- and 384-well plates. To the eye, spot sizes and densities appear similar. However, in order to compare spot sizes in both well formats more stringently, image analysis was performed. The well images of 96- and 384-well plats were captured with identical optical and digital resolution, permitting similar comparisons. The analysis of spot sizes from both well types showed bell shaped curves with identical means and spread (<xref ref-type="fig" rid="cells-04-00071-f001">Figure 1</xref>C, D). The average spot sizes for 96-well and 384-well plates were &#x2212;2.575 and &#x2212;2.514, on a log scale, with a SD of 0.482 and 0.411 respectively. Thus, the sizes of the spots on both plate types were equivalent, demonstrating that the T cell secretory activity per-cell was not affected by the dimensions of the well.</p>
+        <fig id="cells-04-00071-f001" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p>Identical IFN-&#x3B3; spot sizes and size distributions in the 96- and 384-well format plates. (<bold>A</bold>,<bold>B</bold>) Respective images from a 96-well and a 384-well plate were captured with identical optical and digital resolution; (<bold>C</bold>,<bold>D</bold>) The spot sizes from both wells are plotted as a histogram with a fitted Log Normal curve overlaid in red.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00071-g001.tif"/>
+        </fig>
+        <p>The spot size distributions in the 384-well plates closely approximated the bell shaped curve characteristic of the Normal (Gaussian) function (<xref ref-type="fig" rid="cells-04-00071-f001">Figure 1</xref>C, D). To statistically determine whether the curves match Normal distribution, we analyzed the curves using the Kolmogorov-Smirnov goodness of fit test. The target significance level was set as &#x3B1; = 0.05. The <italic>p</italic>-value for the spot sizes in the 96-well plate and 384-well plate were 0.419 and 0.220, respectively. Since both p-values were greater than the target significance value of 0.05, the spot size distribution is qualified as being normally distributed.</p>
+        <p>Establishing Normal spot size distribution is critical, as this permits objective counting. For 96-well plate format [<xref ref-type="bibr" rid="B12-cells-04-00071">12</xref>], and also for 384-well plates, statistics-based automated size gating can be utilized by setting minimal and maximal spot size gates at 3 Standard Deviations (SD) from the mean spot size. When spot sizes are Normally distributed, objects larger than 3 SD of the mean result (with greater than 99.7% likelihood) from cell clusters, and need to be counted as such by estimating the number of spots (<italic>i.e.</italic>, analyte secreting cells) that make up such a cluster. Spots smaller than 3 SD of the mean represent (with greater than 99.7% certainty) assay artifacts that must be gated out. Using these rules for gating, we compared spot counts obtained from the two plate formats.</p>
+      </sec>
+      <sec>
+        <title>3.2. In Both the 384-and 96-Well Plate, a Linear Relationship between the Number of PBMC Plated and Spot Forming Units (SFU) Is Seen</title>
+        <p>For 96-well plates, the relationship between spot numbers and cell numbers was found to be linear between 1.0 &#xD7; 10<sup>5</sup> and 1.0 &#xD7; 10<sup>6</sup> million PBMC per well&#x2014;Linearity was not retained above or below these cell numbers [<xref ref-type="bibr" rid="B13-cells-04-00071">13</xref>]. To ensure T cell activation and the resulting cytokine production, T cells and APC must make contact on the membrane. The linear range for cell numbers and spot counts indicates that cell contacts can no longer be made when fewer than 1.0 &#xD7; 10<sup>5</sup> PBMC are plated into a well of a 96-well plate, and that cell crowing occurs when more than 1.0 &#xD7; 10<sup>6</sup> cells are plated. Between these two extremes, one would expect PBMC to form a monolayer on the membrane, enabling the activation and detection of each antigen-specific T cell. To test this hypothesis, we stained PBMC with a fluorescent dye and plated them into a 96-well plate in a ten-fold serial dilution. As shown in <xref ref-type="fig" rid="cells-04-00071-f002">Figure 2</xref>, the PBMC are too widely dispersed to enable cell-to-cell contact at 1.0 &#xD7; 10<sup>4</sup> cells per well. At 1.0 &#xD7; 10<sup>5</sup> cells per well, the PBMC were on the verge of critical density for exhibiting cell-to-cell contacts. At 1.0 &#xD7; 10<sup>6</sup> PBMC per well, the cells started to exhibit overcrowding, no longer occurring as a monolayer. Therefore, the linear cell number/spot count data for the 96-well format are consistent with the monolayer hypothesis.</p>
+        <p>If the monolayer hypothesis is correct, one would expect that plating PBMC at the same cell densities into 384-well plates (<italic>i.e.</italic>, one-third the number of cells in the 3-fold smaller membrane) would also result in a linear spot count to cell number relationship, albeit with one-third the number of spots per well.</p>
+        <p>To address the question of cell number/spot count linearity in 384-well format, PBMC were adjusted to 1.5 &#xD7; 10<sup>7</sup> cells/mL, and the cells were serially diluted over 12 steps. The cells were plated into 96- and 384-well plates in parallel, pipetting 100&#x3BC;L of the cell suspensions into 96-well plates and 33 &#x3BC;L into the 384-well plate. Subsequently, a human IFN-&#x3B3; ELISPOT assay was performed using HCMV pp65 antigen to stimulate CD8+ cells. The results are shown in <xref ref-type="fig" rid="cells-04-00071-f003">Figure 3</xref>. For the 96-well plate, a close to perfect linear relationship was seen between 1.0 &#xD7; 10<sup>5</sup> cells per well and 1 &#xD7; 10<sup>6</sup> cells per well (R<sup>2</sup> = 0.9782). For the 384-well plate, there was close to perfect linearity when one-third of these cell numbers were plated, between 3.3 &#xD7; 10<sup>4</sup> PBMC per well and 3.5 &#xD7; 10<sup>5</sup> cells per well (R<sup>2</sup> = 0.9823). In both well formats, at higher or lower cell densities than those stated above, spot counts <italic>vs.</italic> cell numbers started to deviate from linearity.</p>
+        <fig id="cells-04-00071-f002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>PBMC were stained with fluorescent Calcein AM dye and the specified numbers of cells were plated into respective wells of a 96-well plate. The cells were visualized on an ImmunoSpot<sup>&#xAE;</sup> S6 Ultimate Reader by using 480 nm as the excitation wavelength, and detecting fluorescence with a 520 &#xB1; 20 nm emission wavelength filter.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00071-g002.tif"/>
+        </fig>
+        <fig id="cells-04-00071-f003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>(<bold>A</bold>,<bold>B</bold>) PBMC were plated in an ELISPOT assay in serial dilution at the numbers specified, and HCMV pp65 was added to elicit IFN-&#x3B3; production by the specific CD8+ cells. The number of PBMC added to a (<bold>B</bold>) 384-well plate was one-third the number in the (<bold>A</bold>) 96-well plate. The ideal linear function is shown by the superimposed red line. For the 96-well plate, the experimental data approximated linearity (R<sup>2</sup> = 0.9782) between 1.0 &#xD7; 10<sup>5</sup> cells per well and 1 &#xD7; 10<sup>6</sup> cells per well. For the 384-well plate, linearity was approximated (R<sup>2</sup> = 0.9823) between 3.3 &#xD7; 10<sup>4</sup> PBMC per well and 3.5 &#xD7; 10<sup>5</sup> cells per well.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00071-g003.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.3. Spot Counts in Replicate Wells of a 384-Well Plate Follow Normal Distribution</title>
+        <p>Based on the information obtained above, one would expect the spot counts in the 384-well plate to be one-third of the spot counts in the 96-well plate when PBMC are seeded at the same density, <italic>i.e.</italic>, one-third of the absolute numbers per well. Because of the inherent variability between replicate wells, which for 96-well plates was shown to follow a Normal distribution [<xref ref-type="bibr" rid="B14-cells-04-00071">14</xref>], a direct well-to-well comparison between 96-well and 384-well format is best done by establishing whether variability among replicates follows the same rule in 384-well format. Furthermore, the Normal distribution of spot counts in replicate wells allows one to determine whether parametric statistics can be used to compare antigen-induced spot counts with spot counts in the medium control wells, identifying cut-offs for positive responses.</p>
+        <p>PBMC were tested in 384-well plates with 384 replicate wells at 5 &#xD7; 10<sup>4</sup> cells per well, and with 192 replicates at 1.0 &#xD7; 10<sup>5</sup> cells per well. In both instances HCMV pp65 was used to stimulate CD8+ cells. Shapiro Wilk test was done to assess whether the spot counts among the replicate wells follow Normal distribution. According to this test, the <italic>p</italic>-values for both cell dilutions were 0.708 and 0.388, with &#x3B1; = 0.05. Since <italic>p</italic>-values were larger than the significance level (&#x3B1;), spot numbers in replicate wells were considered Normally distributed. Q-Q plots (<xref ref-type="fig" rid="cells-04-00071-f004">Figure 4</xref>) for experimental spot counts in replicate wells were linear confirming the results of Shapiro Wilk test. This proves that the spot counts in replicate wells of 384-well plates, as previously reported for 96-well plates [<xref ref-type="bibr" rid="B14-cells-04-00071">14</xref>], follow Normal distribution function. Therefore, in 384-well plate as well as 96-well plate assays, parametric statistics (including the Students&#x2019;t-test or ANOVA) can be used to compare test results. This also means that there is no need for empirical cutoff values (for instance &gt;10 spots for 96-well plates) to determine positive from negative response wells. In past studies, the &#x201C;minimum number of spots&#x201D; was defined in order to distinguish positive from negative responses because they could not be subject to parametric statistical testing, which can make these distinctions unambiguously.</p>
+        <fig id="cells-04-00071-f004" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p>Spot count variation among replicate wells of 384-well plate follows Normal distribution. PBMC were plated at (<bold>A</bold>) 0.5 &#xD7; 10<sup>5</sup> cells per well in 384 replicate wells; and (<bold>B</bold>) 1.0 &#xD7; 10<sup>5</sup> cells per well in 192 replicate wells. The response to HCMV pp65 antigen in an IFN-&#x3B3; ELISPOT assay was measured. Normality was determined using Shapiro Wilk test with &#x3B1; value of 0.05 and <italic>p</italic>-values of 0.708 and 0.388 respectively. Q-Q plots for experimental <italic>vs.</italic> theoretical counts are shown.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00071-g004.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.4. SFU in 384-Well Plates Are One-Third Those in 96-Well Plates</title>
+        <p>We tested 12 different cryopreserved PBMC samples in both plate formats, in parallel, of which 11 samples exhibited a positive response to HCMV pp65. The cells were plated at 3 &#xD7; 10<sup>5</sup> PBMC per well in 96-well plates in triplicate, and one-third of that cell number (1.0 &#xD7; 10<sup>5</sup> per well) in the 384-well plate in triplicate. For the 384-well plate, all other reagents used were also used at one-third the volumes used in the 96-well plate. The results of both the 96- and 384-well plate assays were counted using the ImmunoSpot<sup>&#xAE;</sup> Software (version 5.3.6) which includes a 384-well plate counting suite. As can be seen in <xref ref-type="table" rid="cells-04-00071-t001">Table 1</xref>, for all eleven positive donors, the mean number of SFU (of the three replicates per well) in the 96-well plates was approximately three times the number of the mean SFUs in the 384-well plate. When assessing the mean (of triplicate values) of means (for the 11 donors) an almost perfect one-in-three relationship was obtained.</p>
+        <table-wrap id="cells-04-00071-t001" position="float">
+          <object-id pub-id-type="pii">cells-04-00071-t001_Table 1</object-id>
+          <label>Table 1</label>
+          <caption>
+            <p>Spot counts in 96-well format were approximately three times the spot count in 384-well plate format. For 11 test subjects, the HCMVpp65-induced response was measured in triplicate wells for each plate format with the mean of the triplicate spot counts shown. The ratio between these mean spot counts in 96-well format and 384-well format is shown in the right column.</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">TEST</th>
+                <th align="center" valign="middle">96-WELL</th>
+                <th align="center" valign="middle">384-WELL</th>
+                <th align="center" valign="middle">96W/384W</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">1</td>
+                <td align="center" valign="middle">670.0</td>
+                <td align="center" valign="middle">177.5</td>
+                <td align="center" valign="middle"><bold>3.8</bold></td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">2</td>
+                <td align="center" valign="middle">577.5</td>
+                <td align="center" valign="middle">177.3</td>
+                <td align="center" valign="middle"><bold>3.3</bold></td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">3</td>
+                <td align="center" valign="middle">547.3</td>
+                <td align="center" valign="middle">173.8</td>
+                <td align="center" valign="middle"><bold>3.1</bold></td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">4</td>
+                <td align="center" valign="middle">499.3</td>
+                <td align="center" valign="middle">164.0</td>
+                <td align="center" valign="middle"><bold>3.0</bold></td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">5</td>
+                <td align="center" valign="middle">423.0</td>
+                <td align="center" valign="middle">118.5</td>
+                <td align="center" valign="middle"><bold>3.6</bold></td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">6</td>
+                <td align="center" valign="middle">344.5</td>
+                <td align="center" valign="middle">102.8</td>
+                <td align="center" valign="middle"><bold>3.4</bold></td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">7</td>
+                <td align="center" valign="middle">260.0</td>
+                <td align="center" valign="middle">77.8</td>
+                <td align="center" valign="middle"><bold>3.3</bold></td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">8</td>
+                <td align="center" valign="middle">140.3</td>
+                <td align="center" valign="middle">52.3</td>
+                <td align="center" valign="middle"><bold>2.7</bold></td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">9</td>
+                <td align="center" valign="middle">126.0</td>
+                <td align="center" valign="middle">35.5</td>
+                <td align="center" valign="middle"><bold>3.5</bold></td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">10</td>
+                <td align="center" valign="middle">66.8</td>
+                <td align="center" valign="middle">21.8</td>
+                <td align="center" valign="middle"><bold>3.1</bold></td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">11</td>
+                <td align="center" valign="middle">26.0</td>
+                <td align="center" valign="middle">7.5</td>
+                <td align="center" valign="middle"><bold>3.5</bold></td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"><bold>MEAN 3.3 &#xB1; 0.3</bold></td>
+              </tr>
+            </tbody>
+          </table>
+		  </table-wrap>
+      </sec>
+      <sec>
+        <title>3.5. Matching Dose Response Curves Are Seen in 96- and 384-Well Format</title>
+        <p>In order to cope with the limited numbers of test subject PBMC available, immune monitoring efforts have primarily relied on measuring T-cell responses at a single dose of antigen. Such measurements, however, miss out on critical information about the T cells&#x2019; functional affinity for the antigen, which can be determined by testing serial dilutions of the antigen [<xref ref-type="bibr" rid="B5-cells-04-00071">5</xref>]. Given the three-fold economization of cell utilization with the 384-well format, it should become feasible to include affinity measurements into T cell monitoring assays.</p>
+        <p>We tested whether T cell functional affinity measurements performed in both 96- and 384-well formats would provide the same results. PBMC were seeded at 3 &#xD7; 10<sup>5</sup> cells per well into the 96-well plates, and at 1.0 &#xD7; 10<sup>5</sup> cells per well into the 384-well plates. HCMV pp65 antigen was titrated from 10 &#xB5;g/mL to down to 1.0 &#xD7; 10<sup>&#x2212;6</sup> &#xB5;g/well. As shown in <xref ref-type="fig" rid="cells-04-00071-f005">Figure 5</xref>, the dose response curves for both plate types were parallel. The curve reached a plateau at ~360 spots per well in the 96-well plate, and at ~105 spots per well in the 384-well plate. Fifty percent maximal stimulation was therefore 180 spots per well for the 96-well plate, and 53 spots per well for the 384-well plate. The antigen concentration at which 50% maximal stimulation is reached represents the K<sub>eff</sub> 50 value, defining affinity. The K<sub>eff</sub> 50 value was close to identical in both well formats, 7.5 ng/mL. The data show that the 384-well assay is just as capable of measuring T cell functional affinity as the 96-well assay, however, it only requires one-third of the number of cells.</p>
+        <fig id="cells-04-00071-f005" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <p>T cell functional affinity measurements in 384- and 96-well formats provide identical results. HCMV peptide pp65-induced IFN-&#x3B3; production by CD8+ cells was measured in PBMC in both 96-well and 384-well plate types. The highest peptide concentration tested was 10 &#x3BC;g/mL with subsequent 1:10 serial dilutions. The numbers of PBMC plated in the 96-well format was 3 &#xD7; 10<sup>5</sup>/well (green line), and 1 &#xD7; 10<sup>5</sup>/well for the 384-well plate (blue line). Fifty percent maximal activation is marked with the red X.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00071-g005.tif"/>
+        </fig>
+        <p>Replicate wells are not typically required when antigens are serially diluted, as the serial wells with successive antigen concentrations confirm positive responses. Functional affinity measurements in 384-well format can be done, with the same amount, or fewer, PBMC than a regular 96-well measurement at a single antigen dose. In a regular 96-well assay, testing for antigen-reactivity in triplicate wells at a single antigen dose, with 3 &#xD7; 10<sup>5</sup> PBMC per well requires 9 &#xD7; 10<sup>5</sup> PBMC plus the same number of PBMC for the medium controls, <italic>i.e.</italic>, 1.8 &#xD7; 10<sup>6</sup> PBMC. In corresponding 384-well format, the cells would be seeded at 1.0 &#xD7; 10<sup>5</sup> cells per well; with 1.8 &#xD7; 10<sup>6</sup> PBMC one could test (assigning three wells for the medium controls) 15 additional wells for testing the dose response curve, obtaining invaluable additional information on the affinity of the T cell response.</p>
+      </sec>
+      <sec>
+        <title>3.6. Lower Signal-to-Noise Performance of 384-Well Assays</title>
+        <p>The data thus far showed that a one-in-three down-scaling of PBMC and reagents in an ELISPOT assay in the 384-well format results in a proportional one-in-three reduction of the antigen-induced spot counts, <italic>i.e.</italic>, of the signal. As interpretation of ELISPOT data depends on the signal to noise (media background) ratio, we compared this between the two plate formats. We tested three different cryopreserved PBMC samples that had been previously identified as eliciting a high, medium, or low response respectively to HCMV pp65 antigen in both well formats, in parallel. As expected from the previous results, the number of antigen-induced SFU in the 384-well plate was one-third the number of SFU in the 96-well plate (<xref ref-type="fig" rid="cells-04-00071-f006">Figure 6</xref>). However, we observed similar numbers of SFU in the medium control wells in both the 96-well and 384-well plates. This number was between 1 and 4 spots for the three donors. The signal to noise ratio for the 96-well plate was on average 2.8-fold (2.3-, 3.6-, and 2.6-fold) higher than for the 384-well plate. The lower signal to noise performance of the 384-well assay must be considered when attempting to identify weak T cell responses. One method to improve signal to noise ratios would be to purify CD8 cells from the PBMC population and use purified CD8 cells as opposed to PBMC, for samples with weak responses. CD8 cells can present antigen to each other and therefore do not require additional non-secreting APCs. Generally, CD8 cells comprise ~25% of PBMC, thereby increasing signal by fourfold, when cell numbers plated are the same. Moreover, since no bystander cells are present in the assay, the noise will also reduce, providing even greater signal to noise ratios.</p>
+        <fig id="cells-04-00071-f006" position="float">
+          <label>Figure 6</label>
+          <caption>
+            <p>Signal-to-noise performance of 96-well <italic>vs.</italic> 384-well plate. HCMV pp65 antigen-induced responses (hatched bars) and medium controls (solid bars&#x2014;Mostly too small to be seen) are shown for three donors with high, medium, and low response levels. PBMC numbers were 3 &#xD7; 10<sup>5</sup> for the 96-well plate and 1.0 &#xD7; 10<sup>5</sup> for the 384-well plate. The mean spot count/well calculated from three replicate wells for each condition is specified above the bars. The stimulation index (SI) is defined as the number of ELISPOTs induced by an antigen divided by the number of spots in the medium background. SI for the corresponding medium control/antigen pairs is specified.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00071-g006.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.7. Low Spot Counts From 384-Well Plate Have a Higher Coefficient of Variation Than Corresponding Wells From 96-Well Plate</title>
+        <p>In ELISPOT assays rare antigen specific T cells are identified within a vast excess of bystander cells. One would therefore, expect the coefficient of variation (CV: The well-to-well variability among replicates) to increase as the number of specific T cells in the test sample decreases. In other words, the lower the frequency of antigen-specific T cells in a given test sample, the higher the variability of such cells in the defined sample volume pipetted in replicate wells. One would also predict that at the same low concentration of antigen-specific cells, the well-to-well variability will be higher when the sample volume is lower. As 100 &#x3BC;L of PBMC sample is plated in the 96-well assay, and 33 &#x3BC;L of PBMC at the same concentration is plated in the 384-well assay, the CV should be higher for the 384-well plate.</p>
+        <p>To experimentally test these predictions, we performed human IFN-&#x3B3; ELISPOT assays, stimulating PBMC of three donors with four antigens while serially diluting the PBMC in a linear range to obtain a wide spread of spot counts. Each cell sample and antigen dilution was tested in quadruplicates. In <xref ref-type="fig" rid="cells-04-00071-f007">Figure 7</xref>, the CV was calculated for each quadruplicate and plotted against the mean spot number for that quadruplicate. For both plate formats, the CV for wells with fewer SFU was found to be larger than for wells with more SFU. The corresponding wells of a 96-well plate exhibited a lower CV compared to the 384-well plate. This notion also needs to be taken into account when testing samples that contain low frequency antigen-specific T cells in the 384-well format.</p>
+        <fig id="cells-04-00071-f007" position="float">
+          <label>Figure 7</label>
+          <caption>
+            <p>The variability in spot counts among replicate wells is higher in 384-well plates than in 96-well plates when low frequency T cells are being detected. PBMC from three donors were serially diluted and tested, in quadruplicate wells for each donor and cell dilution, for antigen-elicited IFN-&#x3B3; response. The PBMC were plated in serial dilution between 1.0 &#xD7; 10<sup>6</sup> and 1.0 &#xD7; 10<sup>5</sup> cells per well in the 96-well plate, and at 3 &#xD7; 10<sup>5</sup> and 3 &#xD7; 10<sup>4</sup> cells per well in the 384-well plate. The CVs of the quadruplicate wells were plotted against mean spot numbers for the corresponding test results.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00071-g007.tif"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>ELISPOT assays, when performed in regular 96-well format, already provide far better cell utilization as compared to other T cell monitoring techniques. By introducing 384-well ELISPOT assays, we have been able to reduce the number of PBMC required by three-fold, corresponding to the three-fold reduction in membrane surface area for the 384-well plate. A systematic side by side comparison of the two assay formats showed that antigen-induced spot counts in 384-well format (obtained with one-third of the PBMC numbers per well) will be one-third of those obtained in 96-well format. Thus, high- and moderate-frequency antigen-specific T cells can be readily detected in 384-well format. However, when it comes to low-frequency T cells, decreased stimulation indices and increased CVs among replicates were observed as an inevitable consequence of the fewer PBMC plated. For low-frequency measurements in the 384-well format, increasing the number of replicate wells can compensate for the decreased resolution. As ELISPOT counts among replicate wells follow Normal Distribution in the 384-well format, parametric tests, including Students&#x2019; t-test and ANOVA, can be used to identify positive responses. This is especially important for weak responses, as increasing replicate wells can identify weak responses from negative responses with greater statistical significance.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors would like to acknowledge Villian Naeem for editing this document.</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Jodi Hanson, Srividya Sundararaman, Richard Caspell, and Edith Karacsony performed experimental work. Alexey Y. Karulin performed statistical analysis. Jodi Hanson, Srividya Sundararaman and Paul V. Lehmann were involved in designing experiments and Srividya Sundararaman and Paul V. Lehmann wrote the manuscript.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>All authors are employed by Cellular Technology Ltd., which is a manufacturer of ELISPOT kits and the ELISPOT image analysis equipment.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-04-00071">
+        <label>1.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Sundararaman</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>When results of T-cell immune monitoring match/do not match clinical outcomes of tumor vaccine trials: What more could and should we measure?</article-title>
+          <source>The Tumor Immunoenvironment</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Shurin</surname>
+              <given-names>M.R.</given-names>
+            </name>
+			<name>
+              <surname>Umansky</surname>
+              <given-names>V.</given-names>
+            </name>
+			<name>
+              <surname>Malyguine</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Springer Dordrecht</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2013</year>
+		  <comment>Chapter 32</comment>
+          <fpage>725</fpage>
+          <lpage>740</lpage>
+        </citation>
+      </ref>
+      <ref id="B2-cells-04-00071">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karulin</surname>
+              <given-names>A.Y.</given-names>
+            </name>
+            <name>
+              <surname>Hesse</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Single-cytokine-producing cd4 memory cells predominate in type 1 and type 2 immunity</article-title>
+          <source>J. Immunol.</source>
+          <year>2000</year>
+          <volume>164</volume>
+          <fpage>1862</fpage>
+          <lpage>1872</lpage>
+          <pub-id pub-id-type="doi">10.4049/jimmunol.164.4.1862</pub-id>
+          <pub-id pub-id-type="pmid">10657635</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-cells-04-00071">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kuerten</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nowacki</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Kleen</surname>
+              <given-names>T.O.</given-names>
+            </name>
+            <name>
+              <surname>Asaad</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dissociated production of perforin, granzyme b, and ifn-gamma by hiv-specific cd8(+) cells in hiv infection</article-title>
+          <source>AIDS Res. Hum. Retrov.</source>
+          <year>2008</year>
+          <volume>24</volume>
+          <fpage>62</fpage>
+          <lpage>71</lpage>
+          <pub-id pub-id-type="doi">10.1089/aid.2007.0125</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-cells-04-00071">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nowacki</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Kuerten</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Shive</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Kreher</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Boehm</surname>
+              <given-names>B.O.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Granzyme b production distinguishes recently activated cd8(+) memory cells from resting memory cells</article-title>
+          <source>Cell. Immunol.</source>
+          <year>2007</year>
+          <volume>247</volume>
+          <fpage>36</fpage>
+          <lpage>48</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cellimm.2007.07.004</pub-id>
+          <pub-id pub-id-type="pmid">17825804</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-cells-04-00071">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Targoni</surname>
+              <given-names>O.S.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Endogenous myelin basic protein inactivates the high avidity t cell repertoire</article-title>
+          <source>J. Exp. Med.</source>
+          <year>1998</year>
+          <volume>187</volume>
+          <fpage>2055</fpage>
+          <lpage>2063</lpage>
+          <pub-id pub-id-type="doi">10.1084/jem.187.12.2055</pub-id>
+          <pub-id pub-id-type="pmid">9625765</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-cells-04-00071">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Herzog</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Ott</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Dittrich</surname>
+              <given-names>M.T.</given-names>
+            </name>
+            <name>
+              <surname>Quast</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Karulin</surname>
+              <given-names>A.Y.</given-names>
+            </name>
+            <name>
+              <surname>Kalbacher</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Karges</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Boehm</surname>
+              <given-names>B.O.</given-names>
+            </name>
+			<etal/>
+          </person-group>
+          <article-title>Increased in vivo frequency of ia-2 peptide-reactive ifngamma+/il-4- t cells in type 1 diabetic subjects</article-title>
+          <source>J. Autoimmun.</source>
+          <year>2004</year>
+          <volume>23</volume>
+          <fpage>45</fpage>
+          <lpage>54</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jaut.2004.03.009</pub-id>
+          <pub-id pub-id-type="pmid">15236752</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-cells-04-00071">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ott</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Herzog</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Quast</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hofstetter</surname>
+              <given-names>H.H.</given-names>
+            </name>
+            <name>
+              <surname>Boehm</surname>
+              <given-names>B.O.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Durinovic-Bello</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Berner</surname>
+              <given-names>B.R.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Islet-cell antigen-reactive t cells show different expansion rates and th1/th2 differentiation in type 1 diabetic patients and healthy controls</article-title>
+          <source>Clin. Immunol.</source>
+          <year>2005</year>
+          <volume>115</volume>
+          <fpage>102</fpage>
+          <lpage>114</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.clim.2004.12.005</pub-id>
+          <pub-id pub-id-type="pmid">15870028</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-cells-04-00071">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li Pira</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Ivaldi</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Starc</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Landi</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Locatelli</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Rutella</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tripodi</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Manca</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Miniaturized and high-throughput assays for analysis of t-cell immunity specific for opportunistic pathogens and hiv</article-title>
+          <source>Clin. Vaccine Immunol.</source>
+          <year>2014</year>
+          <volume>21</volume>
+          <fpage>488</fpage>
+          <lpage>495</lpage>
+          <pub-id pub-id-type="doi">10.1128/CVI.00660-13</pub-id>
+          <pub-id pub-id-type="pmid">24477854</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-cells-04-00071">
+        <label>9.</label>
+        <citation citation-type="web">
+          <article-title>PBMC Searchable Database</article-title>
+		  <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="www.epbmc.immunospot.com" ext-link-type="uri">www.epbmc.immunospot.com</ext-link></comment>
+          <access-date>(accessed on 13 January 2015)</access-date>
+        </citation>
+      </ref>
+      <ref id="B10-cells-04-00071">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ramachandran</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Laux</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Moldovan</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Caspell</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Subbramanian</surname>
+              <given-names>R.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Optimal thawing of cryopreserved peripheral blood mononuclear cells for use in high-throughput human immune monitoring studies</article-title>
+          <source>Cells</source>
+          <year>2012</year>
+          <volume>1</volume>
+          <fpage>313</fpage>
+          <lpage>324</lpage>
+          <pub-id pub-id-type="doi">10.3390/cells1030313</pub-id>
+          <pub-id pub-id-type="pmid">24710478</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-04-00071">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Objective, user-independent elispot data analysis based on scientifically validated principles</article-title>
+          <source>Methods Mol. Biol.</source>
+          <year>2012</year>
+          <volume>792</volume>
+          <fpage>155</fpage>
+          <lpage>171</lpage>
+          <pub-id pub-id-type="pmid">21956509</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-cells-04-00071">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karulin</surname>
+              <given-names>A.Y.</given-names>
+            </name>
+            <name>
+              <surname>Karacsony</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Targoni</surname>
+              <given-names>O.S.</given-names>
+            </name>
+            <name>
+              <surname>Moldovan</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Dittrich</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sundararaman</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Elispots produced by cd8 and cd4 cells follow log normal distribution</article-title>
+          <source>Cells</source>
+          <year>2015</year>
+          <volume>4</volume>
+          <comment>In Press</comment>
+        </citation>
+      </ref>
+      <ref id="B13-cells-04-00071">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Caspell</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Karulin</surname>
+              <given-names>A.Y.</given-names>
+            </name>
+            <name>
+              <surname>Ahmad</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Haicheur</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Abdelsalam</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Johannesen</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Vignard</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Dudzik</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Georgakopoulou</surname>
+              <given-names>K.</given-names>
+            </name>
+			<etal/>
+          </person-group>
+          <article-title>Elispot assays provide reproducible results among different laboratories for t-cell immune monitoring--even in hands of elispot-inexperienced investigators</article-title>
+          <source>J. Immunotoxicol.</source>
+          <year>2009</year>
+          <volume>6</volume>
+          <fpage>227</fpage>
+          <lpage>234</lpage>
+          <pub-id pub-id-type="doi">10.3109/15476910903317546</pub-id>
+          <pub-id pub-id-type="pmid">19908941</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-cells-04-00071">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karulin</surname>
+              <given-names>A.Y.</given-names>
+            </name>
+            <name>
+              <surname>Caspell</surname>
+              <given-names>R.</given-names>
+            </name>
+			<name>
+              <surname>Dittrich</surname>
+              <given-names>M.</given-names>
+            </name>
+			<name>
+              <surname>Sundararaman</surname>
+              <given-names>S.</given-names>
+            </name>
+			<name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Normal distribution of CD8+ T-cell derived elispot counts within replicates justifies the reliance on parametric statistics for identifying positive responses</article-title>
+          <source>Cells</source>
+          <year>2015</year>
+          <volume>4</volume>
+          <comment>In Press</comment>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

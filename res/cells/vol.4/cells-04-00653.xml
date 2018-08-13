@@ -1,0 +1,1612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells4040653</article-id>
+      <article-id pub-id-type="publisher-id">cells-04-00653</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Active Nuclear Import of Membrane Proteins Revisited</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Laba</surname>
+            <given-names>Justyna K.</given-names>
+          </name>
+          <xref rid="af1-cells-04-00653" ref-type="aff">1</xref>
+          <xref rid="af2-cells-04-00653" ref-type="aff">2</xref>
+          <xref rid="fn1-cells-04-00653" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Steen</surname>
+            <given-names>Anton</given-names>
+          </name>
+          <xref rid="af1-cells-04-00653" ref-type="aff">1</xref>
+          <xref rid="fn1-cells-04-00653" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Popken</surname>
+            <given-names>Petra</given-names>
+          </name>
+          <xref rid="af1-cells-04-00653" ref-type="aff">1</xref>
+          <xref rid="af2-cells-04-00653" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chernova</surname>
+            <given-names>Alina</given-names>
+          </name>
+          <xref rid="af1-cells-04-00653" ref-type="aff">1</xref>
+          <xref rid="af3-cells-04-00653" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Poolman</surname>
+            <given-names>Bert</given-names>
+          </name>
+          <xref rid="af2-cells-04-00653" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Veenhoff</surname>
+            <given-names>Liesbeth M.</given-names>
+          </name>
+          <xref rid="af1-cells-04-00653" ref-type="aff">1</xref>
+          <xref rid="c1-cells-04-00653" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Fahrenkrog</surname>
+            <given-names>Birthe</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff  id="af1-cells-04-00653"><label>1</label>European Institute for the Biology of Ageing (ERIBA), University of Groningen, University Medical Center Groningen, Netherlands Proteomics Centre, Antonius Deusinglaan 1, Groningen 9713 AV, The Netherlands; E-Mails: <email>j.k.laba@rug.nl</email> (J.K.L.); <email>a.steen@umcg.nl</email> (A.S.); <email>p.popken@rug.nl</email> (P.P.); <email>alin.chernova@gmail.com</email> (A.C.)</aff>
+      <aff id="af2-cells-04-00653"><label>2</label>Department of Biochemistry, University of Groningen, Nijenborgh 4, Groningen 9747 AG, The Netherlands; E-Mail: <email>b.poolman@rug.nl</email></aff>
+      <aff id="af3-cells-04-00653"><label>3</label>Skolkovo Institute of Science and Technology (Skoltech), Novaya St. 100, Skolkovo 143025, Russia</aff>
+      <author-notes>
+        <fn id="fn1-cells-04-00653">
+          <label>&#x2020;</label>
+          <p>These authors contributed equally to this work.</p>
+        </fn>
+        <corresp id="c1-cells-04-00653"><label>*</label>Author to whom correspondence should be addressed; E-Mail: <email>l.m.veenhoff@rug.nl</email>; Tel.: +31-503-617-300; Fax: +31-503-617-310.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>13</day>
+        <month>10</month>
+        <year>2015</year>
+      </pub-date>
+      <pub-date pub-type="collection">        <month>12</month>
+        <year>2015</year>
+      </pub-date>
+      <volume>4</volume>
+      <issue>4</issue>
+      <fpage>653</fpage>
+      <lpage>673</lpage>
+      <history>
+        <date date-type="received">
+          <day>10</day>
+          <month>07</month>
+          <year>2015</year>
+        </date>
+        <date date-type="accepted">
+          <day>30</day>
+          <month>09</month>
+          <year>2015</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2015 by the authors.</copyright-statement>
+        <copyright-year>2015</copyright-year>
+        <license license-type="open-access">
+          <p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>It is poorly understood how membrane proteins destined for the inner nuclear membrane pass the crowded environment of the Nuclear Pore Complex (NPC). For the <italic>Saccharomyces cerevisiae</italic> proteins Src1/Heh1 and Heh2, a transport mechanism was proposed where the transmembrane domains diffuse through the membrane while the extralumenal domains encoding a nuclear localization signal (NLS) and intrinsically disordered linker (L) are accompanied by transport factors and travel through the NPC. Here, we validate the proposed mechanism and explore and discuss alternative interpretations of the data. First, to disprove an interpretation where the membrane proteins become membrane embedded only after nuclear import, we present biochemical and localization data to support that the previously used, as well as newly designed reporter proteins are membrane-embedded irrespective of the presence of the sorting signals, the specific transmembrane domain (multipass or tail anchored), independent of GET, and also under conditions that the proteins are trapped in the NPC. Second, using the recently established size limit for passive diffusion of membrane proteins in yeast, and using an improved assay, we confirm active import of polytopic membrane protein with extralumenal soluble domains larger than those that can pass by diffusion on similar timescales. This reinforces that NLS-L dependent active transport is distinct from passive diffusion. Thirdly, we revisit the proposed route through the center of the NPC and conclude that the previously used trapping assay is, unfortunately, poorly suited to address the route through the NPC, and the route thus remains unresolved. Apart from the uncertainty about the route through the NPC, the data confirm active, transport factor dependent, nuclear transport of membrane-embedded mono- and polytopic membrane proteins in baker&#x2019;s yeast.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>nuclear pore complex</kwd>
+        <kwd>inner nuclear membrane</kwd>
+        <kwd>nuclear envelope</kwd>
+        <kwd>nuclear transport</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-cells-04-00653" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>The nuclear envelope (NE), although physically connected to the endoplasmic reticulum (ER), has features and functions that are distinct from the ER membrane system (as reviewed in [<xref ref-type="bibr" rid="B1-cells-04-00653">1</xref>,<xref ref-type="bibr" rid="B2-cells-04-00653">2</xref>,<xref ref-type="bibr" rid="B3-cells-04-00653">3</xref>]). It consists of two membranes: the inner and outer nuclear membrane (INM and ONM, respectively) and is perforated by Nuclear Pore Complexes (NPCs). In the pores, the INM and ONM are connected via the highly curved pore membrane. The NPCs architecture is conserved between species from yeast to higher eukaryotes, but the biology of the nuclear envelopes is distinct since yeast undergoes a closed mitosis, omitting the possibility of recruitment of INM proteins into the reassembling NE after open mitosis. In addition, the intermediate filament network of Lamin proteins underlining the INM in higher eukaryotes is not present in <italic>Saccharomyces cerevisiae</italic> (<italic>S. cerevisiae</italic>). The sorting mechanism by which membrane proteins specifically enrich at the INM may thus have conserved and species-specific aspects and is generally not well understood (reviewed in [<xref ref-type="bibr" rid="B4-cells-04-00653">4</xref>,<xref ref-type="bibr" rid="B5-cells-04-00653">5</xref>,<xref ref-type="bibr" rid="B6-cells-04-00653">6</xref>,<xref ref-type="bibr" rid="B7-cells-04-00653">7</xref>]).</p>
+      <p>The first proposed model was that metazoan INM proteins passively diffuse through the pore and are retained in the nucleus due to interactions with nuclear structures [<xref ref-type="bibr" rid="B8-cells-04-00653">8</xref>,<xref ref-type="bibr" rid="B9-cells-04-00653">9</xref>,<xref ref-type="bibr" rid="B10-cells-04-00653">10</xref>]. Two recent papers [<xref ref-type="bibr" rid="B11-cells-04-00653">11</xref>,<xref ref-type="bibr" rid="B12-cells-04-00653">12</xref>] detail the determinants for membrane targeting in mammalian cells using LBR (Lamin B Receptor), SUN2 (Sad1 and UNC84 domain containing 2) and LAP2&#x3B2; (Lamina-associated polypeptide 2&#x3B2;) as model substrates. The major determinants are the numbers and permeability of the NPCs, availability of binding sites at the INM, and the kinetics of diffusion through the membranes of ER. Import relies on a highly interconnected ER network, which is energy dependent [<xref ref-type="bibr" rid="B12-cells-04-00653">12</xref>]. Both studies [<xref ref-type="bibr" rid="B11-cells-04-00653">11</xref>,<xref ref-type="bibr" rid="B12-cells-04-00653">12</xref>] convincingly show that for these proteins a diffusion retention model of INM protein transport explains the measured kinetics of targeting in wild type and mutant cells and under conditions of energy depletion.</p>
+      <p>In the yeast <italic>S. cerevisiae</italic>, in addition to selective retention, an active transport route was proposed to exist for specific proteins [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>,<xref ref-type="bibr" rid="B14-cells-04-00653">14</xref>,<xref ref-type="bibr" rid="B15-cells-04-00653">15</xref>,<xref ref-type="bibr" rid="B16-cells-04-00653">16</xref>,<xref ref-type="bibr" rid="B17-cells-04-00653">17</xref>]. The nuclear localization signals (NLSs) of the INM protein Heh2 and Src1/Heh1 (first described in [<xref ref-type="bibr" rid="B14-cells-04-00653">14</xref>]), together with an intrinsically disordered (ID) linker (L) were required and sufficient for INM accumulation of a transmembrane protein [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>]. The accumulation was dependent on the transport factor Kap95 (importin-&#x3B2;), a functional Ran-gradient, and specific nucleoporins (Nups) rich in phenylalanine-glycine (FG) repeats (FG-Nups) and the size of the extralumenal domains [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>,<xref ref-type="bibr" rid="B14-cells-04-00653">14</xref>]. The interpretation of this data was that the NLS and ID linker act in active transport of the transmembrane proteins through the NPC. Transport was proposed to occur through the central channel as a reporter protein could be immobilized at a central position in the NPC using affinity tags [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>].</p>
+      <p>Comparing to other NLSs, the Heh1 and Heh2 NLS have structurally and biochemically distinct properties [<xref ref-type="bibr" rid="B16-cells-04-00653">16</xref>] that are partially shared with the NLS of Pom121 from <italic>Rattus norvegicus</italic> [<xref ref-type="bibr" rid="B17-cells-04-00653">17</xref>]. This NLS of Pom121 adapts a similar fold as the NLS of Heh1 and Heh2 when transport factor-bound and rescues the subcellular localization and synthetic sickness of Heh2&#x394;NLS mutants [<xref ref-type="bibr" rid="B17-cells-04-00653">17</xref>]. When expressed in HEK293T cells the NLS and linker of Heh2 supports INM localization. The conserved features of the NLSs of ScHeh1, ScHeh2 and RnPom121, and the effective sorting of Heh2-derived reporters in human cells, suggest that active import is conserved and confined to a subset of INM proteins.</p>
+      <p>A large part of the studies in [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>,<xref ref-type="bibr" rid="B15-cells-04-00653">15</xref>,<xref ref-type="bibr" rid="B16-cells-04-00653">16</xref>,<xref ref-type="bibr" rid="B17-cells-04-00653">17</xref>] aimed at understanding the transport mechanism of Heh1 and Heh2 were based on studies using reporter proteins that had a C-terminal transmembrane spanning domain. A criticism to this experimental approach was that the proteins may not be in the membrane during transport and if so, in those studies effectively soluble transport was measured. This criticism is valid to some extent, as the insertion of transmembrane proteins is not fully mapped out in baker&#x2019;s yeast. For years, the translocon Sec61 system in the ER was the only characterized membrane insertion/translocation machinery (reviewed in [<xref ref-type="bibr" rid="B18-cells-04-00653">18</xref>]), but, more recently, other systems have been described [<xref ref-type="bibr" rid="B19-cells-04-00653">19</xref>]. Most notably a specialized insertion system for tail-anchored proteins, called GET (Guided Entry of Tail anchored proteins), was characterized (reviewed in [<xref ref-type="bibr" rid="B20-cells-04-00653">20</xref>]). The function of others such as Ssh1, the non-essential Sec61 homologue in yeast [<xref ref-type="bibr" rid="B19-cells-04-00653">19</xref>], is still elusive. It is thus currently difficult to be certain how a specific membrane protein is inserted to the membrane and also how much redundancy exists between different systems. Most significant in this context is the question if sorting to the nucleus can precede insertion into the lipid bilayer.</p>
+      <p>Here, we present a set of experiments aimed at validating and fine-tuning the previous findings. We test if previously used Heh2-derived proteins are membrane embedded, we fine-tune and validate that active transport tolerates larger extralumenal domains than passive transport and we revisit our evidence for the transport route through the NPC.</p>
+    </sec>
+    <sec id="sec2-cells-04-00653">
+      <title>2. Experimental Section</title>
+      <sec id="sec2dot1-cells-04-00653">
+        <title>2.1. Strains and Plasmids</title>
+        <p>All strains and plasmids are listed in <xref ref-type="table" rid="cells-04-00653-t001">Table 1</xref> and <xref ref-type="table" rid="cells-04-00653-t002">Table 2</xref> of the Supplementary Material. Besides the GET deletion mutants, all the experiments described were performed in the <italic>S. cerevisiae</italic> K14708 strain (w303, mat&#x3B1; tor1-1 fpr1::NAT) [<xref ref-type="bibr" rid="B21-cells-04-00653">21</xref>] or strains derived from it. For the construction of strains used in the NPC trapping experiments, the genes encoding nucleoporins Nup170, Nup53 and Nup59 were tagged with an FRB (FKBP12-rapamycin binding) cassette from a pFA6a-FRB-KanMX6 plasmid [<xref ref-type="bibr" rid="B22-cells-04-00653">22</xref>]. The strains expressing the FRB tagged Nups are viable and are normal with respect to nuclear import of cNLS-GFP. It is, however, possible that the modification of the Nups leads to rearrangements within the NPC. All the INM reporters were expressed from pACM021-GFP plasmid [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>]. All the FKBP (FK506 binding protein) tagged reporters were designed based on the pJKL01-2&#xD7;FKBP12-GFP-Lic-h2NLS-L-TM plasmid [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>]. The plasmids encoding the Sec61 or RibU-based reporter proteins with a variable number of maltose-binding proteins (MBP) in the extralumenal domain were based on the plasmids described in [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>]. In these constructs, the region encoding the transmembrane helix of Heh2 was replaced by the transmembrane domain of Sec61 or RibU, using homologous recombination.</p>
+        <table-wrap id="cells-04-00653-t001" position="float">
+          <object-id pub-id-type="pii">cells-04-00653-t001_Table 1</object-id>
+          <label>Table 1</label>
+          <caption>
+            <p>Strains.</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">Name</th>
+                <th align="center" valign="middle">Genotype</th>
+                <th align="center" valign="middle">Source</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">K14708</td>
+                <td align="center" valign="middle">W303, Mat&#x3B1; <italic>tor1-1 fpr1::NAT</italic></td>
+                <td align="center" valign="middle">[<xref ref-type="bibr" rid="B21-cells-04-00653">21</xref>]</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Nup170FRB</td>
+                <td align="center" valign="middle">K14708, <italic>NUP170-FRB::KanMX</italic></td>
+                <td align="center" valign="middle">This study</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Nup53FRB</td>
+                <td align="center" valign="middle">K14708, <italic>NUP53-FRB::KanMX</italic></td>
+                <td align="center" valign="middle">This study</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Nup59FRB</td>
+                <td align="center" valign="middle">K14708, <italic>NUP59-FRB::KanMX</italic></td>
+                <td align="center" valign="middle">This study</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Kap95AA</td>
+                <td align="center" valign="middle">K14708, <italic>PMA1-2&#xD7; FKBP12::TRP1 KAP95-FRB::KanMX</italic></td>
+                <td align="center" valign="middle">[<xref ref-type="bibr" rid="B22-cells-04-00653">22</xref>]</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">BY4742</td>
+                <td align="center" valign="middle">MAT&#x3B1; <italic>his3&#x394;1</italic> <italic>leu2&#x394;0</italic> <italic>lys2&#x394;0</italic> <italic>ura3&#x394;0</italic></td>
+                <td align="center" valign="middle">invitrogen</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">GET1&#x394;</td>
+                <td align="center" valign="middle">BY4742 <italic>GET1::KanMX</italic></td>
+                <td align="center" valign="middle">invitrogen</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">GET2&#x394;</td>
+                <td align="center" valign="middle">BY4742 <italic>GET2::KanMX</italic></td>
+                <td align="center" valign="middle">invitrogen</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">GET3&#x394;</td>
+                <td align="center" valign="middle">BY4742 <italic>GET3::KanMX</italic></td>
+                <td align="center" valign="middle">invitrogen</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <table-wrap id="cells-04-00653-t002" position="float">
+          <object-id pub-id-type="pii">cells-04-00653-t002_Table 2</object-id>
+          <label>Table 2</label>
+          <caption>
+            <p>Plasmids.</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">No.</th>
+                <th align="center" valign="middle">Name</th>
+                <th align="center" valign="middle">Description</th>
+                <th align="center" valign="middle">Source</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">1</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">pACM023-G-NLS-L-TM</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">GFP-Heh2 (93-378) under GAL1 promoter (HIS, Cen) </td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">[<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>]</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">2</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">pJKL01-F-G-NLS-L-TM</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">2&#xD7; FKBP12 is N-terminally fused to GFP-Heh2 (93-378) from 1</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">[<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>]</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">3</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">pJKL02-PrA-F-G-NLS-L-TM</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">PrA is <italic>N</italic>-terminally fused to F-G-NLS-L-TM from 2</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">[<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>]</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">4</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">pJKL03 F-G-&#x394;NLS-L-TM</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">2&#xD7; FKBP12 is N-terminally fused to Heh2 (138-378) under GAL1 promoter (HIS, Cen)</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">This study</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">5</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">pJKL04 F-G-NLS-&#x394;L-TM</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">As in 2, but sequence (140-302) was removed from Heh2</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">This study</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">6</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">pJKL05 F-G-NLS-L-TM-SN</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">SNAP tag is C-terminally fused to F-G-NLS-L-TM from 2</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">This study</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">7</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">pJKL06 G-NLS-L-TM-F</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">2&#xD7; FKBP12 is C-terminally fused to GFP-Heh2 (93-378) </td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">This study</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">8</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">pACM040 M-G-NLS-L-TM</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">As in 1, Heh2 (93-378) N-terminally fused to <italic>MalE-GFP</italic></td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">[<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>]</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">9</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">pACM041 M-G-M-NLS-L-TM</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">As in 1, Heh2 (93-378) N-terminally fused to <italic>MalE-GFP-MalE</italic></td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">[<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>]</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">10</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">pACM042 M-G-M-M-NLS-L-TM</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">As in 1, Heh2 (93-378) N-terminally fused to MalE-GFP-MalE-MalE</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">[<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>]</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">11</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">pAS12 M-G-NLS-L-Sec61TMA</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">As in 8, Heh2 TM1 replaced by Sec61 transmembrane domain</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">This study</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">12</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">pAS13 M-G-M-NLS-L-Sec61TMA</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">As in 9, Heh2 TM1 replaced by Sec61 transmembrane domain</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">This study</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">13</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">pAS14 M-G-M-M-NLS-L-Sec61TMA</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">As in 10, Heh2 TM1 replaced by Sec61 transmembrane domain</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">This study</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">14</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">pSI6 G-NLS-L-Sec61TMA</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">As in 1, Heh2 TM1 replaced by Sec61 transmembrane domain</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">This study</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">15</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">pACH1 G-NLS-L-RibU</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">As in 1, Heh2 TM1 replaced by RibU</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">This study</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">16</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">pACH2 M-G-NLS-L-RibU</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">As in 8, Heh2 TM1 replaced by RibU</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">This study</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">17</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">pACH3 M-G-M-M-NLS-L-RibU</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">As in 10, Heh2 TM1 replaced by RibU</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">This study</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">18</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">pACM045 G-NLS-L-Sec61TM1</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">As in 8, Heh2 TM1 replaced by Sec61 first transmembrane helix</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">[<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>]</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">19</td>
+                <td align="center" valign="middle">pAK36</td>
+                <td align="center" valign="middle">mCherry-WALP-HDEL; a fusion of mCherry to an ER marker protein under Gal1 promoter (URA, Cen)</td>
+                <td align="center" valign="middle">[<xref ref-type="bibr" rid="B23-cells-04-00653">23</xref>]</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+      <sec id="sec2dot2-cells-04-00653">
+        <title>2.2. Growth Conditions</title>
+        <p>Yeast strains were grown to mid exponential growth phase at 30 &#xB0;C in synthetic dropout medium without L-histidine or without uracil (HDEL reporter). Strains were first grown for 1 day on medium containing 2% glucose (<italic>w</italic>/<italic>v</italic>) and then cultured on medium containing 2% raffinose (<italic>w</italic>/<italic>v</italic>). On the day of the experiment, the expression of the reporters was induced with 0.5% galactose (<italic>w</italic>/<italic>v</italic>). For the trapping experiments, rapamycin was used at a concentration of 10 ug/mL.</p>
+      </sec>
+      <sec id="sec2dot3-cells-04-00653">
+        <title>2.3. Fluorescence Microscopy</title>
+        <p>The images in <xref ref-type="fig" rid="cells-04-00653-f001">Figure 1</xref>, <xref ref-type="fig" rid="cells-04-00653-f003">Figure 3</xref> and <xref ref-type="fig" rid="cells-04-00653-f005">Figure 5</xref> were collected with an LSM 710 confocal microscope (CarlZeiss MicroImaging, Jena, Germany) using an objective C-Apochromat 40&#xD7;/1.2NA, a solid-state laser (488 nm) for excitation and ZEN2010B software (Carl Zeiss, Jena, Germany). The images in <xref ref-type="fig" rid="cells-04-00653-f002">Figure 2</xref> and <xref ref-type="fig" rid="cells-04-00653-f004">Figure 4</xref> were collected with a Delta Vision Microscope (Applied Precision (GE), Issaquah, WA, USA), using InsightSSITM Solid State Illumination at 488 nm and an Olympus UPLS Apo 100&#xD7; oil objective with 1.4 NA. Detection was done with a coolSNAP HQ2 camera (Photometrics, Tucson, AZ, USA). Image stacks (20 stacks of 0.2 um) were deconvolved using standard settings.</p>
+      </sec>
+      <sec id="sec2dot4-cells-04-00653">
+        <title>2.4. Analysis of the Standard Deviation of Fluorescence Intensity (SD Fraction Quantification)</title>
+        <p>Analysis of the fluorescent images was performed using ZEN software (ZEN2010B, Carl Zeiss, Jena, Germany) and Fiji [<xref ref-type="bibr" rid="B24-cells-04-00653">24</xref>]. Line-scans of the fluorescence intensity over NE were collected for at least 30 cells for each strain in each condition. For each cell, two values were calculated: average fluorescence intensity in the NE and its standard deviation. Standard deviation values for each cell were divided by the average fluorescence intensity values, and the mean value over all cells (later in this section referred to as SD fraction) was calculated from the resulting ratios. Differences in the data were considered to be significant with a <italic>p</italic> value less than 0.05 using a student&#x2019;s <italic>t</italic>-test.</p>
+      </sec>
+      <sec id="sec2dot5-cells-04-00653">
+        <title>2.5. Analysis of NE/ER Ratios</title>
+        <p>Analysis was done as reported previously [<xref ref-type="bibr" rid="B15-cells-04-00653">15</xref>].</p>
+      </sec>
+      <sec id="sec2dot6-cells-04-00653">
+        <title>2.6. Protein Extraction and Effects of Salts and Detergents</title>
+        <p>Whole cell extracts were obtained from 10 mL cultures of exponentially growing yeast cells by lysis in NaOH and &#x3B2;-mercaptoethanol and TCA-precipitation. For preparation of crude membrane fractions, 200 mL of exponentially growing yeast cells were harvested by centrifugation (5500&#xD7; <italic>g</italic> 10 min). The pellet was washed with cold demi water and centrifuged again. Subsequently, the yeast pellet was resuspended in 10 mL of 20 mM TrisHCl pH 8.0, 0.01 M EDTA with 35 uL of &#x3B2;-mercapthoethanol and incubated for 15 min on ice with occasional swirling. The suspension was centrifuged (rotor type: Thermo scientific SL16R 75003629, 10,000 rpm, 5 min), washed with buffer containing 1.1 M sorbitol, 50 mM TrisHCl pH 7.5, 10 mM MgCl2, 3 mM DTT and centrifuged again. The pellet was resuspended in the sorbitol buffer again to achieve 1.5 &#xD7; 10<sup>9</sup> cells per 1 mL. Zymolyase was added to the final concentration of 0.02%. Cells were incubated at 300 C for 1 h. The spheroplasts were pelleted (4000&#xD7; <italic>g</italic> 10 min), carefully washed with sorbitol buffer containing 1 mM PMSF, 2 ug/mL of pepstatin and protein inhibitor cocktail and centrifuged again. From this step, the membrane isolation and solubilization of proteins with 1% Triton X-100 or 1 M NaCl were performed as described in [<xref ref-type="bibr" rid="B25-cells-04-00653">25</xref>]. In short, the spheroplasts were resuspended in 3 mL of 20 mM TrisHCl pH 8.0 150 mM NaCl and lysed in a 5 mL Potter tube. The cell debris was removed by short centrifugation (2 min, 2000 rpm). The supernatant was centrifuged again (20 min, 16,200&#xD7; <italic>g</italic>) and the pellet containing membrane fraction resuspended in 500 uL 20 mM Tris HCl containing either 1% Triton X100 or 1 M NaCl or 150 mM NaCl. After 30 min incubation on ice, the samples were centrifuged (100,000&#xD7; <italic>g</italic>, 1 h). The supernatants (solubilized fraction) and pellets (non-solubilized fraction) were mixed with SDS-PAA loading buffer, incubated at 70 &#xB0;C for 10 min and loaded on SDS PAGE gels.</p>
+      </sec>
+      <sec id="sec2dot7-cells-04-00653">
+        <title>2.7. Western Blotting</title>
+        <p>Samples were separated by SDS-PAA gel electrophoresis and transferred to a PVDF membrane (wet transfer, 16 V, 17 h). For detection of the reporters, anti-FKBP antibody (Abcam, Cambridge, UK) was used at a dilution of 1:1000 (<italic>v</italic>/<italic>v</italic>) and a secondary anti-rabbit-alkaline phosphatase conjugate at 1:20,000 (<italic>v</italic>/<italic>v</italic>) (Sigma-Aldrich, St. Louis, MO, USA). For the detection of Nup170FRB, anti-FRB antibody was used at 1:1000 (<italic>v</italic>/<italic>v</italic>) (Enzo Life Sciences, Farmingdale, New York, NY, USA) and again the anti-rabbit-alkaline phosphatase conjugate. For the detection of yeast, Nsp1 anti-Nsp1 antibody was used at 1:1000 (<italic>v</italic>/<italic>v</italic>) (Abnova, Taipei, Taiwan) with anti-mouse-alkaline phosphatase conjugate at 1:20,000 (Sigma-Aldrich, St.Louis, MO, USA). For the detection of Pma1, anti-Pma1 antibody was used at 1:5000 (<italic>v</italic>/<italic>v</italic>) (Abcam, Cambridge, UK) with the anti-mouse-alkaline phosphatase conjugate. For the detection of Dpm1, anti-Dpm1 antibody was used at 1:250 (<italic>v</italic>/<italic>v</italic>) (Abcam, Cambridge, UK) with the anti-mouse-alkaline phosphatase conjugate. Pre-stained molecular weight marker (ThermoScientific, Waltham, MA, USA) was used.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-cells-04-00653" sec-type="results">
+      <title>3. Results and Discussion</title>
+      <sec id="sec3dot1-cells-04-00653">
+        <title>3.1. Heh-2 Derived Reporter Proteins for Studying Import</title>
+        <p>In our previous work [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>], we have defined the minimal features of the yeast <italic>S. cerevisiae</italic> INM protein Heh2 that govern its accumulation in the INM. In this process, Heh2 was truncated, removing the extralumenal LEM and MAN domains as well as its second transmembrane helix (TM) and lumenal domain, thereby changing it into a monotopic membrane protein. The LEM and MAN domains could cause retention in the nucleus. The resulting reporter is composed of GFP and Heh293-378 encoding the NLS, the ID linker and the first transmembrane helix, and is named G-NLS-L-TM (<xref ref-type="fig" rid="cells-04-00653-f001">Figure 1</xref>A). We have previously shown that this reporter still accumulates in the INM, despite the removal of over a half of the molecular weight of native Heh2; the presence of the NLS and linker regions is required and sufficient for INM accumulation. We also showed that the accumulation is reversible upon inhibition of active transport by depletion of cytosolic Kap95 [<xref ref-type="bibr" rid="B15-cells-04-00653">15</xref>].</p>
+        <fig id="cells-04-00653-f001" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p>Heh2-derived reporter proteins localizing to the NE-ER network are membrane embedded. (<bold>A</bold>) Cartoons showing domain composition of native Heh2 and derived reporters. F: FKBP (FK506 binding protein); G: GFP; SN: SNAP-tag; PrA: ProteinA. (<bold>B</bold>) Confocal fluorescence microscopy images showing K14708 cells expressing the indicated Heh2-derived reporters. Scale bars: 2 &#x3BC;m. (<bold>C</bold>) Western blot (anti-FKBP) of whole cells extracts of cells expressing the indicated reporters; equal protein amounts were loaded. (<bold>D</bold>) Western Blots showing the results from salt and detergent extraction of crude yeast membranes fractions. Crude membranes are incubated in control buffer (20 mM Tris with 150 mM NaCl), or in buffer with 1 M NaCl or 1% Triton and ultracentrifuged, as described in Materials and Methods. The pellet (P) and supernatant (S) fractions were loaded onto the gel. The cytoplasm fraction represents the proteins present in the supernatant of the lysate after the first centrifugation step.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00653-g001.tif"/>
+        </fig>
+        <p>In the here presented experiments, we use the above-mentioned reporter and a reporter with an <italic>N</italic>-terminal FKBP tag, F-G-NLS-L-TM. Addition of the FKBP tag has a dual role&#x2014;it is used in trapping experiments described later, but it also reduces the expression level of the entire protein and the NE deformation caused by high expression of INM proteins. Analysis of the microscopy data of the reporters (<xref ref-type="fig" rid="cells-04-00653-f001">Figure 1</xref>B) reinstated the necessity of both the NLS and the linker region for targeting the NE as removal of the NLS (F-G-&#x394;NLS-L-TM) or the linker domain (F-G-NLS-&#x394;L-TM) abolishes NE accumulation: reporters are evenly distributed between the NE and ER. Comparison of the expression levels of all the reporters is presented in <xref ref-type="fig" rid="cells-04-00653-f001">Figure 1</xref>C. They range from very low in the case of F-G-NLS-L-TM-SN (SN for SNAP tag), to very high in case of G-NLS-L-TM-F and PrA-F-G-NLS-L-TM. Higher expression levels of G-NLS-L-TM, or the reporters with C-terminal FKBP-tag (G-NLS-L-TM-F) or <italic>N</italic>-terminal Protein A tag (PrA-F-G-NLS-L-TM) do not interfere with accumulation at the NE, but cells do display deformation of the NE.</p>
+      </sec>
+      <sec id="sec3dot2-cells-04-00653">
+        <title>3.2. Heh-2 Derived Reporters are Integral Membrane Proteins of the NE-ER</title>
+        <p>Next, we performed biochemical fractionation studies to confirm that the reporters are membrane embedded. We measured the steady state membrane integration of the reporters by salt and detergent extraction (as published in [<xref ref-type="bibr" rid="B25-cells-04-00653">25</xref>]). In this method, a crude membrane fraction is isolated from exponentially growing yeast and subsequently incubated with buffers containing a high concentration of salt or detergent. After ultracentrifugation, the soluble and pellet fractions are analyzed. Proteins that solubilize with salt are only peripherally associated with the membrane, such as the nucleoporin Nsp1, which is used as a control protein. Transmembrane proteins, such as the ER protein Dpm1 with one transmembrane helix and the plasma membrane protein Pma1 with 10 transmembrane helices, require detergents to be extracted from the membrane. As shown on Western blots in <xref ref-type="fig" rid="cells-04-00653-f001">Figure 1</xref>D, the integral membrane proteins solubilize only (Pma1) or predominantly (Dpm1) in 1% Triton, while the peripheral protein Nsp1 is also found in the soluble fractions when membranes were incubated with the control buffer containing 150 mM NaCl or the buffer with 1 M NaCl. The F-G-NLS-L-TM reporter behaved similarly to Dpm1 and Pma1, and solubilized in buffer with 1% Triton only. We next checked if deletion of the NLS (F-G-&#x394;NLS-L-TM), deletion of the linker region (F-G-NLS-&#x394;L-TM) or expanding the size of the soluble domains (from the cytoplasmic side PrA-F-G-NLS-L-TM and from the lumenal side F-G-NLS-L-TM-SN or G-NLS-L-TM-F) changes the solubilization pattern of these reporters. All of them solubilized predominantly or exclusively when treated with 1% Triton (<xref ref-type="fig" rid="cells-04-00653-f001">Figure 1</xref>D). On the blots with G-NLS-L-TM-F and PrA-F-G-NLS-L-TM, which are the higher expressed proteins, a fraction of the protein appears in the soluble extract after incubation with the control buffer or with 1 M NaCl, similar to Dpm1. This suggests that a fraction of the reporter proteins is not well inserted in the membrane.</p>
+        <p>Altogether, the biochemical fractionation studies on whole cell lysates and the <italic>in vivo</italic> localization studies confirm that the majority of Heh2-derived reporter proteins are membrane embedded, and that the linker region and NLS are not critical for membrane insertion.</p>
+      </sec>
+      <sec id="sec3dot3-cells-04-00653">
+        <title>3.3. Evidence against Membrane Insertion Post Nuclear-Import</title>
+        <p>The biochemical assay presented above does not exclude if temporarily, especially during the transport via the NPC channel, a fraction of the proteins is not embedded in the membrane. This could be particularly relevant for proteins that are inserted in the membrane post-translationally and which exist shortly as a soluble, chaperoned protein. The possibility of insertion to the inner nuclear membrane after nuclear import has thus far not been tested. Many of our reporters have C-terminal transmembrane helices with a short C-terminal tail (38 residues for the G-NLS-L-TM reporter), and could thus classify as tail-anchored proteins. These types of proteins are inserted into the membrane environment post-translationally via the GET pathway [<xref ref-type="bibr" rid="B20-cells-04-00653">20</xref>].</p>
+        <p>We first aimed to resolve the uncertainty if our reporters depend on the GET system for membrane insertion, and tested their localization in a series of GET deletion mutants. The microscopy images and the membrane extractions with salt and detergent presented in <xref ref-type="fig" rid="cells-04-00653-f002">Figure 2</xref>A,C clearly show that the G-NLS-L-TM reporter is NE localized and membrane embedded, also when the GET system is nonfunctional, <italic>i.e.</italic>, in a get3&#x394; mutant, which lacks the protein that chaperones the newly synthesized tail-anchored protein and brings it to the membrane insertion machinery. Also in get1&#x394; and a get2&#x394; mutant, lacking the proteins that are responsible for membrane insertion step of tail-anchored proteins, the reporter protein is NE localized (<xref ref-type="fig" rid="cells-04-00653-f002">Figure 2</xref>A). As a control we expressed the G-NLS-L-Sec61TM1 reporter in the wildtype and GET deletion strains. In this reporter the transmembrane helix of Heh2 is replaced by the first transmembrane helix of the yeast membrane protein Sec61, and it contains a short C-terminal tail of only 10 amino acids [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>]. When expressed in the wildtype yeast BY4742 the G-NLS-L-Sec61TM1 reporter localizes to the NE, in GET deletion mutants, however, this reporter localizes to the nucleoplasm and is not present in the NE (<xref ref-type="fig" rid="cells-04-00653-f002">Figure 2</xref>A). Expression levels of the full length protein, and the degree of degradation of the protein, are very similar in WT and GET deletion strains (<xref ref-type="fig" rid="cells-04-00653-f002">Figure 2</xref>B), showing that in the case of the G-NLS-L-Sec61TM1 reporter, membrane insertion is GET dependent and that this tail-anchored protein can be imported to the nucleus as a soluble protein when the GET insertion machinery is not functional. As we see no difference in the localization of G-NLS-L-TM between the wild type and the GET mutants, we conclude that the insertion of these reporters is not strictly dependent on GET, which would point to either Sec61-dependent co-translational insertion or by another still unidentified system.</p>
+        <p>Although chaperoned soluble nuclear import is less likely for reporters that are co-translationally inserted by Sec61, instead of post-translationally via the GET system, we aimed to further experimentally test this possibility for two reasons. Firstly, since the h2NLS-linker motif is a potent signal for sorting to the nuclear envelope outcompeting other classical NLSs [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>,<xref ref-type="bibr" rid="B15-cells-04-00653">15</xref>,<xref ref-type="bibr" rid="B16-cells-04-00653">16</xref>], a competition between the membrane insertion and nuclear transport machineries might take place. Secondly, one report indicates the presence of the Sec61 machinery on the inner side of the nuclear envelope in yeast [<xref ref-type="bibr" rid="B26-cells-04-00653">26</xref>]. We therefore developed a system to monitor if membrane proteins were membrane embedded when they are trapped in the NPC. Our trapping experiments are based on the Anchor Away system [<xref ref-type="bibr" rid="B22-cells-04-00653">22</xref>], which utilizes rapamycin-dependent interaction between FRB and FKBP molecules. Previously, the FG-Nup Nsp1 had been used as the anchor in the central channel [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>]. However, as recent publications show, a non-NPC cytoplasmic pool of Nsp1 [<xref ref-type="bibr" rid="B27-cells-04-00653">27</xref>,<xref ref-type="bibr" rid="B28-cells-04-00653">28</xref>], in our new set up FRB was fused to the inner ring scaffold nucleoporin Nup170.</p>
+        <fig id="cells-04-00653-f002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>Membrane insertion of the G-NLS-L-TM reporter is GET-independent. (<bold>A</bold>) Fluorescence microscopy of wild type and get1&#x394;, get2&#x394; and get3&#x394; mutant yeasts expressing G-NLS-L-TM or G-NLS-L-Sec61TM1. Scale bars: 2 &#x3BC;m. (<bold>B</bold>) Expression levels (anti-GFP Western blot) of G-NLS-L-TM and G-NLS-L-Sec61TM1 in WT and GET mutants. (<bold>C</bold>) Western Blots (anti-GFP) showing the results form salt and detergent extraction assay on WT and get3&#x394; mutant expressing G-NLS-L-TM. Crude membrane preparations were treated as described in Material and Methods and in the legend to <xref ref-type="fig" rid="cells-04-00653-f001">Figure 1</xref>. P, pellet; S, supernatant.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00653-g002.tif"/>
+        </fig>
+        <p>We show rapamycin-dependent trapping of the reporter with the <italic>N</italic>-terminal FKBP tag, F-G-NLS-L-TM, at Nup170 (<xref ref-type="fig" rid="cells-04-00653-f003">Figure 3</xref>A). After cells were exposed to rapamycin, the fluorescence signal in the NE was observed in an exclusive punctate pattern, similar to what is seen with fluorescently labeled nucleoporins. The change in fluorescence pattern is also apparent when measuring the fluorescence intensity in the NE (<xref ref-type="fig" rid="cells-04-00653-f003">Figure 3</xref>B), and calculating the SD fraction (as described in the Experimental section), which represents to which degree the fluorescence on a specific location in the NE deviates from the average fluorescence intensity. The average SD fraction over multiple cells is indicated in <xref ref-type="fig" rid="cells-04-00653-f003">Figure 3</xref>C. The average SD fraction increases significantly in conditions with rapamycin in the strain expressing Nup170FRB but not in the background strain (K14708), which does not have an FRB anchor at Nup170. Therefore, we conclude that a significant fraction (or possibly all) of the expressed reporter molecules were trapped at Nup170.</p>
+        <fig id="cells-04-00653-f003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>Heh2-derived reporters are membrane-embedded while transiting the NPC. (<bold>A</bold>) Confocal fluorescence microscopy images of cells expressing FRB (FKBP12-rapamycin binding)-tagged Nup170 (Nup170FRB) and F-G-NLS-L-TM reporter after incubation with rapamycin (+rap 10 &#x3BC;g/mL) and in control conditions (+DMSO). The fluorescence patterns change from continues to punctate upon rapamycin treatment. Scale bars: 2 &#x3BC;m. (<bold>B</bold>) Line-scans of the fluorescence intensity in the NE of the representative cells expressing F-G-NLS-L-TM after incubation with rapamycin (black line, +rap) or in control conditions (grey line, no rap). Top panel: control K14708 strain. Bottom panel: Nup170FRB strain. (<bold>C</bold>) Comparison of the average SD fraction for each reporter in the Nup170FRB strain (<italic>n</italic> = 37 cells for both conditions) and in the wild type (K14708, <italic>n</italic> = 7 cells for no rap, <italic>n</italic> = 55 cells for +rap); standard deviation is indicated. The SD fraction is calculated from the standard deviation of the fluorescence intensity along the NE in a cell divided by the average fluorescence intensity at the NE in that cell. (<bold>D</bold>) Western Blots showing the results from salt and detergent extraction of crude yeast membranes fractions of cells expressing Nup170FRB and F-G-NLS-L-TM. Membrane extractions were performed in trapped (+rap) and in non-trapped (+DMSO) conditions. F-G-NLS-L-TM solubilizes with the buffer with 1% Triton both in trapped and non-trapped conditions. Nup170FRB is salt-soluble before trapping and becomes salt-resistant upon trapping as the bands of solubilized fractions treated with control buffer and 1 M NaCl disappear.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00653-g003.tif"/>
+        </fig>
+        <p>Using biochemical fractionation methods, we now addressed if the reporter molecules are membrane embedded when trapped in the NPC. If the reporter protein passes the NPC as a soluble protein, one expects a change in the membrane extraction characteristics (<xref ref-type="fig" rid="cells-04-00653-f003">Figure 3</xref>D). When trapped at Nup170, the reporter is detergent-soluble and therefore a true transmembrane protein after entry in the pore. Consistent with this, the tight interaction with the reporter causes a change in Nup170 solubility: in non-trapped conditions Nup170 is partially extracted with salt as expected for a non-transmembrane protein, while salt-extraction is clearly prevented after rapamycin-induced binding to the reporter.</p>
+        <p>Altogether, the experiments presented in <xref ref-type="fig" rid="cells-04-00653-f001">Figure 1</xref>, <xref ref-type="fig" rid="cells-04-00653-f002">Figure 2</xref> and <xref ref-type="fig" rid="cells-04-00653-f003">Figure 3</xref> show the transmembrane nature of our INM reporter proteins, also when trapped in the NPC. We find no support for a mechanism where membrane insertion occurs post nuclear import.</p>
+      </sec>
+      <sec id="sec3dot4-cells-04-00653">
+        <title>3.4. Active Transport Breaks Size Restrictions for Passive Leak through the NPC</title>
+        <p>We revisit our claim that in active import large extralumenal domains were imported; larger than what was estimated to pass the lateral channels passively. Firstly, the assays are now performed with reporter proteins with multi-pass transmembrane domain to validate that our previous studies were not biased from the use of monotopic membrane proteins. Secondly, we mapped the size limitations for passive entry of membrane proteins more precisely and established that membrane proteins with an extralumenal domain of 90 kDa still diffuse to the INM on a time-scale of an hour [<xref ref-type="bibr" rid="B29-cells-04-00653">29</xref>]. This now allows us to better assess if active transport indeed breaks size restrictions for passive diffusion. Thirdly, we improved the assay to better account for the impact of protein synthesis in our assay.</p>
+        <p>The new reporters consisted of the transmembrane domain of Sec61 (10 transmembrane segments). However, previous publications have suggested that Sec61 may exist in the INM [<xref ref-type="bibr" rid="B26-cells-04-00653">26</xref>] and thus Sec61 may have specific protein interaction partners in the INM. To exclude that the Sec61 transmembrane domain contributed to the sorting, we additionally repeated the INM targeting with reporters with a TM domain unrelated to yeast. We used the polytopic TM domain from RibU from the Gram-positive bacterium <italic>Lactococcus lactis</italic>, thereby excluding the chance of specific retention of the reporter in the INM via interaction with the other INM proteins. The fusion indeed sorts effectively to the INM (<xref ref-type="fig" rid="cells-04-00653-f004">Figure 4</xref>A, G-NLS-L-RibU) confirming our previous claims that import is not dependent on the nature of the TM domain.</p>
+        <p>Next, a set of reporter membrane proteins with extralumenal domains of increasing size was constructed. Their extralumenal domains were composed of GFP, one, two or three copies of MBP together with the NLS-L motif, resulting in extralumenal domain size of 95 kDa (MG-NLS-L-S and MG-NLS-L-RibU); 136 kDa (MGM-NLS-L-S) and 176 kDa (MGMM-NLS-L-S and MGMM-NLS-L-RibU). From past analysis monitoring Heh2, Heh2&#x394;NLS [<xref ref-type="bibr" rid="B14-cells-04-00653">14</xref>], GFP-h2NLS-L-TM and GFP-L-TM [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>] using immune electron microscopy, we know that the ratio of GFP-fluorescence in the NE and ER, (the NE/ER ratios), is a good readout of accumulation at the INM as compared to the ONM. In addition, for reporter proteins with Sec61 transmembrane domains we confirm that high NE/ER ratio&#x2019;s report accumulation of the proteins at the INM as compared to the ONM (Popken <italic>et al.</italic>, unpublished). We thus assume that also for the here presented reporter proteins the NE/ER ratio reports localization at the INM. In the Kap95AA strain background, we find that a protein lacking complete sorting signals, such as G-&#x394;NLS-L-TM, gives an NE/ER ratio similar to the NE/ER ratio found for the ER-marker protein mCherry-HDEL (<xref ref-type="fig" rid="cells-04-00653-f004">Figure 4</xref>B, NE/ER ratio of 1.9+/&#x2212;0.1). When expressed in yeast, the MG-NLS-L-S and MGM-NLS-L-S reporters enter the nucleus and accumulate at the INM (NE/ER ratios of 19.8 and 5.7, respectively), while the MGMM-NLS-L-S reporter does not accumulate and has a NE/ER ratio of 2.1, similar to mCherry-HDEL (<xref ref-type="fig" rid="cells-04-00653-f004">Figure 4</xref>B, striped bars).</p>
+        <p>To estimate how synthesis of new reporter proteins and import of already synthesized reporters affect the NE/ER ratios, we inhibited the expression of the reporters from the GAL promoter after one hour of induction, by adding glucose to the growth medium (<xref ref-type="fig" rid="cells-04-00653-f004">Figure 4</xref>B, grey bars). The cultures were imaged again after one hour: the total fluorescence levels measured in the NE and the ER increased, which indicates that some reporter protein has still been synthesized and/or matured. Importantly, the accumulation levels (NE/ER) increase for the reporters MG-NLS-L-S and MGM-NLS-L-S, consistent with continued import at a reduced synthesis rates after transcription repression (<xref ref-type="fig" rid="cells-04-00653-f004">Figure 4</xref>B, compare striped and grey bars). The NE/ER ratios of the MGMM-NLS-L-S and mCherry-HDEL reporters do not change in this timeframe.</p>
+        <p>Next, we determined the passive diffusion or leak of the reporters from the nucleus to the ER. For this purpose, the reporter proteins were expressed in the KAP95AA strain, which expresses Pma1-FKBP and Kap95-FRB, and in which the Kap95/Kap60-dependent active import can be conditionally blocked by the addition of rapamycin. The experiments were performed as follows: first protein expression was induced (1 h galactose), and then expression was repressed (1 h glucose), as described above. As we showed in <xref ref-type="fig" rid="cells-04-00653-f004">Figure 4</xref>B, grey bars, during this hour in glucose, translation of existing mRNAs, maturation of fluorophores and import continues. Finally, rapamycin was added which results in a fast block of nuclear import [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>,<xref ref-type="bibr" rid="B15-cells-04-00653">15</xref>,<xref ref-type="bibr" rid="B22-cells-04-00653">22</xref>]. The distribution of the MG-NLS-L-S and MGM-NLS-L-S reporter proteins over the NE-ER network was determined after one hour of incubation with rapamycin (<xref ref-type="fig" rid="cells-04-00653-f004">Figure 4</xref>B, white bars). Only the reporter protein with the smallest extralumenal domain, MG-NLS-L-S, leaks out of the nucleus when import is blocked: the NE/ER ratio drops from 37.9 to 12.0, 1 h after addition of rapamycin (<xref ref-type="fig" rid="cells-04-00653-f004">Figure 4</xref>B, compare grey and white bars). The accumulation levels of the MGM-NLS-L-S reporter do not decrease when the import is blocked, indicating that this reporter protein cannot or only very slowly passively diffuses out of the nucleus on these timescales, consistent with the size limits in [<xref ref-type="bibr" rid="B29-cells-04-00653">29</xref>].</p>
+        <p>When active import and transcription were inhibited simultaneously, <italic>i.e.</italic>, by the addition of rapamycin and glucose simultaneously after 1 h of galactose-induced expression, the NE/ER ratios decrease for both MG-NLS-L-S (from 19.8 to 3.7) and MGM-NLS-L-S (from 5.7 to 2.8) (<xref ref-type="fig" rid="cells-04-00653-f004">Figure 4</xref>B, compare striped and black bars). This decrease in the NE/ER is the result of the reporter being synthesized, albeit at a reduced rate, while Kap-dependent INM import is blocked, resulting in increased fluorescence in the ER, while the NE fluorescence does not increase. The experimental scheme presented here is better than the one used previously [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>,<xref ref-type="bibr" rid="B15-cells-04-00653">15</xref>], where we did not take into account the effect of protein synthesis in the ER.</p>
+        <p>Additional support that the type of transmembrane domain, monotopic or polytopic, is not critical for the targeting comes from viability tests. As shown in <xref ref-type="fig" rid="cells-04-00653-f002">Figure 2</xref>, INM accumulation of the G-NLS-L-TM reporter results in deformed nuclei. In <xref ref-type="fig" rid="cells-04-00653-f004">Figure 4</xref> we show that the deformation correlates with the levels of INM accumulation, and also with the viability of the cells: bigger extralumenal domains result in lower accumulation (<xref ref-type="fig" rid="cells-04-00653-f004">Figure 4</xref>B) and increased viability (<xref ref-type="fig" rid="cells-04-00653-f004">Figure 4</xref>C). This is observed irrespective of the type of transmembrane domain, or the expression and degradation levels (<xref ref-type="fig" rid="cells-04-00653-f004">Figure 4</xref>D) of the reporter proteins.</p>
+        <fig id="cells-04-00653-f004" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p>NE accumulation of membrane protein reporters with extralumenal domains of increasing size. (<bold>A</bold>) Fluorescence microscopy of cells expressing G-NLS-L-RibU, MG-NLS-L-RibU, MGM2-NLS-L-RibU. M: MBP. (<bold>B</bold>) Average accumulation of reporter proteins at the NE over the ER after different regimes of expression, and import inhibition. The reporter proteins were expressed for 1 h (striped bars); subsequently expression was inhibited by glucose for 1 h (grey bars) and finally import was blocked by rapamycin for 1 h (white bars). Alternatively, transcription and import were inhibited simultaneously (black bars). Average of 20 cells; SEM are indicated. (<bold>C</bold>) Viability of cells expressing membrane proteins with different transmembrane domains and differently-sized extralumenal domains. (<bold>D</bold>) Western blot (anti-GFP) showing expression of the membrane protein transporters with different transmembrane domains and differently-sized extralumenal domains used in this figure.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00653-g004.tif"/>
+        </fig>
+        <p>In conclusion, our findings in <xref ref-type="fig" rid="cells-04-00653-f004">Figure 4</xref> confirm that the NLS-L motif enables the import of extralumenal domains bigger than by passive diffusion. This is best illustrated by the reporter MGM-NLS-L-S; on the time scale of an hour this molecule is small enough to be accumulated at the INM by active import but it is too large to passively efflux from the NPC on this timescale.</p>
+      </sec>
+      <sec id="sec3dot5-cells-04-00653">
+        <title>3.5. Transport Route through the NPC</title>
+        <p>Previously we have shown that we could trap the same reporter as used here (F-G-NLS-L-TM) at Nsp1-FRB and concluded that the linker can span the distance between the pore membrane and the central channel. Accounting for this finding, plus the FG-Nup dependence and the large sizes of extralumenal domains that can be imported, we proposed that the extralumenal domains would travel through the center of the NPC [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>]. However, recent publications show a non-NPC cytoplasmic pool of Nsp1 [<xref ref-type="bibr" rid="B27-cells-04-00653">27</xref>,<xref ref-type="bibr" rid="B28-cells-04-00653">28</xref>] that may have affected our measurements. We thus constructed new strains targeting the scaffold nucleoporin Nup170 (<xref ref-type="fig" rid="cells-04-00653-f003">Figure 3</xref>), and the FG-Nups Nup53 and Nup59 as trapping sites for our reporters and tested the trapping of membrane proteins with and without the NLS-L sorting signals at these positions. All three nucleoporins are located relatively close to the pore membrane [<xref ref-type="bibr" rid="B30-cells-04-00653">30</xref>,<xref ref-type="bibr" rid="B31-cells-04-00653">31</xref>,<xref ref-type="bibr" rid="B32-cells-04-00653">32</xref>,<xref ref-type="bibr" rid="B33-cells-04-00653">33</xref>,<xref ref-type="bibr" rid="B34-cells-04-00653">34</xref>].</p>
+        <fig id="cells-04-00653-f005" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <p>The reporters without the NLS or the linker domain can enter the NPC. (<bold>A</bold>) Confocal fluorescence microscopy images showing cells expressing F-G-NLS-L-TM in Nup53FRB and Nup59FRB strains background after incubation with rapamycin (+rap 10 &#x3BC;g/mL) and in control conditions (+DMSO). The fluorescence patterns change from continues to punctate upon rapamycin treatment (<bold>B</bold>,<bold>C</bold>). Same as (<bold>A</bold>), but with cells expressing F-G-&#x394;NLS-L-TM (<bold>B</bold>) or F-G-NLS-&#x394;L-TM (<bold>C</bold>) in Nup170FRB, Nup53FRB and Nup59FRB strain background. The fluorescence signal disappears from the ER upon rapamycin treatment. Scale bars: 2 &#x3BC;m.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00653-g005.tif"/>
+        </fig>
+        <p>Upon incubation with rapamycin, we saw the characteristic punctate localization pattern of the F-G-NLS-L-TM reporter in all tested Nup-FRB strains (<xref ref-type="fig" rid="cells-04-00653-f005">Figure 5</xref>A). The two reporters that fail to accumulate in the nuclear envelope (F-G-&#x394;NLS-L-TM and F-G-NLS-&#x394;L-TM) can also be trapped at Nup170, Nup53 and Nup59. In these cases, rapamycin does not only cause clustering of the fluorescence signal in distinct points of the nuclear envelope, but also an almost complete shift of the ER-localized molecules to the NE (<xref ref-type="fig" rid="cells-04-00653-f005">Figure 5</xref>B,C). This data reinforces the mobility of our reporters between ER and the pore membrane, and also confirms that the tested reporters are not restricted from entering the NPC in the absence of a NLS or a linker region. Unfortunately, as trapping also occurs in the absence of the sorting signals, we cannot interpret the trapping event as one that uniquely reflects active import.</p>
+        <fig id="cells-04-00653-f006" position="float">
+          <label>Figure 6</label>
+          <caption>
+            <p>Analysis of the fluorescence images from <xref ref-type="fig" rid="cells-04-00653-f005">Figure 5</xref>. (<bold>A</bold>) Comparison of the average SD fraction (as in <xref ref-type="fig" rid="cells-04-00653-f003">Figure 3</xref>C) for F-G-NLS-L-TM, F-G-&#x394;NLS-L-TM, F-G-NLS-&#x394;L-TM in all the trap strains (Nup53FRB, Nup59FRB, Nup170FRB) and the background strain (K14708). Grey columns, control conditions (no rap); columns with black diagonal stripes, cells incubated with rapamycin (+rap). Number of cells analyzed is between 29 and 55. (<bold>B</bold>) Percentage of cells expressing F-G-&#x394;NLS-L-TM or F-G-NLS-&#x394;L-TM that display fluorescence in the ER in the trap strains (Nup53FRB, Nup59FRB, Nup170) and the background strain (K14708). The number of cells analyzed is between 31 and 158.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00653-g006.tif"/>
+        </fig>
+        <p>Despite the limitations of the assay, we noted differences in trapping efficiency dependent on the presence of an NLS and dependent on the trap position. The increase in SD fraction seemed smaller in the absence of the NLS (<xref ref-type="fig" rid="cells-04-00653-f006">Figure 6</xref>A), possibly reflecting that trapping is less efficient. This NLS-dependent trapping efficiency is more clearly observed when looking at the percentage of cells that show fluorescence at the ER (<xref ref-type="fig" rid="cells-04-00653-f006">Figure 6</xref>B). For F-G-NLS-&#x394;L-TM we see that the percentage of cells that show fluorescence at the ER drops from around 70% to below 20% after trapping at Nup170, Nup53 or Nup59. Trapping of the F-G-&#x394;NLS-L-TM reporter is less efficient at Nup59 and Nup53 as here still around 55% of the cells show fluorescence at the ER, while this value is around 20% when trapped at Nup170. The difference in trapping efficiency may reflect a different residence time of the reporters in the NPC and suggests increased residence close to Nup53 and Nup59 for reporters with the NLS as compared to those without. While the trap assay is not very suitable for dissecting the native path through the NPC, we can conclude that the extralumenal domains can reach positions in the NPC close to the membrane.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-cells-04-00653" sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>For the <italic>Saccharomyces cerevisiae</italic> proteins Src1/Heh1 and Heh2, a transport mechanism was proposed where the transmembrane domains diffuse through the membrane while the extralumenal domains encoding a nuclear localization signal (NLS) and intrinsically disordered linker (L) are accompanied by transport factors and travel through the center of the NPC. First, we investigated the membrane insertion status of the Heh2-based reporters. We found that the insertion of the reporters did not depend on the GET system, or at least was not solely dependent on it, as deletion of GET genes <italic>GET1</italic>, <italic>GET2</italic> and <italic>GET3</italic> did not interfere with the insertion. The Sec61 system is likely responsible for membrane insertion of our reporters although we were not able to test it directly and other systems could not be ruled out. The insertion state of our reporters was independent of the presence of the NLS, the linker or the size of luminal or extralumenal domains and depended only on the presence of a transmembrane domain. Moreover, our data pointed towards insertion in the ER preceding the transport to the NE, since we show that while (trapped) in the NPC, the reporter fractionates like an integral membrane protein. Consistently, the NPC-anchored Nup170, normally fractionating as a peripheral protein, became salt-insoluble and solely detergent soluble upon anchoring to the membrane embedded reporter protein. Altogether, these data show that our reporters do not pass the NPC in a chaperoned-soluble state but as transmembrane proteins disproving an interpretation where the membrane proteins become membrane embedded only after nuclear import.</p>
+      <p>With a new series of reporters that have the Sec61 transmembrane domain instead of a single transmembrane helix, and an improved experimental setup, we confirm that the NLS and linker domain enable the transport of proteins to the INM that would be too large for passive diffusion. The improved experimental setup takes into account that synthesis of new reporters influences the NE/ER ratio measured and reports more modest tolerance for extralumenal size than we previously reported [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>]. Indeed, when simultaneously blocking nuclear transport by addition of rapamycin (which depletes the cytosol of Kap95) and transcription with glucose (which inhibits transcription of galactose-inducible reporters) one sees a decrease in the NE/ER ratio. This decrease was previously explained by efflux from the INM, but here we show that in addition residual synthesis of protein that will stay in the ER plays a role. In the current assay we inhibited the expression for one hour using glucose before addition of rapamycin. We show that with the NLS-L motif proteins having extralumenal domains bigger than 136 kDa, but smaller than 176 kDa, are actively imported. This is significantly larger than what is found for passive diffusion without the NLS-L motif, which is limited to proteins with an extralumenal domain size of approximately 90 kDa [<xref ref-type="bibr" rid="B29-cells-04-00653">29</xref>]. We conclude that the &#x201C;NLS-L&#x201D; motif enables the import of reporter proteins with extralumenal domains that are bigger than what is tolerated by passive diffusion. This is best illustrated by the reporter MGM-NLS-L-S with an extralumenal domain of 136 kDa. This protein is small enough to be imported and accumulated at the INM on the timescale of an hour but when measured on the same timescale it is too large to passively efflux from the NPC. Lastly, using yet another transmembrane domain (RibU), we re-emphasize that sorting is not dependent on the type of transmembrane domain. This set of data provides evidence that the transport route and/or the transport kinetics of membrane proteins are distinctly depending on the presence of the NLS and L motifs.</p>
+      <p>Previously, we proposed a route through the center of the NPC based on the experiments showing: FG-Nups dependence of import, the tolerance for large extralumenal domains and reporters trapping in the center of the NPC on Nsp1-FRB. In this paper, we follow up on these trap experiments and show that an extralumenal FKBP domain on the reporter could be trapped in the NPC at Nup170, Nup53 or Nup59, all positions close to the pore membrane, and even in the absence of an NLS or a linker region. These results lead us to conclude that the trap assay is unable to resolve if distinct route for passive and active transport exist. This, together with the more recently reported uncertainty of the localization of a portion of the Nsp1 pool away from the NPC [<xref ref-type="bibr" rid="B27-cells-04-00653">27</xref>,<xref ref-type="bibr" rid="B28-cells-04-00653">28</xref>], brings us to a statement that the previously reported evidence for trapping in the central channel should be considered inconclusive.</p>
+      <p>The trapping assay merely reports if the FRB and FKBP tags are ever in proximity, but the trap kinetics may resolve how rare these events are. Indeed, subtle differences in the kinetics of trapping may reflect the residence times of the FKBP tag in these reporters in the different areas of the NPC. Trapping at Nup53 and Nup59 is less efficient with the reporter lacking an NLS (F-G-&#x394;NLS-L-TM) compared to those with NLS-L (F-G-NLS-L-TM) or lacking the linker (G-F-NLS-&#x394;L-TM) while the efficiency is similar at Nup170. One explanation could be that with the NLS, the FKBP tag spends more time close to Nup53 and Nup59, which would argue that the active transport could occur close to the membrane. For a route closer to the membranes, the interaction cargo-NLS-Kap-FG may also be relevant, as FG repeats may be situated at the membrane proximity, especially at the cytoplasmic phase of the NPC. Altogether, the path through the NPC remains unresolved but at present a route closer to the pore membrane seems more likely.</p>
+      <p>The role of Kap60 and Kap95 in the localization of Heh1 and Heh2 has been debated. In the models proposed [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>,<xref ref-type="bibr" rid="B14-cells-04-00653">14</xref>], Kap60 and Kap95 bind Heh1 or Heh2 and shuttle the proteins through the NPC. However, an alternative interpretation, that the observed Kap-dependence of Heh2 in fact reflects the Kap-dependence of a yet undefined soluble component that serves to retain the membrane protein (in an NLS-L dependent fashion) once it arrives at the INM in a Kap-independent fashion, cannot formally be excluded. We here discuss the lines of evidence in favor of a direct role for Kap60 and Kap95 in transport of Heh1 and Heh2. First, there is ample evidence for the direct and strong binding of Kap60 and Kap95 to the NLSs of Heh1 and Heh2 in both <italic>in vivo</italic> [<xref ref-type="bibr" rid="B15-cells-04-00653">15</xref>,<xref ref-type="bibr" rid="B16-cells-04-00653">16</xref>] and <italic>in vitro</italic> binding assays [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>,<xref ref-type="bibr" rid="B14-cells-04-00653">14</xref>,<xref ref-type="bibr" rid="B16-cells-04-00653">16</xref>] and in structural studies [<xref ref-type="bibr" rid="B16-cells-04-00653">16</xref>]. Second, the importance of Kap60 and Kap95 binding for import to the INM was shown in multiple ways. For example, native Heh2-GFP or the Heh2-derived reporter are mislocalized in yeast strains carrying temperature-sensitive mutations in the Ran guanine nucleotide exchange factor or the Ran GTPase-activating protein, and in strains with temperature-sensitive mutations in KAP60 or KAP95 [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>,<xref ref-type="bibr" rid="B14-cells-04-00653">14</xref>]. Also, natively expressed Heh2&#x394;NLS or point mutants of the NLS are mislocalized to the ER [<xref ref-type="bibr" rid="B14-cells-04-00653">14</xref>,<xref ref-type="bibr" rid="B16-cells-04-00653">16</xref>,<xref ref-type="bibr" rid="B17-cells-04-00653">17</xref>]. Moreover, the accumulation of the mobile reporter at the INM is lost upon depleting Kap95 from the cytosol (<xref ref-type="fig" rid="cells-04-00653-f004">Figure 4</xref> and previously [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>,<xref ref-type="bibr" rid="B15-cells-04-00653">15</xref>,<xref ref-type="bibr" rid="B16-cells-04-00653">16</xref>,<xref ref-type="bibr" rid="B17-cells-04-00653">17</xref>]). Third, the accumulation of a Heh2-derived reporter at the INM is dependent on specific FG-Nups [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>,<xref ref-type="bibr" rid="B14-cells-04-00653">14</xref>,<xref ref-type="bibr" rid="B16-cells-04-00653">16</xref>].</p>
+      <p>Based on these data, the most straightforward interpretation is one where the Kaps accompany the membrane proteins through the NPC. In addition, two lines of experimental evidence argue against the alternative interpretation. The first is that the mobility of the Heh2-derived reporter is not reduced at the INM compared to the ONM, which would have been expected if retained to nuclear structures [<xref ref-type="bibr" rid="B15-cells-04-00653">15</xref>]. Second, if the nuclear localization of the reporter proteins were based on retention to soluble nuclear components, one would expect that mutants affecting soluble transport would affect the localization of the membrane reporters in a similar way, which is not the case. For example, the accumulation of the soluble component should be reduced in the Nup188&#x394; strain as accumulation of cNLS-GFP reporters is reduced [<xref ref-type="bibr" rid="B35-cells-04-00653">35</xref>]. The accumulation of the Heh1-YFP and Heh2YFP [<xref ref-type="bibr" rid="B14-cells-04-00653">14</xref>] and Heh2-derived reporter (unpublished) remains, however, normal. In addition, the extent to which deletion of FG-Nups affects the transport of soluble and membrane reporter proteins is distinct [<xref ref-type="bibr" rid="B13-cells-04-00653">13</xref>].</p>
+      <p>Overall, the past and current studies support that in yeast Heh1 and Heh2 and the derived reporters with NLS-L motif are transported through the NPC while embedded in the membrane and are accompanied by transport factors binding the FG-Nups, and this process is energy-dependent. The spatial route through the NPC should be considered unresolved and may be more close to the membrane than previously proposed.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>This work was supported by a VIDI grant from the Netherlands Organization for Scientific Research (VIDI to LMV) and funding from the Netherlands Proteomics Centre.</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Justyna K. Laba, Anton Steen and Liesbeth M. Veenhoff designed the experiments with help of all authors. Justyna K. Laba, Anton Steen and Alina Chernova performed and analyzed the experiments. Justyna K. Laba, Anton Steen and Liesbeth M. Veenhoff wrote the paper.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-04-00653">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>D&#x2019;Angelo</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Hetzer</surname>
+              <given-names>M.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of the nuclear envelope in cellular organization</article-title>
+          <source>Cell. Mol. Life Sci.</source>
+          <year>2006</year>
+          <volume>63</volume>
+          <fpage>316</fpage>
+          <lpage>332</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00018-005-5361-3</pub-id>
+          <pub-id pub-id-type="pmid">16389459</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-cells-04-00653">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Akhtar</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gasser</surname>
+              <given-names>S.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The nuclear envelope and transcriptional control</article-title>
+          <source>Nat. Rev. Genet.</source>
+          <year>2007</year>
+          <volume>8</volume>
+          <fpage>507</fpage>
+          <lpage>517</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrg2122</pub-id>
+          <pub-id pub-id-type="pmid">17549064</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-cells-04-00653">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shimi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Butin-Israeli</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>R.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>The functions of the nuclear envelope in mediating the molecular crosstalk between the nucleus and the cytoplasm</article-title>
+          <source>Curr. Opin. Cell Biol.</source>
+          <year>2012</year>
+          <volume>24</volume>
+          <fpage>71</fpage>
+          <lpage>78</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ceb.2011.11.007</pub-id>
+          <pub-id pub-id-type="pmid">22192274</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-cells-04-00653">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Katta</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Smoyer</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Jaspersen</surname>
+              <given-names>S.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Destination: inner nuclear membrane</article-title>
+          <source>Trends Cell Biol.</source>
+          <year>2014</year>
+          <volume>24</volume>
+          <fpage>221</fpage>
+          <lpage>229</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tcb.2013.10.006</pub-id>
+          <pub-id pub-id-type="pmid">24268652</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-cells-04-00653">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burns</surname>
+              <given-names>L.T.</given-names>
+            </name>
+            <name>
+              <surname>Wente</surname>
+              <given-names>S.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Trafficking to uncharted territory of the nuclear envelope</article-title>
+          <source>Curr. Opin. Cell Biol.</source>
+          <year>2012</year>
+          <volume>24</volume>
+          <fpage>341</fpage>
+          <lpage>349</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ceb.2012.01.009</pub-id>
+          <pub-id pub-id-type="pmid">22326668</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-cells-04-00653">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zuleger</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Kerr</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Schirmer</surname>
+              <given-names>E.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Many mechanisms, one entrance: Membrane protein translocation into the nucleus</article-title>
+          <source>Cell. Mol. Life Sci.</source>
+          <year>2012</year>
+          <volume>69</volume>
+          <fpage>2205</fpage>
+          <lpage>2216</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00018-012-0929-1</pub-id>
+          <pub-id pub-id-type="pmid">22327555</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-cells-04-00653">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Laba</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>Steen</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Veenhoff</surname>
+              <given-names>L.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Traffic to the inner membrane of the nuclear envelope</article-title>
+          <source>Curr. Opin. Cell Biol.</source>
+          <year>2014</year>
+          <volume>28</volume>
+          <fpage>36</fpage>
+          <lpage>45</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ceb.2014.01.006</pub-id>
+          <pub-id pub-id-type="pmid">24531277</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-cells-04-00653">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Powell</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Burke</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Internuclear exchange of an inner nuclear membrane protein (p55) in heterokaryons: <italic>In vivo</italic> evidence for the interaction of p55 with the nuclear lamina</article-title>
+          <source>J. Cell Biol.</source>
+          <year>1990</year>
+          <volume>111</volume>
+          <fpage>2225</fpage>
+          <lpage>2234</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.111.6.2225</pub-id>
+          <pub-id pub-id-type="pmid">2277058</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-cells-04-00653">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soullam</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Worman</surname>
+              <given-names>H.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The amino-terminal domain of the lamin B receptor is a nuclear envelope targeting signal</article-title>
+          <source>J. Cell Biol.</source>
+          <year>1993</year>
+          <volume>120</volume>
+          <fpage>1093</fpage>
+          <lpage>1100</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.120.5.1093</pub-id>
+          <pub-id pub-id-type="pmid">7679672</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-cells-04-00653">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smith</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Blobel</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>The first membrane spanning region of the lamin B receptor is sufficient for sorting to the inner nuclear membrane</article-title>
+          <source>J. Cell Biol.</source>
+          <year>1993</year>
+          <volume>120</volume>
+          <fpage>631</fpage>
+          <lpage>637</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.120.3.631</pub-id>
+          <pub-id pub-id-type="pmid">8381121</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-04-00653">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boni</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Politi</surname>
+              <given-names>A.Z.</given-names>
+            </name>
+            <name>
+              <surname>Strnad</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Xiang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Hossain</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Ellenberg</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Live imaging and modeling of inner nuclear membrane targeting reveals its molecular requirements in mammalian cells</article-title>
+          <source>J. Cell Biol.</source>
+          <year>2015</year>
+          <volume>209</volume>
+          <fpage>705</fpage>
+          <lpage>720</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.201409133</pub-id>
+          <pub-id pub-id-type="pmid">26056140</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-cells-04-00653">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ungricht</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Klann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Horvath</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kutay</surname>
+              <given-names>U.</given-names>
+            </name>
+          </person-group>
+          <article-title>Diffusion and retention are major determinants of protein targeting to the inner nuclear membrane</article-title>
+          <source>J. Cell Biol.</source>
+          <year>2015</year>
+          <volume>209</volume>
+          <fpage>687</fpage>
+          <lpage>704</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.201409127</pub-id>
+          <pub-id pub-id-type="pmid">26056139</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13-cells-04-00653">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Meinema</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Laba</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>Hapsari</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Otten</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Mulder</surname>
+              <given-names>F.A.A.</given-names>
+            </name>
+            <name>
+              <surname>Kralt</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>van den Bogaart</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Lusk</surname>
+              <given-names>C.P.</given-names>
+            </name>
+            <name>
+              <surname>Poolman</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Veenhoff</surname>
+              <given-names>L.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Long unfolded linkers facilitate membrane protein import through the nuclear pore complex</article-title>
+          <source>Science</source>
+          <year>2011</year>
+          <volume>333</volume>
+          <fpage>90</fpage>
+          <lpage>93</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1205741</pub-id>
+          <pub-id pub-id-type="pmid">21659568</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-cells-04-00653">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>King</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Patrick Lusk</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Blobel</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Karyopherin-mediated import of integral inner nuclear membrane proteins</article-title>
+          <source>Nature</source>
+          <year>2006</year>
+          <volume>442</volume>
+          <fpage>1003</fpage>
+          <lpage>1007</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature05075</pub-id>
+          <pub-id pub-id-type="pmid">16929305</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15-cells-04-00653">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Meinema</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Poolman</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Veenhoff</surname>
+              <given-names>L.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Quantitative analysis of membrane protein transport across the nuclear pore complex</article-title>
+          <source>Traffic</source>
+          <year>2013</year>
+          <volume>14</volume>
+          <fpage>487</fpage>
+          <lpage>501</lpage>
+          <pub-id pub-id-type="doi">10.1111/tra.12048</pub-id>
+          <pub-id pub-id-type="pmid">23357007</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-cells-04-00653">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lokareddy</surname>
+              <given-names>R.K.</given-names>
+            </name>
+            <name>
+              <surname>Hapsari</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>van Rheenen</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Pumroy</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Bhardwaj</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Steen</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Veenhoff</surname>
+              <given-names>L.M.</given-names>
+            </name>
+            <name>
+              <surname>Cingolani</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Distinctive properties of the nuclear localization signals of inner nuclear membrane proteins Heh1 and Heh2</article-title>
+          <source>Structure</source>
+          <year>2015</year>
+          <volume>23</volume>
+          <fpage>1305</fpage>
+          <lpage>1316</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.str.2015.04.017</pub-id>
+          <pub-id pub-id-type="pmid">26051712</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17-cells-04-00653">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kralt</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Jagalur</surname>
+              <given-names>N.B.</given-names>
+            </name>
+            <name>
+              <surname>van de Boom</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Lokareddy</surname>
+              <given-names>R.K.</given-names>
+            </name>
+            <name>
+              <surname>Steen</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Cingolani</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Fornerod</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Veenhoff</surname>
+              <given-names>L.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Conservation of inner nuclear membrane targeting sequences in mammalian Pom121 and yeast Heh2 membrane proteins</article-title>
+          <source>Mol. Biol. Cell</source>
+          <year>2015</year>
+          <comment>Accepted</comment>
+        </citation>
+      </ref>
+      <ref id="B18-cells-04-00653">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shao</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hegde</surname>
+              <given-names>R.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Membrane protein insertion at the endoplasmic reticulum</article-title>
+          <source>Annu. Rev. Cell Dev. Biol.</source>
+          <year>2011</year>
+          <volume>27</volume>
+          <fpage>25</fpage>
+          <lpage>56</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev-cellbio-092910-154125</pub-id>
+          <pub-id pub-id-type="pmid">21801011</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19-cells-04-00653">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aviram</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Schuldiner</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Embracing the void&#x2014;How much do we really know about targeting and translocation to the endoplasmic reticulum?</article-title>
+          <source>Curr. Opin. Cell Biol.</source>
+          <year>2014</year>
+          <volume>29</volume>
+          <fpage>8</fpage>
+          <lpage>17</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ceb.2014.02.004</pub-id>
+          <pub-id pub-id-type="pmid">24662022</pub-id>
+        </citation>
+      </ref>
+      <ref id="B20-cells-04-00653">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Denic</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>A portrait of the GET pathway as a surprisingly complicated young man</article-title>
+          <source>Trends Biochem. Sci.</source>
+          <year>2012</year>
+          <volume>37</volume>
+          <fpage>411</fpage>
+          <lpage>417</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tibs.2012.07.004</pub-id>
+          <pub-id pub-id-type="pmid">22951232</pub-id>
+        </citation>
+      </ref>
+      <ref id="B21-cells-04-00653">
+        <label>21.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gruber</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Arumugam</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Katou</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kuglitsch</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Helmhart</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Shirahige</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Nasmyth</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evidence that loading of cohesin onto chromosomes involves opening of its SMC hinge</article-title>
+          <source>Cell</source>
+          <year>2006</year>
+          <volume>127</volume>
+          <fpage>523</fpage>
+          <lpage>537</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2006.08.048</pub-id>
+          <pub-id pub-id-type="pmid">17081975</pub-id>
+        </citation>
+      </ref>
+      <ref id="B22-cells-04-00653">
+        <label>22.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Haruki</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Nishikawa</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Laemmli</surname>
+              <given-names>U.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Anchor-away technique: rapid, conditional establishment of yeast mutant phenotypes</article-title>
+          <source>Mol. Cell</source>
+          <year>2008</year>
+          <volume>31</volume>
+          <fpage>925</fpage>
+          <lpage>932</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2008.07.020</pub-id>
+          <pub-id pub-id-type="pmid">18922474</pub-id>
+        </citation>
+      </ref>
+      <ref id="B23-cells-04-00653">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kralt</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Carretta</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mari</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Reggiori</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Steen</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Poolman</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Veenhoff</surname>
+              <given-names>L.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intrinsically disordered linker and plasma membrane-binding motif sort Ist2 and Ssy1 to junctions</article-title>
+          <source>Traffic</source>
+          <year>2015</year>
+          <volume>16</volume>
+          <fpage>135</fpage>
+          <lpage>147</lpage>
+          <pub-id pub-id-type="doi">10.1111/tra.12243</pub-id>
+          <pub-id pub-id-type="pmid">25409870</pub-id>
+        </citation>
+      </ref>
+      <ref id="B24-cells-04-00653">
+        <label>24.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schindelin</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Arganda-Carreras</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Frise</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Kaynig</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Longair</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Pietzsch</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Preibisch</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Rueden</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Saalfeld</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Schmid</surname>
+              <given-names>B.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Fiji: An open-source platform for biological-image analysis</article-title>
+          <source>Nat. Methods</source>
+          <year>2012</year>
+          <volume>9</volume>
+          <fpage>676</fpage>
+          <lpage>682</lpage>
+          <pub-id pub-id-type="doi">10.1038/nmeth.2019</pub-id>
+          <pub-id pub-id-type="pmid">22743772</pub-id>
+        </citation>
+      </ref>
+      <ref id="B25-cells-04-00653">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grund</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Fischer</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Cabal</surname>
+              <given-names>G.G.</given-names>
+            </name>
+            <name>
+              <surname>Antunez</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Perez-Ortin</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Hurt</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>The inner nuclear membrane protein Src1 associates with subtelomeric genes and alters their regulated gene expression</article-title>
+          <source>J. Cell Biol.</source>
+          <year>2008</year>
+          <volume>182</volume>
+          <fpage>897</fpage>
+          <lpage>910</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.200803098</pub-id>
+          <pub-id pub-id-type="pmid">18762579</pub-id>
+        </citation>
+      </ref>
+      <ref id="B26-cells-04-00653">
+        <label>26.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Deng</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hochstrasser</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spatially regulated ubiquitin ligation by an ER/nuclear membrane ligase</article-title>
+          <source>Nature</source>
+          <year>2006</year>
+          <volume>443</volume>
+          <fpage>827</fpage>
+          <lpage>831</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature05170</pub-id>
+          <pub-id pub-id-type="pmid">17051211</pub-id>
+        </citation>
+      </ref>
+      <ref id="B27-cells-04-00653">
+        <label>27.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Colombi</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Webster</surname>
+              <given-names>B.M.</given-names>
+            </name>
+            <name>
+              <surname>Frohlich</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Lusk</surname>
+              <given-names>C.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>The transmission of nuclear pore complexes to daughter cells requires a cytoplasmic pool of Nsp1</article-title>
+          <source>J. Cell Biol.</source>
+          <year>2013</year>
+          <volume>203</volume>
+          <fpage>215</fpage>
+          <lpage>232</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.201305115</pub-id>
+          <pub-id pub-id-type="pmid">24165936</pub-id>
+        </citation>
+      </ref>
+      <ref id="B28-cells-04-00653">
+        <label>28.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Makio</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Lapetina</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Wozniak</surname>
+              <given-names>R.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Inheritance of yeast nuclear pore complexes requires the Nsp1p subcomplex</article-title>
+          <source>J. Cell Biol.</source>
+          <year>2013</year>
+          <volume>203</volume>
+          <fpage>187</fpage>
+          <lpage>196</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.201304047</pub-id>
+          <pub-id pub-id-type="pmid">24165935</pub-id>
+        </citation>
+      </ref>
+      <ref id="B29-cells-04-00653">
+        <label>29.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Popken</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Ghavami</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Onck</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>Poolman</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Veenhoff</surname>
+              <given-names>L.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Size-dependent leak of soluble and membrane proteins through the yeast nuclear pore complex</article-title>
+          <source>Mol. Biol. Cell</source>
+          <year>2015</year>
+          <volume>26</volume>
+          <fpage>1386</fpage>
+          <lpage>1394</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.E14-07-1175</pub-id>
+          <pub-id pub-id-type="pmid">25631821</pub-id>
+        </citation>
+      </ref>
+      <ref id="B30-cells-04-00653">
+        <label>30.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eisenhardt</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Redolfi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Antonin</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interaction of Nup53 with Ndc1 and Nup155 is required for nuclear pore complex assembly</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2014</year>
+          <volume>127</volume>
+          <fpage>908</fpage>
+          <lpage>921</lpage>
+          <pub-id pub-id-type="doi">10.1242/jcs.141739</pub-id>
+          <pub-id pub-id-type="pmid">24363447</pub-id>
+        </citation>
+      </ref>
+      <ref id="B31-cells-04-00653">
+        <label>31.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Onischenko</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Stanton</surname>
+              <given-names>L.H.</given-names>
+            </name>
+            <name>
+              <surname>Madrid</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Kieselbach</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Weis</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of the Ndc1 interaction network in yeast nuclear pore complex assembly and maintenance</article-title>
+          <source>J. Cell Biol.</source>
+          <year>2009</year>
+          <volume>185</volume>
+          <fpage>475</fpage>
+          <lpage>491</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.200810030</pub-id>
+          <pub-id pub-id-type="pmid">19414609</pub-id>
+        </citation>
+      </ref>
+      <ref id="B32-cells-04-00653">
+        <label>32.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Amlacher</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sarges</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Flemming</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>van Noort</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Kunze</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Devos</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Arumugam</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bork</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Hurt</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Insight into structure and assembly of the nuclear pore complex by utilizing the genome of a eukaryotic thermophile</article-title>
+          <source>Cell</source>
+          <year>2011</year>
+          <volume>146</volume>
+          <fpage>277</fpage>
+          <lpage>289</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2011.06.039</pub-id>
+          <pub-id pub-id-type="pmid">21784248</pub-id>
+        </citation>
+      </ref>
+      <ref id="B33-cells-04-00653">
+        <label>33.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marelli</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Aitchison</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Wozniak</surname>
+              <given-names>R.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Specific binding of the karyopherin Kap121p to a subunit of the nuclear pore complex containing Nup53p, Nup59p, and Nup170p</article-title>
+          <source>J. Cell Biol.</source>
+          <year>1998</year>
+          <volume>143</volume>
+          <fpage>1813</fpage>
+          <lpage>1830</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.143.7.1813</pub-id>
+          <pub-id pub-id-type="pmid">9864357</pub-id>
+        </citation>
+      </ref>
+      <ref id="B34-cells-04-00653">
+        <label>34.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alber</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Dokudovskaya</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Veenhoff</surname>
+              <given-names>L.M.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Kipper</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Devos</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Suprapto</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Karni-Schmidt</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Chait</surname>
+              <given-names>B.T.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The molecular architecture of the nuclear pore complex</article-title>
+          <source>Nature</source>
+          <year>2007</year>
+          <volume>450</volume>
+          <fpage>695</fpage>
+          <lpage>701</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature06405</pub-id>
+          <pub-id pub-id-type="pmid">18046406</pub-id>
+        </citation>
+      </ref>
+      <ref id="B35-cells-04-00653">
+        <label>35.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shulga</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Mosammaparast</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Wozniak</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Goldfarb</surname>
+              <given-names>D.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Yeast nucleoporins involved in passive nuclear envelope permeability</article-title>
+          <source>J. Cell Biol.</source>
+          <year>2000</year>
+          <volume>149</volume>
+          <fpage>1027</fpage>
+          <lpage>1038</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.149.5.1027</pub-id>
+          <pub-id pub-id-type="pmid">10831607</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

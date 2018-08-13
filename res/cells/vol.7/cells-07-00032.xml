@@ -1,0 +1,1926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title-group>
+        <journal-title>Cells</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells7040032</article-id>
+      <article-id pub-id-type="publisher-id">cells-07-00032</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>CDK5RAP2 Is an Essential Scaffolding Protein of the Corona of the <italic>Dictyostelium</italic> Centrosome</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pitzen</surname>
+            <given-names>Valentin</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Askarzada</surname>
+            <given-names>Sophie</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gr&#xE4;f</surname>
+            <given-names>Ralph</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Meyer</surname>
+            <given-names>Irene</given-names>
+          </name>
+          <xref rid="c1-cells-07-00032" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-07-00032">Department of Cell Biology, University of Potsdam, Karl-Liebknecht-Str. 24-25, 14476 Potsdam-Golm, Germany; <email>valentin.pitzen@uni-potsdam.de</email> (V.P.); <email>askarzad@uni-potsdam.de</email> (S.A.); <email>rgraef@uni-potsdam.de</email> (R.G.)</aff>
+      <author-notes>
+        <corresp id="c1-cells-07-00032"><label>*</label>Correspondence: <email>irene.meyer@uni-potsdam.de</email>; Tel.: +49-331-9775554</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>23</day>
+        <month>04</month>
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>04</month>
+        <year>2018</year>
+      </pub-date>
+      <volume>7</volume>
+      <issue>4</issue>
+      <elocation-id>32</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>03</day>
+          <month>04</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>20</day>
+          <month>04</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2018 by the authors.</copyright-statement>
+        <copyright-year>2018</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p><italic>Dictyostelium</italic> centrosomes consist of a nucleus-associated cylindrical, three-layered core structure surrounded by a corona consisting of microtubule-nucleation complexes embedded in a scaffold of large coiled-coil proteins. One of them is the conserved CDK5RAP2 protein. Here we focus on the role of <italic>Dictyostelium</italic> CDK5RAP2 for maintenance of centrosome integrity, its interaction partners and its dynamic behavior during interphase and mitosis. GFP-CDK5RAP2 is present at the centrosome during the entire cell cycle except from a short period during prophase, correlating with the normal dissociation of the corona at this stage. RNAi depletion of CDK5RAP2 results in complete disorganization of centrosomes and microtubules suggesting that CDK5RAP2 is required for organization of the corona and its association to the core structure. This is in line with the observation that overexpressed GFP-CDK5RAP2 elicited supernumerary cytosolic MTOCs. The phenotype of CDK5RAP2 depletion was very reminiscent of that observed upon depletion of CP148, another scaffolding protein of the corona. BioID interaction assays revealed an interaction of CDK5RAP2 not only with the corona markers CP148, &#x3B3;-tubulin, and CP248, but also with the core components Cep192, CP75, and CP91. Furthermore, protein localization studies in both depletion strains revealed that CP148 and CDK5RAP2 cooperate in corona organization.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>centrosome</kwd>
+        <kwd>centriole</kwd>
+        <kwd>
+          <italic>Dictyostelium</italic>
+        </kwd>
+        <kwd>microtubules</kwd>
+        <kwd>mitosis</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-cells-07-00032" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>The centrosome is a non-membranous organelle organizing microtubule arrays in many eukaryotes. The evolutionary ancient centrosome type features a set of two centrioles consisting of a nine-fold symmetrical arrangement of short microtubules embedded in a pericentriolar matrix (PCM) consisting of scaffolding proteins that bind microtubule nucleation complexes. Due to their mode of duplication, there is one older so-called mother centriole, and a younger daughter centriole. During S-phase, each of them gives birth to one procentriole. Thus, centrioles duplicate once and only once per cell cycle. The PCM is organized by the mother centriole. Only after passage through mitosis where the two centrosomal entities separate to form the mitotic spindle, the daughter centriole becomes competent to organize a new centrosome on its own. This maturation process is called centriole&#x2013;centrosome conversion and it depends on Cep152/Asl and polo-like kinase 1 [<xref ref-type="bibr" rid="B1-cells-07-00032">1</xref>,<xref ref-type="bibr" rid="B2-cells-07-00032">2</xref>]. Together with pericentrin (PCNT), Cep192/SPD-2, and CDK5RAP2/Cep215/Cnn the mature centriole organizes a radially arranged scaffold for the attachment of &#x3B3;-tubulin-ring complexes (&#x3B3;-TuRCs) [<xref ref-type="bibr" rid="B3-cells-07-00032">3</xref>]. Through these &#x3B3;-TuRCs, the PCM nucleates the majority of microtubules. </p>
+      <p>During G1 the mother centriole uses its distal appendages to dock at the plasma membrane, where it also functions as a basal body for the formation of the primary cilium [<xref ref-type="bibr" rid="B4-cells-07-00032">4</xref>]. The fact that organisms lacking cilia as locomotion organelles, such as many amoebozoans or fungi, contain no centrioles led to the hypothesis that the basal body-role of centrioles may have been their original function in the last eukaryotic common ancestor [<xref ref-type="bibr" rid="B5-cells-07-00032">5</xref>]. </p>
+      <p>Within the eukaryotic supergroup of amoebozoans, centrosomes are best investigated in <italic>Dictyostelium discoideum</italic> amoebae [<xref ref-type="bibr" rid="B6-cells-07-00032">6</xref>]. As in vegetative animal cells, the centrosome is attached to the cytosolic face of the nucleus through a linkage structure involving the nuclear envelope protein Sun1 [<xref ref-type="bibr" rid="B7-cells-07-00032">7</xref>]. It consists of a cylindrical core structure composed of three layered disks, which is surrounded by a corona corresponding to the PCM of animal cells. The corona predominantly contains regularly spaced, electron-dense nodules at the base of 30&#x2013;70 radially emanating microtubules [<xref ref-type="bibr" rid="B8-cells-07-00032">8</xref>,<xref ref-type="bibr" rid="B9-cells-07-00032">9</xref>]. The nodules contain &#x3B3;-tubulin, and thus they harbor the nucleation complexes [<xref ref-type="bibr" rid="B10-cells-07-00032">10</xref>]. Among all known &#x3B3;-tubulin ring complex-associated proteins (i.e., &#x3B3;-tubulin, GCP2-6, GDP-WD/NEDD1 and MOZART1 [<xref ref-type="bibr" rid="B11-cells-07-00032">11</xref>]), only &#x3B3;-tubulin, Spc97 (GCP2), and Spc98 (GCP3) could be identified in the <italic>Dictyostelium</italic> genome. Thus, <italic>Dictyostelium</italic> &#x3B3;-Tubulin complexes (&#x3B3;-TuCs) appear to be of a more simple composition than those of higher organisms. This is similar to the situation in budding yeast [<xref ref-type="bibr" rid="B12-cells-07-00032">12</xref>], however, with the difference that in <italic>Dictyostelium,</italic> purified soluble &#x3B3;-TuCs are composed of &#x3B3;-tubulin and Spc98 only, while Spc97 appears to join the two others only at the centrosome [<xref ref-type="bibr" rid="B13-cells-07-00032">13</xref>]. </p>
+      <p>At the onset of mitosis, the layered core structure expands, while the corona disintegrates completely along with the attached microtubules [<xref ref-type="bibr" rid="B14-cells-07-00032">14</xref>]. Next, the core structure inserts into a fenestra opening in the nuclear envelope and the central layer disappears, while the formerly outer layers separate from each other within the nuclear envelope and represent the two mitotic spindle poles. The latter organize a central spindle under requirement of the microtubule crosslinker Ase1 [<xref ref-type="bibr" rid="B15-cells-07-00032">15</xref>]. Starting with the transition to anaphase, the plaque-like mitotic centrosomes fold back onto themselves, in a way that the microtubule-nucleating, formerly inner surfaces become oriented towards the outside. This process is completed in late telophase, when the central layer re-appears, the centrosomes are expelled from the nuclear envelope, and the microtubule-nucleating surface matures into a new corona. Yet &#x3B3;-TuCs at this mitotic microtubule-nucleating surface have to be organized differently compared to the situation within the corona during interphase. This is based on the observation that the corona protein CP148 is not required to organize a central spindle, while it is essential to build up a new corona [<xref ref-type="bibr" rid="B16-cells-07-00032">16</xref>]. Thus, despite its role as a scaffolding protein within the corona, CP148 cannot be the only receptor for &#x3B3;-TuCs. Recently, the identification of a CDK5RAP2 (=CDK5 regulatory subunit associated protein 2) orthologue in <italic>Dictyostelium</italic> by Sukumaran and co-workers brought up a candidate for a primary receptor for &#x3B3;-TuCs that may interact with CP148 [<xref ref-type="bibr" rid="B17-cells-07-00032">17</xref>]. Mammalian CDK5RAP2, also called Cep215 or MCPH3, is one of the most ubiquitous centrosomal proteins with orthologues in insects (<italic>Drosophila</italic> centrosomin/cnn) and yeasts (Mto1p, Spc72p in <italic>S. pombe</italic> and <italic>S. cerevisiae</italic>, respectively). <italic>Dictyostelium</italic> CDK5RAP2 is encoded by <italic>cepL</italic> and was originally named Cep161, since it was recognized as a centrosomal binding partner of CP250/248 with an approximate molecular mass of 161 kDa [<xref ref-type="bibr" rid="B17-cells-07-00032">17</xref>]. To avoid confusion we prefer common names for orthologous proteins, so we use the well-introduced name CDK5RAP2 also for the <italic>Dictyostelium</italic> protein. <italic>Dictyostelium</italic> CDK5RAP2 contains a conserved centrosomin motif (CM1) for &#x3B3;-TuC receptors [<xref ref-type="bibr" rid="B12-cells-07-00032">12</xref>,<xref ref-type="bibr" rid="B17-cells-07-00032">17</xref>,<xref ref-type="bibr" rid="B18-cells-07-00032">18</xref>]. Yet Sukumaran and co-workers focused on the effect of Cep161 overexpression on <italic>Dictyostelium</italic> development, where it interacts with the Hippo-related kinase SvkA, but did not further investigate its centrosomal functions, especially with regard to microtubule organization. </p>
+      <p>In this work, we fill this gap of knowledge and show that CDK5RAP2 is required for the organization of the corona where it interacts not only with CP248, but also with CP148, &#x3B3;-tubulin, and the core proteins Cep192, CP75, and CP91.</p>
+    </sec>
+    <sec id="sec2-cells-07-00032">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-cells-07-00032">
+        <title>2.1. Vector Constructions and Expression of Recombinant Proteins for Immunization</title>
+        <p>The genomic sequence covering the complete coding sequence of CDK5RAP2 was amplified by PCR from genomic DNA using linker primers and cloned into the N-terminal GFP-fusion vector pIS77 [<xref ref-type="bibr" rid="B19-cells-07-00032">19</xref>] to yield pIS950 for G418 selection in <italic>Dictyostelium</italic>. In parallel this genomic fragment was cloned into the Flag-BirA*-fusion vector pIS936, which corresponds to pIS77 except that GFP is replaced by the Flag-tagged biotinylase BirA-R118G (=BirA*; [<xref ref-type="bibr" rid="B20-cells-07-00032">20</xref>]). To obtain the GFP-SPC97 fusion vector pIS1172 complete coding sequence ofSpc97 was also cloned into pIS77 using genomic DNA as a template for PCR.</p>
+        <p>For the CDK5RAP2-GFPki knockin strain we first created pIS1121, a general target vector for C-terminally GFP-tagged knockin strains. Thus, S65T-GFP and a 300 bp teminator sequence were cloned downstream of the first polylinker of pLPBLP [<xref ref-type="bibr" rid="B21-cells-07-00032">21</xref>], a plasmid which was originally designed for the generation of knock out strains by homologous recombination. In this vector, GFP is now followed by a floxed blasticidin cassette and a second polylinker. This design allows the simple generation of linear DNA-fragments, in which two arms of sequence homologous to a gene of interest are separated by a selection cassette. Here, a 600 bp fragment encoding the CDK5RAP2 C-terminus was amplified by PCR using linker primers and pIS950 as a template and cloned into pIS1121 using KpnI and EcoRI. In a second step 620 bp of 3&#x2032; untranslated sequence of the <italic>cepL</italic> gene were cloned into the second polylinker using PstI/BamHI. To create a linear fragment for the transformation into <italic>Dictyostelium</italic> cells (strain AX2), the final plasmid was digested with KpnI/BamHI. The obtained strain contains a gene replacement at the <italic>cepL</italic> locus resulting in <italic>cepL</italic> promoter-driven expression of CDK5RAP2-GFP in place of the endogenous untagged protein. The recombination vector lacks a promoter upstream of the CDK5RAP2-GFP coding sequence, so that only homologous integration into the <italic>cepL</italic> locus will give rise to the expression of full length GFP-fusion proteins. The resulting <italic>Dictyostelium</italic> strain CDK5RAP2-GFPki was also transformed with the CP148RNAi construct reported earlier [<xref ref-type="bibr" rid="B16-cells-07-00032">16</xref>].</p>
+        <p>In a similar way, the CP148-BioID2 knockin vector pIS1186 was built. First a general target vector, pIS1180, for C-terminally BioID2-tagged knockin strains was constructed. For this the coding sequence for the biotin ligase from <italic>Aquifex aeolicus</italic> was obtained by gene synthesis (Genart, Regensburg, Germany) and cloned into pLPBLP [<xref ref-type="bibr" rid="B21-cells-07-00032">21</xref>]. To guide the homologous recombination a 640 bp fragment corresponding to the CP148 C-terminus and 400 bp of 3&#x2032; untranslated sequence of the <italic>cepG</italic> gene were used.</p>
+        <p>Two different CDK5RAP2-RNAi constructs were prepared according to Martens et al. [<xref ref-type="bibr" rid="B22-cells-07-00032">22</xref>], where two arms of long inverted repeats are separated by a short stuffer fragment in between. The corresponding plasmids (pIS1109 and pIS1166) were constructed as described previously [<xref ref-type="bibr" rid="B23-cells-07-00032">23</xref>]. CDK5RAP2 sense fragments corresponding to base positions 1&#x2013;478 (pIS1109) or 3427&#x2013;4135 (pIS1166) of the coding sequence were amplified by PCR using SalI/BamHI linker primers and pIS950 as a template. In parallel the complementary reverse sequences were amplified using AflII/KpnI linker primers. Both PCR-fragments for each region were cloned into pIS193 yielding final vectors encoding an inverted CDK5RAP2 repeat with a short stuffer fragment originally derived from mCherry. The plasmids were transformed into a blasticidin-resistant <italic>Dictyostelium</italic> GFP-&#x3B1;-tubulin strain [<xref ref-type="bibr" rid="B24-cells-07-00032">24</xref>] and CDK5RAP2-RNAi clones were selected with G418. The RNAi constructs are expressed under control of the actin-6 promoter, which is rather weak, when cells are fed with bacteria during the selection process, but strong when clones are cultured in HL5c liquid medium. Transformation of both plasmids resulted in clones with identical phenotypes. Only data from cells with RNAi directed against the 3&#x2032;-end of the coding sequence (pIS1166) are described in this work. </p>
+        <p>For the C-terminal BioID fusion vector pIS1000, the coding sequence of BirA* was amplified by PCR from pIS936 [<xref ref-type="bibr" rid="B20-cells-07-00032">20</xref>] using BamHI/NsiI linker primers and cloned into p1ABr8A [<xref ref-type="bibr" rid="B25-cells-07-00032">25</xref>]. The coding sequence of TubC was taken from the GFP-TubC fusion vector [<xref ref-type="bibr" rid="B10-cells-07-00032">10</xref>] and transfered to pIS1000 using the KpnI/BamHI restriction sites.</p>
+        <p>For bacterial expression vectors, the sequence encoding the N-terminal 310 amino acids of CDK5RAP2 or amino acids 1262&#x2013;1601 of Cep192 were amplified by PCR from genomic DNA using linker primers and cloned into pMalC2 (New England Biolabs, Frankfurt, Germany). For bacterial expression of MBP-CP55 (full length) previously described pMalC2-CP55 was used [<xref ref-type="bibr" rid="B26-cells-07-00032">26</xref>]. The fusion proteins were expressed at room temperature in <italic>E. coli</italic> Rosetta cells (NEB, Frankfurt, Germany) and purified by amylose agarose affinity chromatography according to the manufacturer&#x2019;s manual (NEB, Frankfurt, Germany). They were then used for custom immunization of a rabbit (CDK5RAP2 and Cep192) or a rat (CP55) (Preclinics, Potsdam, Germany). For affinity purification of anti-CDK5RAP2, the MBP-fusion protein was coupled to NHS-activated Sepharose according to the manufacturer&#x2019;s manual (GE Healthcare, Solingen, Germany).</p>
+      </sec>
+      <sec id="sec2dot2-cells-07-00032">
+        <title>2.2. Microscopy</title>
+        <p>Wide field fluorescence microscopy was performed essentially as described previously [<xref ref-type="bibr" rid="B16-cells-07-00032">16</xref>] using a Zeiss CellObserver HS system equipped with a PlanApo 1.4/100&#xD7; objective, an Axiocam MRm Rev. 3 CCD camera and a piezo stage (Carl Zeiss Mikroskopie GmbH, Jena, Germany). Cells were fixed as indicated in the figure legends either for 2 min with methanol (at &#x2212;20 &#xB0;C) or 5 min with glutaraldehyde and stained according to Batsios et al. [<xref ref-type="bibr" rid="B27-cells-07-00032">27</xref>]. Glutaraldehyde is useful for GFP-fusion proteins and microtubules, while centrosomal core components usually require methanol, as stronger fixatives such as glutaraldehyde interfere with antigenicity. For deconvolution of image stacks from fixed cells, a point spread function (PSF) measured with 100 nm Tetraspeck beads (Thermo Fisher Scientific, Waltham, MA, USA) and the iterative algorithm of Axiovision 4.8 (Carl Zeiss Mikroskopie GmbH, Jena, Germany) were applied. For live cell imaging, cells were prepared as described previously [<xref ref-type="bibr" rid="B28-cells-07-00032">28</xref>] and viewed on a Zeiss CellObserver SD confocal spinning disk system with two Evolve EM-CCD cameras (Photometrics, Tucson, AZ, USA) and a LCI-PlanNeofluar 1.3/63&#xD7; water immersion lens. The system is also equipped with a Rapp UGA-40-2L Galvo Scanner (Rapp Optoelectronics, Hamburg, Germany) employing its own 473 nm laser for photobleaching of user-defined regions of interest (FRAP). Data evaluation of FRAP experiments was performed according to Samereier et al. [<xref ref-type="bibr" rid="B28-cells-07-00032">28</xref>].</p>
+      </sec>
+      <sec id="sec2dot3-cells-07-00032">
+        <title>2.3. Other Methods</title>
+        <p>Cells were cultured in HL5c medium (Formedium, Hunsanton, UK). Sterile filtered glucose was added after autoclaving. Transformation of <italic>Dictyostelium</italic> amoebae by electroporation, SDS electrophoresis and Western blotting were carried out according to standard procedures [<xref ref-type="bibr" rid="B25-cells-07-00032">25</xref>,<xref ref-type="bibr" rid="B29-cells-07-00032">29</xref>]. Centrosomes or nuclei with attached centrosomes and were isolated as reported earlier [<xref ref-type="bibr" rid="B30-cells-07-00032">30</xref>]. BioID assays were performed as described recently [<xref ref-type="bibr" rid="B20-cells-07-00032">20</xref>,<xref ref-type="bibr" rid="B30-cells-07-00032">30</xref>].</p>
+      </sec>
+      <sec id="sec2dot4-cells-07-00032">
+        <title>2.4. Antibodies and Conjugates</title>
+        <p>Primary antibodies: anti-CDK5RAP2 (this work), anti-Cep192 (this work), anti-CP55 (rat, this work), anti-CP148 [<xref ref-type="bibr" rid="B16-cells-07-00032">16</xref>], anti-CP91 [<xref ref-type="bibr" rid="B31-cells-07-00032">31</xref>], anti-CP224 [<xref ref-type="bibr" rid="B32-cells-07-00032">32</xref>], YL1/2 [<xref ref-type="bibr" rid="B33-cells-07-00032">33</xref>], and anti-NE81 [<xref ref-type="bibr" rid="B34-cells-07-00032">34</xref>].</p>
+        <p>Secondary antibodies: all AlexaFluor conjugates were purchased from Thermo Fisher Scientific (Darmstadt, Germany), anti-mouse-Cy5 and anti-rat-Cy5 from Jackson Labs (Dianova, Hamburg, Germany), and enzyme conjugates for Western blotting from Sigma (Deisenhofen, Germany). Strept488 und AP.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-cells-07-00032" sec-type="results">
+      <title>3. Results</title>
+      <sec id="sec3dot1-cells-07-00032">
+        <title>3.1. CDK5RAP2 Is a Component of the Centrosomal Corona</title>
+        <p>Sukumaran et al. described CDK5RAP2 as a centrosomal component, however, its subcentrosomal localization and distribution in various cell cycle stages was not investigated. In our previous work, we could clearly show that resolution of wide-field deconvolution immunofluorescence microscopy is sufficient to address individual centrosomal components to either the corona or the layered core structure. In images of subdiffraction, 100-nm beads deconvolved with a measured PSF, measurement of the full-width-half-max of the intensity distribution of single beads indicated a resolution of ~170 nm with green fluorescence (<xref ref-type="app" rid="app1-cells-07-00032">Supplemental Figure S1</xref>). This technique enables the display of the corona as a fluorescent ring in an optical section through the center of the centrosome. As a molecular tool to investigate the distribution of endogenous CDK5RAP2 we raised a rabbit polyclonal antibody against the recombinant maltose-binding fusion protein expressed in <italic>E. coli</italic>. Image analysis of single optical sections of cells stained for the core marker CP55 and the corona marker CP224 clearly revealed a ring-like distribution of CDK5RAP2, similar to CP224 (<xref ref-type="fig" rid="cells-07-00032-f001">Figure 1</xref>).</p>
+        <p>The diameter of the CP224 ring was slightly larger than that of the CDK5RAP2 ring, however, this may be due to the longer emission wavelength of the fluorescent dye coupled to the secondary antibody (Cy5 vs. AlexaFluor 568). As expected from its proposed involvement in microtubule organization, CDK5RAP2 is a component of the centrosomal corona. </p>
+      </sec>
+      <sec id="sec3dot2-cells-07-00032">
+        <title>3.2. CDK5RAP2 Briefly Disappears from Centrosomes during Early Mitosis</title>
+        <p>Next, we studied CDK5RAP2 dynamics during mitosis. CDK5RAP2 was present also at mitotic spindle poles, however, labeling intensities in early mitosis up to metaphase were weaker than in interphase cells (<xref ref-type="fig" rid="cells-07-00032-f002">Figure 2</xref>A). Anti-CDK5RAP2 also sometimes weakly stained the nucleus (as e.g., in <xref ref-type="fig" rid="cells-07-00032-f006">Figure 6</xref>). Despite the presence of a predicted nuclear localization sequence in CDK5RAP2 at position 504&#x2013;516 (predicted by <uri>http://nls-mapper.iab.keio.ac.jp</uri>), this weak nuclear staining likely reflects a cross-reaction of the purified antibody, as it did not change upon RNAi depletion of CDK5RAP2 (see below). In Western blots of isolated nuclei containing attached centrosomes, the antibody stained a major band at 170 kDa and more weakly, a second, slightly lower band, most probably representing a degradation product (<xref ref-type="fig" rid="cells-07-00032-f002">Figure 2</xref>B). A very similar pattern was also reported by Sukumaran and co-workers using a different, mouse monoclonal antibody [<xref ref-type="bibr" rid="B17-cells-07-00032">17</xref>].</p>
+        <p>To investigate this dynamic behavior more precisely in live cells, we expressed a GFP-CDK5RAP2 fusion protein. GFP-CDK5RAP2 behaved in a similar way to endogenous CDK5RAP2 (<xref ref-type="app" rid="app1-cells-07-00032">Supplementary Figure S2</xref>). Live cell imaging revealed that GFP-CDK5RAP2 almost disappears in prophase and early prometaphase, i.e., the stages when the corona disintegrates. It gradually re-appears from metaphase to telophase when microtubules are reorganized to form a central spindle, k-fibers, and astral microtubules (<xref ref-type="fig" rid="cells-07-00032-f003">Figure 3</xref>, <xref ref-type="app" rid="app1-cells-07-00032">Video S1</xref>). </p>
+      </sec>
+      <sec id="sec3dot3-cells-07-00032">
+        <title>3.3. CDK5RAP2 Exhibits Very Low Turnover at Interphase Centrosomes</title>
+        <p>This dynamic behavior of GFP-CDK5RAP2 in mitosis stands in contrast to its static behavior during interphase, which became apparent in FRAP analyses. First, experiments using our GFP-CDK5RAP2 strain revealed partial fluorescence recovery after photobleaching (not shown). However, since these cells still contain endogenous CDK5RAP2 and express GFP-CDK5RAP2 under control of a strong constitutively active promoter, this partial recovery may be a side effect of overexpression. To address this issue we created a knock-in strain, CDK5RAP2-GFPki, in which the endogenous CDK5RAP2 coding sequence was replaced by C-terminally GFP-tagged CDK5RAP2 expressed under control of the endogenous promoter. Using the knock-in strain, FRAP experiments showed virtually no fluorescence recovery after photobleaching (<xref ref-type="fig" rid="cells-07-00032-f004">Figure 4</xref>, <xref ref-type="app" rid="app1-cells-07-00032">Video S2</xref>). This static behavior during interphase is in agreement with a role of CDK5RAP2 as a scaffolding protein for the organization of microtubule-nucleation complexes, in analogy to the role of CDK5RAP2 as a PCM-organizing scaffolding protein in mammalian centrosomes.</p>
+      </sec>
+      <sec id="sec3dot4-cells-07-00032">
+        <title>3.4. RNAi Depletion of CDK5RAP2 Disrupts Corona Organization and Radial Microtubule Arrays</title>
+        <p>A proposed function for CDK5RAP2 is expected to be essential for viability, so it is not surprising that several attempts to knock out <italic>cepL</italic> failed, as it holds true for most other centrosomal components in <italic>Dictyostelium</italic> as well. Thus, we depleted CDK5RAP2 by RNAi, essentially using the strategy of Martens and co-workers, in which a plasmid encoding inverted repeat yields dsRNA, which is then cleaved by dicer to generate siRNAs [<xref ref-type="bibr" rid="B22-cells-07-00032">22</xref>]. Two different RNAi constructs were made, one directed against the 5&#x2032; end of the coding sequence and a further one directed against its 3&#x2032;-end (see <xref ref-type="sec" rid="sec2dot1-cells-07-00032">Section 2.1</xref>). The resulting RNAi strains were indistinguishable and only data referring to the second variant are shown. We expected effects on microtubule organization, so we employed our well-established GFP-&#x3B1;-tubulin strain as the target strain for RNAi to yield CDK5RAP2-RNAi cells. Using the actin-6 promoter to drive expression of dsRNA, we were able to induce expression by switching culture conditions, from growth on bacterial lawns to axenic liquid culture. After induction, CDK5RAP2-RNAi cultures grew poorly and even stopped growing after several days. To check for effectiveness of CDK5RAP2 depletion, cells were mixed with either an equal number of AX2 control cells, or GFP-Spc98 control cells with green centrosomes [<xref ref-type="bibr" rid="B13-cells-07-00032">13</xref>] and stained with anti-CDK5RAP2. In fluorescence microscopy, RNAi cells were readily distinguishable from control cells by their green-fluorescent microtubules (<xref ref-type="fig" rid="cells-07-00032-f005">Figure 5</xref>). The extent of CDK5RAP2 depletion in fluorescence microscopy varied strongly from cell to cell, ranging from no considerable CDK5RAP2 depletion to its complete absence from remaining centrosomal foci. </p>
+        <p>The latter cells also showed disorganized microtubules (25%, <italic>n</italic> = 133) and often multiple, enlarged nuclei, indicating increased ploidy. This phenotype was very reminiscent of that observed upon CP148-RNAi [<xref ref-type="bibr" rid="B16-cells-07-00032">16</xref>]. Next, we tested whether CDK5RAP2 RNAi affected the presence of other centrosomal marker proteins of the core and corona structure, namely CP91, Cep192, CP148, and CP224 (<xref ref-type="fig" rid="cells-07-00032-f006">Figure 6</xref>).These analyses clearly revealed a disintegration of centrosomes in RNAi cells, along with disturbed microtubules. Centrosomal corona proteins such as CP224 and CP148 were either dispersed, or concentrated at several cytoplasmic foci. </p>
+        <p>Core proteins such as CP91 and Cep192 were usually present at one single spot per nucleus, however, not in tight association with the nucleus itself. These results indicate that loss of CDK5RAP2 causes disintegration of the corona, and dissociation of the remaining core structure from the nucleus, while dispersed microtubule-nucleation complexes are still capable of nucleating microtubules.</p>
+      </sec>
+      <sec id="sec3dot5-cells-07-00032">
+        <title>3.5. GFP-CDK5RAP2 Overexpression Elicits Supernumerary Cytosolic MTOCs</title>
+        <p>Not only depletion, but also overexpression of CDK5RAP2 caused informative aberrations. In contrast to the knock-in-strain (CDK5RAP2-GFPki) which was used for FRAP experiments, the first mentioned GFP-CDK5RAP2 cells express the fusion protein under control of the strong actin-6 promoter, and often showed fluorescent cytosolic and nuclear aggregates (<xref ref-type="fig" rid="cells-07-00032-f007">Figure 7</xref>). </p>
+        <p>The presence of nuclear GFP-CDK5RAP2 aggregates indicates the functionality of the predicted NLS sequence (see above). Nuclear GFP-CDK5RAP2 foci were generally not associated with corona markers such as CP148, CP224, and microtubules, but rather with varying amounts of the core markers CP91 and CP55. In contrast, cytosolic GFP-CDK5RAP2 aggregates in addition contained corona markers, and were capable of serving as microtubule organizing centers. This indicates that overexpressed GFP-CDK5RAP2 is able to recruit not only centrosomal core components, but also microtubule-nucleation complexes. </p>
+      </sec>
+      <sec id="sec3dot6-cells-07-00032">
+        <title>3.6. BioID Analysis Reveals Centrosomal Interactors of CDK5RAP2</title>
+        <p>The occurrence of centrosome-like structures upon overexpression of GFP-CDK5RAP2 suggests a high capability of binding other centrosomal proteins and subcomplexes. Since many centrosomal proteins are expressed at low levels, are virtually absent from cytosolic extracts, and interact only at the centrosome, protein interaction studies by co-IP assays are limited. Thus, we pursued our successful method to identify centrosomal interactors by proximity-dependent biotin identification (BioID) [<xref ref-type="bibr" rid="B20-cells-07-00032">20</xref>,<xref ref-type="bibr" rid="B30-cells-07-00032">30</xref>]. In this method, the protein of interest is fused to a promiscuous biotin ligase which biotinylates any lysine residue within a proximity of ~10 nm [<xref ref-type="bibr" rid="B36-cells-07-00032">36</xref>]. Thus, due to this very short distance, biotinylated substrate proteins most likely are direct binding partners of the tagged protein of interest. Two different biotinylases were used: First, BioID* derived from <italic>E. coli</italic> [<xref ref-type="bibr" rid="B37-cells-07-00032">37</xref>]; and second, the smaller BioID2 derived from <italic>Aquifex aeolicus</italic> [<xref ref-type="bibr" rid="B38-cells-07-00032">38</xref>]. For the purpose of this study, we created three different strains: (1) a FLAG BirA*-CDK5RAP2 strain expressing the N-terminally tagged protein driven by the actin-6 promoter; (2) a CP148-BioID2 knock-in strain expressing the C-terminally tagged fusion protein under control of the endogenous promoter; and (3) BirA*-TubC expressing N-terminally tagged &#x3B3;-tubulin driven by the actin-6 promoter. In fluorescence microscopy, all fusion proteins localized to centrosomes when stained with fluorescently labeled streptavidin (representatively shown for Flag-BirA*CDK5RAP2 in <xref ref-type="fig" rid="cells-07-00032-f008">Figure 8</xref>A). Due to the presence of the endogenous mitochondrial, biotinylated carboxylase MccA [<xref ref-type="bibr" rid="B20-cells-07-00032">20</xref>], streptavidin stained also mitochondria. <italic>Dictyostelium</italic> cells express three endogenously biotinylated proteins, that are also visible in Western blots of strains expressing BirA* only, i.e., methylcrotonyl-CoA carboxylase alpha (MccA) (77 kDa), acetyl-CoA carboxylase (AccA) (257 kDa), and propionyl-CoA carboxylase alpha (PccA) (80 kDa) (<uri>www.dictybase.org</uri>, [<xref ref-type="bibr" rid="B39-cells-07-00032">39</xref>]) (<xref ref-type="fig" rid="cells-07-00032-f008">Figure 8</xref>B, BirA*control). Aside from these endogenous proteins (only two of them&#x2014;MccA and PccA&#x2014;are visible in our Western blots), centrosome preparations of the control strain showed no further biotinylated proteins, underlining the high specificity of the BioID method. We have identified binding partners of CDK5RAP2 by parallel immunoblotting of isolated centrosome extracts with specific antibodies directed against selected centrosomal proteins, and a streptavidin-alkaline phosphatase conjugate (<xref ref-type="fig" rid="cells-07-00032-f008">Figure 8</xref>B). Proteins biotinylated by Flag-BirA*-CDK5RAP2 included CP75, CP91, Cep192, and&#x2014;rather weakly&#x2014;&#x3B3;-tubulin. Since CP148 has a similar molecular weight as Flag-BirA*-CDK5RAP2 and hence the band will be masked, biotinylation of CP148 could not be shown using this strain. Therefore, we chose the reciprocal approach and used our CP148-BioID2 strain to demonstrate biotinylation of CDK5RAP2, and thus the interaction of these two corona organizers. The low degree of biotinylation of &#x3B3;-tubulin in the Flag-BirA*-CDK5RAP2 strain was unexpected, since CDK5RAP2 binds &#x3B3;TuRCs in other species, plus the <italic>Dictyostelium</italic> protein contains a predicted &#x3B3;-tubulin complex interaction domain. Thus, we employed the BirA*-TubC strain to reveal CDK5RAP2 biotinylation by biotinylase-tagged &#x3B3;-tubulin. Western blot analysis clearly demonstrated strong biotinylation of CDK5RAP2 and CP148. Surprisingly the fusion protein itself, which commonly displays the strongest biotinylation signal, was biotinylated rather weakly and endogenous &#x3B3;-tubulin was not biotinylated at all. This behavior strongly suggests that &#x3B3;-tubulin is a poor substrate for biotinylation in this assay, possibly due to a lack of accessible lysine residues. This could also explain the virtual absence of &#x3B3;-tubulin biotinylation in the Flag-BirA*-CDK5RAP2 strain. </p>
+      </sec>
+      <sec id="sec3dot7-cells-07-00032">
+        <title>3.7. CDK5RAP2 and CP148 Are Scaffolding Proteins Cooperating in Corona Organization</title>
+        <p>The strong interaction of CDK5RAP2 and CP148 in the BioID assay and the similarity of the phenotypes upon depletion of the respective proteins by RNAi, both indicate a cooperation of both proteins in centrosome and microtubule organization. To study the mutual dependence of both proteins with regard to their association with centrosomal core structures, we studied the effect of CP148 depletion on CDK5RAP2 localization in the CDK5RAP2-GFP knock-in strain (<xref ref-type="fig" rid="cells-07-00032-f009">Figure 9</xref>). </p>
+        <p>As upon CDK5RAP2-RNAi, core structures in these CP148-RNAi cells were often located at a far distance from the nucleus in the cytoplasm. In cells displaying a clear microtubule disruption phenotype, these core structures were usually not associated with CDK5RAP2. Occasionally, cells contained cytosolic MTOCs associated with radial microtubule arrangements and CDK5RAP2, but devoid of core markers, which were instead found at unrelated locations, without being associated with radial microtubule arrangements. Vice versa, in CDK5RAP2-RNAi cells we observed core structures with and without CP148. However, neither was associated with radial microtubule arrangements. This indicates that both proteins are required for the organization of the corona around the core structure, and also for attachment of the whole centrosome to the nucleus.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-cells-07-00032" sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>In addition to <italic>Dictyostelium</italic> CDK5RAP2, several corona components&#x2014;i.e., &#x3B3;-tubulin, Spc97, Spc98, CP224, TACC, EB1, CP148, and CP248&#x2014;have been characterized on a molecular and functional level [<xref ref-type="bibr" rid="B10-cells-07-00032">10</xref>,<xref ref-type="bibr" rid="B13-cells-07-00032">13</xref>,<xref ref-type="bibr" rid="B16-cells-07-00032">16</xref>,<xref ref-type="bibr" rid="B19-cells-07-00032">19</xref>,<xref ref-type="bibr" rid="B23-cells-07-00032">23</xref>,<xref ref-type="bibr" rid="B24-cells-07-00032">24</xref>,<xref ref-type="bibr" rid="B25-cells-07-00032">25</xref>]. While the role of CP248 (also known as CP250 and NAB350; [<xref ref-type="bibr" rid="B19-cells-07-00032">19</xref>,<xref ref-type="bibr" rid="B40-cells-07-00032">40</xref>,<xref ref-type="bibr" rid="B41-cells-07-00032">41</xref>]) still remains elusive, the &#x3B3;-TuC components &#x3B3;-tubulin, Spc97, and Spc98; and the microtubule regulators CP224 (XMAP215-family), TACC, and EB1 are involved in microtubule nucleation and polymerization, respectively, and CP148 is required for the assembly of the centrosomal corona. With regard to the latter, our results clearly demonstrate that it interacts with CDK5RAP2 in this function. Here CDK5RAP2 is required as a scaffolding protein for &#x3B3;-TuCs and for corona assembly in a similar manner as it is known for CDK5RAP2 in the pericentriolar matrix of animal cells. Thus, the <italic>cepL</italic> gene product, initially named Cep161, behaved like a <italic>bona fide</italic> orthologue of the CDK5RAP2-family of centrosomal proteins, hence our naming. Our functional characterization of CDK5RAP2 and its interactions now allows to draw a clearer picture of corona structure and biogenesis and its evolutionary relationship to the pericentriolar matrix. </p>
+      <sec id="sec4dot1-cells-07-00032">
+        <title>4.1. CDK5RAP2 and CP148 in Corona Organization and Their Relationship to PCM Proteins</title>
+        <p>Since the corona is the functional equivalent of the pericentriolar matrix, it is reasonable that the process of corona formation around the core layers involves a similar set of proteins as in centriole&#x2013;centrosome conversion in animal cells [<xref ref-type="bibr" rid="B2-cells-07-00032">2</xref>]. Four proteins are of prime importance in forming a scaffold for &#x3B3;-TuRCs, i.e., Cep152/Asl, pericentrin, Cep192, and CDK5RAP2 [<xref ref-type="bibr" rid="B3-cells-07-00032">3</xref>]. Two of them, Cep152 and pericentrin, could not be identified clearly in <italic>Dictyostelium.</italic> Due to a low degree of sequence conservation, and to the dominance of coiled coil motifs in many centrosomal proteins, centrosomal orthologues between evolutionary distant species are difficult to identify. With regard to its size, CP148 was a possible candidate for a Cep152 orthologue. This idea is also supported by the fact that, within the <italic>Dictyostelium</italic> proteome, it is most similar to Cep152/Asl. However, considerable amino acid similarity was found only within a 140 aa sequence stretch of the central coiled-coil region (48% similarity, 23% identity as indicated by BLAST). A further similarity consists of a predicted calmodulin-binding IQ-domain at the end of the first third of primary sequence of both proteins. Yet, functional IQ-domains are also present within the pericentrin homology group, e.g., in yeast pericentrin (Spc110p; [<xref ref-type="bibr" rid="B42-cells-07-00032">42</xref>]). Currently, we cannot assess whether CP148 is orthologous to pericentrin or to Cep152, or whether it combines the functions of both in one protein. Budding yeast, for example, employs two different &#x3B3;-TuC receptors on each side of the spindle pole body. While at the inner, nuclear plaque this function is performed by the pericentrin-like Spc110p, the CDK5RAP2-like Spc72p anchors &#x3B3;-TuCs at the outer, cytosolic plaque. From this point of view, the existence of only one &#x3B3;-TuC receptor in <italic>Dictyostelium</italic> is not surprising, as all centrosomal microtubule nucleation sites face the cytosol during interphase. </p>
+        <p>With regard to the organization of &#x3B3;-TuCs, <italic>Dictyostelium</italic> and budding yeast are more similar to each other than to all other model organisms. No orthologues of GCP4, 5, and 6 could be identified, which are present even in fission yeast, and required to build the large &#x3B3;-tubulin ring complex (&#x3B3;-TuRC) of higher eukaryotic cells. Budding yeast employs the small &#x3B3;-TuSC complexes composed of only &#x3B3;-tubulin, GCP2, and GCP3 to nucleate microtubules [<xref ref-type="bibr" rid="B42-cells-07-00032">42</xref>], and in <italic>Dictyostelium</italic> all soluble complexes are made up of &#x3B3;-tubulin and GCP3 (Spc98) only. The third component, GCP2 (Spc97), appears to join the others exclusively at the centrosome.</p>
+      </sec>
+      <sec id="sec4dot2-cells-07-00032">
+        <title>4.2. Mutual Dependence of CDK5RAP2 and CP148 in Corona Organization</title>
+        <p>Our studies in <italic>Dictyostelium</italic> have demonstrated that the organization and integrity of the centrosomal corona depends both on CDK5RAP2 and CP148. This is based on the similarity of the respective protein depletion phenotypes, which are characterized by disintegration of the corona and randomly arranged microtubules. Yet, the actual presence of microtubules shows that neither of the two proteins is required for microtubule nucleation and growth, but rather for the recruitment of nucleation complexes to one location, i.e., the centrosome. </p>
+        <p>The fact that efficient biotinylation of target proteins in the BioID assay requires a proximity of less than 10 nm and the strong biotinylation of CDK5RAP2 by CP148-BioID2, strongly suggests a direct interaction between both partners. Yet, this interaction must be regulated in early mitosis, since CP148, like CP248, disappears from mitotic spindle poles [<xref ref-type="bibr" rid="B16-cells-07-00032">16</xref>,<xref ref-type="bibr" rid="B40-cells-07-00032">40</xref>], while CDK5RAP2 disappears only briefly during prometaphase, corresponding to the short time period between disintegration of the corona and initiation of spindle formation. Assuming that CP148 is an orthologue of Cep152, the only polo-like kinase in <italic>Dictyostelium</italic>, Plk, is the most likely regulator [<xref ref-type="bibr" rid="B2-cells-07-00032">2</xref>]. Here, it remains to be shown whether the two Plk-phosphorylation sites predicted in the CP148 primary sequence are functional in vivo. </p>
+        <p>Live cell imaging studies in many mitotic CP148-RNAi cells have clearly shown that CP148 is not required for mitotic spindle formation [<xref ref-type="bibr" rid="B16-cells-07-00032">16</xref>]. In contrast, despite numerous trials we never managed to find CDK5RAP2-RNAi cells exhibiting a strong microtubule disarrangement phenotype, that were still capable of entering mitosis, suggesting that CDK5RAP2 is required for mitotic entry and spindle formation. This could also explain why the growth of CDK5RAP2-RNAi cell cultures tends to stagnate once expression of the double-stranded RNA construct is induced, and why we barely found mitotic cells in fixed specimens. The idea of a general requirement of CDK5RAP2 to anchor microtubule nucleation complexes is also supported by the observation that some cytosolic GFP-CDK5RAP2-foci observed upon overexpression as well as some cytosolic CDK5RAP2-GFP-foci observed upon CP148-RNAi treatment were capable of organizing radial microtubule arrangements. Such arrangements were never observed upon CDK5RAP2-RNAi, or at cytosolic foci of overexpressed GFP-CP148 [<xref ref-type="bibr" rid="B16-cells-07-00032">16</xref>]. In other words, at low CDK5RAP2 levels CP148 alone is not capable of organizing such microtubule arrangements, not even when associated with core structures, while lack of CP148 does not prevent formation of core-free cytosolic MTOCs containing CDK5RAP2. </p>
+      </sec>
+      <sec id="sec4dot3-cells-07-00032">
+        <title>4.3. Putative Role of the CDK5RAP2 Interactor CP248 within the Corona</title>
+        <p>Among the known corona components, the role of CP248 is most elusive, as its knockout has no obvious effect on microtubule organization [<xref ref-type="bibr" rid="B40-cells-07-00032">40</xref>]. Yet, the interaction of CP248 with CDK5RAP2 (this work and [<xref ref-type="bibr" rid="B17-cells-07-00032">17</xref>]) indicates a role in corona organization as well. With regard to its size, its overall predicted protein structure and its absence from mitotic spindle poles all are reminiscent of C-Nap1. The idea that CP248 may represent the orthologue of C-Nap1 is also supported by its cross-reaction with antibodies against human C-Nap1 [<xref ref-type="bibr" rid="B43-cells-07-00032">43</xref>]. In mammalian cells, C-Nap1 localizes to proximal centriole ends and is required for centriole cohesion, in cooperation with CDK5RAP2 [<xref ref-type="bibr" rid="B44-cells-07-00032">44</xref>]. At the G2/M transition, phosphorylation of C-Nap1 (together with other proteins) by the NIMA-related kinase Nek2 allows separation of the two centrosomes to form two opposing spindle poles [<xref ref-type="bibr" rid="B44-cells-07-00032">44</xref>,<xref ref-type="bibr" rid="B45-cells-07-00032">45</xref>,<xref ref-type="bibr" rid="B46-cells-07-00032">46</xref>]. In analogy, CP248 phosphorylation by <italic>Dictyostelium</italic> Nek2 may be a prerequisite for disintegration of the corona, and has to precede the separation of the two outer core layers later forming the two opposing spindle poles in <italic>Dictyostelium</italic>. CP248 contains several predicted Nek2 phosphorylation motifs (ELM; [<xref ref-type="bibr" rid="B47-cells-07-00032">47</xref>]), and its disappearance and reappearance at mitotic centrosomes is correlated with the disintegration and re-formation of the corona. Future phosphorylation experiments with recombinant Nek2 [<xref ref-type="bibr" rid="B48-cells-07-00032">48</xref>] will be conducted to address this question.</p>
+        <p>Knockout of CP248 also affected the distribution of Sun1, which was less focused at the pericentrosomal region [<xref ref-type="bibr" rid="B40-cells-07-00032">40</xref>]. As all other organisms containing centrosomes [<xref ref-type="bibr" rid="B7-cells-07-00032">7</xref>,<xref ref-type="bibr" rid="B49-cells-07-00032">49</xref>], Sun1 plays a crucial role in centrosome-nucleus attachment. Yet, its interactors at the centrosome are still elusive, since no true KASH-domain proteins could be identified so far. Although effects on centrosome-nucleus attachment were not reported in CP248 null cells [<xref ref-type="bibr" rid="B40-cells-07-00032">40</xref>], the altered Sun1 distribution in CP248 null cells indicates a role of the corona in centrosome&#x2013;nucleus attachment during interphase. This is further supported by the observation that depletion of both CP148 [<xref ref-type="bibr" rid="B16-cells-07-00032">16</xref>] and CDK5RAP2 (this work) lead to the detachment of remaining core structures from nuclei.</p>
+      </sec>
+      <sec id="sec4dot4-cells-07-00032">
+        <title>4.4. Emergence of Cytosolic MTOCs upon GFP-CDK5RAP2 Overexpression</title>
+        <p>High expression levels of GFP-CDK5RAP2 caused the emergence of cytosolic MTOCs in addition to the nucleus-associated centrosome. In the first view it could be possible that this effect is not only caused by a too-high concentration of the fusion protein but also by some functional impairment due to the bulky GFP-tag. However, the centrosome-associated centrosome that carries the fusion protein as well appears and functions normally in these cells. Thus we assume that supernumerary MTOC are solely due to excess protein amounts. In <italic>Dictyostelium</italic>, supernumerary MTOCs can be elicited by either overexpression or depletion of various centrosomal proteins. As long as they do not attach to the nuclear envelope and remain cytosolic, they usually do not affect mitotic progression or cell viability. The semi-closed mitosis in <italic>Dictyostelium</italic> precludes microtubule connections between kinetochores and cytosolic MTOCs. In some instances&#x2014;e.g., in case of overexpression of CP224, CP91, CP39, NdrC, and Nek2 [<xref ref-type="bibr" rid="B30-cells-07-00032">30</xref>,<xref ref-type="bibr" rid="B31-cells-07-00032">31</xref>,<xref ref-type="bibr" rid="B48-cells-07-00032">48</xref>,<xref ref-type="bibr" rid="B50-cells-07-00032">50</xref>,<xref ref-type="bibr" rid="B51-cells-07-00032">51</xref>] or lack of CP91 and CP75 [<xref ref-type="bibr" rid="B30-cells-07-00032">30</xref>,<xref ref-type="bibr" rid="B31-cells-07-00032">31</xref>]&#x2014;these cytosolic MTOCs appear like <italic>bona fide</italic> centrosomes from a structural point of view, i.e., they are composed of a corona organized around a core structure, and contain all common centrosomal marker proteins. Yet, CP55-null cells are an example for cytosolic MTOCs clearly lacking a core structure [<xref ref-type="bibr" rid="B26-cells-07-00032">26</xref>]. In case of CDK5RAP2, cytosolic GFP-CDK5RAP2 foci organize radial microtubule arrays, and contain the centrosomal core markers CP55 and CP91, albeit to varying extents. Although these variations may indicate that cytosolic MTOCs do not represent bona fide centrosomes, it became clear that CDK5RAP2 has an inherent capacity of organizing not only the corona but also whole centrosomes. Yet, a final conclusion whether these MTOCs are true centrosomes has to await ultrastructural analysis.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-cells-07-00032">
+        <title>Supplementary Materials</title>
+        <p>The following are available online <uri>http://www.mdpi.com/2073-4409/7/4/32/s1</uri>. Figure S1: Resolving power of widefield deconvolution microscopy, Figure S2: GFP-CDK5RAP2 is present at mitotic spindle poles, Video S1: GFP-CDK5RAP2 briefly disappears from the centrosome during prophase, Video S2: GFP-CDK5RAP2ki shows hardly any recovery after photobleaching.</p>
+        <supplementary-material id="cells-07-00032-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00032-s001.zip"></supplementary-material>
+      </app>
+    </app-group>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>This work was funded by the University of Potsdam. We are grateful to Anita Guhlan and Markus Heuser for technical assistance and Alexandra Lepier for critically reading the manuscript.</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>I.M. and R.G. conceived and designed the experiments; V.P., S.A., R.G., and I.M. performed the experiments; V.P., S.A., R.G., and I.M. analyzed the data; I.M. and R.G. wrote the paper. </p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest. The founding sponsors had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-07-00032">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Glover</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>How the newborn centriole becomes a mother</article-title>
+          <source>Cell Cycle</source>
+          <year>2016</year>
+          <volume>15</volume>
+          <fpage>1521</fpage>
+          <lpage>1522</lpage>
+          <pub-id pub-id-type="doi">10.1080/15384101.2016.1164566</pub-id>
+          <pub-id pub-id-type="pmid">27223270</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-cells-07-00032">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Novak</surname>
+              <given-names>Z.A.</given-names>
+            </name>
+            <name>
+              <surname>Wainman</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gartenmann</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Raff</surname>
+              <given-names>J.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cdk1 phosphorylates <italic>Drosophila</italic> Sas-4 to recruit polo to daughter centrioles and convert them to centrosomes</article-title>
+          <source>Dev. Cell</source>
+          <year>2016</year>
+          <volume>37</volume>
+          <fpage>545</fpage>
+          <lpage>557</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.devcel.2016.05.022</pub-id>
+          <pub-id pub-id-type="pmid">27326932</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-cells-07-00032">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fry</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Sampson</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Shak</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Shackleton</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Recent advances in pericentriolar material organization: Ordered layers and scaffolding gels</article-title>
+          <source>F1000Research</source>
+          <year>2017</year>
+          <volume>6</volume>
+          <fpage>1622</fpage>
+          <pub-id pub-id-type="doi">10.12688/f1000research.11652.1</pub-id>
+          <pub-id pub-id-type="pmid">29026530</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-cells-07-00032">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pedersen</surname>
+              <given-names>L.B.</given-names>
+            </name>
+            <name>
+              <surname>Schroder</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Satir</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Christensen</surname>
+              <given-names>S.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>The ciliary cytoskeleton</article-title>
+          <source>Compr. Physiol.</source>
+          <year>2012</year>
+          <volume>2</volume>
+          <fpage>779</fpage>
+          <lpage>803</lpage>
+          <pub-id pub-id-type="pmid">23728985</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-cells-07-00032">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Devos</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Field</surname>
+              <given-names>M.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evolution of the nucleus</article-title>
+          <source>Curr. Opin. Cell Biol.</source>
+          <year>2014</year>
+          <volume>28C</volume>
+          <fpage>8</fpage>
+          <lpage>15</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ceb.2014.01.004</pub-id>
+          <pub-id pub-id-type="pmid">24508984</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-cells-07-00032">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Batsios</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Meyer</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evolution of centrosomes and the nuclear lamina: Amoebozoan assets</article-title>
+          <source>Eur. J. Cell Biol.</source>
+          <year>2015</year>
+          <volume>94</volume>
+          <fpage>249</fpage>
+          <lpage>256</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ejcb.2015.04.004</pub-id>
+          <pub-id pub-id-type="pmid">25952183</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-cells-07-00032">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schulz</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Baumann</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Samereier</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zoglmeier</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Dictyostelium</italic> Sun1 is a dynamic membrane protein of both nuclear membranes and required for centrosomal association with clustered centromeres</article-title>
+          <source>Eur. J. Cell Biol.</source>
+          <year>2009</year>
+          <volume>88</volume>
+          <fpage>621</fpage>
+          <lpage>638</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ejcb.2009.06.003</pub-id>
+          <pub-id pub-id-type="pmid">19632001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-cells-07-00032">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moens</surname>
+              <given-names>P.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spindle and kinetochore morphology of <italic>Dictyostelium discoideum</italic></article-title>
+          <source>J. Cell Biol.</source>
+          <year>1976</year>
+          <volume>68</volume>
+          <fpage>113</fpage>
+          <lpage>122</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.68.1.113</pub-id>
+          <pub-id pub-id-type="pmid">942722</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-cells-07-00032">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kimble</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kuzmiak</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>McGovern</surname>
+              <given-names>K.N.</given-names>
+            </name>
+            <name>
+              <surname>de Hostos</surname>
+              <given-names>E.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Microtubule organization and the effects of GFP-tubulin expression in <italic>Dictyostelium discoideum</italic></article-title>
+          <source>Cell Motil. Cytoskelet.</source>
+          <year>2000</year>
+          <volume>47</volume>
+          <fpage>48</fpage>
+          <lpage>62</lpage>
+          <pub-id pub-id-type="doi">10.1002/1097-0169(200009)47:1&lt;48::AID-CM5&gt;3.0.CO;2-Q</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-cells-07-00032">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Euteneuer</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kube-Granderath</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Schliwa</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Dictyostelium</italic> gamma-tubulin: Molecular characterization and ultrastructural localization</article-title>
+          <source>J. Cell Sci.</source>
+          <year>1998</year>
+          <volume>111</volume>
+          <fpage>405</fpage>
+          <lpage>412</lpage>
+          <pub-id pub-id-type="pmid">9427688</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-cells-07-00032">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Farache</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Emorine</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Haren</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Merdes</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assembly and regulation of gamma-tubulin complexes</article-title>
+          <source>Open Biol.</source>
+          <year>2018</year>
+          <volume>8</volume>
+          <fpage>170266</fpage>
+          <pub-id pub-id-type="doi">10.1098/rsob.170266</pub-id>
+          <pub-id pub-id-type="pmid">29514869</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-cells-07-00032">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>T.C.</given-names>
+            </name>
+            <name>
+              <surname>Neuner</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Schiebel</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Targeting of gamma-tubulin complexes to microtubule organizing centers: Conservation and divergence</article-title>
+          <source>Trends Cell Biol.</source>
+          <year>2015</year>
+          <volume>25</volume>
+          <fpage>296</fpage>
+          <lpage>307</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tcb.2014.12.002</pub-id>
+          <pub-id pub-id-type="pmid">25544667</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-cells-07-00032">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Daunderer</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular analysis of the cytosolic <italic>Dictyostelium</italic> gamma-tubulin complex</article-title>
+          <source>Eur. J. Cell Biol.</source>
+          <year>2002</year>
+          <volume>81</volume>
+          <fpage>175</fpage>
+          <lpage>184</lpage>
+          <pub-id pub-id-type="doi">10.1078/0171-9335-00241</pub-id>
+          <pub-id pub-id-type="pmid">12018385</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-cells-07-00032">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ueda</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Schliwa</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Euteneuer</surname>
+              <given-names>U.</given-names>
+            </name>
+          </person-group>
+          <article-title>Unusual centrosome cycle in <italic>Dictyostelium</italic>: Correlation of dynamic behavior and structural changes</article-title>
+          <source>Mol. Biol. Cell</source>
+          <year>1999</year>
+          <volume>10</volume>
+          <fpage>151</fpage>
+          <lpage>160</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.10.1.151</pub-id>
+          <pub-id pub-id-type="pmid">9880333</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-cells-07-00032">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tikhonenko</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Irizarry</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Khodjakov</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Koonce</surname>
+              <given-names>M.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Organization of microtubule assemblies in <italic>Dictyostelium</italic> syncytia depends on the microtubule crosslinker, Ase1</article-title>
+          <source>Cell. Mol. Life Sci.</source>
+          <year>2016</year>
+          <volume>73</volume>
+          <fpage>859</fpage>
+          <lpage>868</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00018-015-2026-8</pub-id>
+          <pub-id pub-id-type="pmid">26298292</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-cells-07-00032">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kuhnert</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Baumann</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Meyer</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional characterization of CP148, a novel key component for centrosome integrity in <italic>Dictyostelium</italic></article-title>
+          <source>Cell. Mol. Life Sci.</source>
+          <year>2012</year>
+          <volume>69</volume>
+          <fpage>1875</fpage>
+          <lpage>1888</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00018-011-0904-2</pub-id>
+          <pub-id pub-id-type="pmid">22223109</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-cells-07-00032">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sukumaran</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Blau-Wasser</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Rohlfs</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Gallinger</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Schleicher</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Noegel</surname>
+              <given-names>A.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The centrosomal component Cep161 of <italic>Dictyostelium</italic> discoideum interacts with the hippo signaling pathway</article-title>
+          <source>Cell Cycle</source>
+          <year>2015</year>
+          <volume>14</volume>
+          <fpage>1024</fpage>
+          <lpage>1035</lpage>
+          <pub-id pub-id-type="doi">10.1080/15384101.2015.1007015</pub-id>
+          <pub-id pub-id-type="pmid">25607232</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-cells-07-00032">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sawin</surname>
+              <given-names>K.E.</given-names>
+            </name>
+            <name>
+              <surname>Lourenco</surname>
+              <given-names>P.C.</given-names>
+            </name>
+            <name>
+              <surname>Snaith</surname>
+              <given-names>H.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Microtubule nucleation at non-spindle pole body microtubule-organizing centers requires fission yeast centrosomin-related protein Mod20p</article-title>
+          <source>Curr. Biol.</source>
+          <year>2004</year>
+          <volume>14</volume>
+          <fpage>763</fpage>
+          <lpage>775</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cub.2004.03.042</pub-id>
+          <pub-id pub-id-type="pmid">15120067</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-cells-07-00032">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schulz</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Erle</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kr&#xFC;ger</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lohmeier</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Putzler</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Samereier</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Weidenthaler</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification and cell cycle-dependent localization of nine novel, genuine centrosomal components in <italic>Dictyostelium discoideum</italic></article-title>
+          <source>Cell Motil. Cytoskelet.</source>
+          <year>2009</year>
+          <volume>66</volume>
+          <fpage>915</fpage>
+          <lpage>928</lpage>
+          <pub-id pub-id-type="doi">10.1002/cm.20384</pub-id>
+          <pub-id pub-id-type="pmid">19466752</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-cells-07-00032">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Batsios</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Meyer</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Proximity-dependent biotin identification (bioid) in <italic>Dictyostelium</italic> amoebae</article-title>
+          <source>Methods Enzymol.</source>
+          <year>2016</year>
+          <volume>569</volume>
+          <fpage>23</fpage>
+          <lpage>42</lpage>
+          <pub-id pub-id-type="pmid">26778551</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-cells-07-00032">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Faix</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kreppel</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Shaulsky</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Schleicher</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kimmel</surname>
+              <given-names>A.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>A rapid and efficient method to generate multiple gene disruptions in <italic>Dictyostelium discoideum</italic> using a single selectable marker and the cre-<italic>loxP</italic> system</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2004</year>
+          <volume>32</volume>
+          <fpage>e143</fpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gnh136</pub-id>
+          <pub-id pub-id-type="pmid">15507682</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-cells-07-00032">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Martens</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Novotny</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Oberstrass</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Steck</surname>
+              <given-names>T.L.</given-names>
+            </name>
+            <name>
+              <surname>Postlethwait</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Nellen</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>RNAi in <italic>Dictyostelium</italic>: The role of RNA-directed RNA polymerases and double-stranded RNase</article-title>
+          <source>Mol. Biol. Cell</source>
+          <year>2002</year>
+          <volume>13</volume>
+          <fpage>445</fpage>
+          <lpage>453</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.01-04-0211</pub-id>
+          <pub-id pub-id-type="pmid">11854403</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-cells-07-00032">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Samereier</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Baumann</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Meyer</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of <italic>Dictyostelium</italic> TACC reveals differential interactions with CP224 and unusual dynamics of <italic>Dictyostelium</italic> microtubules</article-title>
+          <source>Cell. Mol. Life Sci.</source>
+          <year>2011</year>
+          <volume>68</volume>
+          <fpage>275</fpage>
+          <lpage>287</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00018-010-0453-0</pub-id>
+          <pub-id pub-id-type="pmid">20658257</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-cells-07-00032">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rehberg</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Dictyostelium</italic> EB1 is a genuine centrosomal component required for proper spindle formation</article-title>
+          <source>Mol. Biol. Cell</source>
+          <year>2002</year>
+          <volume>13</volume>
+          <fpage>2301</fpage>
+          <lpage>2310</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.E02-01-0054</pub-id>
+          <pub-id pub-id-type="pmid">12134070</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-cells-07-00032">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Daunderer</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Schliwa</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Dictyostelium</italic> DdCP224 is a microtubule-associated protein and a permanent centrosomal resident involved in centrosome duplication</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2000</year>
+          <volume>113</volume>
+          <fpage>1747</fpage>
+          <lpage>1758</lpage>
+          <pub-id pub-id-type="pmid">10769206</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-cells-07-00032">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kuhnert</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Baumann</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Meyer</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>CP55, a novel key component of centrosomal organization in <italic>Dictyostelium</italic></article-title>
+          <source>Cell. Mol. Life Sci.</source>
+          <year>2012</year>
+          <volume>69</volume>
+          <fpage>3651</fpage>
+          <lpage>3664</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00018-012-1040-3</pub-id>
+          <pub-id pub-id-type="pmid">22744750</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-cells-07-00032">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Batsios</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Baumann</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Meyer</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Isolation of <italic>Dictyostelium</italic> nuclei for light and electron microscopy</article-title>
+          <source>Methods Mol. Biol.</source>
+          <year>2013</year>
+          <volume>983</volume>
+          <fpage>283</fpage>
+          <lpage>294</lpage>
+          <pub-id pub-id-type="pmid">23494313</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-cells-07-00032">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Samereier</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Meyer</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Koonce</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Live cell-imaging techniques for analyses of microtubules in <italic>Dictyostelium</italic></article-title>
+          <source>Methods Cell Biol.</source>
+          <year>2010</year>
+          <volume>97</volume>
+          <fpage>341</fpage>
+          <lpage>357</lpage>
+          <pub-id pub-id-type="pmid">20719279</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-cells-07-00032">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Euteneuer</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Ueda</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Schliwa</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Isolation of nucleation-competent centrosomes from <italic>Dictyostelium discoideum</italic></article-title>
+          <source>Eur. J. Cell Biol.</source>
+          <year>1998</year>
+          <volume>76</volume>
+          <fpage>167</fpage>
+          <lpage>175</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0171-9335(98)80031-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-cells-07-00032">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Meyer</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Peter</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Batsios</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kuhnert</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Kr&#xFC;ger-Genge</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Camur&#xE7;a</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>CP39, CP75 and CP91 are major structural components of the <italic>Dictyostelium</italic> centrosome&#x2019;s core structure</article-title>
+          <source>Eur. J. Cell Biol.</source>
+          <year>2017</year>
+          <volume>96</volume>
+          <fpage>119</fpage>
+          <lpage>130</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ejcb.2017.01.004</pub-id>
+          <pub-id pub-id-type="pmid">28104305</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-cells-07-00032">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Putzler</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Meyer</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>CP91 is a component of the <italic>Dictyostelium</italic> centrosome involved in centrosome biogenesis</article-title>
+          <source>Eur. J. Cell Biol.</source>
+          <year>2016</year>
+          <volume>95</volume>
+          <fpage>124</fpage>
+          <lpage>135</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ejcb.2016.03.001</pub-id>
+          <pub-id pub-id-type="pmid">27005924</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-cells-07-00032">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Daunderer</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Schliwa</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cell cycle-dependent localization of monoclonal antibodies raised against isolated <italic>Dictyostelium</italic> centrosomes</article-title>
+          <source>Biol. Cell</source>
+          <year>1999</year>
+          <volume>91</volume>
+          <fpage>471</fpage>
+          <lpage>477</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1768-322X.1999.tb01102.x</pub-id>
+          <pub-id pub-id-type="pmid">10519007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-cells-07-00032">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wehland</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Willingham</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Sandoval</surname>
+              <given-names>I.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>A rat monoclonal antibody reacting specifically with the tyrosylated form of alpha-tubulin. Ii. Effects on cell movement, organization of microtubules, and intermediate filaments, and arrangement of golgi elements</article-title>
+          <source>J. Cell Biol.</source>
+          <year>1983</year>
+          <volume>97</volume>
+          <fpage>1476</fpage>
+          <lpage>1490</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.97.5.1476</pub-id>
+          <pub-id pub-id-type="pmid">6685128</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-cells-07-00032">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kr&#xFC;ger</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Batsios</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Baumann</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Luckert</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Schwarz</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Stick</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Meyer</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of NE81, the first lamin-like nucleoskeleton protein in a unicellular organism</article-title>
+          <source>Mol. Biol. Cell</source>
+          <year>2012</year>
+          <volume>23</volume>
+          <fpage>360</fpage>
+          <lpage>370</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.E11-07-0595</pub-id>
+          <pub-id pub-id-type="pmid">22090348</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-cells-07-00032">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fukui</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yumura</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yumura</surname>
+              <given-names>T.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Agar-overlay immunofluorescence: High resolution studies of cytoskeletal components and their changes during chemotaxis</article-title>
+          <source>Methods Cell Biol.</source>
+          <year>1987</year>
+          <volume>28</volume>
+          <fpage>347</fpage>
+          <lpage>356</lpage>
+          <pub-id pub-id-type="pmid">3298995</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-cells-07-00032">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>D.I.</given-names>
+            </name>
+            <name>
+              <surname>Birendra</surname>
+              <given-names>K.C.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Motamedchaboki</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Doye</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Roux</surname>
+              <given-names>K.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Probing nuclear pore complex architecture with proximity-dependent biotinylation</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2014</year>
+          <volume>111</volume>
+          <fpage>E2453</fpage>
+          <lpage>E2461</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1406459111</pub-id>
+          <pub-id pub-id-type="pmid">24927568</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-cells-07-00032">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roux</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>D.I.</given-names>
+            </name>
+            <name>
+              <surname>Raida</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Burke</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>A promiscuous biotin ligase fusion protein identifies proximal and interacting proteins in mammalian cells</article-title>
+          <source>J. Cell Biol.</source>
+          <year>2012</year>
+          <volume>196</volume>
+          <fpage>801</fpage>
+          <lpage>810</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.201112098</pub-id>
+          <pub-id pub-id-type="pmid">22412018</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-cells-07-00032">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>D.I.</given-names>
+            </name>
+            <name>
+              <surname>Jensen</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>Noble</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Kc</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Roux</surname>
+              <given-names>K.H.</given-names>
+            </name>
+            <name>
+              <surname>Motamedchaboki</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Roux</surname>
+              <given-names>K.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>An improved smaller biotin ligase for bioid proximity labeling</article-title>
+          <source>Mol. Biol. Cell.</source>
+          <year>2016</year>
+          <volume>27</volume>
+          <fpage>1188</fpage>
+          <lpage>1196</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.E15-12-0844</pub-id>
+          <pub-id pub-id-type="pmid">26912792</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-cells-07-00032">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Basu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Fey</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Pandit</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Dodson</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kibbe</surname>
+              <given-names>W.A.</given-names>
+            </name>
+            <name>
+              <surname>Chisholm</surname>
+              <given-names>R.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dictybase 2013: Integrating multiple dictyostelid species</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2013</year>
+          <volume>41</volume>
+          <fpage>D676</fpage>
+          <lpage>D683</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gks1064</pub-id>
+          <pub-id pub-id-type="pmid">23172289</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-cells-07-00032">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Blau-Wasser</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Euteneuer</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Xiong</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Gassen</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Schleicher</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Noegel</surname>
+              <given-names>A.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>CP250, a novel acidic coiled-coil protein of the <italic>Dictyostelium</italic> centrosome, affects growth, chemotaxis, and the nuclear envelope</article-title>
+          <source>Mol. Biol. Cell</source>
+          <year>2009</year>
+          <volume>20</volume>
+          <fpage>4348</fpage>
+          <lpage>4361</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.E09-03-0180</pub-id>
+          <pub-id pub-id-type="pmid">19692569</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-cells-07-00032">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kalt</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Schliwa</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>A novel structural component of the <italic>Dictyostelium</italic> centrosome</article-title>
+          <source>J. Cell Sci.</source>
+          <year>1996</year>
+          <volume>109</volume>
+          <fpage>3103</fpage>
+          <lpage>3112</lpage>
+          <pub-id pub-id-type="pmid">9004044</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-cells-07-00032">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>T.C.</given-names>
+            </name>
+            <name>
+              <surname>Neuner</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Schlosser</surname>
+              <given-names>Y.T.</given-names>
+            </name>
+            <name>
+              <surname>Scharf</surname>
+              <given-names>A.N.</given-names>
+            </name>
+            <name>
+              <surname>Weber</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Schiebel</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cell-cycle dependent phosphorylation of yeast pericentrin regulates gamma-tusc-mediated microtubule nucleation</article-title>
+          <source>Elife</source>
+          <year>2014</year>
+          <volume>3</volume>
+          <fpage>e02208</fpage>
+          <pub-id pub-id-type="doi">10.7554/eLife.02208</pub-id>
+          <pub-id pub-id-type="pmid">24842996</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-cells-07-00032">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Brusis</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Daunderer</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Euteneuer</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Hestermann</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Schliwa</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ueda</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparative structural, molecular and functional aspects of the <italic>Dictyostelium discoideum</italic> centrosome</article-title>
+          <source>Curr. Top. Dev. Biol.</source>
+          <year>2000</year>
+          <volume>49</volume>
+          <fpage>161</fpage>
+          <lpage>185</lpage>
+          <pub-id pub-id-type="pmid">11005018</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-cells-07-00032">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Graser</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Stierhof</surname>
+              <given-names>Y.D.</given-names>
+            </name>
+            <name>
+              <surname>Nigg</surname>
+              <given-names>E.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cep68 and Cep215 (Cdk5rap2) are required for centrosome cohesion</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2007</year>
+          <volume>120</volume>
+          <fpage>4321</fpage>
+          <lpage>4331</lpage>
+          <pub-id pub-id-type="doi">10.1242/jcs.020248</pub-id>
+          <pub-id pub-id-type="pmid">18042621</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-cells-07-00032">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bahe</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Stierhof</surname>
+              <given-names>Y.D.</given-names>
+            </name>
+            <name>
+              <surname>Wilkinson</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Leiss</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Nigg</surname>
+              <given-names>E.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rootletin forms centriole-associated filaments and functions in centrosome cohesion</article-title>
+          <source>J. Cell Biol.</source>
+          <year>2005</year>
+          <volume>171</volume>
+          <fpage>27</fpage>
+          <lpage>33</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.200504107</pub-id>
+          <pub-id pub-id-type="pmid">16203858</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-cells-07-00032">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mayor</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hacker</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Stierhof</surname>
+              <given-names>Y.D.</given-names>
+            </name>
+            <name>
+              <surname>Nigg</surname>
+              <given-names>E.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The mechanism regulating the dissociation of the centrosomal protein C-Nap1 from mitotic spindle poles</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2002</year>
+          <volume>115</volume>
+          <fpage>3275</fpage>
+          <lpage>3284</lpage>
+          <pub-id pub-id-type="pmid">12140259</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-cells-07-00032">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dinkel</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Van Roey</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Michael</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Davey</surname>
+              <given-names>N.E.</given-names>
+            </name>
+            <name>
+              <surname>Weatheritt</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Born</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Speck</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kruger</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Grebnev</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Kuban</surname>
+              <given-names>M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The eukaryotic linear motif resource elm: 10 years and counting</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2014</year>
+          <volume>42</volume>
+          <fpage>D259</fpage>
+          <lpage>D266</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkt1047</pub-id>
+          <pub-id pub-id-type="pmid">24214962</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-cells-07-00032">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>DdNek2, the first non-vertebrate homologue of human Nek2, is involved in the formation of microtubule-organizing centers</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2002</year>
+          <volume>115</volume>
+          <fpage>1919</fpage>
+          <lpage>1929</lpage>
+          <pub-id pub-id-type="pmid">11956323</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-cells-07-00032">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xiong</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Rivero</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Euteneuer</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Mondal</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mana-Capelli</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Larochelle</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Vogel</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gassen</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Noegel</surname>
+              <given-names>A.A.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Dictyostelium</italic> Sun-1 connects the centrosome to chromatin and ensures genome stability</article-title>
+          <source>Traffic</source>
+          <year>2008</year>
+          <volume>9</volume>
+          <fpage>708</fpage>
+          <lpage>724</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1600-0854.2008.00721.x</pub-id>
+          <pub-id pub-id-type="pmid">18266910</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-cells-07-00032">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gr&#xE4;f</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Euteneuer</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Ho</surname>
+              <given-names>T.H.</given-names>
+            </name>
+            <name>
+              <surname>Rehberg</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulated expression of the centrosomal protein DdCP224 affects microtubule dynamics and reveals mechanisms for the control of supernumerary centrosome number</article-title>
+          <source>Mol. Biol. Cell</source>
+          <year>2003</year>
+          <volume>14</volume>
+          <fpage>4067</fpage>
+          <lpage>4074</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.E03-04-0242</pub-id>
+          <pub-id pub-id-type="pmid">14517319</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-cells-07-00032">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>M&#xFC;ller-Taubenberger</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kastner</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Schleicher</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bolourani</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Weeks</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of a LATS-homolog by Ras GTPases is important for the control of cell division</article-title>
+          <source>BMC Cell Biol.</source>
+          <year>2014</year>
+          <volume>15</volume>
+          <elocation-id>25</elocation-id>
+          <pub-id pub-id-type="doi">10.1186/1471-2121-15-25</pub-id>
+          <pub-id pub-id-type="pmid">24986648</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures</title>
+      <fig id="cells-07-00032-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Subcentrosomal distribution of CDK5RAP2. Immunofluorescence deconvolution microscopy of AX2 control cells with rabbit anti-CDK5RAP2, rat anti-CP55 and mouse anti-CP224. Secondary antibodies against rabbit, rat and mouse antibodies were conjugated with AlexaFluor 568, AlexaFluor 488, and Cy5, respectively and cells were fixed with methanol. (<bold>A</bold>) The same representative centrosome is shown in all three channels as indicated. (<bold>B</bold>) Shows the corresponding intensity distributions for CDK5RAP2 (green), CP55 (blue) and CP224 (red) along the line shown in the upper left of (<bold>A</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00032-g001.tif"/>
+      </fig>
+      <fig id="cells-07-00032-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>CDK5RAP2 is present at mitotic spindle poles. (<bold>A</bold>) Immunofluorescence microscopy of AX2 control cells in interphase and mitosis (as indicated) stained with rabbit anti-CDK5RAP2 and rat anti-&#x3B1;-tubulin. DNA staining with DAPI is shown in the merged image. Secondary antibodies were anti-rabbit AlexaFluor 488 and anti-rat AlexaFluor 568. Cells were fixed with glutaraldehyde. Maximum intensity projections of deconvolved images. To allow comparison of labeling intensities in mitotic vs. interphase cells, the maximum display intensity of the green channel was set using neighboring interphase cells. Bar = 2 &#xB5;m. (<bold>B</bold>) Immunoblot of a nuclear extract of untransformed AX2 cells stained with anti-CDK5RAP2/anti-rabbit-alkaline phosphatase. Color detection was performed with nitroblue tetrazolium chloride (NBT) and bromo-chloro-indolyl-phosphate (BCIP).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00032-g002.tif"/>
+      </fig>
+      <fig id="cells-07-00032-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>GFP-CDK5RAP2 briefly disappears from the centrosome during prophase. Confocal spinning disk live cell imaging of a mitotic GFP-CDK5RAP2 cell. Selected time points from <xref ref-type="app" rid="app1-cells-07-00032">Video S1</xref> are displayed. Mitotic centrosomes are highlighted by arrowheads. Cells were viewed under agar overlay [<xref ref-type="bibr" rid="B35-cells-07-00032">35</xref>]. Bar = 2 &#xB5;m.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00032-g003.tif"/>
+      </fig>
+      <fig id="cells-07-00032-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>GFP-CDK5RAP2ki shows hardly any recovery after photobleaching. (<bold>A</bold>) Confocal spinning disk live cell imaging of GFP-CDK5RAP2ki cells. Selected time points from <xref ref-type="app" rid="app1-cells-07-00032">Video S2</xref> are displayed. A maximum intensity projection of three confocal slices (z-distance 0.25 &#xB5;m) is shown. The bleached centrosome is highlighted by an arrowhead. Cells were viewed under agar overlay [<xref ref-type="bibr" rid="B35-cells-07-00032">35</xref>]. Bar = 2 &#xB5;m. (<bold>B</bold>) FRAP curve mean intensity values and error bars indicating SD (<italic>n</italic> = 10) are plotted against time.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00032-g004.tif"/>
+      </fig>
+      <fig id="cells-07-00032-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>CDK5RAP2RNAi cells contain display disrupted microtubule arrays and enlarged nuclei. Immunofluorescence microscopy of GFP-TubA/CDK5RAP2RNAi cells mixed with AX2 control cells (<bold>A</bold>) or GFP-Spc97 cells (<bold>B</bold>) stained with rabbit anti-CDK5RAP2. DNA-staining with DAPI is shown in the merged image. The secondary antibody was anti-rabbit-AlexaFluor568. Cells were fixed with glutaraldehyde. Maximum intensity projections of deconvolved images are displayed. Bar = 2 &#xB5;m.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00032-g005.tif"/>
+      </fig>
+      <fig id="cells-07-00032-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>CDK5RAP2RNAi causes centrosome disruption. Immunofluorescence microscopy of GFP-TubA/CDK5RAP2RNAi cells stained with the indicated antibodies, in comparison to GFP-&#x3B1;-tubulin control cells. DNA staining with DAPI is shown in the merged images. Secondary anti-rabbit/rat/mouse antibodies were all AlexaFluor568. Cells were fixed with methanol. Maximum intensity projections of deconvolved images are displayed. Bar = 2 &#xB5;m.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00032-g006.tif"/>
+      </fig>
+      <fig id="cells-07-00032-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Overexpressed GFP-CDK5RAP2 is concentrated in discrete foci in the cytosol or nucleus. Immunofluorescence microscopy of GFP-CDK5RAP2 cells stained with the indicated antibodies. DNA was stained with DAPI. Secondary anti-rabbit/rat/mouse antibodies were conjugated with AlexaFluor 568. Cells were fixed with methanol. Maximum intensity projections of deconvolved images are displayed, except for the GFP-CDK5RAP2 sample co-stained for NE81 (lamin, nuclear envelope marker, [<xref ref-type="bibr" rid="B34-cells-07-00032">34</xref>]), where only the optical section through the center of the nucleus is shown, to show that there are indeed GFP-CDK5RAP2 foci inside the nucleus. Bar = 2 &#xB5;m.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00032-g007.tif"/>
+      </fig>
+      <fig id="cells-07-00032-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Centrosomal interactions of biotinylase-tagged CDK5RAP2 in the BioID assay. (<bold>A</bold>) Immunofluorescence microscopy ofFlag-BirA-tagged CDK5RAP2RNAi cells stained with anti-&#x3B1;-tubulin and streptavidin-AlexaFluor 488. DNA staining with DAPI is shown in the merged image. The secondary antibody was anti-rat AlexaFluor 568. Cells were fixed with glutaraldehyde. Maximum intensity projections of deconvolved images are displayed. Bar = 2 &#xB5;m. (<bold>B</bold>) BioID Western blot analysis according to [<xref ref-type="bibr" rid="B30-cells-07-00032">30</xref>]. Centrosome extracts prepared from the cell lines indicated at the bottom were electrophoresed and blotted. Single lanes were cut from broad blots, stained individually with streptavidin-alkaline phosphatase (strep) or antibodies as indicated on top, and re-aligned after staining as shown. Bands were visualized using conjugates with alkaline phosphatase and NBT/BCIP color detection. Positions of the respective fusion proteins always showing self-biotinylation are marked by open arrowheads. Positions of endogenous, biotinylated proteins are labeled by filled arrowheads. The position of the double band representing biotinylated mitochondrial proteins is highlighted by an asterisk.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00032-g008.tif"/>
+      </fig>
+      <fig id="cells-07-00032-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>CDK5RAP2RNAi and CP148RNAi cause similar centrosome disruptions. Immunofluorescence microscopy of CDK5RAP2-GFP/CP148RNAi (<bold>A</bold>) and GFP-TubA/CDK5RAP2RNAi (<bold>B</bold>) cells stained with the indicated antibodies. DNA-staining with DAPI is shown in the merged images. In (<bold>A</bold>) primary and secondary antibodies were anti-&#x3B1;-tubulin/anti-rat-Atto647n and anti-Cep192 (core marker; arrowhead)/anti-rabbit-AlexaFluor 568, in (<bold>B</bold>) anti-CP55 (core marker; arrowhead)/anti-rat-AlexaFluor 568 and anti-CP148/anti-rabbit-Alexa 647. Cells were fixed with methanol. Maximum intensity projections of deconvolved images are displayed. Bars = 2 &#xB5;m.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00032-g009.tif"/>
+      </fig>
+    </sec>
+  </back>
+</article>

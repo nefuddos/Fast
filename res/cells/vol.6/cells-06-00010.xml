@@ -1,0 +1,1550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title-group>
+        <journal-title>Cells</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells6020010</article-id>
+      <article-id pub-id-type="publisher-id">cells-06-00010</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Distinct Fiber Type Signature in Mouse Muscles Expressing a Mutant Lamin A Responsible for Congenital Muscular Dystrophy in a Patient</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Barateau</surname>
+            <given-names>Alice</given-names>
+          </name>
+          <xref rid="af1-cells-06-00010" ref-type="aff">1</xref>
+          <xref rid="c1-cells-06-00010" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Vadrot</surname>
+            <given-names>Nathalie</given-names>
+          </name>
+          <xref rid="af1-cells-06-00010" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Agbulut</surname>
+            <given-names>Onnik</given-names>
+          </name>
+          <xref rid="af2-cells-06-00010" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Vicart</surname>
+            <given-names>Patrick</given-names>
+          </name>
+          <xref rid="af1-cells-06-00010" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Batonnet-Pichon</surname>
+            <given-names>Sabrina</given-names>
+          </name>
+          <xref rid="af1-cells-06-00010" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Buendia</surname>
+            <given-names>Brigitte</given-names>
+          </name>
+          <xref rid="af1-cells-06-00010" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Dechat</surname>
+            <given-names>Thomas</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-06-00010"><label>1</label>Unit&#xE9; de Biologie Fonctionnelle et Adaptative (BFA), CNRS UMR 8251, Universit&#xE9; Paris Diderot, Sorbonne Paris Cit&#xE9;, 75013 Paris, France; <email>nathalie.vadrot@univ-paris-diderot.fr</email> (N.V.); <email>patrick.vicart@univ-paris-diderot.fr</email> (P.V.); <email>sabrina.pichon@univ-paris-diderot.fr</email> (S.B.-P.); <email>brigitte.buendia@univ-paris-diderot.fr</email> (B.B.)</aff>
+      <aff id="af2-cells-06-00010"><label>2</label>Biological Adaptation and Ageing, UMR CNRS 8256, Institut de Biologie Paris-Seine (IBPS), UPMC Univ Paris 06, Sorbonne Universit&#xE9;s, 75005 Paris, France; <email>onnik.agbulut@upmc.fr</email></aff>
+      <author-notes>
+        <corresp id="c1-cells-06-00010"><label>*</label>Correspondence: <email>alice.barateau@gmail.com</email>; Tel.: +33-157-277-958</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>24</day>
+        <month>04</month>
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="collection">        <month>06</month>
+        <year>2017</year>
+      </pub-date>
+      <volume>6</volume>
+      <issue>2</issue>
+      <elocation-id>10</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>09</day>
+          <month>01</month>
+          <year>2017</year>
+        </date>
+        <date date-type="accepted">
+          <day>20</day>
+          <month>04</month>
+          <year>2017</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2017 by the authors.</copyright-statement>
+        <copyright-year>2017</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Specific mutations in <italic>LMNA</italic>, which encodes nuclear intermediate filament proteins lamins A/C, affect skeletal muscle tissues. Early-onset <italic>LMNA</italic> myopathies reveal different alterations of muscle fibers, including fiber type disproportion or prominent dystrophic and/or inflammatory changes. Recently, we identified the p.R388P <italic>LMNA</italic> mutation as responsible for congenital muscular dystrophy (L-CMD) and lipodystrophy. Here, we asked whether viral-mediated expression of mutant lamin A in murine skeletal muscles would be a pertinent model to reveal specific muscle alterations. We found that the total amount and size of muscle fibers as well as the extent of either inflammation or muscle regeneration were similar to wildtype or mutant lamin A. In contrast, the amount of fast oxidative muscle fibers containing myosin heavy chain IIA was lower upon expression of mutant lamin A, in correlation with lower expression of genes encoding transcription factors MEF2C and MyoD. These data validate this in vivo model for highlighting distinct muscle phenotypes associated with different lamin contexts. Additionally, the data suggest that alteration of muscle fiber type identity may contribute to the mechanisms underlying physiopathology of L-CMD related to R388P mutant lamin A. </p>
+      </abstract>
+      <kwd-group>
+        <kwd>lamin A</kwd>
+        <kwd>congenital muscular dystrophy</kwd>
+        <kwd>muscle fiber type transition</kwd>
+        <kwd>myosin heavy chain IIA</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-cells-06-00010" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>A-type lamins (A and C) are nuclear intermediate filament proteins. In mammalian cells, these proteins play multiple roles due to their assembly into polymers beneath the nuclear envelope as well as in the nucleoplasm and their capacity to bind multiple partners and chromatin [<xref ref-type="bibr" rid="B1-cells-06-00010">1</xref>,<xref ref-type="bibr" rid="B2-cells-06-00010">2</xref>]. Thus, A-type lamins regulate the shape and mechanical properties of nuclei and expression of genes related to cell proliferation and differentiation processes. Mutations in <italic>LMNA</italic>, which encodes lamins A and C, cause several diseases that eventually affect cardiac and/or skeletal muscle tissues [<xref ref-type="bibr" rid="B3-cells-06-00010">3</xref>]. Some mouse models have been developed to address the impact of mutant lamin proteins on different organs in vivo [<xref ref-type="bibr" rid="B4-cells-06-00010">4</xref>]. We previously showed that adeno-associated virus (AAV) expressing ectopic proteins can be directly injected into mouse skeletal muscles [<xref ref-type="bibr" rid="B5-cells-06-00010">5</xref>], providing a useful approach for assessing protein impact in vivo. </p>
+      <p>The fast-twitch muscle tibialis anterior (TA) is poor in type I fibers expressing myosin heavy chain 1 (MHC I), which have oxidative metabolism, but rich in type II fibers expressing MHC II isoforms [<xref ref-type="bibr" rid="B6-cells-06-00010">6</xref>]. Among the latter, one can distinguish type IIA fibers (MHC IIA) with an oxidative metabolism, also named intermediate fibers, and type IIX and IIB fibers (MHC IIX and IIB) with a glycolytic metabolism. Of note, in humans, the Myh4 gene is present but the protein MHC IIB is not expressed, In addition, some fibers can express different myosin heavy chain isoforms resulting in hybrid fibers with various properties in terms of ATP usage and muscle contraction speeds [<xref ref-type="bibr" rid="B7-cells-06-00010">7</xref>]. Muscle fibers with an oxidative metabolism are more resistant to fatigue than those with a glycolytic metabolism. Of note, the proportion of muscle fiber types varies depending on muscle specificity and activity [<xref ref-type="bibr" rid="B7-cells-06-00010">7</xref>]. For instance, physical training to increase endurance favors a shift towards more fatigue-resistant MHC I and MHC IIA type fibers. </p>
+      <p>In addition, physiopathological contexts can induce fiber type disproportion (FTD). In particular, congenital myopathies triggered by some <italic>LMNA</italic> mutations (p.Glu33del, p.Lys123del, p.Ser303Pro, p.Arg453Trp, p.Thr528Lys) can induce a particular form of muscle FTD characterized by type II fiber hypertrophy [<xref ref-type="bibr" rid="B8-cells-06-00010">8</xref>]. Similar FTD is also observed in other <italic>LMNA</italic> related myopathies such as limb-girdle muscle dystrophy (<italic>LMNA</italic> mutation p.T27I) [<xref ref-type="bibr" rid="B9-cells-06-00010">9</xref>]. Another type of FTD associated with congenital myopathies caused by mutations in other genes, including <italic>ACTA1</italic>, <italic>MYH7</italic>, or <italic>TMP2,3</italic>, is specified by an abnormally high amount of slow oxidative type I fibers that are also atrophic [<xref ref-type="bibr" rid="B8-cells-06-00010">8</xref>,<xref ref-type="bibr" rid="B9-cells-06-00010">9</xref>,<xref ref-type="bibr" rid="B10-cells-06-00010">10</xref>].</p>
+      <p>We recently identified one particular lamin A mutant, <italic>LMNA</italic> p.R388P, that is responsible for congenital muscular dystrophy (L-CMD) [<xref ref-type="bibr" rid="B11-cells-06-00010">11</xref>]. Here, we used AAV injections to rapidly assess the impact of R388P mutant lamin A on mouse skeletal muscle homeostasis. Our analysis included morphological features of TA fibers; relative oxidative potential of muscle fibers, using quantification of succinate dehydrogenase (SDH) enzyme; and fiber type identity based on content of different MHC isoforms.</p>
+    </sec>
+    <sec id="sec2-cells-06-00010">
+      <title>2. Materials and Methods </title>
+      <sec id="sec2dot1-cells-06-00010">
+        <title>2.1. Plasmid Production</title>
+        <p>Plasmids encoding FLAG-tagged human WT and mutant lamin A under regulation of the CMV promoter [<xref ref-type="bibr" rid="B11-cells-06-00010">11</xref>] were used by the Therapeutic Research Institute&#x2014;Institut de Recherche en Sant&#xE9; de l&#x2019;Universit&#xE9; de Nantes (IRS-UN), Centre de Production de Vecteurs viraux (CPV), Institut National de la sant&#xE9; et de la recherche m&#xE9;dicale (INSERM), Unit&#xE9; Mixte de Recherche (UMR) 1089 (Nantes, France)&#x2014; to generate and purify AAV2/2.CMV.FLAG.LA WT or R388P. Final viral preparations were stored in Dulbecco&#x2019;s Phosphate-Buffered Saline (DPBS) (with Ca<sup>2+</sup> and Mg<sup>2+</sup>), aliquoted in small volumes (50 &#x3BC;L), and stored at &#x2212;80 &#xB0;C. Particle titer (number of viral genomes) was determined by quantitative PCR poly A.</p>
+      </sec>
+      <sec id="sec2dot2-cells-06-00010">
+        <title>2.2. Intramuscular Delivery of AAV Vectors </title>
+        <p>All animal protocols were approved by the institutional ethics committee and conducted according to French and European laws, directives, and regulations on animal care (European Commission Directive 86/609/European Economic Community (EEC); project number #5441 at the Comit&#xE9; d'&#xE9;thique en exp&#xE9;rimentation animale Charles Darwin N&#xB0;5). The Centre d&#x2019;exp&#xE9;rimentation Fonctionnelle (CEF) animal facility at Hopital Salp&#xE9;tri&#xE8;re in Paris is fully licensed by the competent French authorities and has animal welfare insurance. For intramuscular injections, 10-week-old female C57BL/6J mice (Janvier Labs, Le Genest-Saint-Isle, France) were randomized into two groups: AAV-FLAG-LA-WT and AAV-FLAG-LA-R388P. Animals were anesthetized by intraperitoneal injection of a mix of drugs with sedative and analgesic effects [10 mg/kg xylazine (Bayer, Puteaux, France) and 100 mg/kg ketamine (Merial, Gerland, France)]. Insulin syringes were used to inject each TA muscle with 70 &#x3BC;L of AAV (~1.75 &#xD7; 10<sup>11</sup> vg/70 &#x3BC;L). In figure captions, <italic>n</italic> corresponds to the number of muscles analyzed in two or more independent experiments.</p>
+      </sec>
+      <sec id="sec2dot3-cells-06-00010">
+        <title>2.3. Removal and Fixation of TA Muscles </title>
+        <p>TA muscles were removed 4 weeks after injection, following euthanasia of mice by cervical dislocation. To perform immunohistochemical analyses, muscles were mounted in tragacanth gum (Fisher Scientific, Hampton, NH, USA) and frozen following different protocols. A one-step fixation protocol consisted of plunging the muscle for at least 1 min in isopentane precooled in liquid nitrogen. Alternatively, a three-step paraformaldehyde (PFA)-sucrose-isopentane protocol consisted of fixing the muscle with 4% paraformaldehyde in PBS for 1 h, followed by immersing it in three successive baths of gradually increasing concentrations of sucrose dissolved in PBS (5% sucrose for 2 h, 10% sucrose for 3 h, and 25% sucrose overnight) at 4 &#xB0;C. Tissues were finally fixed in isopentane as described above. In parallel, to prepare protein or RNA extracts, muscles were transferred to microcentrifuge tubes and snap-frozen in liquid nitrogen.</p>
+      </sec>
+      <sec id="sec2dot4-cells-06-00010">
+        <title>2.4. Analysis of TA Muscle Protein Extracts</title>
+        <p>Tissue from half of a snap-frozen TA muscle was resuspended in 145 &#x3BC;L of Laemmli sample buffer (without reducing agent) before heating at 95 &#xB0;C for 10 min. Samples were homogenized with a Polytron homogenizer (Kinematica, Lucerne, Switzerland) for 15 s and finally centrifuged at 900&#x00D7; <italic>g</italic> (3100 rpm) for 3 min at 4 &#xB0;C. Protein concentration in the resulting supernatant was measured using the Bradford assay. Finally, Dithiothreitol (DTT) (1 mM final) was added to the supernatant before loading 15 &#x3BC;g of total extracted proteins per well onto 10% polyacrylamide gels. Transfer of proteins from the gel to nitrocellulose membranes, incubation with antibodies, and visualization with enhanced chemiluminescence were done as previously described [<xref ref-type="bibr" rid="B11-cells-06-00010">11</xref>].</p>
+      </sec>
+      <sec id="sec2dot5-cells-06-00010">
+        <title>2.5. Histology of TA Muscle Sections</title>
+        <p>Sections were cut to 6-&#x3BC;m thickness using a Leica Biosystems CM1950 cryostat (Buffalo Grove, IL, USA), recovered on Superfrost plus glass microscope slides (Thermo Fisher Scientific, Waltham, MA, USA), and stored at &#x2212;80 &#xB0;C. </p>
+        <p>Muscle sections were incubated at room temperature for 20 min before staining with hematoxylin and eosin, SDH, or Sirius Red. Images were taken with a Leica DM IL inverted microscope equipped with a Qicam digital camera (Qimaging, Surrey, BC, Canada) at the Unit&#xE9; de Biologie Fonctionnelle et Adaptative (BFA) imaging facility. </p>
+        <p>For hematoxylin and eosin staining, transverse muscle sections were incubated with 0.7% Harris modified hematoxylin solution (Sigma-Aldrich, St. Louis, MO, USA) for 6 min at room temperature, washed five times with tap water, and stained with 0.5% eosin in acidified 90% ethanol (Sigma-Aldrich) for 1 min at room temperature. Muscle sections were then dehydrated in seven successive baths of gradually increasing concentrations of ethanol solutions (30%, 50%, 70%, 85%, 95%, and 100%, repeated twice) for 2 min each, followed by two baths in Histo-Clear clearing solution (National Diagnostics, Atlanta, GA, USA) for 10 min and 15 min. Tissues were rapidly mounted in VectaMount medium (Vector Laboratories Inc., Burlingame, CA, USA).</p>
+        <p>For SDH staining, transverse muscle sections were stained by immersing in buffer SDH (0.2 M phosphate buffer containing 5.4% sodium succinate and 0.1% Nitro blue tetrazolium) for 2 h at 37 &#xB0;C. Stained tissues were washed in water and either mounted directly in Mowiol medium or processed for further immunofluorescence. </p>
+        <p>For Sirius Red staining, transverse muscle sections directly frozen in isopentane were post-fixed with 4% formaldehyde in PBS for 2 min, washed in water, and incubated in 100% ethanol for 5 min. Tissues were dried at room temperature (&gt;20 min), and then were incubated in 0.3% Sirius Red in picric acid for 1 h and washed with distilled water. Staining was fixed with two baths of 0.5% acetic acid for 5 min each, dehydrated with three successive baths of 100% ethanol, and cleared with two baths of xylene. Slides were mounted with Eukitt medium (Sigma-Aldrich).</p>
+      </sec>
+      <sec id="sec2dot6-cells-06-00010">
+        <title>2.6. Primary Antibodies</title>
+        <p>Primary antibodies used included: rabbit anti-FLAG (Sigma-Aldrich); mouse (IgG1) anti-MHC I (clone WB-MHC; Novocastra Laboratories, Leica Microsystemes SAS, Nanterre, France); mouse (IgM) anti-MHC IIX [clone 6H1; Developmental Studies Hybridoma Bank (DSHB), Iowa City, IA, USA]; mouse (IgM) anti-MHC IIB (clone BF-F3; DSHB); mouse (IgG1) anti-MHC IIA (clone SC-71; DSHB); rat (monoclonal) anti-perlecan (Millipore, Billerica, MA, USA); mouse anti-desmin (clone D33; Dako, Agilent, Santa Clara, CA, USA); and rabbit anti-lamins A and C (lamins A/C) [<xref ref-type="bibr" rid="B12-cells-06-00010">12</xref>].</p>
+      </sec>
+      <sec id="sec2dot7-cells-06-00010">
+        <title>2.7. Immunofluorescence of TA Muscle Sections</title>
+        <p>To assess the integrity of nuclei and the precise subnuclear localization of FLAG-tagged lamins, muscle sections were fixed following the three-step PFA-sucrose-isopentane protocol. For double or triple staining to detect MHC isoforms, muscles were fixed following the one-step isopentane protocol and sections were processed for immunofluorescence either directly (MHC IIB staining) or following a post-fixation step with 2% PFA for 5 min (MHC I, MHC IIX, and MHC IIA staining). </p>
+        <p>In all cases, sections were incubated with blocking solution containing 2% goat serum and 2% BSA for 1 h at room temperature and then incubated for 30 min with goat (IgG Fab fragment) anti-mouse IgG (1:100, Jackson ImmunoResearch Laboratories, West Grove, Pennsylvania, United States). Following a PBS wash, sections were incubated with following antibodies: <list list-type="bullet">
+          <list-item>
+            <p>Single immunostaining for FLAG-lamin A: Rabbit anti-FLAG (1:350) for 1.5 h at room temperature, followed by donkey anti-rabbit IgG coupled to Cy5 (1:150) for 1 h at room temperature.</p>
+          </list-item>
+          <list-item>
+            <p>Double immunostaining for desmin/FLAG, which required two successive incubations: (1) mix of mouse anti-desmin (1:50) and rabbit anti-FLAG (1:350) for 1.5 h at room temperature; and (2) mix of goat anti-mouse IgG coupled to fluorescein (488) (1:400) with donkey anti-rabbit IgG coupled to Cy5 (1:150) for 1 h at room temperature.</p>
+          </list-item>
+          <list-item>
+            <p>Double immunostaining for MHC I/FLAG, which required four successive incubations: (1) mouse anti-MHC 1 (1:20) overnight at 4 &#xB0;C; (2) goat anti-mouse IgG coupled to fluorescein (488) (1:400) for 1 h at room temperature; (3) rabbit anti-FLAG (1:350) for 1.5 h at room temperature; and (4) donkey anti-rabbit IgG coupled to Cy5 (1:150) for 1 h at room temperature.</p>
+          </list-item>
+          <list-item>
+            <p>Triple immunostaining for MHC IIB or MHC IIX/FLAG/perlecan, which required six successive incubations: (1) rabbit anti-FLAG (1:350) for 1.5 h at room temperature; (2) donkey anti-rabbit IgG coupled to Cy5 (1:150) for 1 h at room temperature; (3) mouse anti-MHC IIX (1:30) or mouse anti-MHC IIB (1:2) overnight at 4 &#xB0;C; (4) rabbit anti-mouse IgM coupled to Cy3 (1:250) for 1 h at room temperature; (5) rat anti-perlecan (1:300) for 1.5 h at room temperature; and (6) goat anti-rat coupled to fluorescein (488) (1:400) for 1 h at room temperature.</p>
+          </list-item>
+          <list-item>
+            <p>Triple immunostaining for MHC IIA/FLAG/perlecan, which required four successive incubations: (1) mouse anti-MHC IIA (1:20) overnight at 4 &#xB0;C; (2) goat anti-mouse IgG1 coupled to Cy3 (1:250) for 1 h at room temperature; (3) mix of rabbit anti-FLAG (1:350) and rat anti-perlecan (1:300) for 1.5 h at room temperature; and (4) mix of donkey anti-rabbit IgG coupled to Cy5 (1:150) and goat anti-rat coupled to fluorescein (488) (1:400) for 1 h at room temperature.</p>
+          </list-item>
+        </list></p>
+        <p>In all cases, sections were washed in PBS between antibody incubations. Combined detection of SDH, MHCs, and perlecan was done by first processing muscle sections to reveal SDH activity and then marking proteins of interest (MHC isoforms and perlecan), as described above. After incubation, slides were washed in PBS before mounting with Vectashield (or Mowiol) with 4&#x2032;,6-diamidino-2-phenylindole (DAPI) (Vector Laboratories Inc.). Images were captured using a LSM 700 motorized confocal laser scanning microscope (Zeiss, Oberkochen, Germany) at the BFA imaging facility.</p>
+      </sec>
+      <sec id="sec2dot8-cells-06-00010">
+        <title>2.8. Analysis of TA Muscle Characteristics</title>
+        <p>TA section size, amount of fibers, and fiber diameter (minimal Feret values) were estimated on whole muscle transverse sections double-stained for FLAG and perlecan. The percentage of fibers expressing the various MHC isoforms was estimated on whole muscle transverse sections triple-stained for MHC (either I or IIA or IIX or IIB), FLAG and perlecan. Images were captured with a confocal laser scanning microscope and analyzed with ImageJ software (ImageJ 1.46r, Wayne Rasband, National Institutes of Health, Bethesda, MD, USA) and a homemade macro [<xref ref-type="bibr" rid="B5-cells-06-00010">5</xref>]. In particular, the percentage of transduction was roughly estimated by measuring the surface of transverse muscle sections that was positively stained for FLAG versus the total section surface area.</p>
+      </sec>
+      <sec id="sec2dot9-cells-06-00010">
+        <title>2.9. Quantitative RT-PCR </title>
+        <p>RNA was extracted from TA muscle with Trizol (ThermoFisher Scientific) following manufacturer&#x2019;s instructions. RNA was used to synthesize cDNA using avian myeloblastosis virus reverse transcriptase with a first strand cDNA synthesis kit with oligo-dT primers (Roche, Basel, Switzerland). <xref ref-type="table" rid="cells-06-00010-t001">Table 1</xref> lists the primers used to amplify each gene. Quantitative RT-PCR was performed in duplicate wells using SYBR green I master mix (Roche) with a Lightcycler 480 II (Roche). Relative gene expression was first estimated using reference gene 18S rRNA and subsequently by normalizing values to target genes expressed in wildtype (WT) samples.</p>
+      </sec>
+      <sec id="sec2dot10-cells-06-00010">
+        <title>2.10. Statistical Analysis</title>
+        <p>Quantitative results are expressed as means &#xB1; standard error of the mean (s.e.m.). Comparisons between samples were performed with the Mann&#x2013;Whitney test.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-cells-06-00010" sec-type="results">
+      <title>3. Results</title>
+      <sec id="sec3dot1-cells-06-00010">
+        <title>3.1. Similar Morphological and Histological Properties of TA Transduced with AAV-FLAG-LA WT or Mutant R388P</title>
+        <p>Expression of ectopic lamins was assessed one month after injection of AAV into mouse TA muscles. Western blot analyses using anti-FLAG or anti-lamin A/C antibodies detected both ectopic WT and mutant lamin A in muscle protein extracts (<xref ref-type="fig" rid="cells-06-00010-f001">Figure 1</xref>a). Higher detection of mutant lamin A versus ectopic WT lamin A likely resulted from higher solubilization properties [<xref ref-type="bibr" rid="B11-cells-06-00010">11</xref>].</p>
+        <p>As expected, immunohistochemistry revealed WT lamin A with dual intranuclear locations, i.e., beneath the nuclear envelope and in the nucleoplasm (<xref ref-type="fig" rid="cells-06-00010-f001">Figure 1</xref>b). In contrast, mutant lamin A diffused throughout the nucleoplasm, with the exception of nucleolar regions. Accordingly, this unusual lamin A distribution was previously observed in C2C12 myoblasts overexpressing the R388P mutant lamin A [<xref ref-type="bibr" rid="B11-cells-06-00010">11</xref>]. TA transverse muscle sections were stained for FLAG and perlecan, an extracellular matrix proteoglycan, to visualize the borders of each muscle fiber. We observed similarly high transduction efficiency (~67% of muscle fibers) with WT or mutant lamin A (<xref ref-type="fig" rid="cells-06-00010-f001">Figure 1</xref>c).</p>
+        <p>Mice expressing WT or mutant lamin A had similar body weights (20 &#xB1; 0.5 g and 21 &#xB1; 0.5 g, respectively) and TA muscle weights (31 &#xB1; 1 mg and 33 &#xB1; 1 mg, respectively). To determine more specifically the characteristics of TA expressing WT or mutant lamin A, muscle sections were stained for FLAG and perlecan as above. Sections of muscles expressing WT or mutant lamin A had similar number of fibers (1490 &#xB1; 180 and 1405 &#xB1; 146, respectively), fiber diameters (34 &#xB1; 1 &#x3BC;m and 33 &#xB1; 1 &#x3BC;m, respectively), and variance coefficients of fiber diameter (331 and 342, respectively) (<xref ref-type="fig" rid="cells-06-00010-f001">Figure 1</xref>d).</p>
+        <p>Eventual defects in TA-transduced muscles were assessed through areas of inflammation or regeneration as indicated by central position of nuclei within fibers. In muscles expressing WT or mutant lamin A, hematoxylin and eosin staining and immunodetection of lamin A/C revealed similar levels of inflammation (5%) (<xref ref-type="fig" rid="cells-06-00010-f002">Figure 2</xref>a,d) and percentages of muscle fibers with central nuclei (5%&#x2013;7%) (<xref ref-type="fig" rid="cells-06-00010-f002">Figure 2</xref>b,c). In addition, Sirius Red staining showed no particular signs of fibrosis in muscle sections expressing either WT or mutant lamin A (<xref ref-type="fig" rid="cells-06-00010-f002">Figure 2</xref>e).</p>
+      </sec>
+      <sec id="sec3dot2-cells-06-00010">
+        <title>3.2. Expression of Mutant Lamin A Lowers the Frequency of Fast Oxidative Fibers in TA Muscle</title>
+        <p>We analyzed SDH mitochondrial enzyme activity on TA transverse muscle sections to determine whether expression of mutant lamin A impacted oxidative properties of muscle fibers. We distinguished three categories of SDH activity&#x2014;strong, intermediate, or weak&#x2014;that should correspond to highly oxidative, intermediately oxidative, or non-oxidative fibers, respectively (<xref ref-type="fig" rid="cells-06-00010-f003">Figure 3</xref>a).</p>
+        <p>Frequency of non-oxidative fibers (weak SDH staining) was slightly higher in muscles expressing mutant lamin A compared to WT lamin A (<xref ref-type="fig" rid="cells-06-00010-f003">Figure 3</xref>b), and these were glycolytic fibers that express MHC IIB (<xref ref-type="fig" rid="cells-06-00010-f003">Figure 3</xref>c). The proportion of two types of oxidative fibers (intermediate or strong SDH staining) appeared slightly lower in muscles expressing mutant lamin A. However, none of these differences were statistically significant. </p>
+        <p>Nonetheless, MHC isoform immunostaining (<xref ref-type="fig" rid="cells-06-00010-f003">Figure 3</xref>c,d) revealed a significantly lower percentage of MHC IIA-positive fibers in TA expressing mutant lamin A (32% &#xB1; 2% of fibers) compared to WT lamin A (44% &#xB1; 3% of fibers) (<italic>p</italic> &lt; 0.05; <xref ref-type="fig" rid="cells-06-00010-f003">Figure 3</xref>e). Of note, this category of fibers includes fast oxidative fibers enriched exclusively in MHC IIA as well as hybrid fibers that express both MHC IIA and MHC IIX (<xref ref-type="fig" rid="cells-06-00010-f003">Figure 3</xref>c). As expected, TA muscle contains a very minor subpopulation of slow oxidative fibers that express MHC I with a similar frequency upon overexpression of either WT or mutant lamin A (0.3%&#x2013;0.5% of fibers). Percentages of fast glycolytic fibers positive for either MHC IIX or MHC IIB showed a tendency to be slightly higher in TA expressing mutant lamin A in comparison to WT lamin A, although differences were not statistically significant (<xref ref-type="fig" rid="cells-06-00010-f003">Figure 3</xref>e).</p>
+        <p>Altogether, SDH and MHC isoform detection pointed to a lower ratio of fast oxidative/fast glycolytic muscle fibers in TA overexpressing mutant lamin A compared to WT lamin A. </p>
+      </sec>
+      <sec id="sec3dot3-cells-06-00010">
+        <title>3.3. Expression of Mutant Lamin A Alters Expression of Genes Involved in Fiber Type Determination</title>
+        <p>To decipher underlying mechanisms related to distinct fiber type patterning with expression of WT or mutant lamin A, we analyzed expression of key molecules responsible for fiber type specificity. Expression of different MHC isoforms is partly regulated at the transcriptional level by a set of transcription factors, including MEF2C, myogenin, MyoD and SIX1-Eya1 [<xref ref-type="bibr" rid="B7-cells-06-00010">7</xref>,<xref ref-type="bibr" rid="B10-cells-06-00010">10</xref>]. Thus, we monitored expression of genes encoding such key molecules in AAV-transduced TA muscles using qRT-PCR. </p>
+        <p>We found two-fold significantly lower expression of <italic>Myh2</italic> mRNA (encoding MHC IIA) in muscles expressing mutant lamin A compared to WT lamin A (<italic>p</italic> = 0.02), which fits with the decreased proportion of MHC IIA-positive fibers observed upon expression of mutant lamin A (<xref ref-type="fig" rid="cells-06-00010-f004">Figure 4</xref>a). In comparison, levels of <italic>Myh1</italic> and <italic>Myh4</italic> mRNA (encoding MHC IIX and MHC IIB, respectively) were not significantly different between muscles expressing WT or mutant lamin A. This suggests that mutant lamin A causes primarily a defect in intermediate gene induction (<italic>Myh2</italic>) to lower the proportion of MHC IIA type fibers, whereas fast gene expression (<italic>Myh4</italic>) may be relatively unaffected.</p>
+        <p>Among the four members of the MEF2 transcription factor family [<xref ref-type="bibr" rid="B13-cells-06-00010">13</xref>], MEF2C is involved in regulating the proportion of different types of fast fibers (IIA/IIX/IIB) [<xref ref-type="bibr" rid="B14-cells-06-00010">14</xref>]. Downstream of MEF2C is myogenin, a transcription factor belonging to the basic-helix-loop-helix (b-HLH) family that directly regulates <italic>Myh2</italic>. Although myogenin is prevalent in slow muscles, it also is present in fast oxidative fibers of fast TA muscles [<xref ref-type="bibr" rid="B15-cells-06-00010">15</xref>]. Here, we observed significantly reduced expression of <italic>Mef2c</italic> (<italic>p</italic> &lt; 0.05) but similar expression of <italic>Myog</italic> (<italic>p</italic> = 0.97) in TA muscles expressing mutant versus WT lamin A (<xref ref-type="fig" rid="cells-06-00010-f004">Figure 4</xref>b). Downregulation of <italic>Mef2c</italic> with expression of mutant lamin A does not concern all members of the MEF2 family, however, as <italic>Mef2d</italic> had similar expression in the context of mutant or WT lamin A. </p>
+        <p>Upstream of <italic>Mef2c</italic> and <italic>Myog</italic> signaling pathways, there are different classes of acetylase (HAT)/decetylase (HDAC) enzymes that regulate expression of mRNAs and protein activity. In particular, HDACs 5 and 9 in association with HDACs 1 and 3 negatively regulate expression of oxidative fibers by downregulating expression of <italic>Myog</italic> (myogenin) and consequently <italic>Myh2</italic> (MHC IIA) [<xref ref-type="bibr" rid="B14-cells-06-00010">14</xref>,<xref ref-type="bibr" rid="B15-cells-06-00010">15</xref>,<xref ref-type="bibr" rid="B16-cells-06-00010">16</xref>]. We found no change in <italic>Hdac1</italic> or <italic>Hdac9</italic> in TA expressing mutant or WT lamin A (<xref ref-type="fig" rid="cells-06-00010-f004">Figure 4</xref>c). Thus, lower expression of <italic>Myh2</italic> observed upon expression of mutant lamin A did not correlate with increased expression of <italic>Hdac9</italic>. </p>
+        <p>We also measured expression of NAD+-dependent deacetylase SIRT1, which is implicated in deacetylation of MEF2 to inhibit its activity [<xref ref-type="bibr" rid="B17-cells-06-00010">17</xref>]. <italic>Sirt1</italic> expression was similar with WT or mutant lamin A, suggesting that inhibition of MEF2 might occur primarily at the transcriptional level. From these data, we conclude that the distinct MHC IIA fiber type proportion observed with WT or mutant lamin A depends on a change in <italic>Mef2c</italic> expression but independently of a change in <italic>Sirt1</italic> and the <italic>Hdac9-Myog-Myh2</italic> signaling pathway. </p>
+        <p>Transcription factor MyoD is another master regulator of skeletal myogenesis through a complex role in muscle fiber identity. Although prevalent in fast muscles, MyoD regulates both fast and slow muscle gene activation, depending on the action of diverse cofactors. For instance, MyoD activates the fast muscle program via SIX1-EYA1 [<xref ref-type="bibr" rid="B18-cells-06-00010">18</xref>]. In accordance with a previous report that MyoD is particularly efficient at <italic>Six1</italic> activation [<xref ref-type="bibr" rid="B19-cells-06-00010">19</xref>], we found significantly lower expression of <italic>Myod</italic> (<italic>p</italic> &lt; 0.05) and <italic>Six1</italic> (<italic>p</italic> = 0.05) upon expression of mutant lamin A compared to WT lamin A (<xref ref-type="fig" rid="cells-06-00010-f004">Figure 4</xref>d). </p>
+        <p>From this observation, one would expect decreased expression of fast genes, specifically with mutant lamin A [<xref ref-type="bibr" rid="B19-cells-06-00010">19</xref>]. However, we measured similar expression of <italic>Myh1</italic> (MHC IIX) and <italic>Myh4</italic> (MHC IIB) in the two lamin A contexts, suggesting that the <italic>Myod-Six1/Eya1</italic> pathway is not sufficiently disturbed with mutant lamin A to influence expression of these fast muscle genes. </p>
+        <p>In addition, MyoD can also activate slow muscle gene expression as <italic>Myh7</italic> and <italic>Ppargc1a</italic> in the presence of NFATC1 or SIRT1-PGC1&#x3B1;, respectively. PGC1&#x3B1; is a key molecule involved in different functions, including stimulation of mitochondria biogenesis, which favors oxidative metabolism [<xref ref-type="bibr" rid="B18-cells-06-00010">18</xref>]. In addition, PGC1&#x3B1; triggers expression of genes related to slow fiber types more specifically in slow/oxidative muscles, notably by activating PPAR&#x3B2;/&#x3B4;. Indeed, we found significantly lower expression of <italic>Myod</italic> (<xref ref-type="fig" rid="cells-06-00010-f004">Figure 4</xref>d) and <italic>Ppargc1a</italic> (<italic>p</italic> = 0.05; <xref ref-type="fig" rid="cells-06-00010-f004">Figure 4</xref>e) mRNAs specifically with mutant lamin A. These results suggest that the decreased proportion of fast oxidative fibers in TA expressing mutant lamin A involves deregulation of the PGC1&#x3B1; pathway.</p>
+      </sec>
+      <sec id="sec3dot4-cells-06-00010">
+        <title>3.4. Expression of Dystrobrevin &#x3B1; in TA Muscles Expressing WT or Mutant Lamin A </title>
+        <p>Dystrobrevin-&#x3B1;, encoded by <italic>Dtna</italic>, belongs to a family of dystrophin-related proteins that, together with dystrophin, syntrophin, &#x3B1;-dystroglycan (&#x3B1;-DG), &#x3B2;-dystroglycan (&#x3B2;-DG), sarcoglycan complex (SGC), and sarcospan (SPN), form a scaffold for signaling molecules located at the sarcolemma [<xref ref-type="bibr" rid="B20-cells-06-00010">20</xref>]. Expression of dystrobrevin-&#x3B1; is related to muscle diseases (see discussion). In addition, ChIPseq analysis in HeLa cells shows that WT and mutant (R388P) lamin A differentially bind <italic>Dtna</italic> [<xref ref-type="bibr" rid="B21-cells-06-00010">21</xref>]. We observed a 2.2-fold reduction in <italic>Dtna</italic> expression (<italic>p</italic> &lt; 0.01) in mouse TA expressing mutant lamin A compared to WT lamin A (<xref ref-type="fig" rid="cells-06-00010-f004">Figure 4</xref>e). These results suggest that deregulation of <italic>Dtna</italic> expression may induce some muscle alterations specifically in the context of mutant lamin A.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-cells-06-00010" sec-type="discussion">
+      <title>4. Discussion</title>
+      <sec id="sec4dot1-cells-06-00010">
+        <title>4.1. Validation of the AAV Experimental Model to Explore Laminopathies</title>
+        <p>A pediatric patient bearing a heterozygous p.R388P <italic>LMNA</italic> mutation presented early difficulties climbing stairs and walking distances and an inability to run. Examination of the patient&#x2019;s muscle biopsy showed dystrophic changes [<xref ref-type="bibr" rid="B11-cells-06-00010">11</xref>]. However, we did not detect dystrophic characteristics in TA muscle sections of mice locally expressing mutant lamin A due to AAV injection. However, the literature reports that only more severe forms of myopathies, such as L-CMD, show prominent dystrophic and/or inflammatory changes. Moreover, congenital FTD might be a milder form of early-onset LMNA myopathy [<xref ref-type="bibr" rid="B8-cells-06-00010">8</xref>].</p>
+        <p>Here, it seems that mice injected with AAV encoding mutant lamin A develop a milder form of muscle alteration than the original human patient with L-CMD. There are multiple possible reasons for this difference. Of note, our experiments analyzed muscles only one month after injection of AAV encoding ectopic lamin A in adult mice. Whether more dramatic effects on muscle morphology might be induced in younger mice or at other timepoints after AAV injection remain unknown. Although we chose to inject TA muscles with AAV for practical reasons, it is also possible that injection of other types of muscles&#x2014;such as soleus, which is a slow muscle&#x2014;might trigger more dramatic muscle changes. Moreover, particularly in the context of laminopathies, mice often require homozygous mutation to present similar phenotypes to those induced by heterozygous mutation in humans [<xref ref-type="bibr" rid="B4-cells-06-00010">4</xref>]. Nevertheless, injection of AAV encoding lamins in mice resembles more closely a heterozygous genotype. Taking into account these limits of our experimental approach, our data nonetheless validate the injection of AAV encoding lamins in mouse muscles to explore the impact of lamin A on muscle integrity.</p>
+      </sec>
+      <sec id="sec4dot2-cells-06-00010">
+        <title>4.2. Role of Key Transcription Factors in Laminopathy Induced by R388P Mutant Lamin A</title>
+        <p>Our results indicate that expression of mutant lamin A significantly reduced <italic>Myh2</italic> expression, in accordance with with lower in situ detection of MHC IIA. While MyoD directly regulates <italic>Mef2c</italic> mRNA expression, MEF2C regulates <italic>Myh2</italic> mRNA expression indirectly via its capacity to regulate <italic>Myog</italic> mRNA expression (<xref ref-type="fig" rid="cells-06-00010-f005">Figure 5</xref>). However, despite the decreased <italic>Mef2c</italic> mRNA expression, absence of altered <italic>Myog</italic> mRNA expression in the context of mutant lamin A suggests that this pathway (MyoD-MEF2C-myogenin) is not responsible for lower <italic>Myh2</italic> mRNA and MHC IIA expression. Instead, MyoD can also activate <italic>Myh2</italic> transcription directly in the presence of the CREB1-FHL3 complex [<xref ref-type="bibr" rid="B10-cells-06-00010">10</xref>]. Therefore, assuming that lower levels of <italic>Myod</italic> mRNA correspond to lower levels of MyoD, we propose that reduced <italic>MyoD</italic> directly leads to less efficient expression of <italic>Myh2</italic>. </p>
+        <p>Moreover, we propose that, in the context of mutant lamin A, MEF2C might also impact the fast oxidative pattern of fibers. This may happen not through regulation of myosin heavy chain genes, but through downregulation of <italic>Ppargc1a</italic>, which encodes a transcriptional coactivator that induces key mitochondrial genes. Indeed, lower <italic>Mef2c</italic> levels correlate with the lower expression of <italic>Ppargc1a</italic> and reduced ratio of fast oxidative/fast glycolytic muscle fibers in TA expressing mutant lamin A (<xref ref-type="fig" rid="cells-06-00010-f005">Figure 5</xref>).</p>
+        <p>In addition, mutant lamin A also alters regulation of <italic>Dtna</italic>, which encodes one of the protein partners constituting the dystrophin-glycoprotean complex (DGC) at the sarcolemma. In humans, single nucleotide mutations in <italic>Dtna</italic> are related to pathologies, including left ventricular non-compaction with heart congenital disease [<xref ref-type="bibr" rid="B22-cells-06-00010">22</xref>] and Meniere&#x2019;s disease [<xref ref-type="bibr" rid="B23-cells-06-00010">23</xref>]. In mice, dystrobrevin-&#x3B1; knockout leads to a mild form of dystrophy associated with impaired DGC-dependent signaling, but no disruption of DGC at the sarcolemma [<xref ref-type="bibr" rid="B24-cells-06-00010">24</xref>]. One can thus expect that lower <italic>Dtna</italic> expression would lead to reduced expression of dystrobrevin-&#x3B1; and consequently affect DGC-dependent signaling, including those related to calmodulin kinase II, focal adhesion kinase, mitogen-activated protein kinase kinase 2, neuronal nitric oxide synthase PIP2, and phosphatidylinositol 4,5-bisphosphate [<xref ref-type="bibr" rid="B25-cells-06-00010">25</xref>].</p>
+        <p>Taking into account the diversity of signaling pathways (MEF2C, MyoD, PGC1&#x3B1;, and dystrobrevin-&#x3B1;) altered in response to mutant lamin A, one might expect muscle alterations at different levels, including fiber type specification, muscle fiber contraction, and muscle endurance capacity.</p>
+      </sec>
+      <sec id="sec4dot3-cells-06-00010">
+        <title>4.3. Mechanisms Underlying Deregulation of Key Genes upon Expression of R388P Mutant Lamin A</title>
+        <p>In nuclei, A-type lamins are mainly detected as a major pool underlying the nuclear envelope and another pool distributed throughout the nucleoplasm. By which mechanism could mutant lamin A alter expression of a subset of genes including <italic>Myh2</italic>, <italic>MyoD</italic> and <italic>Dtna</italic>? A-type lamins contribute to genome organization and modulation of local gene expression [<xref ref-type="bibr" rid="B26-cells-06-00010">26</xref>,<xref ref-type="bibr" rid="B27-cells-06-00010">27</xref>]. Moreover, the two pools of WT A-type lamins likely bind distinct chromatin types, more condensed and gene-poor at the nuclear periphery, but more open and gene-rich within the nucleoplasm [<xref ref-type="bibr" rid="B28-cells-06-00010">28</xref>]. In cells, mutant and WT lamin A have strikingly different behaviors, as illustrated by depletion from the nuclear envelope but accumulation within the nucleoplasm and increased solubilization properties of mutant lamin A [<xref ref-type="bibr" rid="B11-cells-06-00010">11</xref>]. Moreover, chromatin immunoprecipitation studies revealed striking differences in the nature of chromatin bound by mutant versus WT lamin A [<xref ref-type="bibr" rid="B21-cells-06-00010">21</xref>]. Thus, one can expect that mutant lamin A would modulate expression of a subset of genes differently than WT lamin A. </p>
+        <p>Our current working hypothesis is that mutant lamin A, by binding to distinct genome regions, alters expression of numerous genes, including <italic>Myh2</italic>, <italic>MyoD</italic>, and <italic>Dtna</italic>. Alternatively, it is possible that the distinct gene transcription profile observed in TA expressing mutant lamin A involves changes in the capacity of this mutant lamin A to interact with some of its partners [<xref ref-type="bibr" rid="B29-cells-06-00010">29</xref>] known to regulate gene expression, including HDACs (as SIRT1) [<xref ref-type="bibr" rid="B30-cells-06-00010">30</xref>] and histone methyltransferases (as suv39h1) [<xref ref-type="bibr" rid="B31-cells-06-00010">31</xref>].</p>
+      </sec>
+    </sec>
+    <sec id="sec5-cells-06-00010" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>In conclusion, the major change we observed in a TA transiently expressing mutant compared to WT lamin A was a decreased amount of fast oxidative muscle fibers, which express MHC IIA. Moreover, gene expression analysis suggested altered MyoD-MEF2C expression/function at the core of the TA fiber type alteration. At last, we propose from our data that viral-mediated expression of lamin A in mouse skeletal muscles can be considered as an alternative pertinent model to reveal specific muscle alterations due to lamin A mutants. </p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>This work was supported by the Association Fran&#xE7;aise Contre les Myopathies (S.B.P. and P.V., Grant No. 15454), Centre National de la Recherche Scientifique (CNRS), and University Paris Diderot Paris 7.</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>A.B., S.B.-P., and B.B. conceived and designed experiments; A.B., N.V., and S.B.-P. performed experiments; A.B. and B.B. analyzed data; O.A. and P.V. contributed reagents/materials/analysis tools; and A.B. and B.B. wrote the paper.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest. The founding sponsors had no role in design of the study; in collection, analyses, or interpretation of data; in writing the manuscript; and in the decision to publish results.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-06-00010">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dechat</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Pfleghaar</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Sengupta</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Shimi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Shumaker</surname>
+              <given-names>D.K.</given-names>
+            </name>
+            <name>
+              <surname>Solimando</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>R.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nuclear lamins: Major factors in the structural organization and function of the nucleus and chromatin</article-title>
+          <source>Genes Dev.</source>
+          <year>2008</year>
+          <volume>22</volume>
+          <fpage>832</fpage>
+          <lpage>853</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.1652708</pub-id>
+          <pub-id pub-id-type="pmid">18381888</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-cells-06-00010">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gruenbaum</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Foisner</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lamins: Nuclear intermediate filament proteins with fundamental functions in nuclear mechanics and genome regulation</article-title>
+          <source>Annu. Rev. Biochem.</source>
+          <year>2015</year>
+          <volume>84</volume>
+          <fpage>131</fpage>
+          <lpage>164</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev-biochem-060614-034115</pub-id>
+          <pub-id pub-id-type="pmid">25747401</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-cells-06-00010">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Worman</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Bonne</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>&#x201C;Laminopathies&#x201D;: A wide spectrum of human diseases</article-title>
+          <source>Exp. Cell Res.</source>
+          <year>2007</year>
+          <volume>313</volume>
+          <fpage>2121</fpage>
+          <lpage>2133</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.yexcr.2007.03.028</pub-id>
+          <pub-id pub-id-type="pmid">17467691</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-cells-06-00010">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Kieckhaefer</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mouse models of laminopathies</article-title>
+          <source>Aging Cell.</source>
+          <year>2013</year>
+          <volume>12</volume>
+          <fpage>2</fpage>
+          <lpage>10</lpage>
+          <pub-id pub-id-type="doi">10.1111/acel.12021</pub-id>
+          <pub-id pub-id-type="pmid">23095062</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-cells-06-00010">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Joanne</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Chourbagi</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Hourde</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ferry</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Butler-Browne</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Vicart</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Dumonceaux</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Agbulut</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Viral-mediated expression of desmin mutants to create mouse models of myofibrillar myopathy</article-title>
+          <source>Skelet. Muscle</source>
+          <year>2013</year>
+          <volume>3</volume>
+          <fpage>4</fpage>
+          <pub-id pub-id-type="doi">10.1186/2044-5040-3-4</pub-id>
+          <pub-id pub-id-type="pmid">23425003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-cells-06-00010">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bloemberg</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Quadrilatero</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rapid determination of myosin heavy chain expression in rat, mouse, and human skeletal muscle using multicolor immunofluorescence analysis</article-title>
+          <source>PLoS ONE</source>
+          <year>2012</year>
+          <volume>7</volume>
+          <elocation-id>e35273</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0035273</pub-id>
+          <pub-id pub-id-type="pmid">22530000</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-cells-06-00010">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schiaffino</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Reggiani</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fiber types in mammalian skeletal muscles</article-title>
+          <source>Physiol. Rev.</source>
+          <year>2011</year>
+          <volume>91</volume>
+          <fpage>1447</fpage>
+          <lpage>1531</lpage>
+          <pub-id pub-id-type="doi">10.1152/physrev.00031.2010</pub-id>
+          <pub-id pub-id-type="pmid">22013216</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-cells-06-00010">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kajino</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ishihara</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Goto</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ishigaki</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Noguchi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nonaka</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Osawa</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nishino</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Hayashi</surname>
+              <given-names>Y.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Congenital fiber type disproportion myopathy caused by LMNA mutations</article-title>
+          <source>J. Neurol. Sci.</source>
+          <year>2014</year>
+          <volume>340</volume>
+          <fpage>94</fpage>
+          <lpage>98</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jns.2014.02.036</pub-id>
+          <pub-id pub-id-type="pmid">24642510</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-cells-06-00010">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ruggiero</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Fiorillo</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Tessa</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Manganelli</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Iodice</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Dubbioso</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Vitale</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Storti</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Soscia</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Santorelli</surname>
+              <given-names>F.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Muscle fiber type disproportion (FTD) in a family with mutations in the LMNA gene</article-title>
+          <source>Muscle Nerve</source>
+          <year>2015</year>
+          <volume>51</volume>
+          <fpage>604</fpage>
+          <lpage>608</lpage>
+          <pub-id pub-id-type="doi">10.1002/mus.24467</pub-id>
+          <pub-id pub-id-type="pmid">25256213</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-cells-06-00010">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Talbot</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Maves</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Skeletal muscle fiber type: Using insights from muscle developmental biology to dissect targets for susceptibility and resistance to muscle disease</article-title>
+          <source>Wiley Interdiscip. Rev. Dev. Biol.</source>
+          <year>2016</year>
+          <volume>5</volume>
+          <fpage>518</fpage>
+          <lpage>534</lpage>
+          <pub-id pub-id-type="doi">10.1002/wdev.230</pub-id>
+          <pub-id pub-id-type="pmid">27199166</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-cells-06-00010">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barateau</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Vadrot</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Vicart</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Ferreiro</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mayer</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>H&#xE9;ron</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Vigouroux</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Buendia</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>A novel lamin a mutant responsible for congenital muscular dystrophy causes distinct abnormalities of the cell nucleus</article-title>
+          <source>PLoS ONE</source>
+          <year>2017</year>
+          <volume>12</volume>
+          <elocation-id>e0169189</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0169189</pub-id>
+          <pub-id pub-id-type="pmid">28125586</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-cells-06-00010">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Favreau</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Higuet</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Courvalin</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Buendia</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression of a mutant lamin A that causes Emery-Dreifuss muscular dystrophy inhibits in vitro differentiation of C2C12 myoblasts</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <year>2004</year>
+          <volume>24</volume>
+          <fpage>1481</fpage>
+          <lpage>1492</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.24.4.1481-1492.2004</pub-id>
+          <pub-id pub-id-type="pmid">14749366</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-cells-06-00010">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Estrella</surname>
+              <given-names>N.L.</given-names>
+            </name>
+            <name>
+              <surname>Desjardins</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Nocco</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Clark</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Maksimenko</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Naya</surname>
+              <given-names>F.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>MEF2 transcription factors regulate distinct gene programs in mammalian skeletal muscle differentiation</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2015</year>
+          <volume>290</volume>
+          <fpage>1256</fpage>
+          <lpage>1268</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M114.589838</pub-id>
+          <pub-id pub-id-type="pmid">25416778</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-cells-06-00010">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Potthoff</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Arnold</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Shelton</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Backs</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>McAnally</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Richardson</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Bassel-Duby</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Olson</surname>
+              <given-names>E.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Histone deacetylase degradation and MEF2 activation promote the formation of slow-twitch myofibers</article-title>
+          <source>J. Clin. Investig.</source>
+          <year>2007</year>
+          <volume>117</volume>
+          <fpage>2459</fpage>
+          <lpage>2467</lpage>
+          <pub-id pub-id-type="doi">10.1172/JCI31960</pub-id>
+          <pub-id pub-id-type="pmid">17786239</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-cells-06-00010">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Macpherson</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Marvin</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Meadows</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Klein</surname>
+              <given-names>W.H.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>X.J.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>A histone deacetylase 4/myogenin positive feedback loop coordinates denervation-dependent gene induction and suppression</article-title>
+          <source>Mol. Biol. Cell</source>
+          <year>2009</year>
+          <volume>20</volume>
+          <fpage>1120</fpage>
+          <lpage>1131</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.E08-07-0759</pub-id>
+          <pub-id pub-id-type="pmid">19109424</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-cells-06-00010">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mejat</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ramond</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Bassel-Duby</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Khochbin</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Olson</surname>
+              <given-names>E.N.</given-names>
+            </name>
+            <name>
+              <surname>Schaeffer</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Histone deacetylase 9 couples neuronal activity to muscle chromatin acetylation and gene expression</article-title>
+          <source>Nat. Neurosci.</source>
+          <year>2005</year>
+          <volume>8</volume>
+          <fpage>313</fpage>
+          <lpage>321</lpage>
+          <pub-id pub-id-type="doi">10.1038/nn1408</pub-id>
+          <pub-id pub-id-type="pmid">15711539</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-cells-06-00010">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Sternsdorf</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Bolger</surname>
+              <given-names>T.A.</given-names>
+            </name>
+            <name>
+              <surname>Evans</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>T.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of MEF2 by histone deacetylase 4-and SIRT1 deacetylase-mediated lysine modifications</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <year>2005</year>
+          <volume>25</volume>
+          <fpage>8456</fpage>
+          <lpage>8464</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.25.19.8456-8464.2005</pub-id>
+          <pub-id pub-id-type="pmid">16166628</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-cells-06-00010">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gundersen</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Excitation-transcription coupling in skeletal muscle: The molecular pathways of exercise</article-title>
+          <source>Biol. Rev. Camb. Philos. Soc.</source>
+          <year>2011</year>
+          <volume>86</volume>
+          <fpage>564</fpage>
+          <lpage>600</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1469-185X.2010.00161.x</pub-id>
+          <pub-id pub-id-type="pmid">21040371</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-cells-06-00010">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grifone</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Laclef</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Spitz</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Lopez</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Demignon</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Guidotti</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Kawakami</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>P.X.</given-names>
+            </name>
+            <name>
+              <surname>Kelly</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Petrof</surname>
+              <given-names>B.J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Six1 and Eya1 expression can reprogram adult muscle from the slow-twitch phenotype into the fast-twitch phenotype</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <year>2004</year>
+          <volume>24</volume>
+          <fpage>6253</fpage>
+          <lpage>6267</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.24.14.6253-6267.2004</pub-id>
+          <pub-id pub-id-type="pmid">15226428</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-cells-06-00010">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rees</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Lien</surname>
+              <given-names>C.F.</given-names>
+            </name>
+            <name>
+              <surname>Gorecki</surname>
+              <given-names>D.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dystrobrevins in muscle and non-muscle tissues</article-title>
+          <source>Neuromuscul. Disord.</source>
+          <year>2007</year>
+          <volume>17</volume>
+          <fpage>123</fpage>
+          <lpage>134</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.nmd.2006.11.003</pub-id>
+          <pub-id pub-id-type="pmid">17251025</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-cells-06-00010">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Paulsen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sekelja</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Oldenburg</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Barateau</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Briand</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Delbarre</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Shah</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sorensen</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Vigouroux</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Buendia</surname>
+              <given-names>B.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Chrom3D: Three dimensional genome modeling from Hi-C and nuclear lamin-genome contacts</article-title>
+          <source>Genome Biol.</source>
+          <year>2017</year>
+          <volume>18</volume>
+          <fpage>21</fpage>
+          <pub-id pub-id-type="doi">10.1186/s13059-016-1146-2</pub-id>
+          <pub-id pub-id-type="pmid">28137286</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-cells-06-00010">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ichida</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Tsubata</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bowles</surname>
+              <given-names>K.R.</given-names>
+            </name>
+            <name>
+              <surname>Haneda</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Uese</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Miyawaki</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Dreyer</surname>
+              <given-names>W.J.</given-names>
+            </name>
+            <name>
+              <surname>Messina</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Bowles</surname>
+              <given-names>N.E.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Novel gene mutations in patients with left ventricular noncompaction or Barth syndrome</article-title>
+          <source>Circulation</source>
+          <year>2001</year>
+          <volume>103</volume>
+          <fpage>1256</fpage>
+          <lpage>1263</lpage>
+          <pub-id pub-id-type="doi">10.1161/01.CIR.103.9.1256</pub-id>
+          <pub-id pub-id-type="pmid">11238270</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-cells-06-00010">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Requena</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Cabrera</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Martin-Sierra</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Price</surname>
+              <given-names>S.D.</given-names>
+            </name>
+            <name>
+              <surname>Lysakowski</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lopez-Escamez</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of two novel mutations in FAM136A and DTNA genes in autosomal-dominant familial Meniere&#x2019;s disease</article-title>
+          <source>Hum. Mol. Genet.</source>
+          <year>2015</year>
+          <volume>24</volume>
+          <fpage>1119</fpage>
+          <lpage>1126</lpage>
+          <pub-id pub-id-type="doi">10.1093/hmg/ddu524</pub-id>
+          <pub-id pub-id-type="pmid">25305078</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-cells-06-00010">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Haenggi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Fritschy</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role ofrophin and utrophin for assembly and function of the dystrophin glycoprotein complex in non-muscle tissue</article-title>
+          <source>Cell. Mol. Life Sci.</source>
+          <year>2006</year>
+          <volume>63</volume>
+          <fpage>1614</fpage>
+          <lpage>1631</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00018-005-5461-0</pub-id>
+          <pub-id pub-id-type="pmid">16710609</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-cells-06-00010">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bhatnagar</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Therapeutic targeting of signaling pathways in muscular dystrophy</article-title>
+          <source>J. Mol. Med. (Berl.)</source>
+          <year>2010</year>
+          <volume>88</volume>
+          <fpage>155</fpage>
+          <lpage>166</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00109-009-0550-4</pub-id>
+          <pub-id pub-id-type="pmid">19816663</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-cells-06-00010">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Collas</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Lund</surname>
+              <given-names>E.G.</given-names>
+            </name>
+            <name>
+              <surname>Oldenburg</surname>
+              <given-names>A.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Closing the (nuclear) envelope on the genome: How nuclear lamins interact with promoters and modulate gene expression</article-title>
+          <source>Bioessays</source>
+          <year>2013</year>
+          <volume>36</volume>
+          <fpage>75</fpage>
+          <lpage>83</lpage>
+          <pub-id pub-id-type="doi">10.1002/bies.201300138</pub-id>
+          <pub-id pub-id-type="pmid">24272858</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-cells-06-00010">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lund</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Oldenburg</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Delbarre</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Freberg</surname>
+              <given-names>C.T.</given-names>
+            </name>
+            <name>
+              <surname>Duband-Goulet</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Eskeland</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Buendia</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Collas</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lamin A/C-promoter interactions specify chromatin state-dependent transcription outcomes</article-title>
+          <source>Genome Res.</source>
+          <year>2013</year>
+          <volume>23</volume>
+          <fpage>1580</fpage>
+          <lpage>1589</lpage>
+          <pub-id pub-id-type="doi">10.1101/gr.159400.113</pub-id>
+          <pub-id pub-id-type="pmid">23861385</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-cells-06-00010">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lund</surname>
+              <given-names>E.G.</given-names>
+            </name>
+            <name>
+              <surname>Duband-Goulet</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Oldenburg</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Buendia</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Collas</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Distinct features of lamin A-interacting chromatin domains mapped by ChIP-sequencing from sonicated or micrococcal nuclease-digested chromatin</article-title>
+          <source>Nucleus</source>
+          <year>2015</year>
+          <volume>6</volume>
+          <fpage>30</fpage>
+          <lpage>39</lpage>
+          <pub-id pub-id-type="doi">10.4161/19491034.2014.990855</pub-id>
+          <pub-id pub-id-type="pmid">25602132</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-cells-06-00010">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Simon</surname>
+              <given-names>D.N.</given-names>
+            </name>
+            <name>
+              <surname>Wilson</surname>
+              <given-names>K.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Partners and post-translational modifications of nuclear lamins</article-title>
+          <source>Chromosoma.</source>
+          <year>2013</year>
+          <volume>122</volume>
+          <fpage>13</fpage>
+          <lpage>31</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00412-013-0399-8</pub-id>
+          <pub-id pub-id-type="pmid">23475188</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-cells-06-00010">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Ghosh</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Jin</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Kennedy</surname>
+              <given-names>B.K.</given-names>
+            </name>
+            <name>
+              <surname>Suh</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Resveratrol rescues SIRT1-dependent adult stem cell decline and alleviates progeroid features in laminopathy-based progeria</article-title>
+          <source>Cell. Metab.</source>
+          <year>2012</year>
+          <volume>16</volume>
+          <fpage>738</fpage>
+          <lpage>750</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cmet.2012.11.007</pub-id>
+          <pub-id pub-id-type="pmid">23217256</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-cells-06-00010">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ghosh</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Depleting the methyltransferase Suv39h1 improves DNA repair and extends lifespan in a progeria mouse model</article-title>
+          <source>Nat. Commun.</source>
+          <year>2013</year>
+          <volume>4</volume>
+          <fpage>1868</fpage>
+          <pub-id pub-id-type="doi">10.1038/ncomms2885</pub-id>
+          <pub-id pub-id-type="pmid">23695662</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Table</title>
+      <fig id="cells-06-00010-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Impact of Adeno-associated virus (AAV)-mediated lamin A (LA) expression on phenotypes of mouse Tibialis anterior (TA) muscles. (<bold>a</bold>) Western blot analysis of whole protein extracts of TA transduced with AAV-LA wild-type (WT) or mutant R388P (RP) tagged with FLAG. Ectopic lamin A (arrows) was detected using either anti-FLAG or anti-lamin A/C antibodies. Endogenous lamin A/C (brackets) was detected using anti-lamin A/C antibodies. Desmin and GAPDH were used as loading controls. (<bold>b</bold>) In situ detection of ectopic lamin A using anti-FLAG antibodies on transverse sections of TA expressing WT or mutant lamin A. Scale bar represents 20 &#x3BC;m. (<bold>c</bold>) Representative images show in situ detection of ectopic lamins, perlecan, and DNA, in a TA muscle section upon expression of WT lamin A. Scale bar represents 500 &#x3BC;m. Areas indicated by white squares are magnified in right panels, where scale bar represents 100 &#x3BC;m. Graph shows the mean percentage of FLAG-positive areas detected on transverse sections (<italic>n</italic> = 8&#x2013;9). (<bold>d</bold>) Quantification of mouse body weight, TA muscle weight, mean number of fibers, mean minimal Feret&#x2019;s diameter, and mean variance coefficient of myofiber diameter in transverse TA muscle sections upon expression of WT or mutant lamin A (<italic>n</italic> = 10&#x2013;11).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-06-00010-g001.tif"/>
+      </fig>
+      <fig id="cells-06-00010-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Inflammation, regeneration, and fibrosis in mouse TA muscles expressing AAV-mediated lamin A. (<bold>a</bold>) examples of hematoxylin and eosin staining of transverse muscle sections expressing WT (upper) or R388P mutant (lower) lamin A. (<bold>b</bold>) in situ detection of A-type lamins (ectopic and endogenous; green) and perlecan (grey) on transverse muscle sections expressing WT or R388P lamin A. (<bold>c</bold>) mean percentage &#xB1; s.e.m. of myofibers with central nuclei (<italic>n</italic> = 6&#x2013;7). (<bold>d</bold>) mean percentage &#xB1; s.e.m of muscle section areas showing patterns of inflammation (<italic>n</italic> = 7&#x2013;8). (<bold>e</bold>) examples of Sirius Red staining of transverse muscle sections expressing WT (upper) or mutant (lower) lamin A. Scale bars represent 100 &#x3BC;m.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-06-00010-g002.tif"/>
+      </fig>
+      <fig id="cells-06-00010-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Fiber type distribution analyses in mouse TA muscles expressing AAV-mediated lamin A. (<bold>a</bold>) Representative image show the staining for succinate dehydrogenase (SDH) activity in a transverse sections of TA muscle upon expression of mutant lamin A. Labels of s, i, and w indicating strong, intermediate, and weak SDH staining, respectively. Scale bar represents 100 &#x3BC;m. (<bold>b</bold>) Mean percentage &#xB1; s.e.m of fibers with SDH activity relative to total number of fibers in a muscle section expressing WT or R388P mutant lamin A (<italic>n</italic> = 8&#x2013;11 muscles). (<bold>c</bold>,<bold>d</bold>) Representative images show the staining in successive transverse sections of TA muscle upon expression of mutant lamin A for SDH and Myosin heavy chain (MHC) isoforms MHC I, MHC IIA, MHC IIX, or MHC IIB. Perlecan staining delimited individual fibers. Scale bars represent 50 &#x3BC;m. (<bold>e</bold>) Mean percentage &#xB1; s.e.m of fibers expressing MHC I, MHC IIA, MHC IIX, or MHC IIB relative to total number of fibers in a muscle section expressing WT or R388P mutant lamin A (<italic>n</italic> = 8&#x2013;11 muscles). ** <italic>p</italic> &lt; 0.05 (Mann&#x2013;Whitney test).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-06-00010-g003.tif"/>
+      </fig>
+      <fig id="cells-06-00010-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Gene expression related to fiber type determination in TA expressing WT or R388P mutant lamin A. Graphs depict mRNA levels normalized to 18S rRNA for (<bold>a</bold>) <italic>Myh2</italic>, <italic>Myh1</italic>, and <italic>Myh4</italic> mRNAs encoding myosin heavy chains isoforms MHC IIA, MHC IIX, and MHC IIB, respectively; (<bold>b</bold>) <italic>Mef2c</italic>, <italic>Mef2d</italic>, and <italic>Myog</italic> mRNAs encoding key muscle transcription factors MEF2C, MEF2d and Myogenin, respectively; (<bold>c</bold>) <italic>Hdac1</italic>, <italic>Hdac9</italic>, and <italic>Sirt1</italic> mRNAs encoding histone deacetylases HDAC 1, HDAC 9 and SIRT1, respectively; (<bold>d</bold>) <italic>MyoD</italic>, <italic>Six1</italic>, and <italic>Eya1</italic> mRNAs encoding Myod and related co-factors SIX1 and Eya1, respectively; and (<bold>e</bold>) <italic>Ppargc1a</italic> and <italic>Dtna</italic> mRNAs encoding two proteins related to muscular atrophy and dystrophy, PGC1&#x3B1; and Dystrobrevin &#x3B1;, respectively. Data represent mean &#xB1; s.e.m (<italic>n</italic> = 12 for WT lamin A; <italic>n</italic> = 10 for mutant lamin A). * <italic>p</italic> = 0.05; ** <italic>p</italic> &lt; 0.05.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-06-00010-g004a.tif"/>
+		<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-06-00010-g004b.tif"/>
+      </fig>
+      <fig id="cells-06-00010-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Expression pathways for genes encoding key factors related to <italic>Myh2</italic> and MHC IIA expression that are induced by expression of mutant lamin A in mouse TA. Bold, italic, green text indicates no change in mRNA expression; bold, italic, red text indicates reduced mRNA expression. Dashed lines indicate hypothetical altered pathways that decrease levels of <italic>Myh2</italic> mRNA and MHC IIA.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-06-00010-g005.tif"/>
+      </fig>
+      <table-wrap id="cells-06-00010-t001" position="float">
+        <object-id pub-id-type="pii">cells-06-00010-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Primers used for qRT-PCR.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Gene</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Forward Primer (5&#x2032;&#x2026; 3&#x2032;)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Reverse Primer (5&#x2032;&#x2026; 3&#x2032;)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle"><italic>18S rRNA</italic></td>
+              <td align="center" valign="middle"><italic>CGGCTACCACATCCAAGGAA</italic></td>
+              <td align="center" valign="middle"><italic>TATACGCTATTGGAGCTGGAA</italic></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Myh2</italic></td>
+              <td align="center" valign="middle"><italic>AAAGCTCCAAGGACCCTCTT</italic></td>
+              <td align="center" valign="middle"><italic>AGCTCATGACTGCTGAACTC</italic></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Myh1</italic></td>
+              <td align="center" valign="middle"><italic>CCAAGGAGGAGGAACAGCAG</italic></td>
+              <td align="center" valign="middle"><italic>TTTCGTCTAGCTGGCGTGAG</italic></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Myh4</italic></td>
+              <td align="center" valign="middle"><italic>GTCCTTCCTCAAACCCTTAAAGT</italic></td>
+              <td align="center" valign="middle"><italic>ATCTCAGCGTCGGAACTCAT</italic></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Mef2c</italic></td>
+              <td align="center" valign="middle"><italic>AGAGTTTGGACAACAAAGCCC</italic></td>
+              <td align="center" valign="middle"><italic>CACGCTTCACTTCATCTCTCC</italic></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Mef2d</italic></td>
+              <td align="center" valign="middle"><italic>AGGGAGGCAAAGGGTTAATGC</italic></td>
+              <td align="center" valign="middle"><italic>CCTGGCTGAGTAAACTTGGTG</italic></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Myog</italic></td>
+              <td align="center" valign="middle"><italic>GTCCCAACCCAGGAGATCAT</italic></td>
+              <td align="center" valign="middle"><italic>CTGTCCACGATGGACGTAAG</italic></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Myod</italic></td>
+              <td align="center" valign="middle"><italic>CTGCTCTGATGGCATGATGG</italic></td>
+              <td align="center" valign="middle"><italic>TGTAGTAGGCGGTGTCGTAG</italic></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Six1</italic></td>
+              <td align="center" valign="middle"><italic>AAGAACGAGAGCGTGCTCAA</italic></td>
+              <td align="center" valign="middle"><italic>CATCCCTTCAAGGCCCCAAT</italic></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Eya1</italic></td>
+              <td align="center" valign="middle"><italic>TGGCCCTACCCCTTCCCCAC</italic></td>
+              <td align="center" valign="middle"><italic>TGACAATCCACTTTCCGTCTT</italic></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Hdac1</italic></td>
+              <td align="center" valign="middle"><italic>TACTACGACGGGGATGTTGGAAAC</italic></td>
+              <td align="center" valign="middle"><italic>TCCTCAGCATTGGCTTTGTGA</italic></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Hdac9</italic></td>
+              <td align="center" valign="middle"><italic>GCGGTCCAGGTTAAAACAGA</italic></td>
+              <td align="center" valign="middle"><italic>GAGCTGAAGCCTCATTTTCG</italic></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Sirt1</italic></td>
+              <td align="center" valign="middle"><italic>AGAACCACCAAAGCGGAAA</italic></td>
+              <td align="center" valign="middle"><italic>TCCCACAGGAGACAGAAACC</italic></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Ppargc1a</italic></td>
+              <td align="center" valign="middle"><italic>CGGAAATCATATCCAACCAG</italic></td>
+              <td align="center" valign="middle"><italic>TGAGGACCGCTAGCAAGTTTG</italic></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Dtna</italic></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>GCAGAGATGAGGGCTCAAG</italic></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>TGACGTTCCAAATGTCCACC</italic></td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

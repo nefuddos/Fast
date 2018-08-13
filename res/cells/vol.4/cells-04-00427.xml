@@ -1,0 +1,2603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells4030427</article-id>
+      <article-id pub-id-type="publisher-id">cells-04-00427</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Mitochondrial Impairment May Increase Cellular NAD(P)H: Resazurin Oxidoreductase Activity, Perturbing the NAD(P)H-Based Viability Assays</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Aleshin</surname>
+            <given-names>Vasily A.</given-names>
+          </name>
+          <xref rid="af1-cells-04-00427" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Artiukhov</surname>
+            <given-names>Artem V.</given-names>
+          </name>
+          <xref rid="af1-cells-04-00427" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Oppermann</surname>
+            <given-names>Henry</given-names>
+          </name>
+          <xref rid="af2-cells-04-00427" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kazantsev</surname>
+            <given-names>Alexey V.</given-names>
+          </name>
+          <xref rid="af3-cells-04-00427" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lukashev</surname>
+            <given-names>Nikolay V.</given-names>
+          </name>
+          <xref rid="af3-cells-04-00427" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bunik</surname>
+            <given-names>Victoria I.</given-names>
+          </name>
+          <xref rid="af1-cells-04-00427" ref-type="aff">1</xref>
+          <xref rid="af4-cells-04-00427" ref-type="aff">4</xref>
+          <xref rid="c1-cells-04-00427" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Grant</surname>
+            <given-names>Ross</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-04-00427"><label>1</label>Faculty of Bioengineering and Bioinformatics, Lomonosov Moscow State University, Moscow 119234, Russia; E-Mails: <email>aleshin_vasily@mail.ru</email> (V.A.A.); <email>whitelord32br@gmail.com</email> (A.V.A.)</aff>
+      <aff id="af2-cells-04-00427"><label>2</label>Neurosurgical clinic and polyclinic, Leipzig University Clinic, Leipzig 04103, Germany; E-Mail: <email>henry.oppermann@medizin.uni-leipzig.de</email></aff>
+      <aff id="af3-cells-04-00427"><label>3</label>Faculty of Chemistry, Lomonosov Moscow State University, Moscow 119234, Russia; E-Mails: <email>mak@org.chem.msu.ru</email> (A.V.K.); <email>nvlukashev@gmail.com</email> (N.V.L.)</aff>
+      <aff id="af4-cells-04-00427"><label>4</label>A.N. Belozersky Institute of Physicochemical Biology, Lomonosov Moscow State University, Moscow 119234, Russia</aff>
+      <author-notes>
+        <corresp id="c1-cells-04-00427"><label>*</label>Author to whom correspondence should be addressed; E-Mail: <email>bunik@belozersky.msu.ru</email>; Tel.: +7-495-939-4484.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>21</day>
+        <month>08</month>
+        <year>2015</year>
+      </pub-date>
+      <pub-date pub-type="collection">        <month>09</month>
+        <year>2015</year>
+      </pub-date>
+      <volume>4</volume>
+      <issue>3</issue>
+      <fpage>427</fpage>
+      <lpage>451</lpage>
+      <history>
+        <date date-type="received">
+          <day>14</day>
+          <month>07</month>
+          <year>2015</year>
+        </date>
+        <date date-type="accepted">
+          <day>12</day>
+          <month>08</month>
+          <year>2015</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2015 by the authors.</copyright-statement>
+        <copyright-year>2015</copyright-year>
+        <license license-type="open-access">
+          <p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Cellular NAD(P)H-dependent oxidoreductase activity with artificial dyes (NAD(P)H-OR) is an indicator of viability, as the cellular redox state is important for biosynthesis and antioxidant defense. However, high NAD(P)H due to impaired mitochondrial oxidation, known as reductive stress, should increase NAD(P)H-OR yet perturb viability. To better understand this complex behavior, we assayed NAD(P)H-OR with resazurin (Alamar Blue) in glioblastoma cell lines U87 and T98G, treated with inhibitors of central metabolism, oxythiamin, and phosphonate analogs of 2-oxo acids. Targeting the thiamin diphosphate (ThDP)-dependent enzymes, the inhibitors are known to decrease the NAD(P)H production in the pentose phosphate shuttle and/or upon mitochondrial oxidation of 2-oxo acids. Nevertheless, the inhibitors elevated NAD(P)H-OR with resazurin in a time- and concentration-dependent manner, suggesting impaired NAD(P)H oxidation rather than increased viability. In particular, inhibition of the ThDP-dependent enzymes affects metabolism of malate, which mediates mitochondrial oxidation of cytosolic NAD(P)H. We showed that oxythiamin not only inhibited mitochondrial 2-oxo acid dehydrogenases, but also induced cell-specific changes in glutamate and malate dehydrogenases and/or malic enzyme. As a result, inhibition of the 2-oxo acid dehydrogenases compromises mitochondrial metabolism, with the dysregulated electron fluxes leading to increases in cellular NAD(P)H-OR. Perturbed mitochondrial oxidation of NAD(P)H may thus complicate the NAD(P)H-based viability assay.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>glioblastoma viability</kwd>
+        <kwd>cellular NAD(P)H-dependent oxidoreductase</kwd>
+        <kwd>metabolon</kwd>
+        <kwd>thiamin</kwd>
+        <kwd>oxythiamin</kwd>
+        <kwd>2-oxo acid dehydrogenase</kwd>
+        <kwd>phosphonate analog of 2-oxo acid</kwd>
+        <kwd>resazurin</kwd>
+        <kwd>T98G</kwd>
+        <kwd>U87</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-cells-04-00427" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Pyridine nucleotides, such as nicotinamide adenine dinucleotide or its ribose-2&#x2032;-phosphorylated derivative, are universal electron donors/acceptors in cellular processes. They undergo reversible oxidation-reduction in a number of biological reactions and are therefore abundant in cells. The majority of cellular dehydrogenases use either the oxidized, NAD(P)<sup>+</sup>, or reduced, NAD(P)H, form of pyridine nucleotides as a substrate. Electrons from catabolic pathways are usually transferred to NAD<sup>+</sup>, while NADPH is used for cellular biosynthesis, with the electron exchange between NADH and NADPH catalyzed by transhydrogenases. The ratio of NAD(P)H/NAD(P)<sup>+</sup> is tightly linked to the less abundant and/or more cell-specific redox components of a cell, such as FADH<sub>2</sub>/FAD or lactate/pyruvate couples. As a result, the steady-state ratio NAD(P)H/NAD(P)<sup>+</sup> is an important parameter of cellular physiology, integrating information on the catabolic efficiency and biosynthetic potential of a cell. It is therefore not surprising that natural homeostatic mechanisms employ pyridine nucleotides in signaling reactions. They include formation of secondary messengers, such as nicotinic acid adenine dinucleotide phosphate (NAADP<sup>+</sup>) [<xref ref-type="bibr" rid="B1-cells-04-00427">1</xref>] or ROS [<xref ref-type="bibr" rid="B2-cells-04-00427">2</xref>,<xref ref-type="bibr" rid="B3-cells-04-00427">3</xref>], and regulation of protein post-translational modifications, such as deacetylation of proteins by sirtuins [<xref ref-type="bibr" rid="B4-cells-04-00427">4</xref>,<xref ref-type="bibr" rid="B5-cells-04-00427">5</xref>,<xref ref-type="bibr" rid="B6-cells-04-00427">6</xref>], or mono- and poly-ADP-ribosylation of proteins upon DNA damage [<xref ref-type="bibr" rid="B7-cells-04-00427">7</xref>]. While redox reactions change the NAD(P)H/NAD(P)<sup>+</sup> ratio reversibly, the signaling processes mentioned above also affect the total pyridine nucleotide pool by consuming NAD<sup>+</sup>. As a result, dysfunctional cells are characterized by a changed level of reduction and depletion of total pool of the pyridine nucleotides, which prime the cells to enter the death pathway.</p>
+      <p>This phenomenon underlies existing methods of monitoring cellular viability through the NAD(P)H-dependent reduction of artificial dyes&#x2014;a side reaction catalyzed by a number of cellular dehydrogenases [<xref ref-type="bibr" rid="B8-cells-04-00427">8</xref>,<xref ref-type="bibr" rid="B9-cells-04-00427">9</xref>]. A decreased flux of electrons to this side reaction may be due to both the lower level of NAD(P)H in each cell of low viability and the associated reduction in total cell number. Hence, the side reaction may be employed to measure cellular viability and death. However, the interpretation of an increased flux of electrons to the dye reduction is less obvious and usually not considered. Is the increase a sign of a higher biosynthetic and antioxidant potency, or of a disturbed homeostasis, such as reductive stress? While oxidative stress is characterized by insufficient NAD(P)H due to increased ROS production, reductive stress refers to increased NAD(P)H which cannot be properly oxidized. Reductive stress also leads to increased ROS, reflecting cellular inability to use the high redox for normal oxidative metabolism. This is known to occur under pathological conditions, such as hypoxia or dysfunction of the NADH-oxidizing mitochondrial enzymes, e.g., complex I and downstream components of the respiratory chain. However, perturbation of NAD(P)H oxidation due to organization of metabolic pathways within supramolecular enzyme structures, metabolons [<xref ref-type="bibr" rid="B10-cells-04-00427">10</xref>,<xref ref-type="bibr" rid="B11-cells-04-00427">11</xref>,<xref ref-type="bibr" rid="B12-cells-04-00427">12</xref>], has received less attention in this regard.</p>
+      <p>We hypothesize that structural organization of metabolic pathways causes non-equivalence of the NAD(P)H sources for the NAD(P)H oxidation pathways, such that oxidizing enzymes preferably use NAD(P)H from their partner producers. Hence, if a partner NAD(P)H producer is inactivated, the evolutionary optimized metabolic flux cannot be re-established <italic>in vivo</italic> due to the chemistry-driven increase of the NAD(P)H production from other sources. The sub-optimal oxidation of NAD(P)H outside specific metabolons may therefore lead to reductive stress also when the NAD(P)H producers are inhibited, while the NAD(P)H oxidizers are not. In the present work, we test this hypothesis using a model of metabolic impairment caused by inhibition of the NAD(P)H producers. Cells were treated with inhibitors of the mitochondrial NADH-producing 2-oxo acid dehydrogenases or with oxythiamin, which inhibits not only the 2-oxo acid dehydrogenases, but also transketolase essential for cytosolic NADPH production in the pentose phosphate shuttle. Applying the inhibitors, we could observe the condition-dependent increases of the electron flux to a tetrazolium dye resazurin (Alamar Blue). Cellular reduction of the dye to resorufin, catalyzed by intracellular NAD(P)H-dependent oxidoreductases, is used to test cellular viability in commercially available tests, such as the CellTiterBlue test (Promega) used in our work. Our data point to the significance of the intact mitochondrial metabolism and metabolic interaction between mitochondria and cytosol for the resazurin reduction to be a measure of cellular viability. When the NADH production in the tricarboxylic acid cycle and affiliated 2-oxo acid dehydrogenase reactions is disturbed, other reactions can compensate for the NAD(P)H normally produced by these enzymes. As a result, the resazurin reduction by cells is constant or even increased, but this does not correspond to unchanged or higher cellular viability. Rather, the electron flux to the dye may increase due to perturbed mitochondrial network of the NAD(P)H-dependent reactions. Appropriate caution is thus required when using resazurin reduction as a measure of cellular viability.</p>
+    </sec>
+    <sec id="sec2-cells-04-00427">
+      <title>2. Experimental Section</title>
+      <sec id="sec2dot1-cells-04-00427">
+        <title>2.1. Synthesis of the Phosphonate Analogs of Pyruvate</title>
+        <p><italic>O</italic>,<italic>O</italic>&#x2032;-Dimethyl acetylphosphonate (<bold>AcPMe<sub>2</sub></bold>) was obtained according to [<xref ref-type="bibr" rid="B13-cells-04-00427">13</xref>]. A mixture of dimethyl phosphite and ethyl vinyl ether was added dropwise to acetyl chloride at 0 &#xB0;C. The reaction mixture was stirred at ambient temperature for 48 h. The product was purified by vacuum distillation with 72% yield, b.p. 47&#x2013;48 &#xB0;C/0.9 mm, purity &gt;95%. <sup>1</sup>H-NMR (400 MHz, CDCl<sub>3</sub>), &#x3B4;, ppm: 3.84 (d, <italic>J</italic> = 10.8 Hz, 6H, (CH3O)<sub>2</sub>P(O)), 2.46 (d, <italic>J</italic> = 5.3 Hz, 3H, C(O)CH<sub>3</sub>); <sup>31</sup>P-NMR (161.9 MHz, CDCl<sub>3</sub>), &#x3B4;, ppm: &#x2212;1.0.</p>
+        <p><italic>O</italic>-Methyl sodium acetylphosphonate (<bold>AcPMe</bold>) was prepared according to [<xref ref-type="bibr" rid="B14-cells-04-00427">14</xref>]. Sodium iodide in dry acetone was added dropwise to a solution of <italic>O</italic>,<italic>O</italic>&#x2032;-dimethyl acetylphosphonate in dry acetone with stirring at 0 &#xB0;C. The reaction mixture was stirred for 18 h at ambient temperature. The precipitate was filtered off, washed with dry acetone and dried under vacuum. The yield of <italic>O</italic>-methyl sodium acetylphosphonate was 94%, m.p. 190&#x2013;191 &#xB0;C, purity &gt;97%. <sup>1</sup>H-NMR (400 MHz, DMSO-<italic>d</italic><sub>6</sub>), &#x3B4;, ppm: 3.34 (d, <italic>J</italic> 10.0 Hz, 3H, (CH<sub>3</sub>O)P(O)), 2.15 (d, <italic>J</italic> 3.5 Hz, 3H, C(O)CH<sub>3</sub>); <sup>13</sup>C-NMR (100.6 MHz, D<sub>2</sub>O), &#x3B4;, ppm: 220.1 (d, <italic>J</italic> 163.6 Hz, <underline>C</underline>(O)CH<sub>3</sub>), 52.9 (d, <italic>J</italic> 5.9 Hz, (CH<sub>3</sub>O)P(O)), 30.3 (d, <italic>J</italic> 49.7 Hz, C(O)<underline>C</underline>H<sub>3</sub>); <sup>31</sup>P-NMR (161.9 MHz, DMSO-<italic>d<sub>6</sub></italic>), &#x3B4;, ppm: &#x2212;0.5.</p>
+      </sec>
+      <sec id="sec2dot2-cells-04-00427">
+        <title>2.2. Synthesis of the Phosphonate Analogs of 3-Methyl-2-Oxovalerate (&#x201C;Ketoisoleucine&#x201D;)</title>
+        <p><italic>O</italic>-Methyl sodium (2-methylbutanoyl)phosphonate (<bold>2-MBPMe</bold>) was prepared from <italic>O</italic>,<italic>O</italic>&#x2032;-dimethyl (2-methylbutanoyl)phosphonate and sodium iodide in dry acetone according to [<xref ref-type="bibr" rid="B14-cells-04-00427">14</xref>] with 74% yield, m.p. 205&#x2013;206 &#xB0;C, and purity &gt;97%. <sup>1</sup>H-NMR (400 MHz, D<sub>2</sub>O), &#x3B4;, ppm: 3.65 (d, <italic>J</italic> = 10.5 Hz, 3H, (CH<sub>3</sub>O)P(O), 3.14 (m, 1H, C<underline>H</underline>CH<sub>3</sub>), 1.79 (m, 1H, C<underline>H</underline><sub>2</sub>CH<sub>3</sub>), 1.49 (m, 1H, C<underline>H</underline><sub>2</sub>CH<sub>3</sub>), 1.13 (d, <italic>J</italic> = 7.0 Hz, 3H, CHC<underline>H</underline><sub>3</sub>,), 0.91 (t, <italic>J</italic> = 7.5 Hz, 3H, CH<sub>2</sub>C<underline>H</underline><sub>3</sub>); <sup>13</sup>C-NMR (100.6 MHz, D<sub>2</sub>O), &#x3B4;, ppm: 226.0 (d, <italic>J</italic> = 154.3 Hz, <underline>C</underline>(O)CH), 52.9 (d, <italic>J</italic> = 5.9 Hz, (CH<sub>3</sub>O)P(O)), 47.5 (d, <italic>J</italic> = 43.8 Hz, <underline>C</underline>HCH<sub>3</sub>), 24.7 (<underline>C</underline>H<sub>2</sub>CH<sub>3</sub>), 14.4 (CH(<underline>C</underline>H<sub>3</sub>)), 10.9 (CH<sub>2</sub><underline>C</underline>H<sub>3</sub>); <sup>31</sup>P-NMR (161.9 MHz, D<sub>2</sub>O), &#x3B4;, ppm: &#x2212;0.1. The precursor <italic>O</italic>,<italic>O</italic>&#x2032;-dimethyl (2-methylbutanoyl)phosphonate was prepared according to [<xref ref-type="bibr" rid="B13-cells-04-00427">13</xref>] from dimethyl phosphite, ethyl vinyl ether, and 2-methylbutanoyl chloride with 60% yield, b.p. 60&#x2013;61 &#xB0;C/0.9 mm. <sup>1</sup>H-NMR (400 MHz, CDCl<sub>3</sub>), &#x3B4;, ppm: 3.84 (d, <italic>J</italic> = 10.7 Hz, 6H, (CH<sub>3</sub>O)<sub>2</sub>P(O)), 3.01 (m, 1H, C<underline>H</underline>CH<sub>3</sub>), 1.83 (m, 1H, C<underline>H</underline><sub>2</sub>CH<sub>3</sub>), 1.44 (m, 1H, C<underline>H</underline><sub>2</sub>CH<sub>3</sub>), 1.11 (d, <italic>J</italic> = 7.0 Hz, 3H, CHC<underline>H</underline><sub>3</sub>,), 0.89 (t, <italic>J</italic> = 7.5 Hz, 3H, CH<sub>2</sub>C<underline>H</underline><sub>3</sub>,); <sup>13</sup>C-NMR (100.6 MHz, CDCl<sub>3</sub>), &#x3B4;, ppm: 213.9 (d, <italic>J</italic> = 155.9 Hz, <underline>C</underline>(O)CH), 53.8 (d, <italic>J</italic> = 6.7 Hz, (CH<sub>3</sub>O)P(O)), 53.7 (d, <italic>J</italic> = 6.7 Hz, (CH<sub>3</sub>O)P(O)), 48.1 (d, <italic>J</italic> = 52.3 Hz, <underline>C</underline>HCH<sub>3</sub>), 24.4 (<underline>C</underline>H<sub>2</sub>CH<sub>3</sub>), 14.2 (CH(<underline>C</underline>H<sub>3</sub>)), 11.2 (CH<sub>2</sub><underline>C</underline>H<sub>3</sub>); <sup>31</sup>P-NMR (161.9 MHz, CDCl<sub>3</sub>), &#x3B4;, ppm: &#x2212;0.9.</p>
+        <p><italic>O</italic>,<italic>O</italic>&#x2032;-Diethyl (2-methylbutanoyl)phosphonate (<bold>2-MBPEt<sub>2</sub></bold>) was synthesized from triethyl phosphite and 2-methylbutyryl chloride. The reaction mixture was stirred at ambient temperature for 18 h. The product was isolated by vacuum distillation with 90% yield, b.p. 69&#x2013;72 &#xB0;C/0.9 mm, and purity &gt;97%. <sup>1</sup>H-NMR (400 MHz, CDCl<sub>3</sub>), &#x3B4;, ppm: 4.20 (m, 4H, (CH<sub>3</sub>C<underline>H</underline><sub>2</sub>O)<sub>2</sub>P(O)), 3.04 (m, 1H, C<underline>H</underline>CH<sub>3</sub>), 1.83 (m, 1H, C<underline>H</underline><sub>2</sub>CH<sub>3</sub>), 1.44 (m, 1H, C<underline>H</underline><sub>2</sub>CH<sub>3</sub>), 1.35 (t, <italic>J</italic> = 7.0 Hz, 6H, (C<underline>H</underline><sub>3</sub>CH<sub>2</sub>O)<sub>2</sub>P(O)), 1.13 (d, <italic>J</italic> = 7.0 Hz, 3H, CHC<underline>H</underline><sub>3</sub>,), 0.89 (t, <italic>J</italic> = 7.5 Hz, 3H, CH<sub>2</sub>C<underline>H</underline><sub>3</sub>,); <sup>13</sup>C-NMR (100.6 MHz, CDCl<sub>3</sub>), &#x3B4;, ppm: 214.6 (d, <italic>J</italic> = 156.8 Hz, <underline>C</underline>(O)CH), 63.5 (d, <italic>J</italic> = 5.1 Hz, (CH<sub>3</sub><underline>C</underline>H<sub>2</sub>O)P(O)), 63.4 (d, <italic>J</italic> = 5.1 Hz, (CH<sub>3</sub><underline>C</underline>H<sub>2</sub>O)P(O)), 47.9 (d, <italic>J</italic> = 53.1 Hz, <underline>C</underline>HCH<sub>3</sub>), 24.5 (<underline>C</underline>H<sub>2</sub>CH<sub>3</sub>), 16.3 (d, <italic>J</italic> = 5.9 Hz, (<underline>C</underline>H<sub>3</sub>CH<sub>2</sub>O)<sub>2</sub>P(O)), 14.5 (CH(<underline>C</underline>H<sub>3</sub>)), 11.3 (CH<sub>2</sub><underline>C</underline>H<sub>3</sub>); <sup>31</sup>P-NMR (161.9 MHz, CDCl<sub>3</sub>), &#x3B4;, ppm: &#x2212;2.8.</p>
+      </sec>
+      <sec id="sec2dot3-cells-04-00427">
+        <title>2.3. Cellular NAD(P)H:Resazurin Oxidoreductase Assay</title>
+        <p>Human glioblastoma cell lines T98G and U87 were obtained from the American Type Culture collection (LGC Standards GmbH; Wesel, Germany). Cells at a density of 2.5 &#xD7; 10<sup>4</sup> cells/mL, 200 &#x3BC;L per well, were seeded on black microplates with clear bottom (Greiner, &#x3BC;Clear<sup>&#xAE;</sup>, Frickenhausen, Germany) in DMEM (4.5 g/L glucose, supplemented with 10% FCS, 2 mM GlutaMAX&#x2122; (Invitrogen, Carlsbad, CA, USA) and antibiotics). After 24 h, the medium was exchanged for 100 &#x3BC;L per well of Hank&#x2019;s buffered salt solution, HBSS (1 g/L glucose, 0.37 M NaCl, 5.4 mM KCl, 0.25 mM Na<sub>2</sub>HPO<sub>4</sub>, 0.44 mM KH<sub>2</sub>PO<sub>4</sub>, 1.3 mM CaCl<sub>2</sub>, 1.0 mM MgSO<sub>4</sub>, 4.2 mM NaHCO<sub>3</sub>), or an equal amount of DMEM (1 g/L glucose, supplemented with 2 mM GlutaMAX&#x2122;). Phosphonate analogs, thiamin or oxythiamin were added at different concentrations (0.01&#x2013;20 mM) into the media specified in the figure legends. After incubation for 5 h or 24 h, the NAD(P)H:resazurin oxidoreductase activity was determined in the control and treated wells using the CellTiterBlue assay according to manufacturer&#x2019;s recommendations. The CellTiterBlue reagent was added in a freshly exchanged medium omitting inhibitors, and the dye reduction was allowed to proceed for 90 min at 37 &#xB0;C. In each experiment, fluorescence from four wells was averaged and NAD(P)H:resazurin oxidoreductase rates of the treated cells were expressed as percentage of the rates exhibited by the control cells. Effects of the phosphonate analogs of 2-oxo acids were screened using five independent cell batches for each culture, with specific concentration dependences repeated up to three times. The thiamin and oxythiamin treatments were performed in &#x2265;4 independent experiments.</p>
+      </sec>
+      <sec id="sec2dot4-cells-04-00427">
+        <title>2.4. Enzyme Assays in Cell Lysates</title>
+        <p>Cells were seeded on tissue culture dishes (TPP) at a density of 10<sup>5</sup> cells/mL, 10 mL per dish, in DMEM (4.5 g/L glucose, supplemented with 10% FCS, 2 mM GlutaMAX&#x2122; and antibiotics). After 24 h cell medium was exchanged for an equal amount of medium with thiamin or oxythiamin (0.05 or 5 mM). 5 h or 24 h later cell medium was substituted for 200 &#x3BC;L of lysis buffer, comprising 50 mM Tris-HCl pH 7.5, 150 mM NaCl, 1% IGEPAL CA-630 (Sigma, St Louis, MO, USA), and the protease and phosphatase inhibitor cocktails (cOmplete and PhosSTOP, Roche, Basel, Switzerland). Cells were scrapped, and the suspensions collected into 1.5 mL eppendorf tubes. The cell lysates were used for the enzyme activity measurements after incubation on ice for at least 10 min.</p>
+        <p>The 2-oxoglutarate dehydrogenase complex (OGDH), NADP<sup>+</sup>-dependent malic enzyme, glutamate dehydrogenase (GDH) and malate dehydrogenase (MDH) were tested spectrophotometrically at 340 nm by the NAD(P)H production/consumption rate on the day of the lysate preparation. OGDH was assayed in 20 mM potassium-phosphate buffer, pH 7.0, containing 1 mM ThDP, 1 mM MgCl<sub>2</sub>, 2.5 mM NAD<sup>+</sup>, 1 mM dithiothreitol, 1 mM CaCl<sub>2</sub>, 0.1 mM CoA and 2 mM 2-oxoglutarate. GDH was assayed in 100 mM Tris-HCl, pH 7.5, containing 0.2 mM NADH, 50 mM NH<sub>4</sub>Cl and 2.5 mM 2-oxoglutarate. MDH was assayed in 20 mM potassium-phosphate buffer, pH 7.2, containing 0.14 mM NADH and 0.3 mM oxaloacetate. NADP<sup>+</sup>-dependent malic enzyme was assayed in 100 mM Tris-HCl, pH 7.5, containing 0.4 mM NADP<sup>+</sup>, 4mM MgCl<sub>2</sub>, and 5 mM malate. The linear part of the product accumulation curves was used for the reaction rate determination. The linearity held during the first 2&#x2013;4 min (MDH) or 20&#x2013;30 min (OGDH, GDH, malic enzyme) of the reaction. The lysates were assayed at two different protein concentrations, each concentration in quadruplicate. The enzyme aliquot added to the medium omitting the acid substrate was used as a blank. Pyruvate dehydrogenase (PDH) activity was tested using Pyruvate dehydrogenase Protein Quantity Dipstick Assay Kit (Abcam Inc., Cambridge, MA, USA) according to manufacturer&#x2019;s recommendations, using the lysates stored at &#x2212;20 &#xB0;C.</p>
+      </sec>
+      <sec id="sec2dot5-cells-04-00427">
+        <title>2.5. Protein Assay in Cell Lysates</title>
+        <p>Protein concentration in cell lysates was measured in triplicate using Pierce&#x2122; (Life Technologies, Gaithersburg, MD, USA) 660 nm Protein Assay and bovine serum albumin (Sigma) as a standard.</p>
+      </sec>
+      <sec id="sec2dot6-cells-04-00427">
+        <title>2.6. Statistical Analysis</title>
+        <p>Significant differences with control upon multiple group comparison were determined at <italic>p</italic> &lt; 0.05 by one-way ANOVA followed by <italic>post-hoc</italic> analysis using Dunnett&#x2019;s test for the data on concentration dependencies, or Tuckey&#x2019;s test in other cases. Student&#x2019;s <italic>t</italic>-test was used to compare two groups. The analysis was done with GraphPad Prism version 5.00, GraphPad Software, Inc (San Diego, CA, USA). Non-linear regression of the concentration dependencies was made using SigmaPlot 12.0, Systat Software (Point Richmond, CA, USA).</p>
+      </sec>
+    </sec>
+    <sec id="sec3-cells-04-00427" sec-type="results">
+      <title>3. Results and Discussion</title>
+      <sec id="sec3dot1-cells-04-00427">
+        <title>3.1. Influence of Thiamin and Its Antagonist Oxythiamin on Cellular NAD(P)H:Resazurin Oxidoreductase</title>
+        <p><xref ref-type="fig" rid="cells-04-00427-f001">Figure 1</xref> shows that incubation of cells with the thiamin antagonist oxythiamin increases cellular NAD(P)H:resazurin oxidoreductase, while similar concentrations of thiamin do not cause this effect. As shown in <xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>, both thiamin and oxythiamin slightly (up to 20%) decrease cellular protein in T98G cells, which is not expressed in U87 cells. Hence, the opposite action of thiamin and oxythiamin on cellular NAD(P)H:resazurin oxidoreductase in both cell lines, cannot be due to the changes in cellular protein, which is similarly affected by both thiamin and oxythiamin, but in T98G cells only. As a result, independent of protein level, the thiamin antagonist oxythiamin increases cellular NAD(P)H:resazurin oxidoreductase in both T98G and U87 cells in the time- and concentration-dependent manner, while thiamin even slightly decreases the activity (<xref ref-type="fig" rid="cells-04-00427-f001">Figure 1</xref>).</p>
+        <fig id="cells-04-00427-f001" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p>Concentration- and time-dependent changes of NAD(P)H:resazurin oxidoreductase activity (NAD(P)H OR) of T98G (<bold>A</bold>) and U87 (<bold>B</bold>) cells incubated with different concentrations of thiamin (Th) or oxythiamin (oTh). Incubation time (5 h or 24 h) is indicated on the graphs. Changes relative to the control values are presented as mean &#xB1; SEM, %. Significant differences with control (* <italic>p</italic> &lt; 0.05) were determined by one-way ANOVA followed by <italic>post-hoc</italic> analysis using Dunnett&#x2019;s Multiple Comparison Test.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00427-g001.tif"/>
+        </fig>
+        <fig id="cells-04-00427-f002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>Concentration- and time-dependent changes in cellular protein (<bold>A</bold>&#x2013;<bold>D</bold>) and activities of the ThDP-dependent (OGDH, <bold>E</bold>&#x2013;<bold>H</bold>) and affiliated (GDH, <bold>I</bold>&#x2013;<bold>L</bold>; MDH, <bold>M</bold>&#x2013;<bold>P</bold>; malic, <bold>Q</bold>&#x2013;<bold>T</bold>) enzymes upon incubation of T98G (left panel) and U87 (right panel) cells with thiamin (Th) and oxythiamin (oTh). Changes relative to the control values (<xref ref-type="table" rid="cells-04-00427-t001">Table 1</xref>) are shown as mean &#xB1; SEM, %. Significant differences with control (* <italic>p</italic> &lt; 0.05) in the data groups at a fixed incubation time (5 h or 24 h) were determined by one-way ANOVA followed by <italic>post-hoc</italic> analysis using Dunnett&#x2019;s Multiple Comparison Test.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00427-g002.tif"/>
+        </fig>
+      </sec>
+      <sec id="sec3dot2-cells-04-00427">
+        <title>3.2. Biochemical Analysis of the Thiamin and Oxythiamin Effects in Cell Extracts of T98G and U87 Cells</title>
+        <p>The known anticoenzyme action of oxythiamin <italic>in vivo</italic> [<xref ref-type="bibr" rid="B15-cells-04-00427">15</xref>] was confirmed by assays of both the 2-oxoglutarate dehydrogenase (OGDH) and pyruvate dehydrogenase (PDH) complexes, which exhibited strong inhibition after incubation with 5 mM oxythiamin. However, unlike the OGDH assay, the NAD<sup>+</sup>-dependent assay of PDH complex in cell extracts is perturbed by lactate dehydrogenase. Using the color reaction of the PDH dipstick assay (Abcam) did not enable efficient study of the time and concentration dependencies. Hence, OGDH was used as the marker of cellular action of oxythiamin on the ThDP-dependent enzymes (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>).</p>
+        <p><xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref> also indicates that several enzymes metabolically linked to the ThDP-dependent ones, responded to cellular treatments with thiamin and oxythiamin. These were the malic enzyme linked to PDH through the pyruvate production, MDH linked to PDH and OGDH through the oxaloacetate production and malate/2-oxoglutarate transporter, correspondingly, and GDH linked to OGDH through the 2-oxoglutarate production. Similar to the changes in protein level (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>A&#x2013;D), the enzymatic responses were also cell-specific. In particular, OGDH and GDH were mostly downregulated in U87 cells, but exhibited significant up-regulation in T98G cells. In addition, malic enzyme was unreactive in U87 cells, but changed its activity in T98G cells. The biochemical differences between T98G and U87 cells were also well seen by following the levels of the enzyme activities during cell incubation in the control medium (DMEM with 4.5 g/L glucose, supplemented with 10% FCS, 2 mM GlutaMAX&#x2122; and antibiotics). As seen from <xref ref-type="table" rid="cells-04-00427-t001">Table 1</xref>, between 5 h and 24 h of the incubation, both cell lines increased about 2-fold their GDH and MDH activities. However, this was accompanied by the cell-specific increase in OGDH (app. 2-fold) in U87 cells and up-regulation of malic enzyme (app. 6-fold) in T98G cells. Thus, the cell-specific responses of the central metabolic enzymes in T98G and U87 cells were observed both upon the thiamin/oxythiamin treatments (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>) and incubation of the non-treated cells (<xref ref-type="table" rid="cells-04-00427-t001">Table 1</xref>). Malic enzyme was much more reactive in all treatments of T98G compared to U87 cells. Also, the high level of OGDH and GDH in U87 <italic>vs.</italic> T98G cells after 24 h of incubation in control medium (<xref ref-type="table" rid="cells-04-00427-t001">Table 1</xref>) coincided with a less expressed up-regulation of these enzymes in U87 <italic>vs.</italic> T98G cells responding to oxythiamin (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>).</p>
+        <p>Changes in cellular protein under the oxythiamin treatment of T98G cells (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>B) correlated with a more complex biochemical responses to the treatment of T98G cells, compared to U87 cells, where protein did not change (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>D). Almost complete inhibition of OGDH by oxythiamin was observed in U87 cells after 24 h incubation of cells with a high (5 mM) concentration of oxythiamin (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>H). However, in T98G cells OGDH was significantly inhibited after 5 h incubation with 5 mM oxythiamin, but in 24 h the activity was restored to the control level (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>F). At a low oxythiamin concentration (0.05 mM) the up-regulation of OGDH after 24 h incubation could be seen in both cell lines, yet the amplitude of the activity increase was higher in T98G <italic>vs.</italic> U87 cells. The time- and concentration-dependent changes in the OGDH activity thus indicate that the oxythiamin-dependent enzyme inhibition is addressed by the OGDH up-regulation, which is much more pronounced in T98G cells.</p>
+        <p>In response to oxythiamin, T98G cells also demonstrated the ability to up-regulate GDH and malic enzyme (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>J,R), which did not occur in U87 cells (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>L,T). In fact, oxythiamin decreased GDH in U87 cells, while malic enzyme remained unchanged (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>L,T). Similar to OGDH, GDH and malic enzyme showed biphasic changes in T98G cells. However, the sequence of events was opposite. In contrast to OGDH, up-regulation of GDH and malic enzyme preceded their down-regulation. As a result, in T98G cells, OGDH and metabolically linked enzymes exhibited complementary changes. Initial inhibition of OGDH by oxythiamin occurred along with activation of GDH and malic enzymes, whereas the inhibition-induced up-regulation of OGDH was accompanied by decreases in GDH and malic enzyme (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>). MDH was up-regulated in response to oxythiamin in both T98G and U87 cells, although the maximal amplitude of the activation observed was about 2-fold higher in the former (40%) compared to the latter (20%) (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>N,P).</p>
+        <table-wrap id="cells-04-00427-t001" position="float">
+          <object-id pub-id-type="pii">cells-04-00427-t001_Table 1</object-id>
+          <label>Table 1</label>
+          <caption>
+            <p>Total protein and enzyme activities in T98G and U87 cells during incubation in cell culture medium. The data are presented as mean &#xB1; SEM. Statistically significant differences (<italic>p</italic> &lt; 0.05) between 5 h and 24 h (<bold>a</bold>&#x2014;T98G 5 h <italic>vs.</italic> T98G 24 h; <bold>b</bold>&#x2014;U87 5 h <italic>vs.</italic> U87 24 h) or between cells at the same growth time (<bold>c</bold>&#x2014;T98G 5 h <italic>vs.</italic> U87 5 h; <bold>d</bold>&#x2014;T98G 24 h <italic>vs.</italic> U87 24 h) were determined by one-way ANOVA with Tukey&#x2019;s Multiple Comparison Test. Statistically significant up-regulation of the enzymes in each cell line during the incubation is shown in bold.</p>
+          </caption>
+          <table>
+  <thead>
+              <tr>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Cell Line</th>
+                <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">T98G</th>
+                <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">U87</th>
+              </tr>
+              <tr>
+                <th align="center" valign="middle" style="border-bottom:solid thin">Time in Medium</th>
+                <th align="center" valign="middle" style="border-bottom:solid thin">5 h</th>
+                <th align="center" valign="middle" style="border-bottom:solid thin">24 h</th>
+                <th align="center" valign="middle" style="border-bottom:solid thin">5 h</th>
+                <th align="center" valign="middle" style="border-bottom:solid thin">24 h</th>
+              </tr>
+  </thead>
+  <tbody>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin"><bold>Protein, mg/mL</bold> (c,d)</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">1.73 &#xB1; 0.08</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">1.81 &#xB1; 0.00</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">1.33 &#xB1; 0.01</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">1.34 &#xB1; 0.00</td>
+              </tr>
+              <tr>
+                <td colspan="5" align="center" valign="middle" style="border-bottom:solid thin"><bold>Activity, &#x3BC;mol/(min&#x2219;mg)</bold></td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle"><bold>OGDH</bold> (b,d)</td>
+                <td align="center" valign="middle">0.05 &#xB1; 0.01</td>
+                <td align="center" valign="middle">0.03 &#xB1; 0.00</td>
+                <td align="center" valign="middle">0.07 &#xB1; 0.02</td>
+                <td align="center" valign="middle"><bold>0.16 &#xB1; 0.01</bold></td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle"><bold>GDH</bold> (b)</td>
+                <td align="center" valign="middle">0.016 &#xB1; 0.003</td>
+                <td align="center" valign="middle">0.032 &#xB1; 0.003</td>
+                <td align="center" valign="middle">0.030 &#xB1; 0.002</td>
+                <td align="center" valign="middle"><bold>0.052 &#xB1; 0.012</bold></td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle"><bold>MDH</bold> (a,b,c,d)</td>
+                <td align="center" valign="middle">7.8 &#xB1; 0.4</td>
+                <td align="center" valign="middle"><bold>13.3 &#xB1; 0.3</bold></td>
+                <td align="center" valign="middle">10.6 &#xB1; 0.6</td>
+                <td align="center" valign="middle"><bold>18.7 &#xB1; 0.9</bold></td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin"><bold>Malic</bold> (a,d)</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">0.09 &#xB1; 0.01</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.57 &#xB1; 0.01</bold></td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">0.06 &#xB1; 0.01</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">0.11 &#xB1; 0.02</td>
+              </tr>
+  </tbody>
+          </table>
+		  </table-wrap>
+        <p>It is remarkable that treatment of T98G cells with thiamin reproduced responses of MDH and malic enzymes to oxythiamin. Also the thiamin effects on OGDH and GDH were similar to the oxythiamin effects, yet not reaching statistical significance. The only difference between the action of thiamin and oxythiamin on T98G cells was observed at a low dose of thiamin (0.05 mM for 5 h). After this treatment T98G cells exhibited a transient inhibition of MDH by thiamin, which disappeared after 24 h of incubation (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>M). In U87 cells, similarity of the thiamin and oxythiamin actions was seen from their effects on GDH and MDH (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>K&#x2013;P).</p>
+        <p>As a result, response of OGDH to the treatment with either thiamin or oxythiamin is translated to the metabolically linked enzymes affiliated with the TCA cycle (MDH, GDH, malic enzyme). Overall, the response of the non-ThDP-dependent enzymes to (oxy)thiamin is more pronounced in the cells (T98G) which can significantly up-regulate the ThDP-dependent OGDH under this condition. In its turn, the amplitude of the OGDH up-regulation in the presence of oxythiamin (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>) correlates with the cell-specific level of the enzyme activity (<xref ref-type="table" rid="cells-04-00427-t001">Table 1</xref>.) In cells with a low OGDH activity (T98G) the OGDH up-regulation is higher than in cells with a high OGDH activity (U87). Finally, the biphasic and well-expressed enzymatic responses of T98G cells to both thiamin and oxythiamin are associated with a decrease in cellular protein (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>).</p>
+      </sec>
+      <sec id="sec3dot3-cells-04-00427">
+        <title>3.3. Changes in Cellular Enzyme Activities, Accompanying the Oxythiamin-Induced Increase in Cellular NAD(P)H:Resazurin Oxidoreductase</title>
+        <p>In contrast to the similar, but cell-specific action of thiamin and oxythiamin on protein level, the increase in the NAD(P)H:resazurin oxidoreductase activity was oxythiamin-specific and observed in both T98G and U87 cells (<xref ref-type="fig" rid="cells-04-00427-f001">Figure 1</xref>). To reveal the associated changes in the tested metabolic enzymes producing NAD(P)H, we subtracted the thiamin effects on the enzymes from those of oxythiamin. The differential comparison presented in <xref ref-type="fig" rid="cells-04-00427-f003">Figure 3</xref> reveals that the major difference in the enzymatic activities, associated with increased NAD(P)H:resazurin oxidoreductase (<xref ref-type="fig" rid="cells-04-00427-f003">Figure 3</xref>A,B), is decreased cellular OGDH activity. Although the decrease in the OGDH activity between the oxythiamin and thiamin-treated cells does not always reach statistical significance (<xref ref-type="fig" rid="cells-04-00427-f003">Figure 3</xref>E,F), it is nevertheless consistently observed under all conditions revealing increased NAD(P)H:resazurin oxidoreductase, i.e., 5 h and 24 h incubation with 5 mM compounds (<xref ref-type="fig" rid="cells-04-00427-f003">Figure 3</xref>A,B). In T98G cells, which may significantly up-regulate OGDH in response to oxythiamin and therefore exhibit the lowest (about 20%) decrease in the OGDH activity between the oxythiamin- and thiamin-treated cells (<xref ref-type="fig" rid="cells-04-00427-f003">Figure 3</xref>C, 5 mM for 24 h), significant decrease in activity of malic enzyme was associated with increased NAD(P)H:resazurin oxidoreductase (<xref ref-type="fig" rid="cells-04-00427-f003">Figure 3</xref>K, 5 mM for 24 h). In view of the inhibition by oxythiamin of both OGDH and PDH, down-regulation of the pyruvate-producing malic enzyme obviously manifests response of T98G cells to the pyruvate accumulation.</p>
+        <fig id="cells-04-00427-f003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>Differences in the thiamin and oxythiamin effects on NAD(P)H:resazurin oxidoreductase (NAD(P)H OR) (<bold>A</bold>,<bold>B</bold>), protein (<bold>C</bold>,<bold>D</bold>), and tested enzymatic activities (<bold>E</bold>&#x2013;<bold>L</bold>) in T98G (left panel) and U87 (right panel) cells. The data of <xref ref-type="fig" rid="cells-04-00427-f001">Figure 1</xref> and <xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref> were used to calculate the difference between the indicated parameters in the oxythiamin- and thiamin- treated cells, represented as mean &#xB1; SEM, %. SEM was calculated after summation of StDev in each experimental group. Significance of the difference between the thiamin and oxythiamin effects (* <italic>p</italic> &lt; 0.05) was determined by Student&#x2019;s <italic>t</italic>-test.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00427-g003.tif"/>
+        </fig>
+      </sec>
+      <sec id="sec3dot4-cells-04-00427">
+        <title>3.4. Increase in Cellular NAD(P)H:Resazurin Oxidoreductase by the Site-Directed Inhibitors of Mitochondrial 2-Oxo Acid Dehydrogenases</title>
+        <p>Complex changes in both the ThDP-dependent and ThDP-independent enzymes due to the action of (oxy)thiamin (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>) could include the non-coenzyme action of thiamin as metabolic regulator [<xref ref-type="bibr" rid="B16-cells-04-00427">16</xref>]. To distinguish this action from the coenzyme role of thiamin and confirm the leading role of the mitochondrial ThDP-dependent enzymes in the oxythiamin-induced increase of cellular NAD(P)H:resazurin oxidoreductase (<xref ref-type="fig" rid="cells-04-00427-f001">Figure 1</xref>), we took advantage of the phosphonate analogs of 2-oxo acids as specific site-directed inhibitors of the mitochondrial ThDP-dependent 2-oxo acid dehydrogenases [<xref ref-type="bibr" rid="B15-cells-04-00427">15</xref>]. <xref ref-type="fig" rid="cells-04-00427-f004">Figure 4</xref> presents the structures of the employed phosphonate analogs of pyruvate (A), 2-oxoglutarate (B), a branched-chain 2-oxo acid 3-methyl-2-oxovalerate formed from isoleucine (C) and their abbreviations used. The mechanism of action of the phosphonates implies specific inhibition of mitochondrial ThDP-dependent dehydrogenases of pyruvate, 2-oxoglutarate and branched-chain 2-oxo acids by respective substrate analogs [<xref ref-type="bibr" rid="B15-cells-04-00427">15</xref>]. To check if the inhibition of the particular 2-oxo acid dehydrogenases could mimic the oxythiamin-induced increase of cellular NAD(P)H:resazurin oxidoreductase (<xref ref-type="fig" rid="cells-04-00427-f001">Figure 1</xref>), we screened the impact on different 2-oxo acid analogs on the reaction (<xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>). Indeed, transient increases in cellular NAD(P)H:resazurin oxidoreductase could be revealed, with their kinetics and amplitude dependent on the analog structure, concentration and incubation time. For instance, <xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>A,B show that, after a short incubation time (5 h), AcPMe induced a concentration-dependent decrease in cellular NAD(P)H:resazurin oxidoreductase in both the T98G and U87 cells. Yet after the incubation time increased to 24 h, no more decrease was observed. Instead, the NAD(P)H:resazurin oxidoreductase of T98G cells exhibited a concentration-dependent increase. Between 5 h and 24 h of incubation with AcPMe, U87 cells did not increase their NAD(P)H:resazurin oxidoreductase over the control level, but the increase after 24 h was observed when compared to 5 h of incubation with the inhibitor (<xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>B). As a result, after 24 h incubation with 2 mM AcPMe in the medium, cellular NAD(P)H:resazurin oxidoreductase of T98G cells increased app. 1.7-fold, compared to the reaction rate after 5 h with 2 mM AcPMe (<xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>A). In U87 cells the increase corresponded to 30% of the control value (<xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>B).</p>
+        <p>In spite of the time-dependent increase in the NAD(P)H:resazurin oxidoreductase in the presence of AcPMe (<xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>A,B), instability of cellular proliferation under these conditions was seen when the concentration interval was expanded. The negative effect of the PDH inhibition on viability becomes especially obvious when a membrane-permeable uncharged analog AcPMe<sub>2</sub>, which gets into cells more efficiently and is transformed to the inhibitory species (AcPMe and the fully de-esterified phosphonate) by intracellular esterases [<xref ref-type="bibr" rid="B15-cells-04-00427">15</xref>], is added to cell medium (<xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>C,D). Obviously, the membrane permeability of uncharged AcPMe<sub>2</sub>, compared to the negatively charged AcPMe, increases intracellular concentration of the inhibitory species, leading to more pronounced changes in cellular NAD(P)H:resazurin oxidoreductase over the same time and concentration interval (<xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>C,D). Remarkably, also upon treatment with AcPMe<sub>2</sub> one could observe an initial increase in the NAD(P)H:resazurin oxidoreductase. Similar to AcPMe, the increase is more expressed in T98G than in U87 cells. Compared to charged AcPMe, the AcPMe<sub>2</sub>-induced increase is of a higher amplitude and is observed at lower concentrations. These features of the AcPMe<sub>2</sub> action are associated with strong destabilization of the system. That is, the temporary increase in the NAD(P)H:resazurin oxidoreductase is followed by an irreversible loss of the activity upon incubation with the PDH inhibitor (<xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>C). Under the same conditions, the more resistant U87 cells do not increase the NAD(P)H:resazurin oxidoreductase as strong as T98G cells do. This is accompanied by a well-expressed intermediary plateau in dependence of the NAD(P)H:resazurin oxidoreductase of U87 cells on AcPMe<sub>2</sub> concentration (<xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>D).</p>
+        <p>Similar temporary increases in the NAD(P)H:resazurin oxidoreductase were observed for T98G and U87 cells upon incubation in the presence of the branched-chain 2-oxo acid dehydrogenase (BCDH) inhibitors 2-MBPMe and 2-MBPEt<sub>2</sub> (<xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>C). Because BCDH takes part in oxidation of the branched chain amino acids, the action of these inhibitors was tested in rich (DMEM) medium comprising amino acids. A less significant contribution to the viability of BCDH, compared to the central metabolic role of PDH, is in good accordance with the higher resistance of cells to the inhibitors of BCDH (<xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>E,F), compared to those of PDH (<xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>C,D). However, at a fixed incubation time, the concentration dependence of the NAD(P)H:resazurin oxidoreductase exhibits a characteristic difference for the charged (2-MBPMe) and uncharged (2-MBPEt<sub>2</sub>) inhibitor. While at 20 mM 2-MBPMe the NAD(P)H:resazurin oxidoreductase of T98G cells is still significantly increased, 20 mM 2-MBPEt<sub>2</sub> already causes the viability loss, obvious as decreased NAD(P)H:resazurin oxidoreductase. However, at lower concentrations of 2-MBPEt<sub>2</sub> a transient increase may be observed also with this analog.</p>
+        <fig id="cells-04-00427-f004" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p>Structures of the 2-oxo acids and their phosphonate analogs used in this work. (<bold>A</bold>) Pyruvate and its analogs: methyl ester of acetyl phosphonate (AcPMe) and dimethyl ester of acetyl phosphonate (AcPMe<sub>2</sub>); (<bold>B</bold>) 2-oxoglutarate and its analog, succinyl phosphonate (SP); (<bold>C</bold>) 3-methyl-2-oxo-valerate (&#x201C;ketoisoleucine&#x201D;) and its analogs, methyl ester of 2-methylbutyryl phosphonate (2-MBPMe) and diethyl ester of 2-methylbutyryl phosphonate (2-MBPEt<sub>2</sub>).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00427-g004.tif"/>
+        </fig>
+        <fig id="cells-04-00427-f005" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <p>The time- and concentration-dependent changes in the NAD(P)H:resazurin oxidoreductase (NAD(P)H OR) of T98G (left panel) and U87 (right panel) cells due to the phosphonate analogs of pyruvate (<bold>A</bold>&#x2013;<bold>D</bold>), branched-chain 2-oxo acids (<bold>E</bold>,<bold>F</bold>) and oxoglutarate (<bold>G</bold>,<bold>H</bold>). The phosphonate analogs were incubated with cells in HBSS (<bold>A</bold>&#x2013;<bold>D)</bold> or DMEM (<bold>E</bold>&#x2013;<bold>H</bold>). Different incubation times (<bold>A</bold>,<bold>B</bold>,<bold>G</bold>,<bold>H</bold>) or analogs (<bold>C</bold>&#x2013;<bold>F</bold>) are indicated in the legends on the graphs. When not indicated (<bold>C</bold>&#x2013;<bold>H</bold>), the incubation time was 24 h. Structures and abbreviations of the phosphonate analogs used are given in <xref ref-type="fig" rid="cells-04-00427-f004">Figure 4</xref>.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00427-g005.tif"/>
+        </fig>
+        <p>The time and concentration dependencies of cellular NAD(P)H:resazurin oxidoreductase on the OGDH inhibitor SP are shown in <xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>G,H. Similar to earlier studies in neuronal cultures, the response of the NAD(P)H:resazurin oxidoreductase to the OGDH inhibitor is not much expressed, presumably due to the efficient shunt of the SP block by oxidation of the branched-chain 2-oxo acids [<xref ref-type="bibr" rid="B17-cells-04-00427">17</xref>,<xref ref-type="bibr" rid="B18-cells-04-00427">18</xref>]. However, also with this inhibitor one could distinguish a slight concentration-dependent increase in the NAD(P)H:resazurin oxidoreductase at a low incubation time of 5 h, transformed into a decrease after 24 h of inhibition by the same concentrations of SP. Unlike the other phosphonates used, triethylated SP is of a lower chemical stability, which did not allow us to perform the comparison, as in <xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>C&#x2013;F.</p>
+        <p>Thus, the primary decreases in cellular NAD(P)H:resazurin oxidoreductase, which could correspond to decreased NADH production by the 2-oxo acid dehydrogenases (<xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>A,B, 5 h), are rarely obvious. They are of a low amplitude and/or masked by a secondary increase in the NAD(P)H:resazurin oxidoreductase. The increase is similar to the effect on the oxidoreductase of the <italic>in vivo</italic> inhibitor of all ThDP-dependent enzymes, oxythiamin. However, action of the phosphonates allows one to see that the increase is only temporary, with strong and/or persistent impairment of the mitochondrial ThDP-dependent 2-oxo acid dehydrogenases by the phosphonates expectedly decreasing the NAD(P)H:resazurin oxidoreductase. Thus, cellular viability is impaired by the phosphonates, despite the temporary increase in the NAD(P)H:resazurin oxidoreductase.</p>
+      </sec>
+      <sec id="sec3dot5-cells-04-00427">
+        <title>3.5. Discussion</title>
+        <sec id="sec3dot5dot1-cells-04-00427">
+          <title>3.5.1. Inhibition of Cellular NAD(P)H Producers May Increase NAD(P)H:Resazurin Oxidoreductase</title>
+          <p>In this work, we show that the inhibitors of cellular NAD(P)H producers, oxythiamin and phosphonate analogs of 2-oxo acids, may cause a paradoxical increase in cellular NAD(P)H:resazurin oxidoreductase (<xref ref-type="fig" rid="cells-04-00427-f001">Figure 1</xref> and <xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>). Our data suggest that diminished mitochondrial oxidation of NAD(P)H in the 2-oxo acid dehydrogenase-comprising metabolons may cause an artifactual increase in the electron flux to artificial dyes in the NAD(P)H-based viability assay. This is important to take into account when considering cellular NAD(P)H:resazurin oxidoreductase as an indicator of cellular viability. The commercially available viability tests using this reaction [<xref ref-type="bibr" rid="B19-cells-04-00427">19</xref>,<xref ref-type="bibr" rid="B20-cells-04-00427">20</xref>,<xref ref-type="bibr" rid="B21-cells-04-00427">21</xref>] are based on the fact that proliferation requires NAD(P)H for biosynthesis and antioxidant defense, with the side reaction of the NAD(P)H:resazurin oxidoreductase being a measure of cellular reducing power dependent on the NAD(P)H level (<xref ref-type="fig" rid="cells-04-00427-f006">Figure 6</xref>A). However, our study demonstrates that under conditions of impaired metabolism an increase in cellular NAD(P)H:resazurin oxidoreductase may be observed, which does not mean increased NAD(P)H available for cell proliferation (<xref ref-type="fig" rid="cells-04-00427-f006">Figure 6</xref>B). Below, we consider possible mechanisms of the processes involved (<xref ref-type="fig" rid="cells-04-00427-f006">Figure 6</xref>), suggested by the data obtained in this and other works.</p>
+          <fig id="cells-04-00427-f006" position="float">
+            <label>Figure 6</label>
+            <caption>
+              <p>Potential changes in the electron flow to resazurin in normal (<bold>A</bold>) and perturbed (<bold>B</bold>) metabolism, based on the enzyme activity data after 24 h incubation of cells with oxythiamin (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref> and <xref ref-type="fig" rid="cells-04-00427-f003">Figure 3</xref>, 24 h). Due to transamination of the 2-oxo acids which accumulate upon inhibition of the 2-oxo acid dehydrogenases [<xref ref-type="bibr" rid="B17-cells-04-00427">17</xref>,<xref ref-type="bibr" rid="B22-cells-04-00427">22</xref>], amino acids become substrates for oxidation, generating NAD(P)H, FADH<sub>2</sub>, ubiquinone QH<sub>2</sub> [<xref ref-type="bibr" rid="B23-cells-04-00427">23</xref>]. These compounds are in redox equilibrium with other acceptors of the electron transport chain, such as redox sites of Complexes I and II (C I and C II). Driven by inhibition of the 2-oxo acid dehydrogenases, the pathophysiological increase in the amino acid oxidation (e.g., through the GABA shunt and proline oxidation) may increase side reactions, including the resazurin reduction, due to unphysiological electron flux. The substrate-dependent NAD(P)H production is depicted by brown arrows. Other electron transfers are shown by blue arrows. The enzymes assayed in <xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref> are presented within the light-blue rectangles. Well-characterized enzymatic complexes of the TCA cycle enzymes are shown by merged rectangles. Electron-transport chain and its Complexes I (NADH:ubiquinone oxidoreductase) and II (succinate dehydrogenase) are shown in blue. For the sake of readability, the schemes omit cellular compartmentation of the processes, assuming exchange of the intermediates through the substrate/electron shuttles, and show only the relevant intermediates, reactions, and protein partners. In particular, (i) the electron flow is schematically shown as floating electrons instead of separate redox active sites of the electron transport chain, as the distribution of electrons between the sites would depend on specific conditions and metabolism; (ii) to manifest the consequences of the PDH and OGDH inhibition, the enzymes are omitted from (B). The decreased activity of malic enzyme concomitant to elevated NAD(P)H:resazurin oxidoreductase (<xref ref-type="fig" rid="cells-04-00427-f003">Figure 3</xref>K) is shown by dashed line in (B). Dashed lines of the reactions, catalyzed by the mitochondrial MDH and Complex II refer to inhibition of the indicated transformations upon accumulation of oxaloacetate and malate. Oxaloacetate increases due to intensified transamination of 2-oxoglutarate as a consequence of the OGDH inhibition. Malate increases due to decrease in malic enzyme and/or inhibition of malate oxidation by the product oxaloacetate. Additional inhibition of the succinate oxidation to fumarate by Complex II may be due to alternative generation of fumarate from the 2-oxoglutarate-stimulated oxidation of tyrosine [<xref ref-type="bibr" rid="B17-cells-04-00427">17</xref>]. Dashed line from NAD(P)H to Complex I refers to decreased NADH from the physiological NADH suppliers (PDH and the TCA cycle enzymes) of Complex I. See text for further discussion.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00427-g006.tif"/>
+          </fig>
+          <p>Resazurin, or Alamar Blue, belongs to the tetrazolium dyes, which include a wide variety of redox compounds changing their spectral properties upon reduction [<xref ref-type="bibr" rid="B9-cells-04-00427">9</xref>]. Compared to the older assays of cellular viability employing 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium (MTT), resazurin assays (Alamar Blue assay of Invitrogen, CellTiterBlue assay of Promega) possess several advantages. Both the oxidized (resazurin) and reduced (resorufin) forms of this dye are water-soluble and non-toxic, enabling reaction monitoring in live cells. After diffusion into cells, resazurin is reduced by cytosolic and mitochondrial dehydrogenases, such as flavin mononucleotide and flavin adenine dinucleotide dehydrogenases, nicotinamide adenine dinucleotide (phosphate) dehydrogenases, aldehyde reductase, alcohol dehydrogenase, NAD(P)H-dependent quinone reductase, flavin reductase and diaphorase [<xref ref-type="bibr" rid="B21-cells-04-00427">21</xref>,<xref ref-type="bibr" rid="B24-cells-04-00427">24</xref>,<xref ref-type="bibr" rid="B25-cells-04-00427">25</xref>,<xref ref-type="bibr" rid="B26-cells-04-00427">26</xref>]. In contrast to MTT (E<sub>0</sub> = &#x2212;110 mV), the standard redox potential of resazurin (E<sub>0</sub> = +380 mV) indicates that resazurin may also be reduced at the expense of cytochromes (E<sub>0</sub> from +80 to +290 mV) [<xref ref-type="bibr" rid="B25-cells-04-00427">25</xref>,<xref ref-type="bibr" rid="B27-cells-04-00427">27</xref>]. Although the potentials indicate that increased reduction of cytochromes allows for the resazurin reduction, which would not occur with MTT, kinetic competence of resazurin to directly accept electrons from cytochromes was not shown.</p>
+          <p>Most probably, the resazurin reduction is mediated by the NAD(P)H-dependent oxidoreductases. However, dependent on the electron distribution between different redox components, different rates of the reduction may also be due to different sets of the resazurin-reducing oxidoreductases involved under different conditions (<xref ref-type="fig" rid="cells-04-00427-f006">Figure 6</xref>). This may lead to the paradoxical observation presented in <xref ref-type="fig" rid="cells-04-00427-f001">Figure 1</xref>, where thiamin and oxythiamin, whose metabolic action is known to increase and decrease the NAD(P)H levels, correspondingly [<xref ref-type="bibr" rid="B28-cells-04-00427">28</xref>], unexpectedly cause the opposite increments in the NAD(P)H:resazurin oxidoreductase activities. That is, thiamin decreases, and oxythiamin increases the activity (<xref ref-type="fig" rid="cells-04-00427-f001">Figure 1</xref>). Rather than manifesting more NAD(P)H available for cellular biosynthesis and antioxidant defense (<xref ref-type="fig" rid="cells-04-00427-f006">Figure 6</xref>A), the finding apparently indicates changes in the substrate and electron flow (<xref ref-type="fig" rid="cells-04-00427-f006">Figure 6</xref>B). In particular, the changes may result in stimulation of the resazurin reductases coupled to the mitochondrial electron transport chain.</p>
+        </sec>
+        <sec id="sec3dot5dot2-cells-04-00427">
+          <title>3.5.2. Compensation for Impairment of Metabolic Checkpoints Perturbs the Physiological Flux of Substrates and Electrons</title>
+          <p>The ThDP-dependent dehydrogenases of the 2-oxo acids occupy metabolic checkpoints, and are tightly regulated [<xref ref-type="bibr" rid="B15-cells-04-00427">15</xref>,<xref ref-type="bibr" rid="B29-cells-04-00427">29</xref>]. In particular, the evolutionary optimized supramolecular structures control the substrate and electron flow in normal metabolism. For instance, OGDH complex, which is often rate-limiting for the TCA cycle flux (reviewed in [<xref ref-type="bibr" rid="B29-cells-04-00427">29</xref>,<xref ref-type="bibr" rid="B30-cells-04-00427">30</xref>]), interacts with both GDH [<xref ref-type="bibr" rid="B31-cells-04-00427">31</xref>,<xref ref-type="bibr" rid="B32-cells-04-00427">32</xref>] and mitochondrial Complex I of the respiratory chain [<xref ref-type="bibr" rid="B33-cells-04-00427">33</xref>,<xref ref-type="bibr" rid="B34-cells-04-00427">34</xref>]. As a result, the overall NADH generation in the TCA cycle depends on the mutually regulated capacity of the physically interacting OGDH and Complex I. The supramolecular structure-supported control of the NADH supply to Complex I should prevent undesirable electron overflow and ensuing side reactions of the electron transport chain, such as production of reactive oxygen species (ROS). When 2-oxoglutarate dehydrogenase is inactivated and/or dysregulated, no decrease in cellular reducing power is obvious from testing the NAD(P)H-dependent electron transfer to resazurin (<xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>G,H), [<xref ref-type="bibr" rid="B17-cells-04-00427">17</xref>] because of compensatory reactions discussed below. However, the NAD(P)H production in these compensatory reactions is not regulated as tightly as it is in the supramolecular structures which evolved to support normal metabolism. As a result, normal substrate and electron flow may be perturbed and side reactions activated. This would decrease viability even when cellular reducing potential does not decrease. Indeed, increased inhibition of OGDH increases ROS production [<xref ref-type="bibr" rid="B35-cells-04-00427">35</xref>,<xref ref-type="bibr" rid="B36-cells-04-00427">36</xref>]. Also increased proline oxidation is known to increase ROS [<xref ref-type="bibr" rid="B23-cells-04-00427">23</xref>]. Oxaloacetate may accumulate under the oxythiamin-dependent inhibition of PDH and OGDH (<xref ref-type="fig" rid="cells-04-00427-f006">Figure 6</xref>B), because the OGDH inhibition increases transamination of 2-oxoglutarate with aspartate, while the inhibition of PDH may decrease efficiency of the oxaloacetate condensation with acetyl-CoA. The oxaloacetate accumulation inhibits physiological direction of the mitochondrial MDH reaction (depicted by the dashed lines in <xref ref-type="fig" rid="cells-04-00427-f006">Figure 6</xref>B). The observed MDH increase in the <italic>in vitro</italic> assay testing the thermodynamically favored reduction of oxaloacetate to malate (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>) may be a compensatory response to inefficient malate oxidation under conditions of the oxalacetate accumulation. Probably, the effect involves the interaction of mitochondrial MDH with the cytochrome <italic>bc</italic><sub>1</sub> complex, which was shown to activate particularly the backward reaction of the oxaloacetate reduction by the MDH, as well as reduction of <italic>bc</italic><sub>1</sub> complex [<xref ref-type="bibr" rid="B37-cells-04-00427">37</xref>]. On the other hand, oxaloacetate is a strong inhibitor of Complex II [<xref ref-type="bibr" rid="B38-cells-04-00427">38</xref>]. Thus, perturbation in the TCA cycle due to the inhibition of the NADH-producing 2-oxo acid dehydrogenases is translated to the electron transport chain. Also the malate-aspartate shuttle for oxidation of cytosolic NAD(P)H by mitochondria is perturbed when mitochondrial oxaloacetate is accumulated. As a result, the NAD(P)H generated at metabolic impairment cannot be properly oxidized, which may induce increased electron flow to the side reaction of resazurin reduction (<xref ref-type="fig" rid="cells-04-00427-f006">Figure 6</xref>B). This is observed under inhibition of the ThDP-dependent enzymes by oxythiamin (<xref ref-type="fig" rid="cells-04-00427-f001">Figure 1</xref>) or particular ThDP-dependent mitochondrial dehydrogenases of 2-oxo acids (<xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>) by the phosphonate analogs of their substrates (<xref ref-type="fig" rid="cells-04-00427-f004">Figure 4</xref>).</p>
+          <p>Overall, the data obtained show that interactive nature of metabolic reactions allows cells to more or less efficiently compensate for the inhibition of particular NAD(P)H producers, but this is accompanied by significant changes in cellular metabolome and biosynthesis. For instance, action of SP on primary neurons in culture showed the same poor response of the NAD(P)H:resazurin oxidoreductase to the OGDH inhibition, as observed with glioblastoma cells in <xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>G,H, yet dramatic changes in neuronal metabolome were observed under these conditions [<xref ref-type="bibr" rid="B17-cells-04-00427">17</xref>]. In other studies, unaltered pyridine nucleotide content was shown upon antisense inhibition of OGDH expression, in spite of considerable reduction in the OGDH activity and mitochondrial respiration rates [<xref ref-type="bibr" rid="B39-cells-04-00427">39</xref>]. When OGDH was almost completely inhibited by SP [<xref ref-type="bibr" rid="B40-cells-04-00427">40</xref>], the absolute levels of NADPH and NADH did not decrease, but the redox ratio of NAD(P)H/NAD(P)<sup>+</sup> decreased due to elevated NAD(P)<sup>+</sup>. Remarkably, despite inhibition of the NADH-producing OGDH, a higher decrease was observed for NADPH/NADP<sup>+</sup> (35%), compared to NADH/NAD<sup>+</sup> (25%), providing additional evidence for the changed electron distribution (<xref ref-type="fig" rid="cells-04-00427-f006">Figure 6</xref>B) rather than direct effect of the OGDH inhibition on the NADH levels. Obviously, the changed electron flow is defined by the OGDH inhibition-dependent switch to the amino acid oxidation [<xref ref-type="bibr" rid="B17-cells-04-00427">17</xref>,<xref ref-type="bibr" rid="B18-cells-04-00427">18</xref>,<xref ref-type="bibr" rid="B22-cells-04-00427">22</xref>,<xref ref-type="bibr" rid="B41-cells-04-00427">41</xref>]. Because of unequal significance of particular amino acids as energy sources, the total amino acid pool upon the OGDH inhibition usually increases, with decreasing protein content (reviewed in [<xref ref-type="bibr" rid="B15-cells-04-00427">15</xref>]). In contrast, upon antisense inhibition of the upstream TCA cycle NADH producer, the mitochondrial NAD<sup>+</sup>-dependent isocitrate dehydrogenase, the amino acid pool did not change, while the protein content increased [<xref ref-type="bibr" rid="B42-cells-04-00427">42</xref>]. This different effect on the amino acids and protein correlated with the different changes in the pyridine nucleotide pool. While the OGDH impairment decreased NAD(P)H/NAD(P)<sup>+</sup> due to increased NAD(P)<sup>+</sup> [<xref ref-type="bibr" rid="B40-cells-04-00427">40</xref>], inhibition of mitochondrial NAD<sup>+</sup>-dependent isocitrate dehydrogenase decreased NADPH and NADH without statistically significant changes in NAD(P)H/NAD(P)<sup>+</sup> [<xref ref-type="bibr" rid="B42-cells-04-00427">42</xref>]. Moreover, when cytosolic NADP<sup>+</sup>-reducing isocitrate dehydrogenase was inhibited, NADH decreased more than NADPH, leading to the statistically significant decrease in NADH/NAD<sup>+</sup> only. The amino acid pool decreased in this case, but protein level did not change [<xref ref-type="bibr" rid="B43-cells-04-00427">43</xref>]. Thus, inhibition of the cytosolic and mitochondrial NAD(P)H production from isocitrate and 2-oxoglutarate exhibits coupled differences in their effects on the pyridine nucleotide pool and amino acid/protein levels. Increased NAD(P)<sup>+</sup> at constant NAD(P)H is associated with increased amino acid pool and decreased protein. This is observed upon OGDH inhibition [<xref ref-type="bibr" rid="B40-cells-04-00427">40</xref>]. In contrast, constant NAD(P)<sup>+</sup> at decreased NAD(P)H is associated with no increase in the amino acid pool and no decrease in protein. This is observed upon inhibition of the cytosolic [<xref ref-type="bibr" rid="B43-cells-04-00427">43</xref>] and TCA cycle [<xref ref-type="bibr" rid="B42-cells-04-00427">42</xref>] isocitrate dehydrogenases. The data indicate that specific changes in the substrate and electron fluxes depend on metabolic impairments. Obviously, the changes are due to the compensatory pathways, which are activated to support homeostasis by available substrates. Condition-dependent metabolomes and supramolecular complexes, such as those between OGDH, MDH, GDH and/or affiliated enzymes [<xref ref-type="bibr" rid="B12-cells-04-00427">12</xref>,<xref ref-type="bibr" rid="B31-cells-04-00427">31</xref>,<xref ref-type="bibr" rid="B32-cells-04-00427">32</xref>,<xref ref-type="bibr" rid="B33-cells-04-00427">33</xref>,<xref ref-type="bibr" rid="B34-cells-04-00427">34</xref>,<xref ref-type="bibr" rid="B44-cells-04-00427">44</xref>,<xref ref-type="bibr" rid="B45-cells-04-00427">45</xref>], stimulate oxidation of intermediates through different pathways. For instance, MDH may form a ternary complex either with OGDH and aspartate transaminase, or with PDH and citrate synthase [<xref ref-type="bibr" rid="B44-cells-04-00427">44</xref>]. The former is important for function of malate-aspartate shuttle of electrons between cytoplasm and mitochondria, while the latter supports citrate synthesis. The cross-talk between the mitochondrial MDH and <italic>bc<sub>1</sub></italic> complex of electron transport chain may participate in organization of the oxaloacetate-dependent electron flow [<xref ref-type="bibr" rid="B37-cells-04-00427">37</xref>]. In the supramolecular structures, regulation of enzymatic activities may occur through the protein-protein interactions, induced binding of secondary messengers and/or post-translational modifications. All these factors along with the transcriptional regulation may contribute to activation of the alternative pathways of NAD(P)H generation and electron flow upon intracellular inhibition of the ThDP-dependent enzymes by oxythiamin (<xref ref-type="fig" rid="cells-04-00427-f006">Figure 6</xref>B).</p>
+        </sec>
+        <sec id="sec3dot5dot3-cells-04-00427">
+          <title>3.5.3. Dysregulated Metabolism Increases Cellular Side Reactions</title>
+          <p>As shown in the previous section, dysregulated metabolism may increase the flow of electrons to resazurin. Metabolic impairments are also known to increase another cellular side reaction, the 1e<sup>&#x2212;</sup> reduction of oxygen with ROS formation. Indeed, like the oxythiamin-induced increase in the NAD(P)H:resazurin oxidoreductase (<xref ref-type="fig" rid="cells-04-00427-f001">Figure 1</xref>), increased ROS were observed upon treatments with the thiamin antagonists oxythiamin [<xref ref-type="bibr" rid="B28-cells-04-00427">28</xref>] and pyrithiamin [<xref ref-type="bibr" rid="B46-cells-04-00427">46</xref>]. While the NAD(P)H:resazurin oxidoreductase increased upon blocking the NAD(P)H production (<xref ref-type="fig" rid="cells-04-00427-f001">Figure 1</xref> and <xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>), ROS increased upon inhibition of the known ROS producers, such as Complex 1 and OGDH [<xref ref-type="bibr" rid="B35-cells-04-00427">35</xref>,<xref ref-type="bibr" rid="B36-cells-04-00427">36</xref>,<xref ref-type="bibr" rid="B47-cells-04-00427">47</xref>]. The consistent increase in MDH activity by oxythiamin, observed in our experiments (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>J,L), may point to increased ROS production, because oxidative stress, known to occur upon the OGDH inhibition <italic>in vivo</italic> [<xref ref-type="bibr" rid="B46-cells-04-00427">46</xref>,<xref ref-type="bibr" rid="B48-cells-04-00427">48</xref>] and <italic>in situ</italic> [<xref ref-type="bibr" rid="B35-cells-04-00427">35</xref>,<xref ref-type="bibr" rid="B36-cells-04-00427">36</xref>], was associated with increased expression of MDH [<xref ref-type="bibr" rid="B49-cells-04-00427">49</xref>].</p>
+          <p>Taken together, these findings support the assumption that dysregulation of the mitochondrial electron transport chain due to sub-optimal supply of electrons from the reactions compensating for the inhibition of the 2-oxo acid dehydrogenases, may increase cellular side reactions, such as ROS generation or resazurin reduction.</p>
+        </sec>
+        <sec id="sec3dot5dot4-cells-04-00427">
+          <title>3.5.4. Similarity between the Action of Thiamin and Oxythiamin on Glioblastoma Cells</title>
+          <p>Thiamin is a coenzyme of central metabolism which is efficiently pumped into cancer cells, supposedly to increase the transketolase-dependent NAD(P)H and ribose production, necessary for intense proliferation [<xref ref-type="bibr" rid="B15-cells-04-00427">15</xref>,<xref ref-type="bibr" rid="B50-cells-04-00427">50</xref>,<xref ref-type="bibr" rid="B51-cells-04-00427">51</xref>,<xref ref-type="bibr" rid="B52-cells-04-00427">52</xref>]. Antimetabolic action of the catalytically inactive thiamin analogs has therefore been used to kill cancer cells (reviewed in [<xref ref-type="bibr" rid="B15-cells-04-00427">15</xref>]). The antimetabolic action of oxythiamin is known to be mediated by its <italic>in vivo</italic> diphosphorylation in the thiamin diphosphokinase reaction to oxythiamin diphosphate. OGDH forms the tightest complex with ThDP, compared to other ThDP-dependent enzymes, [<xref ref-type="bibr" rid="B29-cells-04-00427">29</xref>]. The tight ThDP binding makes OGDH the least susceptible to substitution of the coenzyme by catalytically inactive oxythiamin diphosphate. This implies that inhibition of cellular OGDH by oxythiamin occurs when ThDP in other binding active sites has been already substituted by the catalytically inactive coenzyme analogs. Owing to this, OGDH is a suitable marker of the oxythiamin saturation of all ThDP-dependent enzymes in cells.</p>
+          <p>A comparative study of the thiamin and oxythiamin effects on the two glioblastoma cell lines reveals surprising similarities in the action of both compounds, which may, however, be differently expressed in the two cells lines. First of all, both thiamin and oxythiamin significantly decrease total protein in T98G cells (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>A). Second, in T98G cells both thiamin and oxythiamin may up-regulate GDH, MDH and malic enzyme, although the thiamin-dependent up-regulation of GDH (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>E) does not reach statistical significance. In U87 cells, both thiamin and oxythiamin decrease GDH and increase MDH. Thus, thiamin and oxythiamin demonstrate common cell-specific effects.</p>
+          <p>The action of the OGDH inhibitor oxythiamin on the protein level in T98G cells (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>A,B) aligns with our previous studies discussed above, when the OGDH inhibition decreased protein level in both plant and animal cells [<xref ref-type="bibr" rid="B17-cells-04-00427">17</xref>,<xref ref-type="bibr" rid="B22-cells-04-00427">22</xref>]. This is supposedly due to increased oxidation of amino acids, shunting the OGDH block in the TCA cycle. These include the branched-chain amino acids, tyrosine and lysine [<xref ref-type="bibr" rid="B17-cells-04-00427">17</xref>,<xref ref-type="bibr" rid="B18-cells-04-00427">18</xref>]. A similar effect on protein level of the OGDH activator thiamin, observed in the current work (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>A), may be also due to increased oxidation of amino acids in the TCA cycle after the rate-limiting OGDH is activated by thiamin. In this case, however, the intensified catabolism of amino acids and proteins may be due to the OGDH-mediated oxidation of the amino acids of the glutamate group. The increased flux through the TCA cycle in T98G cells is supported by elevated generation of the TCA cycle intermediates in the activated MDH and GDH reactions, activation of the malic enzyme generating pyruvate (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>), and expected activation of PDH by thiamin. Remarkably, no decrease of cellular protein in U87 cells is accompanied by a significant down-regulation of GDH in these cells. Thus, increased provision of 2-oxoglutarate and pyruvate for the TCA cycle may stimulate the amino acid degradation through the thiamin-activated OGDH and PDH. When the 2-oxo acid dehydrogenases are inhibited by oxythiamin, compensatory changes may involve increased oxidation of lysine and tyrosine, producing the TCA cycle substrate acetyl-CoA and intermediate fumarate, correspondingly. As a result, the protein levels decrease after treatments of T98G cells with either thiamin or oxythiamin, although different amino acids may be depleted in the two cases.</p>
+          <p>The up-regulation of OGDH and related enzymes in T98G cells (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>) is more expressed after a long (24 h) exposure to a low (0.05 mM) concentration of oxythiamin. This is obviously due to a lower inhibitory effect of oxythiamin on OGDH under these conditions. The OGDH up-regulation over the control values reaches statistical significance in T98G cells only, where it also can be seen after 24 h incubation with 5 mM oxythiamin, if compared to the enzyme inhibited at this concentration after 5 h (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>F). U87 cells exhibit analogous behavior at a low (0.05 mM) concentration of oxythiamin only (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>H). These findings point to the superposition of the oxythiamin-induced inhibition and up-regulation of OGDH in response to this inhibition, with the up-regulation more expressed in T98G than U87 cells. The differential regulation of the enzymes in T98G and U87 cells coincides with the effect of (oxy)thiamin on protein level in T98G cells only. </p>
+          <p>Thus, the data obtained indicate that the similar action of thiamin and oxythiamin on protein level may be explained by metabolic interaction between the ThDP-dependent and ThDP-independent enzymes. Our recent study provided evidence that these metabolic links are strengthened by the non-coenzyme action of thiamin as an allosteric regulator and/or mediator of regulatory acetylation [<xref ref-type="bibr" rid="B16-cells-04-00427">16</xref>]. It is therefore probable that the similarities between the thiamin and oxythiamin actions on the metabolic state of a cell (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>) may to a certain extent rely on the oxythiamin effects mimicking the non-coenzyme action of thiamin.</p>
+        </sec>
+        <sec id="sec3dot5dot5-cells-04-00427">
+          <title>3.5.5. Different Resistance of Glioblastoma T98G and U87 Cells to Inhibitors of Central Metabolism is Due to the Cell-Specific Metabolism</title>
+          <p>Despite the complications in interpretation of changes in cellular NAD(P)H:resazurin reduction rates considered above, the assay is nevertheless useful to characterize metabolic differences between cells. In particular, using the assay, we showed that the two glioblastoma cell lines, T98G and U87, demonstrated different responses and resistance to inhibitors of the central metabolism. These findings are in line with independent studies, which established that T98G and U87 cells differ in expression of master metabolic regulators. For instance, T98G cells do not express the wild-type p53 protein [<xref ref-type="bibr" rid="B53-cells-04-00427">53</xref>]. Therefore T98G cells are relatively resistant to p53-mediated apoptosis [<xref ref-type="bibr" rid="B54-cells-04-00427">54</xref>], compared to U87 cells, expressing non-mutated p53. Another important gene, shown to be differently expressed and/or regulated by its activators Akt and MAPK in T98G and U87 cell lines, is HIF1&#x3B1; [<xref ref-type="bibr" rid="B55-cells-04-00427">55</xref>,<xref ref-type="bibr" rid="B56-cells-04-00427">56</xref>]. In particular, HIF1&#x3B1; is involved in the pyruvate dehydrogenase-dependent switch to hypoxic conditions [<xref ref-type="bibr" rid="B57-cells-04-00427">57</xref>,<xref ref-type="bibr" rid="B58-cells-04-00427">58</xref>,<xref ref-type="bibr" rid="B59-cells-04-00427">59</xref>]. Regarding up-regulated oncogenes and down-regulated tumor suppressors, U87 cell line has an expression pattern which is expected more for cancer cells, than that of T98G cells [<xref ref-type="bibr" rid="B60-cells-04-00427">60</xref>,<xref ref-type="bibr" rid="B61-cells-04-00427">61</xref>]. The data suggest that T98G cells have different mechanisms of oncotransformation, in agreement with their EGFR-independent fast growth [<xref ref-type="bibr" rid="B62-cells-04-00427">62</xref>] and resistance to known cancer therapies [<xref ref-type="bibr" rid="B63-cells-04-00427">63</xref>,<xref ref-type="bibr" rid="B64-cells-04-00427">64</xref>]. Our studies are in good accordance with these findings, as we show that, compared to U87 cells, T98G cells exhibit more metabolic similarity to normal cells. In particular, compared to U87 cells, T98G cells are less resistant to the inhibitors of the ThDP-dependent dehydrogenases (<xref ref-type="fig" rid="cells-04-00427-f005">Figure 5</xref>) which are usually not considered to be active in cancer cells [<xref ref-type="bibr" rid="B52-cells-04-00427">52</xref>]. T98G cells are also more responsive to oxythiamin, as assessed by both the NAD(P)H:resazurin oxidoreductase (<xref ref-type="fig" rid="cells-04-00427-f001">Figure 1</xref>) and enzymatic activities (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref> and <xref ref-type="fig" rid="cells-04-00427-f003">Figure 3</xref>). Furthermore, T98G cells do not express the high levels of OGDH during their growth, as U87 do (<xref ref-type="table" rid="cells-04-00427-t001">Table 1</xref>). However, unlike U87 cells, T98G cells up-regulate OGDH upon its inhibition (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>). According to our previous studies [<xref ref-type="bibr" rid="B22-cells-04-00427">22</xref>,<xref ref-type="bibr" rid="B65-cells-04-00427">65</xref>], this feature is inherent in normal metabolism. When mammalian OGDH is inhibited <italic>in vivo</italic> to a critical level, which depends on the original, metabolism-specific OGDH expression, the enzyme is up-regulated to compensate for the inhibition. The data obtained in the current work on the glioblastoma cells, provide further examples of such up-regulation, dependent on both the inhibition and initial expression of OGDH. The up-regulation of OGDH by oxythiamin is more expressed in T98G cells (<xref ref-type="fig" rid="cells-04-00427-f002">Figure 2</xref>) where the OGDH activity is lower, compared to U87 cells (<xref ref-type="table" rid="cells-04-00427-t001">Table 1</xref>). As a result, genetic background of the cell-specific metabolic and signaling pathways appears to contribute to the different cellular sensitivity to the inhibitors of central metabolism used in this work.</p>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>Vasily A. Aleshin, Artem V. Artiukhov and Victoria I. Bunik greatly acknowledge support from Russian Science Foundation (grant N 14-15-00133 to Victoria I. Bunik). We are indebted to Frank Gaunitz (Neurosurgical clinic and polyclinic, Leipzig University) for enabling the work with cell cultures and for valuable advice concerning glioblastoma cells.</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>V.A.A. and A.V.A. performed the experiments and data analysis; A.V.K. and N.V.L. synthesized phoshonate analogs of 2-oxo acids; H.O. supervised the work with the glioblastoma cells; V.I.B. designed the experiments and wrote the paper; all authors read the manuscript and discussed the results obtained.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest. The funding sponsors had no role in the design of the study, in the collection, analyses, or interpretation of data, in the writing of the manuscript, or in the decision to publish the results.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-04-00427">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>H.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cyclic adp-ribose and nicotinic acid adenine dinucleotide phosphate (naadp) as messengers for calcium mobilization</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2012</year>
+          <volume>287</volume>
+          <fpage>31633</fpage>
+          <lpage>31640</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.R112.349464</pub-id>
+          <pub-id pub-id-type="pmid">22822066</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-cells-04-00427">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Quinlan</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Goncalves</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Hey-Mogensen</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yadava</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Bunik</surname>
+              <given-names>V.I.</given-names>
+            </name>
+            <name>
+              <surname>Brand</surname>
+              <given-names>M.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>The 2-oxoacid dehydrogenase complexes in mitochondria can produce superoxide/hydrogen peroxide at much higher rates than complex I</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2014</year>
+          <volume>289</volume>
+          <fpage>8312</fpage>
+          <lpage>8325</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M113.545301</pub-id>
+          <pub-id pub-id-type="pmid">24515115</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-cells-04-00427">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aon</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Cortassa</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>O&#x2019;Rourke</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Redox-optimized ros balance: A unifying hypothesis</article-title>
+          <source>Biochim. Biophys. Acta</source>
+          <year>2010</year>
+          <volume>1797</volume>
+          <fpage>865</fpage>
+          <lpage>877</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbabio.2010.02.016</pub-id>
+          <pub-id pub-id-type="pmid">20175987</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-cells-04-00427">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Skoge</surname>
+              <given-names>R.H.</given-names>
+            </name>
+            <name>
+              <surname>Dolle</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ziegler</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of sirt2-dependent alpha-tubulin deacetylation by cellular nad levels</article-title>
+          <source>DNA Repair</source>
+          <year>2014</year>
+          <volume>23</volume>
+          <fpage>33</fpage>
+          <lpage>38</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.dnarep.2014.04.011</pub-id>
+          <pub-id pub-id-type="pmid">24814981</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-cells-04-00427">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wagner</surname>
+              <given-names>G.R.</given-names>
+            </name>
+            <name>
+              <surname>Hirschey</surname>
+              <given-names>M.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nonenzymatic protein acylation as a carbon stress regulated by sirtuin deacylases</article-title>
+          <source>Mol. Cell</source>
+          <year>2014</year>
+          <volume>54</volume>
+          <fpage>5</fpage>
+          <lpage>16</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2014.03.027</pub-id>
+          <pub-id pub-id-type="pmid">24725594</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-cells-04-00427">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gertz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fischer</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>G.T.</given-names>
+            </name>
+            <name>
+              <surname>Lakshminarasimhan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Schutkowski</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Weyand</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Steegborn</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ex-527 inhibits sirtuins by exploiting their unique NAD+-dependent deacetylation mechanism</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2013</year>
+          <volume>110</volume>
+          <fpage>E2772</fpage>
+          <lpage>E2781</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1303628110</pub-id>
+          <pub-id pub-id-type="pmid">23840057</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-cells-04-00427">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Di Lisa</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Ziegler</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pathophysiological relevance of mitochondria in nad(+) metabolism</article-title>
+          <source>FEBS Lett.</source>
+          <year>2001</year>
+          <volume>492</volume>
+          <fpage>4</fpage>
+          <lpage>8</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0014-5793(01)02198-6</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-cells-04-00427">
+        <label>8.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Riss</surname>
+              <given-names>T.L.</given-names>
+            </name>
+            <name>
+              <surname>Moravec</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Niles</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Benink</surname>
+              <given-names>H.A.</given-names>
+            </name>
+            <name>
+              <surname>Worzella</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Minor</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cell Viability Assays</article-title>
+          <source>Assay Guidance Manual</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Sittampalam</surname>
+              <given-names>G.S.</given-names>
+            </name>
+            <name>
+              <surname>Gal-Edd</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Arkin</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Auld</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Austin</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Bejcek</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Glicksman</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Inglese</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lemmon</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <publisher-name>Eli Lilly &amp; Company and the National Center for Advancing Translational Sciences</publisher-name>
+          <publisher-loc>Bethesda, MD, USA</publisher-loc>
+          <year>2004</year>
+        </citation>
+      </ref>
+      <ref id="B9-cells-04-00427">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berridge</surname>
+              <given-names>M.V.</given-names>
+            </name>
+            <name>
+              <surname>Herst</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>A.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Tetrazolium dyes as tools in cell biology: New insights into their cellular reduction</article-title>
+          <source>Biotechnol. Annu. Rev.</source>
+          <year>2005</year>
+          <volume>11</volume>
+          <fpage>127</fpage>
+          <lpage>152</lpage>
+          <pub-id pub-id-type="pmid">16216776</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-cells-04-00427">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wu</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Minteer</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Krebs cycle metabolon: Structural evidence of substrate channeling revealed by cross-linking and mass spectrometry</article-title>
+          <source>Angew. Chem.</source>
+          <year>2015</year>
+          <volume>54</volume>
+          <fpage>1851</fpage>
+          <lpage>1854</lpage>
+          <pub-id pub-id-type="doi">10.1002/anie.201409336</pub-id>
+          <pub-id pub-id-type="pmid">25537779</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-04-00427">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Puchulu-Campanella</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Chu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Anstee</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Galan</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Tao</surname>
+              <given-names>W.A.</given-names>
+            </name>
+            <name>
+              <surname>Low</surname>
+              <given-names>P.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of the components of a glycolytic enzyme metabolon on the human red blood cell membrane</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2013</year>
+          <volume>288</volume>
+          <fpage>848</fpage>
+          <lpage>858</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M112.428573</pub-id>
+          <pub-id pub-id-type="pmid">23150667</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-cells-04-00427">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lyubarev</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <name>
+              <surname>Kurganov</surname>
+              <given-names>B.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Supramolecular organization of tricarboxylic acid cycle enzymes</article-title>
+          <source>Bio Syst.</source>
+          <year>1989</year>
+          <volume>22</volume>
+          <fpage>91</fpage>
+          <lpage>102</lpage>
+          <pub-id pub-id-type="doi">10.1016/0303-2647(89)90038-5</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13-cells-04-00427">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gazizov</surname>
+              <given-names>M.B.</given-names>
+            </name>
+            <name>
+              <surname>Nikolaeva</surname>
+              <given-names>V.G.</given-names>
+            </name>
+            <name>
+              <surname>Zakharov</surname>
+              <given-names>V.M.</given-names>
+            </name>
+            <name>
+              <surname>Khariullin</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Moskva</surname>
+              <given-names>V.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Reactions of dialkyl hydrogen phosphites with acyl chlorides in presence of alkyl vinyl ethers</article-title>
+          <source>Russ. J. Gen. Chem.</source>
+          <year>1988</year>
+          <volume>58</volume>
+          <fpage>940</fpage>
+          <lpage>941</lpage>
+        </citation>
+      </ref>
+      <ref id="B14-cells-04-00427">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karaman</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Goldblum</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Breuer</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Leader</surname>
+              <given-names>H.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Acylphosphonic acids and methyl hydrogen acylphosphonates: Physical and chemical properties and theoretical calculations</article-title>
+          <source>J. Chem. Soc. Perkin Trans. 1</source>
+          <year>1989</year>
+          <fpage>765</fpage>
+          <lpage>774</lpage>
+          <pub-id pub-id-type="doi">10.1039/p19890000765</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15-cells-04-00427">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bunik</surname>
+              <given-names>V.I.</given-names>
+            </name>
+            <name>
+              <surname>Tylicki</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lukashev</surname>
+              <given-names>N.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thiamin diphosphate-dependent enzymes: From enzymology to metabolic regulation, drug design and disease models</article-title>
+          <source>FEBS J.</source>
+          <year>2013</year>
+          <volume>280</volume>
+          <fpage>6412</fpage>
+          <lpage>6442</lpage>
+          <pub-id pub-id-type="doi">10.1111/febs.12512</pub-id>
+          <pub-id pub-id-type="pmid">24004353</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-cells-04-00427">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mkrtchyan</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Aleshin</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Parkhomenko</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kaehne</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Di Salvo</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Parroni</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Contestabile</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Vovk</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bettendorff</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Bunik</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular mechanisms of the non-coenzyme action of thiamin in brain: Biochemical, structural and pathway analysis</article-title>
+          <source>Sci. Rep.</source>
+          <year>2015</year>
+          <volume>5</volume>
+          <pub-id pub-id-type="doi">10.1038/srep12583</pub-id>
+          <pub-id pub-id-type="pmid">26212886</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17-cells-04-00427">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Trofimova</surname>
+              <given-names>L.K.</given-names>
+            </name>
+            <name>
+              <surname>Araujo</surname>
+              <given-names>W.L.</given-names>
+            </name>
+            <name>
+              <surname>Strokina</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Fernie</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Bettendorff</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Bunik</surname>
+              <given-names>V.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Consequences of the alpha-ketoglutarate dehydrogenase inhibition for neuronal metabolism and survival: Implications for neurodegenerative diseases</article-title>
+          <source>Curr. Med. Chem.</source>
+          <year>2012</year>
+          <volume>19</volume>
+          <fpage>5895</fpage>
+          <lpage>5906</lpage>
+          <pub-id pub-id-type="doi">10.2174/092986712804143367</pub-id>
+          <pub-id pub-id-type="pmid">23061627</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18-cells-04-00427">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Santos</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Gibson</surname>
+              <given-names>G.E.</given-names>
+            </name>
+            <name>
+              <surname>Cooper</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Denton</surname>
+              <given-names>T.T.</given-names>
+            </name>
+            <name>
+              <surname>Thompson</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Bunik</surname>
+              <given-names>V.I.</given-names>
+            </name>
+            <name>
+              <surname>Alves</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Sonnewald</surname>
+              <given-names>U.</given-names>
+            </name>
+          </person-group>
+          <article-title>Inhibitors of the alpha-ketoglutarate dehydrogenase complex alter [1&#x2013;13c]glucose and [u-13c]glutamate metabolism in cerebellar granule neurons</article-title>
+          <source>J. Neurosci. Res.</source>
+          <year>2006</year>
+          <volume>83</volume>
+          <fpage>450</fpage>
+          <lpage>458</lpage>
+          <pub-id pub-id-type="doi">10.1002/jnr.20749</pub-id>
+          <pub-id pub-id-type="pmid">16416424</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19-cells-04-00427">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Larson</surname>
+              <given-names>E.M.</given-names>
+            </name>
+            <name>
+              <surname>Doughman</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Gregerson</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Obritsch</surname>
+              <given-names>W.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>A new, simple, nonradioactive, nontoxic <italic>in vitro</italic> assay to monitor corneal endothelial cell viability</article-title>
+          <source>Investig. Ophthalmol. Vis. Sci.</source>
+          <year>1997</year>
+          <volume>38</volume>
+          <fpage>1929</fpage>
+          <lpage>1933</lpage>
+        </citation>
+      </ref>
+      <ref id="B20-cells-04-00427">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Byth</surname>
+              <given-names>H.A.</given-names>
+            </name>
+            <name>
+              <surname>McHunu</surname>
+              <given-names>B.I.</given-names>
+            </name>
+            <name>
+              <surname>Dubery</surname>
+              <given-names>I.A.</given-names>
+            </name>
+            <name>
+              <surname>Bornman</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessment of a simple, non-toxic alamar blue cell survival assay to monitor tomato cell viability</article-title>
+          <source>Phytochem. Anal. PCA</source>
+          <year>2001</year>
+          <volume>12</volume>
+          <fpage>340</fpage>
+          <lpage>346</lpage>
+          <pub-id pub-id-type="doi">10.1002/pca.595</pub-id>
+          <pub-id pub-id-type="pmid">11705263</pub-id>
+        </citation>
+      </ref>
+      <ref id="B21-cells-04-00427">
+        <label>21.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schreer</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Tinson</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Sherry</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Schirmer</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Application of alamar blue/5-carboxyfluorescein diacetate acetoxymethyl ester as a noninvasive cell viability assay in primary hepatocytes from rainbow trout</article-title>
+          <source>Anal. Biochem.</source>
+          <year>2005</year>
+          <volume>344</volume>
+          <fpage>76</fpage>
+          <lpage>85</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ab.2005.06.009</pub-id>
+          <pub-id pub-id-type="pmid">16039980</pub-id>
+        </citation>
+      </ref>
+      <ref id="B22-cells-04-00427">
+        <label>22.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Araujo</surname>
+              <given-names>W.L.</given-names>
+            </name>
+            <name>
+              <surname>Trofimova</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Mkrtchyan</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Steinhauser</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Krall</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Graf</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Fernie</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Bunik</surname>
+              <given-names>V.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>On the role of the mitochondrial 2-oxoglutarate dehydrogenase complex in amino acid metabolism</article-title>
+          <source>Amino Acids</source>
+          <year>2013</year>
+          <volume>44</volume>
+          <fpage>683</fpage>
+          <lpage>700</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00726-012-1392-x</pub-id>
+          <pub-id pub-id-type="pmid">22983303</pub-id>
+        </citation>
+      </ref>
+      <ref id="B23-cells-04-00427">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goncalves</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Rothschild</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Quinlan</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>G.K.</given-names>
+            </name>
+            <name>
+              <surname>Benz</surname>
+              <given-names>C.C.</given-names>
+            </name>
+            <name>
+              <surname>Brand</surname>
+              <given-names>M.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sources of superoxide/h2o2 during mitochondrial proline oxidation</article-title>
+          <source>Redox Biol.</source>
+          <year>2014</year>
+          <volume>2</volume>
+          <fpage>901</fpage>
+          <lpage>909</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.redox.2014.07.003</pub-id>
+          <pub-id pub-id-type="pmid">25184115</pub-id>
+        </citation>
+      </ref>
+      <ref id="B24-cells-04-00427">
+        <label>24.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>O&#x2019;Brien</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wilson</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Orton</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Pognan</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Investigation of the alamar blue (resazurin) fluorescent dye for the assessment of mammalian cell cytotoxicity</article-title>
+          <source>Eur. J. Biochem. FEBS</source>
+          <year>2000</year>
+          <volume>267</volume>
+          <fpage>5421</fpage>
+          <lpage>5426</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1432-1327.2000.01606.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B25-cells-04-00427">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rampersad</surname>
+              <given-names>S.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multiple applications of alamar blue as an indicator of metabolic function and cellular health in cell viability bioassays</article-title>
+          <source>Sensors</source>
+          <year>2012</year>
+          <volume>12</volume>
+          <fpage>12347</fpage>
+          <lpage>12360</lpage>
+          <pub-id pub-id-type="doi">10.3390/s120912347</pub-id>
+          <pub-id pub-id-type="pmid">23112716</pub-id>
+        </citation>
+      </ref>
+      <ref id="B26-cells-04-00427">
+        <label>26.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gonzalez</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Tarloff</surname>
+              <given-names>J.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluation of hepatic subcellular fractions for alamar blue and mtt reductase activity</article-title>
+          <source>Toxicol. in Vitro</source>
+          <year>2001</year>
+          <volume>15</volume>
+          <fpage>257</fpage>
+          <lpage>259</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0887-2333(01)00014-5</pub-id>
+        </citation>
+      </ref>
+      <ref id="B27-cells-04-00427">
+        <label>27.</label>
+        <citation citation-type="web">
+          <article-title>The alamarBlue<sup>&#xAE;</sup> Assay</article-title>
+		  <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://tools.thermofisher.com/content/sfs/manuals/PI-DAL1025-1100_TI%20alamarBlue%20Rev%201.1.pdf" ext-link-type="uri">http://tools.thermofisher.com/content/sfs/manuals/PI-DAL1025-1100_TI%20alamarBlue%20Rev%201.1.pdf</ext-link></comment>
+          <access-date>(accessed on 9 August 2015)</access-date>
+        </citation>
+      </ref>
+      <ref id="B28-cells-04-00427">
+        <label>28.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shangari</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Mehta</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>O&#x2019;Brien</surname>
+              <given-names>P.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hepatocyte susceptibility to glyoxal is dependent on cell thiamin content</article-title>
+          <source>Chem.-Biol. Interact.</source>
+          <year>2007</year>
+          <volume>165</volume>
+          <fpage>146</fpage>
+          <lpage>154</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cbi.2006.11.009</pub-id>
+          <pub-id pub-id-type="pmid">17207784</pub-id>
+        </citation>
+      </ref>
+      <ref id="B29-cells-04-00427">
+        <label>29.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bunik</surname>
+              <given-names>V.I.</given-names>
+            </name>
+            <name>
+              <surname>Raddatz</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Strumilo</surname>
+              <given-names>S.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Translating enzymology into metabolic regulation: The case of the 2- oxoglutarate dehydrogenase multienzyme complex</article-title>
+          <source>Curr. Chem. Biol.</source>
+          <year>2013</year>
+          <volume>7</volume>
+          <fpage>74</fpage>
+          <lpage>93</lpage>
+          <pub-id pub-id-type="doi">10.2174/2212796811307010008</pub-id>
+        </citation>
+      </ref>
+      <ref id="B30-cells-04-00427">
+        <label>30.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bunik</surname>
+              <given-names>V.I.</given-names>
+            </name>
+            <name>
+              <surname>Fernie</surname>
+              <given-names>A.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Metabolic control exerted by the 2-oxoglutarate dehydrogenase reaction: A cross-kingdom comparison of the crossroad between energy production and nitrogen assimilation</article-title>
+          <source>Biochem. J.</source>
+          <year>2009</year>
+          <volume>422</volume>
+          <fpage>405</fpage>
+          <lpage>421</lpage>
+          <pub-id pub-id-type="doi">10.1042/BJ20090722</pub-id>
+          <pub-id pub-id-type="pmid">19698086</pub-id>
+        </citation>
+      </ref>
+      <ref id="B31-cells-04-00427">
+        <label>31.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fahien</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>MacDonald</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Teller</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>Fibich</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Fahien</surname>
+              <given-names>C.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Kinetic advantages of hetero-enzyme complexes with glutamate dehydrogenase and the alpha-ketoglutarate dehydrogenase complex</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1989</year>
+          <volume>264</volume>
+          <fpage>12303</fpage>
+          <lpage>12312</lpage>
+          <pub-id pub-id-type="pmid">2745445</pub-id>
+        </citation>
+      </ref>
+      <ref id="B32-cells-04-00427">
+        <label>32.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fahien</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Teller</surname>
+              <given-names>J.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Glutamate-malate metabolism in liver mitochondria. A model constructed on the basis of mitochondrial levels of enzymes, specificity, dissociation constants, and stoichiometry of hetero-enzyme complexes</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1992</year>
+          <volume>267</volume>
+          <fpage>10411</fpage>
+          <lpage>10422</lpage>
+          <pub-id pub-id-type="pmid">1350279</pub-id>
+        </citation>
+      </ref>
+      <ref id="B33-cells-04-00427">
+        <label>33.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sumegi</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Srere</surname>
+              <given-names>P.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Complex i binds several mitochondrial nad-coupled dehydrogenases</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1984</year>
+          <volume>259</volume>
+          <fpage>15040</fpage>
+          <lpage>15045</lpage>
+          <pub-id pub-id-type="pmid">6439716</pub-id>
+        </citation>
+      </ref>
+      <ref id="B34-cells-04-00427">
+        <label>34.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Porpaczy</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Sumegi</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Alkonyi</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interaction between nad-dependent isocitrate dehydrogenase, alpha-ketoglutarate dehydrogenase complex, and nadh:Ubiquinone oxidoreductase</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1987</year>
+          <volume>262</volume>
+          <fpage>9509</fpage>
+          <lpage>9514</lpage>
+          <pub-id pub-id-type="pmid">3110160</pub-id>
+        </citation>
+      </ref>
+      <ref id="B35-cells-04-00427">
+        <label>35.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zundorf</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Kahlert</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bunik</surname>
+              <given-names>V.I.</given-names>
+            </name>
+            <name>
+              <surname>Reiser</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Alpha-ketoglutarate dehydrogenase contributes to production of reactive oxygen species in glutamate-stimulated hippocampal neurons <italic>in situ</italic></article-title>
+          <source>Neuroscience</source>
+          <year>2009</year>
+          <volume>158</volume>
+          <fpage>610</fpage>
+          <lpage>616</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.neuroscience.2008.10.015</pub-id>
+          <pub-id pub-id-type="pmid">18996448</pub-id>
+        </citation>
+      </ref>
+      <ref id="B36-cells-04-00427">
+        <label>36.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shi</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>H.L.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Gibson</surname>
+              <given-names>G.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Reduction in the e2k subunit of the alpha-ketoglutarate dehydrogenase complex has effects independent of complex activity</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2005</year>
+          <volume>280</volume>
+          <fpage>10888</fpage>
+          <lpage>10896</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M409064200</pub-id>
+          <pub-id pub-id-type="pmid">15649899</pub-id>
+        </citation>
+      </ref>
+      <ref id="B37-cells-04-00427">
+        <label>37.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cross-talk between mitochondrial malate dehydrogenase and the cytochrome bc1 complex</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2010</year>
+          <volume>285</volume>
+          <fpage>10408</fpage>
+          <lpage>10414</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M109.085787</pub-id>
+          <pub-id pub-id-type="pmid">20075069</pub-id>
+        </citation>
+      </ref>
+      <ref id="B38-cells-04-00427">
+        <label>38.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grivennikova</surname>
+              <given-names>V.G.</given-names>
+            </name>
+            <name>
+              <surname>Gavrikova</surname>
+              <given-names>E.V.</given-names>
+            </name>
+            <name>
+              <surname>Timoshin</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Vinogradov</surname>
+              <given-names>A.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fumarate reductase activity of bovine heart succinate-ubiquinone reductase. New assay system and overall properties of the reaction</article-title>
+          <source>Biochim. Biophys. Acta</source>
+          <year>1993</year>
+          <volume>1140</volume>
+          <fpage>282</fpage>
+          <lpage>292</lpage>
+          <pub-id pub-id-type="doi">10.1016/0005-2728(93)90067-P</pub-id>
+        </citation>
+      </ref>
+      <ref id="B39-cells-04-00427">
+        <label>39.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Araujo</surname>
+              <given-names>W.L.</given-names>
+            </name>
+            <name>
+              <surname>Tohge</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Osorio</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lohse</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Balbo</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Krahnert</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Sienkiewicz-Porzucek</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Usadel</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Nunes-Nesi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Fernie</surname>
+              <given-names>A.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Antisense inhibition of the 2-oxoglutarate dehydrogenase complex in tomato demonstrates its importance for plant respiration and during leaf senescence and fruit maturation</article-title>
+          <source>Plant Cell</source>
+          <year>2012</year>
+          <volume>24</volume>
+          <fpage>2328</fpage>
+          <lpage>2351</lpage>
+          <pub-id pub-id-type="doi">10.1105/tpc.112.099002</pub-id>
+          <pub-id pub-id-type="pmid">22751214</pub-id>
+        </citation>
+      </ref>
+      <ref id="B40-cells-04-00427">
+        <label>40.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Araujo</surname>
+              <given-names>W.L.</given-names>
+            </name>
+            <name>
+              <surname>Tohge</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nunes-Nesi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Daloso</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Nimick</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Krahnert</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Bunik</surname>
+              <given-names>V.I.</given-names>
+            </name>
+            <name>
+              <surname>Moorhead</surname>
+              <given-names>G.B.</given-names>
+            </name>
+            <name>
+              <surname>Fernie</surname>
+              <given-names>A.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phosphonate analogs of 2-oxoglutarate perturb metabolism and gene expression in illuminated arabidopsis leaves</article-title>
+          <source>Front. Plant Sci.</source>
+          <year>2012</year>
+          <volume>3</volume>
+          <fpage>114</fpage>
+          <pub-id pub-id-type="doi">10.3389/fpls.2012.00114</pub-id>
+          <pub-id pub-id-type="pmid">22876250</pub-id>
+        </citation>
+      </ref>
+      <ref id="B41-cells-04-00427">
+        <label>41.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nilsen</surname>
+              <given-names>L.H.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Gibson</surname>
+              <given-names>G.E.</given-names>
+            </name>
+            <name>
+              <surname>Sonnewald</surname>
+              <given-names>U.</given-names>
+            </name>
+          </person-group>
+          <article-title>Brain [u-13 c]glucose metabolism in mice with decreased alpha-ketoglutarate dehydrogenase complex activity</article-title>
+          <source>J. Neurosci. Res.</source>
+          <year>2011</year>
+          <volume>89</volume>
+          <fpage>1997</fpage>
+          <lpage>2007</lpage>
+          <pub-id pub-id-type="doi">10.1002/jnr.22606</pub-id>
+          <pub-id pub-id-type="pmid">21374701</pub-id>
+        </citation>
+      </ref>
+      <ref id="B42-cells-04-00427">
+        <label>42.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sienkiewicz-Porzucek</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sulpice</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Osorio</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Krahnert</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Leisse</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Urbanczyk-Wochniak</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Hodges</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fernie</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Nunes-Nesi</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mild reductions in mitochondrial nad-dependent isocitrate dehydrogenase activity result in altered nitrate assimilation and pigmentation but do not impact growth</article-title>
+          <source>Mol. Plant</source>
+          <year>2010</year>
+          <volume>3</volume>
+          <fpage>156</fpage>
+          <lpage>173</lpage>
+          <pub-id pub-id-type="doi">10.1093/mp/ssp101</pub-id>
+          <pub-id pub-id-type="pmid">20035036</pub-id>
+        </citation>
+      </ref>
+      <ref id="B43-cells-04-00427">
+        <label>43.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sulpice</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Sienkiewicz-Porzucek</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Osorio</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Krahnert</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Stitt</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fernie</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Nunes-Nesi</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mild reductions in cytosolic nadp-dependent isocitrate dehydrogenase activity result in lower amino acid contents and pigmentation without impacting growth</article-title>
+          <source>Amino Acids</source>
+          <year>2010</year>
+          <volume>39</volume>
+          <fpage>1055</fpage>
+          <lpage>1066</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00726-010-0617-0</pub-id>
+          <pub-id pub-id-type="pmid">20473773</pub-id>
+        </citation>
+      </ref>
+      <ref id="B44-cells-04-00427">
+        <label>44.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fahien</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Kmiotek</surname>
+              <given-names>E.H.</given-names>
+            </name>
+            <name>
+              <surname>MacDonald</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Fibich</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Mandic</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of malate dehydrogenase activity by glutamate, citrate, alpha-ketoglutarate, and multienzyme interaction</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1988</year>
+          <volume>263</volume>
+          <fpage>10687</fpage>
+          <lpage>10697</lpage>
+          <pub-id pub-id-type="pmid">2899080</pub-id>
+        </citation>
+      </ref>
+      <ref id="B45-cells-04-00427">
+        <label>45.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hutson</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Islam</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Zaganas</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interaction between glutamate dehydrogenase (gdh) and l-leucine catabolic enzymes: Intersecting metabolic pathways</article-title>
+          <source>Neurochem. Int.</source>
+          <year>2011</year>
+          <volume>59</volume>
+          <fpage>518</fpage>
+          <lpage>524</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.neuint.2011.05.001</pub-id>
+          <pub-id pub-id-type="pmid">21621574</pub-id>
+        </citation>
+      </ref>
+      <ref id="B46-cells-04-00427">
+        <label>46.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karuppagounder</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>L.H.</given-names>
+            </name>
+            <name>
+              <surname>Pedrini</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Pechman</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Baker</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Beal</surname>
+              <given-names>M.F.</given-names>
+            </name>
+            <name>
+              <surname>Gandy</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Gibson</surname>
+              <given-names>G.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thiamine deficiency induces oxidative stress and exacerbates the plaque pathology in alzheimer&#x2019;s mouse model</article-title>
+          <source>Neurobio. Aging</source>
+          <year>2009</year>
+          <volume>30</volume>
+          <fpage>1587</fpage>
+          <lpage>1600</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.neurobiolaging.2007.12.013</pub-id>
+          <pub-id pub-id-type="pmid">18406011</pub-id>
+        </citation>
+      </ref>
+      <ref id="B47-cells-04-00427">
+        <label>47.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chinta</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Rane</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Yadava</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Andersen</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>Nicholls</surname>
+              <given-names>D.G.</given-names>
+            </name>
+            <name>
+              <surname>Polster</surname>
+              <given-names>B.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Reactive oxygen species regulation by aif- and complex i-depleted brain mitochondria</article-title>
+          <source>Free Radical Biol. Med.</source>
+          <year>2009</year>
+          <volume>46</volume>
+          <fpage>939</fpage>
+          <lpage>947</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.freeradbiomed.2009.01.010</pub-id>
+        </citation>
+      </ref>
+      <ref id="B48-cells-04-00427">
+        <label>48.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gibson</surname>
+              <given-names>G.E.</given-names>
+            </name>
+            <name>
+              <surname>Blass</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Beal</surname>
+              <given-names>M.F.</given-names>
+            </name>
+            <name>
+              <surname>Bunik</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>The alpha-ketoglutarate-dehydrogenase complex: A mediator between mitochondria and oxidative stress in neurodegeneration</article-title>
+          <source>Mol. Neurobiol.</source>
+          <year>2005</year>
+          <volume>31</volume>
+          <fpage>43</fpage>
+          <lpage>63</lpage>
+          <pub-id pub-id-type="doi">10.1385/MN:31:1-3:043</pub-id>
+        </citation>
+      </ref>
+      <ref id="B49-cells-04-00427">
+        <label>49.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shi</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Gibson</surname>
+              <given-names>G.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Up-regulation of the mitochondrial malate dehydrogenase by oxidative stress is mediated by mir-743a</article-title>
+          <source>J. Neurochem.</source>
+          <year>2011</year>
+          <volume>118</volume>
+          <fpage>440</fpage>
+          <lpage>448</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1471-4159.2011.07333.x</pub-id>
+          <pub-id pub-id-type="pmid">21623795</pub-id>
+        </citation>
+      </ref>
+      <ref id="B50-cells-04-00427">
+        <label>50.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu&#x2019;o&#x2019;ng</surname>
+              <given-names>K.V.</given-names>
+            </name>
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>L.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of thiamine in cancer: Possible genetic and cellular signaling mechanisms</article-title>
+          <source>Cancer Genom. Proteom.</source>
+          <year>2013</year>
+          <volume>10</volume>
+          <fpage>169</fpage>
+          <lpage>185</lpage>
+        </citation>
+      </ref>
+      <ref id="B51-cells-04-00427">
+        <label>51.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Richardson</surname>
+              <given-names>A.D.</given-names>
+            </name>
+            <name>
+              <surname>Moscow</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Can an enzyme cofactor be a factor in malignant progression?</article-title>
+          <source>Cancer Biol. Ther.</source>
+          <year>2010</year>
+          <volume>10</volume>
+          <fpage>1112</fpage>
+          <lpage>1114</lpage>
+          <pub-id pub-id-type="doi">10.4161/cbt.10.11.14061</pub-id>
+          <pub-id pub-id-type="pmid">21099372</pub-id>
+        </citation>
+      </ref>
+      <ref id="B52-cells-04-00427">
+        <label>52.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kroemer</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Pouyssegur</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Tumor cell metabolism: Cancer&#x2019;s achilles&#x2019; heel</article-title>
+          <source>Cancer Cell</source>
+          <year>2008</year>
+          <volume>13</volume>
+          <fpage>472</fpage>
+          <lpage>482</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ccr.2008.05.005</pub-id>
+          <pub-id pub-id-type="pmid">18538731</pub-id>
+        </citation>
+      </ref>
+      <ref id="B53-cells-04-00427">
+        <label>53.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Van Meir</surname>
+              <given-names>E.G.</given-names>
+            </name>
+            <name>
+              <surname>Kikuchi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Tada</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Diserens</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Wojcik</surname>
+              <given-names>B.E.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Friedmann</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>de Tribolet</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Cavenee</surname>
+              <given-names>W.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of the p53 gene and its expression in human glioblastoma cells</article-title>
+          <source>Cancer Res.</source>
+          <year>1994</year>
+          <volume>54</volume>
+          <fpage>649</fpage>
+          <lpage>652</lpage>
+          <pub-id pub-id-type="pmid">8306326</pub-id>
+        </citation>
+      </ref>
+      <ref id="B54-cells-04-00427">
+        <label>54.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yoshida</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sadata</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Saito</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Shinoura</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Hamada</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Generation of fiber-mutant recombinant adenoviruses for gene therapy of malignant glioma</article-title>
+          <source>Hum. Gene Ther.</source>
+          <year>1998</year>
+          <volume>9</volume>
+          <fpage>2503</fpage>
+          <lpage>2515</lpage>
+          <pub-id pub-id-type="doi">10.1089/hum.1998.9.17-2503</pub-id>
+          <pub-id pub-id-type="pmid">9853517</pub-id>
+        </citation>
+      </ref>
+      <ref id="B55-cells-04-00427">
+        <label>55.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vlachostergios</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Hatzidaki</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Befani</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <name>
+              <surname>Liakos</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Papandreou</surname>
+              <given-names>C.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bortezomib overcomes mgmt-related resistance of glioblastoma cell lines to temozolomide in a schedule-dependent manner</article-title>
+          <source>Investig. New Drugs</source>
+          <year>2013</year>
+          <volume>31</volume>
+          <fpage>1169</fpage>
+          <lpage>1181</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10637-013-9968-1</pub-id>
+          <pub-id pub-id-type="pmid">23645448</pub-id>
+        </citation>
+      </ref>
+      <ref id="B56-cells-04-00427">
+        <label>56.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Solinas</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Massi</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Cinquina</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Valenti</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bolognini</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Gariboldi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Monti</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Rubino</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Parolaro</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cannabidiol, a non-psychoactive cannabinoid compound, inhibits proliferation and invasion in u87-mg and t98g glioma cells through a multitarget effect</article-title>
+          <source>PLoS ONE</source>
+          <year>2013</year>
+          <volume>8</volume>
+          <fpage>e76918</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0076918</pub-id>
+          <pub-id pub-id-type="pmid">24204703</pub-id>
+        </citation>
+      </ref>
+      <ref id="B57-cells-04-00427">
+        <label>57.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Tchernyshyov</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Semenza</surname>
+              <given-names>G.L.</given-names>
+            </name>
+            <name>
+              <surname>Dang</surname>
+              <given-names>C.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hif-1-mediated expression of pyruvate dehydrogenase kinase: A metabolic switch required for cellular adaptation to hypoxia</article-title>
+          <source>Cell Metab.</source>
+          <year>2006</year>
+          <volume>3</volume>
+          <fpage>177</fpage>
+          <lpage>185</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cmet.2006.02.002</pub-id>
+          <pub-id pub-id-type="pmid">16517405</pub-id>
+        </citation>
+      </ref>
+      <ref id="B58-cells-04-00427">
+        <label>58.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaur</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Khwaja</surname>
+              <given-names>F.W.</given-names>
+            </name>
+            <name>
+              <surname>Severson</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Matheny</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Brat</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Van Meir</surname>
+              <given-names>E.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hypoxia and the hypoxia-inducible-factor pathway in glioma growth and angiogenesis</article-title>
+          <source>Neuro-Oncology</source>
+          <year>2005</year>
+          <volume>7</volume>
+          <fpage>134</fpage>
+          <lpage>153</lpage>
+          <pub-id pub-id-type="doi">10.1215/S1152851704001115</pub-id>
+          <pub-id pub-id-type="pmid">15831232</pub-id>
+        </citation>
+      </ref>
+      <ref id="B59-cells-04-00427">
+        <label>59.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaur</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Brat</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Post</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Van Meir</surname>
+              <given-names>E.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetic and hypoxic regulation of angiogenesis in gliomas</article-title>
+          <source>J. Neuro-Oncol.</source>
+          <year>2004</year>
+          <volume>70</volume>
+          <fpage>229</fpage>
+          <lpage>243</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11060-004-2752-5</pub-id>
+          <pub-id pub-id-type="pmid">15674480</pub-id>
+        </citation>
+      </ref>
+      <ref id="B60-cells-04-00427">
+        <label>60.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lal</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Goodwin</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Sang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Foss</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Cornet</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Muzamil</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Pomper</surname>
+              <given-names>M.G.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Laterra</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Egfrviii and c-met pathway inhibitors synergize against pten-null/egfrviii+ glioblastoma xenografts</article-title>
+          <source>Mol. Cancer Ther.</source>
+          <year>2009</year>
+          <volume>8</volume>
+          <fpage>1751</fpage>
+          <lpage>1760</lpage>
+          <pub-id pub-id-type="doi">10.1158/1535-7163.MCT-09-0188</pub-id>
+          <pub-id pub-id-type="pmid">19584231</pub-id>
+        </citation>
+      </ref>
+      <ref id="B61-cells-04-00427">
+        <label>61.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mellinghoff</surname>
+              <given-names>I.K.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>M.Y.</given-names>
+            </name>
+            <name>
+              <surname>Vivanco</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Haas-Kogan</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Dia</surname>
+              <given-names>E.Q.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>K.V.</given-names>
+            </name>
+            <name>
+              <surname>Yoshimoto</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Chute</surname>
+              <given-names>D.</given-names>
+            </name>
+			<etal/>
+          </person-group>
+          <article-title>Molecular determinants of the response of glioblastomas to egfr kinase inhibitors</article-title>
+          <source>N. Engl. J. Med.</source>
+          <year>2005</year>
+          <volume>353</volume>
+          <fpage>2012</fpage>
+          <lpage>2024</lpage>
+          <pub-id pub-id-type="doi">10.1056/NEJMoa051918</pub-id>
+          <pub-id pub-id-type="pmid">16282176</pub-id>
+        </citation>
+      </ref>
+      <ref id="B62-cells-04-00427">
+        <label>62.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Antonyak</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Cerione</surname>
+              <given-names>R.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>A mechanism for the upregulation of egf receptor levels in glioblastomas</article-title>
+          <source>Cell Rep.</source>
+          <year>2013</year>
+          <volume>3</volume>
+          <fpage>2008</fpage>
+          <lpage>2020</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.celrep.2013.05.021</pub-id>
+          <pub-id pub-id-type="pmid">23770238</pub-id>
+        </citation>
+      </ref>
+      <ref id="B63-cells-04-00427">
+        <label>63.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barazzuol</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Jena</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Burnet</surname>
+              <given-names>N.G.</given-names>
+            </name>
+            <name>
+              <surname>Jeynes</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Merchant</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Kirkby</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Kirkby</surname>
+              <given-names>N.F.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>In vitro</italic> evaluation of combined temozolomide and radiotherapy using x rays and high-linear energy transfer radiation for glioblastoma</article-title>
+          <source>Radiat. Res.</source>
+          <year>2012</year>
+          <volume>177</volume>
+          <fpage>651</fpage>
+          <lpage>662</lpage>
+          <pub-id pub-id-type="doi">10.1667/RR2803.1</pub-id>
+          <pub-id pub-id-type="pmid">22468703</pub-id>
+        </citation>
+      </ref>
+      <ref id="B64-cells-04-00427">
+        <label>64.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pyko</surname>
+              <given-names>I.V.</given-names>
+            </name>
+            <name>
+              <surname>Nakada</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sabit</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Teng</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Furuyama</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Hayashi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kawakami</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Minamoto</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Fedulau</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Hamada</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Glycogen synthase kinase 3beta inhibition sensitizes human glioblastoma cells to temozolomide by affecting o6-methylguanine DNA methyltransferase promoter methylation via c-myc signaling</article-title>
+          <source>Carcinogenesis</source>
+          <year>2013</year>
+          <volume>34</volume>
+          <fpage>2206</fpage>
+          <lpage>2217</lpage>
+          <pub-id pub-id-type="doi">10.1093/carcin/bgt182</pub-id>
+          <pub-id pub-id-type="pmid">23715499</pub-id>
+        </citation>
+      </ref>
+      <ref id="B65-cells-04-00427">
+        <label>65.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Graf</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Trofimova</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Loshinskaja</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mkrtchyan</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Strokina</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lovat</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tylicky</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Strumilo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bettendorff</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Bunik</surname>
+              <given-names>V.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Up-regulation of 2-oxoglutarate dehydrogenase as a stress response</article-title>
+          <source>Int. J. Biochem. Cell Biol.</source>
+          <year>2013</year>
+          <volume>45</volume>
+          <fpage>175</fpage>
+          <lpage>189</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biocel.2012.07.002</pub-id>
+          <pub-id pub-id-type="pmid">22814169</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

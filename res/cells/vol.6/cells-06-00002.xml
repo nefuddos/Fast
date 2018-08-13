@@ -1,0 +1,1781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" article-type="research-article" dtd-version="2.3">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells6010002</article-id>
+      <article-id pub-id-type="publisher-id">cells-06-00002</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Vimentin Levels and Serine 71 Phosphorylation in the Control of Cell-Matrix Adhesions, Migration Speed, and Shape of Transformed Human Fibroblasts</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Terriac</surname>
+            <given-names>Emmanuel</given-names>
+          </name>
+          <xref rid="af1-cells-06-00002" ref-type="aff">1</xref>
+          <xref rid="af2-cells-06-00002" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Coceano</surname>
+            <given-names>Giovanna</given-names>
+          </name>
+          <xref rid="af3-cells-06-00002" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mavajian</surname>
+            <given-names>Zahra</given-names>
+          </name>
+          <xref rid="af4-cells-06-00002" ref-type="aff">4</xref>
+          <xref rid="af5-cells-06-00002" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hageman</surname>
+            <given-names>Tijmen A. G.</given-names>
+          </name>
+          <xref rid="af6-cells-06-00002" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Christ</surname>
+            <given-names>Andreas F.</given-names>
+          </name>
+          <xref rid="af1-cells-06-00002" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Testa</surname>
+            <given-names>Ilaria</given-names>
+          </name>
+          <xref rid="af3-cells-06-00002" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lautenschl&#xE4;ger</surname>
+            <given-names>Franziska</given-names>
+          </name>
+          <xref rid="af1-cells-06-00002" ref-type="aff">1</xref>
+          <xref rid="af2-cells-06-00002" ref-type="aff">2</xref>
+          <xref rid="fn1-cells-06-00002" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gad</surname>
+            <given-names>Annica K. B.</given-names>
+          </name>
+          <xref rid="af4-cells-06-00002" ref-type="aff">4</xref>
+          <xref rid="af5-cells-06-00002" ref-type="aff">5</xref>
+          <xref rid="c1-cells-06-00002" ref-type="corresp">*</xref>
+          <xref rid="fn1-cells-06-00002" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Leube</surname>
+            <given-names>Rudolf E.</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-06-00002"><label>1</label>Department of Physics, University of the Saarland, 66123 Saarbr&#xFC;cken, Germany; <email>emmanuel.terriac@physik.uni-saarland.de</email> (E.T.); <email>andreas.f.christ@gmail.com</email> (A.F.C.); <email>f.lautenschlaeger@physik.uni-saarland.de</email> (F.L.)</aff>
+      <aff id="af2-cells-06-00002"><label>2</label>INM &#x2013; Leibniz Institute for New Materials, 66123 Saarbr&#xFC;cken, Germany</aff>
+      <aff id="af3-cells-06-00002"><label>3</label>Department of Applied Physics, KTH Royal Institute of Technology, 100 44 Stockholm, Sweden; <email>giovanna.coceano@scilifelab.se</email> (G.C.); <email>ilaria.testa@scilifelab.se</email> (I.T.)</aff>
+      <aff id="af4-cells-06-00002"><label>4</label>Science for Life Laboratory, Division of Translational Medicine and Chemical Biology, 171 65 Stockholm, Sweden; <email>Mavajian@kth.se</email></aff>
+      <aff id="af5-cells-06-00002"><label>5</label>Department of Medical Biochemistry and Biophysics, Karolinska Institutet, 171 77 Stockholm, Sweden</aff>
+      <aff id="af6-cells-06-00002"><label>6</label>KIST Europe, 66123 Saarbr&#xFC;cken, Germany; <email>t.hageman@kist-europe.de</email></aff>
+      <author-notes>
+        <corresp id="c1-cells-06-00002"><label>*</label>Correspondence: <email>Annica.Gad@ki.se</email>; Tel.: +46-08-524-815-69</corresp>
+        <fn id="fn1-cells-06-00002">
+          <label>&#x2020;</label>
+          <p>These authors contributed equally to this work.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>22</day>
+        <month>01</month>
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="collection">        <month>03</month>
+        <year>2017</year>
+      </pub-date>
+      <volume>6</volume>
+      <issue>1</issue>
+      <elocation-id>2</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>28</day>
+          <month>10</month>
+          <year>2016</year>
+        </date>
+        <date date-type="accepted">
+          <day>17</day>
+          <month>01</month>
+          <year>2017</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2017 by the authors.</copyright-statement>
+        <copyright-year>2017</copyright-year>
+        <license license-type="open-access">
+          <p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Metastasizing tumor cells show increased expression of the intermediate filament (IF) protein vimentin, which has been used to diagnose invasive tumors for decades. Recent observations indicate that vimentin is not only a passive marker for carcinoma, but may also induce tumor cell invasion. To clarify how vimentin IFs control cell adhesions and migration, we analyzed the nanoscale (30&#x2013;50 nm) spatial organization of vimentin IFs and cell-matrix adhesions in metastatic fibroblast cells, using three-color stimulated emission depletion (STED) microscopy. We also studied whether wild-type and phospho-deficient or -mimicking mutants of vimentin changed the size and lifetime of focal adhesions (FAs), cell shape, and cell migration, using live-cell total internal reflection imaging and confocal microscopy. We observed that vimentin exists in fragments of different lengths. Short fragments were mostly the size of a unit-length filament and were mainly localized close to small cell-matrix adhesions. Long vimentin filaments were found in the proximity of large FAs. Vimentin expression in these cells caused a reduction in FAs size and an elongated cell shape, but did not affect FA lifetime, or the speed or directionality of cell migration. Expression of a phospho-mimicking mutant (S71D) of vimentin increased the speed of cell migration. Taken together, our results suggest that in highly migratory, transformed mesenchymal cells, vimentin levels control the cell shape and FA size, but not cell migration, which instead is linked to the phosphorylation status of S71 vimentin. These observations are consistent with the possibility that not only levels, but also the assembly status of vimentin control cell migration.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>focal adhesions</kwd>
+        <kwd>vimentin</kwd>
+        <kwd>cell migration</kwd>
+        <kwd>total internal reflection (TIRF) microscopy</kwd>
+        <kwd>stimulated emission depletion (STED) microscopy</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-cells-06-00002" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Metastasizing tumor cells show increased expression of the IF protein vimentin, which, therefore, has been used to diagnose invasive tumors in the clinic for decades, and is used as a canonical marker of epithelial-to-mesenchymal transition. Recent findings indicate that vimentin is not only a passive marker of carcinoma, but may also induce changes in cell shape and adhesion, as well as cell invasion of tumor cells [<xref ref-type="bibr" rid="B1-cells-06-00002">1</xref>,<xref ref-type="bibr" rid="B2-cells-06-00002">2</xref>,<xref ref-type="bibr" rid="B3-cells-06-00002">3</xref>,<xref ref-type="bibr" rid="B4-cells-06-00002">4</xref>,<xref ref-type="bibr" rid="B5-cells-06-00002">5</xref>].</p>
+      <p>Cell migration and invasion are governed by the interaction of cells with the extracellular matrix. In many cell types, these cell-matrix adhesions are specific multi-protein entities called focal contacts (FCs) or focal adhesions (FAs). The molecules of cell-matrix adhesions span the cell membrane and physically connect the extracellular matrix with the intracellular cytoskeleton. In particular, the actin microfilament system and microtubules are both known to interact with, and to regulate, the structure and function of cell-matrix adhesions. Vimentin IFs were shown to be linked to cell-matrix adhesions decades ago [<xref ref-type="bibr" rid="B6-cells-06-00002">6</xref>]. Vimentin is important for the transfer of mechanical force from the cell adhesions to the cell interior, and vimentin protein levels regulate cell adhesion strength of endothelial cells [<xref ref-type="bibr" rid="B7-cells-06-00002">7</xref>,<xref ref-type="bibr" rid="B8-cells-06-00002">8</xref>,<xref ref-type="bibr" rid="B9-cells-06-00002">9</xref>,<xref ref-type="bibr" rid="B10-cells-06-00002">10</xref>]. To date, the functional role of the vimentin IF network in the formation and function of cell-extracellular matrix adhesions remains unclear.</p>
+      <p>Several studies suggest that not only the level of the vimentin protein, but also the assembly status of the vimentin filaments regulates cell adhesion, migration, and invasion [<xref ref-type="bibr" rid="B11-cells-06-00002">11</xref>,<xref ref-type="bibr" rid="B12-cells-06-00002">12</xref>,<xref ref-type="bibr" rid="B13-cells-06-00002">13</xref>]. The assembly of cytoplasmic IFs into filaments is a step-wise process in which the monomer IFs first associate into dimers that then assemble into tetramers, forming unit-length filaments (ULFs). ULFs can then assemble into intermediate filaments [<xref ref-type="bibr" rid="B14-cells-06-00002">14</xref>]. Vimentin has a large number of phosphorylation sites, which control the assembly status and the architecture of the filaments. Phosphorylation of most sites results in the disassembly of filaments, as well as a bundled assembly status [<xref ref-type="bibr" rid="B15-cells-06-00002">15</xref>,<xref ref-type="bibr" rid="B16-cells-06-00002">16</xref>,<xref ref-type="bibr" rid="B17-cells-06-00002">17</xref>,<xref ref-type="bibr" rid="B18-cells-06-00002">18</xref>]. Recent findings by Hyder et al. indicate that sphingolipids can stimulate ROCK-dependent phosphorylation of vimentin specifically at serine 71 (S71), and thereby stabilize the vimentin filaments and inhibit cell motility [<xref ref-type="bibr" rid="B17-cells-06-00002">17</xref>,<xref ref-type="bibr" rid="B19-cells-06-00002">19</xref>]. In contrast, the phosphorylation of this particular site has also been reported to cause the inhibition of IF formation during cytokinesis, and to increase the soluble, non-filamentous fraction of vimentin [<xref ref-type="bibr" rid="B20-cells-06-00002">20</xref>]. The contrasting reports on S71 phosphorylation on vimentin polymerization and its role in processes such as migration and cytoskinesis suggest that the function of S71 is highly complex and that vimentin may be able to react differently depending on the surrounding conditions or in combination with different partners. Such a system may be important where the cytoskeleton needs to be under strict spatial control, allowing separate, and even opposite, signaling cascades to be active in well-defined local areas adjacent to each other.</p>
+      <p>Most previous studies have analyzed the effects of overexpression of vimentin in cells of endothelial origin, which lack endogenous expression of vimentin. In contrast, in our study, we have used transformed, highly migratory, metastasizing human fibroblasts, which have a high endogenous level of vimentin. These cells have been well characterized, both due to quantitative analysis of the global transcriptome within these cells, and because the levels and localization of many proteins, as well as the cytoskeletal organization and behavior of the cells, have been described previously [<xref ref-type="bibr" rid="B21-cells-06-00002">21</xref>,<xref ref-type="bibr" rid="B22-cells-06-00002">22</xref>,<xref ref-type="bibr" rid="B23-cells-06-00002">23</xref>]. We also previously showed that these cells have reduced FA size, altered spatial distribution of cell-matrix adhesions, and a more entangled vimentin network compared to normal, primary fibroblast [<xref ref-type="bibr" rid="B23-cells-06-00002">23</xref>]. The size of FAs has been shown to be strongly linked to the speed of cell migration, with an optimal size for maximal cell speed of 0.5&#x2013;1.0 &#xB5;m<sup>2</sup> [<xref ref-type="bibr" rid="B24-cells-06-00002">24</xref>]. We speculated that the cell-matrix adhesions of our transformed and invasive cells would be optimal for cell migration, and that overexpression of vimentin in this cell system could possibly revert the transformed cell phenotypes to normal.</p>
+      <p>To clarify the role of vimentin in the control of cell-matrix-adhesions and cell migration in these transformed fibroblasts, we analyzed the nanoscale spatial organization of vimentin, actin microfilaments, and cell-matrix adhesions using three-color stimulated emission depletion (STED) microscopy. These images were quantified by computational analysis. We further assessed the functional role of vimentin in the control of cell-matrix adhesions and cell migration. Finally, we analyzed how the expression of wild-type and phospho-mutant vimentin regulated FAs, cell shape, and cell migration.</p>
+    </sec>
+    <sec id="sec2-cells-06-00002" sec-type="results">
+      <title>2. Results</title>
+      <sec id="sec2dot1-cells-06-00002">
+        <title>2.1. The Nanoscale Organizations of Vimentin and Cell-Matrix Adhesions Are Linked</title>
+        <p>Several studies have indicated that vimentin can control the adhesion of cells to the underlying substrate [<xref ref-type="bibr" rid="B7-cells-06-00002">7</xref>,<xref ref-type="bibr" rid="B8-cells-06-00002">8</xref>,<xref ref-type="bibr" rid="B9-cells-06-00002">9</xref>,<xref ref-type="bibr" rid="B10-cells-06-00002">10</xref>]. We, therefore, aimed to determine the spatial co-distribution of vimentin and FAs at the nanoscale level. To this end, we analyzed the spatial distribution of vimentin, phosphotyrosine, and filamentous actin (F-actin) at the leading edge of cells using STED microscopy, as described in the Method section. When analyzing the extent of co-localization between the phosphotyrosine signal and the vimentin signal in the images, we detected phosphotyrosine-positive dots both in areas with and without vimentin signals in the micrometer range. Structured phosphotyrosine signals, such as FCs and FAs, were observed mainly in the vicinity of a vimentin signal. Occasionally, we observed FCs and FAs in areas with no vimentin signal in the micrometer range (<xref ref-type="fig" rid="cells-06-00002-f001">Figure 1</xref>A). In contrast, vimentin dots were only found in the proximity (nanometer range) of phosphotyrosine dots, FCs, and FAs. Structured vimentin signals, i.e., squiggles and filaments, were always found close to a structured phophotyrosine signal of FC or FA (<xref ref-type="fig" rid="cells-06-00002-f001">Figure 1</xref>A). While we very rarely observed an exact overlap between the phosphotyrosine and vimentin dots, we often observed an overlap between phosphotyrosine dots and vimentin squiggles or long filaments (<xref ref-type="fig" rid="cells-06-00002-f001">Figure 1</xref>A). We found that, in the analyzed part of the cell, vimentin was present at different lengths (<xref ref-type="fig" rid="cells-06-00002-f001">Figure 1</xref>). When quantifying the length of the vimentin signal, we found that the most common length of vimentin short filaments was 126 &#xB1; 34 nm (<xref ref-type="fig" rid="cells-06-00002-f001">Figure 1</xref>B,C). ULFs have been reported to be approximately 65 nm long [<xref ref-type="bibr" rid="B25-cells-06-00002">25</xref>]. However, together with the sizes of the primary and secondary antibodies and living-color tags used for detection of the ULFs, and the resolution of the microscope, the expected length of an ULF in our system would be 130 nm. These vimentin-positive structures were found to be elongated (<xref ref-type="app" rid="app1-cells-06-00002">Figure S1</xref>), further supporting the conclusion that they may be ULFs. The 200-nm- to 1000-nm-long vimentin structures showed an average length of 600 &#xB1; 300 nm, and we speculate that this fraction corresponds to vimentin squiggles (<xref ref-type="fig" rid="cells-06-00002-f001">Figure 1</xref>B,D). We could further detect that the very long and continuous vimentin filaments were spatially localized in the vicinity of large FAs, with a length of 4 &#xB5;m or longer, but not to shorter FAs or FCs (<xref ref-type="fig" rid="cells-06-00002-f001">Figure 1</xref>E). Taken together, these observations indicate that both the spatial distribution and the polymerization state of vimentin are closely linked to, and dependent on, the organization and size of cell-matrix adhesions.</p>
+      </sec>
+      <sec id="sec2dot2-cells-06-00002">
+        <title>2.2. Vimentin Controls the Size, But Not the Turn-Over, of Cell-Matrix Adhesions in Transformed Fibroblasts</title>
+        <p>To determine whether the protein levels of vimentin or the S71 phosphorylation status of vimentin controls the FAs in our system, we expressed fluorescently tagged vimentin wild-type, or S71 phospho-mimicking or phospho-deficient vimentin in our cells, and analyzed the FA size and lifetime, as described in <xref ref-type="fig" rid="cells-06-00002-f002">Figure 2</xref>A,B, as well as in the Methods section. We observed that expression of all the vimentin variants, i.e., the wild-type, the phospho-mimicking or the phospho-deficient variant, reduced the size, but not the lifetime, of FAs (<xref ref-type="fig" rid="cells-06-00002-f002">Figure 2</xref>C,D). Taken together, these data suggest that vimentin protein expression is sufficient to reduce the size of FAs. Consistent with the concept that soluble, non-filamentous vimentin, or short fragments of vimentin, may reduce the size of FAs, we observed that a cell region would show a rapid increase in non-filamentous vimentin just prior to FA dissolution and lamellipodium formation (<xref ref-type="app" rid="app1-cells-06-00002">Figure S2</xref>).</p>
+      </sec>
+      <sec id="sec2dot3-cells-06-00002">
+        <title>2.3. Vimentin Protein Levels, But Not Vimentin S71 Phosphorylation, Controls the Shape of Transformed Fibroblasts</title>
+        <p>Increased levels of the vimentin protein are a key marker of epithelial-to-mesenchymal transition and have been found to be both required and sufficient for an elongated phenotype in epithelial cells [<xref ref-type="bibr" rid="B26-cells-06-00002">26</xref>]. To determine whether vimentin causes an elongated phenotype in our cells, we analyzed the length versus the width of cells expressing wild-type or phospho-mutant vimentin, as described in <xref ref-type="fig" rid="cells-06-00002-f003">Figure 3</xref>A,B and the Methods section. We observed that exogenous expression of the vimentin wild-type protein resulted in a more elongated shape of our cells compared to the control cells (<xref ref-type="fig" rid="cells-06-00002-f003">Figure 3</xref>). We observed the same phenomenon in the total internal reflection (TIRF) microscopy films of <xref ref-type="fig" rid="cells-06-00002-f002">Figure 2</xref>. In addition, we used STED microscopy to investigate the fine details in F-actin organization of differently shaped cells (<xref ref-type="app" rid="app1-cells-06-00002">Figure S3</xref>). We observed no statistically significant differences in cell shapes when expressing the phospho-mutants (<xref ref-type="fig" rid="cells-06-00002-f003">Figure 3</xref>C), and no correlation between subtle differences of the levels of ectopically-expressed wild-type vimentin and the elongated shape of cells (data not shown). These results are in line with the previous literature that suggests that major changes in vimentin protein levels control the shape of cells [<xref ref-type="bibr" rid="B27-cells-06-00002">27</xref>].</p>
+      </sec>
+      <sec id="sec2dot4-cells-06-00002">
+        <title>2.4. Vimentin S71 Phosphorylation Increases the Speed of Transformed Fibroblasts</title>
+        <p>To clarify whether the observed changes in FA size and cell shape induced by vimentin can control cell migration, we expressed the vimentin constructs in cells and analyzed the capacity of the cells to migrate, as described in the Materials and Methods section and shown in <xref ref-type="fig" rid="cells-06-00002-f004">Figure 4</xref>A. Our results show a significant increase in the migration speed in cells expressing the phospho-mimicking S71 mutant of vimentin (S71D), as compared to vimentin wild-type (<xref ref-type="fig" rid="cells-06-00002-f004">Figure 4</xref>B). The other constructs did not result in statistically different migration speeds, as compared to wild-type vimentin. We could not detect whether any of the vimentin constructs changed the persistence of the cell migration (<xref ref-type="fig" rid="cells-06-00002-f004">Figure 4</xref>C). These results suggest that phosphorylation at S71 of vimentin could be sufficient to promote the speed of cell migration.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-cells-06-00002" sec-type="discussion">
+      <title>3. Discussion</title>
+      <p>We found that, at the nanoscale level, vimentin exists in fragments of different lengths, where most short fragments were of the predicted size of ULFs [<xref ref-type="bibr" rid="B25-cells-06-00002">25</xref>]. While the shorter fragments were predominantly present in the vicinity of small cell-matrix adhesions, the longer filaments were mostly found in the proximity of large FAs. We observed that increased levels of vimentin reduced the sizes of FAs, supporting the idea that the association of vimentin to cell-matrix adhesions can regulate the adhesions. However, the vimentin levels did not change the lifetime of FAs. The long filaments of vimentin were found close to cell-matrix adhesions that were significantly larger than the migration-promoting size of adhesions (known to be 0.5&#x2013;1 &#xB5;m<sup>2</sup> ), which supports the idea that long, stable vimentin filaments do not promote, but rather stabilize, adhesions and inhibit cell migration [<xref ref-type="bibr" rid="B10-cells-06-00002">10</xref>]. Can short vimentin units promote cell migration? This idea is supported by several previous observations [<xref ref-type="bibr" rid="B11-cells-06-00002">11</xref>,<xref ref-type="bibr" rid="B26-cells-06-00002">26</xref>]. Consistent with these finding, we observed that a rapid local increase in a diffuse, non-filamentous fraction of vimentin precedes dissolution of FAs and formation of lamellipodia (<xref ref-type="fig" rid="cells-06-00002-f002">Figure 2</xref>). The most common size of short vimentin filaments that we observed was of the expected size of ULFs, indicating that these short fragments are often ULFs, and that the vimentin in the vicinity of FCs is often as ULFs. These observations are in line with the previous findings suggesting that that short filaments of vimentin could function as a scaffold that recruits the required molecules to the appropriate site; i.e., lamella [<xref ref-type="bibr" rid="B28-cells-06-00002">28</xref>]. Then, when this function is fulfilled, vimentin would no longer be needed to induce migration, but rather to form long filaments that stabilize FAs and inhibit migration [<xref ref-type="bibr" rid="B17-cells-06-00002">17</xref>].</p>
+      <p>Fibroblasts lose their elongated shape due to their malignant transformation with fibroblasts with oncogenes. Our observation that increased vimentin levels resulted in a more elongated cell shape of transformed cells suggests that vimentin can revert an oncogenically transformed fibroblast morphology into that of normal fibroblasts. This is in line with previous observations in the field that vimentin induces an elongated cell shape [<xref ref-type="bibr" rid="B26-cells-06-00002">26</xref>], and highlights the importance of IFs in the control of cell shape.</p>
+      <p>In contrast to earlier reports, vimentin protein levels did not regulate the speed or directionality or migration. We speculate that this discrepancy is due to the different cell systems used. Most studies that have observed that vimentin levels control cell migration have used endothelial cells, which often lack endogenous vimentin and are less migratory than our transformed mesenchymal cells. Our cells have a high endogenous level of vimentin and a high capacity to migrate and invade, and we speculate that in this background, more vimentin cannot further stimulate migration. Taken together with our data above, we conclude that the vimentin-induced reduction of FA size and increased elongated shape of cells is not sufficient to induce cell migration in our cell system.</p>
+      <p>Similar to cytokinesis, cell migration requires that the cytoskeleton is under strict spatial control, allowing separate&#x2014;and even opposing&#x2014;signaling cascades to be active in well-defined local areas in the vicinity to each other. Hence, cell migration is a result of a polarized organization of a contractile cytoskeleton and cell-matrix adhesions, which is a result of a biochemical and mechanical signaling gradient inside the cell. This gradient can be caused by spatially-restricted, local activation of Rac-PAK at the front of the cell, and by the activation of RhoA-ROCK signaling in a more rearward position and at the back of the cell [<xref ref-type="bibr" rid="B29-cells-06-00002">29</xref>]. The antagonistic nature of both pathways may help in their spatial restriction [<xref ref-type="bibr" rid="B30-cells-06-00002">30</xref>,<xref ref-type="bibr" rid="B31-cells-06-00002">31</xref>,<xref ref-type="bibr" rid="B32-cells-06-00002">32</xref>]. To date, the role of vimentin in the control of this gradient remains elusive. We could observe that the phospho-mimicking (S71D) mutant of vimentin increased the speed of cell migration, as compared to wild-type vimentin. We speculate that this is because the phospho-mimicking S71D mutant promotes the gradient that causes cell migration. Recent observations by Komura et al. showed that S71 phosphorylation of vimentin can result in severing of vimentin filaments into tetramers [<xref ref-type="bibr" rid="B33-cells-06-00002">33</xref>], and local depolymerization of vimentin appears to activate Rac-signaling [<xref ref-type="bibr" rid="B11-cells-06-00002">11</xref>]. Therefore, we suggest that S71 phosphorylation of vimentin can result in vimentin depolymerization or cleavage, inducing local Rac-PAK activation, which induces smaller adhesions and lamellipodium formation at the front of the cell (<xref ref-type="fig" rid="cells-06-00002-f005">Figure 5</xref>).</p>
+      <p>In 1998, Wun-Chey Sin et al. proposed that a large fraction of inactive ROCK can bind to the vimentin filament network, and that ROCK-dependent phosphorylation of vimentin filaments can release ROCK from the filaments and induce the translocation to the plasma membrane and further activation of ROCK1 [<xref ref-type="bibr" rid="B34-cells-06-00002">34</xref>]. Several studies suggested that vimentin is connected to FAs and that this connection is required for the transfer of mechanical forces from the cell surface integrins to the cell interior [<xref ref-type="bibr" rid="B8-cells-06-00002">8</xref>]. Therefore, we speculate that in regions where actin is under tension (e.g., stress fibers), the stress may be expected to be locally transmitted to the vimentin network. Our data are in line with the hypothesis that in the cell areas where the vimentin filaments are anchored to FAs and exposed to mechanical stress, the S71 phosphorylation of the vimentin network would mainly result in an activation and release of ROCK, reinforcing the local tension in the stress fibers via activation of myosin2 (<xref ref-type="fig" rid="cells-06-00002-f005">Figure 5</xref>).</p>
+      <p>In contrast, in subcellular locations where vimentin filaments are not under tension, the S71 phosphorylation would result in severing of the vimentin filaments into shorter fragments or its dissolution into tetramers (<xref ref-type="fig" rid="cells-06-00002-f005">Figure 5</xref>). This concept is consistent with the observation that in cells with a collapsed vimentin network, vimentin S71 phosphorylation increases the level of short vimentin fragments, and that vimentin filaments are recomposed by severing and reannealing of short fragments [<xref ref-type="bibr" rid="B33-cells-06-00002">33</xref>,<xref ref-type="bibr" rid="B35-cells-06-00002">35</xref>]. As described above, an increase in the available pool of soluble vimentin or short vimentin fragments could activate Rac1 and lamellipodium formation. Our data are, therefore, consistent with the hypothesis that depending on the local subcellular mechanical context, S71 phosphorylation may result in both local cleavage of the filaments into shorter units, promoting Rac-PAK signaling, as well as activation of ROCK-dependent contractile forces, and that the strengthening of both of these antagonistic pathways promotes cell polarization and migration (<xref ref-type="fig" rid="cells-06-00002-f005">Figure 5</xref>). Nonetheless, it is important to note that many of the ideas presented above are hypothetical and require future experimental validation.</p>
+      <p>Taken together, our results suggest that in highly migratory, transformed mesenchymal cells, vimentin levels control the cell shape and FA size, but not the speed of cell migration, which, instead, can be linked to the phosphorylation status of S71 vimentin. These observations are consistent with the possibility that not only the levels, but also the polymerization status of vimentin control cell migration.</p>
+    </sec>
+    <sec id="sec4-cells-06-00002">
+      <title>4. Materials and Methods</title>
+      <sec id="sec4dot1-cells-06-00002" sec-type="methods">
+        <title>4.1. Cell Culture, DNA Constructs, and Transfection Procedures</title>
+        <p>The transformed and metastasizing cells were previously constructed by Hahn et al. by inserting three well-defined genetic elements: the telomerase catalytic subunit (<italic>hTERT</italic>) in combination with two oncogenes (the simian virus 40 large-T oncoprotein, and an oncogenic allele of H-<italic>ras</italic>) into neonatal human dermal fibroblasts [<xref ref-type="bibr" rid="B22-cells-06-00002">22</xref>]. The cells were cultured as described previously [<xref ref-type="bibr" rid="B36-cells-06-00002">36</xref>]. These cells have been characterized previously with regard to their total gene transcription and protein expression, as well as the cytoskeletal organization and behavior of the cells [<xref ref-type="bibr" rid="B21-cells-06-00002">21</xref>,<xref ref-type="bibr" rid="B22-cells-06-00002">22</xref>,<xref ref-type="bibr" rid="B23-cells-06-00002">23</xref>]. For confocal and single-color STED experiments, the cells were transiently transfected with a plasmid coding for mCherry fused to the protein of interest, 24 h prior to analysis, as described previously [<xref ref-type="bibr" rid="B2-cells-06-00002">2</xref>]. For three-color STED analysis, the cells were transfected with an EGFP variant fused to wild-type vimentin [<xref ref-type="bibr" rid="B37-cells-06-00002">37</xref>].</p>
+      </sec>
+      <sec id="sec4dot2-cells-06-00002">
+        <title>4.2. Immunofluorescence Staining, Confocal and STED Imaging and Computational Analysis of STED Images</title>
+        <p>The cells were fixed and permeabilized as described previously [<xref ref-type="bibr" rid="B38-cells-06-00002">38</xref>]. Prior to confocal and single-color STED imaging, the actin in the cells was stained with Phalloidin-Oregon Green488 (Thermofisher, Waltham, MA, USA). For three-color STED imaging, the cells were stained with a rabbit anti-GFP antibody (Abcam, Cambridge, MA, USA), and an Alexa488-conjugated secondary antibody (Abcam), a mouse anti-phosphotyrosine antibody (Santa Cruz Biotechnology, Dallas, TX, USA) and an Atto594-conjugated secondary antibody and with Phalloidin-Alexa647 (Sigma-Aldrich, St. Louis, MO, USA). Confocal images were recorded with a laser-scanning microscope (Zeiss LSM 780) equipped with a 40&#xD7;/1.2 water immersion objective. The experiments were performed exciting the Phalloidin-Oregon green488 at 488 nm and the mCherry fused to vimentin at 561 nm. A field of view of 353 &#xD7; 353 &#xB5;m was chosen, and the fluorescence emission signal of both green and red channels were acquired at the same time. The STED images of actin were recorded with a custom built gated-STED microscope equipped with a 100&#xD7;/1.4 oil objective, using a 473 nm laser line to excite Phalloidin-Oregon green488 and a 590 nm laser to deplete the signal. The three-color STED imaging was performed on a Leica TCS SP8 3X STED microscope equipped with a 100&#xD7;/1.4 STED WHITE objective. The images were recorded by exciting the vimentin-Alexa488, Phoshotyrosin-Atto594 and Phalloidine-Alexa647 with 488 nm, 590 nm, and 650 nm laser lines, respectively. We used the STED beam at 590 nm to deplete Alexa488 and at 775 nm to deplete Atto594 and Alexa647. For imaging analysis, we focused on protruding regions of the cells, according to the organization of the actin filament system. For each independent experiment, 3&#x2013;8 images from different cells were acquired, per cell type per condition. Three independent experiments were performed, yielding a total of 15 images per cell type per condition. The images were acquired with 20 nm pixel size and a pixel dwell time of 80 &#x3BC;s. All acquired or reconstructed images were processed and visualized using the ImSpector software (Max-Planck Innovation, Goettingen, Germany) and ImageJ (<uri>https://fiji.sc/</uri>, [<xref ref-type="bibr" rid="B39-cells-06-00002">39</xref>]). Brightness and contrast were linearly adjusted for the entire images. We further quantified the size and the spatial distribution of vimentin and FAs in the three-color images. The vimentin&#x2013;FA quantification was made in the region that was within 10 &#xB5;m of the cell edge (as defined by the most peripheral phosphotyrosine signal), and the border of the vimentin network, or between the vimentin network and the cell edge. We measured the length and the thickness of vimentin ULFs with a custom-modified ImageJ macro called FWHM_Line: the filament length and thickness were defined as the FWHM of a fitted Gaussian for the one-pixel-wide line profile drawn on the filaments. The same analysis was performed to measure the thickness of the squiggles, while their length was measured with the Segmentation-Neurite tracer plugin of ImageJ, as shown in <xref ref-type="app" rid="app1-cells-06-00002">Figure S1</xref>. We used the confocal images to quantify the length of the FAs, and determined the presence of continuous vimentin filaments in the very proximity of the FAs in the STED images using FIJI.</p>
+      </sec>
+      <sec id="sec4dot3-cells-06-00002">
+        <title>4.3. Cell Shape Analysis</title>
+        <p>To quantify the elongated shape of cells, we captured confocal images using a 20&#xD7; objective, outlined the borders of the F-actin staining in cells found to express the various vimentin constructs, as shown in <xref ref-type="fig" rid="cells-06-00002-f003">Figure 3</xref>A,B, and quantified the axis ratio of these areas, using the FIJI program (<uri>https://fiji.sc/</uri>, [<xref ref-type="bibr" rid="B39-cells-06-00002">39</xref>]). The individual FAs of the single cells were analyzed by time-lapse TIRF microscopy, followed by computational analysis. Experiments were carried out on a Nikon Eclipse TI-E microscope (Nikon GmbH, D&#xFC;sseldorf, Germany) equipped with a TI-TIRF-E motorized illuminator, to generate the evanescent field. Cells were transfected with GFP-Paxilin and either cherry-Mock, cherry-WT vimentin, Cherry-S71A, or Cherry-S71D vimentin. Only cells fluorescent for the two fluorophores were considered. Images were taken with a 100&#xD7;/1.49 Apochromat TIRF objective and an Ixon3 DU-897-BV EMCCD camera. Images were recorded every 3 min for 2 h.</p>
+      </sec>
+      <sec id="sec4dot4-cells-06-00002">
+        <title>4.4. Focal Adhesion Size and Lifetime Measurements</title>
+        <p>FAs were automatically tracked by a custom written MATLAB program (Mathworks Inc., Natick, MA, USA) that separated detection and tracking of the FAs. Images were pre-processed by performing upsampling, followed by low-pass filtering to get rid of high-frequency noise and high-pass filtering to get rid of image gradients. Thresholding then marked the FAs. A watershed algorithm was used to distinguish closely spaced adhesions that were connected in the thresholded image. A skeletonized thresholded Laplacian can define the centers of elongated objects and was, therefore, used to enforce local minima in the seed image for watershedding. The center of mass of the resulting blobs defined the location of the adhesions. Tracking of adhesions was based on a straightforward neighbor search in subsequent images. Detected FAs in subsequent images were considered the same when they were uniquely within a search radius. If no new adhesion was found within the region, the trajectory was ended. If a new adhesion was found, a new trajectory was started. If multiple adhesions were found within the search radius, the trajectory was ended and multiple new ones were started. The fluorescent intensity was recorded over the trajectories and fitted to a Gaussian curve after background subtraction. Fits giving a chi-square of less than 70% were rejected. For the characteristic lifetime for FAs, we considered the full width at half maximum of the fit.</p>
+      </sec>
+      <sec id="sec4dot5-cells-06-00002">
+        <title>4.5. Cell Migration Experiments</title>
+        <p>The cells were filmed in media containing Hoechst (50 ng/mL) using ImageXpress Micro XLS (Molecular Devices LLC, Sunnyvale, CA, USA) with the enviromental control active (humidity, temperature, CO<sub>2</sub>). Pixel size was 0.325 &#xB5;m, and the image size was 702 &#xD7; 702 &#xB5;m. The images were taken with a 20&#xD7; objective, binning 1, at 10 min intervals for 24 h. Thereafter, the trajectories were generated using the FIJI (<uri>https://fiji.sc/</uri>, [<xref ref-type="bibr" rid="B39-cells-06-00002">39</xref>]) &#x201C;Manual Tracking&#x201D; plug-in and quantified through the &#x201C;Chemotaxis Tool&#x201D; (<uri>http://ibidi.com/software/chemotaxis_and_migration_tool/</uri>, Ibidi GmbH, Martinsried, Germany) plug in. The quantities used here were the mean values of the instantaneous speed as well as the persistence (called the directionality), and defined as the ratio of the Euclidian length of the trajectory over its total length.</p>
+      </sec>
+      <sec id="sec4dot6-cells-06-00002">
+        <title>4.6. Statistical Analysis and Plots</title>
+        <p>The statistical analyses were performed using Student&#x2019;s <italic>t-</italic>tests with two-tailed heteroscedastic variance. Graphs were generated using the OriginPro software (OriginLab Corporation, Northampton, MA, USA). Unless otherwise specified, box plots show the data as points on top of the statistics box. The range of the box depicts the standard error of the mean (s.e.m) and the whiskers represent the standard deviation. Statistical analyses were performed using two samples Student <italic>t</italic>-tests.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-cells-06-00002">
+        <title>Supplementary Materials</title>
+		<supplementary-material id="cells-06-00002-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-06-00002-s001.pdf">
+		</supplementary-material>
+        <p>The Supplementary Materials are available online at <uri>www.mdpi.com/2073-4409/6/1/2/s1</uri>.</p>
+      </app>
+    </app-group>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We are grateful for the advanced expertise and access to instruments provided by Hans Blom, Advanced Light Microscopy Facility, ALM, and Magdalena Otrocka, Chemical Biology Consortium Sweden (CBCS) at Scilifelab, Stockholm, Sweden. This project was supported by a travel grant from the Swedish Cancer Society (CAN 2016/678), Sweden (to AKBG).</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>E.T., G.C., I.T., F.L., A.K.B.G. conceived and designed the experiments; E.T., G.C., A.K.B.G. performed the experiments; E.T., G.C., Z.M., T.A.G.H., A.F.C., I.T., F.L., A.K.B.G. analyzed the data; T.A.G.H., I.T. contributed reagents/ materials/ analysis tools; E.T. and A.K.B.G. wrote the paper.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflicts of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-06-00002">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chung</surname>
+              <given-names>B.M.</given-names>
+            </name>
+            <name>
+              <surname>Rotty</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Coulombe</surname>
+              <given-names>P.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Networking galore: Intermediate filaments and cell migration</article-title>
+          <source>Curr. Opin. Cell Biol.</source>
+          <year>2013</year>
+          <volume>25</volume>
+          <fpage>600</fpage>
+          <lpage>612</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ceb.2013.06.008</pub-id>
+          <pub-id pub-id-type="pmid">23886476</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-cells-06-00002">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rathje</surname>
+              <given-names>L.S.Z.</given-names>
+            </name>
+            <name>
+              <surname>Nordgren</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Pettersson</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ronnlund</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Widengren</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Aspenstrom</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Gad</surname>
+              <given-names>A.K.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Oncogenes induce a vimentin filament collapse mediated by hdac6 that is linked to cell stiffness</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2014</year>
+          <volume>111</volume>
+          <fpage>1515</fpage>
+          <lpage>1520</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1300238111</pub-id>
+          <pub-id pub-id-type="pmid">24474778</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-cells-06-00002">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vuoriluoto</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Haugen</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Kiviluoto</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mpindi</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Nevo</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gjerdrum</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Tiron</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Lorens</surname>
+              <given-names>J.B.</given-names>
+            </name>
+            <name>
+              <surname>Ivaska</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vimentin regulates EMT induction by Slug and oncogenic H-Ras and migration by governing Axl expression in breast cancer</article-title>
+          <source>Oncogene</source>
+          <year>2011</year>
+          <volume>30</volume>
+          <fpage>1436</fpage>
+          <lpage>1448</lpage>
+          <pub-id pub-id-type="doi">10.1038/onc.2010.509</pub-id>
+          <pub-id pub-id-type="pmid">21057535</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-cells-06-00002">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wei</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>M.F.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.T.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>L.P.</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>Z.Q.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Overexpression of vimentin contributes to prostate cancer invasion and metastasis via src regulation</article-title>
+          <source>Anticancer Res.</source>
+          <year>2008</year>
+          <volume>28</volume>
+          <fpage>327</fpage>
+          <lpage>334</lpage>
+          <pub-id pub-id-type="pmid">18383865</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-cells-06-00002">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>Q.S.</given-names>
+            </name>
+            <name>
+              <surname>Rosenblatt</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Lahat</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Brobey</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Bolshakov</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ding</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Belousov</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Bill</surname>
+              <given-names>K.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Vimentin is a novel Akt1 target mediating motility and invasion</article-title>
+          <source>Oncogene</source>
+          <year>2011</year>
+          <volume>30</volume>
+          <fpage>457</fpage>
+          <lpage>470</lpage>
+          <pub-id pub-id-type="doi">10.1038/onc.2010.421</pub-id>
+          <pub-id pub-id-type="pmid">20856200</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-cells-06-00002">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bershadsky</surname>
+              <given-names>A.D.</given-names>
+            </name>
+            <name>
+              <surname>Tint</surname>
+              <given-names>I.S.</given-names>
+            </name>
+            <name>
+              <surname>Svitkina</surname>
+              <given-names>T.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Association of intermediate filaments with vinculin-containing adhesion plaques of fibroblasts</article-title>
+          <source>Cell Motil. Cytoskelet.</source>
+          <year>1987</year>
+          <volume>8</volume>
+          <fpage>274</fpage>
+          <lpage>283</lpage>
+          <pub-id pub-id-type="doi">10.1002/cm.970080308</pub-id>
+          <pub-id pub-id-type="pmid">3121191</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-cells-06-00002">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bhattacharya</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Gonzalez</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>DeBiase</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Trejo</surname>
+              <given-names>H.E.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Flitney</surname>
+              <given-names>F.W.</given-names>
+            </name>
+            <name>
+              <surname>Jones</surname>
+              <given-names>J.C.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Recruitment of vimentin to the cell surface by beta 3 integrin and plectin mediates adhesion strength</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2009</year>
+          <volume>122</volume>
+          <fpage>1390</fpage>
+          <lpage>1400</lpage>
+          <pub-id pub-id-type="doi">10.1242/jcs.043042</pub-id>
+          <pub-id pub-id-type="pmid">19366731</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-cells-06-00002">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gregor</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Osmanagic-Myers</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Burgstaller</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Wolfram</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fischer</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Walko</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Resch</surname>
+              <given-names>G.P.</given-names>
+            </name>
+            <name>
+              <surname>Jorgl</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Herrmann</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wiche</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanosensing through focal adhesion-anchored intermediate filaments</article-title>
+          <source>FASEB J.</source>
+          <year>2014</year>
+          <volume>28</volume>
+          <fpage>715</fpage>
+          <lpage>729</lpage>
+          <pub-id pub-id-type="doi">10.1096/fj.13-231829</pub-id>
+          <pub-id pub-id-type="pmid">24347609</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-cells-06-00002">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Maniotis</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Ingber</surname>
+              <given-names>D.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Demonstration of mechanical connections between integrins cytoskeletal filaments, and nucleoplasm that stabilize nuclear structure</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>1997</year>
+          <volume>94</volume>
+          <fpage>849</fpage>
+          <lpage>854</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.94.3.849</pub-id>
+          <pub-id pub-id-type="pmid">9023345</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-cells-06-00002">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tsuruta</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Jones</surname>
+              <given-names>J.C.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The vimentin cytoskeleton regulates focal contact size and adhesion of endothelial cells subjected to shear stress</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2003</year>
+          <volume>116</volume>
+          <fpage>4977</fpage>
+          <lpage>4984</lpage>
+          <pub-id pub-id-type="doi">10.1242/jcs.00823</pub-id>
+          <pub-id pub-id-type="pmid">14625391</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-06-00002">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Helfand</surname>
+              <given-names>B.T.</given-names>
+            </name>
+            <name>
+              <surname>Mendez</surname>
+              <given-names>M.G.</given-names>
+            </name>
+            <name>
+              <surname>Murthy</surname>
+              <given-names>S.N.P.</given-names>
+            </name>
+            <name>
+              <surname>Shumaker</surname>
+              <given-names>D.K.</given-names>
+            </name>
+            <name>
+              <surname>Grin</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Mahammad</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Aebi</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Wedig</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Y.I.</given-names>
+            </name>
+            <name>
+              <surname>Hahn</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Vimentin organization modulates the formation of lamellipodia</article-title>
+          <source>Mol. Biol. Cell</source>
+          <year>2011</year>
+          <volume>22</volume>
+          <fpage>1274</fpage>
+          <lpage>1289</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.E10-08-0699</pub-id>
+          <pub-id pub-id-type="pmid">21346197</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-cells-06-00002">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lahat</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>Q.S.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.Z.</given-names>
+            </name>
+            <name>
+              <surname>Bolshakov</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Torres</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Langley</surname>
+              <given-names>R.R.</given-names>
+            </name>
+            <name>
+              <surname>Lazar</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Hung</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Vimentin is a novel anti-cancer therapeutic target; insights from in vitro and in vivo mice xenograft studies</article-title>
+          <source>PLoS ONE</source>
+          <year>2010</year>
+          <volume>5</volume>
+          <elocation-id>e10105</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0010105</pub-id>
+          <pub-id pub-id-type="pmid">20419128</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13-cells-06-00002">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.Y.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>H.H.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vimentin contributes to epithelial-mesenchymal transition cancer cell mechanics by mediating cytoskeletal organization and focal adhesion maturation</article-title>
+          <source>Oncotarget</source>
+          <year>2015</year>
+          <volume>6</volume>
+          <fpage>15966</fpage>
+          <lpage>15983</lpage>
+          <pub-id pub-id-type="doi">10.18632/oncotarget.3862</pub-id>
+          <pub-id pub-id-type="pmid">25965826</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-cells-06-00002">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Koster</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Weitz</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Aebi</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Herrmann</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intermediate filament mechanics in vitro and in the cell: From coiled coils to filaments, fibers and networks</article-title>
+          <source>Curr. Opin. Cell Biol.</source>
+          <year>2015</year>
+          <volume>32</volume>
+          <fpage>82</fpage>
+          <lpage>91</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ceb.2015.01.001</pub-id>
+          <pub-id pub-id-type="pmid">25621895</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15-cells-06-00002">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chou</surname>
+              <given-names>Y.H.</given-names>
+            </name>
+            <name>
+              <surname>Opal</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Quinlan</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>R.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>The relative roles of specific n- and c-terminal phosphorylation sites in the disassembly of intermediate filament in mitotic bhk-21 cells</article-title>
+          <source>J. Cell Sci.</source>
+          <year>1996</year>
+          <volume>109</volume>
+          <fpage>817</fpage>
+          <lpage>826</lpage>
+          <pub-id pub-id-type="pmid">8718673</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-cells-06-00002">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eriksson</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Trejo-Skalli</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Harmala-Brasken</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Hellman</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Chou</surname>
+              <given-names>Y.H.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>R.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Specific in vivo phosphorylation sites determine the assembly dynamics of vimentin intermediate filaments</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2004</year>
+          <volume>117</volume>
+          <fpage>919</fpage>
+          <lpage>932</lpage>
+          <pub-id pub-id-type="doi">10.1242/jcs.00906</pub-id>
+          <pub-id pub-id-type="pmid">14762106</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17-cells-06-00002">
+        <label>17.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hyder</surname>
+              <given-names>C.L.</given-names>
+            </name>
+          </person-group>
+          <source>Tuning Cell Motility&#x2014;Roles of Nestin and Vimentin in Cancer Cell Invasion</source>
+          <publisher-name>&#xC5;bo Akademi University</publisher-name>
+          <publisher-loc>Turku, Finland</publisher-loc>
+          <year>2014</year>
+        </citation>
+      </ref>
+      <ref id="B18-cells-06-00002">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Inagaki</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Matsuoka</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Tsujimura</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ando</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tokui</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Inagaki</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dynamic property of intermediate filaments: Regulation by phosphorylation</article-title>
+          <source>Bioessays</source>
+          <year>1996</year>
+          <volume>18</volume>
+          <fpage>481</fpage>
+          <lpage>487</lpage>
+          <pub-id pub-id-type="doi">10.1002/bies.950180610</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19-cells-06-00002">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hyder</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Kemppainen</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Isoniemi</surname>
+              <given-names>K.O.</given-names>
+            </name>
+            <name>
+              <surname>Imanishi</surname>
+              <given-names>S.Y.</given-names>
+            </name>
+            <name>
+              <surname>Goto</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Inagaki</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fazeli</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Eriksson</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Tornquist</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sphingolipids inhibit vimentin-dependent cell migration</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2015</year>
+          <volume>128</volume>
+          <fpage>2057</fpage>
+          <lpage>2069</lpage>
+          <pub-id pub-id-type="doi">10.1242/jcs.160341</pub-id>
+          <pub-id pub-id-type="pmid">25908861</pub-id>
+        </citation>
+      </ref>
+      <ref id="B20-cells-06-00002">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goto</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Kosako</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Tanabe</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Yanagida</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sakurai</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Amano</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kaibuchi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Inagaki</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phosphorylation of vimentin by rho-associated kinase at a unique amino-terminal site that is specifically phosphorylated during cytokinesis</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1998</year>
+          <volume>273</volume>
+          <fpage>11728</fpage>
+          <lpage>11736</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.273.19.11728</pub-id>
+          <pub-id pub-id-type="pmid">9565595</pub-id>
+        </citation>
+      </ref>
+      <ref id="B21-cells-06-00002">
+        <label>21.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Danielsson</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Skogs</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Huss</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Rexhepaj</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>O&#x2019;Hurley</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Klevebring</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Ponten</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Gad</surname>
+              <given-names>A.K.B.</given-names>
+            </name>
+			<name>
+              <surname>Uhlen</surname>
+              <given-names>M.</given-names>
+            </name>
+			<name>
+              <surname>Lundberg</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Majority of differentially expressed genes are down-regulated during malignant transformation in a four-stage model</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2013</year>
+          <volume>110</volume>
+          <fpage>6853</fpage>
+          <lpage>6858</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1216436110</pub-id>
+          <pub-id pub-id-type="pmid">23569271</pub-id>
+        </citation>
+      </ref>
+      <ref id="B22-cells-06-00002">
+        <label>22.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hahn</surname>
+              <given-names>W.C.</given-names>
+            </name>
+            <name>
+              <surname>Counter</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Lundberg</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Beijersbergen</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Brooks</surname>
+              <given-names>M.W.</given-names>
+            </name>
+            <name>
+              <surname>Weinberg</surname>
+              <given-names>R.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Creation of human tumour cells with defined genetic elements</article-title>
+          <source>Nature</source>
+          <year>1999</year>
+          <volume>400</volume>
+          <fpage>464</fpage>
+          <lpage>468</lpage>
+          <pub-id pub-id-type="pmid">10440377</pub-id>
+        </citation>
+      </ref>
+      <ref id="B23-cells-06-00002">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ronnlund</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Gad</surname>
+              <given-names>A.K.B.</given-names>
+            </name>
+            <name>
+              <surname>Blom</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Aspenstrom</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Widengren</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spatial organization of proteins in metastasizing cells</article-title>
+          <source>Cytom. Part A</source>
+          <year>2013</year>
+          <volume>83</volume>
+          <fpage>855</fpage>
+          <lpage>865</lpage>
+          <pub-id pub-id-type="doi">10.1002/cyto.a.22304</pub-id>
+          <pub-id pub-id-type="pmid">23657948</pub-id>
+        </citation>
+      </ref>
+      <ref id="B24-cells-06-00002">
+        <label>24.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>D.H.</given-names>
+            </name>
+            <name>
+              <surname>Wirtz</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Focal adhesion size uniquely predicts cell migration</article-title>
+          <source>FASEB J.</source>
+          <year>2013</year>
+          <volume>27</volume>
+          <fpage>1351</fpage>
+          <lpage>1361</lpage>
+          <pub-id pub-id-type="doi">10.1096/fj.12-220160</pub-id>
+          <pub-id pub-id-type="pmid">23254340</pub-id>
+        </citation>
+      </ref>
+      <ref id="B25-cells-06-00002">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hermann</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Haner</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Brettel</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Muller</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Goldie</surname>
+              <given-names>K.N.</given-names>
+            </name>
+            <name>
+              <surname>Fedtke</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Lustig</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Franke</surname>
+              <given-names>W.W.</given-names>
+            </name>
+            <name>
+              <surname>Aebi</surname>
+              <given-names>U.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure and assembly properties of intermediate filament protein vimentin: The role of its head, rod and tail domains</article-title>
+          <source>J. Mol. Biol.</source>
+          <year>1996</year>
+          <volume>264</volume>
+          <fpage>933</fpage>
+          <lpage>953</lpage>
+          <pub-id pub-id-type="doi">10.1006/jmbi.1996.0688</pub-id>
+          <pub-id pub-id-type="pmid">9000622</pub-id>
+        </citation>
+      </ref>
+      <ref id="B26-cells-06-00002">
+        <label>26.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mendez</surname>
+              <given-names>M.G.</given-names>
+            </name>
+            <name>
+              <surname>Kojima</surname>
+              <given-names>S.I.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>R.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vimentin induces changes in cell shape, motility, and adhesion during the epithelial to mesenchymal transition</article-title>
+          <source>FASEB J.</source>
+          <year>2010</year>
+          <volume>24</volume>
+          <fpage>1838</fpage>
+          <lpage>1851</lpage>
+          <pub-id pub-id-type="doi">10.1096/fj.09-151639</pub-id>
+          <pub-id pub-id-type="pmid">20097873</pub-id>
+        </citation>
+      </ref>
+      <ref id="B27-cells-06-00002">
+        <label>27.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lowery</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kuczmarski</surname>
+              <given-names>E.R.</given-names>
+            </name>
+            <name>
+              <surname>Herrmann</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>R.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intermediate filaments play a pivotal role in regulating cell architecture and function</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2015</year>
+          <volume>290</volume>
+          <fpage>17145</fpage>
+          <lpage>17153</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.R115.640359</pub-id>
+          <pub-id pub-id-type="pmid">25957409</pub-id>
+        </citation>
+      </ref>
+      <ref id="B28-cells-06-00002">
+        <label>28.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ivaska</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Pallari</surname>
+              <given-names>H.M.</given-names>
+            </name>
+            <name>
+              <surname>Nevo</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Eriksson</surname>
+              <given-names>J.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Novel functions of vimentin in cell adhesion, migration, and signaling</article-title>
+          <source>Exp. Cell Res.</source>
+          <year>2007</year>
+          <volume>313</volume>
+          <fpage>2050</fpage>
+          <lpage>2062</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.yexcr.2007.03.040</pub-id>
+          <pub-id pub-id-type="pmid">17512929</pub-id>
+        </citation>
+      </ref>
+      <ref id="B29-cells-06-00002">
+        <label>29.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Raftopoulou</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hall</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cell migration: Rho gtpases lead the way</article-title>
+          <source>Dev. Biol.</source>
+          <year>2004</year>
+          <volume>265</volume>
+          <fpage>23</fpage>
+          <lpage>32</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ydbio.2003.06.003</pub-id>
+          <pub-id pub-id-type="pmid">14697350</pub-id>
+        </citation>
+      </ref>
+      <ref id="B30-cells-06-00002">
+        <label>30.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bishop</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Hall</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rho gtpases and their effector proteins</article-title>
+          <source>Biochem. J.</source>
+          <year>2000</year>
+          <volume>348</volume>
+          <fpage>241</fpage>
+          <lpage>255</lpage>
+          <pub-id pub-id-type="doi">10.1042/bj3480241</pub-id>
+          <pub-id pub-id-type="pmid">10816416</pub-id>
+        </citation>
+      </ref>
+      <ref id="B31-cells-06-00002">
+        <label>31.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Comunale</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Causeret</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Favardt</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Cau</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Taulet</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Charrasse</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gauthier-Rourviere</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rac1 and RhoA GTPases have antagonistic functions during <italic>N</italic>-cadherin-dependent cell-cell contact formation in C2C12 myoblasts</article-title>
+          <source>Biol. Cell</source>
+          <year>2007</year>
+          <volume>99</volume>
+          <fpage>503</fpage>
+          <lpage>517</lpage>
+          <pub-id pub-id-type="doi">10.1042/BC20070011</pub-id>
+          <pub-id pub-id-type="pmid">17459003</pub-id>
+        </citation>
+      </ref>
+      <ref id="B32-cells-06-00002">
+        <label>32.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Richerioux</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Blondeau</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wiedemann</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Remy</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Vautherot</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Denesvre</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rho-ROCK and Rac-PAK signaling pathways have opposing effects on the cell-to-cell spread of marek&#x2019;s disease virus</article-title>
+          <source>PLoS ONE</source>
+          <year>2012</year>
+          <volume>7</volume>
+          <elocation-id>e44072</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0044072</pub-id>
+          <pub-id pub-id-type="pmid">22952878</pub-id>
+        </citation>
+      </ref>
+      <ref id="B33-cells-06-00002">
+        <label>33.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Komura</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ise</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Akaike</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dynamic behaviors of vimentin induced by interaction with glcnac molecules</article-title>
+          <source>Glycobiology</source>
+          <year>2012</year>
+          <volume>22</volume>
+          <fpage>1741</fpage>
+          <lpage>1759</lpage>
+          <pub-id pub-id-type="doi">10.1093/glycob/cws118</pub-id>
+          <pub-id pub-id-type="pmid">22846177</pub-id>
+        </citation>
+      </ref>
+      <ref id="B34-cells-06-00002">
+        <label>34.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sin</surname>
+              <given-names>W.C.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.Q.</given-names>
+            </name>
+            <name>
+              <surname>Leung</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Lim</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rhoa-binding kinase alpha translocation is facilitated by the collapse of the vimentin intermediate filament network</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <year>1998</year>
+          <volume>18</volume>
+          <fpage>6325</fpage>
+          <lpage>6339</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.18.11.6325</pub-id>
+          <pub-id pub-id-type="pmid">9774649</pub-id>
+        </citation>
+      </ref>
+      <ref id="B35-cells-06-00002">
+        <label>35.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hookway</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ding</surname>
+              <given-names>L.Y.</given-names>
+            </name>
+            <name>
+              <surname>Davidson</surname>
+              <given-names>M.W.</given-names>
+            </name>
+            <name>
+              <surname>Rappoport</surname>
+              <given-names>J.Z.</given-names>
+            </name>
+            <name>
+              <surname>Danuser</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Gelfand</surname>
+              <given-names>V.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Microtubule-dependent transport and dynamics of vimentin intermediate filaments</article-title>
+          <source>Mol. Biol. Cell</source>
+          <year>2015</year>
+          <volume>26</volume>
+          <fpage>1675</fpage>
+          <lpage>1686</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.E14-09-1398</pub-id>
+          <pub-id pub-id-type="pmid">25717187</pub-id>
+        </citation>
+      </ref>
+      <ref id="B36-cells-06-00002">
+        <label>36.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gad</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Thullberg</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Dannenberg</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>te Riele</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Stromblad</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Retinoblastoma susceptibility gene product (prb) and p107 functionally separate the requirements for serum and anchorage in the cell cycle g1-phase</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2004</year>
+          <volume>279</volume>
+          <fpage>13640</fpage>
+          <lpage>13644</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M314300200</pub-id>
+          <pub-id pub-id-type="pmid">14732703</pub-id>
+        </citation>
+      </ref>
+      <ref id="B37-cells-06-00002">
+        <label>37.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ratz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Testa</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Hell</surname>
+              <given-names>S.W.</given-names>
+            </name>
+            <name>
+              <surname>Jakobs</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>CRISPR/Cas9-mediated endogenous protein tagging for resolft super-resolution microscopy of living human cells</article-title>
+          <source>Sci. Rep.</source>
+          <year>2015</year>
+          <volume>5</volume>
+          <fpage>9592</fpage>
+          <pub-id pub-id-type="doi">10.1038/srep09592</pub-id>
+          <pub-id pub-id-type="pmid">25892259</pub-id>
+        </citation>
+      </ref>
+      <ref id="B38-cells-06-00002">
+        <label>38.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gad</surname>
+              <given-names>A.K.B.</given-names>
+            </name>
+            <name>
+              <surname>Ronnlund</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Spaar</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Savchenko</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Petranyi</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Blom</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Szekely</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Widengren</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Aspenstrom</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rho gtpases link cellular contractile force to the density and distribution of nanoscale adhesions</article-title>
+          <source>FASEB J.</source>
+          <year>2012</year>
+          <volume>26</volume>
+          <fpage>2374</fpage>
+          <lpage>2382</lpage>
+          <pub-id pub-id-type="doi">10.1096/fj.11-195800</pub-id>
+          <pub-id pub-id-type="pmid">22371528</pub-id>
+        </citation>
+      </ref>
+      <ref id="B39-cells-06-00002">
+        <label>39.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schindelin</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Arganda-Carreras</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Frise</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Kaynig</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Longair</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Pietzsch</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Preibisch</surname>
+              <given-names>S.</given-names>
+            </name>
+			<name>
+              <surname>Rueden</surname>
+              <given-names>C.</given-names>
+            </name>
+			<name>
+              <surname>Saalfeld</surname>
+              <given-names>S.</given-names>
+            </name>
+			<name>
+              <surname>Schmid</surname>
+              <given-names>B.</given-names>
+            </name>
+			<etal/>
+		</person-group>
+          <article-title>Fiji: an open-source platform for biological-image analysis</article-title>
+          <source>Nature Methods.</source>
+          <year>2012</year>
+          <volume>9</volume>
+          <fpage>676</fpage>
+          <lpage>682</lpage>
+          <pub-id pub-id-type="doi">10.1038/nmeth.2019</pub-id>
+          <pub-id pub-id-type="pmid">22743772</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures</title>
+      <fig id="cells-06-00002-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>The nanoscale spatial distribution of vimentin is linked to cell-matrix adhesions. (<bold>A</bold>) Top image: three-color STED image of a representative cell expressing wild-type vimentin fused to an EGFP variant and stained for GFP (green), phosphotyrosine (yellow), and actin (red). Scale bar; 5 &#xB5;m. Magnification of the area marked with a white box in the top image is shown in the middle panel. Scale bar; 2 &#xB5;m. Lower panel: zoomed images of the assembly states of vimentin filaments, from single ULFs to mature filaments in different regions of the image. Scale bar; 500 nm. The experiment was performed three times, and representative images of a total of 13 STED images are shown; (<bold>B</bold>) top panel: distribution histogram of the measured ULF vimentin lengths, with a vertical red line indicating the median. Below: bar plot showing the lengths of ULFs and squiggles along their long axis; and (<bold>C</bold>) distribution histogram of FA lengths in close spatial association with the presence (blue) or absence (red) of vimentin filaments.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-06-00002-g001.tif"/>
+      </fig>
+      <fig id="cells-06-00002-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Expression of wild-type, S71-phospho-mimicking or -deficient vimentin changes the size but not the turn-over of cell-matrix adhesion. (<bold>A</bold>) The GFP-Paxilin signal in a representative cell acquired by total internal reflection microscopy and, thereafter, (<bold>B</bold>) computationally processed to show the segmented areas defined as FAs. Scale bar; 20 &#xB5;m; (<bold>C</bold>) the size of FAs under the different conditions, as indicated. The horizontal colored line corresponds to the median. *** <italic>p</italic> &lt; 0.001 (Student&#x2019;s <italic>t</italic>-test); and (<bold>D</bold>) lifetimes of the FAs, as indicated. The box corresponds to the standard error of the mean, and the whiskers to the standard deviation. Mean values are indicated by the number under each condition.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-06-00002-g002.tif"/>
+      </fig>
+      <fig id="cells-06-00002-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Expression of wild-type but not S71-phospho-mutant vimentin changes the axis ratio of the cells. (<bold>A</bold>,<bold>B</bold>) Representative images of cells expressing (<bold>A</bold>) Cherry-mock or (<bold>B</bold>) Cherry-vimentin, with regard to F-actin (green) and vimentin or control (red). The thin white lines outline the cell borders, as drawn and used for axis ratio analysis. Scale bars; 35 &#xB5;m; (<bold>C</bold>) Quantification of the axis ratio of cells under the different conditions, as indicated. The boxes correspond to the standard error of the mean, and the whiskers to the standard deviation. *** <italic>p</italic> &lt; 0.001 (Student&#x2019;s <italic>t</italic>-test).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-06-00002-g003.tif"/>
+      </fig>
+      <fig id="cells-06-00002-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Migration characteristics. (<bold>A</bold>) Overlay of the last frame of a representative movie, with the trajectory of the cell during the movie. Scale bar; 50 &#xB5;m; (<bold>B</bold>) quantification of the mean instantaneous velocity of cells under the different conditions, as indicated. * <italic>p</italic> &lt; 0.05 (Student&#x2019;s <italic>t</italic>-test); and (<bold>C</bold>) quantification of the persistence of cells for the trajectories represented in (<bold>B</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-06-00002-g004.tif"/>
+      </fig>
+      <fig id="cells-06-00002-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Working hypothesis. Image showing the plasma membrane (grey), nucleus (blue), actin cytoskeleton (red), and vimentin filaments (yellow). The localization of the active and inactive configurations of the ROCK and PAK kinases and S71-phosphorylated vimentin are shown, as indicated. We speculate that at cell regions where the F-actin stress fibers and vimentin filaments are subjected to mechanical load through their linkage to FAs (as indicated with green arrows), the S71 phosphorylation of vimentin filaments would result in lower affinity for ROCK, ROCK translocation to the plasma membrane, and its activation, and an increased mechanical load. We suggest that in cell areas where vimentin is not under mechanical load, S71 phosphorylation would result in severing of vimentin filaments into smaller units, which may stimulate Rac-PAK signaling, and promote vimentin severing and lamellipodium formation. Thereby, the level of the mechanical load would govern which of these two counteracting pathways is stimulated by S71 vimentin phosphorylation.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-06-00002-g005.tif"/>
+      </fig>
+    </sec>
+  </back>
+</article>

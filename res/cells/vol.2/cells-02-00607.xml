@@ -1,0 +1,1601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xml:lang="en" article-type="research-article" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells2030607</article-id>
+      <article-id pub-id-type="publisher-id">cells-02-00607</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>An Enhanced ELISPOT Assay for Sensitive Detection of Antigen-Specific T Cell Responses to <italic>Borrelia burgdorferi</italic></article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jin</surname>
+            <given-names>Chenggang</given-names>
+          </name>
+          <xref rid="af1-cells-02-00607" ref-type="aff">1</xref>
+          <xref rid="c1-cells-02-00607" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Roen</surname>
+            <given-names>Diana R.</given-names>
+          </name>
+          <xref rid="af1-cells-02-00607" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lehmann</surname>
+            <given-names>Paul V.</given-names>
+          </name>
+          <xref rid="af2-cells-02-00607" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kellermann</surname>
+            <given-names>Gottfried H.</given-names>
+          </name>
+          <xref rid="af3-cells-02-00607" ref-type="aff">3</xref>
+        </contrib>
+      </contrib-group>
+	  <aff id="af1-cells-02-00607"><label>1</label>Department of Immunology, Pharmasan Labs, Inc., Osceola, WI 54020, USA; E-Mail: <email>diana.roen@pharmasan.com</email> </aff>
+      <aff id="af2-cells-02-00607"><label>2</label>Cellular Technology Limited, Shaker Heights, OH 44122, USA; E-Mail: <email>paul.lehmann@immunospot.com</email> </aff>
+      <aff id="af3-cells-02-00607"><label>3</label>NeuroScience, Inc., Osceola, WI 54020, USA; E-Mail: <email>gottfried.kellermann@neurorelief.com</email> </aff>
+      <author-notes>
+        <corresp id="c1-cells-02-00607"><label>*</label> Author  to whom correspondence should be addressed; E-Mail: <email>chenggang.jin@pharmasan.com</email>; Tel.: +1-715-294-2144; Fax: +1-715-294-3921.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>13</day>
+        <month>09</month>
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+	    <month>09</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>2</volume>
+      <issue>3</issue>
+      <fpage>607</fpage>
+      <lpage>620</lpage>
+      <history>
+        <date date-type="received">
+          <day>11</day>
+          <month>07</month>
+          <year>2013</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>30</day>
+          <month>08</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>04</day>
+          <month>09</month>
+          <year>2013</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#x000A9; 2013 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2013</copyright-year>
+        <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/">
+          <p>This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (http://creativecommons.org/licenses/by/3.0/).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Lyme Borreliosis is an infectious disease caused by the spirochete <italic>Borrelia burgdorferi</italic> that is transmitted through the bite of infected ticks. Both B cell-mediated humoral immunity and T cell immunity develop during natural <italic>Borrelia</italic> infection. However, compared with humoral immunity, the T cell response to <italic>Borrelia</italic> infection has not been well elucidated. In this study, a novel T cell-based assay was developed and validated for the sensitive detection of antigen-specific T cell response to <italic>B. burgdorferi</italic>. Using interferon-&#x3B3; as a biomarker, we developed a new enzyme-linked immunospot method (iSpot Lyme<sup>TM</sup>) to detect <italic>Borrelia</italic> antigen-specific effector/memory T cells that were activated <italic>in vivo</italic> by exposing them to recombinant <italic>Borrelia</italic> antigens <italic>ex vivo</italic>. To test this new method as a potential laboratory diagnostic tool, we performed a clinical study with a cohort of <italic>Borrelia</italic> positive patients and healthy controls. We demonstrated that the iSpot Lyme assay has a significantly higher specificity and sensitivity compared with the Western Blot assay that is currently used as a diagnostic measure. A comprehensive evaluation of the T cell response to <italic>Borrelia</italic> infection should, therefore, provide new insights into the pathogenesis, diagnosis, treatment and monitoring of Lyme disease.</p>
+      </abstract>
+      <kwd-group>
+        <kwd><italic>Borrelia</italic> infection</kwd>
+        <kwd>T cells</kwd>
+        <kwd>interferon-&#x3B3;</kwd>
+        <kwd>ELISPOT</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Lyme disease, caused by infection with the spirochete <italic>Borrelia burgdorferi</italic>, is an emerging infectious disease in the United States that has become an important public health problem [<xref ref-type="bibr" rid="B1-cells-02-00607">1</xref>,<xref ref-type="bibr" rid="B2-cells-02-00607">2</xref>,<xref ref-type="bibr" rid="B3-cells-02-00607">3</xref>]. The Centers for Disease Control and Prevention (CDC) reported about 32,500 new cases in 2011 [<xref ref-type="bibr" rid="B4-cells-02-00607">4</xref>], though it is estimated that the actual number might be 10-fold higher, making Lyme disease an epidemic larger than AIDS, West Nile Virus, and Avian Flu combined. Only a fraction of these cases are being diagnosed and treated, due to an unclear history, equivocal manifestations, inaccurate or insensitive laboratory clinical tests, and underreporting [<xref ref-type="bibr" rid="B5-cells-02-00607">5</xref>]. These undiagnosed and untreated patients may develop chronic infection or late stage Lyme disease such as chronic Lyme arthritis [<xref ref-type="bibr" rid="B6-cells-02-00607">6</xref>,<xref ref-type="bibr" rid="B7-cells-02-00607">7</xref>] and chronic Lyme neuroborreliosis [<xref ref-type="bibr" rid="B8-cells-02-00607">8</xref>,<xref ref-type="bibr" rid="B9-cells-02-00607">9</xref>] which can be devastating in some cases. </p>
+      <p>The diagnosis of Lyme disease is based primarily on recognizing a characteristic clinical picture [<xref ref-type="bibr" rid="B10-cells-02-00607">10</xref>]. Diagnostic tests for detection of either <italic>B. burgdorferi</italic> itself, or of the ensuing immune response to it have so far been unreliable. Both B cell and T cell immunity develop during a natural infection with <italic>B. burgdorferi</italic> [<xref ref-type="bibr" rid="B11-cells-02-00607">11</xref>,<xref ref-type="bibr" rid="B12-cells-02-00607">12</xref>]. Detection of the specific antibody response against <italic>B. burgdorferi</italic> is utilized conventionally in aiding the clinical diagnosis of Lyme disease. The standard two-tier tests used to detect specific antibodies to <italic>B. burgdorferi</italic> include an enzyme-linked immunosorbent assay (ELISA) and a Western Blot assay (WB) [<xref ref-type="bibr" rid="B13-cells-02-00607">13</xref>]. However, the limitation of these assays is that they have low sensitivity and specificity, frequently producing false negative and false positive results. For example, nearly 30% of results from a Western Blot IgM test are false positive [<xref ref-type="bibr" rid="B14-cells-02-00607">14</xref>]. Furthermore, <italic>Borrelia</italic>-specific antibodies cannot be detected at the early stage of the infection, and a subgroup of Lyme patients lack detectable <italic>Borrelia</italic>-specific antibodies [<xref ref-type="bibr" rid="B15-cells-02-00607">15</xref>,<xref ref-type="bibr" rid="B16-cells-02-00607">16</xref>,<xref ref-type="bibr" rid="B17-cells-02-00607">17</xref>], in both cases providing a false negative result. <italic>Borrelia</italic>-specific T cell immunity has not yet been studied sufficiently due to the lack of highly sensitive and specific T cell-based assays that would be suited for the clinical laboratory. Several attempts have been made to study T cell reactivity against <italic>Borrelia</italic>, but the results were not consistent from different studies [<xref ref-type="bibr" rid="B18-cells-02-00607">18</xref>,<xref ref-type="bibr" rid="B19-cells-02-00607">19</xref>,<xref ref-type="bibr" rid="B20-cells-02-00607">20</xref>]. There is increasing evidence, however, that T cell assays have potential advantages over antibody-based assays in the detection of <italic>Borrelia</italic> infections. Firstly, patients with erythema chronicum migrans (ECM), a clinical manifestation of <italic>B. burgdorferi</italic> infection, displayed specific T cell responses before antibodies to this organism become detectable by ELISA [<xref ref-type="bibr" rid="B21-cells-02-00607">21</xref>,<xref ref-type="bibr" rid="B22-cells-02-00607">22</xref>] and Lastavica <italic>et al.</italic> reported a case in which seroconversion did not occur until 18 months after the onset of the illness [<xref ref-type="bibr" rid="B23-cells-02-00607">23</xref>]. Secondly, a number of patients who received antibiotics for ECM had low or undetectable levels of anti-<italic>Borrelia</italic> antibodies suggesting that the antibody response can be decreased or aborted by early antibiotic intervention [<xref ref-type="bibr" rid="B24-cells-02-00607">24</xref>]. Thirdly, antibody titers often drop to levels below the cutoff value for positivity by ELISA, in particular for untreated subjects or patients with chronic <italic>Borrelia</italic> infection. Fourth, changes in IgM/IgG titers and ratios cannot be used to monitor progress and treatment of <italic>Borrelia</italic> infection since they may stay constant for as long as 20 years [<xref ref-type="bibr" rid="B25-cells-02-00607">25</xref>,<xref ref-type="bibr" rid="B26-cells-02-00607">26</xref>]. Thus, there is a definite need for complementary T cell assays that may help overcome the aforementioned shortcomings of serological assays for diagnosing and monitoring the progress and treatment of <italic>Borrelia</italic> infection. </p>
+      <p>The enzyme-linked immunospot assay (ELISPOT) has emerged as a superior method for assessment of the magnitude and the quality of T cell immunity. It enumerates at the single cell level the frequency and cytokine signature of activated antigen-specific T cells [<xref ref-type="bibr" rid="B27-cells-02-00607">27</xref>,<xref ref-type="bibr" rid="B28-cells-02-00607">28</xref>]. The sensitivity of ELISPOT for detecting cytokine producing T cells is 20 to 200 fold higher than that of ELISA or flow cytometry-based intracellular staining [<xref ref-type="bibr" rid="B29-cells-02-00607">29</xref>]. The ELISPOT technology has proven to be extremely sensitive in detecting even low frequencies of antigen reactive T cells and has been approved by the FDA for use in the diagnosis of tuberculosis [<xref ref-type="bibr" rid="B30-cells-02-00607">30</xref>,<xref ref-type="bibr" rid="B31-cells-02-00607">31</xref>]. Here, we explore the potential application of our newly developed Lyme ELISPOT assay, iSpot Lyme, as a diagnostic tool for the detection of Lyme Borreliosis. </p>
+    </sec>
+    <sec>
+      <title>2. Materials and Methods </title>
+      <sec>
+        <title>2.1. Isolation of Human Peripheral Blood Mononuclear Cells</title>
+        <p>Blood donors were either healthy adults without known inflammatory conditions or history of <italic>Borrelia</italic> infection, or subjects with clinically diagnosed Lyme disease. All individuals whom we classified as Lyme patients met the CDC surveillance definition of Lyme disease, including clinical signs and symptoms, history of possible exposure to infected blacklegged ticks, with or without a positive antibody response to <italic>B. burgdorferi</italic> by ELISA and Western Blot, interpreted according to CDC and the Infectious Disease Society of America (IDSA) criteria [<xref ref-type="bibr" rid="B32-cells-02-00607">32</xref>,<xref ref-type="bibr" rid="B33-cells-02-00607">33</xref>]. In addition, non-Lyme control patients with other, specified clinical complications were studied including patients diagnosed with Fibromyalgia, Mononucleosis, Rheumatoid Arthritis and Chronic Fatigue Syndrome. These non-Lyme control patients were from low risk areas of <italic>Borrelia</italic> infection (States ND, MT, UT and AZ) as defined by the CDC. Written informed consent was obtained from all study subjects. Peripheral blood mononuclear cells (PBMC) were separated from acid citrate dextrose (ACD)-treated whole blood using Leucosep tubes (Greiner Bio-One North America, Inc, NC, USA) according to the manufacturer&#x2019;s instruction. The cell concentration was adjusted to 2.5 &#xD7; 10<sup>6</sup> PBMC/mL in CTL Test Plus Medium (Cellular Technology Limited, OH, USA). The cells were kept at room temperature and seeded into the ELISPOT assay 24 h after the blood draw. For the study of inter-assay precision, cryopreserved PBMC from one blood draw were used to avoid biological variation of the test sample. </p>
+      </sec>
+      <sec>
+        <title>2.2. ELISPOT Assays with PBMC</title>
+        <p>All PBMC samples were assayed using the human IFN-&#x3B3; ImmunoSpot kit by Cellular Technology Limited (OH, USA) per the manufacturer&#x2019;s instruction. The iSpot Lyme test is made available through Pharmasan Labs, Inc. Briefly, the PBMC were plated into anti-IFN-&#x3B3; antibody pre-coated 96-well plates at 250,000 cells per well. The PBMC were then stimulated with 10 &#xB5;g/mL of a proprietary combination of recombinant (r) <italic>Borrelia</italic> antigens purchased from DIARECT AG (Freiberg, Germany). A signal enhancer was added concurrently with the r<italic>Borrelia</italic> antigens and incubated with the PBMC. All culture conditions (negative control, positive control and r<italic>Borrelia</italic> antigen stimulation) were tested in triplicate. The PBMC were incubated for 18&#x2013;24 h at 37 &#xB0;C, 9% CO<sub>2</sub>. The resulting ELISPOTs were analyzed using the CTL S6 Ultimate-V Analyzer (CTL, OH, USA) and are reported as IFN-&#x3B3; Spot Forming Units (SFU). The difference between the iSpot Lyme and the conventional ELISPOT was in the composition of <italic>Borrelia</italic> antigens and in the use of a signal enhancer in the iSpot Lyme assay. The conventional ELISPOT assay followed the identical protocol to the iSpot Lyme assay, but used unenhanced test medium with the r<italic>Borrelia</italic> antigens OspC and VlsE, whereas the iSpot Lyme assay used enhanced medium with a proprietary combination of r<italic>Borrelia</italic> antigens DbpA, OspC, p100, and VlsE.</p>
+      </sec>
+      <sec>
+        <title>2.3. Measurement of IFN-&#x3B3; Concentration in PBMC Supernatants</title>
+        <p>The concentrations of IFN-&#x3B3; in the supernatant from r<italic>Borrelia</italic> antigen stimulated PBMC were determined using the Bio-Plex suspension array system according to the manufacturer&#x2019;s instructions (Bio-Rad, Hercules, CA, USA). Briefly, supernatants were collected from 96-well plates containing PBMC that were stimulated overnight with r<italic>Borrelia</italic> antigen, and frozen at &#x2212;80 &#xB0;C until use. The thawed supernatant samples were incubated in 96-well filter plates at room temperature for 30 min with antibodies chemically coupled to fluorescent-labeled microbeads. After three washes, premixed detection antibodies were added to each well and incubated for 30 min. Following three washes, premixed streptavidin-phycoerythrin was added to each well and incubated for 10 min. Finally, the beads were washed three times and resuspended with 125 &#x3BC;L of assay buffer. The plates were read on a Bio-Plex 200 reader and data were processed and analyzed by using Bio-Plex Manager Software 6.0 (Bio-Rad, Hercules, CA, USA). Values with coefficient of variation (% CV) above 30 were excluded from the standard curve.</p>
+      </sec>
+      <sec>
+        <title>2.4. Western Blot Assay</title>
+        <p>Western Blot assays were performed on patient serum samples by using <italic>Borrelia</italic> Western Blot IgG and IgM kits (Trinity Biotech, Carlsbad, CA, USA) following the manufacturer&#x2019;s instruction. Briefly, aliquots (20 &#x3BC;L) of undiluted serum samples were added to channels containing the test strips and 2 mL of dilution buffer. Antigens on membranes of this kit were separated by the manufacturer. The IgG kit includes the following 13 bands: p18, p23, p28, p30, p31, p34, p39, p41, p45, p58, p60, p66, and p93; The IgM kit included the following 3 bands: p23, p39, and p14. The strips were scanned using BLOTrix Reader (Frankfurt, Germany). Visualization of specific protein bands indicated the presence of serum IgG or IgM antibodies against <italic>B. burgdorferi-</italic>derived antigens. Samples were classified as positive or negative in accordance with the criteria established by CDC. </p>
+      </sec>
+      <sec>
+        <title>2.5. Statistical Analysis</title>
+        <p>Receiver Operating Characteristic Analysis (ROC) was used to evaluate the accuracy of the tests. The sensitivity was plotted on the y axis, and the false positive rate (1-specificity) was plotted on the X axis. For this purpose, the ELISPOT results of 80 healthy people and 25 Lyme patients were studied. The nonparametric Spearman&#x2019;s test was used to determine correlations. The nonparametric Mann-Whitney U test was used to compare ELISPOT results between healthy controls, Lyme patients and non-Lyme patients. A <italic>p</italic>-value of &lt; 0.05 was considered statistically significant. The analyses were done by GraphPad Prism 5.0 analysis software (La Jolla, CA, USA).</p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>3. Results and Discussion</title>
+      <sec>
+        <title>3.1. Enhanced Detection of Borrelia-Specific Reactive T Cells by the iSpot Lyme Assay</title>
+        <p>It is well documented that both humoral and cellular immune responses develop in <italic>Borrelia</italic> infection. Assessment of both the function and the frequency of <italic>Borrelia</italic>-specific T cells is crucial for evaluating the cellular immune response to, and diagnosis of <italic>Borrelia</italic> infection [<xref ref-type="bibr" rid="B22-cells-02-00607">22</xref>,<xref ref-type="bibr" rid="B34-cells-02-00607">34</xref>]. Due to the clonal expansion (proliferation) of antigen-specific T cells <italic>in vivo</italic> during an immune response, the presence of increased frequencies of <italic>Borrelia</italic> antigen-specific effector/memory T cells in peripheral blood suggests prior infection/exposure to <italic>Borrelia</italic> [<xref ref-type="bibr" rid="B35-cells-02-00607">35</xref>,<xref ref-type="bibr" rid="B36-cells-02-00607">36</xref>]. To establish the frequencies of <italic>Borrelia</italic>-specific effector/memory T cells in PBMC, we performed ELISPOT assays to measure the numbers of T cells that secreted IFN-&#x3B3; upon stimulation <italic>ex vivo</italic> by r<italic>Borrelia</italic> antigens. PBMC were isolated from both <italic>Borrelia</italic> positive patients and healthy controls. The cells were plated at 250,000 cells per well and stimulated with recombinant (r) <italic>Borrelia</italic> antigen for 18 to 24 h, followed by the detection of the IFN-&#x3B3; secreted by the individual T cells resulting in &#x201C;spots&#x201D;. The numbers of spot forming units (SFU) were counted by an automated ImmunoSpot reader. To measure antigen-triggered T cell function, we tested the PBMC in a conventional ELISPOT assay and the enhanced Lyme ELISPOT assay (iSpot Lyme assay) in parallel, with a medium that has signal enhancing properties for T cells, CTL Test Plus. Both the conventional ELISPOT and the iSpot Lyme assay were compared for their sensitivity in detection of <italic>Borrelia</italic>-specific effector/memory T cells. The results are summarized in <xref ref-type="fig" rid="cells-02-00607-f001">Figure 1</xref>. Clearly, the newly developed iSpot Lyme assay significantly increased the sensitivity for detecting <italic>Borrelia</italic>-specific T cells (<xref ref-type="fig" rid="cells-02-00607-f001">Figure 1</xref>A, <italic>p</italic> = 0.001). More importantly, the iSpot Lyme assay increased the detection of <italic>Borrelia</italic>-specific T cells in <italic>Borrelia</italic> positive samples, without increasing non-specific spots in healthy controls and the medium control background (<xref ref-type="fig" rid="cells-02-00607-f001">Figure 1</xref>B&amp;C). In addition, the spot size distribution was also analyzed and compared between the conventional ELISPOT and the iSpot Lyme assay permitting us to compare the amount of IFN-&#x3B3; produced by the T cells under both conditions. As shown in <xref ref-type="fig" rid="cells-02-00607-f001">Figure 1</xref>D, the spot sizes in the conventional and the enhanced assay showed the normal distribution that is characteristic of the cytokine signature of T cells [<xref ref-type="bibr" rid="B37-cells-02-00607">37</xref>] and there was no size difference between the spots elicited by the two methods. Therefore, the data suggests that our iSpot Lyme assay specifically increases the number of <italic>Borrelia</italic>-reactive T cells that secrete IFN-&#x3B3; but does not change the IFN-&#x3B3; productivity of such T cells at the single cell level.</p>
+        <p>The above results suggest that the iSpot Lyme assay is a highly sensitive <italic>in vitro</italic> assay for the detection of specific T cell immunity to <italic>Borrelia</italic> infection. However, since IFN-&#x3B3; is secreted by both recently activated T effector cells and resting memory T cells, the iSpot Lyme assay cannot distinguish between active <italic>Borrelia</italic> infection and prior exposure. There is currently no standard laboratory test to distinguish active <italic>Borrelia</italic> infection from prior exposure [<xref ref-type="bibr" rid="B38-cells-02-00607">38</xref>].</p>
+      </sec>
+      <sec>
+        <title>3.2. Evaluation of the Sensitivity and Specificity of the iSpot Lyme Assay as a Diagnostic Test</title>
+        <p>As the iSpot Lyme assay proved to be a more sensitive tool to detect the <italic>Borrelia</italic>-specific T cells compared with the conventional ELISPOT assay, we next explored if the iSpot Lyme assay could be used as a laboratory T cell-based diagnostic test for <italic>Borrelia</italic> infection. For this purpose, PBMC were isolated from 80 healthy controls that had not been exposed to <italic>Borrelia</italic> (HC), 25 patients with clinically diagnosed Lyme disease (LD) and 23 non-Lyme patients (NLP) who had clinical symptoms similar to Lyme disease. As shown in <xref ref-type="fig" rid="cells-02-00607-f002">Figure 2</xref>A, the iSpot Lyme assay clearly distinguished the Lyme disease patients from healthy controls and non-Lyme patients, in both cases with a significance level of <italic>p</italic> &lt; 0.0001. To further determine the performance of the iSpot Lyme assay, we analyzed the sensitivity, specificity, the positive predictive value (PPV) and the negative predictive value (NPV) using Receiver Operating Characteristic Analysis (ROC). In this study, the iSpot Lyme assay had a sensitivity of 84% <italic>vs.</italic> 67%, a specificity of 94% <italic>vs.</italic> 76%, a PPV of 81% <italic>vs.</italic> 48%, and a NPV of 95% <italic>vs.</italic> 86% for conventional ELISPOT, respectively (<xref ref-type="fig" rid="cells-02-00607-f002">Figure 2</xref>B&amp;C). The cutoff value was also determined by ROC as 25 SFU per well for the iSpot Lyme assay. Overall, the ROC analysis suggests that the iSpot Lyme assay fulfills the criteria for a reliable diagnostic laboratory test for <italic>Borrelia</italic> infection with an area under the curve value (AUC) of 0.943 <italic>vs.</italic> 0.68 for the conventional ELISPOT.</p>
+		<fig id="cells-02-00607-f001" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p>Comparison of detection of <italic>Borrelia</italic>-specific T cells in peripheral blood by the iSpot Lyme assay and conventional ELISPOT assay. (<bold>A</bold>) The frequency of r<italic>Borrelia</italic> antigen-induced IFN-&#x3B3; spot was established under both conditions in peripheral blood mononuclear cells (PBMC) of <italic>Borrelia</italic> positive patients. Data points obtained from the same donor with the iSpot Lyme assay and conventional ELISPOT assay are connected by a line. Each data point represents the mean spot forming unit (SFU) of triplicate antigen-stimulated wells minus the mean SFU of the corresponding medium control wells. A non-parametric Mann-Whitney U test was used to compare the matched results with a <italic>p</italic>-value of &lt;0.05 considered statistically significant. (<bold>B</bold>) Representative well images for test results obtained from one healthy control run in triplicate and (<bold>C</bold>) from a <italic>Borrelia</italic> positive patient run in triplicate. (<bold>D</bold>) Size distribution of IFN-&#x3B3; ELISPOTs obtained from the iSpot Lyme assay <italic>vs.</italic> the conventional ELISPOT assay, as specified by the closed and open circles, respectively. </p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-02-00607-g001.tif"/>
+        </fig>
+        <fig id="cells-02-00607-f002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>Evaluation of the iSpot Lyme assay as a diagnostic test. (<bold>A</bold>) The results of iSpot Lyme assays performed on 80 healthy controls (HC), 25 clinically diagnosed Lyme disease patients (LD) and 23 non-Lyme patients (NLP) are shown. Each symbol represents the mean SFU obtained in triplicate r<italic>Borrelia</italic>-stimulated wells of a test subject after subtraction of the mean SFU in triplicate medium control wells. Non-parametric Mann-Whitney U test was used to compare the results from LD <italic>vs.</italic> HC and LD <italic>vs.</italic> NLP. A p-value &lt; 0.05 was considered statistically significant. The dotted line represents the cutoff value for positivity at 25 SFU. (<bold>B</bold>) Receiver Operating Characteristics analysis was used to determine the sensitivity, specificity, positive predictive value (PPV), negative predictive value (NPV), area under the curve value (AUC) and cutoff value for the iSpot Lyme assay. (<bold>C</bold>) Receiver Operating Characteristics analysis was used to determine the sensitivity, specificity, PPV, NPV, AUC and cutoff value for the conventional ELISPOT assay.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-02-00607-g002.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.3. Optimization and Validation of the iSpot Lyme Assay</title>
+        <p>To determine the reliability of the iSpot Lyme assay as a routine laboratory test, we performed experiments to study its intra- and inter-assay precision. For the intra-assay precision studies, PBMC from five diagnosed Lyme patients were selected who displayed high, medium and low r<italic>Borrelia</italic>-triggered SFU values. Each of the PBMC samples were run in triplicate. As shown in <xref ref-type="fig" rid="cells-02-00607-f003">Figure 3</xref>A, the coefficient of variation (CV) among the triplicates ranged from 4.6% to 18.1% with a trend showing that an increase in CV is inversely proportional to SFU values. Inter-assay precision measurements were performed on 3 diagnosed Lyme patient PBMC samples on 5 consecutive days. To make sure that identical cell material was tested, that is, to avoid a biological variation of the sample itself due to blood collections at different times, we used cryopreserved PBMC samples from one blood draw and thawed one aliquot each day for this assay. The CV was 5.4%, 5.9% and 13.1%, respectively (<xref ref-type="fig" rid="cells-02-00607-f003">Figure 3</xref>B). These data suggested that the iSpot Lyme assay is a reliable test in terms of intra-assay and inter-assay precision. </p>
+        <fig id="cells-02-00607-f003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>Optimization and validation of the iSpot Lyme assay. (<bold>A</bold>) Intra-assay precision. Five PBMC samples with different r<italic>Borrelia</italic>-triggered SFU response levels were tested in triplicate wells each. Bars with the specified shades show the reactivity for the three individual wells, and the mean of the three. The coefficient of variation for the replicate wells was calculated. (<bold>B</bold>) Inter-assay precision. Cryopreserved PBMC aliquots of the specified three Lyme patients were tested for r<italic>Borrelia</italic> reactivity on five consecutive days. The coefficient of variation for inter assay variation was calculated. (<bold>C</bold>) Relationship between PBMC numbers plated in each well and the IFN-&#x3B3; SFU in a <italic>Borrelia</italic> positive subject, and (<bold>D</bold>), in a healthy control. Open symbols represent the mean of triplicate antigen-stimulated (treated) wells, the closed symbols represent the mean of the corresponding medium (control) wells. The Standard Deviation (SD) for the triplicate is smaller than the symbol when not visible. (<bold>E</bold>) Dose response curve for r<italic>Borrelia</italic> antigen-stimulated PBMC. (<bold>F</bold>) Correlation of the frequency of IFN-&#x3B3; secreting <italic>Borrelia</italic>-specific T cells assessed by the iSpot Lyme assay and the concentrations of IFN-&#x3B3; in the culture supernatant as measured by Bio-Plex suspension array. The nonparametric Spearman&#x2019;s test was used to determine the correlation. The results showed a <italic>p</italic>-value &lt;0.0001. </p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-02-00607-g003.tif"/>
+        </fig>
+        <p>The results of an ELISPOT assay can be influenced by the PBMC numbers plated. We therefore tested the relationship between PBMC numbers plated per well, and the r<italic>Borrelia</italic>-induced IFN-&#x3B3; SFU per well. A linear relationship was seen (<xref ref-type="fig" rid="cells-02-00607-f003">Figure 3</xref>C), similar to observations made in other antigen-specific ELISPOT systems [<xref ref-type="bibr" rid="B39-cells-02-00607">39</xref>]. The data show that variability in the r<italic>Borrelia</italic>-induced SFU count will depend on the accuracy of cell counting when adjusting the PBMC concentration, and the precision of pipetting. With 250,000 PBMC plated per well, the variability will be directly proportional to the magnitude of such imprecisions. When PBMC of healthy controls were plated in increasing numbers, the IFN-&#x3B3; spot numbers did not increase with or without r<italic>Borrelia</italic> antigen included in the test system (<xref ref-type="fig" rid="cells-02-00607-f003">Figure 3</xref>D), suggesting that the IFN-&#x3B3; spots are produced specifically by <italic>Borrelia</italic>-reactive T cells in response to <italic>ex vivo</italic> restimulation by r<italic>Borrelia</italic> antigen. </p>
+        <p>The antigen concentration affects activation of the specific T cells [<xref ref-type="bibr" rid="B40-cells-02-00607">40</xref>]. We therefore tested r<italic>Borrelia</italic> antigen in serial dilution in <italic>Borrelia</italic> positive donors. As shown in <xref ref-type="fig" rid="cells-02-00607-f003">Figure 3</xref>E, when the antigen concentration was increased, the numbers of SFU also increased initially rapidly but reached a plateau value starting at 10 &#xB5;g/mL. The r<italic>Borrelia</italic> dose-response curve was very similar for the iSpot Lyme assay and the conventional ELISPOT assay; however, the SFU values were significantly higher in the iSpot Lyme assay. The r<italic>Borrelia</italic> concentration of 10 &#x3BC;g/mL in the iSpot Lyme Test kit, therefore, is safely in the plateau of the dose response curve and inaccuracies in pipetting the antigen are a low risk factor for the test. These results also confirm that the iSpot Lyme assay is superior to the conventional ELISPOT approach for the detection of low frequencies of <italic>Borrelia</italic>-specific effector/memory T cells. </p>
+        <p>Assay validation includes the determination of accuracy as established by using an independent readout system for verifying assay results [<xref ref-type="bibr" rid="B41-cells-02-00607">41</xref>]. Therefore, we studied the correlation between IFN-&#x3B3; SFU numbers as established by iSpot Lyme assay, and the concentration of soluble IFN-&#x3B3; in the culture supernatants as measured by Bio-Plex method. As shown in <xref ref-type="fig" rid="cells-02-00607-f003">Figure 3</xref>F, the results of the iSpot Lyme assay were closely correlated to the IFN-&#x3B3; concentrations as measured by Bio-Plex method (R = 0.81 and <italic>p</italic> &lt; 0.0001). Overall, the validation results showed that the iSpot Lyme assay is a reliable and sensitive test for detecting <italic>Borrelia</italic>-specific T cells with the potential application in clinical laboratory diagnosis for <italic>Borrelia</italic> infection and Lyme disease.</p>
+      </sec>
+      <sec>
+        <title>3.4. Comparisons between the iSpot Lyme Assay and Lyme Western Blot Assay</title>
+        <p>The Western Blot assay has been used conventionally in aiding the clinical diagnosis of Lyme disease [<xref ref-type="bibr" rid="B13-cells-02-00607">13</xref>]. Lyme patients can be classified into two groups according to their serum antibody reactivity to <italic>Borrelia</italic> antigens [<xref ref-type="bibr" rid="B24-cells-02-00607">24</xref>]. Patients whose test positive in Western Blot are seropositive Lyme patients. Accordingly, Lyme patients who do not have detectable antibody levels are defined as seronegative patients. To compare the sensitivity of the iSpot Lyme assay with a Western Blot assay, we performed a study with 23 clinically diagnosed Lyme patients. The Western Blot assay showed 30% positivity in this group of patients whereas the iSpot Lyme assay and conventional ELISPOT showed 84% and 50% positivity, respectively (<xref ref-type="fig" rid="cells-02-00607-f004">Figure 4</xref>A). In this study, all five patients with positive Western Blot results were also positive for the iSpot Lyme assay. However, in another study we performed, we found that some patients who were positive on their Western Blot assay, had negative results with the iSpot Lyme assay (Data not shown). This discrepancy between the iSpot Lyme assay and the Western Blot assay could be attributed to several factors. One possibility is that there is a dissociation between humoral and cellular immunity to <italic>Borrelia</italic> infection [<xref ref-type="bibr" rid="B24-cells-02-00607">24</xref>]. The other possibility is that the positive results of Western Blot could be false positive as reported by a recent study in which 27.5% of patients who were tested based on suspicion of Lyme disease were found to have a false positive IgM Western Blot result [<xref ref-type="bibr" rid="B14-cells-02-00607">14</xref>]. In addition, we cannot exclude the possibility that T cell responses in some patients may be compromised due to use of immunosuppressive agents or other clinical conditions. </p>
+        <fig id="cells-02-00607-f004" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p>Comparison of sensitivity and specificity for detecting <italic>Borrelia</italic> infection via measuring T cell immunity by ELISPOT <italic>vs.</italic> serum antibodies by Western Blot. (<bold>A</bold>) Lyme ELISPOT assays and Western Blot assay were performed on PBMC and serum of 22 clinically diagnosed <italic>Borrelia</italic> patients. The percentage of individuals who scored positive for each assay is shown. (<bold>B</bold>) Cross-reactivity was assessed in 23 subjects with other clinical conditions, as defined in Materials and Methods, using the iSpot Lyme, conventional ELISPOT and Western Blot assay. </p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-02-00607-g004.tif"/>
+        </fig>
+        <p>In summary, these results demonstrate firstly, that the Lyme ELISPOT assay is superior to the Western Blot assay in terms of sensitivity for detecting the underlying <italic>Borrelia</italic> infection. Secondly, the data suggests that there is a dissociation between the magnitude of the humoral and the T cell-mediated cellular immune response in <italic>Borrelia</italic> infection. Thirdly, the data implies that the iSpot Lyme assay may help identify <italic>Borrelia</italic> infected individuals when the serology-based diagnostic fails to do so. </p>
+        <p>In addition to the low sensitivity, the Western Blot assay also has relatively low specificity providing frequently false positive results including cross-reactivity with other clinical conditions such as other infectious diseases and autoimmune diseases [<xref ref-type="bibr" rid="B14-cells-02-00607">14</xref>]. To test the cross-reactivity for both the Western Blot assay and the Lyme ELISPOT assay (iSpot Lyme and conventional), 23 non-Lyme patients from low risk areas of <italic>Borrelia</italic> infection were studied. As shown in <xref ref-type="fig" rid="cells-02-00607-f004">Figure 4</xref>B, the Western Blot assay gave 36% false positive results whereas both the conventional ELISPOT and iSpot Lyme assay did not have any cross-reactivity in the group of subjects studied. Therefore, Lyme ELISPOT assays, in particular the iSpot Lyme assay, are not only more sensitive but also more specific than the standard Western Blot serodiagnostic test for identifying Lyme disease and <italic>Borrelia</italic> infection. Due to the apparent prevalence of either humoral or cellular immunity in infected individuals, it is conceivable that the combination of the iSpot Lyme assay with Western Blot assay would further increase the sensitivity of Lyme disease diagnosis. Studies are ongoing in our laboratory to explore if the iSpot Lyme approach could be used to monitor disease progression and treatment of Lyme disease.</p>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>An enhanced T cell-based immunospot assay for Lyme disease was developed and validated. This iSpot Lyme assay can be used to study the T cell response elicited by <italic>Borrelia</italic> infection, which bridges the gap between the ability to detect humoral immunity and cellular immunity to <italic>Borrelia</italic> infection in Lyme disease. It may be a helpful laboratory diagnostic test for Lyme disease, especially for seronegative Lyme patients. Since serodiagnostic methods of <italic>Borrelia</italic> infection frequently provide false positive results, this T cell-based diagnostic test may help in confirming a Lyme diagnosis. A comprehensive evaluation of both antibody response and T cell response to <italic>Borrelia</italic> infection will provide new insights into the pathogenesis, diagnosis, treatment and monitoring the progress of Lyme disease. </p>
+    </sec>
+  </body>
+  <back>
+  <ack>
+      <title>Acknowledgments</title>
+      <p>We would like to acknowledge Andi M. Delong and Barbara M. Tigges for their technical assistance, Jodi M. Branstad for coordination and donor recruitment, and Delila J. Peri for editing the manuscript.</p>
+    </ack>
+    <notes>
+      <title>Conflicts of Interest</title>
+      <p>C.J., D.R.R., and G.H.K are employed by Pharmasan Laboratory that develops and offers diagnostic tests. P.V.L is employed by CTL which specializes on ELISPOT-based immune diagnostic assays. </p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-02-00607">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burgdorfer</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Barbour</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Hayes</surname>
+              <given-names>S.F.</given-names>
+            </name>
+            <name>
+              <surname>Benach</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Grunwaldt</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Davis</surname>
+              <given-names>J.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lyme disease-a tick-borne spirochetosis?</article-title>
+          <source>Science</source>
+          <year>1982</year>
+          <volume>216</volume>
+          <fpage>1317</fpage>
+          <lpage>1319</lpage>
+        </citation>
+      </ref>
+      <ref id="B2-cells-02-00607">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Steere</surname>
+              <given-names>A.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lyme disease</article-title>
+          <source>N. Engl. J. Med.</source>
+          <year>2001</year>
+          <volume>345</volume>
+          <fpage>115</fpage>
+          <lpage>125</lpage>
+          <pub-id pub-id-type="doi">10.1056/NEJM200107123450207</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-cells-02-00607">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Steere</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Coburn</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Glickstein</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>The emergence of Lyme disease</article-title>
+          <source>J. Clin. Invest.</source>
+          <year>2004</year>
+          <volume>113</volume>
+          <fpage>1093</fpage>
+          <lpage>1101</lpage>
+        </citation>
+      </ref>
+      <ref id="B4-cells-02-00607">
+        <label>4.</label>
+        <citation citation-type="web">
+          <collab>Centers for Disease Control and Prevention</collab>
+          <article-title>Reported Cases of Lyme Disease by Year, United States, 2002&#x2013;2011</article-title>
+          <comment>Available online:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.cdc.gov/lyme/stats/chartstables/casesbyyear.html" ext-link-type="uri">http://www.cdc.gov/lyme/stats/chartstables/casesbyyear.html</ext-link></comment>
+		  <access-date>(accessed on 1 July 2013)</access-date>
+        </citation>
+      </ref>
+      <ref id="B5-cells-02-00607">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Young</surname>
+              <given-names>J.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Underreporting of Lyme disease</article-title>
+          <source>N. Engl. J. Med.</source>
+          <year>1998</year>
+          <volume>338</volume>
+          <fpage>1629</fpage>
+          <pub-id pub-id-type="doi">10.1056/NEJM199805283382216</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-cells-02-00607">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gross</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Huber</surname>
+              <given-names>B.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cellular and molecular aspects of Lyme arthritis</article-title>
+          <source>Cell. Mol. Life Sci.</source>
+          <year>2000</year>
+          <volume>57</volume>
+          <fpage>1562</fpage>
+          <lpage>1569</lpage>
+          <pub-id pub-id-type="doi">10.1007/PL00000641</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-cells-02-00607">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lim</surname>
+              <given-names>L.C.</given-names>
+            </name>
+            <name>
+              <surname>England</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>DuChateau</surname>
+              <given-names>B.K.</given-names>
+            </name>
+            <name>
+              <surname>Glowacki</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Schell</surname>
+              <given-names>R.F.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Borrelia burgdorferi</italic>-specific T lymphocytes induce severe destructive Lyme arthritis</article-title>
+          <source>Infect. Immun.</source>
+          <year>1995</year>
+          <volume>63</volume>
+          <fpage>1400</fpage>
+          <lpage>1408</lpage>
+        </citation>
+      </ref>
+      <ref id="B8-cells-02-00607">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chandra</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Wormser</surname>
+              <given-names>G.P.</given-names>
+            </name>
+            <name>
+              <surname>Klempner</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Trevino</surname>
+              <given-names>R.P.</given-names>
+            </name>
+            <name>
+              <surname>Crow</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <name>
+              <surname>Latov</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Alaedini</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Anti-neural antibody reactivity in patients with a history of Lyme borreliosis and persistent symptoms</article-title>
+          <source>Brain Behav. Immun.</source>
+          <year>2010</year>
+          <volume>24</volume>
+          <fpage>1018</fpage>
+          <lpage>1024</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbi.2010.03.002</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-cells-02-00607">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ramesh</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Benge</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Pahar</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Philipp</surname>
+              <given-names>M.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>A possible role for inflammation in mediating apoptosis of oligodendrocytes as induced by the Lyme disease spirochete <italic>Borrelia burgdorferi</italic></article-title>
+          <source>J. Neuroinflammation</source>
+          <year>2012</year>
+          <volume>9</volume>
+          <fpage>72</fpage>
+          <pub-id pub-id-type="doi">10.1186/1742-2094-9-72</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-cells-02-00607">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aucott</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Morrison</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Munoz</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Rowe</surname>
+              <given-names>P.C.</given-names>
+            </name>
+            <name>
+              <surname>Schwarzwalder</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>West</surname>
+              <given-names>S.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Diagnostic challenges of early Lyme disease: lessons from a community case series</article-title>
+          <source>BMC. Infect. Dis.</source>
+          <year>2009</year>
+          <volume>9</volume>
+          <fpage>79</fpage>
+          <pub-id pub-id-type="doi">10.1186/1471-2334-9-79</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-02-00607">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dattwyler</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Volkman</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Halperin</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Luft</surname>
+              <given-names>B.J.</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Golightly</surname>
+              <given-names>M.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Specific immune responses in Lyme borreliosis. Characterization of T cell and B cell responses to <italic>Borrelia burgdorferi</italic></article-title>
+          <source>Ann. N. Y. Acad. Sci.</source>
+          <year>1988</year>
+          <volume>539</volume>
+          <fpage>93</fpage>
+          <lpage>102</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1749-6632.1988.tb31842.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-cells-02-00607">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Krause</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Burmester</surname>
+              <given-names>G.R.</given-names>
+            </name>
+            <name>
+              <surname>Rensing</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Schoerner</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Schaible</surname>
+              <given-names>U.E.</given-names>
+            </name>
+            <name>
+              <surname>Simon</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Herzer</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kramer</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Wallich</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cellular immune reactivity to recombinant OspA and flagellin from <italic>Borrelia burgdorferi</italic> in patients with Lyme borreliosis. Complexity of humoral and cellular immune responses</article-title>
+          <source>J. Clin. Invest.</source>
+          <year>1992</year>
+          <volume>90</volume>
+          <fpage>1077</fpage>
+          <lpage>1084</lpage>
+          <pub-id pub-id-type="doi">10.1172/JCI115923</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13-cells-02-00607">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aguero-Rosenfeld</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Schwartz</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Wormser</surname>
+              <given-names>G.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Diagnosis of lyme borreliosis</article-title>
+          <source>Clin. Microbiol. Rev.</source>
+          <year>2005</year>
+          <volume>18</volume>
+          <fpage>484</fpage>
+          <lpage>509</lpage>
+          <pub-id pub-id-type="doi">10.1128/CMR.18.3.484-509.2005</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-cells-02-00607">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Seriburi</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Ndukwe</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Cox</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <name>
+              <surname>Wormser</surname>
+              <given-names>G.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>High frequency of false positive IgM immunoblots for <italic>Borrelia burgdorferi</italic> in clinical practice</article-title>
+          <source>Clin. Microbiol. Infect.</source>
+          <year>2012</year>
+          <volume>18</volume>
+          <fpage>1236</fpage>
+          <lpage>1240</lpage>
+        </citation>
+      </ref>
+      <ref id="B15-cells-02-00607">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brown</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Hansen</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Langone</surname>
+              <given-names>J.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of serology in the diagnosis of Lyme disease</article-title>
+          <source>JAMA</source>
+          <year>1999</year>
+          <volume>282</volume>
+          <fpage>62</fpage>
+          <lpage>66</lpage>
+          <pub-id pub-id-type="doi">10.1001/jama.282.1.62</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-cells-02-00607">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brunner</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>New method for detection of <italic>Borrelia burgdorferi</italic> antigen complexed to antibody in seronegative Lyme disease</article-title>
+          <source>J. Immunol. Methods.</source>
+          <year>2001</year>
+          <volume>249</volume>
+          <fpage>185</fpage>
+          <lpage>190</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0022-1759(00)00356-2</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17-cells-02-00607">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tylewska-Wierzbanowska</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Chmielewski</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Limitation of serological testing for Lyme borreliosis: evaluation of ELISA and western blot in comparison with PCR and culture methods</article-title>
+          <source>Wien. Klin. Wochenschr.</source>
+          <year>2002</year>
+          <volume>114</volume>
+          <fpage>601</fpage>
+          <lpage>605</lpage>
+        </citation>
+      </ref>
+      <ref id="B18-cells-02-00607">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Forsberg</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Ernerudh</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ekerfelt</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Roberg</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Vrethem</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bergstrom</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>The outer surface proteins of Lyme disease borrelia spirochetes stimulate T cells to secrete interferon-gamma (IFN-gamma): Diagnostic and pathogenic implications</article-title>
+          <source>Clin. Exp. Immunol.</source>
+          <year>1995</year>
+          <volume>101</volume>
+          <fpage>453</fpage>
+          <lpage>460</lpage>
+        </citation>
+      </ref>
+      <ref id="B19-cells-02-00607">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Horowitz</surname>
+              <given-names>H.W.</given-names>
+            </name>
+            <name>
+              <surname>Pavia</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Bittker</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Forseter</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Cooper</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Nadelman</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Byrne</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>R.C.</given-names>
+            </name>
+            <name>
+              <surname>Wormser</surname>
+              <given-names>G.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sustained cellular immune responses to <italic>Borrelia burgdorferi</italic>: Lack of correlation with clinical presentation and serology</article-title>
+          <source>Clin. Diagn. Lab. Immunol.</source>
+          <year>1994</year>
+          <volume>1</volume>
+          <fpage>373</fpage>
+          <lpage>378</lpage>
+        </citation>
+      </ref>
+      <ref id="B20-cells-02-00607">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nordberg</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Forsberg</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Nyman</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Skogman</surname>
+              <given-names>B.H.</given-names>
+            </name>
+            <name>
+              <surname>Nyberg</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ernerudh</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Eliasson</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Ekerfelt</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Can ELISPOT be applied to a clinical setting as a diagnostic utility for Neuroborreliosis?</article-title>
+          <source>Cells</source>
+          <year>2012</year>
+          <volume>1</volume>
+          <fpage>153</fpage>
+          <lpage>167</lpage>
+          <pub-id pub-id-type="doi">10.3390/cells1020153</pub-id>
+        </citation>
+      </ref>
+      <ref id="B21-cells-02-00607">
+        <label>21.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aguero-Rosenfeld</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <name>
+              <surname>Nowakowski</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Bittker</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Cooper</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Nadelman</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Wormser</surname>
+              <given-names>G.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evolution of the serologic response to <italic>Borrelia burgdorferi</italic> in treated patients with culture-confirmed erythema migrans</article-title>
+          <source>J. Clin. Microbiol.</source>
+          <year>1996</year>
+          <volume>34</volume>
+          <fpage>1</fpage>
+          <lpage>9</lpage>
+        </citation>
+      </ref>
+      <ref id="B22-cells-02-00607">
+        <label>22.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dressler</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Yoshinari</surname>
+              <given-names>N.H.</given-names>
+            </name>
+            <name>
+              <surname>Steere</surname>
+              <given-names>A.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>The T-cell proliferative assay in the diagnosis of Lyme disease</article-title>
+          <source>Ann. Intern. Med.</source>
+          <year>1991</year>
+          <volume>115</volume>
+          <fpage>533</fpage>
+          <lpage>539</lpage>
+          <pub-id pub-id-type="doi">10.7326/0003-4819-115-7-533</pub-id>
+        </citation>
+      </ref>
+      <ref id="B23-cells-02-00607">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lastavica</surname>
+              <given-names>C.C.</given-names>
+            </name>
+            <name>
+              <surname>Snydman</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Schenkein</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Berardi</surname>
+              <given-names>V.P.</given-names>
+            </name>
+            <name>
+              <surname>Pariser</surname>
+              <given-names>K.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Demonstration of <italic>Borrelia burgdorferi</italic> in a patient with chronic Lyme arthritis</article-title>
+          <source>Zentralbl. Bakteriol. Mikrobiol. Hyg. A</source>
+          <year>1986</year>
+          <volume>263</volume>
+          <fpage>288</fpage>
+        </citation>
+      </ref>
+      <ref id="B24-cells-02-00607">
+        <label>24.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dattwyler</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Volkman</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Luft</surname>
+              <given-names>B.J.</given-names>
+            </name>
+            <name>
+              <surname>Halperin</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Golightly</surname>
+              <given-names>M.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Seronegative Lyme disease. Dissociation of specific T- and B-lymphocyte responses to <italic>Borrelia burgdorferi</italic></article-title>
+          <source>N. Engl. J. Med.</source>
+          <year>1988</year>
+          <volume>319</volume>
+          <fpage>1441</fpage>
+          <lpage>1446</lpage>
+          <pub-id pub-id-type="doi">10.1056/NEJM198812013192203</pub-id>
+        </citation>
+      </ref>
+      <ref id="B25-cells-02-00607">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hilton</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Tramontano</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>DeVoti</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sood</surname>
+              <given-names>S.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Temporal study of immunoglobin M seroreactivity to <italic>Borrelia burgdorferi</italic> in patients treated for Lyme borreliosis</article-title>
+          <source>J. Clin. Microbiol.</source>
+          <year>1997</year>
+          <volume>35</volume>
+          <fpage>774</fpage>
+          <lpage>776</lpage>
+        </citation>
+      </ref>
+      <ref id="B26-cells-02-00607">
+        <label>26.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kalish</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>McHugh</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Granquist</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Shea</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Ruthazer</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Steere</surname>
+              <given-names>A.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Persistence of immunoglobulin M or immunoglobulin G antibody responses to <italic>Borrelia burgdorferi</italic> 10&#x2013;20 years after active Lyme disease</article-title>
+          <source>Clin. Infect. Dis.</source>
+          <year>2001</year>
+          <volume>33</volume>
+          <fpage>780</fpage>
+          <lpage>785</lpage>
+          <pub-id pub-id-type="doi">10.1086/322669</pub-id>
+        </citation>
+      </ref>
+      <ref id="B27-cells-02-00607">
+        <label>27.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hagen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Houchins</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Kalyuzhny</surname>
+              <given-names>A.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Combining ELISPOT and ELISA to measure amounts of cytokines secreted by a single cell</article-title>
+          <source>Handbook of ELISPOT: Methods and Protocols, Methods in Molecular Biology</source>
+          <edition>2nd ed.</edition>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Kalyuzhny</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Springer Science+Business Media, LLC</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2012</year>
+          <volume>Volume 792</volume>
+          <fpage>115</fpage>
+          <lpage>122</lpage>
+        </citation>
+      </ref>
+      <ref id="B28-cells-02-00607">
+        <label>28.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Unique Strengths of ELISPOT for T Cell Diagnostics</article-title>
+          <source>Handbook of ELISPOT: Methods and Protocols, Methods in Molecular Biology</source>
+          <edition>2nd ed.</edition>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Kalyuzhny</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Springer Science+Business Media, LLC</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2012</year>
+          <volume>Volume 792</volume>
+          <fpage>3</fpage>
+          <lpage>23</lpage>
+        </citation>
+      </ref>
+      <ref id="B29-cells-02-00607">
+        <label>29.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hamm</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Validating Reference Samples for Comparison in a Regulated ELISPOT Assay</article-title>
+          <source>Validation of Cell-Based Assays in the GLP Setting: A Practical Guide</source>
+          <edition>1st ed.</edition>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Prabhakar</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Kelley</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>John Wiley &amp; Sons, Ltd.</publisher-name>
+          <publisher-loc>West Sussex, UK</publisher-loc>
+          <year>2008</year>
+          <fpage>127</fpage>
+          <lpage>146</lpage>
+        </citation>
+      </ref>
+      <ref id="B30-cells-02-00607">
+        <label>30.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lalvani</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Pathan</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Durkan</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wilkinson</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Whelan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Deeks</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Reece</surname>
+              <given-names>W.H.</given-names>
+            </name>
+            <name>
+              <surname>Latif</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Pasvol</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Hill</surname>
+              <given-names>A.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Enhanced contact tracing and spatial tracking of <italic>Mycobacterium tuberculosis</italic> infection by enumeration of antigen-specific T cells</article-title>
+          <source>Lancet</source>
+          <year>2001</year>
+          <volume>357</volume>
+          <fpage>2017</fpage>
+          <lpage>2021</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0140-6736(00)05115-1</pub-id>
+        </citation>
+      </ref>
+      <ref id="B31-cells-02-00607">
+        <label>31.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lalvani</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Counting antigen-specific T cells: A new approach for monitoring response to tuberculosis treatment?</article-title>
+          <source>Clin. Infect. Dis.</source>
+          <year>2004</year>
+          <volume>38</volume>
+          <fpage>757</fpage>
+          <lpage>759</lpage>
+          <pub-id pub-id-type="doi">10.1086/381763</pub-id>
+        </citation>
+      </ref>
+      <ref id="B32-cells-02-00607">
+        <label>32.</label>
+        <citation citation-type="web">
+          <collab>Centers for Disease Control and Prevention</collab>
+          <article-title>Signs and Symptoms of Lyme Disease, United States</article-title>
+          <year>2013</year>
+          <comment>Available online:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.cdc.gov/lyme/signs_symptoms/index.html" ext-link-type="uri">http://www.cdc.gov/lyme/signs_symptoms/index.html</ext-link></comment>
+		  <access-date>(accessed on 1 July 2013)</access-date>
+        </citation>
+      </ref>
+      <ref id="B33-cells-02-00607">
+        <label>33.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wormser</surname>
+              <given-names>G.P.</given-names>
+            </name>
+            <name>
+              <surname>Dattwyler</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Shapiro</surname>
+              <given-names>E.D.</given-names>
+            </name>
+            <name>
+              <surname>Halperin</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Steere</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Klempner</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Krause</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Bakken</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Strle</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Stanek</surname>
+              <given-names>G.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The clinical assessment, treatment, and prevention of lyme disease, human granulocytic anaplasmosis, and babesiosis: Clinical practice guidelines by the Infectious Diseases Society of America</article-title>
+          <source>Clin. Infect. Dis.</source>
+          <year>2006</year>
+          <volume>43</volume>
+          <fpage>1089</fpage>
+          <lpage>1134</lpage>
+        </citation>
+      </ref>
+      <ref id="B34-cells-02-00607">
+        <label>34.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gross</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Forsthuber</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Etling</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ito</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Nagy</surname>
+              <given-names>Z.A.</given-names>
+            </name>
+            <name>
+              <surname>Field</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Steere</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Huber</surname>
+              <given-names>B.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of LFA-1 as a candidate autoantigen in treatment-resistant Lyme arthritis</article-title>
+          <source>Science</source>
+          <year>1998</year>
+          <volume>281</volume>
+          <fpage>703</fpage>
+          <lpage>706</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.281.5377.703</pub-id>
+        </citation>
+      </ref>
+      <ref id="B35-cells-02-00607">
+        <label>35.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Widhe</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Jarefors</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ekerfelt</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Vrethem</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bergstrom</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Forsberg</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Ernerudh</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Borrelia</italic>-Specific interferon-gamma and interleukin-4 secretion in cerebrospinal fluid and blood during Lyme borreliosis in humans: association with clinical outcome</article-title>
+          <source>J. Infect. Dis.</source>
+          <year>2004</year>
+          <volume>189</volume>
+          <fpage>1881</fpage>
+          <lpage>1891</lpage>
+          <pub-id pub-id-type="doi">10.1086/382893</pub-id>
+        </citation>
+      </ref>
+      <ref id="B36-cells-02-00607">
+        <label>36.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Widhe</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Skogman</surname>
+              <given-names>B.H.</given-names>
+            </name>
+            <name>
+              <surname>Jarefors</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Eknefelt</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Enestrom</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Nordwall</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ekerfelt</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Croner</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bergstrom</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Forsberg</surname>
+              <given-names>P.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Up-regulation of <italic>Borrelia</italic>-specific IL-4- and IFN-gamma-secreting cells in cerebrospinal fluid from children with Lyme neuroborreliosis</article-title>
+          <source>Int. Immunol.</source>
+          <year>2005</year>
+          <volume>17</volume>
+          <fpage>1283</fpage>
+          <lpage>1291</lpage>
+          <pub-id pub-id-type="doi">10.1093/intimm/dxh304</pub-id>
+        </citation>
+      </ref>
+      <ref id="B37-cells-02-00607">
+        <label>37.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Objective, User-Independent ELISPOT Data Analysis Based on Scientifically Validated Principles</article-title>
+          <source>Validation of Cell-Based Assays in the GLP Setting: A Practical Guide</source>
+          <edition>1st ed.</edition>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Prabhakar</surname>
+              <given-names>Uma</given-names>
+            </name>
+            <name>
+              <surname>Kelley</surname>
+              <given-names>Marian</given-names>
+            </name>
+          </person-group>
+          <publisher-name>John Wiley &amp; Sons, Ltd.</publisher-name>
+          <publisher-loc>West Sussex, UK</publisher-loc>
+          <year>2008</year>
+          <fpage>126</fpage>
+          <lpage>147</lpage>
+        </citation>
+      </ref>
+      <ref id="B38-cells-02-00607">
+        <label>38.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ekerfelt</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Forsberg</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Svenvik</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Roberg</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bergstrom</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ernerudh</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Asymptomatic <italic>Borrelia</italic>-seropositive individuals display the same incidence of <italic>Borrelia</italic>-specific interferon-gamma (IFN-gamma)-secreting cells in blood as patients with clinical <italic>Borrelia</italic> infection</article-title>
+          <source>Clin. Exp. Immunol.</source>
+          <year>1999</year>
+          <volume>115</volume>
+          <fpage>498</fpage>
+          <lpage>502</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2249.1999.00840.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B39-cells-02-00607">
+        <label>39.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Caspell</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Karulin</surname>
+              <given-names>A.Y.</given-names>
+            </name>
+            <name>
+              <surname>Ahmad</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Haicheur</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Abdelsalam</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Johannesen</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Vignard</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Dudzik</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Georgakopoulou</surname>
+              <given-names>K.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>LISPOT assays provide reproducible results among different laboratories for T-cell immune monitoring--even in hands of ELISPOT-inexperienced investigators</article-title>
+          <source>J. Immunotoxicol.</source>
+          <year>2009</year>
+          <volume>6</volume>
+          <fpage>227</fpage>
+          <lpage>234</lpage>
+          <pub-id pub-id-type="doi">10.3109/15476910903317546</pub-id>
+        </citation>
+      </ref>
+      <ref id="B40-cells-02-00607">
+        <label>40.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hesse</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Karulin</surname>
+              <given-names>A.Y.</given-names>
+            </name>
+            <name>
+              <surname>Boehm</surname>
+              <given-names>B.O.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>A T cell clone's avidity is a function of its activation state</article-title>
+          <source>J. Immunol.</source>
+          <year>2001</year>
+          <volume>167</volume>
+          <fpage>1353</fpage>
+          <lpage>1361</lpage>
+        </citation>
+      </ref>
+      <ref id="B41-cells-02-00607">
+        <label>41.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fardy</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluation of Diagnositc Tests</article-title>
+          <source>Methods of Molecular Biology, Clinical Epidemiology</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Parfrey</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Barrett</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Humana Press</publisher-name>
+          <publisher-loc>Totowa, NJ, USA</publisher-loc>
+          <year>2009</year>
+          <volume>Volume 473</volume>
+          <fpage>127</fpage>
+          <lpage>136</lpage>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

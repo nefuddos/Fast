@@ -1,0 +1,2009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" article-type="research-article" dtd-version="2.3">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells5040041</article-id>
+      <article-id pub-id-type="publisher-id">cells-05-00041</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Prelamin A Accumulation Attenuates Rac1 Activity and Increases the Intrinsic Migrational Persistence of Aged Vascular Smooth Muscle Cells</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Porter</surname>
+            <given-names>Lauren J.</given-names>
+          </name>
+          <xref rid="af1-cells-05-00041" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Holt</surname>
+            <given-names>Mark R.</given-names>
+          </name>
+          <xref rid="af2-cells-05-00041" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Soong</surname>
+            <given-names>Daniel</given-names>
+          </name>
+          <xref rid="af1-cells-05-00041" ref-type="aff">1</xref>
+          <xref rid="af3-cells-05-00041" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shanahan</surname>
+            <given-names>Catherine M.</given-names>
+          </name>
+          <xref rid="af1-cells-05-00041" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Warren</surname>
+            <given-names>Derek T.</given-names>
+          </name>
+          <xref rid="af1-cells-05-00041" ref-type="aff">1</xref>
+          <xref rid="af4-cells-05-00041" ref-type="aff">4</xref>
+          <xref rid="c1-cells-05-00041" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Dechat</surname>
+            <given-names>Thomas</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-05-00041"><label>1</label>British Heart Foundation Centre of Research Excellence, Cardiovascular Division, King&#x2019;s College London, London SE5 9NU, UK; <email>laurenjadeporter@gmail.com</email> (L.J.P.); <email>dsoong@staffmail.ed.ac.uk</email> (D.S.); <email>cathy.shanahan@kcl.ac.uk</email> (C.M.S.)</aff>
+      <aff id="af2-cells-05-00041"><label>2</label>Randall Division of Cell and Molecular Biophysics, New Hunt&#x2019;s House, King&#x2019;s College London, London SE1 1UL, UK; <email>mark_robert.holt@kcl.ac.uk</email></aff>
+      <aff id="af3-cells-05-00041"><label>3</label>MRC Centre for Reproductive Health, Queen&#x2019;s Medical Research Institute, University of Edinburgh, Edinburgh EH16 4TJ, UK</aff>
+      <aff id="af4-cells-05-00041"><label>4</label>School of Pharmacy, University of East Anglia, Norwich Research Park, Norwich NR4 7TJ, UK</aff>
+      <author-notes>
+        <corresp id="c1-cells-05-00041"><label>*</label>Correspondence: <email>derek.warren@uea.ac.uk</email>; Tel.: +44-016-0359-2697</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>15</day>
+        <month>11</month>
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="collection">        <month>12</month>
+        <year>2016</year>
+      </pub-date>
+      <volume>5</volume>
+      <issue>4</issue>
+      <elocation-id>41</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>15</day>
+          <month>09</month>
+          <year>2016</year>
+        </date>
+        <date date-type="accepted">
+          <day>11</day>
+          <month>11</month>
+          <year>2016</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2016 by the authors.</copyright-statement>
+        <copyright-year>2016</copyright-year>
+        <license license-type="open-access">
+          <p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC-BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Vascular smooth muscle cell (VSMC) motility is essential during both physiological and pathological vessel remodeling. Although ageing has emerged as a major risk factor in the development of cardiovascular disease, our understanding of the impact of ageing on VSMC motility remains limited. Prelamin A accumulation is known to drive VSMC ageing and we show that presenescent VSMCs, that have accumulated prelamin A, display increased focal adhesion dynamics, augmented migrational velocity/persistence and attenuated Rac1 activity. Importantly, prelamin A accumulation in proliferative VSMCs, induced by depletion of the prelamin A processing enzyme FACE1, recapitulated the focal adhesion, migrational persistence and Rac1 phenotypes observed in presenescent VSMCs. Moreover, lamin A/C-depleted VSMCs also display reduced Rac1 activity, suggesting that prelamin A influences Rac1 activity by interfering with lamin A/C function at the nuclear envelope. Taken together, these data demonstrate that lamin A/C maintains Rac1 activity in VSMCs and prelamin A disrupts lamin A/C function to reduce Rac1 activity and induce migrational persistence during VSMC ageing.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>prelamin A</kwd>
+        <kwd>migratory persistence</kwd>
+        <kwd>Rac1</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-cells-05-00041" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Ageing is the greatest risk factor in the development of cardiovascular disease yet the mechanisms underlying vessel ageing and how ageing impinges on vascular cell function remain poorly understood [<xref ref-type="bibr" rid="B1-cells-05-00041">1</xref>,<xref ref-type="bibr" rid="B2-cells-05-00041">2</xref>]. Vascular smooth muscle cells (VSMCs) are the major cell type of the arterial wall and normally exist in a contractile, differentiated state to maintain vascular tone. However, contractile VSMCs are not terminally differentiated and retain the ability to dedifferentiate to a proliferative, migratory phenotype and enhanced VSMC motility is observed during development, vessel repair and in adverse vessel remodeling associated with restenosis and atherosclerosis [<xref ref-type="bibr" rid="B3-cells-05-00041">3</xref>,<xref ref-type="bibr" rid="B4-cells-05-00041">4</xref>,<xref ref-type="bibr" rid="B5-cells-05-00041">5</xref>]. VSMC phenotypic transition involves dramatic actin remodeling which is regulated by Rho GTPase signalling pathways [<xref ref-type="bibr" rid="B6-cells-05-00041">6</xref>,<xref ref-type="bibr" rid="B7-cells-05-00041">7</xref>]. Recent evidence demonstrates that Rac1 is essential for VSMC migration and neointimal formation in vivo [<xref ref-type="bibr" rid="B8-cells-05-00041">8</xref>]. Moreover, Rac1 signalling is critical for switching between random and directionally persistent migration in a variety of cell types [<xref ref-type="bibr" rid="B9-cells-05-00041">9</xref>], although whether Rac1 performs this function in VSMCs remains unknown.</p>
+      <p>The nuclear lamina, a filamentous meshwork of A- (lamin A/C) and B- (lamins B1 and B2) type lamins, has emerged as a regulator of cytoskeletal organisation and cell motility [<xref ref-type="bibr" rid="B10-cells-05-00041">10</xref>]. The A-type lamins are mechanically coupled to the cytoskeleton via association with the linker of the nucleoskeleton and cytoskeleton (LINC) complex, that spans the nuclear envelope (NE) via interactions between giant nesprin isoforms on the outer nuclear membrane (ONM) and the sad1 and UNC84 (SUN) domain containing proteins (SUN1 and SUN2) that span the inner nuclear membrane (INM) and directly bind lamin A/C in the nucleoplasm [<xref ref-type="bibr" rid="B11-cells-05-00041">11</xref>]. Importantly, this mechanical coupling permits transmission of biophysical signals between the cytoskeleton and lamins to regulate lamin A/C organisation, gene transcription and nuclear deformability [<xref ref-type="bibr" rid="B12-cells-05-00041">12</xref>,<xref ref-type="bibr" rid="B13-cells-05-00041">13</xref>]. Lamin A is synthesized from the precursor protein prelamin A that undergoes a series of post-translational modifications, including farnesylation and proteolytic cleavage by FACE1 before mature lamin A is incorporated into the nuclear lamina [<xref ref-type="bibr" rid="B14-cells-05-00041">14</xref>,<xref ref-type="bibr" rid="B15-cells-05-00041">15</xref>,<xref ref-type="bibr" rid="B16-cells-05-00041">16</xref>,<xref ref-type="bibr" rid="B17-cells-05-00041">17</xref>]. However, mutations that disrupt lamin A processing give rise to Hutchinson-Gilford progeria syndrome (HGPS), a severe early ageing disease where patients have a toxic accumulation of mutant prelamin A, progerin, that accelerates senescence by inducing nuclear stiffening and disrupting nuclear integrity [<xref ref-type="bibr" rid="B18-cells-05-00041">18</xref>,<xref ref-type="bibr" rid="B19-cells-05-00041">19</xref>,<xref ref-type="bibr" rid="B20-cells-05-00041">20</xref>,<xref ref-type="bibr" rid="B21-cells-05-00041">21</xref>,<xref ref-type="bibr" rid="B22-cells-05-00041">22</xref>]. HGPS patients develop premature atherosclerosis due to VSMC dysfunction and usually die of myocardial infarction or stroke in their second decade of life [<xref ref-type="bibr" rid="B23-cells-05-00041">23</xref>,<xref ref-type="bibr" rid="B24-cells-05-00041">24</xref>,<xref ref-type="bibr" rid="B25-cells-05-00041">25</xref>]. Importantly, normal VSMCs exhibit an age-related depletion in FACE1, leading to impaired prelamin A processing and subsequent prelamin A accumulation [<xref ref-type="bibr" rid="B26-cells-05-00041">26</xref>,<xref ref-type="bibr" rid="B27-cells-05-00041">27</xref>]. More recently, we have demonstrated that prelamin A accumulates prior to senescence, during a presenescent growth phase, further supporting a role for prelamin A in promoting VSMC ageing and senescence [<xref ref-type="bibr" rid="B28-cells-05-00041">28</xref>].</p>
+      <p>HGPS-derived fibroblasts display impaired cell motility, suggesting that coupling between the nuclear lamina and the cytoskeleton is critical for efficient cell migration [<xref ref-type="bibr" rid="B29-cells-05-00041">29</xref>,<xref ref-type="bibr" rid="B30-cells-05-00041">30</xref>]. In agreement, disruption of LINC complex integrity, either in Laminopathic patient derived fibroblasts or by the over expression of the dominant negative nesprin KASH domain, triggers altered cell morphology and attenuates cell motility [<xref ref-type="bibr" rid="B13-cells-05-00041">13</xref>,<xref ref-type="bibr" rid="B29-cells-05-00041">29</xref>,<xref ref-type="bibr" rid="B30-cells-05-00041">30</xref>]. We have previously shown that prelamin A accumulation induces VSMC presenescence, yet whether age associated changes in NE architecture impact on VSMC motility remains unknown [<xref ref-type="bibr" rid="B28-cells-05-00041">28</xref>]. Therefore, we investigated the impact of VSMC presenescence and prelamin A accumulation on the morphology and migratory capacity of VSMCs. VSMC morphology, focal adhesion (FA) organisation, Rac1 activity and motility were altered during in vitro VSMC ageing. Importantly, prelamin A accumulation in proliferative VSMCs mirrored the FA, Rac1 activity and motility changes observed in presenescent VSMCs, suggesting that the A-type lamins form a feedback loop to influence Rac1 signalling and regulate the intrinsic migrational persistence during VSMC ageing.</p>
+    </sec>
+    <sec id="sec2-cells-05-00041">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-cells-05-00041">
+        <title>2.1. Cell Culture</title>
+        <p>VSMCs were isolated from medial explants of human aortic tissue as previously described [<xref ref-type="bibr" rid="B31-cells-05-00041">31</xref>]. The VSMCs used in this study were derived from a 35-year-old female (35F) and a 54-year-old male (54M). VSMCs were cultured in M199 medium containing 20% fetal bovine serum. VSMCs were serially passaged in vitro and collected at proliferative (passages ~6&#x2013;10), presenescent (passages ~12&#x2013;14) and senescent (passage ~15+) growth stages, as described previously [<xref ref-type="bibr" rid="B27-cells-05-00041">27</xref>]. All culture medium was complemented with 1% penicillin/streptomycin and 200 &#x3BC;M <sc>l</sc>-Glutamine. Dharmacon smart pool control and FACE-1 specific small interfering RNA (siRNA) oligonucleotides were transfected into cells with the use of HiPerfect transfection reagent (Qiagen, Hilden, Germany) and incubated for 72 h.</p>
+      </sec>
+      <sec id="sec2dot2-cells-05-00041">
+        <title>2.2. Immunofluorescence Microscopy</title>
+        <p>For immunostaining, cells were fixed in 4% paraformaldehyde, permeabilised in 0.5% Nonidet P-40 alternative in phosphate buffered saline (PBS) and blocked in 1% bovine serum albumin (BSA) in PBS for 1 h. Cells were incubated with prelamin A (Santa Cruz, Dallas, TX, USA) or vinculin (Sigma-Aldrich, St Louis, MO, USA) primary antibody in blocking solution overnight at 4 &#xB0;C. After washing with PBS, cells were incubated in fluorescence-conjugated secondary antibody solution or Rhodamine phalloidin (Invitrogen) for 1 h before staining cell nuclei with 4&#x2032;,6&#x2032;-Diamidino-2-Pheylindoledihydrochloride (DAPI). Cells were washed and mounted onto slides using Mowiol/Dabco media. Images were captured using a Zeiss Axioplan 2 light microscope and Volocity software (Perkin Elmer, Waltham, MA, USA) was used to control image acquisition and measure morphological parameters (area and circularity) by fluorescence detection.</p>
+      </sec>
+      <sec id="sec2dot3-cells-05-00041">
+        <title>2.3. Glutathione&#x2013;S-Transferase (GST) Pull-Down</title>
+        <p>P21-associated kinase (PAK) is an immediate downstream effector of stimulated Rac1 and was used in this experiment to assay Rac1 activity. BL-21s were transformed with GST-PAK-P21 Rho binding domain plasmid (Addgene #12217) and expression was induced by the addition of 1 mM Isopropyl &#x3B2;-<sc>d</sc>-1-thiogalactopyranoside for 2 h at 37 &#xB0;C. Bacterial pellets were suspended in PBS containing protease inhibitors, sonicated and proteins solubilised in 1% Triton-X for 1 h at 4 &#xB0;C. Following centrifugation, recombinant protein was purified by incubating supernatant with glutathione-sepharose beads for 30 min at room temperature GST-protein beads (50 &#x3BC;L of 50% slurry) were incubated with 200 &#x3BC;g VSMC lysate on a rotator for 2 h at 4 &#xB0;C and washed three times. Bead-bound protein was eluted by boiling in &#x3B2;-mercaptoethanol sample buffer and Rac1 activity was analysed by sodium dodecyl sulphate-polyacrylamide gel electrophoresis (SDS-PAGE) and Western blot analysis.</p>
+      </sec>
+      <sec id="sec2dot4-cells-05-00041">
+        <title>2.4. Quantitative Polymerase Chain Reaction (qPCR) and Western Blot Analysis</title>
+        <p>FACE1 qPCR was performed as described previously [<xref ref-type="bibr" rid="B27-cells-05-00041">27</xref>]. For Western blotting, VSMCs were harvested into lysis buffer (10 mM Tris, pH 7.5, 150 mM NaCl, 1 mM EDTA, 1% Triton) supplemented with protease inhibitors. Cell lysates were sonicated and boiled in &#x3B2;-mercaptoethanol sample buffer before being subjected to SDS-PAGE and Western blot analysis using prelamin A (C-20), lamin A/C (N18) (Santa Cruz), emerin (Novus Biologicals., Oakville, ON, Canada), SUN2 (Abcam., Cambridge, UK), vinculin (Sigma., St Louis, MO, USA), nesprin-2 CH3 (described previously [<xref ref-type="bibr" rid="B32-cells-05-00041">32</xref>]) and Rac1 (Millipore., Watford, UK) antibodies.</p>
+      </sec>
+      <sec id="sec2dot5-cells-05-00041">
+        <title>2.5. Time-Lapse Video Microscopy and Migration Analysis</title>
+        <p>Cells were sparsely seeded in wells of a culture plate 24 h prior to filming. Time-lapse imaging was conducted using an Olympus IX81 microscope attached to a Hamamatsu Photonics Orca-R2 cooled CCD camera (Hamamatsu Photonics., Welwyn Garden City, UK). Phase contrast images were captured at varying positions using a motorised stage (LUDL Electronic Products, Hawthorne, NY, USA) every 5 min for 16 h. Individual cells were manually tracked throughout consecutive frames using an ImageJ software plugin (ImageJ1, National Institutes of Health (NIH), Bethesda, MD, USA). Using these x-y coordinates, migrational velocity and persistence were determined using Mathematica 6.0 (Wolfram Research Ltd., Witney, UK) custom-written notebooks kindly provided from Professor Graham Dunn and Daniel Soong, King&#x2019;s College London.</p>
+      </sec>
+      <sec id="sec2dot6-cells-05-00041">
+        <title>2.6. Interference Reflection Microscopy (IRM)</title>
+        <p>Cells were cultured on glass-bottom culture dishes (MatTek Ltd., Ashland, MA, USA) for 18&#x2013;24 h. IRM images were captured every 2 min using an incident light fluorescence attachment and a 63&#xD7; oil immersion objective. Images were processed using ImageJ software in a method modified from previous studies [<xref ref-type="bibr" rid="B33-cells-05-00041">33</xref>]. Firstly, an FFT band pass filter was applied to generate binary images, making focal adhesions strikingly obvious against the background. Artifacts were removed manually by selecting and inverting to colour-match the background. The cell leading edge was selected and ImageJ measured the pixel count of individual focal adhesions. Composite images highlighted newly formed focal adhesions against original focal adhesions. The pixel count of newly formed adhesions was then expressed as a percentage of the total number of original pixels to give focal adhesion assembly (%).</p>
+      </sec>
+      <sec id="sec2dot7-cells-05-00041">
+        <title>2.7. Statistical Analysis</title>
+        <p>Data are presented as mean +/&#x2212; SEM and p-values were calculated using paired (siRNA depletion) or unpaired (proliferative/presenescent) two-tailed Student&#x2019;s t tests (Prism5, GraphPad Software Inc., La Jolla, CA, USA). One-way ANOVA with Bonferroni&#x2019;s post-test were performed on proliferative/presenescent/senescent and sicontrol/siFACE1/silamins A/C data (GraphPad Prism software).</p>
+      </sec>
+    </sec>
+    <sec id="sec3-cells-05-00041" sec-type="results">
+      <title>3. Results</title>
+      <sec id="sec3dot1-cells-05-00041">
+        <title>3.1. Prelamin A Accumulation Drives Aged-Related Morphological Changes</title>
+        <p>Primary human VSMCs were serially passaged in vitro to model VSMC ageing. As described previously, VSMCs have three distinct growth stages: an initial proliferative phase at early passage numbers when growth rate is high and prelamin A level is low; a presenescent phase when growth rate begins to subside and prelamin A accumulates; and finally, a senescent phase when proliferation terminates and prelamin A levels persist [<xref ref-type="bibr" rid="B27-cells-05-00041">27</xref>]. Western blot analysis (WB) confirmed that presenescent VSMCs possessed increased levels of prelamin A in the nuclear insoluble fraction compared to proliferative VSMCs (<xref ref-type="fig" rid="cells-05-00041-f001">Figure 1</xref>A). Confocal immunofluorescence microscopy (IF) confirmed that the nuclei of presenescent VSMCs possessed increased prelamin A levels compared to their proliferative counterparts (<xref ref-type="fig" rid="cells-05-00041-f001">Figure 1</xref>B). Next, we assessed the impact of presenescence on LINC complex integrity by performing IF using an antibody raised to the N-terminus of the nesprin-2 giant. IF revealed that nesprin-2 localised to the nuclear envelope of proliferative VSMCs, however, in presenescent VSMCs, nesprin-2 was mislocalised from the NE to the endoplasmic reticulum (<xref ref-type="fig" rid="cells-05-00041-f001">Figure 1</xref>C). We next investigated the impact of presenescence on VSMC morphology by analysing 2-independent VSMC lines. Analysis revealed that presenescent VSMCs were larger and more elongated than their proliferative counterparts (<xref ref-type="fig" rid="cells-05-00041-f001">Figure 1</xref>D&#x2013;F) and possessed larger and more elongated nuclei (<xref ref-type="fig" rid="cells-05-00041-f001">Figure 1</xref>G,H).</p>
+        <p>To confirm that prelamin A influences VSMC morphology, we employed a FACE1 siRNA mediated knockdown approach. QPCR and WB confirmed efficient depletion of FACE1 mRNA and protein compared to controls (<xref ref-type="fig" rid="cells-05-00041-f002">Figure 2</xref>A,B). Subcellular fractionation confirmed prelamin A accumulation in the nuclear insoluble fraction of FACE1-depleted VSMCs (<xref ref-type="fig" rid="cells-05-00041-f002">Figure 2</xref>C) and IF analysis confirmed prelamin A accumulation in the nuclei of FACE1-depleted VSMCs (<xref ref-type="fig" rid="cells-05-00041-f002">Figure 2</xref>D). Furthermore, IF also revealed that nesprin-2 was mislocalised from the NE in FACE1-depleted VSMCs (<xref ref-type="fig" rid="cells-05-00041-f002">Figure 2</xref>E). IF analysis revealed FACE1-depleted VSMCs displayed no change in spread area but were more elongated than control cells (<xref ref-type="fig" rid="cells-05-00041-f002">Figure 2</xref>F&#x2013;H), suggesting that prelamin A contributes to age associated changes in VSMC morphology.</p>
+      </sec>
+      <sec id="sec3dot2-cells-05-00041">
+        <title>3.2. Prelamin A Accumulation Promotes Focal Adhesion Reorganisation</title>
+        <p>The above data suggest that prelamin A accumulation induces cytoskeletal reorganisation in VSMCs. As the actin cytoskeleton is tethered to the extracellular matrix (ECM) by focal adhesion complexes (FA), we next investigated whether prelamin A accumulation impacted on FA organisation. IF of vinculin stained VSMCs revealed FAs to be abundantly localised throughout proliferative VSMCs whereas presenescent VSMCs displayed fewer FAs that were redistributed to the cell periphery (<xref ref-type="fig" rid="cells-05-00041-f003">Figure 3</xref>A&#x2013;C). FAs were also more circular in presenescent compared with proliferative VSMCs (<xref ref-type="fig" rid="cells-05-00041-f003">Figure 3</xref>D,E). Alterations in FA organisation reflect changes in FA dynamics, so we next performed interference reflection microscopy (IRM) to measure FA assembly. Presenescent VSMCs displayed enhanced FA assembly, indicating that presenescent VSMCs possess fewer, more dynamic FAs compared to proliferative and senescent VSMCs (<xref ref-type="fig" rid="cells-05-00041-f003">Figure 3</xref>F,G).</p>
+        <p>We next investigated whether prelamin A accumulation was specifically accountable for these changes in FA organisation. IF revealed that FAs were abundantly present throughout control VSMCs however, FACE1-depleted VSMCs displayed fewer focal adhesions (<xref ref-type="fig" rid="cells-05-00041-f004">Figure 4</xref>A,B). Furthermore, similar to presenescent VSMCs, FAs in FACE1-depleted VSMCs were also more spherical than those of control VSMCs (<xref ref-type="fig" rid="cells-05-00041-f004">Figure 4</xref>C). IRM showed that FACE1-depleted VSMCs also display increased FA dynamics compared to control VSMCs (<xref ref-type="fig" rid="cells-05-00041-f004">Figure 4</xref>D,E). Collectively, this evidence suggests that prelamin A accumulation enhances FA dynamics during VSMC ageing.</p>
+      </sec>
+      <sec id="sec3dot3-cells-05-00041">
+        <title>3.3. VSMC Ageing and Prelamin A Accumulation Stimulate Migrational Persistence</title>
+        <p>As FA dynamicity is indicative of a cell&#x2019;s migratory capacity, we next used video time-lapse microscopy to capture random single cell migration and characterise the effect of ageing on VSMC migration. Presenescent VSMCs possessed increased migrational velocity compared to proliferative and senescent VSMCs (<xref ref-type="fig" rid="cells-05-00041-f005">Figure 5</xref>A,B). Presenescent VSMC migration was also more directionally persistent than that of proliferative and senescent VSMCs (<xref ref-type="fig" rid="cells-05-00041-f005">Figure 5</xref>A,C). These findings led us to test whether prelamin A accumulation specifically influenced cell migration. FACE1-depleted VSMCs exhibited no change to migrational velocity when compared with control VSMCs (<xref ref-type="fig" rid="cells-05-00041-f005">Figure 5</xref>D,E). However, similar to presenescent VSMCs, FACE1-depleted VSMCs possessed enhanced migratory persistence compared with control cells (<xref ref-type="fig" rid="cells-05-00041-f005">Figure 5</xref>D,F), confirming that prelamin A accumulation stimulates migrational persistence during VSMC ageing.</p>
+      </sec>
+      <sec id="sec3dot4-cells-05-00041">
+        <title>3.4. Prelamin A Accumulation Attenuates Rac1 Activity during VSMC Ageing</title>
+        <p>Diminished activity of the small GTPase Rac1 has previously been demonstrated to promote migrational persistence, therefore, we investigated whether VSMC ageing and prelamin A accumulation alter Rac1 activity by performing GST pull-down experiments using the PAK-p21-binding domain that interacts with GTP-Rac1. WB revealed that Rac1 activity was attenuated in presenescent (<xref ref-type="fig" rid="cells-05-00041-f006">Figure 6</xref>A,B) and FACE1-depleted (<xref ref-type="fig" rid="cells-05-00041-f006">Figure 6</xref>C,D) VSMCs compared to their proliferative and control VSMCs respectively. To test whether prelamin A may be acting by interfering with lamin A/C function, we depleted lamin A/C in VSMCs. GST-pull down analysis revealed that Rac1 activity was attenuated in lamin A/C-depleted VSMCs compared to control VSMCs (<xref ref-type="fig" rid="cells-05-00041-f006">Figure 6</xref>C,D). Together, this evidence suggests that prelamin A accumulation interferes with lamin A/C function to stimulate VSMC migrational persistence by suppressing Rac1 activity.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-cells-05-00041" sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>The actin cytoskeleton regulates numerous cellular processes, including contractility, motility and proliferation, and age-related alterations to cytoskeletal organisation are detrimental to general VSMC functioning and cell fate [<xref ref-type="bibr" rid="B34-cells-05-00041">34</xref>,<xref ref-type="bibr" rid="B35-cells-05-00041">35</xref>]. Lamin A/C is indirectly coupled to F-actin via the LINC complex and disruption of either lamin A/C or the LINC complex induces cytoskeletal reorganisation and changes in cell motility [<xref ref-type="bibr" rid="B11-cells-05-00041">11</xref>,<xref ref-type="bibr" rid="B13-cells-05-00041">13</xref>,<xref ref-type="bibr" rid="B36-cells-05-00041">36</xref>,<xref ref-type="bibr" rid="B37-cells-05-00041">37</xref>]. VSMC ageing is driven by prelamin A accumulation and we show that presenescent VSMCs display changes in morphology that are indicative of cytoskeletal reorganisation [<xref ref-type="bibr" rid="B27-cells-05-00041">27</xref>]. FACE1-depletion induced prelamin A accumulation in proliferative VSMCs and recapitulated the elongated spindle-like morphology displayed by presenescent VSMCs. We have previously shown that presenescent and FACE1-depleted VSMCs stain positive for Ki67, suggesting that morphology changes induced by prelamin A are not due to cells exiting the cell cycle [<xref ref-type="bibr" rid="B27-cells-05-00041">27</xref>]. In addition to the morphology changes, we also show that prelamin A accumulation stimulated intrinsic migrational persistence of presenescent and FACE1-depleted VSMCs.</p>
+      <p>Importantly, we show for the first time that prelamin A accumulation attenuates activity of the small GTPase Rac1. Previous studies have demonstrated that Rac1 activity serves as a switch between random and directionally persistent migration and reduced Rac1 activity promotes migrational persistence in a variety of cell types [<xref ref-type="bibr" rid="B9-cells-05-00041">9</xref>]. This suggests that prelamin A accumulation attenuates Rac1 activity to promote migrational persistence during VSMC ageing. However, as prelamin A levels continue to increase and VSMCs enter senescence, migrational persistence subsides, suggesting that the impact of prelamin A on VSMC migration is dose dependent. Although further experimentation is required to elucidate the mechanism of how prelamin A accumulation influences Rac1 activity, we show that VSMCs depleted of lamin A/C also displayed reduced Rac1 activity, suggesting that prelamin A accumulation interferes with lamin A/C function at the NE. Lamin A/C is critical for nuclear organisation and provides structural support to the NE [<xref ref-type="bibr" rid="B38-cells-05-00041">38</xref>,<xref ref-type="bibr" rid="B39-cells-05-00041">39</xref>]. Progerin accumulation has been shown to disrupt nuclear organisation/mechanics in HGPS-derived fibroblasts and potentially these lamin A/C functions are also impaired by prelamin A accumulation during VSMC ageing [<xref ref-type="bibr" rid="B40-cells-05-00041">40</xref>]. In agreement with this notion, we have previously shown that nuclear morphology and heterochromatin alterations in aged VSMCs mimic those observed in HGPS-derived fibroblast cells [<xref ref-type="bibr" rid="B27-cells-05-00041">27</xref>]. Moreover, as integrin disruption has also been shown to disrupt Rac1 activity and induce migrational persistence, it is easy to envisage a mechanism whereby the LINC complex relays biophysical signals, derived from changes in nuclear mechanics, to F-actin and FAs to regulate Rac1 activity [<xref ref-type="bibr" rid="B9-cells-05-00041">9</xref>]. In agreement with this notion, we show that prelamin A accumulation triggered mislocalisation of nesprin-2 from the nuclear envelope in VSMCs. Clearly, further experimentation is now required to investigate the role of the LINC complex in regulating Rac1 activity and migrational persistence.</p>
+      <sec>
+        <title>Changes in Migrational Persistence during VSMC Ageing</title>
+        <p>In this current study, we analysed the migrational capacity of the three distinct VSMC growth phases termed proliferative, presenescence and senescence, using healthy VSMCs derived from a 35-year-old and 54-year-old donor. We have previously shown that VSMCs isolated from 70+ year old donors possess less proliferative capacity and are presenescent in tissue culture [<xref ref-type="bibr" rid="B27-cells-05-00041">27</xref>]. Importantly, a significant population of VSMCs in aortae of aged (70+ years) donors display prelamin A accumulation, stain positive for Ki67 and negative for senescence associated &#x3B2;-galactosidase activity, confirming that presenescent VSMCs exist in vivo [<xref ref-type="bibr" rid="B27-cells-05-00041">27</xref>]. In this current study, we show that single proliferative VSMCs were relatively slow and lacked migratory persistence which fits with earlier studies illustrating that VSMCs are slow-moving cells that exhibit random migration patterns [<xref ref-type="bibr" rid="B41-cells-05-00041">41</xref>,<xref ref-type="bibr" rid="B42-cells-05-00041">42</xref>]. Lack of migratory persistence suggests that young, healthy VSMCs within the vessel wall are dispersive with an explorative nature. Interestingly, presenescent VSMCs migrated more rapidly and persistently, indicative of more efficient directional migration. Ultimately, when VSMCs reached senescence, migration rates slowed. The inability of senescent VSMCs to conduct their migratory functions within the vessel may be detrimental to vascular health. Normally, VSMC migration is fundamental for vessel repair and VSMCs are a prominent cell-type at atherosclerotic sites where they aid the formation of a protective cap to stabilise rupture-prone lesions [<xref ref-type="bibr" rid="B42-cells-05-00041">42</xref>,<xref ref-type="bibr" rid="B43-cells-05-00041">43</xref>,<xref ref-type="bibr" rid="B44-cells-05-00041">44</xref>]. Increased VSMC migration, coupled with enhanced ECM deposition drives vessel remodeling and intimal thickening, which are major pathogenic factors in atherosclerotic plaque development [<xref ref-type="bibr" rid="B45-cells-05-00041">45</xref>,<xref ref-type="bibr" rid="B46-cells-05-00041">46</xref>,<xref ref-type="bibr" rid="B47-cells-05-00041">47</xref>]. We hypothesise that the enhancement of VSMC migration is primarily a protective mechanism allowing presenescent VSMCs a final attempt to repair vessel damage with a migratory &#x2018;boost&#x2019; before they become senescent. Ultimately, when VSMCs reach senescence, migration and proliferation rates diminish, resulting in reduced recruitment of VSMCs to sites of vascular injury.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>This study was supported by the British Heart Foundation (BHF) grant RE/08/003. D.W. holds a BHF IBSRF (FS/11/53/29020).</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>D.T.W. conceived and designed the experiments; L.J.P., M.R.H., D.S. and D.T.W. performed the experiments and analyzed the data; C.M.S. contributed reagents/materials/analysis tools; D.T.W. wrote the paper.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest. The founding sponsors had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, and in the decision to publish the results.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-05-00041">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wissler</surname>
+              <given-names>R.W.</given-names>
+            </name>
+            <name>
+              <surname>Robert</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Aging and cardiovascular disease: A summary of the Eighth Munster International Arteriosclerosis Symposium</article-title>
+          <source>Circulation</source>
+          <year>1996</year>
+          <volume>93</volume>
+          <fpage>1608</fpage>
+          <lpage>1612</lpage>
+          <pub-id pub-id-type="doi">10.1161/01.CIR.93.9.1608</pub-id>
+          <pub-id pub-id-type="pmid">8653861</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-cells-05-00041">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lakatta</surname>
+              <given-names>E.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Arterial and cardiac aging: Major shareholders in cardiovascular disease enterprises: Part III: Cellular and molecular clues to heart and arterial aging</article-title>
+          <source>Circulation</source>
+          <year>2003</year>
+          <volume>107</volume>
+          <fpage>490</fpage>
+          <lpage>497</lpage>
+          <pub-id pub-id-type="doi">10.1161/01.CIR.0000048894.99865.02</pub-id>
+          <pub-id pub-id-type="pmid">12551876</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-cells-05-00041">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tahir</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Niculescu</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Bona-Casas</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Merks</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Hoekstra</surname>
+              <given-names>A.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>An in silico study on the role of smooth muscle cell migration in neointimal formation after coronary stenting</article-title>
+          <source>J. R. Soc. Interface</source>
+          <year>2015</year>
+          <volume>12</volume>
+          <fpage>20150358</fpage>
+          <pub-id pub-id-type="doi">10.1098/rsif.2015.0358</pub-id>
+          <pub-id pub-id-type="pmid">26063828</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-cells-05-00041">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cai</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Nagel</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Cygnar</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Pi</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Knight</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of cAMP-phosphodiesterase 1C signaling in regulating growth factor receptor stability, vascular smooth muscle cell growth, migration, and neointimal hyperplasia</article-title>
+          <source>Circ. Res.</source>
+          <year>2015</year>
+          <volume>116</volume>
+          <fpage>1120</fpage>
+          <lpage>1132</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCRESAHA.116.304408</pub-id>
+          <pub-id pub-id-type="pmid">25608528</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-cells-05-00041">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shi</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>S.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Smooth Muscle Cell Differentiation: Model Systems, Regulatory Mechanisms, and Vascular Diseases</article-title>
+          <source>J. Cell Physiol.</source>
+          <year>2015</year>
+          <volume>231</volume>
+          <fpage>777</fpage>
+          <lpage>787</lpage>
+          <pub-id pub-id-type="doi">10.1002/jcp.25208</pub-id>
+          <pub-id pub-id-type="pmid">26425843</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-cells-05-00041">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fletcher</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Mullins</surname>
+              <given-names>R.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cell mechanics and the cytoskeleton</article-title>
+          <source>Nature</source>
+          <year>2010</year>
+          <volume>463</volume>
+          <fpage>485</fpage>
+          <lpage>492</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature08908</pub-id>
+          <pub-id pub-id-type="pmid">20110992</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-cells-05-00041">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hall</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Nobes</surname>
+              <given-names>C.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rho GTPases: Molecular switches that control the organization and dynamics of the actin cytoskeleton</article-title>
+          <source>Philos. Trans. R. Soc. Lond. B Biol. Sci.</source>
+          <year>2000</year>
+          <volume>355</volume>
+          <fpage>965</fpage>
+          <lpage>970</lpage>
+          <pub-id pub-id-type="doi">10.1098/rstb.2000.0632</pub-id>
+          <pub-id pub-id-type="pmid">11128990</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-cells-05-00041">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fabbiano</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Menacho-Marquez</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sevilla</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Albarran-Juarez</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Offermanns</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Montero</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Bustelo</surname>
+              <given-names>X.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetic dissection of the vav2-rac1 signaling axis in vascular smooth muscle cells</article-title>
+          <source>Mol. Cell Biol.</source>
+          <year>2014</year>
+          <volume>34</volume>
+          <fpage>4404</fpage>
+          <lpage>4419</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.01066-14</pub-id>
+          <pub-id pub-id-type="pmid">25288640</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-cells-05-00041">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pankov</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Endo</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Even-Ram</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Araki</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Clark</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Cukierman</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Matsumoto</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Yamada</surname>
+              <given-names>K.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Rac switch regulates random versus directionally persistent cell migration</article-title>
+          <source>J. Cell Biol.</source>
+          <year>2005</year>
+          <volume>170</volume>
+          <fpage>793</fpage>
+          <lpage>802</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.200503152</pub-id>
+          <pub-id pub-id-type="pmid">16129786</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-cells-05-00041">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chambliss</surname>
+              <given-names>A.B.</given-names>
+            </name>
+            <name>
+              <surname>Khatau</surname>
+              <given-names>S.B.</given-names>
+            </name>
+            <name>
+              <surname>Erdenberger</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Robinson</surname>
+              <given-names>D.K.</given-names>
+            </name>
+            <name>
+              <surname>Hodzic</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Longmore</surname>
+              <given-names>G.D.</given-names>
+            </name>
+            <name>
+              <surname>Wirtz</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>The LINC-anchored actin cap connects the extracellular milieu to the nucleus for ultrafast mechanotransduction</article-title>
+          <source>Sci. Rep.</source>
+          <year>2013</year>
+          <volume>3</volume>
+          <fpage>1087</fpage>
+          <pub-id pub-id-type="doi">10.1038/srep01087</pub-id>
+          <pub-id pub-id-type="pmid">23336069</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-05-00041">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Crisp</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Roux</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Rattner</surname>
+              <given-names>J.B.</given-names>
+            </name>
+            <name>
+              <surname>Shanahan</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Burke</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Stahl</surname>
+              <given-names>P.D.</given-names>
+            </name>
+            <name>
+              <surname>Hodzic</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Coupling of the nucleus and cytoplasm: Role of the LINC complex</article-title>
+          <source>J. Cell Biol.</source>
+          <year>2006</year>
+          <volume>172</volume>
+          <fpage>41</fpage>
+          <lpage>53</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.200509124</pub-id>
+          <pub-id pub-id-type="pmid">16380439</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-cells-05-00041">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guilluy</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Osborne</surname>
+              <given-names>L.D.</given-names>
+            </name>
+            <name>
+              <surname>Van Landeghem</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Sharek</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Superfine</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Garcia-Mata</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Burridge</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Isolated nuclei adapt to force and reveal a mechanotransduction pathway in the nucleus</article-title>
+          <source>Nat. Cell Biol.</source>
+          <year>2014</year>
+          <volume>16</volume>
+          <fpage>376</fpage>
+          <lpage>381</lpage>
+          <pub-id pub-id-type="doi">10.1038/ncb2927</pub-id>
+          <pub-id pub-id-type="pmid">24609268</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13-cells-05-00041">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lombardi</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Jaalouk</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Shanahan</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Burke</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Roux</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Lammerding</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The interaction between nesprins and sun proteins at the nuclear envelope is critical for force transmission between the nucleus and cytoskeleton</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2011</year>
+          <volume>286</volume>
+          <fpage>26743</fpage>
+          <lpage>26753</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M111.233700</pub-id>
+          <pub-id pub-id-type="pmid">21652697</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-cells-05-00041">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Young</surname>
+              <given-names>S.G.</given-names>
+            </name>
+            <name>
+              <surname>Fong</surname>
+              <given-names>L.G.</given-names>
+            </name>
+            <name>
+              <surname>Michaelis</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Prelamin A, Zmpste24, misshapen cell nuclei, and progeria&#x2014;New evidence suggesting that protein farnesylation could be important for disease pathogenesis</article-title>
+          <source>J. Lipid. Res.</source>
+          <year>2005</year>
+          <volume>46</volume>
+          <fpage>2531</fpage>
+          <lpage>2558</lpage>
+          <pub-id pub-id-type="doi">10.1194/jlr.R500011-JLR200</pub-id>
+          <pub-id pub-id-type="pmid">16207929</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15-cells-05-00041">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rusinol</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <name>
+              <surname>Sinensky</surname>
+              <given-names>M.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Farnesylated lamins, progeroid syndromes and farnesyl transferase inhibitors</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2006</year>
+          <volume>119</volume>
+          <fpage>3265</fpage>
+          <lpage>3272</lpage>
+          <pub-id pub-id-type="doi">10.1242/jcs.03156</pub-id>
+          <pub-id pub-id-type="pmid">16899817</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-cells-05-00041">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Corrigan</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Kuszczak</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Rusinol</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <name>
+              <surname>Thewke</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Hrycyna</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Michaelis</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sinensky</surname>
+              <given-names>M.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Prelamin A endoproteolytic processing in vitro by recombinant Zmpste24</article-title>
+          <source>Biochem. J.</source>
+          <year>2005</year>
+          <volume>387</volume>
+          <fpage>129</fpage>
+          <lpage>138</lpage>
+          <pub-id pub-id-type="doi">10.1042/BJ20041359</pub-id>
+          <pub-id pub-id-type="pmid">15479156</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17-cells-05-00041">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kudlow</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Kennedy</surname>
+              <given-names>B.K.</given-names>
+            </name>
+            <name>
+              <surname>Monnat</surname>
+              <given-names>R.J.</given-names>
+              <suffix>Jr.</suffix>
+            </name>
+          </person-group>
+          <article-title>Werner and Hutchinson-Gilford progeria syndromes: Mechanistic basis of human progeroid diseases</article-title>
+          <source>Nat. Rev. Mol. Cell Biol.</source>
+          <year>2007</year>
+          <volume>8</volume>
+          <fpage>394</fpage>
+          <lpage>404</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrm2161</pub-id>
+          <pub-id pub-id-type="pmid">17450177</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18-cells-05-00041">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goldman</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Shumaker</surname>
+              <given-names>D.K.</given-names>
+            </name>
+            <name>
+              <surname>Erdos</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Eriksson</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <name>
+              <surname>Gordon</surname>
+              <given-names>L.B.</given-names>
+            </name>
+            <name>
+              <surname>Gruenbaum</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Khuon</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mendez</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Varga</surname>
+              <given-names>R.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Accumulation of mutant lamin A causes progressive changes in nuclear architecture in Hutchinson-Gilford progeria syndrome</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2004</year>
+          <volume>101</volume>
+          <fpage>8963</fpage>
+          <lpage>8968</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0402943101</pub-id>
+          <pub-id pub-id-type="pmid">15184648</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19-cells-05-00041">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Scaffidi</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Misteli</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Reversal of the cellular phenotype in the premature aging disease Hutchinson-Gilford progeria syndrome</article-title>
+          <source>Nat. Med.</source>
+          <year>2005</year>
+          <volume>11</volume>
+          <fpage>440</fpage>
+          <lpage>445</lpage>
+          <pub-id pub-id-type="doi">10.1038/nm1204</pub-id>
+          <pub-id pub-id-type="pmid">15750600</pub-id>
+        </citation>
+      </ref>
+      <ref id="B20-cells-05-00041">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Risques</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>G.M.</given-names>
+            </name>
+            <name>
+              <surname>Rabinovitch</surname>
+              <given-names>P.S.</given-names>
+            </name>
+            <name>
+              <surname>Oshima</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Accelerated telomere shortening and replicative senescence in human fibroblasts overexpressing mutant and wild-type lamin A</article-title>
+          <source>Exp. Cell Res.</source>
+          <year>2008</year>
+          <volume>314</volume>
+          <fpage>82</fpage>
+          <lpage>91</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.yexcr.2007.08.004</pub-id>
+          <pub-id pub-id-type="pmid">17870066</pub-id>
+        </citation>
+      </ref>
+      <ref id="B21-cells-05-00041">
+        <label>21.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eriksson</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>W.T.</given-names>
+            </name>
+            <name>
+              <surname>Gordon</surname>
+              <given-names>L.B.</given-names>
+            </name>
+            <name>
+              <surname>Glynn</surname>
+              <given-names>M.W.</given-names>
+            </name>
+            <name>
+              <surname>Singer</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Erdos</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Robbins</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Moses</surname>
+              <given-names>T.Y.</given-names>
+            </name>
+            <name>
+              <surname>Berglund</surname>
+              <given-names>P.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Recurrent de novo point mutations in lamin A cause Hutchinson-Gilford progeria syndrome</article-title>
+          <source>Nature</source>
+          <year>2003</year>
+          <volume>423</volume>
+          <fpage>293</fpage>
+          <lpage>298</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature01629</pub-id>
+          <pub-id pub-id-type="pmid">12714972</pub-id>
+        </citation>
+      </ref>
+      <ref id="B22-cells-05-00041">
+        <label>22.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gruenbaum</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Margalit</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Shumaker</surname>
+              <given-names>D.K.</given-names>
+            </name>
+            <name>
+              <surname>Wilson</surname>
+              <given-names>K.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>The nuclear lamina comes of age</article-title>
+          <source>Nat. Rev. Mol. Cell Biol.</source>
+          <year>2005</year>
+          <volume>6</volume>
+          <fpage>21</fpage>
+          <lpage>31</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrm1550</pub-id>
+          <pub-id pub-id-type="pmid">15688064</pub-id>
+        </citation>
+      </ref>
+      <ref id="B23-cells-05-00041">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kutscheidt</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Antoku</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Luxton</surname>
+              <given-names>G.W.</given-names>
+            </name>
+            <name>
+              <surname>Stagljar</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Fackler</surname>
+              <given-names>O.T.</given-names>
+            </name>
+            <name>
+              <surname>Gundersen</surname>
+              <given-names>G.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>FHOD1 interaction with nesprin-2G mediates TAN line formation and nuclear movement</article-title>
+          <source>Nat. Cell Biol.</source>
+          <year>2014</year>
+          <volume>16</volume>
+          <fpage>708</fpage>
+          <lpage>715</lpage>
+          <pub-id pub-id-type="doi">10.1038/ncb2981</pub-id>
+          <pub-id pub-id-type="pmid">24880667</pub-id>
+        </citation>
+      </ref>
+      <ref id="B24-cells-05-00041">
+        <label>24.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dechat</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Pfleghaar</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Sengupta</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Shimi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Shumaker</surname>
+              <given-names>D.K.</given-names>
+            </name>
+            <name>
+              <surname>Solimando</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>R.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nuclear lamins: Major factors in the structural organization and function of the nucleus and chromatin</article-title>
+          <source>Genes Dev.</source>
+          <year>2008</year>
+          <volume>22</volume>
+          <fpage>832</fpage>
+          <lpage>853</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.1652708</pub-id>
+          <pub-id pub-id-type="pmid">18381888</pub-id>
+        </citation>
+      </ref>
+      <ref id="B25-cells-05-00041">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Merideth</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Gordon</surname>
+              <given-names>L.B.</given-names>
+            </name>
+            <name>
+              <surname>Clauss</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sachdev</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Perry</surname>
+              <given-names>M.B.</given-names>
+            </name>
+            <name>
+              <surname>Brewer</surname>
+              <given-names>C.C.</given-names>
+            </name>
+            <name>
+              <surname>Zalewski</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Solomon</surname>
+              <given-names>B.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Phenotype and course of Hutchinson-Gilford progeria syndrome</article-title>
+          <source>N. Engl. J. Med.</source>
+          <year>2008</year>
+          <volume>358</volume>
+          <fpage>592</fpage>
+          <lpage>604</lpage>
+          <pub-id pub-id-type="doi">10.1056/NEJMoa0706898</pub-id>
+          <pub-id pub-id-type="pmid">18256394</pub-id>
+        </citation>
+      </ref>
+      <ref id="B26-cells-05-00041">
+        <label>26.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bergo</surname>
+              <given-names>M.O.</given-names>
+            </name>
+            <name>
+              <surname>Gavino</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Ross</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>W.K.</given-names>
+            </name>
+            <name>
+              <surname>Hong</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Kendall</surname>
+              <given-names>L.V.</given-names>
+            </name>
+            <name>
+              <surname>Mohr</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Meta</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Genant</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Zmpste24 deficiency in mice causes spontaneous bone fractures, muscle weakness, and a prelamin A processing defect</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2002</year>
+          <volume>99</volume>
+          <fpage>13049</fpage>
+          <lpage>13054</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.192460799</pub-id>
+          <pub-id pub-id-type="pmid">12235369</pub-id>
+        </citation>
+      </ref>
+      <ref id="B27-cells-05-00041">
+        <label>27.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ragnauth</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <name>
+              <surname>Warren</surname>
+              <given-names>D.T.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>McNair</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Tajsic</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Figg</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Shroff</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Skepper</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Shanahan</surname>
+              <given-names>C.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Prelamin A acts to accelerate smooth muscle cell senescence and is a novel biomarker of human vascular aging</article-title>
+          <source>Circulation</source>
+          <year>2010</year>
+          <volume>121</volume>
+          <fpage>2200</fpage>
+          <lpage>2210</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCULATIONAHA.109.902056</pub-id>
+          <pub-id pub-id-type="pmid">20458013</pub-id>
+        </citation>
+      </ref>
+      <ref id="B28-cells-05-00041">
+        <label>28.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Warren</surname>
+              <given-names>D.T.</given-names>
+            </name>
+            <name>
+              <surname>Tajsic</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Porter</surname>
+              <given-names>L.J.</given-names>
+            </name>
+            <name>
+              <surname>Minaisah</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Cobb</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Jacob</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Rajgor</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Q.P.</given-names>
+            </name>
+            <name>
+              <surname>Shanahan</surname>
+              <given-names>C.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nesprin-2-dependent ERK1/2 compartmentalisation regulates the DNA damage response in vascular smooth muscle cell ageing</article-title>
+          <source>Cell Death Differ.</source>
+          <year>2015</year>
+          <volume>22</volume>
+          <fpage>1540</fpage>
+          <lpage>1550</lpage>
+          <pub-id pub-id-type="doi">10.1038/cdd.2015.12</pub-id>
+          <pub-id pub-id-type="pmid">25744025</pub-id>
+        </citation>
+      </ref>
+      <ref id="B29-cells-05-00041">
+        <label>29.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pacheco</surname>
+              <given-names>L.M.</given-names>
+            </name>
+            <name>
+              <surname>Gomez</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Dias</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ziebarth</surname>
+              <given-names>N.M.</given-names>
+            </name>
+            <name>
+              <surname>Howard</surname>
+              <given-names>G.A.</given-names>
+            </name>
+            <name>
+              <surname>Schiller</surname>
+              <given-names>P.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Progerin expression disrupts critical adult stem cell functions involved in tissue repair</article-title>
+          <source>Aging (Albany NY)</source>
+          <year>2014</year>
+          <volume>6</volume>
+          <fpage>1049</fpage>
+          <lpage>1063</lpage>
+          <pub-id pub-id-type="doi">10.18632/aging.100709</pub-id>
+          <pub-id pub-id-type="pmid">25567453</pub-id>
+        </citation>
+      </ref>
+      <ref id="B30-cells-05-00041">
+        <label>30.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Booth-Gauthier</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Du</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Ghibaudo</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Rape</surname>
+              <given-names>A.D.</given-names>
+            </name>
+            <name>
+              <surname>Dahl</surname>
+              <given-names>K.N.</given-names>
+            </name>
+            <name>
+              <surname>Ladoux</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hutchinson-Gilford progeria syndrome alters nuclear shape and reduces cell motility in three dimensional model substrates</article-title>
+          <source>Integr. Biol.</source>
+          <year>2013</year>
+          <volume>5</volume>
+          <fpage>569</fpage>
+          <lpage>577</lpage>
+          <pub-id pub-id-type="doi">10.1039/c3ib20231c</pub-id>
+          <pub-id pub-id-type="pmid">23370891</pub-id>
+        </citation>
+      </ref>
+      <ref id="B31-cells-05-00041">
+        <label>31.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Proudfoot</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Shanahan</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Human vascular smooth muscle cell culture</article-title>
+          <source>Methods Mol. Biol.</source>
+          <year>2012</year>
+          <volume>806</volume>
+          <fpage>251</fpage>
+          <lpage>263</lpage>
+          <pub-id pub-id-type="pmid">22057457</pub-id>
+        </citation>
+      </ref>
+      <ref id="B32-cells-05-00041">
+        <label>32.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Minaisah</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Ferraro</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Porter</surname>
+              <given-names>L.J.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Rajgor</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Autore</surname>
+              <given-names>F.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>N-terminal nesprin-2 variants regulate beta-catenin signalling</article-title>
+          <source>Exp. Cell Res.</source>
+          <year>2016</year>
+          <volume>345</volume>
+          <fpage>168</fpage>
+          <lpage>179</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.yexcr.2016.06.008</pub-id>
+          <pub-id pub-id-type="pmid">27321956</pub-id>
+        </citation>
+      </ref>
+      <ref id="B33-cells-05-00041">
+        <label>33.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Holt</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Calle</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sutton</surname>
+              <given-names>D.H.</given-names>
+            </name>
+            <name>
+              <surname>Critchley</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Jones</surname>
+              <given-names>G.E.</given-names>
+            </name>
+            <name>
+              <surname>Dunn</surname>
+              <given-names>G.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Quantifying cell-matrix adhesion dynamics in living cells using interference reflection microscopy</article-title>
+          <source>J. Microsc.</source>
+          <year>2008</year>
+          <volume>232</volume>
+          <fpage>73</fpage>
+          <lpage>81</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2818.2008.02069.x</pub-id>
+          <pub-id pub-id-type="pmid">19017203</pub-id>
+        </citation>
+      </ref>
+      <ref id="B34-cells-05-00041">
+        <label>34.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hall</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rho GTPases and the actin cytoskeleton</article-title>
+          <source>Science</source>
+          <year>1998</year>
+          <volume>279</volume>
+          <fpage>509</fpage>
+          <lpage>514</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.279.5350.509</pub-id>
+          <pub-id pub-id-type="pmid">9438836</pub-id>
+        </citation>
+      </ref>
+      <ref id="B35-cells-05-00041">
+        <label>35.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mayanagi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sobue</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Diversification of caldesmon-linked actin cytoskeleton in cell motility</article-title>
+          <source>Cell Adhes. Migr.</source>
+          <year>2011</year>
+          <volume>5</volume>
+          <fpage>150</fpage>
+          <lpage>159</lpage>
+          <pub-id pub-id-type="doi">10.4161/cam.5.2.14398</pub-id>
+          <pub-id pub-id-type="pmid">21350330</pub-id>
+        </citation>
+      </ref>
+      <ref id="B36-cells-05-00041">
+        <label>36.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Haque</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Lloyd</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Smallwood</surname>
+              <given-names>D.T.</given-names>
+            </name>
+            <name>
+              <surname>Dent</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Shanahan</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Fry</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Trembath</surname>
+              <given-names>R.C.</given-names>
+            </name>
+            <name>
+              <surname>Shackleton</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>SUN1 interacts with nuclear lamin A and cytoplasmic nesprins to provide a physical connection between the nuclear lamina and the cytoskeleton</article-title>
+          <source>Mol. Cell Biol.</source>
+          <year>2006</year>
+          <volume>26</volume>
+          <fpage>3738</fpage>
+          <lpage>3751</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.26.10.3738-3751.2006</pub-id>
+          <pub-id pub-id-type="pmid">16648470</pub-id>
+        </citation>
+      </ref>
+      <ref id="B37-cells-05-00041">
+        <label>37.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Khatau</surname>
+              <given-names>S.B.</given-names>
+            </name>
+            <name>
+              <surname>Kusuma</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hanjaya-Putra</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Mali</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Gerecht</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wirtz</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>The differential formation of the LINC-mediated perinuclear actin cap in pluripotent and somatic cells</article-title>
+          <source>PLoS ONE</source>
+          <year>2012</year>
+          <volume>7</volume>
+          <elocation-id>e36689</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0036689</pub-id>
+          <pub-id pub-id-type="pmid">22574215</pub-id>
+        </citation>
+      </ref>
+      <ref id="B38-cells-05-00041">
+        <label>38.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lammerding</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Schulze</surname>
+              <given-names>P.C.</given-names>
+            </name>
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kozlov</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sullivan</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kamm</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Stewart</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>R.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lamin A/C deficiency causes defective nuclear mechanics and mechanotransduction</article-title>
+          <source>J. Clin. Investig.</source>
+          <year>2004</year>
+          <volume>113</volume>
+          <fpage>370</fpage>
+          <lpage>378</lpage>
+          <pub-id pub-id-type="doi">10.1172/JCI200419670</pub-id>
+          <pub-id pub-id-type="pmid">14755334</pub-id>
+        </citation>
+      </ref>
+      <ref id="B39-cells-05-00041">
+        <label>39.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Swift</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ivanovska</surname>
+              <given-names>I.L.</given-names>
+            </name>
+            <name>
+              <surname>Buxboim</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Harada</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Dingal</surname>
+              <given-names>P.C.</given-names>
+            </name>
+            <name>
+              <surname>Pinter</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Pajerowski</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Spinler</surname>
+              <given-names>K.R.</given-names>
+            </name>
+            <name>
+              <surname>Shin</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Tewari</surname>
+              <given-names>M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Nuclear lamin-A scales with tissue stiffness and enhances matrix-directed differentiation</article-title>
+          <source>Science</source>
+          <year>2013</year>
+          <volume>341</volume>
+          <fpage>1240104</fpage>
+          <pub-id pub-id-type="doi">10.1126/science.1240104</pub-id>
+          <pub-id pub-id-type="pmid">23990565</pub-id>
+        </citation>
+      </ref>
+      <ref id="B40-cells-05-00041">
+        <label>40.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Verstraeten</surname>
+              <given-names>V.L.</given-names>
+            </name>
+            <name>
+              <surname>Ji</surname>
+              <given-names>J.Y.</given-names>
+            </name>
+            <name>
+              <surname>Cummings</surname>
+              <given-names>K.S.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>R.T.</given-names>
+            </name>
+            <name>
+              <surname>Lammerding</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Increased mechanosensitivity and nuclear stiffness in Hutchinson-Gilford progeria cells: Effects of farnesyltransferase inhibitors</article-title>
+          <source>Aging Cell</source>
+          <year>2008</year>
+          <volume>7</volume>
+          <fpage>383</fpage>
+          <lpage>393</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1474-9726.2008.00382.x</pub-id>
+          <pub-id pub-id-type="pmid">18331619</pub-id>
+        </citation>
+      </ref>
+      <ref id="B41-cells-05-00041">
+        <label>41.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rocnik</surname>
+              <given-names>E.F.</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>B.M.</given-names>
+            </name>
+            <name>
+              <surname>Pickering</surname>
+              <given-names>J.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evidence for a role of collagen synthesis in arterial smooth muscle cell migration</article-title>
+          <source>J. Clin. Investig.</source>
+          <year>1998</year>
+          <volume>101</volume>
+          <fpage>1889</fpage>
+          <lpage>1898</lpage>
+          <pub-id pub-id-type="doi">10.1172/JCI1025</pub-id>
+          <pub-id pub-id-type="pmid">9576753</pub-id>
+        </citation>
+      </ref>
+      <ref id="B42-cells-05-00041">
+        <label>42.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Chow</surname>
+              <given-names>L.H.</given-names>
+            </name>
+            <name>
+              <surname>Pickering</surname>
+              <given-names>J.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cell surface-bound collagenase-1 and focal substrate degradation stimulate the rear release of motile vascular smooth muscle cells</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2000</year>
+          <volume>275</volume>
+          <fpage>35384</fpage>
+          <lpage>35392</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M005139200</pub-id>
+          <pub-id pub-id-type="pmid">10948197</pub-id>
+        </citation>
+      </ref>
+      <ref id="B43-cells-05-00041">
+        <label>43.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dickson</surname>
+              <given-names>B.C.</given-names>
+            </name>
+            <name>
+              <surname>Gotlieb</surname>
+              <given-names>A.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Towards understanding acute destabilization of vulnerable atherosclerotic plaques</article-title>
+          <source>Cardiovasc. Pathol.</source>
+          <year>2003</year>
+          <volume>12</volume>
+          <fpage>237</fpage>
+          <lpage>248</lpage>
+          <pub-id pub-id-type="doi">10.1016/S1054-8807(03)00072-3</pub-id>
+        </citation>
+      </ref>
+      <ref id="B44-cells-05-00041">
+        <label>44.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Naghavi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Libby</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Falk</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Casscells</surname>
+              <given-names>S.W.</given-names>
+            </name>
+            <name>
+              <surname>Litovsky</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Rumberger</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Badimon</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Stefanadis</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Moreno</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Pasterkamp</surname>
+              <given-names>G.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>From vulnerable plaque to vulnerable patient: A call for new definitions and risk assessment strategies: Part II</article-title>
+          <source>Circulation</source>
+          <year>2003</year>
+          <volume>108</volume>
+          <fpage>1772</fpage>
+          <lpage>1778</lpage>
+          <pub-id pub-id-type="doi">10.1161/01.CIR.0000087481.55887.C9</pub-id>
+          <pub-id pub-id-type="pmid">14557340</pub-id>
+        </citation>
+      </ref>
+      <ref id="B45-cells-05-00041">
+        <label>45.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Izzo</surname>
+              <given-names>J.L.</given-names>
+              <suffix>Jr.</suffix>
+            </name>
+            <name>
+              <surname>Shykoff</surname>
+              <given-names>B.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Arterial stiffness: Clinical relevance, measurement, and treatment</article-title>
+          <source>Rev. Cardiovasc. Med.</source>
+          <year>2001</year>
+          <volume>2</volume>
+          <fpage>29</fpage>
+          <lpage>40</lpage>
+          <pub-id pub-id-type="pmid">12478235</pub-id>
+        </citation>
+      </ref>
+      <ref id="B46-cells-05-00041">
+        <label>46.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Orlandi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Marcellini</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Spagnoli</surname>
+              <given-names>L.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Aging influences development and progression of early aortic atherosclerotic lesions in cholesterol-fed rabbits</article-title>
+          <source>Arterioscler. Thromb. Vasc. Biol.</source>
+          <year>2000</year>
+          <volume>20</volume>
+          <fpage>1123</fpage>
+          <lpage>1136</lpage>
+          <pub-id pub-id-type="doi">10.1161/01.ATV.20.4.1123</pub-id>
+          <pub-id pub-id-type="pmid">10764683</pub-id>
+        </citation>
+      </ref>
+      <ref id="B47-cells-05-00041">
+        <label>47.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Louis</surname>
+              <given-names>S.F.</given-names>
+            </name>
+            <name>
+              <surname>Zahradka</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vascular smooth muscle cell motility: From migration to invasion</article-title>
+          <source>Exp. Clin. Cardiol.</source>
+          <year>2010</year>
+          <volume>15</volume>
+          <fpage>e75</fpage>
+          <lpage>e85</lpage>
+          <pub-id pub-id-type="pmid">21264073</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures</title>
+      <fig id="cells-05-00041-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Characterisation of morphological changes during vascular smooth muscle cell (VSMC) ageing. (<bold>A</bold>) Western blot (WB) of cytoplasmic, nuclear soluble and nuclear insoluble fractionations of proliferative (P) and presenescent (PS) VSMCs; Representative confocal images of proliferative and presenescent VSMCs stained with (<bold>B</bold>) prelamin A (green) and 4&#x2019;,6-diamidino-2-phenylindole (DAPI) (blue); (<bold>C</bold>) nesprin-2 CH3 (green) and DAPI (blue); (<bold>D</bold>) Rhodamine phalloidin (red) and DAPI (blue). Graphs show (<bold>E</bold>) cell area, (<bold>F</bold>) cell shape factor, (<bold>G</bold>) nuclear area and (H) nuclear shape factor of proliferative (P) and presenescent (PS) VSMCs based on the combined measurement of &gt;300 VSMCs from two different isolates (54M, 35F) in three independent experiments (** <italic>p</italic> &#x2264; 0.01 and *** <italic>p</italic> &#x2264; 0.0001).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-05-00041-g001.tif"/>
+      </fig>
+      <fig id="cells-05-00041-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Prelamin A accumulation alters VSMC morphology. (<bold>A</bold>) Graph shows farnesylated proteins-converting enzyme 1 (FACE1) mRNA levels in control and FACE1-depleted VSMCs determined by qPCR and represents the combined data from three independent experiments (** <italic>p</italic> &#x2264; 0.01); (<bold>B</bold>) WB for FACE1 levels in control and FACE1-depleted VSMCs; (<bold>C</bold>) WB of cytoplasmic, nuclear soluble and nuclear insoluble fractionations of control and FACE1-depleted VSMCs; Representative confocal images of control and FACE1-depleted VSMCs stained with (<bold>D</bold>) prelamin A (green) and DAPI (blue); (<bold>E</bold>) nesprin-2 CH3 (green) and DAPI (blue); (<bold>F</bold>) Rhodamine phalloidin (red) and DAPI (blue). Graphs show (<bold>G</bold>) cell area; (<bold>H</bold>) cell shape factor of control and FACE1-depleted VSMCs based on &gt;300 VSMCs from three independent experiments (*** <italic>p</italic> &#x2264; 0.0001).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-05-00041-g002.tif"/>
+      </fig>
+      <fig id="cells-05-00041-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>VSMC ageing influences focal adhesion organisation. (<bold>A</bold>) Representative confocal images of proliferative and presenescent VSMCs stained for vinculin (green) and DAPI (blue); Scale bar represents 20 &#x3BC;m. Graphs show (<bold>B</bold>,<bold>C</bold>) focal adhesion (FA) number per cell and (<bold>D</bold>,<bold>E</bold>) FA circularity of 54M and 35F VSMC isolates respectively. Data represent combined data analysing 500&#x2013;1000 focal adhesions from &gt;100 cells from three independent experiments (** <italic>p</italic> &#x2264; 0.01 and *** <italic>p</italic> &#x2264; 0.0001); (<bold>F</bold>) Representative IRM overlay images of proliferative, presenescent and senescent 35F VSMCs at t = 0 min (green) and t = 20 min (red); (<bold>G</bold>) Graph shows focal adhesion assembly over a 20-min period and represents the combined data of 15&#x2013;20 cells per group pooled from three independent experiments (* <italic>p</italic> &#x2264; 0.05).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-05-00041-g003.tif"/>
+      </fig>
+      <fig id="cells-05-00041-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Prelamin A accumulation triggers FA reorganisation. (<bold>A</bold>) Representative confocal images of control and FACE1-depleted VSMCs stained for vinculin (green) and DAPI (blue). Scale bars represent 20 &#x3BC;m; Graphs show (<bold>B</bold>) FA number per cell and (<bold>C</bold>) FA circularity of control and FACE1-depleted VSMCs. Data represent combined data analysing more than 300 focal adhesions pooled from &gt;50 cells per group from three independent experiments (* <italic>p</italic> &#x2264; 0.05 and *** <italic>p</italic> &#x2264; 0.0001); (<bold>D</bold>) Representative IRM overlay images of control and FACE1-depleted 35F VSMCs at t = 0 min (green) and t = 20 min (red); (<bold>E</bold>) Graph shows focal adhesion assembly over a 20-min period and represents the combined data of 15&#x2013;20 cells per group pooled from three independent experiments (** <italic>p</italic> &#x2264; 0.01).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-05-00041-g004.tif"/>
+      </fig>
+      <fig id="cells-05-00041-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>In Vitro ageing and prelamin A accumulation stimulate VSMC migrational persistence. (<bold>A</bold>) Analysis of randomly migrating single proliferative, presenescent and senescent VSMCs; Graphs show (<bold>B</bold>) migrational velocity and (<bold>C</bold>) persistence of proliferative, presenescent and senescent VSMCs. Data are based on the analysis of 61 (senescent) and 108 (proliferative and presenescent) individually tracked cells pooled from three independent experiments (*** <italic>p</italic> &#x2264; 0.0001); (<bold>D</bold>) Analysis of randomly migrating single control and FACE1-depleted 35F VSMCs; Graphs show (<bold>E</bold>) migrational velocity and (<bold>F</bold>) persistence of control and FACE1-depleted VSMCS. Data are based on the analysis of 121 (control) and 118 (FACE1-depleted) individually tracked cells pooled from three independent experiments (* <italic>p</italic> &#x2264; 0.05).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-05-00041-g005.tif"/>
+      </fig>
+      <fig id="cells-05-00041-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Prelamin A accumulation attenuates Rac1 activity. Glutathione-S-transferase (GST) pull-down assay using the GST-p21-associated protein-p21 Rho binding domain to precipitate GTP-bound Rac1 from (<bold>A</bold>) proliferative and presenescent 54M and 35F VSMCs and (<bold>C</bold>) control, FACE1- and lamin A/C-depleted VSMCs. Graphs show densitometry measurements of Active-Rac1/total-Rac1 ratios of (<bold>B</bold>) proliferative and presenescent VSMCs and (<bold>D</bold>) control, FACE-1- and lamin A/C-depleted VSMCs derived from three independent experiments (* <italic>p</italic> &#x2264; 0.05 and ** <italic>p</italic> &#x2264; 0.01).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-05-00041-g006.tif"/>
+      </fig>
+    </sec>
+  </back>
+</article>

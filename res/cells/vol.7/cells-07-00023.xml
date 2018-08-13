@@ -1,0 +1,2012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title-group>
+        <journal-title>Cells</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells7030023</article-id>
+      <article-id pub-id-type="publisher-id">cells-07-00023</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Characterization of Carotid Smooth Muscle Cells during Phenotypic Transition</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Goikuria</surname>
+            <given-names>Haize</given-names>
+          </name>
+          <xref rid="af1-cells-07-00023" ref-type="aff">1</xref>
+          <xref rid="af2-cells-07-00023" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Freijo</surname>
+            <given-names>Maria del Mar</given-names>
+          </name>
+          <xref rid="af3-cells-07-00023" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Vega Manrique</surname>
+            <given-names>Reyes</given-names>
+          </name>
+          <xref rid="af4-cells-07-00023" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sastre</surname>
+            <given-names>Mar&#xED;a</given-names>
+          </name>
+          <xref rid="af1-cells-07-00023" ref-type="aff">1</xref>
+          <xref rid="af2-cells-07-00023" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Elizagaray</surname>
+            <given-names>Elena</given-names>
+          </name>
+          <xref rid="af5-cells-07-00023" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lorenzo</surname>
+            <given-names>Ana</given-names>
+          </name>
+          <xref rid="af3-cells-07-00023" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Vandenbroeck</surname>
+            <given-names>Koen</given-names>
+          </name>
+          <xref rid="af1-cells-07-00023" ref-type="aff">1</xref>
+          <xref rid="af2-cells-07-00023" ref-type="aff">2</xref>
+          <xref rid="af6-cells-07-00023" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Alloza</surname>
+            <given-names>Iraide</given-names>
+          </name>
+          <xref rid="af1-cells-07-00023" ref-type="aff">1</xref>
+          <xref rid="af2-cells-07-00023" ref-type="aff">2</xref>
+          <xref rid="af6-cells-07-00023" ref-type="aff">6</xref>
+          <xref rid="c1-cells-07-00023" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-07-00023"><label>1</label>Neurogenomiks Neuroscience Department, Faculty of Medicine and Nursing, Basque Country University, 48940 Leioa, Spain; <email>hgoikuria@gmail.com</email> (H.G.); <email>maritxu96@hotmail.com</email> (M.S.); <email>k.vandenbroeck@ikerbasque.org</email> (K.V.)</aff>
+      <aff id="af2-cells-07-00023"><label>2</label>ACHUCARRO Basque Center for Neuroscience, Basque Country University, 48940 Leioa, Spain</aff>
+      <aff id="af3-cells-07-00023"><label>3</label>Neurology Unit, Basurto University Hospital (BUH), 48013 Bilbao, Spain; <email>marimar.freijoguerrero@osakidetza.eus</email> (M.M.F.); <email>ANAMARIA.LORENZOGARCIA@osakidetza.eus</email> (A.L.)</aff>
+      <aff id="af4-cells-07-00023"><label>4</label>Vascular Surgery and Angiology Unit, BUH, 48013 Bilbao, Spain; <email>mariareyes.vegamanrique@osakidetza.eus</email></aff>
+      <aff id="af5-cells-07-00023"><label>5</label>Radiodiagnostic Unit, BUH, 48013 Bilbao, Spain; <email>elizagaray@yahoo.com</email></aff>
+      <aff id="af6-cells-07-00023"><label>6</label>IKERBASQUE, Basque Foundation for Science, 48013 Bilbao, Spain</aff>
+      <author-notes>
+        <corresp id="c1-cells-07-00023"><label>*</label>Correspondence: <email>iraide.alloza@ehu.eus</email>; Tel.: +34-946-018-292; Fax: +34-946-018-289</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>18</day>
+        <month>03</month>
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>03</month>
+        <year>2018</year>
+      </pub-date>
+      <volume>7</volume>
+      <issue>3</issue>
+      <elocation-id>23</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>28</day>
+          <month>01</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>15</day>
+          <month>03</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2018 by the authors.</copyright-statement>
+        <copyright-year>2018</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Vascular smooth muscle cells (VSMCs) are central players in carotid atherosclerosis plaque development. Although the precise mechanisms involved in plaque destabilization are not completely understood, it is known that VSMC proliferation and migration participate in plaque stabilization. In this study, we analyzed expression patterns of genes involved in carotid atherosclerosis development (e.g., transcription factors of regulation of SMC genes) of VSMCs located inside or outside the plaque lesion that may give clues about changes in phenotypic plasticity during atherosclerosis. VSMCs were isolated from 39 carotid plaques extracted from symptomatic and asymptomatic patients by endarterectomy. Specific biomarker expression, related with VSMC phenotype, was analyzed by qPCR, western immunoblot, and confocal microscopy. <italic>MYH11</italic>, <italic>CNN1</italic>, <italic>SRF</italic>, <italic>MKL2,</italic> and <italic>CALD1</italic> were significantly underexpressed in VSMCs from plaques compared with VSMCs from a macroscopically intact (MIT) region, while <italic>SPP1</italic>, <italic>KLF4</italic>, <italic>MAPLC3B</italic>, <italic>CD68,</italic> and <italic>LGALS3</italic> were found significantly upregulated in plaque VSMCs versus MIT VSMCs. The gene expression pattern of arterial VSMCs from a healthy donor treated with 7-ketocholesterol showed high similarity with the expression pattern of carotid plaque VSMCs. Our results indicate that VSMCs isolated from plaque show a typical SMC dedifferentiated phenotype with macrophage-like features compared with VSMCs isolated from a MIT region of the carotid artery. Additionally, <italic>MYH11</italic>, <italic>KLF5,</italic> and <italic>SPP1</italic> expression patterns were found to be associated with symptomatology of human carotid atherosclerosis.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>carotid atherosclerosis</kwd>
+        <kwd>plaque instability</kwd>
+        <kwd>smooth muscle cells</kwd>
+        <kwd><italic>MYH11</italic></kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-cells-07-00023" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Carotid atherosclerosis is a chronic progressive vascular disease which can lead to symptoms such as stroke [<xref ref-type="bibr" rid="B1-cells-07-00023">1</xref>]. Unstable carotid atheroma plaques are those that can rupture causing an ischemic attack [<xref ref-type="bibr" rid="B2-cells-07-00023">2</xref>,<xref ref-type="bibr" rid="B3-cells-07-00023">3</xref>], however, the precise mechanisms underlying plaque destabilization and consequent rupture remain unclear [<xref ref-type="bibr" rid="B4-cells-07-00023">4</xref>]. Vascular smooth muscle cell (VSMC) dedifferentiation is known to play a role in atherosclerosis development [<xref ref-type="bibr" rid="B5-cells-07-00023">5</xref>]. VSMCs found in healthy arteries represent a mature, fully differentiated stage and express the factors needed to ensure their specific contractile features [<xref ref-type="bibr" rid="B6-cells-07-00023">6</xref>]. These cells also display high plasticity capacity compared with other muscle cell types [<xref ref-type="bibr" rid="B7-cells-07-00023">7</xref>]. In the context of atherosclerosis, VSMCs are believed to dedifferentiate, proliferate, and migrate, thus contributing to plaque formation [<xref ref-type="bibr" rid="B5-cells-07-00023">5</xref>]; however, VSMCs may also display beneficial roles by protecting against plaque rupture through promotion of plaque repair [<xref ref-type="bibr" rid="B8-cells-07-00023">8</xref>,<xref ref-type="bibr" rid="B9-cells-07-00023">9</xref>,<xref ref-type="bibr" rid="B10-cells-07-00023">10</xref>,<xref ref-type="bibr" rid="B11-cells-07-00023">11</xref>]. Therefore, VSMCs play an essential role during plaque development from moderate stage to advanced atheroma plaques [<xref ref-type="bibr" rid="B12-cells-07-00023">12</xref>,<xref ref-type="bibr" rid="B13-cells-07-00023">13</xref>,<xref ref-type="bibr" rid="B14-cells-07-00023">14</xref>]. This process of cellular physiology change is called &#x201C;switching of VSMCs&#x201D; and indicates a change in their phenotype from differentiated contractile-state to dedifferentiated synthetic-state, which is considered a pre-requisite for the first stages of plaque development [<xref ref-type="bibr" rid="B5-cells-07-00023">5</xref>]. The characteristics of these two phenotypes, contractile and synthetic, represent the two opposite ends of the spectrum of VSMCs among which VSMCs with intermediate phenotypes are found [<xref ref-type="bibr" rid="B15-cells-07-00023">15</xref>]. In response to distinct signals, VSMCs can switch in either direction, synthetic- or contractile-state; thus, proliferative VSMCs could reacquire some contractile VSMC characteristics when suitable surrounding signals are present [<xref ref-type="bibr" rid="B6-cells-07-00023">6</xref>]. Recently, Shankman et al. [<xref ref-type="bibr" rid="B16-cells-07-00023">16</xref>] reported that the effects of VSMCs during atherosclerosis may be dependent on the phenotypic modulation features. A recent proteomics study disclosed a number of proteins differentially expressed during VSMC phenotypic modulation and, interestingly, most of these are involved in cell migration and adhesion [<xref ref-type="bibr" rid="B17-cells-07-00023">17</xref>]. During phenotypic modulation, VSMCs decrease expression of specific markers of the contractile phenotype and increase those of the synthetic phenotype [<xref ref-type="bibr" rid="B6-cells-07-00023">6</xref>,<xref ref-type="bibr" rid="B18-cells-07-00023">18</xref>]. Thus, changes in contractile proteins such as myosin heavy chain 11 (MYH11) and its relationship to cytoskeletal components have been associated with the phenotype switch of VMSCs [<xref ref-type="bibr" rid="B19-cells-07-00023">19</xref>].</p>
+      <p>The recognition of the synthetic phenotype mostly relies upon the reduced expression or the absence of cytoskeletal markers of the mature or differentiated phenotype [<xref ref-type="bibr" rid="B7-cells-07-00023">7</xref>,<xref ref-type="bibr" rid="B20-cells-07-00023">20</xref>]. Thereby, the rigorous identification of mature SMCs requires examination of multiple marker genes [<xref ref-type="bibr" rid="B6-cells-07-00023">6</xref>,<xref ref-type="bibr" rid="B21-cells-07-00023">21</xref>]. Although atherosclerosis has been intensively studied in humans, the exact involvement of VSMCs in plaque rupture remains unclear. Current literature tends to be more focused on understanding the role of VSMCs coming from the coronary rather than carotid artery. However, a recent study has demonstrated that the biology of atherosclerosis in these two arterial beds is different, and thus the involvement of VSMCs too. For instance, vulnerable carotid plaques have a thicker fibrous cap and higher prevalence of calcified nodules than coronary plaques, two characteristics in which VSMCs have a role, and that may modulate plaque rupture [<xref ref-type="bibr" rid="B22-cells-07-00023">22</xref>,<xref ref-type="bibr" rid="B23-cells-07-00023">23</xref>]. Due to these differences in the behavior of VSMCs, there is a need of deep knowledge on the role of VSMCs in human carotid atherosclerotic plaques and especially of their involvement in plaque rupture and consequent symptoms. In this study, we have characterized VSMCs from human carotid atheroma plaques through analyzing specific markers for contractile, synthetic, and foam cell/macrophage-like cell phenotypes in two different areas of the plaque; the center of the lesion (PLQ) and the furthest site from the lesion (macroscopically intact tissue, MIT) within the surgically excised carotid area. Moreover, the obtained results of VSMC phenotypes have been correlated with patient symptomatology, with the aim to gain comprehension about the role of VSMCs in plaque destabilization.</p>
+    </sec>
+    <sec id="sec2-cells-07-00023">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-cells-07-00023">
+        <title>2.1. Isolation of Human Vascular Smooth Muscle Cells</title>
+        <p>Carotid endarterectomy (CEA) surgery was carried out at Basurto University Hospital (Bilbao, Spain) in 39 patients of carotid atherosclerosis disease. CEA was performed in symptomatic patients (<italic>n</italic> = 20) who presented a degree of stenosis higher than 70% with previous history of transient ischemic attack or ipsilateral stroke, and in asymptomatic patients (<italic>n</italic> = 19) with a degree of stenosis higher than 80% and no cerebrovascular associated symptoms. All patients underwent an MRI scan and cervical duplex before and after surgery. Demographic and clinical data for these patients are summarized in <xref ref-type="table" rid="cells-07-00023-t001">Table 1</xref>. Carotid atheroma plaque samples were placed on ice and processed immediately. VSMCs were extracted from tissue from the plaque site area (PLQ-SMCs) and tissue from the furthest neighboring area from the lesion (MIT-SMCs), for each plaque sample obtained. <xref ref-type="fig" rid="cells-07-00023-f001">Figure 1</xref> shows two representative examples of affected and MIT areas used in this study. An enzymatic tissue digestion method was used to isolate and culture VSMCs in two consecutive digestions. First, tissue was digested by 3 h incubation at 5% CO<sub>2</sub> and 37 &#xB0;C with 300 U/mL of Collagenase type I (ColI) (17018029, Thermo Fisher Scientific, Waltham, MA, USA) followed by a second digestion over night with 220 U/mL of ColI at 5% CO<sub>2</sub> and 37 &#xB0;C. Digested tissue was filtered by a 100 &#xB5;m nylon Falcon&#x2122; Cell Strainer (CLS431752-50EA, Sigma-Aldrich, St. Louis, MO, USA) to remove undigested tissue and subsequently cells were plated in T25 flasks with 5 mL of selective medium, which consists of 231 medium (M231500, Thermo Fisher Scientific, Waltham, MA, USA) that promotes selective VSMC growth, supplemented with 2 ng/mL FGFb (130-093-839, Miltenyi Biotec, Bergisch Gladbach, Germany), 20 ng/mL IGF-1 (130-093-885, Miltenyi Biotec, Bergisch Gladbach, Germany), 0.5 ng/mL EGF (130-0997-749 Miltenyi Biotec, Bergisch Gladbach, Germany), 5 ng/mL Heparin (H3149, Sigma-Aldrich, St. Louis, MO, USA), 5% newborn calf serum (N4762, Sigma-Aldrich, St. Louis, MO, USA), 0.2 &#xB5;g/mL bovine serum albumin (BSA) (A9418, Sigma-Aldrich, St. Louis, MO, USA), 2 mM L-glutamine (G7513, Sigma-Aldrich, St. Louis, MO, USA), 100 &#xB5;g/mL Streptomycin, and 100 U/mL Penicillin (P4458, Sigma-Aldrich, St. Louis, MO, USA). Cell density at harvest was 200,000 cells/5 mL in a T25 flask. All experiments were carried out with cells in passage zero in order to keep overall cell characteristics as similar as possible to those in the natural context, and to avoid extended cultivation periods which would influence the expression levels of analyzed genes [<xref ref-type="bibr" rid="B14-cells-07-00023">14</xref>].</p>
+        <p>This study was approved by the local ethical committee (Ethical committee of clinical research, Basurto University Hospital) and all carotid atheroma plaques were collected from patients who had signed written informed consent. This research was performed in agreement with the principles outlined in the Declaration of Helsinki.</p>
+        <p>Human iliac arterial smooth muscle cells were obtained from the Coriell Cell Repositories (Coriell AG11545, Camden, NJ, USA). These cells were obtained by explant method of iliac arterial tissue. The culture was grown on flasks coated with 0.1% gelatin (G8090, Sigma-Aldrich, St. Louis, MO, USA) and 199 medium (11150059, Thermo Fisher Scientific, Waltham, MA, USA) supplemented with 0.02 mg/mL ECGS (02-102, Millipore, Billerica, MA, USA) and 0.05 mg/mL heparin (H3149, Sigma-Aldrich, St. Louis, MO, USA), 10% fetal bovine serum (FBS) (F7524, Sigma-Aldrich, St. Louis, MO, USA), 2 mM L-glutamin (G7513, Sigma-Aldrich, St. Louis, MO, USA), 100 &#xB5;g/mL Streptomycin and 100 U/mL Penicillin (P4458, Sigma-Aldrich, St. Louis, MO, USA) in T25 flasks. Cell density at harvest was 200.000 cells/5 mL in a T25 flask. </p>
+      </sec>
+      <sec id="sec2dot2-cells-07-00023">
+        <title>2.2. Flow Cytometry</title>
+        <p>VSMC cultures were trypsinized at cell density of 200,000 cells/5 mL in T25 flasks and then fixed with 4% paraformaldehyde during 10 min at room temperature. VSMCs were permeabilized with 0.5% saponin (S7900, Sigma-Aldrich, St. Louis, MO, USA) in phosphate-buffered saline (PBS) for 5 min and blocked with 1% BSA (A6003, Sigma-Aldrich, St. Louis, MO, USA) for 30 min. Primary antibodies used were anti-alpha smooth muscle actin at 1/100 (ab66133, Abcam, Cambridge, UK), transgelin/SM22 monoclonal antibody at 1/100 (60213-1-Ig, ProteinTech, Manchester, UK) and anti-CD31 (also called platelet and endothelial cell adhesion molecule 1, PECAM1) [EPR3094] antibody at 1/50 (ab76533, Abcam, Cambridge, UK) during 1 h in shaking at room temperature. VSMCs were washed with 5 mM EDTA (E7889, Sigma-Aldrich, St. Louis, MO, USA) and 0.5% BSA in PBS and were incubated with secondary antibodies Alexa Fluor<sup>&#xAE;</sup> 488 goat anti-mouse IgG (H + L) (A-11001, Invitrogen, Thermofisher, Carlsbad, CA, USA) and Alex Fluor<sup>&#xAE;</sup> 647 goat anti-rabbit IgG (H + L) (A-21244, Invitrogen, Thermofisher, Carlsbad, CA, USA) at 1/500 for 30 min in shaking and darkness. After washing, cells were resuspended in 5 mM EDTA and 0.5% BSA in PBS.</p>
+      </sec>
+      <sec id="sec2dot3-cells-07-00023">
+        <title>2.3. Gene Expression Analysis</title>
+        <p>RNA was extracted from VSMCs with PureLink<sup>&#xAE;</sup> RNA mini kit (12183018A, Thermo Fisher Scientific, Waltham, MA, USA) followed by DNaseI treatment (12185010, Thermo Fisher Scientific, Waltham, MA, USA). RNA was retrotranscribed with High-Capacity cDNA Reverse Transcription Kit (4368814, Applied Biosystems&#x2122;, Thermo Fisher Scientific, Waltham, MA, USA) using 160 ng of RNA. Gene expression analysis was carried out using Fast SYBR<sup>&#xAE;</sup> Green Master Mix (4385614, Thermo Fisher Scientific, Waltham, MA, USA) in ABI7500Fast Real-Time PCR instrument (Applied Biosystems&#x2122;, Carlsbad, CA, USA). Primers for genes related with contractile phenotype were &#x3B1;-smooth muscle actin (<italic>ACTA2</italic>), <italic>MYH11</italic>, h-caldesmon (<italic>CALD1</italic>), calponin 1 (<italic>CNN1</italic>), and transgelin (<italic>TAGLN</italic>); for synthetic phenotype were myosin heavy chain 10 (<italic>MYH10</italic>), intercellular adhesion molecule 1 (<italic>ICAM1</italic>), secreted phosphoprotein 1 (<italic>SPP1</italic>, also osteopontin), matrix metallopeptidase (<italic>MMP</italic>) 3, 7, 9, tissue inhibitor of metallopeptidase 1 (<italic>TIMP1</italic>), and microtubule associated protein 1 light chain 3 beta (<italic>MAP1LC3B</italic>); primers for transcription factors related with specific SMCs differentiation were MKL1/Myocardin like 2 (<italic>MKL2</italic>), serum response factor (<italic>SRF</italic>), kruppel like factor (<italic>KLF</italic>) <italic>4</italic> and <italic>5</italic>; primers for genes related with macrophage-like phenotype were CD68 molecule (<italic>CD68</italic>) and galectin 3 (<italic>LGALS3</italic>) (<xref ref-type="app" rid="app1-cells-07-00023">Table S1</xref>). Glyceraldehyde-3-phosphate dehydrogenase (<italic>GAPDH</italic>), ribosomal protein 41 (<italic>RPL41</italic>) and &#x3B2;-actin (ACTB) were tested as housekeeping genes. The geometric mean of <italic>GAPDH</italic> and <italic>RPL41</italic> was used for data analysis due to their stable gene expression values across samples [<xref ref-type="bibr" rid="B24-cells-07-00023">24</xref>]. PCR amplification efficiencies were in all cases close to 100%. Results were analyzed using &#x394;Ct method. We analyzed gene expression by taking into account the localization of VSMCs, PLQ-VSMCs (<italic>n</italic> = 39), or MIT-VSMCs (<italic>n</italic> = 39) using the Wilcoxon matched-pairs signed rank test. The Mann&#x2013;Whitney U test was used to analyze gene expression patterns between plaque VSMCs from asymptomatic (<italic>n</italic> = 20) and symptomatic (<italic>n</italic> = 19) patients, as well as the expression levels of 15 &#x3BC;M 7-ketocholesterol-treated HIASMCs versus not-treated HIASMCs (3 independent experiments). Statistical analysis was performed with GraphPad Prism 5 software. <italic>p</italic> value &lt; 0.05 was considered significant.</p>
+      </sec>
+      <sec id="sec2dot4-cells-07-00023">
+        <title>2.4. Western Blot</title>
+        <p>Protein extraction was carried out with RIPA lysis buffer (150 mM TrisHCL, 150 mM NaCl, 0.5% Deoxycholate, 0.1% SDS, 1% NP-40) for 30 min at 4 &#xB0;C followed by centrifugation at 20,000&#xD7; <italic>g</italic> for 10 min in trypsinized VSMCs. Cell lysates were quantified by Pierce&#x2122; BCA Protein Assay Kit (23225, Thermo Fisher Scientific, Waltham, MA, USA) and 12 &#xB5;g protein were loaded into 6% or 12% SDS-PAGE gels with reducing loading buffer. Then, proteins were transferred from SDS-PAGE gel to 0.45 &#xB5;m-pore PVDF membrane. PVDF membranes were blocked with 2% casein solution following incubation with primary antibody anti-smooth muscle Myosin heavy chain 11 (ab82541, Abcam, Cambridge, UK) and then washed with TBS-Tween. The secondary antibody was anti-rabbit horseradish peroxidase conjugate (#7074, Cell Signaling Technology, MA, USA) and as housekeeping anti-GAPDH antibody (MAB374, Millipore, Billerica, MA, USA) was used for normalization. Proteins were detected with Immobilon&#x2122; Western Chemiluminescence HRP Substrate detection reagent (WBKLS0500, Millipore, Billerica, MA, USA) and were visualized with the ChemiDoc&#x2122; XRS Imaging System (Bio-Rad, Hercules, CA, USA). Data analysis was done by densitometry comparing MIT (<italic>n</italic> = 7) and PLQ (<italic>n</italic> = 7) cells and additionally, between A (<italic>n</italic> = 6) and S (<italic>n</italic> = 5) plaque VSMCs, both using Image Lab&#x2122; Software (Bio-Rad, Hercules, CA, USA).</p>
+      </sec>
+      <sec id="sec2dot5-cells-07-00023">
+        <title>2.5. Confocal Microscopy</title>
+        <p>Cells were grown on round 14 mm glass coverslips (Thermo Scientific, Waltham, MA, USA), fixed in ice-cold methanol for 10 min at room temperature and then blocked in PBS/3% <italic>w</italic>/<italic>v</italic> BSA (A6003, Sigma-Aldrich, St. Louis, MO, USA) for 30 min and stained with primary antibody anti-smooth muscle Myosin heavy chain 11 (ab82541, Abcam, Cambridge, UK) for 1 h at room temperature. Cells were washed in PBS pH 7.45 and incubated with Alexa Fluor<sup>&#xAE;</sup> 488 goat anti-rabbit IgG (H + L) (A-11008, Invitrogen, Thermofisher, Carlsbad, CA, USA) secondary antibody for 45 min at room temperature in darkness and DNA was counterstained with 4&#x2032;,6-diamino-2-fenilindol (DAPI). After three washes, coverslips were mounted in Fluoromount&#x2122; Aqueous Mounting Medium (F4680, Sigma-Aldrich, St. Louis, MO, USA). Image acquisition was performed with Leica TCS STED CW SP8 Super-Resolution Microscope with a 40&#xD7; lens and recording optical sections every 0.3 &#xB5;m. Image analysis was done analyzing MYH11 staining fluorescence of each cell per cell area in MIT and PLQ VSMCs with ImageJ software (National Institute of Health, Bethesda, MD, USA).</p>
+      </sec>
+    </sec>
+    <sec id="sec3-cells-07-00023" sec-type="results">
+      <title>3. Results</title>
+      <sec id="sec3dot1-cells-07-00023">
+        <title>3.1. VSMC Isolation from Human Carotid Atheroma Plaque</title>
+        <p>Human carotid atherosclerotic plaque tissues obtained by carotid endarterectomy surgery were enzymatically digested and once cells were totally disaggregated from tissue, we routinely analyzed the presence of two specific markers of VSMCs i.e., ACTA2 and TAGLN, together with that of endothelial cell marker <italic>PECAM1</italic> by flow cytometry in 39 PLQ-VSMCs and 39 MIT-VSMCs. VSMC suspension was 90% ACTA2<sup>+</sup> and almost 100% of VSMCs isolated from carotid tissue were TAGLN<sup>+</sup>, whereas endothelial cell marker PECAM-1 was nearly absent with just 2% of cells expressing it, together indicative for VSMCs cultures devoid of endothelial cells following cultivation in VSMC-selective culture medium. <xref ref-type="fig" rid="cells-07-00023-f002">Figure 2</xref> shows an illustration of flow cytometry detection of those markers in one representative cell culture. </p>
+      </sec>
+      <sec id="sec3dot2-cells-07-00023">
+        <title>3.2. VSMC-Specific Gene Expression Pattern Shows Phenotypic Modulation in VSMCs Isolated from Human Carotid Plaques</title>
+        <p>Gene expression levels of contractile and synthetic phenotype markers were analyzed in VSMCs isolated from both the lesion and MIT areas of carotid atherosclerosis plaques. Although <italic>ACTA2</italic> expression did not show any differences, <italic>MYH11</italic>, <italic>CALD1,</italic> and <italic>CNN1</italic> appeared to be downregulated in the lesion area compared to the MIT area (<xref ref-type="fig" rid="cells-07-00023-f003">Figure 3</xref>A). <italic>MYH11</italic> displayed decreased expression levels (<italic>p</italic> = 0.03) in PLQ-VSMCs compared to MIT-VSMCs with a fold change (FC) of &#x2212;30.67, and similarly, <italic>CALD1</italic> (<italic>p</italic> = 0.001) was decreased with an FC value of &#x2212;10.59. In contrast, <italic>TAGLN, MYH10,</italic> and <italic>ICAM1</italic> expression was similar between PLQ-VSMCs and MIT-VSMCs (<xref ref-type="fig" rid="cells-07-00023-f003">Figure 3</xref>A). The synthetic indicator <italic>SPP1</italic> was upregulated in PLQ-VSMCs (<italic>p</italic> = 0.009). Furthermore, <italic>MAP1LC3B</italic>, which is related to phenotype switching by playing a role in contractile protein removal, was also significantly overexpressed in PLQ-VSMCs vs. MIT-VSMCs (<italic>p</italic> = 0.0181) (<xref ref-type="fig" rid="cells-07-00023-f003">Figure 3</xref>A).</p>
+        <p>Human iliac arterial smooth muscle cells (HIASMCs) from a healthy donor treated with 7-ketocholesterol (7-KC) were used to mimic the physiological environment to which SMCs are exposed during atherosclerosis development. HIASMCs showed also a marked decrease of contractile biomarkers when treated during 24 h with 15 &#x3BC;M 7-ketocholesterol (<xref ref-type="fig" rid="cells-07-00023-f003">Figure 3</xref>B), an oxysterol which is abundant in the plaque.</p>
+        <p>Transcriptional regulatory pathways control the expression of VSMCs markers and are governed by the transcription factors <italic>SRF</italic>, <italic>MKL2</italic>, <italic>KLF4</italic>, and <italic>KLF5</italic>. <italic>SRF</italic> and <italic>MKL2</italic> were both downregulated in PLQ-VSMCs (<xref ref-type="fig" rid="cells-07-00023-f003">Figure 3</xref>A). <italic>KLF4</italic>, which has been reported to suppress expression of SMCs markers, at least in part by disrupting SRF&#x2013;myocardin interaction, showed higher levels of expression in PLQ-VSMCs [<xref ref-type="bibr" rid="B16-cells-07-00023">16</xref>]. On the other hand, <italic>KLF5</italic> expression did not differ significantly between PLQ-VSMCs and MIT-VSMCS (<xref ref-type="fig" rid="cells-07-00023-f003">Figure 3</xref>A). HIAVSMCs treated with 7-KC showed a similar pattern of transcription factor expression levels as VSMC isolated from carotid plaques (<xref ref-type="fig" rid="cells-07-00023-f003">Figure 3</xref>B) with SRF diminished and KLF4 enhanced upon 7-KC treatment.</p>
+        <p>In a recent study, VSMCs isolated from carotid atherosclerotic plaques were found to express a series of macrophage markers [<xref ref-type="bibr" rid="B14-cells-07-00023">14</xref>], concomitant with a macrophage-like phenotype [<xref ref-type="bibr" rid="B25-cells-07-00023">25</xref>]. Analysis of the expression levels of <italic>CD68</italic> and <italic>LGALS3</italic> showed that both macrophage markers were significantly augmented in PLQ compared to MIT-VSMCs (<xref ref-type="fig" rid="cells-07-00023-f003">Figure 3</xref>A). Similarly, when HIASMCs were treated with 7KC, both genes were clearly upregulated (<xref ref-type="fig" rid="cells-07-00023-f003">Figure 3</xref>B). Thus, VSMCs in the lesion have been driven towards a phenotype with partial characteristics of macrophages. </p>
+        <p>To verify that these differences were not due to symptomatology, we analyzed the gene expression data separately using either only symptomatic samples (20 PLQ-VSMCS vs. 20 MIT-VSMCs) (<xref ref-type="app" rid="app1-cells-07-00023">Figure S1A</xref>) or only asymptomatic samples (19 PLQ-VSMCS vs. 19 MIT-VSMCs) (<xref ref-type="app" rid="app1-cells-07-00023">Figure S1B</xref>). As similar patterns of expression were observed in both cases, the differences in gene expression found (<xref ref-type="fig" rid="cells-07-00023-f003">Figure 3</xref>A) are independent of symptomatology and due to the location within the excised carotid area.</p>
+      </sec>
+      <sec id="sec3dot3-cells-07-00023">
+        <title>3.3. MYH1, SPP1, and KLF5 Emerge as Differentially Expressed Genes between Symptomatic and Asymptomatic Carotid VSMC</title>
+        <p>The gene expression pattern in atheroma PLQ-VSMCs isolated from symptomatic and asymptomatic patients was also analyzed. We found <italic>MYH11</italic> and <italic>KLF5</italic> to be significantly underexpressed in VSMCs from symptomatic patients compared with those from asymptomatic patients (<italic>p</italic> = 0.045 and <italic>p</italic> = 0.01 respectively, <xref ref-type="table" rid="cells-07-00023-t002">Table 2</xref>), while <italic>SPP1</italic> was upregulated (<italic>p</italic> = 0.05). </p>
+      </sec>
+      <sec id="sec3dot4-cells-07-00023">
+        <title>3.4. MYH11 Expression in VSMCs from Symptomatic vs. Asymptomatic Patients and from PLQ vs. MIT Region</title>
+        <p>In immunoblot analysis, MYH11 levels were underexpressed both in PLQ-VSMCs compared with MIT-VSMCs (<xref ref-type="fig" rid="cells-07-00023-f004">Figure 4</xref>A, panels a and b) and in VSMCs coming from symptomatic versus asymptomatic patients (<xref ref-type="fig" rid="cells-07-00023-f004">Figure 4</xref>A, panels c and d). </p>
+        <p>Immunocytofluorescence analysis with anti-MYH11 by confocal microscopy was performed in carotid VSMCs with the aim to describe the contractile system. PLQ-VSMCs and MIT-VSMCs were labeled with anti-MYH11 and DAPI to identify nuclei. Individual myofilaments were not found to be parallel to the long axis of the cell but formed a network of filaments, and they appeared distributed in the cytoplasm in all single planes of the Z-stacks images, from the base (at the cover slip) to the top of the cell. Z-stack images showed homogeneous distribution of myosin filaments creating a thick fiber-mesh in the base of the cell; myosin-containing stress fibers extended as a network towards the periphery of the cell (<xref ref-type="fig" rid="cells-07-00023-f004">Figure 4</xref>B, panel a), whereas fibers usually end in extending lamellae, and MYH11 appeared as continuous spots (<xref ref-type="fig" rid="cells-07-00023-f004">Figure 4</xref>B, panel b) [<xref ref-type="bibr" rid="B26-cells-07-00023">26</xref>]. In the upper planes of Z-stacks there was predominant staining of MYH11 in the central region of the cytoplasm with weaker staining in the cell periphery, which could be observed in MIT-VSMCs (<xref ref-type="app" rid="app1-cells-07-00023">Figure S2</xref>, upper panels), whereas there was lack of this pattern in PLQ-VSMCs cells (<xref ref-type="app" rid="app1-cells-07-00023">Figure S2</xref> lower panels). Additionally, in this study, we found that MIT cells showed a higher volume of myofilaments per cell area (<xref ref-type="fig" rid="cells-07-00023-f004">Figure 4</xref>B, panels c and d) than those VSMCs from the center of atheroma plaque (<xref ref-type="fig" rid="cells-07-00023-f004">Figure 4</xref>B, panel e), which exhibit less fluorescence intensity of myosin staining.</p>
+      </sec>
+      <sec id="sec3dot5-cells-07-00023">
+        <title>3.5. MMP3, MMP7, MMP9, and TIMP1 Do Not Emerge as Differentially Expressed in VSMCs Coming from Asymptomatic and Symptomatic Patients or between PLQ and MIT Area</title>
+        <p>The balance between the matrix accumulation and degradation determines plaque stability. We analyzed metalloproteinase 3, 7, 9 and metalloproteinase inhibitor 1 expression levels in our VSMC samples (symptomatic/asymptomatic and PLQ/MIT) (<xref ref-type="app" rid="app1-cells-07-00023">Figure S3A,B</xref>). No significant association was found between expression levels of <italic>MMP3</italic>, <italic>MMP9</italic>, <italic>MMP7,</italic> and <italic>TIMP1</italic> and phenotype of VSMCs (symptomatic vs. asymptomatic samples, or PLQ vs. MIT regions).</p>
+      </sec>
+    </sec>
+    <sec id="sec4-cells-07-00023" sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>This study has documented the expression patterns of relevant genes associated with phenotypic modulation in VSMCs by comparing carotid atherosclerotic lesions with macroscopically intact regions located within the surgically excised carotid artery areas. In addition, the VSMCs&#x2019; expression pattern was compared between those from symptomatic versus asymptomatic to evaluate if any changes were associated with symptomatology or plaque rupture.</p>
+      <p>VSCMs express MKL2, which is a transcriptional co-factor for SMC-specific genes [<xref ref-type="bibr" rid="B27-cells-07-00023">27</xref>]. Myocardin binds to the globally expressed transcription factor SRF, and this complex regulates the expression of SMC-specific markers. SMC contractile specific genes contain a functional CArG box in their promoter region, to which the myocardin&#x2013;SRF complex binds in order to promote SMC gene expression. The expression of transcription factors SRF and MKL2 was decreased in PLQ-VSMCs compared to MIT-VSMCs. This result suggests that cells present in damaged areas have gone through a phenotypic modulation possibly regulated by the SRF transcriptional pathway [<xref ref-type="bibr" rid="B16-cells-07-00023">16</xref>].</p>
+      <p>Furthermore, KLF-4 is a member of a large family of zinc finger-containing DNA-binding transcription factors and is known to regulate the expression of SMC markers [<xref ref-type="bibr" rid="B28-cells-07-00023">28</xref>] since it is a repressor of SRF/myocardin [<xref ref-type="bibr" rid="B29-cells-07-00023">29</xref>]. Kr&#xFC;ppel-like factors have been identified as atheroprotective factors [<xref ref-type="bibr" rid="B30-cells-07-00023">30</xref>] and KFL4, specifically, has been identified as a critical marker that regulates SMC phenotypic transition inhibiting expression of contractile genes. Contrary to this, it has also been suggested to play a pro-atherogenic role due to its involvement in inhibiting the cell proliferation cycle. <italic>KFL4</italic> expression is very low under basal conditions; however, injury promotes its expression in vascular tissues [<xref ref-type="bibr" rid="B31-cells-07-00023">31</xref>]. This evidence supports our observation that KLF-4 is upregulated in PLQ-VSMCs, suggesting that de-differentiated VSMCs are mainly restricted to the area of the lesion, while MIT-VSMCs seem to remain predominantly contractile.</p>
+      <p>VSMCs keep their plasticity and can undergo cellular modulation from contractile to synthetic-state or reverse the phenotype toward the contractile stage in response to changes in local environmental cues [<xref ref-type="bibr" rid="B32-cells-07-00023">32</xref>]. Upon injury in atherosclerosis, when remodeling is required, VSMCs are able to switch between distinct phenotypes with a trend towards increased rates of proliferation and migration accompanied by enhanced extracellular matrix component production. Also, calcification or release of inflammatory signals is coordinated with a decrease in VSMC contractile markers [<xref ref-type="bibr" rid="B6-cells-07-00023">6</xref>]. The contractile function of VMSCs is achieved by expression of a unique repertoire of proteins such as ACTA2, MYH11, CALD1, and SM22&#x3B1;/TAGLN [<xref ref-type="bibr" rid="B7-cells-07-00023">7</xref>]. We demonstrate here that carotid PLQ-VSMCs showed a decreased expression of specific contractile phenotype markers MYH11 (protein and mRNA level) and CALD1 (mRNA level) compared to MIT-VSMCs. MYH11 has been identified as a marker for specific SMC lineage [<xref ref-type="bibr" rid="B6-cells-07-00023">6</xref>,<xref ref-type="bibr" rid="B33-cells-07-00023">33</xref>] and is a late marker during development, expressed only in fully differentiated cells and showing a high degree of specificity for contractile phenotype VSMCs [<xref ref-type="bibr" rid="B34-cells-07-00023">34</xref>]. In addition, data obtained from HIASMCs from a healthy donor treated with 7KC, one of the major components of oxidized lipoproteins in atheroma plaques, indicates that healthy VSMCs under these conditions proceed towards a de-differentiation process. Furthermore, decreased levels of VSMC contractile markers have been reported before in atherosclerosis [<xref ref-type="bibr" rid="B6-cells-07-00023">6</xref>]. Thus, our results suggest that PLQ-VSMCs might have a decreased contractile capacity.</p>
+      <p>The process of VSMC phenotypic modulation is associated not only with changes in expression levels of contractile proteins but also with the reorganization of these proteins within the cells [<xref ref-type="bibr" rid="B9-cells-07-00023">9</xref>]. In our study, we found VSMCs from PLQ and MIT to be positive for MYH11 protein staining by immunofluorescence microscopy and that PLQ-VSMCs showed a lower volume of myofilaments per cell area with lower fluorescence intensity of the protein, in line with the results of a previous work in which significantly reduced MYH11 protein staining was observed in switched VSMCs coming from atherosclerotic carotids [<xref ref-type="bibr" rid="B19-cells-07-00023">19</xref>]. In addition, Song and coworkers [<xref ref-type="bibr" rid="B35-cells-07-00023">35</xref>] suggested that myofilament disassembly, especially in the upper cortex, could reflect SMC phenotypic modulation, contractile components degradation, and reorganization of contractile and cytoskeletal proteins within the cell [<xref ref-type="bibr" rid="B36-cells-07-00023">36</xref>]. Similarly, our analysis performed by z-stack to observe the whole thickness of cells showed that staining of MYH11 was predominant in the central region of the cytoplasm in the upper planes of the MIT-VSMCs, unlike PLQ-VSMCs that displayed less prominent myosin staining in the perinuclear area, in which myofilaments appeared to be disassembled, such Saltis et al. [<xref ref-type="bibr" rid="B37-cells-07-00023">37</xref>] reported before. Therefore, immunofluorescence microscopy shows that MYH11 in MIT-VSMCs forms strong myofilament bundles, whereas they appear as thin and disassembled fibers in PLQ-SMCs, which is characteristic of phenotype modulation in VSMCs.</p>
+      <p>We have also found increased levels of <italic>CD68</italic>, <italic>LGALS3</italic>, and <italic>SPP1,</italic> together with the reduced expression of contractile proteins in PLQ-VSMCs compared to VSMCs from MIT area, suggesting that PLQ-VSMCs may have undergone a phenotypic alteration towards a macrophage-like cell to adapt to such changes. This is consistent with results reported before [<xref ref-type="bibr" rid="B38-cells-07-00023">38</xref>,<xref ref-type="bibr" rid="B39-cells-07-00023">39</xref>], demonstrating that VSMCs have the potential to become macrophage-like cells with a capacity to migrate and to display phagocytic behavior to digest excessive material present at the lesion site. In line with this notion, we have also analyzed the expression of the autophagy marker <italic>MAP1LC3B</italic>, which is known to be important in the de-differentiation of VSMCs through removing contractile proteins by autophagy [<xref ref-type="bibr" rid="B40-cells-07-00023">40</xref>] and in carotid plaque stability [<xref ref-type="bibr" rid="B41-cells-07-00023">41</xref>]. Interestingly, PLQ-VSMCs showed higher expression of <italic>MAP1LC3B</italic> than MIT-VSMCs. HIASMCs treated with 7KC also exhibited increased autophagy marker <italic>MAP1LC3B</italic> expression alongside augmentation of <italic>CD68</italic> and <italic>LGALS3</italic>. Thus, similarly to what was reported for mouse SMCs and human coronary SMCs [<xref ref-type="bibr" rid="B42-cells-07-00023">42</xref>], in our study, HIASMCs loaded with cholesterol may initiate conversion towards foam-type cells as indicated by their loss of SMC features and their acquisition of macrophage-type characteristics. VSMC-derived macrophage cells not only make a significant contribution to plaque volume and necrotic core formation but also suppress plaque stability and promote plaque instability [<xref ref-type="bibr" rid="B43-cells-07-00023">43</xref>].</p>
+      <p>In addition, with the aim to explore any potential correlation between VSMC phenotypes and patient symptomatology, we have analyzed these contractile markers in VSMCs from symptomatic and asymptomatic plaques. Interestingly, plaques showed a similar expression pattern of PLQ vs. MIT for MYH11 expression, i.e., reduced expression at mRNA and protein level in VSMCs coming from symptomatic plaques compared to asymptomatic plaques. This suggests that VSMCs from symptomatic plaques may have suffered a phenotypic modulation, while VSMCs from asymptomatic plaques retain the contractile capacity associated with MYH11 expression [<xref ref-type="bibr" rid="B6-cells-07-00023">6</xref>]. </p>
+      <p>Our study results contribute to a better understanding of how VSMCs affect atheroma plaque stability processes, which may be valuable for future therapeutic approaches in carotid atherosclerosis disease.</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-cells-07-00023">
+        <title>Supplementary Materials</title>
+        <p>Supplementary materials are available on <uri>http://www.mdpi.com/2073-4409/7/3/23/s1</uri>.</p>
+		<supplementary-material id="cells-07-00023-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00023-s001.pdf"></supplementary-material>
+      </app>
+    </app-group>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>This work was supported by Spanish Institute for Health Carlos III, RETICS program (Grant Number RD16/0019/0007) and by Basque Government, Education Department, Consolidated Groups program (Grant Number IT512-10).</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>I.A., H.G. and K.V. conceived and designed the experiments; H.G., I.A. and M.S. performed the experiments; H.G. and I.A. analyzed the data; M.M.F., R.V.M., E.E. and A.L. were involved in clinical evaluation and assesment; H.G., I.A. and K.V. wrote the paper. All authors review the manuscript. </p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-07-00023">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carr</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Farb</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Pearce</surname>
+              <given-names>W.H.</given-names>
+            </name>
+            <name>
+              <surname>Virmani</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>J.S.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Atherosclerotic plaque rupture in symptomatic carotid artery stenosis</article-title>
+          <source>J. Vasc. Surg.</source>
+          <year>1996</year>
+          <volume>23</volume>
+          <fpage>755</fpage>
+          <lpage>766</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0741-5214(96)70237-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-cells-07-00023">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Silvestre-Roig</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>de Winther</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Weber</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Daemen</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Lutgens</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Soehnlein</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Atherosclerotic Plaque Destabilization</article-title>
+          <source>Circ. Res.</source>
+          <year>2014</year>
+          <volume>114</volume>
+          <fpage>214</fpage>
+          <lpage>226</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCRESAHA.114.302355</pub-id>
+          <pub-id pub-id-type="pmid">24385514</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-cells-07-00023">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Golledge</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Greenhalgh</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Davies</surname>
+              <given-names>A.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Symptomatic Carotid Plaque</article-title>
+          <source>Stroke</source>
+          <year>2000</year>
+          <volume>31</volume>
+          <fpage>774</fpage>
+          <lpage>781</lpage>
+          <pub-id pub-id-type="doi">10.1161/01.STR.31.3.774</pub-id>
+          <pub-id pub-id-type="pmid">10700518</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-cells-07-00023">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Blanco-Colio</surname>
+              <given-names>L.M.</given-names>
+            </name>
+            <name>
+              <surname>Mart&#xED;n-Ventura</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Vivanco</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Michel</surname>
+              <given-names>J.-B.</given-names>
+            </name>
+            <name>
+              <surname>Meilhac</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Egido</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biology of atherosclerotic plaques: what we are learning from proteomic analysis</article-title>
+          <source>Cardiovasc. Res.</source>
+          <year>2006</year>
+          <volume>72</volume>
+          <fpage>18</fpage>
+          <lpage>29</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cardiores.2006.05.017</pub-id>
+          <pub-id pub-id-type="pmid">16814757</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-cells-07-00023">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bennett</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Sinha</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Owens</surname>
+              <given-names>G.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vascular Smooth Muscle Cells in Atherosclerosis</article-title>
+          <source>Circ. Res.</source>
+          <year>2016</year>
+          <volume>118</volume>
+          <fpage>692</fpage>
+          <lpage>702</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCRESAHA.115.306361</pub-id>
+          <pub-id pub-id-type="pmid">26892967</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-cells-07-00023">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gomez</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Owens</surname>
+              <given-names>G.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Smooth muscle cell phenotypic switching in atherosclerosis</article-title>
+          <source>Cardiovasc. Res.</source>
+          <year>2012</year>
+          <volume>95</volume>
+          <fpage>156</fpage>
+          <lpage>164</lpage>
+          <pub-id pub-id-type="doi">10.1093/cvr/cvs115</pub-id>
+          <pub-id pub-id-type="pmid">22406749</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-cells-07-00023">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chaabane</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Coen</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bochaton-Piallat</surname>
+              <given-names>M.-L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Smooth muscle cell phenotypic switch: implications for foam cell formation</article-title>
+          <source>Curr. Opin. Lipidol.</source>
+          <year>2014</year>
+          <volume>25</volume>
+          <fpage>374</fpage>
+          <lpage>379</lpage>
+          <pub-id pub-id-type="doi">10.1097/MOL.0000000000000113</pub-id>
+          <pub-id pub-id-type="pmid">25110900</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-cells-07-00023">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hahn</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Schwartz</surname>
+              <given-names>M.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanotransduction in vascular physiology and atherogenesis</article-title>
+          <source>Nat. Rev. Mol. Cell Biol.</source>
+          <year>2009</year>
+          <volume>10</volume>
+          <fpage>53</fpage>
+          <lpage>62</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrm2596</pub-id>
+          <pub-id pub-id-type="pmid">19197332</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-cells-07-00023">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schwartz</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Virmani</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Rosenfeld</surname>
+              <given-names>M.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>The good smooth muscle cells in atherosclerosis</article-title>
+          <source>Curr. Atheroscler. Rep.</source>
+          <year>2000</year>
+          <volume>2</volume>
+          <fpage>422</fpage>
+          <lpage>429</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11883-000-0081-5</pub-id>
+          <pub-id pub-id-type="pmid">11122774</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-cells-07-00023">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tabas</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Garc&#xED;a-Carde&#xF1;a</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Owens</surname>
+              <given-names>G.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Recent insights into the cellular biology of atherosclerosis</article-title>
+          <source>J. Cell Biol.</source>
+          <year>2015</year>
+          <volume>209</volume>
+          <fpage>13</fpage>
+          <lpage>22</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.201412052</pub-id>
+          <pub-id pub-id-type="pmid">25869663</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-cells-07-00023">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>A.T.</given-names>
+            </name>
+            <name>
+              <surname>Gomez</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Bell</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Clowes</surname>
+              <given-names>A.W.</given-names>
+            </name>
+            <name>
+              <surname>Gabbiani</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Giachelli</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Parmacek</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Raines</surname>
+              <given-names>E.W.</given-names>
+            </name>
+            <name>
+              <surname>Rusch</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Smooth Muscle Cell Plasticity: Fact or Fiction?</article-title>
+          <source>Circ. Res.</source>
+          <year>2013</year>
+          <volume>112</volume>
+          <fpage>17</fpage>
+          <lpage>22</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCRESAHA.112.281048</pub-id>
+          <pub-id pub-id-type="pmid">23093573</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-cells-07-00023">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dzau</surname>
+              <given-names>V.J.</given-names>
+            </name>
+            <name>
+              <surname>Braun-Dullaeus</surname>
+              <given-names>R.C.</given-names>
+            </name>
+            <name>
+              <surname>Sedding</surname>
+              <given-names>D.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vascular proliferation and atherosclerosis: New perspectives and therapeutic strategies</article-title>
+          <source>Nat. Med.</source>
+          <year>2002</year>
+          <volume>8</volume>
+          <fpage>1249</fpage>
+          <pub-id pub-id-type="doi">10.1038/nm1102-1249</pub-id>
+          <pub-id pub-id-type="pmid">12411952</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-cells-07-00023">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.Q.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Pi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>C.-Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.-C.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.-L.</given-names>
+            </name>
+          </person-group>
+          <article-title>An overview of potential molecular mechanisms involved in VSMC phenotypic modulation</article-title>
+          <source>Histochem. Cell Biol.</source>
+          <year>2016</year>
+          <volume>145</volume>
+          <fpage>119</fpage>
+          <lpage>130</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00418-015-1386-3</pub-id>
+          <pub-id pub-id-type="pmid">26708152</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-cells-07-00023">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alloza</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Goikuria</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Idro</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Trivi&#xF1;o</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Fern&#xE1;ndez Velasco</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Elizagaray</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Garc&#xED;a-Barcina</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Montoya-Murillo</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Sarasola</surname>
+              <given-names>E.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>RNAseq based transcriptomics study of SMCs from carotid atherosclerotic plaque: BMP2 and IDs proteins are crucial regulators of plaque stability</article-title>
+          <source>Sci. Rep.</source>
+          <year>2017</year>
+          <volume>7</volume>
+          <fpage>3470</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-017-03687-9</pub-id>
+          <pub-id pub-id-type="pmid">28615715</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-cells-07-00023">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lacolley</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Regnault</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Nicoletti</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Michel</surname>
+              <given-names>J.-B.</given-names>
+            </name>
+          </person-group>
+          <article-title>The vascular smooth muscle cell in arterial pathology: A cell that can take on multiple roles</article-title>
+          <source>Cardiovasc. Res.</source>
+          <year>2012</year>
+          <volume>95</volume>
+          <fpage>194</fpage>
+          <lpage>204</lpage>
+          <pub-id pub-id-type="doi">10.1093/cvr/cvs135</pub-id>
+          <pub-id pub-id-type="pmid">22467316</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-cells-07-00023">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shankman</surname>
+              <given-names>L.S.</given-names>
+            </name>
+            <name>
+              <surname>Gomez</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Cherepanova</surname>
+              <given-names>O.A.</given-names>
+            </name>
+            <name>
+              <surname>Salmon</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Alencar</surname>
+              <given-names>G.F.</given-names>
+            </name>
+            <name>
+              <surname>Haskins</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Swiatlowska</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Newman</surname>
+              <given-names>A.A.C.</given-names>
+            </name>
+            <name>
+              <surname>Greene</surname>
+              <given-names>E.S.</given-names>
+            </name>
+            <name>
+              <surname>Straub</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>KLF4-dependent phenotypic modulation of smooth muscle cells has a key role in atherosclerotic plaque pathogenesis</article-title>
+          <source>Nat. Med.</source>
+          <year>2015</year>
+          <volume>21</volume>
+          <fpage>628</fpage>
+          <lpage>637</lpage>
+          <pub-id pub-id-type="doi">10.1038/nm.3866</pub-id>
+          <pub-id pub-id-type="pmid">25985364</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-cells-07-00023">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rocchiccioli</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ucciferri</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Comelli</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Trivella</surname>
+              <given-names>M.G.</given-names>
+            </name>
+            <name>
+              <surname>Citti</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Cecchettini</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Proteomics changes in adhesion molecules: A driving force for vascular smooth muscle cell phenotypic switch</article-title>
+          <source>Mol. Biosyst.</source>
+          <year>2012</year>
+          <volume>8</volume>
+          <fpage>1052</fpage>
+          <lpage>1059</lpage>
+          <pub-id pub-id-type="doi">10.1039/c2mb05470a</pub-id>
+          <pub-id pub-id-type="pmid">22215216</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-cells-07-00023">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Panda</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kundu</surname>
+              <given-names>G.C.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>B.I.</given-names>
+            </name>
+            <name>
+              <surname>Peri</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Fohl</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Chackalaparampil</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Mukherjee</surname>
+              <given-names>B.B.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.D.</given-names>
+            </name>
+            <name>
+              <surname>Mukherjee</surname>
+              <given-names>D.C.</given-names>
+            </name>
+            <name>
+              <surname>Seides</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Potential roles of osteopontin and &#x3B1;V&#x3B2;3 integrin in the development of coronary artery restenosis after&#x2009;angioplasty</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>1997</year>
+          <volume>94</volume>
+          <fpage>9308</fpage>
+          <lpage>9313</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.94.17.9308</pub-id>
+          <pub-id pub-id-type="pmid">9256478</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-cells-07-00023">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Worth</surname>
+              <given-names>N.F.</given-names>
+            </name>
+            <name>
+              <surname>Rolfe</surname>
+              <given-names>B.E.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>G.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vascular smooth muscle cell phenotypic modulation in culture is associated with reorganisation of contractile and cytoskeletal proteins</article-title>
+          <source>Cytoskeleton</source>
+          <year>2001</year>
+          <volume>49</volume>
+          <fpage>130</fpage>
+          <lpage>145</lpage>
+          <pub-id pub-id-type="doi">10.1002/cm.1027</pub-id>
+          <pub-id pub-id-type="pmid">11668582</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-cells-07-00023">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Owens</surname>
+              <given-names>G.K.</given-names>
+            </name>
+            <name>
+              <surname>Meena</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Wamhoff</surname>
+              <given-names>B.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular Regulation of Vascular Smooth Muscle Cell Differentiation in Development and Disease</article-title>
+          <source>Physiol. Rev.</source>
+          <year>2014</year>
+          <volume>84</volume>
+          <fpage>767</fpage>
+          <lpage>801</lpage>
+          <pub-id pub-id-type="doi">10.1152/physrev.00041.2003</pub-id>
+          <pub-id pub-id-type="pmid">15269336</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-cells-07-00023">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Miano</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Cserjesi</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Olson</surname>
+              <given-names>E.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>SM22&#x3B1;, a Marker of Adult Smooth Muscle, Is Expressed in Multiple Myogenic Lineages during Embryogenesis</article-title>
+          <source>Circ. Res.</source>
+          <year>1996</year>
+          <volume>78</volume>
+          <fpage>188</fpage>
+          <lpage>195</lpage>
+          <pub-id pub-id-type="doi">10.1161/01.RES.78.2.188</pub-id>
+          <pub-id pub-id-type="pmid">8575061</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-cells-07-00023">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sigala</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Oikonomou</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Antonopoulos</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Galyfos</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Tousoulis</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Coronary versus carotid artery plaques. Similarities and differences regarding biomarkers morphology and prognosis</article-title>
+          <source>Curr. Opin. Pharmacol.</source>
+          <year>2018</year>
+          <volume>39</volume>
+          <fpage>9</fpage>
+          <lpage>18</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.coph.2017.11.010</pub-id>
+          <pub-id pub-id-type="pmid">29202375</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-cells-07-00023">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schaar</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Muller</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Falk</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Virmani</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Fuster</surname>
+              <given-names>V.</given-names>
+            </name>
+			<name>
+              <surname>Serruys</surname>
+              <given-names>P.W.</given-names>
+            </name>
+            <name>
+              <surname>Colombo</surname>
+              <given-names>A.</given-names>
+            </name>
+			<name>
+              <surname>Stefanadis</surname>
+              <given-names>C.</given-names>
+            </name>
+			<name>
+              <surname>Ward Casscells</surname>
+              <given-names>S.</given-names>
+            </name>
+			<name>
+              <surname>Moreno</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Terminology for High-Risk and Vulnerable Coronary Artery Plaques</article-title>
+          <source>Eur. Heart J.</source>
+          <year>2004</year>
+          <volume>25</volume>
+          <fpage>1077</fpage>
+          <lpage>1082</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ehj.2004.01.002</pub-id>
+          <pub-id pub-id-type="pmid">15191780</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-cells-07-00023">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vandesompele</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>De Preter</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Pattyn</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Poppe</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Van Roy</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>De Paepe</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Speleman</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Accurate Normalization of Real-Time Quantitative RT-PCR Data by Geometric Averaging of Multiple Internal Control Genes</article-title>
+          <source>Genome Biology.</source>
+          <year>2002</year>
+          <volume>3</volume>
+          <pub-id pub-id-type="doi">10.1186/gb-2002-3-7-research0034</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-cells-07-00023">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Feil</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Fehrenbacher</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Lukowski</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Essmann</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Schulze-Osthoff</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Schaller</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Feil</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transdifferentiation of Vascular Smooth Muscle Cells to Macrophage-Like Cells During Atherogenesis Novelty and Significance</article-title>
+          <source>Circ. Res.</source>
+          <year>2014</year>
+          <volume>115</volume>
+          <fpage>662</fpage>
+          <lpage>667</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCRESAHA.115.304634</pub-id>
+          <pub-id pub-id-type="pmid">25070003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-cells-07-00023">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Song</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Worth</surname>
+              <given-names>N.F.</given-names>
+            </name>
+            <name>
+              <surname>Rolfe</surname>
+              <given-names>B.E.</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>G.R.</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>J.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Heterogeneous distribution of isoactins in cultured vascular smooth muscle cells does not reflect segregation of contractile and cytoskeletal domains</article-title>
+          <source>J. Histochem. Cytochem.</source>
+          <year>2000</year>
+          <volume>48</volume>
+          <fpage>1441</fpage>
+          <lpage>1452</lpage>
+          <pub-id pub-id-type="doi">10.1177/002215540004801101</pub-id>
+          <pub-id pub-id-type="pmid">11036087</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-cells-07-00023">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pipes</surname>
+              <given-names>G.C.T.</given-names>
+            </name>
+            <name>
+              <surname>Creemers</surname>
+              <given-names>E.E.</given-names>
+            </name>
+            <name>
+              <surname>Olson</surname>
+              <given-names>E.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Myocardin Family of Transcriptional Coactivators: Versatile Regulators of Cell Growth, Migration, and Myogenesis</article-title>
+          <source>Genes Dev.</source>
+          <year>2006</year>
+          <volume>20</volume>
+          <fpage>1545</fpage>
+          <lpage>1556</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.1428006</pub-id>
+          <pub-id pub-id-type="pmid">16778073</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-cells-07-00023">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ross</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Glomset</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Atherosclerosis and the Arterial Smooth Muscle Cell</article-title>
+          <source>Science</source>
+          <year>1973</year>
+          <volume>180</volume>
+          <fpage>1332</fpage>
+          <lpage>1339</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.180.4093.1332</pub-id>
+          <pub-id pub-id-type="pmid">4350926</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-cells-07-00023">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sinha</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>McDonald</surname>
+              <given-names>O.G.</given-names>
+            </name>
+            <name>
+              <surname>Shang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Hoofnagle</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Owens</surname>
+              <given-names>G.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Kruppel-like factor 4 abrogates myocardin-induced activation of smooth muscle gene expression</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2005</year>
+          <volume>280</volume>
+          <fpage>9719</fpage>
+          <lpage>9727</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M412862200</pub-id>
+          <pub-id pub-id-type="pmid">15623517</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-cells-07-00023">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arkenbout</surname>
+              <given-names>E.K.</given-names>
+            </name>
+            <name>
+              <surname>Dekker</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>de Vries</surname>
+              <given-names>C.J.M.</given-names>
+            </name>
+            <name>
+              <surname>Horrevoets</surname>
+              <given-names>A.J.G.</given-names>
+            </name>
+            <name>
+              <surname>Pannekoek</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Focusing on transcription factor families in atherogenesis: The function of LKLF and TR3</article-title>
+          <source>Thromb. Haemost.</source>
+          <year>2003</year>
+          <volume>89</volume>
+          <fpage>522</fpage>
+          <lpage>529</lpage>
+          <pub-id pub-id-type="pmid">12624637</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-cells-07-00023">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zheng</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wen</surname>
+              <given-names>J.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of Kr&#xFC;ppel-like Factor 4 in Phenotypic Switching and Proliferation of Vascular Smooth Muscle Cells</article-title>
+          <source>IUBMB Life</source>
+          <year>2010</year>
+          <volume>62</volume>
+          <fpage>132</fpage>
+          <lpage>139</lpage>
+          <pub-id pub-id-type="doi">10.1002/iub.298</pub-id>
+          <pub-id pub-id-type="pmid">20073036</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-cells-07-00023">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rzucidlo</surname>
+              <given-names>E.M.</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Powell</surname>
+              <given-names>R.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of vascular smooth muscle cell differentiation</article-title>
+          <source>J. Vasc. Surg.</source>
+          <year>2007</year>
+          <volume>45</volume>
+          <fpage>A25</fpage>
+          <lpage>A32</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jvs.2007.03.001</pub-id>
+          <pub-id pub-id-type="pmid">17544021</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-cells-07-00023">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Iwata</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Manabe</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Fujiu</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Takeda</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Eguchi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Furuya</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kuro-o</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sata</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nagai</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bone marrow&#x2014;Derived cells contribute to vascular inflammation but do not differentiate into smooth muscle cell lineages</article-title>
+          <source>Circulation</source>
+          <year>2010</year>
+          <volume>122</volume>
+          <fpage>2048</fpage>
+          <lpage>2057</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCULATIONAHA.110.965202</pub-id>
+          <pub-id pub-id-type="pmid">21041690</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-cells-07-00023">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nie</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Differentiated markers in undifferentiated cells: Expression of smooth muscle contractile proteins in multipotent bone marrow mesenchymal stem cells</article-title>
+          <source>Dev. Growth Differ.</source>
+          <year>2013</year>
+          <volume>55</volume>
+          <fpage>591</fpage>
+          <lpage>605</lpage>
+          <pub-id pub-id-type="doi">10.1111/dgd.12052</pub-id>
+          <pub-id pub-id-type="pmid">23557080</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-cells-07-00023">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Song</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Rolfe</surname>
+              <given-names>B.E.</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>G.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Changes in three-dimensional architecture of microfilaments in cultured vascular smooth muscle cells during phenotypic modulation</article-title>
+          <source>Tissue Cell</source>
+          <year>1998</year>
+          <volume>30</volume>
+          <fpage>324</fpage>
+          <lpage>333</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0040-8166(98)80045-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-cells-07-00023">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chamley-Campbell</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>G.R.</given-names>
+            </name>
+            <name>
+              <surname>Ross</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The smooth muscle cell in culture</article-title>
+          <source>Physiol. Rev.</source>
+          <year>1979</year>
+          <volume>59</volume>
+          <fpage>1</fpage>
+          <lpage>61</lpage>
+          <pub-id pub-id-type="doi">10.1152/physrev.1979.59.1.1</pub-id>
+          <pub-id pub-id-type="pmid">108688</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-cells-07-00023">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saltis</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Agrotis</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>G.R.</given-names>
+            </name>
+            <name>
+              <surname>Bobik</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression of growth factor receptors on arterial smooth muscle cells. Dependency on cell phenotype and serum factors</article-title>
+          <source>Atherosclerosis</source>
+          <year>1995</year>
+          <volume>118</volume>
+          <fpage>77</fpage>
+          <lpage>87</lpage>
+          <pub-id pub-id-type="doi">10.1016/0021-9150(95)05595-N</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-cells-07-00023">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Allahverdian</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Chehroudi</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>McManus</surname>
+              <given-names>B.M.</given-names>
+            </name>
+            <name>
+              <surname>Abraham</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Francis</surname>
+              <given-names>G.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Contribution of intimal smooth muscle cells to cholesterol accumulation and macrophage-like cells in human atherosclerosis</article-title>
+          <source>Circulation</source>
+          <year>2014</year>
+          <volume>129</volume>
+          <fpage>1551</fpage>
+          <lpage>1559</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCULATIONAHA.113.005015</pub-id>
+          <pub-id pub-id-type="pmid">24481950</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-cells-07-00023">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sandison</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <name>
+              <surname>Dempster</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>McCarron</surname>
+              <given-names>J.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>The transition of smooth muscle cells from a contractile to a migratory, phagocytic phenotype: direct demonstration of phenotypic modulation</article-title>
+          <source>J. Physiol.</source>
+          <year>2016</year>
+          <volume>594</volume>
+          <fpage>6189</fpage>
+          <lpage>6209</lpage>
+          <pub-id pub-id-type="doi">10.1113/JP272729</pub-id>
+          <pub-id pub-id-type="pmid">27393389</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-cells-07-00023">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Salabei</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>Hill</surname>
+              <given-names>B.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Autophagic regulation of smooth muscle cell biology</article-title>
+          <source>Redox Biol.</source>
+          <year>2015</year>
+          <volume>4</volume>
+          <fpage>97</fpage>
+          <lpage>103</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.redox.2014.12.007</pub-id>
+          <pub-id pub-id-type="pmid">25544597</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-cells-07-00023">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Swaminathan</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Goikuria</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Vega</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Rodr&#xED;guez-Antig&#xFC;edad</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>L&#xF3;pez Medina</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Del Mar Freijo</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Vandenbroeck</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Alloza</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Autophagic marker MAP1LC3B expression levels are associated with carotid atherosclerosis symptomatology</article-title>
+          <source>PLoS ONE</source>
+          <year>2014</year>
+          <volume>9</volume>
+          <elocation-id>e115176</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0115176</pub-id>
+          <pub-id pub-id-type="pmid">25503069</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-cells-07-00023">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vengrenyuk</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Nishi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Long</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Ouimet</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Savji</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Martinez</surname>
+              <given-names>F.O.</given-names>
+            </name>
+            <name>
+              <surname>Cassella</surname>
+              <given-names>C.P.</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Ramsey</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Miano</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cholesterol loading reprograms the miR-143/145&#x2013;myocardin axis to convert aortic smooth muscle cells to a dysfunctional macrophage-like phenotype</article-title>
+          <source>Arterioscler. Thromb. Vasc. Biol.</source>
+          <year>2015</year>
+          <volume>35</volume>
+          <fpage>535</fpage>
+          <lpage>546</lpage>
+          <pub-id pub-id-type="doi">10.1161/ATVBAHA.114.304029</pub-id>
+          <pub-id pub-id-type="pmid">25573853</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-cells-07-00023">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huff</surname>
+              <given-names>M.W.</given-names>
+            </name>
+            <name>
+              <surname>Pickering</surname>
+              <given-names>J.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Can a Vascular Smooth Muscle&#x2013;Derived Foam-Cell Really Change its Spots?</article-title>
+          <source>Arterioscler. Thromb. Vasc. Biol.</source>
+          <year>2015</year>
+          <volume>35</volume>
+          <fpage>492</fpage>
+          <lpage>495</lpage>
+          <pub-id pub-id-type="doi">10.1161/ATVBAHA.115.305225</pub-id>
+          <pub-id pub-id-type="pmid">25717175</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="cells-07-00023-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Illustrative photos of carotid endarterectomy specimens. Macroscopically intact tissue and atherosclerotic tissue is visualized on sample from patient 1 (<bold>A</bold>) and patient 2 (<bold>B</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00023-g001.tif"/>
+      </fig>
+      <fig id="cells-07-00023-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Illustrative graphs of flow cytometry of VSMCs isolated from human atherosclerotic carotid artery. ACTA2 and TAGLN were positive markers of VSMCs while PECAM-1 was negative for these cells.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00023-g002.tif"/>
+      </fig>
+      <fig id="cells-07-00023-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>(<bold>A</bold>) Fold change differences of contractile and synthetic marker expression in 39 plaque VSMCs (PLQ-VSMCs) versus 39 macroscopically intact tissue area VSMCs (MIT-VSMCs) analyzed by quantitative PCR (error bars represent &#xB1; SEM <italic>n</italic> = 39). Data was normalized with GAPDH and RPL41. Wilcoxon matched-pairs signed rank test (<italic>p</italic> &lt; 0.05 * and <italic>p</italic> &lt; 0.01 **); (<bold>B</bold>) Fold change differences of contractile and synthetic marker expression in 7-ketocholesterol treated (15 &#x3BC;M) HIASMCs versus not treated human iliac arterial SMCs (HIASMCs) analyzed by quantitative PCR (error bars represent &#xB1; SEM <italic>n</italic> = 3). Non-parametric Mann&#x2013;Whitney U test was used (<italic>p</italic> &lt; 0.05 *).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00023-g003.tif"/>
+      </fig>
+      <fig id="cells-07-00023-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>(<bold>A</bold>) MYH11 protein expression in carotid atherosclerotic VSMCs. (<bold>a</bold>,<bold>b</bold>) Western Blot of MYH11 protein in plaque or adjacent MIT area VSMCs, and asymptomatic or symptomatic plaque VSMCs, respectively; (<bold>c</bold>,<bold>d</bold>) graphic representation of A and B show the average of densitometry values of the bands respect to GAPDH protein expression. (MIT: macroscopically intact tissue area VSMCs; PLQ: plaque VSMCs; ASYMPT: VSMCs from asymptomatic plaques; SYMPT: VSMCs from symptomatic plaques) (<italic>p</italic> &lt; 0.05 * and <italic>p</italic> &lt; 0.01 ** were considered statistically significant); (<bold>B</bold>) Immunofluorescence of carotid atherosclerotic VSMCs with MYH11 and nuclei staining. (<bold>a</bold>) MIT-VSMC myofilaments extend throughout the cell forming a network with weaker MYH11 staining in the cell periphery; (<bold>b</bold>) with 2.00 zoom focusing on the cell periphery where MYH11 staining appears as spots; (<bold>c</bold>,<bold>d</bold>) show MYH11 staining in MIT-VSMCs (c image shows elongated and spindle-shaped cell; and d, flattened and polarized cell with lamellipodia); (<bold>e</bold>) PLQ-VSMCs present low fluorescence intensity of MYH11 protein and appear forming thin myofilaments. Scale bar 50 &#x3BC;m.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00023-g004.tif"/>
+      </fig>
+      <table-wrap id="cells-07-00023-t001" position="float">
+        <object-id pub-id-type="pii">cells-07-00023-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Demographic and clinical data from asymptomatic and symptomatic patients. Statistical analysis was performed with the chi-square test for all parameters except age, for which the non-parametric Mann&#x2013;Whitney U test was used. <italic>p</italic>-value &#x2264; 0.05 was considered significant.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Patient Characteristics</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Asymptomatic</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Symptomatic</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>p</italic>-Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle"><italic>n</italic></td>
+              <td align="center" valign="middle">19</td>
+              <td align="center" valign="middle">20</td>
+              <td align="center" valign="bottom"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Age</td>
+              <td align="center" valign="middle">68 &#xB1; 9</td>
+              <td align="center" valign="middle">71 &#xB1; 8</td>
+              <td align="center" valign="bottom">ns (0.5)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Sex</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">14 male/5 female</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16 male/4 female</td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">ns (0.6)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin"><bold><italic>Risk Factors (%)</italic></bold></td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Contralateral occlusion</td>
+              <td align="center" valign="middle">66</td>
+              <td align="center" valign="middle">61</td>
+              <td align="center" valign="bottom">ns (1.0)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Hypertension</td>
+              <td align="center" valign="middle">66</td>
+              <td align="center" valign="middle">69</td>
+              <td align="center" valign="bottom">ns (1.0)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Diabetes mellitus</td>
+              <td align="center" valign="middle">51</td>
+              <td align="center" valign="middle">8</td>
+              <td align="center" valign="bottom">ns (0.09)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Augmented cholesterol</td>
+              <td align="center" valign="middle">83</td>
+              <td align="center" valign="middle">62</td>
+              <td align="center" valign="bottom">ns (0.3)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Cardiopathy</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">23</td>
+              <td align="center" valign="bottom">ns (0.2)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Ischemic cardiopathy</td>
+              <td align="center" valign="middle">41</td>
+              <td align="center" valign="middle">46</td>
+              <td align="center" valign="bottom">ns (1.0)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Atrial fibrillation</td>
+              <td align="center" valign="middle">9</td>
+              <td align="center" valign="middle">23</td>
+              <td align="center" valign="bottom">ns (0.6)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Intermittent claudication</td>
+              <td align="center" valign="middle">26</td>
+              <td align="center" valign="middle">24</td>
+              <td align="center" valign="bottom">ns (1.0)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Tobacco</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8</td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">ns (0.6)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin"><bold><italic>Medications (%)</italic></bold></td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Statins</td>
+              <td align="center" valign="middle">100</td>
+              <td align="center" valign="middle">70</td>
+              <td align="center" valign="bottom">ns (0.1)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Anticoagulant</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23</td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">ns (0.2)</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="cells-07-00023-t002" position="float">
+        <object-id pub-id-type="pii">cells-07-00023-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Relative gene expression analysis between 20 symptomatic (SYMPT) VSMCs and 19 asymptomatic (ASYMPT). Gene expression was normalized with the housekeeping genes <italic>GAPDH</italic> and <italic>RPL41</italic>. Differences between the two groups were analyzed with Mann&#x2013;Whitney U Test. <italic>p</italic>-value &#x2264; 0.05 was considered significant. (FC, fold change).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="bottom" style="border-top:solid thin;border-bottom:solid thin">Gene Symbol</th>
+              <th align="center" valign="bottom" style="border-top:solid thin;border-bottom:solid thin">FC (Asympt vs. Sympt)</th>
+              <th align="center" valign="bottom" style="border-top:solid thin;border-bottom:solid thin"><italic>p</italic> Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="bottom">Actin, alpha 2, smooth muscle, aorta (<italic>ACTA2</italic>)</td>
+              <td align="center" valign="bottom">1.3</td>
+              <td align="center" valign="bottom">ns</td>
+            </tr>
+            <tr>
+              <td align="center" valign="bottom">CD68 molecule (<italic>CD68</italic>)</td>
+              <td align="center" valign="bottom">&#x2212;1.01</td>
+              <td align="center" valign="bottom">ns</td>
+            </tr>
+            <tr>
+              <td align="center" valign="bottom">Caldesmon 1 (<italic>CALD1</italic>)</td>
+              <td align="center" valign="bottom">&#x2212;1.17</td>
+              <td align="center" valign="bottom">ns</td>
+            </tr>
+            <tr>
+              <td align="center" valign="bottom">Calponin 1 (<italic>CNN1</italic>)</td>
+              <td align="center" valign="bottom">1.14</td>
+              <td align="center" valign="bottom">ns</td>
+            </tr>
+            <tr>
+              <td align="center" valign="bottom">Galectin 3 (<italic>LGALS3</italic>)</td>
+              <td align="center" valign="bottom">1.05</td>
+              <td align="center" valign="bottom">ns</td>
+            </tr>
+            <tr>
+              <td align="center" valign="bottom">Intercellular adhesion molecule 1 (<italic>ICAM1</italic>)</td>
+              <td align="center" valign="bottom">&#x2212;1.30</td>
+              <td align="center" valign="bottom">ns</td>
+            </tr>
+            <tr>
+              <td align="center" valign="bottom">Kruppel like factor 4( <italic>KLF4</italic>)</td>
+              <td align="center" valign="bottom">1.04</td>
+              <td align="center" valign="bottom">ns</td>
+            </tr>
+            <tr>
+              <td align="center" valign="bottom">Kruppel like factor 5 (<italic>KLF5</italic>)</td>
+              <td align="center" valign="bottom">&#x2212;1.89</td>
+              <td align="center" valign="bottom">0.01</td>
+            </tr>
+            <tr>
+              <td align="center" valign="bottom">Microtubule associated protein 1 light chain 3 beta</td>
+              <td align="center" valign="bottom">&#x2212;1.09</td>
+              <td align="center" valign="bottom">ns</td>
+            </tr>
+            <tr>
+              <td align="center" valign="bottom">MKL1/myocardin like 2 (<italic>MKL2</italic>)</td>
+              <td align="center" valign="bottom">&#x2212;1.17</td>
+              <td align="center" valign="bottom">ns</td>
+            </tr>
+            <tr>
+              <td align="center" valign="bottom">Myosin heavy chain 10 <italic>(MYH10)</italic></td>
+              <td align="center" valign="bottom">&#x2212;1.31</td>
+              <td align="center" valign="bottom">ns</td>
+            </tr>
+            <tr>
+              <td align="center" valign="bottom">Myosin heavy chain 11 (<italic>MYH11</italic>)</td>
+              <td align="center" valign="bottom">&#x2212;4.53</td>
+              <td align="center" valign="bottom">0.045</td>
+            </tr>
+            <tr>
+              <td align="center" valign="bottom">Secreted phosphoprotein 1 (<italic>SPP1</italic>)</td>
+              <td align="center" valign="bottom">2.08</td>
+              <td align="center" valign="bottom">0.05</td>
+            </tr>
+            <tr>
+              <td align="center" valign="bottom">Serum response factor (<italic>SRF</italic>)</td>
+              <td align="center" valign="bottom">&#x2212;1.38</td>
+              <td align="center" valign="bottom">ns</td>
+            </tr>
+            <tr>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">Transgelin (<italic>TAGLN</italic>)</td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">&#x2212;1.01</td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">ns</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

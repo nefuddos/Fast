@@ -1,0 +1,1500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells3041116</article-id>
+      <article-id pub-id-type="publisher-id">cells-03-01116</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Triple Cytokine FluoroSpot Analysis of Human Antigen-Specific IFN-&#x3B3;, IL-17A and IL-22 Responses</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dillenbeck</surname>
+            <given-names>Tomas</given-names>
+          </name>
+          <xref rid="af1-cells-03-01116" ref-type="aff">1</xref>
+          <xref rid="c1-cells-03-01116" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gelius</surname>
+            <given-names>Eva</given-names>
+          </name>
+          <xref rid="af1-cells-03-01116" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fohlstedt</surname>
+            <given-names>Jenny</given-names>
+          </name>
+          <xref rid="af1-cells-03-01116" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ahlborg</surname>
+            <given-names>Niklas</given-names>
+          </name>
+          <xref rid="af1-cells-03-01116" ref-type="aff">1</xref>
+          <xref rid="af2-cells-03-01116" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Kalyuzhny</surname>
+            <given-names>Alexander E.</given-names>
+          </name>
+		  <role>External Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-03-01116"><label>1</label>Mabtech AB, Box 1233, SE-131 28 Nacka Strand, Sweden; E-Mails: <email>eva@mabtech.com</email> (E.G.); <email>jenny.fohlstedt@mabtech.com</email> (J.F.); <email>niklas@mabtech.com</email> (N.A.)</aff>
+      <aff id="af2-cells-03-01116"><label>2</label>Department of Immunology, Stockholm University, SE-106 91 Stockholm, Sweden</aff>
+      <author-notes>
+        <corresp id="c1-cells-03-01116"><label>*</label>Author to whom correspondence should be addressed; E-Mail: <email>tomas@mabtech.com</email>; Tel.: +46-8-716-2700; Fax: +46-8-716-2701.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>27</day>
+        <month>11</month>
+        <year>2014</year>
+      </pub-date>
+      <pub-date pub-type="collection">        <month>12</month>
+        <year>2014</year>
+      </pub-date>
+      <volume>3</volume>
+      <issue>4</issue>
+      <fpage>1116</fpage>
+      <lpage>1130</lpage>
+      <history>
+        <date date-type="received">
+          <day>15</day>
+          <month>10</month>
+          <year>2014</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>10</day>
+          <month>11</month>
+          <year>2014</year>
+        </date>
+        <date date-type="accepted">
+          <day>21</day>
+          <month>11</month>
+          <year>2014</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2014 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2014</copyright-year>
+        <license>
+          <p>This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (http://creativecommons.org/licenses/by/4.0/).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The involvement of T-helper (Th)1, Th17 and Th22 cell subsets, in immunity, as well as in pathological inflammatory reactions, makes it important to determine their relative proportion. A triple FluoroSpot detecting the hallmark cytokines of Th1 (IFN-&#x3B3;), Th17 (IL-17A) and Th22 (IL-22) was developed and evaluated using human peripheral blood mononuclear cells from healthy donors incubated with tetanus toxoid, <italic>Candida albicans</italic> extract, mycobacterial purified protein derivative or medium only. Antigen stimulation yielded mainly cells secreting IFN-&#x3B3;, IL-17A or IL-22 alone but lower proportions of double-secreting cells were also found; triple-secreting cells were rare. The response to <italic>C. albicans</italic> contrasted in that higher proportions of IL-17A single secreting as well as co-secreting cells, in particular IL-17A/IL-22, were found. The FluoroSpot analysis correlated well with single cytokine ELISpot assays ran in parallel and the methods displayed a comparable sensitivity. The results demonstrate the functionality of the FluoroSpot assay for simultaneous analysis of distinct Th1, Th17, Th22 as well as intermediate cell populations. The method provides a mean for a simple and rapid analysis of the involvement of these cells in immunity and disease.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>FluoroSpot</kwd>
+        <kwd>ELISpot</kwd>
+        <kwd>T-helper cell subsets</kwd>
+        <kwd>IFN-&#x3B3;</kwd>
+        <kwd>IL-17A</kwd>
+        <kwd>IL-22</kwd>
+        <kwd>Th1</kwd>
+        <kwd>Th17</kwd>
+        <kwd>Th22</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Antigen activation drives CD4+ T cells into various effector subsets with different or overlapping roles in immune responses and inflammatory processes. The effects displayed by CD4+ T-helper (Th)-cell subsets are to a large extent determined by their cytokine profile. Two T-cell subtypes early defined were Th1 and Th2 cells, with Th1 cells primarily producing IFN-&#x3B3; and not IL-4 and <italic>vice versa</italic> for Th2 cells [<xref ref-type="bibr" rid="B1-cells-03-01116">1</xref>]. More recently T-cell subsets with other distinct cytokine expression patterns have been defined, including Th17 cells that principally secrete IL-17A [<xref ref-type="bibr" rid="B2-cells-03-01116">2</xref>] and Th22 cells that are defined by the production of IL-22 in the absence of any of the hallmark cytokines of Th1, Th2 and Th17 cells [<xref ref-type="bibr" rid="B3-cells-03-01116">3</xref>].</p>
+      <p>Th1, Th17 and Th22 cells are all involved in immune responses to pathogens. Th1 cells are vital for the activation of cytotoxic T-cells, regulation of B-cell responses, activation of macrophages and protection against intracellular pathogens in particular [<xref ref-type="bibr" rid="B4-cells-03-01116">4</xref>]. Th17 cells are involved in immunity against extracellular pathogens including <italic>Candida albicans</italic> and <italic>Staphylococcus aureus</italic> [<xref ref-type="bibr" rid="B5-cells-03-01116">5</xref>,<xref ref-type="bibr" rid="B6-cells-03-01116">6</xref>] and Th22 cells, due to their expression of skin-homing receptors, appear to be recruited to the skin for tissue repair and protection against pathogens [<xref ref-type="bibr" rid="B7-cells-03-01116">7</xref>].</p>
+      <p>Aberrant activation of these T-cell subtypes is associated with increased susceptibility to various pathogens, autoimmunity and inflammatory reactions involved in these diseases. Heightened activity of Th1 cells has been associated with pathogenic inflammatory reactions in for example autoimmune diseases [<xref ref-type="bibr" rid="B8-cells-03-01116">8</xref>]. More recent findings suggest that also Th17 are involved in inflammatory processes in autoimmune diseases and skin disorders [<xref ref-type="bibr" rid="B9-cells-03-01116">9</xref>,<xref ref-type="bibr" rid="B10-cells-03-01116">10</xref>] and several studies have implicated Th22 involvement in dermal inflammation and skin disorders including psoriasis and atopic and allergic dermatitis [<xref ref-type="bibr" rid="B11-cells-03-01116">11</xref>,<xref ref-type="bibr" rid="B12-cells-03-01116">12</xref>,<xref ref-type="bibr" rid="B13-cells-03-01116">13</xref>].</p>
+      <p>Although Th1, Th17 and Th22 cells have been associated with many diseases, their relative importance for pathogenesis remains to be elucidated. One important aspect is the correlation between the frequency of each T-cell subset and disease activity; hence methods facilitating the enumeration of Th1, Th17, Th22 as well as intermediate T-cell subtypes are important.</p>
+      <p>One of the most sensitive assays for enumeration of cytokine-secreting T cells is the Enzyme-Linked ImmunoSpot (ELISpot) assay. It is a robust and versatile assay that can be applied to many different analytes, although it is limited in that it is restricted to detection of a single cytokine. Dual color ELISpot utilizing two different enzymes generating substrate products of different colors has been used [<xref ref-type="bibr" rid="B14-cells-03-01116">14</xref>,<xref ref-type="bibr" rid="B15-cells-03-01116">15</xref>], but the results can be ambiguous if one of the precipitating substrate products obscures the other. The FluoroSpot assay overcomes this limitation by utilizing fluorophores for the detection of multiple cytokines [<xref ref-type="bibr" rid="B16-cells-03-01116">16</xref>] and also facilitates analysis of more than two cytokines [<xref ref-type="bibr" rid="B17-cells-03-01116">17</xref>]. By use of selective filters for excitation and emission, fluorescent signals in FluoroSpot can be cleanly separated and individual images of each fluorophore captured, void of interference and bleed-through artifacts. Individual analysis of each analyte is therefore possible, much like a series of separate single color ELISpot assays. Double- and triple-stained spots are then identified based on the spot positions on the different filter images.</p>
+      <p>The aim of this study was to develop and evaluate a triple cytokine FluoroSpot capable of enumerating IFN-&#x3B3;-, IL-17A-, and IL-22-secreting cells, as well as potential intermediate populations secreting mixtures of these cytokines. The cells analyzed were human peripheral blood mononuclear cells (PBMC) <italic>ex vivo</italic> stimulated with antigens previously shown to elicit IFN-&#x3B3;, IL-17A and/or IL-22 secretion, including <italic>C. albicans</italic> extract (CA), tetanus toxoid (TT) and mycobacterial purified protein derivative (PPD).</p>
+    </sec>
+    <sec>
+      <title>2. Experimental Section</title>
+      <sec>
+        <title>2.1. Human PBMC</title>
+        <p>Buffy coats from anonymous regular blood donors were obtained from the Blood Central at Karolinska University Hospital. PBMC were prepared using Ficoll-paque density centrifugation and were frozen at &#x2212;80 &#xB0;C in 20% fetal calf serum (FCS) and 10% dimethyl sulfoxide. The cells were kept frozen in liquid nitrogen until used. PBMC concentration and viability (&gt;85%) were determined using the Guava ViaCount assay (Guava Technologies, Hayward, CA, USA).</p>
+      </sec>
+      <sec>
+        <title>2.2. Assay Reagents and Stimuli</title>
+        <p>RPMI 1640, HEPES, penicillin/streptomycin, and low endotoxin FCS were purchased from Invitrogen Life Technologies (Carlsbad, CA, USA). The serum lot was pretested to check for adverse effects. All ELISpot reagents: mAbs 1-D1K, 7-B6-1-biotin, MT12A3, MT7B27-biotin, MT44.6, MT504-biotin, streptavidin-alkaline phosphatase (SA-ALP), and 5-bromo-4-chloro-3-indolyl phosphate/nitro-blue tetrazolium (BCIP/NBT) and FluoroSpot reagents: mAbs 1-D1K, 7-B6-1-FS-FITC, MT12A3, MT7B27-biotin, MT44.6, MT504-BAM, 13A5, 39C3-BAM, IL1&#x3B2;-I, IL1&#x3B2;-II-biotin, anti-FITC-490, anti-BAM-490, SA-550, anti-BAM-640, and fluorescence enhancer were from Mabtech AB, Nacka Strand, Sweden. 96-well MSIP PVDF membrane ELISpot plates (Cat. Num. S5EMO77I10) and low fluorescent 96-well PVDF membrane FluoroSpot plates (Cat. Num. S5EJ104I07) were obtained from Millipore, Bedford, MA, USA. TT was purchased from Statens Serum Institute, Copenhagen, Denmark, PPD from Apoteket, Stockholm, Sweden, CA from Greer, Lenoir, NC, USA, LPS from Sigma-Aldrich, Stockholm, Sweden, and R848 from Enzo Life Sciences, Farmingdale, New York, NY, USA.</p>
+      </sec>
+      <sec>
+        <title>2.3. IFN-&#x3B3;/IL-17A/IL-22 FluoroSpot</title>
+        <p>Low fluorescent 96-well PVDF plates were pre-wetted with 15 &#xB5;L 35% ethanol for no more than 1 min, immediately followed by washing with sterile water five times (200 &#xB5;L/well). 100 &#xB5;L of anti-IFN-&#x3B3; (1-D1K), anti-IL-17A (MT44.6) and/or anti-IL-22 (MT12A3), all diluted to 15 &#xB5;g/mL in sterile PBS, were added to each well and incubated overnight at 4 &#xB0;C. The following day plates were washed five times with sterile PBS (200 &#xB5;L/well), and blocked with 200 &#xB5;L/well cell culture medium (RPMI 1640 supplemented with 10% heat-inactivated FCS, 1 mM glutamine, 100 units/mL penicillin, 100 &#xB5;g/mL streptomycin and 0.5 mM HEPES) for at least 1 h. The blocking medium was removed and fresh medium with or without stimuli (20 &#xB5;g/mL of CA, 10 Lf/mL of TT or 5 &#xB5;g/mL of PPD) added to each well. Rested PBMC were added to each well (300,000 cells/well), each sample and condition analyzed in triplicates, and incubated for 44 h at 37 &#xB0;C and 5% CO<sub>2</sub>. Cells were removed by washing the plates five times with PBS (200 &#xB5;L/well) in an automated ELISA washer (Bio-Tek Instruments Inc., Winooski, VT, USA), and 100 &#xB5;L of anti-IFN-&#x3B3; (7-B6-1-FS-FITC; 1:200), anti-IL-17A (MT504-BAM; 1:200) and/or anti-IL-22 (MT7B27-biotin; 0.5 &#xB5;g/mL) in PBS with 0.1% bovine serum albumin (PBS/BSA) was added to each well. Plates were incubated for 2 h at RT, followed by washing as described above. Secondary detection reagents (anti-FITC-490, anti-BAM-640, and/or SA-550) were diluted 1:200 in PBS/BSA and 100 &#xB5;L added to each well for a 1 h incubation at RT. Plates were washed as above and 50 &#xB5;L fluorescence enhancer added to each well for 15 min. The enhancer was discarded thoroughly, the plate underdrain removed, and the plates left to dry protected from light. Plates were read and analyzed in an ELISpot/FluoroSpot reader system (iSpot Spectrum, AID, Strassberg, Germany) with software version 7.0, build 14790, where fluorescent spots were counted utilizing separate filters for FITC, Cy3, and Cy5. Camera settings (exposure and gain) were adapted for each filter to obtain high quality spot images preventing over- or under-exposure.</p>
+      </sec>
+      <sec>
+        <title>2.4. Monocyte FluoroSpot (IL-6/IL-1&#x3B2;)</title>
+        <p>Low fluorescent PVDF plates were pre-wetted and washed as described and coated with 100 &#xB5;L of 15 &#xB5;g/mL anti-IL-6 (mAb 13A5) and 15 &#xB5;g/mL anti-IL-1&#x3B2; (mAb IL1&#x3B2;-I) in sterile PBS. Plates were incubated, washed, and blocked as describe above. Two thousand five hundred PBMC were added to each well, with our without stimuli (20 &#xB5;g/mL CA extract, 10 &#xB5;g/mL TT, 5 &#xB5;g/mL PPD, 1 &#xB5;g/mL R848, or 50 ng/mL LPS) and incubated overnight at 37 &#xB0;C and 5% CO<sub>2</sub>. The following day plates were washed and 100 &#xB5;L PBS/BSA with anti-IL-6 (mAb 39C3-BAM, diluted 1:200) and anti-IL-1&#x3B2; (mAb IL1&#x3B2;-II-biotin, diluted to 1 &#xB5;g/mL) added to each well. Plates were washed as above, and secondary detection reagents anti-BAM-490 and SA-550 (diluted 1:200 in PBS/BSA) added to all wells. Plates were then washed, treated with fluorescence enhancer, and read as described above.</p>
+      </sec>
+      <sec>
+        <title>2.5. ELISpot</title>
+        <p>Sterile 96-well PVDF plates were ethanol treated as above, followed by the addition of 100 &#xB5;L/well of mAb to IFN-&#x3B3; (1-D1K), IL-17A (MT44.6) or IL-22 (MT12A3), all diluted to 15 &#xB5;g/mL in sterile PBS. Plates were incubated at 4 &#xB0;C overnight, washed the following day, and cells +/&#x2212; stimuli added as above. After 44 h incubation at 37 &#xB0;C and 5% CO<sub>2</sub>, cells were washed away with PBS in an automated ELISA washer as above, and mAb to IFN-&#x3B3; (7-B6-1-biotin; 1 &#xB5;g/mL), IL-17A (MT504-biotin; 1 &#xB5;g/mL), or IL-22 (MT7B27-biotin; 0.5 &#xB5;g/mL) in 100 &#xB5;L PBS/BSA added to each well. Plates were incubated for 2 h at RT, followed by washing as above. SA-ALP was diluted 1:1000 in PBS/BSA and added to all wells and incubated for 1 h at RT. Plates were again washed, and spots developed with BCIP/NBT substrate for 10 min (stopped by extensive washing in tap water). The plate underdrain was removed and the plates left to dry before reading and analysis in an ELISpot/FluoroSpot reader system (iSpot Spectrum).</p>
+      </sec>
+      <sec>
+        <title>2.6. Statistics</title>
+        <p>Statistical analyses were performed using Analyse-it (Analyse-it Software Ltd, Leeds, UK). The correlation between the cytokine responses assessed by different methods was analyzed using Spearman&#x2019;s rank order correlation coefficient r<sub>s</sub>. The difference in the proportion of dual- and triple-spots induced by different antigens was analyzed by Wilcoxon rank sum test. <italic>p</italic> &lt; 0.05 was considered statistically significant.</p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>3. Results and Discussion</title>
+      <sec>
+        <title>3.1. Design and Analysis of the FluoroSpot Assay</title>
+        <p>A triple FluoroSpot assay based on mAbs to human IFN-&#x3B3;, IL-17A and IL-22 was developed. Detection was performed in two steps to amplify the signals. The respective detection mAbs were labeled with unique tags that in turn were bound by secondary anti-tag reagents conjugated with fluorophores absorbing and emitting light at 490/520 nm (IFN-&#x3B3;), 640/660 nm (IL-17A) and 550/570 nm (IL-22) (<xref ref-type="fig" rid="cells-03-01116-f001">Figure 1</xref>A).</p>
+        <fig id="cells-03-01116-f001" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p>(<bold>A</bold>) Schematic drawing of the triple IFN-&#x3B3;/IL-17A/IL-22 FluoroSpot assay. Capture mAbs to the cytokines are coated in the same well. After cell incubation, each cytokine is detected by the respective detection mAb labeled with a unique tag enabling the binding of secondary detection reagents with fluorophores. The tag/anti-tag systems used were FITC/anti-FITC-mAb (IFN-&#x3B3;), peptide BAM/anti-BAM-mAb (IL-17A) and biotin/Streptavidin (IL-22). Cells secreting single cytokines will be detected by one detection system alone, whereas cells secreting multiple cytokines will be detected by two or three detection mAbs and result in double- or triple-stained spots respectively; (<bold>B</bold>) Example of image overlays from wells with unstimulated and CA-stimulated PBMC (300,000 cells/well); (<bold>C</bold>) Individual images were captured for IFN-&#x3B3; (FITC filter), IL-17A (Cy5 filter), and IL-22 (Cy3 filter) and used to generate the computerized overlay (shown for CA-stimulated cells).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-01116-g001.tif"/>
+        </fig>
+        <p>PBMC were incubated, with or without stimuli, and secreted cytokines were detected. Following that, the plates were analyzed in a FluoroSpot reader equipped with filters for both incoming and outgoing light to avoid bleeding over between the fluorophores. An example of spots obtained with PBMC incubated with CA or with medium only is shown in <xref ref-type="fig" rid="cells-03-01116-f001">Figure 1</xref>B. Spot colors shown are not true to each fluorophore&#x2019;s respective emission wavelength, but have been substituted to yield a more intuitive visual representation. The change of colors has no impact on the analysis of spots [<xref ref-type="bibr" rid="B18-cells-03-01116">18</xref>]. Spots representing seven different secretion patterns can be found: three for single-stained spots, three for the combinations of double-stained spots, and one for triple-stained spots. The number of single, double and triple spots is determined by comparing spot locations on each filter image. Spots with matching coordinates in two or three filter images are defined as double and triple spots respectively.</p>
+      </sec>
+      <sec>
+        <title>3.2. Comparison of FluoroSpot and ELISpot</title>
+        <p>The detection sensitivity obtained in the FluoroSpot was compared to ELISpot. Since the ELISpot measures single cytokine-producing cells, the FluoroSpot used was a single cytokine assay (<xref ref-type="fig" rid="cells-03-01116-f002">Figure 2</xref>A). Spot numbers obtained by the two methods correlated well and the total spot counts for antigen-induced responses were comparable. However, ELISpot yielded somewhat higher spot counts for the unstimulated cells (<xref ref-type="fig" rid="cells-03-01116-f002">Figure 2</xref>A).</p>
+      </sec>
+      <sec>
+        <title>3.3. Evaluation of Potential Absorption Effects</title>
+        <p>In order to assess if the presence of multiple capture mAbs in one well had any impact on the production of the other cytokines, the triple FluoroSpot assay was compared to single FluoroSpot assays for all three cytokines (<xref ref-type="fig" rid="cells-03-01116-f002">Figure 2</xref>B). A good correlation between the assays was seen and hence no apparent absorption effects caused by the combination of three capture mAbs were observed.</p>
+      </sec>
+      <sec>
+        <title>3.4. Cytokine Profile of Antigen-Specific Responses</title>
+        <p>Using triple FluoroSpot, the cytokine profile of PBMC from eight donors was investigated after the cells had been stimulated with CA, TT or PPD (<xref ref-type="fig" rid="cells-03-01116-f003">Figure 3</xref>). A majority of PBMC donors can be expected to respond to these antigens after exposure to commensal fungi (CA), non-pathogenic or pathogenic mycobacteria (PPD), or after vaccination (TT and PPD). All PBMC donors responded to the antigens to different degrees, with some displaying the highest reactivity against CA and others against TT or PPD. All antigens elicited single positive spots representing all three cytokines, as well as lower frequencies of all possible combinations of double positive spots, whereas triple positive spots were rare (<xref ref-type="fig" rid="cells-03-01116-f003">Figure 3</xref>A). All PBMC donors displayed a higher proportion (<italic>i.e.</italic>, % of total spots) of double- and triple-stained spots after stimulation with CA compared to TT or PPD (<xref ref-type="fig" rid="cells-03-01116-f003">Figure 3</xref>B). The triple spots were few and found at mean proportions of 0.2%&#x2013;0.4% of the total number of spots. Despite the limited number of PBMC samples analyzed and variations between them, some patterns in the cytokine profiles were seen (<xref ref-type="fig" rid="cells-03-01116-f003">Figure 3</xref>C). With regard to single positive spots, CA had a higher proportion of IL-17A and IL-22 while TT and PPD had higher proportions of IFN-&#x3B3; and IL-22. CA also elicited a higher proportion of double-stained IL-17A/IL-22 spots compared to other double combinations induced by CA, as well as by the other antigens.</p>
+        <fig id="cells-03-01116-f002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>(<bold>A</bold>) Comparison of single cytokine FluoroSpot <italic>versus</italic> ELISpot. PBMC from four donors were stimulated with CA, TT or PPD or incubated with medium only and the number of cells secreting IFN-&#x3B3;, IL-17A or IL-22 was determined by FluoroSpot and ELISpot; (<bold>B</bold>) Comparison of triple <italic>versus</italic> single cytokine FluoroSpot. PBMC from four other donors than in (A) were cultured as in (A) and analyzed in triple and single FluoroSpot for the number of cells secreting IFN-&#x3B3;, IL-17A or IL-22. To obtain comparable data, spots in the triple FluoroSpot were counted as single cytokine spots, <italic>i.e.</italic>, double and triple positive spots were counted as positive for each cytokine. The symbols in (A) and (B) represent the mean of triplicates with different symbols corresponding to unstimulated or antigen-stimulated PBMC. The variation within triplicates for the antigen-stimulated wells was on average 25%. All comparisons in (A) and (B) correlated positively (r<sub>s</sub> = 0.92&#x2013;0.98 and <italic>p</italic> &lt; 0.0001). The experiments were repeated with PBMC from additional donors with similar results.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-01116-g002.tif"/>
+        </fig>
+        <fig id="cells-03-01116-f003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>IFN-&#x3B3;/IL-17A/IL-22 triple FluoroSpot analysis of PBMC responses to CA, TT and PPD. PBMC incubated with stimuli or medium alone were analyzed for spots representing cells secreting single, double and triple combinations of IFN-&#x3B3;, IL-17A and IL-22. (<bold>A</bold>) The bars represent individual responses (n = 8) to all antigens divided into single, double or triple spots; (<bold>B</bold>) Analysis of the proportion of double- and triple-stained spots induced by the different antigens shown for all eight donors. The box plot show median (line in box), min and max (vertical lines), and 25 and 75 percentiles (box) for CA, TT, and PPD stimulation (n = 8). Statistical significance is indicated as * (<italic>p</italic> &lt; 0.01) or ns (not significant); (<bold>C</bold>) Average proportion of single and double spots for each cytokine/cytokine combination per total number of spots. PBMC with responses below 40 spots in total were excluded for the analysis (1 donor for CA, 2 donors for TT and 1 donor for PPD) to avoid an impact of subtle differences in spot numbers in the low responders.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-01116-g003.tif"/>
+        </fig>
+        <p>The linearity of the cytokine response to one of the antigens (CA) was assessed by incubating different cell concentrations in the wells, from 500,000 down to 200,000 PBMC/well (<xref ref-type="fig" rid="cells-03-01116-f004">Figure 4</xref>). Decreasing the cell concentrations in the wells had little impact on the cytokine profile in terms of the proportion of single-, double- and triple-secreting cells. Even with as few spots as 10 spots/well (donor 3:200,000 PBMC/well), a cytokine pattern similar to the higher cell concentrations was observed (it should be noted that 10 spots is the mean of a quadruplicate and hence the analysis is based on the average of 40 spots). As could be expected, decreasing cell concentrations led to a decrease of the number of total spots/well. The decrease in spots was proportionally larger than the decrease in cell numbers, suggesting that cytokine responses to the antigens are favored by a high cell density.</p>
+        <fig id="cells-03-01116-f004" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p>Linearity of PBMC responses to CA, analyzed by IFN-&#x3B3;/IL-17A/IL-22 triple FluoroSpot. PBMC from three donors were incubated with stimuli or medium alone and analyzed for spots representing cells secreting single-, double- and triple combinations of IFN-&#x3B3;, IL-17A and IL-22. Quadruplicate wells with 200,000, 300,000, 400,000 or 500,000 PBMC/well were analyzed. The graphs to the left show the mean total number of spots/well and standard deviation obtained for each cell concentration. The charts to the right show the proportion of single-, double- and triple spots for each cytokine/cytokine combination per total number of spots.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-01116-g004.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.5. Reliability of the Analysis of Double and Triple Spots</title>
+        <p>To assess the potential risk of having false positive double spots caused by random co-localization (spots generated by adjacent cells), well images from sample triplicates were scrambled (<italic>i.e.</italic>, mismatched) and evaluated for dual and triple secretion (<xref ref-type="fig" rid="cells-03-01116-f005">Figure 5</xref>) as previously described by Rebhahn <italic>et al.</italic>, 2008 [<xref ref-type="bibr" rid="B17-cells-03-01116">17</xref>]. In the examples shown, control wells represent the regular overlay analysis where a substantial number of double- and triple-stained spots are found (approximately 15% of total events), in addition to the single-stained spots. A scrambled overlay analysis, <italic>i.e.</italic>, of mismatched images from different replicates within a triplicate, only one or two (false positive) double stained spots/well and no triple stained spots could be found.</p>
+        <fig id="cells-03-01116-f005" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <p>Scrambled analysis of triple FluoroSpot. (<bold>A</bold>) The regular overlay analysis of a well is made by comparing the location of spots on three images (one for each fluorophore) from one well. In the scrambled analysis, three images (each representing one fluorophore) from different wells within a triplicate were mismatched. Thus, one fluorophore image from well 1 was combined with another fluorophore image from well 2, a third fluorophore image from well 3, <italic>etc.</italic>; (<bold>B</bold>) Example of two triplicates analyzed by a regular and scrambled overlay analysis.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-01116-g005.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.6. Potential Impact of Non-T Cell Activation on Antigen-Specific IFN-&#x3B3;/IL-17A/IL-22 Responses</title>
+        <p>PPD contains molecules that may activate other cells than antigen-specific T cells, and may therefore trigger the release of other cytokines that influence the T-cell response. CA, also a cellular extract, could have similar effects. The antigens used herein were therefore analyzed for induction of cytokines known to be secreted by activated monocytes in parallel with R848 (Toll Like Receptor (TLR) 7/8 agonist) and lipopolysaccharide (LPS; TLR-4 agonist) stimulation. Notably, PPD elicited IL-1&#x3B2; and IL-6 responses comparable to induction seen with R848 and LPS (<xref ref-type="fig" rid="cells-03-01116-f006">Figure 6</xref>). CA and TT did not and the responses to these antigens are more likely to represent conventional T-cell responses in the absence of strong simultaneous activation of non-T cells.</p>
+      </sec>
+	  <sec>
+      <title>3.7 Discussion</title>
+      <p>This study shows the functionality of the FluoroSpot assay for the enumeration of human PBMC secreting IFN-&#x3B3;, IL-17A or IL-22, as well as cell populations secreting combinations of the three cytokines. Most antigen-reactive cells secreted only single cytokines whereas the proportion of cells secreting two cytokines was lower and yet lower for triple-secreting cells. The antigens were selected based on previously shown reactivity with Th1, Th17, and/or Th22 cells upon stimulation of peripheral blood cells or CD4+ T cells from healthy individuals [<xref ref-type="bibr" rid="B19-cells-03-01116">19</xref>,<xref ref-type="bibr" rid="B20-cells-03-01116">20</xref>,<xref ref-type="bibr" rid="B21-cells-03-01116">21</xref>]. In line with this, most donors responded well to the antigens. On average CA induced higher single IL-17A and IL-22 responses than IFN-&#x3B3; whereas TT and PPD were more prone to induce IFN-&#x3B3; and IL-22. CA also induced a significantly greater proportion of co-secreting cells than did TT and PPD, in particular IL-17A/IL-22. Stimulation with CA has been shown to elicit CD4+ T cells that are IFN-&#x3B3;+, IL-17+ or IL-22+ in flow cytometry but also, to a lesser extent, cells co-expressing combinations of these cytokines [<xref ref-type="bibr" rid="B19-cells-03-01116">19</xref>]. In that study, responses to TT were defined as primarily single IFN-&#x3B3;+. However, increased IL-17A mRNA after stimulation of PBMC with TT has been described [<xref ref-type="bibr" rid="B20-cells-03-01116">20</xref>]. Herein, TT was found to elicit IFN-&#x3B3;, IL-17A, and IL-22. Discrepancies between studies may be explained by differences in secretion kinetics for the three cytokines. The FluoroSpot, measuring cumulatively over the entire 44-hour incubation, differ in that sense from flow cytometry. Shortening the cell incubation time in the FluoroSpot to 20 h resulted in lower spot counts, in particular for IL-17A. Although IFN-&#x3B3; and several other cytokines often are analyzed in, e.g., ELISpot after 20 h, the simultaneous analysis of three cytokines in FluoroSpot requires the incubation time to be adapted to suit all three cytokines.</p>
+      <fig id="cells-03-01116-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Assessment of the ability of CA, TT and PPD to induce activation of non-T cells. PBMC from two donors were stimulated with CA, TT and PPD and analyzed by a dual IL-6/IL-1&#x3B2; FluoroSpot. TLR agonists R848 (TLR-7/8) and LPS (TLR-4) were included for comparison. Two thousand five hundred PBMC per well were incubated with antigen or TLR agonist and IL-1&#x3B2; and IL-6 detected. IL-1 &#x3B2; spots are shown in red and IL-6 spots in green. PPD and R848 yielded &gt;250 of IL-1&#x3B2;, IL-6 and IL-1b/IL-6 spots per 2500 PBMC and LPS resulted in &gt;150 spots/2500 PBMC. In contrast, PBMC incubated with CA, TT or medium alone (not shown) resulted in a total number of &lt;6 spots/2500 PBMC. The experiment was repeated with other PBMC donors with similar results.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-03-01116-g006.tif"/>
+      </fig>
+      <p>PPD elicited secretion of IL-1&#x3B2; and IL-6 in the same manner as did two TLR agonists known to activate monocytes to secrete these cytokines [<xref ref-type="bibr" rid="B22-cells-03-01116">22</xref>]. This was not seen with CA and TT. This raises the question whether monocyte-derived cytokines influences the PPD-specific T-cell response <italic>in vitro</italic>. When PBMC from healthy donors were stimulated with PPD and analyzed by flow cytometry, a similar cytokine profile as observed in this evaluation was found [<xref ref-type="bibr" rid="B21-cells-03-01116">21</xref>]. In that study, to assess if the T-cell response to PPD was affected by other cells, PPD was substituted with synthetic peptides corresponding to mycobacterial antigens but no shift in the cytokine profile was seen [<xref ref-type="bibr" rid="B21-cells-03-01116">21</xref>]. Nonetheless, caution has to be taken when using antigen extracts for the analysis of T cells.</p>
+      <p>FluoroSpot is a versatile tool for studying co-secretion of molecules but is also used for the detection of antibodies of different immunoglobulin (Ig) isotypes secreted by B cells that produce only one Ig isotype per cell [<xref ref-type="bibr" rid="B23-cells-03-01116">23</xref>]. Studies utilizing cytokine FluoroSpot cover a variety of cytokines secreted alone or in combinations by T cells and monocytes [<xref ref-type="bibr" rid="B16-cells-03-01116">16</xref>,<xref ref-type="bibr" rid="B22-cells-03-01116">22</xref>]. Several studies have specifically addressed co-secretion of IFN-&#x3B3; and IL-2 by T cells as an indicator of poly-functionality [<xref ref-type="bibr" rid="B24-cells-03-01116">24</xref>,<xref ref-type="bibr" rid="B25-cells-03-01116">25</xref>,<xref ref-type="bibr" rid="B26-cells-03-01116">26</xref>]. In future studies using IFN-&#x3B3;/IL-17A/IL-22 FluoroSpot it is likely that both distinct single-secreting cells and co-secreting cells will be found and the ability of FluoroSpot readers to distinguish between spot types is crucial. As shown by the cell titration in <xref ref-type="fig" rid="cells-03-01116-f004">Figure 4</xref>, the identification of spot sub-populations is insignificantly affected by the total number of spots per well, so long as an accurate spot count is possible. The computerized overlay analysis used herein to define double- and triple-stained spots appears to be precise judging from the near total loss of such spots when mismatched images from different wells were subjected to a scrambled overlay analysis. The coincidence limit (CL) used for these experiments equates to approximately 15 &#xB5;m. Estimating that the size of resting lymphocytes is approximately 10 &#xB5;m, false double spots are theoretically possible as two separate single-secreting cells, each producing a uniform spot of one cytokine only, would fit within the CL. However, as only a very small fraction of the cells respond to antigen-specific stimulation, the probability that two single secreting cells lie adjacent to one another is quite small. For the same reason, false triple-stained spots are even less likely. Assessing the probability of false double-positive spots by analysis of scrambled images is particularly important if high spot numbers coincide with low frequencies of double-stained cells.</p>
+      <p>When capture mAbs to different cytokines are coated in the same well, the absorption of one cytokine may influence the production of another cytokine. In particular this appears to be the case for IL-2. The capture of IL-2 had a negative effect on, e.g., IFN-&#x3B3; and IL-5 measured simultaneously in dual ELISpot [<xref ref-type="bibr" rid="B27-cells-03-01116">27</xref>]. To compensate for the absorption of IL-2, antibodies to CD28 can be added to the cells and by providing a co-stimulatory signal restore the production of, e.g., IFN-&#x3B3; [<xref ref-type="bibr" rid="B24-cells-03-01116">24</xref>]. When addressing this potential issue in the IFN-&#x3B3;/IL-17A/IL-22 FluoroSpot, no absorption effects were seen and no anti-CD28 antibodies were used.</p>
+      <p>Taking the ELISpot-based technique a step closer to multiplex analysis by utilizing fluorophores for the detection makes the method more comparable to flow cytometry. Still, the methods differ in that flow cytometry detects intracellular cytokines and simultaneously defines the surface markers of the involved cell populations. ELISpot and FluoroSpot, on the other hand, detect antigen-specific cytokine-secreting T cells with a higher sensitivity and are more adaptable to screening of large sample numbers in, e.g., vaccination trials [<xref ref-type="bibr" rid="B28-cells-03-01116">28</xref>,<xref ref-type="bibr" rid="B29-cells-03-01116">29</xref>]. The detection sensitivity of the single FluoroSpot for IFN-&#x3B3;, IL-17A, and IL-22 was comparable to ELISpot with a slightly better detection displayed by the ELISpot with regard to the low frequencies of spontaneously secreting cells. From the fact that single- and triple FluoroSpot displayed a fully comparable sensitivity, it can be deduced that also the triple FluoroSpot is comparable to ELISpot in terms of detection sensitivity. Many parameters affect the sensitivity of the FluoroSpot assay and there is room for further improvements of tag/anti-tag systems, fluorophores, fluorescence enhancers and the automated readers. The use of tag/anti-tag systems has the benefit that it can be adapted to a variety of assays and inclusion of a fourth tag system allows for future analysis of four cytokines. FluoroSpot amplification strategies, based on primary detection antibodies from different species, followed by secondary detection with species-specific anti-Ig antibodies coupled with fluorophores, have also been used [<xref ref-type="bibr" rid="B17-cells-03-01116">17</xref>]. However, this approach is limited in the sense that it prevents the use of capture antibodies from certain species and requires compatible detection antibodies from different species for each application.</p>
+      <p>Facilitating a rapid and simple way of determining the relative frequency of cells secreting IFN-&#x3B3;, IL-17A and IL-22 and intermediate cell populations is likely to help in shedding light upon the nature of immune reactions involved in protective, as well as detrimental reactions.</p>
+    </sec>
+</sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors thank Khosro Masjedi for statistical analyses and Bartek Zuber, Staffan Paulie and Kopek Nihlmark for critical reading of the manuscript.</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>TD, EG and NA planned the study. TD and JF performed the experiments. TD analyzed the data. TD, EG and NA wrote the paper.</p>
+    </notes>
+    <notes>
+      <title>Conflicts of Interest</title>
+      <p>The authors (TD, EG and NA) are employed by the Swedish biotech company Mabtech that manufactures and sells several of the research reagents used in this study. JF was employed by Mabtech when this work was performed.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-03-01116">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mosmann</surname>
+              <given-names>T.R.</given-names>
+            </name>
+            <name>
+              <surname>Coffman</surname>
+              <given-names>R.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Th1 and Th2 cells: Different patterns of lymphokine secretion lead to different functional properties</article-title>
+          <source>Annu. Rev. Immunol.</source>
+          <year>1989</year>
+          <volume>7</volume>
+          <fpage>145</fpage>
+          <lpage>173</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev.iy.07.040189.001045</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-cells-03-01116">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miossec</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Korn</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kuchroo</surname>
+              <given-names>V.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interleukin-17 and type 17 helper T cells</article-title>
+          <source>N. Engl. J. Med.</source>
+          <year>2009</year>
+          <volume>361</volume>
+          <fpage>888</fpage>
+          <lpage>898</lpage>
+          <pub-id pub-id-type="doi">10.1056/NEJMra0707449</pub-id>
+          <pub-id pub-id-type="pmid">19710487</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-cells-03-01116">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Duhen</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Geiger</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Jarrossay</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Lanzavecchia</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sallusto</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Production of interleukin 22 but not Interleukin 17 by a subset of human skin-homing memory T cells</article-title>
+          <source>Nat. Immunol.</source>
+          <year>2009</year>
+          <volume>10</volume>
+          <fpage>857</fpage>
+          <lpage>863</lpage>
+          <pub-id pub-id-type="doi">10.1038/ni.1767</pub-id>
+          <pub-id pub-id-type="pmid">19578369</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-cells-03-01116">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mosmann</surname>
+              <given-names>T.R.</given-names>
+            </name>
+            <name>
+              <surname>Sad</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>The expanding universe of T-cell subsets: Th1, Th2 and more</article-title>
+          <source>Immunol. Today</source>
+          <year>1996</year>
+          <volume>17</volume>
+          <fpage>138</fpage>
+          <lpage>146</lpage>
+          <pub-id pub-id-type="doi">10.1016/0167-5699(96)80606-2</pub-id>
+          <pub-id pub-id-type="pmid">8820272</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-cells-03-01116">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ma</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Chew</surname>
+              <given-names>G.Y.</given-names>
+            </name>
+            <name>
+              <surname>Simpson</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Priyadarshi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Grimbacher</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Fulcher</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Tangye</surname>
+              <given-names>S.G.</given-names>
+            </name>
+            <name>
+              <surname>Cook</surname>
+              <given-names>M.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Deficiency of Th17 cells in hyper IgE syndrome due to mutations in stat3</article-title>
+          <source>J. Exp. Med.</source>
+          <year>2008</year>
+          <volume>205</volume>
+          <fpage>1551</fpage>
+          <lpage>1557</lpage>
+          <pub-id pub-id-type="doi">10.1084/jem.20080218</pub-id>
+          <pub-id pub-id-type="pmid">18591410</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-cells-03-01116">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Puel</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Cypowyj</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bustamante</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wright</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Lim</surname>
+              <given-names>H.K.</given-names>
+            </name>
+            <name>
+              <surname>Migaud</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Israel</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Chrabieh</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Audry</surname>
+              <given-names>M.</given-names>
+            </name>
+			<etal/>
+          </person-group>
+          <article-title>Chronic mucocutaneous candidiasis in humans with inborn errors of Interleukin-17 immunity</article-title>
+          <source>Science</source>
+          <year>2011</year>
+          <volume>332</volume>
+          <fpage>65</fpage>
+          <lpage>68</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1200439</pub-id>
+          <pub-id pub-id-type="pmid">21350122</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-cells-03-01116">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zheng</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Valdez</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Danilenko</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sa</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Gong</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Abbas</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Modrusan</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Ghilardi</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>de Sauvage</surname>
+              <given-names>F.J.</given-names>
+            </name>
+			<etal/>
+          </person-group>
+          <article-title>Interleukin-22 mediates early host defense against attaching and effacing bacterial pathogens</article-title>
+          <source>Nat. Med.</source>
+          <year>2008</year>
+          <volume>14</volume>
+          <fpage>282</fpage>
+          <lpage>289</lpage>
+          <pub-id pub-id-type="doi">10.1038/nm1720</pub-id>
+          <pub-id pub-id-type="pmid">18264109</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-cells-03-01116">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jager</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kuchroo</surname>
+              <given-names>V.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effector and regulatory T-cell subsets in autoimmunity and tissue inflammation</article-title>
+          <source>Scand. J. Immunol.</source>
+          <year>2010</year>
+          <volume>72</volume>
+          <fpage>173</fpage>
+          <lpage>184</lpage>
+          <pub-id pub-id-type="pmid">20696013</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-cells-03-01116">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bedoya</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Lam</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Lau</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Larkin</surname>
+              <given-names>J.</given-names>
+              <suffix>3rd.</suffix>
+            </name>
+          </person-group>
+          <article-title>Th17 cells in immunity and autoimmunity</article-title>
+          <source>Clin. Dev. Immunol.</source>
+          <year>2013</year>
+          <volume>2013</volume>
+          <pub-id pub-id-type="doi">10.1136/ard.2008.098004</pub-id>
+          <pub-id pub-id-type="pmid">24069042</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-cells-03-01116">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Langrish</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Blumenschein</surname>
+              <given-names>W.M.</given-names>
+            </name>
+            <name>
+              <surname>Mattson</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Basham</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Sedgwick</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>McClanahan</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kastelein</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Cua</surname>
+              <given-names>D.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>IL-23 drives a pathogenic t cell population that induces autoimmune inflammation</article-title>
+          <source>J. Exp. Med.</source>
+          <year>2005</year>
+          <volume>201</volume>
+          <fpage>233</fpage>
+          <lpage>240</lpage>
+          <pub-id pub-id-type="doi">10.1084/jem.20041257</pub-id>
+          <pub-id pub-id-type="pmid">15657292</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-03-01116">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dyring-Andersen</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Skov</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Lovendorf</surname>
+              <given-names>M.B.</given-names>
+            </name>
+            <name>
+              <surname>Bzorek</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sondergaard</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Lauritsen</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Dabelsteen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Geisler</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Bonefeld</surname>
+              <given-names>C.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>CD4(+) T cells producing Interleukin (IL)-17, IL-22 and Interferon-gamma are major effector T cells in nickel allergy</article-title>
+          <source>Contact Dermatitis</source>
+          <year>2013</year>
+          <volume>68</volume>
+          <fpage>339</fpage>
+          <lpage>347</lpage>
+          <pub-id pub-id-type="doi">10.1111/cod.12043</pub-id>
+          <pub-id pub-id-type="pmid">23692034</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-cells-03-01116">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kagami</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Rizzo</surname>
+              <given-names>H.L.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Koguchi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Blauvelt</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Circulating Th17, Th22, and Th1 cells are increased in psoriasis</article-title>
+          <source>J. Invest. Dermatol.</source>
+          <year>2010</year>
+          <volume>130</volume>
+          <fpage>1373</fpage>
+          <lpage>1383</lpage>
+          <pub-id pub-id-type="doi">10.1038/jid.2009.399</pub-id>
+          <pub-id pub-id-type="pmid">20032993</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13-cells-03-01116">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zheng</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Danilenko</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Valdez</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kasman</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Eastham-Anderson</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ouyang</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interleukin-22, a T(h)17 cytokine, mediates IL-23-induced dermal inflammation and acanthosis</article-title>
+          <source>Nature</source>
+          <year>2007</year>
+          <volume>445</volume>
+          <fpage>648</fpage>
+          <lpage>651</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature05505</pub-id>
+          <pub-id pub-id-type="pmid">17187052</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-cells-03-01116">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boulet</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ndongala</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Peretz</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Boisvert</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Boulassel</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Tremblay</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Routy</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Sekaly</surname>
+              <given-names>R.P.</given-names>
+            </name>
+            <name>
+              <surname>Bernard</surname>
+              <given-names>N.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>A dual color Elispot method for the simultaneous detection of IL-2 and IFN-gamma HIV-specific immune responses</article-title>
+          <source>J. Immunol. Method.</source>
+          <year>2007</year>
+          <volume>320</volume>
+          <fpage>18</fpage>
+          <lpage>29</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jim.2006.11.010</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15-cells-03-01116">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Okamoto</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Abe</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Niwa</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Mizuhashi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nishida</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Development of a dual color enzyme-linked immunospot assay for simultaneous detection of murine T helper type 1- and T helper type 2-cells</article-title>
+          <source>Immunopharmacology</source>
+          <year>1998</year>
+          <volume>39</volume>
+          <fpage>107</fpage>
+          <lpage>116</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0162-3109(98)00007-1</pub-id>
+          <pub-id pub-id-type="pmid">9716257</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-cells-03-01116">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gazagne</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Claret</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Wijdenes</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yssel</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Bousquet</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Levy</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Vielh</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Scotte</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Goupil</surname>
+              <given-names>T.L.</given-names>
+            </name>
+            <name>
+              <surname>Fridman</surname>
+              <given-names>W.H.</given-names>
+            </name>
+			<etal/>
+          </person-group>
+          <article-title>A Fluorospot assay to detect single T lymphocytes simultaneously producing multiple cytokines</article-title>
+          <source>J. Immunol. Method.</source>
+          <year>2003</year>
+          <volume>283</volume>
+          <fpage>91</fpage>
+          <lpage>98</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jim.2003.08.013</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17-cells-03-01116">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rebhahn</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Bishop</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Divekar</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Jiminez-Garcia</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kobie</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>F.E.</given-names>
+            </name>
+            <name>
+              <surname>Maupin</surname>
+              <given-names>G.M.</given-names>
+            </name>
+            <name>
+              <surname>Snyder-Cappione</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Zaiss</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Mosmann</surname>
+              <given-names>T.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Automated analysis of two- and three-color fluorescent Elispot (Fluorospot) assays for cytokine secretion</article-title>
+          <source>Comput. Method. Program. Biomed.</source>
+          <year>2008</year>
+          <volume>92</volume>
+          <fpage>54</fpage>
+          <lpage>65</lpage>
+        </citation>
+      </ref>
+      <ref id="B18-cells-03-01116">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Janetzki</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Rueger</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Dillenbeck</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Stepping up ELISpot: Multi-level analysis in FluoroSpot assays</article-title>
+          <source>Cells</source>
+          <year>2014</year>
+          <volume>3</volume>
+          <fpage>1102</fpage>
+          <lpage>1115</lpage>
+        </citation>
+      </ref>
+      <ref id="B19-cells-03-01116">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bayes</surname>
+              <given-names>H.K.</given-names>
+            </name>
+            <name>
+              <surname>Bicknell</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>MacGregor</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Evans</surname>
+              <given-names>T.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>T helper cell subsets specific for pseudomonas aeruginosa in healthy individuals and patients with cystic fibrosis</article-title>
+          <source>PLoS One</source>
+          <year>2014</year>
+          <volume>9</volume>
+		  <fpage>e90263</fpage>
+          <pub-id pub-id-type="pmid">25423086</pub-id>
+        </citation>
+      </ref>
+      <ref id="B20-cells-03-01116">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lenarczyk</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Helsloot</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Farmer</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Peters</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Sturgess</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kirkham</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Antigen-induced IL-17 response in the peripheral blood mononuclear cells (PBMC) of healthy controls</article-title>
+          <source>Clin. Exp. Immunol.</source>
+          <year>2000</year>
+          <volume>122</volume>
+          <fpage>41</fpage>
+          <lpage>48</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2249.2000.01328.x</pub-id>
+          <pub-id pub-id-type="pmid">11012616</pub-id>
+        </citation>
+      </ref>
+      <ref id="B21-cells-03-01116">
+        <label>21.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Scriba</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Kalsdorf</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Abrahams</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Isaacs</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Hofmeister</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Black</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Hassan</surname>
+              <given-names>H.Y.</given-names>
+            </name>
+            <name>
+              <surname>Wilkinson</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Walzl</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Gelderbloem</surname>
+              <given-names>S.J.</given-names>
+            </name>
+			<etal/>
+          </person-group>
+          <article-title>Distinct, specific IL-17- and IL-22-producing CD4+ T cell subsets contribute to the human anti-mycobacterial immune response</article-title>
+          <source>J. Immunol.</source>
+          <year>2008</year>
+          <volume>180</volume>
+          <fpage>1962</fpage>
+          <lpage>1970</lpage>
+          <pub-id pub-id-type="doi">10.4049/jimmunol.180.3.1962</pub-id>
+          <pub-id pub-id-type="pmid">18209095</pub-id>
+        </citation>
+      </ref>
+      <ref id="B22-cells-03-01116">
+        <label>22.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smedman</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ernemar</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Gudmundsdotter</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Gille-Johnson</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Somell</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Nihlmark</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Gardlund</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Andersson</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Paulie</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fluorospot analysis of TLR-activated monocytes reveals several distinct cytokine secreting subpopulations</article-title>
+          <source>Scand. J. Immunol.</source>
+          <year>2011</year>
+        </citation>
+      </ref>
+      <ref id="B23-cells-03-01116">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kesa</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Larsson</surname>
+              <given-names>P.H.</given-names>
+            </name>
+            <name>
+              <surname>Ahlborg</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Axelsson</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison of Elispot and Fluorospot in the analysis of swine flu-specific IgG and IgA secretion by <italic>in vivo</italic> activated human B cells</article-title>
+          <source>Cells</source>
+          <year>2012</year>
+          <volume>1</volume>
+          <fpage>27</fpage>
+          <lpage>34</lpage>
+          <pub-id pub-id-type="doi">10.3390/cells1020027</pub-id>
+          <pub-id pub-id-type="pmid">24710411</pub-id>
+        </citation>
+      </ref>
+      <ref id="B24-cells-03-01116">
+        <label>24.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Casey</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Blumenkrantz</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Millington</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Montamat-Sicotte</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kon</surname>
+              <given-names>O.M.</given-names>
+            </name>
+            <name>
+              <surname>Wickremasinghe</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bremang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Magtoto</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sridhar</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Connell</surname>
+              <given-names>D.</given-names>
+            </name>
+			<etal/>
+          </person-group>
+          <article-title>Enumeration of functional T-cell subsets by fluorescence-immunospot defines signatures of pathogen burden in tuberculosis</article-title>
+          <source>PLoS One</source>
+          <year>2010</year>
+          <volume>5</volume>
+		  <fpage>e15169</fpage>
+          <pub-id pub-id-type="pmid">21203468</pub-id>
+        </citation>
+      </ref>
+      <ref id="B25-cells-03-01116">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sridhar</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Begom</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bermingham</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ziegler</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Roberts</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Barclay</surname>
+              <given-names>W.S.</given-names>
+            </name>
+            <name>
+              <surname>Openshaw</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Lalvani</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Predominance of heterosubtypic IFN-gamma-only-secreting effector memory T cells in pandemic H1N1 naive adults</article-title>
+          <source>Eur. J. Immunol.</source>
+          <year>2012</year>
+          <volume>42</volume>
+          <fpage>2913</fpage>
+          <lpage>2924</lpage>
+          <pub-id pub-id-type="doi">10.1002/eji.201242504</pub-id>
+          <pub-id pub-id-type="pmid">22777887</pub-id>
+        </citation>
+      </ref>
+      <ref id="B26-cells-03-01116">
+        <label>26.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sunshine</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Carlson</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Heckerman</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Czartoski</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Migueles</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Maenza</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>McElrath</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Mullins</surname>
+              <given-names>J.I.</given-names>
+            </name>
+            <name>
+              <surname>Frahm</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Increased sequence coverage through combined targeting of variant and conserved epitopes correlates with control of HIV replication</article-title>
+          <source>J. Virol.</source>
+          <year>2014</year>
+          <volume>88</volume>
+          <fpage>1354</fpage>
+          <lpage>1365</lpage>
+          <pub-id pub-id-type="doi">10.1128/JVI.02361-13</pub-id>
+          <pub-id pub-id-type="pmid">24227851</pub-id>
+        </citation>
+      </ref>
+      <ref id="B27-cells-03-01116">
+        <label>27.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Quast</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Shive</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Kovalovski</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Ott</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Herzog</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Boehm</surname>
+              <given-names>B.O.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Karulin</surname>
+              <given-names>A.Y.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>IL-2 absorption affects IFN-gamma and IL-5, but not IL-4 producing memory T cells in double color cytokine Elispot assays</article-title>
+          <source>Cell. Immunol.</source>
+          <year>2005</year>
+          <volume>237</volume>
+          <fpage>28</fpage>
+          <lpage>36</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cellimm.2005.09.002</pub-id>
+        </citation>
+      </ref>
+      <ref id="B28-cells-03-01116">
+        <label>28.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chauvat</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Benhamouda</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Gey</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lemoine</surname>
+              <given-names>F.M.</given-names>
+            </name>
+            <name>
+              <surname>Paulie</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Carrat</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Gougeon</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Rozenberg</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Krivine</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Cherai</surname>
+              <given-names>M.</given-names>
+            </name>
+			<etal/>
+          </person-group>
+          <article-title>Clinical validation of IFN-gamma/IL-10 and IFN-gamma/IL-2 Fluorospot assays for the detection of Tr1 t cells and influenza vaccine monitoring in humans</article-title>
+          <source>Hum. Vaccin. Immunother.</source>
+          <year>2014</year>
+          <volume>10</volume>
+          <fpage>104</fpage>
+          <lpage>113</lpage>
+          <pub-id pub-id-type="doi">10.4161/hv.26593</pub-id>
+          <pub-id pub-id-type="pmid">24084262</pub-id>
+        </citation>
+      </ref>
+      <ref id="B29-cells-03-01116">
+        <label>29.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pereyra</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Heckerman</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Carlson</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Kadie</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Soghoian</surname>
+              <given-names>D.Z.</given-names>
+            </name>
+            <name>
+              <surname>Karel</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Goldenthal</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Davis</surname>
+              <given-names>O.B.</given-names>
+            </name>
+            <name>
+              <surname>DeZiel</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>T.</given-names>
+            </name>
+			<etal/>
+          </person-group>
+          <article-title>HIV control is mediated in part by CD8+ T-cell targeting of specific epitopes</article-title>
+          <source>J. Virol.</source>
+          <year>2014</year>
+          <volume>88</volume>
+          <fpage>12937</fpage>
+          <lpage>12948</lpage>
+          <pub-id pub-id-type="doi">10.1128/JVI.01004-14</pub-id>
+          <pub-id pub-id-type="pmid">25165115</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

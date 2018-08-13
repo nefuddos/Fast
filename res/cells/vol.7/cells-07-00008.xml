@@ -1,0 +1,2486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title-group>
+        <journal-title>Cells</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells7010008</article-id>
+      <article-id pub-id-type="publisher-id">cells-07-00008</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Fine Regulation of Neutrophil Oxidative Status and Apoptosis by Ceruloplasmin and Its Derivatives</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Golenkina</surname>
+            <given-names>Ekaterina A.</given-names>
+          </name>
+          <xref rid="af1-cells-07-00008" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Viryasova</surname>
+            <given-names>Galina M.</given-names>
+          </name>
+          <xref rid="af1-cells-07-00008" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Galkina</surname>
+            <given-names>Svetlana I.</given-names>
+          </name>
+          <xref rid="af1-cells-07-00008" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gaponova</surname>
+            <given-names>Tatjana V.</given-names>
+          </name>
+          <xref rid="af2-cells-07-00008" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-7711-3167</contrib-id>
+          <name>
+            <surname>Sud&#x2019;ina</surname>
+            <given-names>Galina F.</given-names>
+          </name>
+          <xref rid="af1-cells-07-00008" ref-type="aff">1</xref>
+          <xref rid="c1-cells-07-00008" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-9033-0537</contrib-id>
+          <name>
+            <surname>Sokolov</surname>
+            <given-names>Alexey V.</given-names>
+          </name>
+          <xref rid="af3-cells-07-00008" ref-type="aff">3</xref>
+          <xref rid="af4-cells-07-00008" ref-type="aff">4</xref>
+          <xref rid="af5-cells-07-00008" ref-type="aff">5</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-07-00008"><label>1</label>Belozersky Institute of Physico-Chemical Biology, Lomonosov Moscow State University, Moscow 119234, Russia; <email>golyesha@mail.ru</email> (E.A.G.); <email>gali-inimitable@yandex.ru</email> (G.M.V.); <email>galkina@genebee.msu.su</email> (S.I.G.)</aff>
+      <aff id="af2-cells-07-00008"><label>2</label>FGBU Hematology Research Centre, Russia Federation Ministry of Public Health, Moscow 125167, Russia; <email>gaponova.tatj@yandex.ru</email></aff>
+      <aff id="af3-cells-07-00008"><label>3</label>FSBSI Institute of Experimental Medicine, St. Petersburg 197376, Russia; <email>biochemsokolov@gmail.com</email></aff>
+      <aff id="af4-cells-07-00008"><label>4</label>Department of Fundamental Problems of Medicine and Medical Technology, Saint-Petersburg State University, St. Petersburg 199034, Russia</aff>
+      <aff id="af5-cells-07-00008"><label>5</label>Centre of Preclinical Translational Research, Almazov National Medical Research Centre, Saint-Petersburg 197371, Russia</aff>
+      <author-notes>
+        <corresp id="c1-cells-07-00008"><label>*</label>Correspondence: <email>sudina@genebee.msu.ru</email>; Tel.: +7-495-939-5359; Fax: +7-495-939-3181</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>12</day>
+        <month>01</month>
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="collection">        <month>01</month>
+        <year>2018</year>
+      </pub-date>
+      <volume>7</volume>
+      <issue>1</issue>
+      <elocation-id>8</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>07</day>
+          <month>12</month>
+          <year>2017</year>
+        </date>
+        <date date-type="accepted">
+          <day>10</day>
+          <month>01</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2018 by the authors.</copyright-statement>
+        <copyright-year>2018</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Timely neutrophil apoptosis is an essential part of the resolution phase of acute inflammation. Ceruloplasmin, an acute-phase protein, which is the predominant copper-carrying protein in the blood, has been suggested to have a marked effect on neutrophil life span. The present work is a comparative study on the effects of intact holo-ceruloplasmin, its copper-free (apo-) and partially proteolyzed forms, and synthetic free peptides RPYLKVFNPR (883&#x2013;892) and RRPYLKVFNPRR (882&#x2013;893) on polymorphonuclear leukocyte (PMNL, neutrophil) oxidant status and apoptosis. The most pronounced effect on both investigated parameters was found with copper-containing samples, namely, intact and proteolyzed proteins. Both effectively reduced spontaneous and tumor necrosis factor-&#x3B1; (TNF-&#x3B1;)-induced extracellular and intracellular accumulation of superoxide radicals, but induced a sharp increase in the oxidation of intracellular 2&#x2032;,7&#x2032;-dichlorofluorescein upon short exposure. Therefore, intact and proteolyzed ceruloplasmin have both anti- and pro-oxidant effects on PMNLs wherein the latter effect is diminished by TNF-&#x3B1; and lactoferrin. Additionally, all compounds investigated were determined to be inhibitors of delayed spontaneous apoptosis. Intact enzyme retained its pro-survival activity, whereas proteolytic degradation converts ceruloplasmin from a mild inhibitor to a potent activator of TNF-&#x3B1;-induced neutrophil apoptosis.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>apoptosis</kwd>
+        <kwd>neutrophil</kwd>
+        <kwd>ceruloplasmin</kwd>
+        <kwd>superoxide</kwd>
+        <kwd>reactive oxygen species</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-cells-07-00008" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Human ceruloplasmin (CP, ferro:O<sub>2</sub>-oxidoreductase) is a glycosylated multi-copper ferroxidase that is synthesized primarily in the liver and is abundant in the plasma and interstitial fluid. It has been estimated to bind to 40&#x2013;70% of total plasma copper in normal adults, and is the principle mode of copper storage in the body [<xref ref-type="bibr" rid="B1-cells-07-00008">1</xref>,<xref ref-type="bibr" rid="B2-cells-07-00008">2</xref>]. Additionally, the copper harbored by ceruloplasmin is available for uptake by tissues throughout the organism and, thus, one basic function of this &#x201C;moonlighting protein&#x201D; is Cu transport and delivery to tissues [<xref ref-type="bibr" rid="B3-cells-07-00008">3</xref>]. Copper ions are important for a large variety of the enzymatic activities of CP. Possessing ferroxidase activity, this enzyme plays an incontrovertible role in controlling iron turnover and homeostasis. Indeed, the oxidation of ferrous iron to its ferric state by CP is essential for the mobilization and release of iron from cellular stores, and for uptake by the circulating iron transport protein transferrin [<xref ref-type="bibr" rid="B4-cells-07-00008">4</xref>]. According to available data, CP prevents the participation of Fe<sup>2+</sup> in reactions involving O<sub>2</sub> and its reduction products, most importantly, H<sub>2</sub>O<sub>2</sub>, resulting in superoxide and hydroxyl radical formation, respectively [<xref ref-type="bibr" rid="B5-cells-07-00008">5</xref>]. </p>
+      <p>Further to this direct antioxidant action, CP can affect protective enzymatic mechanisms, thus moderating immune responses [<xref ref-type="bibr" rid="B6-cells-07-00008">6</xref>]. Indeed, as the plasma concentration of this copper-containing protein increases from approximately 200&#x2013;900 &#xB5;g/mL in response to inflammation, CP refers to the positive acute-phase proteins. Its synthesis and secretion are also elevated in diabetes mellitus, cancer, cardiovascular and Alzheimer&#x2019;s disease, rheumatoid arthritis, and during pregnancy [<xref ref-type="bibr" rid="B6-cells-07-00008">6</xref>]. </p>
+      <p>CP has a direct effect on the function of human neutrophils. Particularly, it was reported that CP inhibits 5-lipoxygenase [<xref ref-type="bibr" rid="B7-cells-07-00008">7</xref>] and a number of serine proteases of leukocyte origin related to inflammatory and septic processes [<xref ref-type="bibr" rid="B8-cells-07-00008">8</xref>]. Anionic CP (pI 4.7) interacts with high affinity with cationic proteins of neutrophils, such as lactoferrin (LF) (pI 8&#x2013;9) and myeloperoxidase (MPO) (pI 9&#x2013;10) [<xref ref-type="bibr" rid="B9-cells-07-00008">9</xref>,<xref ref-type="bibr" rid="B10-cells-07-00008">10</xref>]. MPO is an enzyme found predominantly in neutrophils [<xref ref-type="bibr" rid="B11-cells-07-00008">11</xref>]. When it is secreted from activated neutrophils, the likelihood of its interaction with CP is high due to the increased concentration of the latter in inflammation loci [<xref ref-type="bibr" rid="B12-cells-07-00008">12</xref>]. During inflammation, CP is protective against oxidant production by MPO. The formation of a specific complex between CP and MPO has been described [<xref ref-type="bibr" rid="B13-cells-07-00008">13</xref>]. The entrance of the heme pocket (active center) of MPO interacts with the protease-sensitive loop between the 5th and 6th domains of CP (883&#x2013;892) in the conventional 3D-model of the 2CP-MPO complex. The copper-free peptide RPYLKVFNPR, corresponding to sequence 883&#x2013;892 of CP, exhibits potent inhibition of MPO; in contrast, CP subjected to limited proteolysis loses its efficiency as an inhibitor of MPO [<xref ref-type="bibr" rid="B13-cells-07-00008">13</xref>].</p>
+      <p>Despite a large amount of accumulating information, many gaps remain in the understanding of the nature of the effect of CP on neutrophil function. Research in this area is complicated by the fact that in inflammation loci, particularly in the synovial fluid of rheumatoid arthritis patients, a mixture of intact proteins and a greater or lesser degree of proteolyzed molecules must be considered [<xref ref-type="bibr" rid="B14-cells-07-00008">14</xref>]. </p>
+      <p>Shifts in polymorphonuclear leukocyte (PMNL) redox status, as well as deviations in apoptosis propensity, have been considered to underlie several chronic inflammatory diseases. This indicates that studies on all possible elements involved in these regulatory mechanisms are important. This work is a comparative study of the in vitro effects of ceruloplasmin and its derivatives on neutrophil oxidative status and lifespan. The authors hypothesized that the fine-tuning of neutrophil activity by CP and its derivatives would in turn be adjusted under priming conditions similar to those seen during acute or chronic inflammatory events. The authors selected the cytokine TNF-&#x3B1; to model this in vitro.</p>
+    </sec>
+    <sec id="sec2-cells-07-00008">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-cells-07-00008">
+        <title>2.1. Enzyme Isolation</title>
+        <p>CP was isolated from heparin-stabilized plasma of healthy donors and purified using ion-exchange chromatography with UNO-Sphere Q and affinity chromatography with neomycin-agarose [<xref ref-type="bibr" rid="B15-cells-07-00008">15</xref>]. Proteolyzed CP (CPprot) was obtained after limited proteolysis for 2 h at 37 &#xB0;C with human thrombin (100:1, <italic>w</italic>/<italic>w</italic>). Thrombin was removed immediately after incubation using benzamidine-agarose chromatography. Molecular masses of CP and CPprot fragments were evaluated with the help of SDS-electrophoresis in high-molarity Tris-buffer system polyacrylamide gel [<xref ref-type="bibr" rid="B16-cells-07-00008">16</xref>]. SDS-PAGE of CPprot resulted in only fragments of 116, 72, 67, 52, and 19 kDa [<xref ref-type="bibr" rid="B14-cells-07-00008">14</xref>] (<xref ref-type="table" rid="cells-07-00008-t001">Table 1</xref>). Apo-CP was obtained by adding ascorbic acid (0.1 M), sodium azide (0.1 M), and EDTA (0.5 M) to 20 &#x3BC;M CP. Colorless protein was dialyzed against 0.1 M EDTA (pH 8.0) for 24 h, and then three 12-h periods against PBS (at 4 &#xB0;C). Based on atomic absorption results, apo-CP in this preparation contained less than 0.05 copper atoms per molecule. The absence of trace amounts of chelating agents was proven by special control experiments [<xref ref-type="bibr" rid="B7-cells-07-00008">7</xref>]. The percent of CP fragments was calculated by a densitometric analysis performed using ImageJ software (<xref ref-type="table" rid="cells-07-00008-t001">Table 1</xref>). Purity of CP and composition of CPprot fragments is presented on <xref ref-type="app" rid="app1-cells-07-00008">Figure S1 in Supplementary file</xref>. </p>
+        <p>During this study, the authors used synthetic amino acid sequences purified by high-performance liquid chromatography (NPF Verta, Saint-Petersburg, Russia). The amino acid sequences of the peptides used in this study are presented in <xref ref-type="table" rid="cells-07-00008-t002">Table 2</xref>.</p>
+        <p>Lactoferrin (LF) was isolated from the breast milk of healthy volunteers using ion-exchange chromatography with CM-Sepharose, and by gel-filtration with Sephadex G-100 Superfine [<xref ref-type="bibr" rid="B10-cells-07-00008">10</xref>]. Recombinant human tumor necrosis factor-&#x3B1; (TNF-&#x3B1;) was from PeproTech (Rocky Hill, NJ, USA). </p>
+      </sec>
+      <sec id="sec2dot2-cells-07-00008">
+        <title>2.2. Ethics Statement</title>
+        <p>The authors prepared neutrophils from the blood of healthy volunteers. Blood was collected via venous puncture, as approved by the Ministry of Public Health Service of the Russian Federation. Experimental and subject consent procedures were approved by the Institutional Ethics Committee of the A. N. Belozersky Institute of Physico-Chemical Biology, Moscow State University. </p>
+      </sec>
+      <sec id="sec2dot3-cells-07-00008">
+        <title>2.3. Human Neutrophil Isolation</title>
+        <p>Regarding neutrophil preparations, PMNLs were isolated from freshly drawn citrate-anti-coagulated donor blood by standard techniques, as previously described [<xref ref-type="bibr" rid="B17-cells-07-00008">17</xref>]. The authors prepared leukocyte-rich plasma through the sedimentation of red blood cells (RBCs) using 3% dextran T-500 at room temperature. Granulocytes were then purified by centrifugation of leukocyte-rich plasma using Ficoll-Paque (density 1.077 g/mL), followed by hypotonic lysis of the remaining RBCs. PMNLs were washed twice with phosphate buffered saline (PBS), resuspended at 10<sup>7</sup>/mL (purity 96&#x2013;97%, viability 98&#x2013;99%) in Dulbecco&#x2019;s PBS containing 1 mg/mL glucose (without CaCl<sub>2</sub>), and stored at room temperature. </p>
+      </sec>
+      <sec id="sec2dot4-cells-07-00008">
+        <title>2.4. Reactive Oxygen Species (ROS) Analysis </title>
+        <sec id="sec2dot4dot1-cells-07-00008">
+          <title>2.4.1. Assessment of Extracellular Superoxide Radicals by Cytochrome C Reduction</title>
+          <p>Extracellular production of superoxide anion (&#xB7;O<sub>2</sub><sup>&#x2212;</sup> was measured by the SOD-inhibitable reduction of ferricytochrome c (Cyto C) [<xref ref-type="bibr" rid="B18-cells-07-00008">18</xref>,<xref ref-type="bibr" rid="B19-cells-07-00008">19</xref>]. Briefly, human neutrophils (10<sup>6</sup>/mL) were cultured in HBSS/HEPES containing 25 &#xB5;M Cyto C and test substances in fibrinogen-coated 24-well plates for 30 min at 37 &#xB0;C in 5% CO<sub>2</sub>. To create positive controls, oxidative activity was stimulated with phorbol 12-myristate 13-acetate (PMA) at a concentration of 1 nM. The assay was performed in the presence and absence of Cu/Zn-SOD (30 U/mL). The rate of Cyto C reduction was measured by recording the differences between absorption values at 550 and 531 nm. To control cell-free experiments, the test compounds were incubated with 25 &#xB5;M Cyto C under the same conditions. The hypoxanthine (HX, 100 &#xB5;M)&#x2014;xanthine oxidase (XO, 0.005 U/mL) system was used to generate superoxide anions [<xref ref-type="bibr" rid="B20-cells-07-00008">20</xref>,<xref ref-type="bibr" rid="B21-cells-07-00008">21</xref>]. The rate of Cyto C reduction was measured as indicated previously herein. </p>
+        </sec>
+        <sec id="sec2dot4dot2-cells-07-00008">
+          <title>2.4.2. Assessment of Intracellular &#xB7;O<sub>2</sub><sup>&#x2212;</sup> Formation Using Dihydroethidium</title>
+          <p>Intracellular &#xB7;O<sub>2</sub><sup>&#x2212;</sup> production was monitored by red fluorescence measurements on products of the reaction between superoxide and dihydroethidium (DHE). The cells (10<sup>6</sup>/mL) were incubated in HBSS/HEPES supplemented with 10 &#xB5;g/mL DHE and test substances. To create positive controls, oxidative activity was stimulated using phorbol 12-myristate 13-acetate (PMA) at a concentration of 1 nM. PMNLs were cultured for 60 min at 37 &#xB0;C in 5% CO<sub>2</sub>. Then, samples were analyzed using a Cytomics FC 500 Flow Cytometry System. Fluorescence was collected by photomultipliers at 590 nm and 620 nm [<xref ref-type="bibr" rid="B6-cells-07-00008">6</xref>]. Representing each acquisition, at least 10,000 events were collected within 90 s of measurement. </p>
+        </sec>
+        <sec id="sec2dot4dot3-cells-07-00008">
+          <title>2.4.3. Assessment of Intracellular ROS Formation Using 2&#x2032;,7&#x2032;-Dichlorofluorescein-Diacetate (DCFH-DA)</title>
+          <p>Intracellular ROS formation was monitored by fluorometric measurements of green fluorescence (excitation: 485 nm, emission: 535 nm) after incorporation of carboxy-H<sub>2</sub>DCF-DA (5 &#xB5;M; ThermoFisher Scientific, Waltham, MA, USA), in accordance with the manufacturer&#x2019;s protocol. Briefly, human neutrophils were incubated with 5 &#x3BC;M carboxy-H<sub>2</sub>DCF-DA for 60 min at room temperature which was followed by washing with PBS. Cells were seeded in fibrinogen-coated 24-well plates (10<sup>6</sup>/mL, in HBSS/HEPES) and treated with the investigated compounds for 60 min at 37 &#xB0;C in 5% CO<sub>2</sub>. To control cell-free assays, 10 &#x3BC;M carboxy-H<sub>2</sub>DCF-DA was incubated with intact CP, CPprot, and apo-CP (0.05&#x2013;2 &#x3BC;M) in PBS for 30 min at 37 &#xB0;C. The increase in fluorescence was then monitored with a fluorometric plate reader CLARIOstar (BMG Labtech, Ortenberg, Germany), exciting the sample at 480 nm and reading at 530 nm.</p>
+        </sec>
+      </sec>
+      <sec id="sec2dot5-cells-07-00008">
+        <title>2.5. Apoptosis Detection by Flow Cytometry</title>
+        <sec id="sec2dot5dot1-cells-07-00008">
+          <title>2.5.1. Double Alexa Fluor-Conjugated Annexin-V and Propidium Iodide Labeling</title>
+          <p>To detect phosphatidylserine externalization as one of the earliest indicators of apoptosis, and to ensure that the mechanism of observed cell death was through apoptosis and not necrosis, neutrophils were double-stained with Alexa Fluor-conjugated Annexin V and propidium iodide (PI). PMNLs were suspended at a density of 1 &#xD7; 10<sup>6</sup> cells/mL in RPMI-1640 medium supplemented with sodium bicarbonate, 2 mM <sc>L</sc>-glutamine, and 20 mM HEPES, with or without the tested compounds. Cells were cultured in 24-well plates for 5 and 16&#x2013;20 h at 37 &#xB0;C in a 5% CO<sub>2</sub> incubator. Following incubation, cells were collected by centrifugation at 270&#xD7; <italic>g</italic> and washed once with cold PBS. Cell pellets were resuspended in 100 &#x3BC;L HBSS/HEPES containing 2.5 &#x3BC;L Annexin V-Alexa Fluor<sup>&#xAE;</sup> 488 commercial solution as specified in the manufacturer's instructions. Following 10 min on ice, 300 &#x3BC;L PI solution (10 &#xB5;g/mL HBSS/HEPES) was added for 5 min. The samples were analyzed using a Cytomics FC 500 Flow Cytometry System (Beckman Coulter, Krefeld, Germany) with CXP software. Fluorescence was collected by photomultipliers at 525 nm (Annexin V-Alexa Fluor<sup>&#xAE;</sup> 488) and 620 nm (PI). Representing each acquisition, at least 10,000 events were collected within 90 s of measurement. </p>
+        </sec>
+        <sec id="sec2dot5dot2-cells-07-00008">
+          <title>2.5.2. Assessment of DNA Fragmentation by PI Staining of Hypo-Diploid Nuclei</title>
+          <p>PMNL apoptosis was assessed according to the percent of cells with hypo-diploid DNA content (SubG1 subpopulation), using the technique described by Nicoletti et al. [<xref ref-type="bibr" rid="B22-cells-07-00008">22</xref>]. Briefly, PMNLs were incubated as described previously herein. Upon reaching the end of the desired period, cells were harvested, supplemented with ice-cold 0.05% BSA in PBS and collected by centrifugation at 270&#xD7; <italic>g</italic>, which was followed by permeabilization in cold hypotonic PI solution (20 &#xB5;g/mL PI and 0.2 mg/mL RNase in 0.1% triton X-100 in 0.1% sodium citrate). The tubes were placed at 4 &#xB0;C in the dark for 10&#x2013;15 min before flow-cytometric analysis using a Cytomics FC 500 System and a 620-nm long-pass filter.</p>
+        </sec>
+        <sec id="sec2dot5dot3-cells-07-00008">
+          <title>2.5.3. Terminal Deoxynucleotidyl Transferase dUTP Nick End Labeling (TUNEL)</title>
+          <p>Neutrophils apoptosis was detected and quantified by measuring fragmented DNA by catalytically incorporating fluorescein-12-dUTP at 3&#x2032;-OH DNA ends using the recombinant terminal deoxynucleotidyl transferase (rTdT), according to the manufacturer's instructions (DeadEnd&#x2122; Fluorometric TUNEL System, Promega, Madison, WI, USA). PMNLs were incubated as described. Following incubation, cells were collected by centrifugation at 270&#xD7; <italic>g</italic>, washed once in cold PBS, resuspended in PBS and fixed with methanol-free paraformaldehyde (final concentration 1%) for 10 min at 37 &#xB0;C. Next, PMNLs were centrifuged at 270&#xD7; <italic>g</italic>, washed once in PBS, and permeabilized with 70% ice-cold ethanol for 30 min on ice. Fixed and permeabilized PMNLs were collected, washed once in PBS and resuspended in Equilibration buffer for 5 min. Probes were then centrifugated and pellets were resuspended in rTdT Incubation buffer comprising both nucleotide mix and rTdT enzyme. Probes were incubated for 60 min at 37 &#xB0;C in the dark. The reaction was terminated by adding SSC buffer followed by washing with PBS. Representing negative controls, fixed and permeabilized cells were treated with Incubation buffer including only the nucleotide mix and not containing rTdT. Labeled PMNLs were analyzed using CytoFLEX Flow Cytometer system (Beckman Coulter, Krefeld, Germany) measuring green fluorescence of fluorescein-12-dUTP at 525 nm.</p>
+        </sec>
+      </sec>
+      <sec id="sec2dot6-cells-07-00008">
+        <title>2.6. Statistics</title>
+        <p>Results are reported as mean &#xB1; SEM. Analysis of the statistical significance was evaluated using a one-way ANOVA with an appropriate post-test, using GraphPadPrism6 software. <italic>p</italic> values of less than 0.05 were considered significant. Data were compared against the unstimulated control and the TNF-&#x3B1;-stimulated samples.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-cells-07-00008" sec-type="results">
+      <title>3. Results</title>
+      <sec id="sec3dot1-cells-07-00008">
+        <title>3.1. Intact and Partially-Proteolyzed Ceruloplasmin Have a Dual Effect on the Oxidant Status of Resting and TNF-&#x3B1;-Stimulated Neutrophils</title>
+        <p>To identify the test compounds that affect PMNL redox status, the authors employed several approaches, considering the specificity and limitations of each probe used to analyze oxidative burst in neutrophils [<xref ref-type="bibr" rid="B23-cells-07-00008">23</xref>,<xref ref-type="bibr" rid="B24-cells-07-00008">24</xref>,<xref ref-type="bibr" rid="B25-cells-07-00008">25</xref>]. When measured by SOD-dependent cytochrome <italic>c</italic> reduction, unlike apo-CP or synthetic peptides, CP and especially CPprot reduced spontaneous, and completely extinguished TNF-&#x3B1;-induced extracellular &#xB7;O<sub>2</sub><sup>&#x2212;</sup> generation (<xref ref-type="fig" rid="cells-07-00008-f001">Figure 1</xref>A,B). Featured in control cell-free experiments tested compounds did not affect reduced Cyto C accumulation (<xref ref-type="fig" rid="cells-07-00008-f001">Figure 1</xref>C).</p>
+        <p>CP or CPprot were found to reduce intracellular &#xB7;O<sub>2</sub><sup>&#x2212;</sup> levels, similar to that observed in unstimulated cells, with the addition of TNF-&#x3B1;, whereas the other enzyme derivatives did not exhibit any reliable effect (<xref ref-type="fig" rid="cells-07-00008-f002">Figure 2</xref>). This was shown by the measurement of DHE oxidation since this probe is known to be sensitive and responsive to &#xB7;O<sub>2</sub><sup>&#x2212;</sup> [<xref ref-type="bibr" rid="B26-cells-07-00008">26</xref>]. These facts confirm and supplement previous data [<xref ref-type="bibr" rid="B7-cells-07-00008">7</xref>].</p>
+        <p>Examining the oxidative status of neutrophils with cell-permeable H<sub>2</sub>DCF-DA showed a significant increase in the fluorescence emission of the DCF oxidation product when CP or CPprot were added to PMNLs. Concurrently, the synthetic peptides P1 and P2 weakly inhibited the generation of intracellular oxidants (<xref ref-type="fig" rid="cells-07-00008-f003">Figure 3</xref>A). The addition of TNF-&#x3B1; by itself had a negligible effect on neutrophil redox status. However, it contributed to a decrease in the influence of CP and CPprot on oxidant formation to some degree (<xref ref-type="fig" rid="cells-07-00008-f003">Figure 3</xref>A). </p>
+        <p>Regarding control cell-free experiments, H<sub>2</sub>DCF-DA-oxidase activity of CP was confirmed. Intact CP and CPprot oxidized 2&#x2032;,7&#x2032;-dichlorofluorescin diacetate in a dose-dependent manner; however, apo-CP did not demonstrate such activity (<xref ref-type="fig" rid="cells-07-00008-f003">Figure 3</xref>B). Considering this fact, additional experiments were carried out in which PMNLs were treated with copper sulfate (CuSO<sub>4</sub>) at concentrations of 1&#x2013;3 &#xB5;M. The addition of inorganic copper did not lead to the accumulation of intracellular H<sub>2</sub>DCF oxidants (data not shown). This led the authors to consider the revealed action as a biological effect of intact and proteolyzed ceruloplasmin, rather than just a product of free copper ions released from these compounds.</p>
+        <p>Since reactive nitrogen species are known to be possible H<sub>2</sub>DCF oxidants [<xref ref-type="bibr" rid="B27-cells-07-00008">27</xref>], additional experiments using DAF-2 DA, a cell permeable probe for the measurement nitric oxide synthase activity, were performed. These assays did not reveal any effect of the investigated compounds on nitric oxide levels.</p>
+        <p>When TNF-&#x3B1; is added, endogenous LF release occurs [<xref ref-type="bibr" rid="B28-cells-07-00008">28</xref>], which helps to stabilize the enzyme, and thereafter retain copper. Indeed, the addition of exogenous LF inhibited oxidant formation induced by CP and CPprot (<xref ref-type="fig" rid="cells-07-00008-f003">Figure 3</xref>C).</p>
+        <p>Considering the data indicating that neutrophil life span is dictated by the redox status of the cell [<xref ref-type="bibr" rid="B29-cells-07-00008">29</xref>], we performed experiments to explore whether CP derivatives themselves or in conjunction with TNF-&#x3B1; affect PMNL apoptosis.</p>
+      </sec>
+      <sec id="sec3dot2-cells-07-00008">
+        <title>3.2. CP and Its Derivatives Inhibit Spontaneous PMNL Apoptosis</title>
+        <p>PMNLs were incubated with no additives or in the presence of intact CP, apo-CP, CPprot, or peptide P1 and P2, corresponding to fragments of CP. Subsequently phosphatidylserine exposure and plasma membrane integrity loss were analyzed by double Alexa Fluor-conjugated Annexin-V and PI labeling. Regarding control and test samples, a negligible number of necrotic PMNLs was detected, even after prolonged (20 h) culturing (<xref ref-type="fig" rid="cells-07-00008-f004">Figure 4</xref>A).</p>
+        <p>The authors found no statistically significant modulatory effects on PMNL apoptosis for CP and its derivatives with short-term incubation (5 h). However, prolonged exposure to the proteins and peptides slightly but stably suppressed spontaneous apoptosis, as revealed using both phosphatidylserine externalization detection (<xref ref-type="fig" rid="cells-07-00008-f004">Figure 4</xref>) and assessment of nuclear DNA fragmentation by SubG1 PMNLs estimation (<xref ref-type="fig" rid="cells-07-00008-f005">Figure 5</xref>) or TUNEL assay (<xref ref-type="fig" rid="cells-07-00008-f006">Figure 6</xref>C) followed by flow cytometric analysis. When compared to that in control samples, the growth of living cells number was more pronounced for intact CP (<xref ref-type="fig" rid="cells-07-00008-f004">Figure 4</xref>B and <xref ref-type="fig" rid="cells-07-00008-f005">Figure 5</xref>A). </p>
+      </sec>
+      <sec id="sec3dot3-cells-07-00008">
+        <title>3.3. Proteolyzed Ceruloplasmin Enhances the Pro-Apoptotic Effect of TNF-&#x3B1;, Whereas the Intact Protein Retains Pro-Survival Properties</title>
+        <p>It is known that TNF-&#x3B1; is one of the cytokines that are part of the acute phase reaction, and this molecule plays a critical role in the pathogenesis of chronic inflammatory diseases by eliciting a broad spectrum of cellular responses, including proliferation, differentiation, and apoptosis. Considering that, the authors investigated whether CP, or its derivatives, and TNF-&#x3B1;, added at a potentially apoptogenic dose (25 ng/mL) simultaneously with the tested compounds, mutually influence the apoptosis-modifying properties of each other. Notably, in these experiments, TNF-&#x3B1; affected neutrophil viability in an irregular manner. Treatment with this cytokine sharply enhanced PMNL apoptosis at early times of incubation. However, with prolonged incubation, the pro-apoptotic activity of TNF-&#x3B1; was markedly diminished, as determined by measuring Annexin-V-positive neutrophils (data not shown) and Sub G1 fractions (<xref ref-type="fig" rid="cells-07-00008-f006">Figure 6</xref>). These results are generally consistent with data from other research groups confirming the existence of different pathways in TNF-&#x3B1; signaling [<xref ref-type="bibr" rid="B30-cells-07-00008">30</xref>].</p>
+        <p>Upon short-term incubation, simultaneous addition of the tested compounds and TNF-&#x3B1; did not alter the percentage of Annexin-V-positive neutrophils, compared to that in samples treated with TNF-&#x3B1; alone. When neutrophil apoptosis was assessed after prolonged incubation, the authors revealed a significantly augmented TNF-&#x3B1; apoptogenic effect with the simultaneous addition of the cytokine and CPprot, and a slight pro-survival effect with the CP/TNF-&#x3B1; combination (<xref ref-type="fig" rid="cells-07-00008-f006">Figure 6</xref>). Neither apoCP nor synthetic peptides had any effect on TNF-&#x3B1;-induced PMNL apoptosis.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-cells-07-00008" sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>This study demonstrates that, in contrast to other CP derivatives investigated, the intact enzyme and the product of its partial proteolysis have a pronounced effect on PMNL oxidative status. CP and CPprot reduced extra- and intracellular &#xB7;O<sub>2</sub><sup>&#x2212;</sup> levels arising both spontaneously and with TNF-&#x3B1; stimulation. Concurrently, the authors observed a sharp increase in the fluorescence of the oxidation product of H<sub>2</sub>DCF, used for nonselective quantitation of intracellular oxidants. Regarding control, cell-free experiments, the authors confirmed the H<sub>2</sub>DCF-DA oxidase activity of CP and CPprot (<xref ref-type="fig" rid="cells-07-00008-f003">Figure 3</xref>B). It was suggested that both effects are associated with the presence of copper in both compounds. Indeed, apo-CP did not prevent the formation of superoxide or the oxidation of DCFH-DA. The mechanisms of superoxide elimination by CP are not completely clear, but the most plausible is the hypothesis that this ability is inextricably linked to the oxidative activity of copper atoms [<xref ref-type="bibr" rid="B31-cells-07-00008">31</xref>,<xref ref-type="bibr" rid="B32-cells-07-00008">32</xref>]. When reduced by superoxide, Cu+ catalyzes hydroxyl radical formation; both oxidized and reduced copper ions catalyze and amplify the formation of ROS, thus affecting intracellular and tissue structures. Estimating the oxidant status using DHE and 2&#x2032;,7&#x2032;-dichlorofluorescin diacetate, the authors obtained opposite results: the addition of intact or proteolyzed ceruloplasmin led to a diminution in oxidized DHE fluorescence (<xref ref-type="fig" rid="cells-07-00008-f002">Figure 2</xref>), but dramatically increased the DCF emission (<xref ref-type="fig" rid="cells-07-00008-f003">Figure 3</xref>). Such data inconsistency indirectly confirms precisely this mechanism. Moreover, the resulting formation of oxidants leads to structural destabilization of CP, and possibly CPprot, resulting in increased lability of copper associated with both compounds [<xref ref-type="bibr" rid="B33-cells-07-00008">33</xref>,<xref ref-type="bibr" rid="B34-cells-07-00008">34</xref>]. The ability of CP to exhibit both anti-oxidant and pro-oxidant properties persists after its partial proteolysis. Moreover, proteolytic degradation promotes some increase in pro-oxidant activity. Obviously, under conditions of inflammation, when the concentration of CP and, accordingly the products of its hydrolysis, increase, mechanisms regulating pro-oxidant activity must exist. During these experiments, the addition of TNF-&#x3B1; had an inhibitory effect on the formation of intracellular oxidants. This might be due to the stabilization of CP and CPprot by LF, which is released from granules under the control of TNF-&#x3B1;. </p>
+      <p>Intracellular oxidant accumulation often triggers apoptotic pathways; in addition, copper ions which become more accessible due to the oxidative damage of intact and proteolyzed CP might have detrimental intracellular effects. Based on this, and due to similarities between CP and CPprot in terms of their influence on the oxidative status of neutrophils, it was expected that these compounds would identically affect PMNL apoptosis. However, the unidirectional ability to inhibit both spontaneous and TNF-&#x3B1; induced apoptosis was observed only for intact CP, whereas the regulation of apoptosis by derivatives of CP switched from inhibition to activation with the addition of TNF-&#x3B1;. The authors emphasize once again that the revealed effects are the bioactivity of CP and CPprot, since inorganic copper, when added to the cells in relevant concentrations, did not exert the same influence on PMNL oxidative or apoptotic status (data not shown).</p>
+      <p>Although the molecular mechanisms of these effects are beyond the scope of this study, the authors assume that proteins of neutrophil origin are at the foreground. </p>
+      <p>MPO is an oxidative enzyme that is capable of inducing oxidative, halogenative, and nitrosative stress in vivo [<xref ref-type="bibr" rid="B35-cells-07-00008">35</xref>]. Hypochlorous acid (HOCl) is the major oxidant formed by MPO under physiological conditions [<xref ref-type="bibr" rid="B36-cells-07-00008">36</xref>]. Supplemental to its microbicidal action, HOCl influences the functions of PMNL by modifying proteins, lipids, and DNA, thereby reducing the lifespan of neutrophils themselves [<xref ref-type="bibr" rid="B37-cells-07-00008">37</xref>] as well as neighboring cells [<xref ref-type="bibr" rid="B38-cells-07-00008">38</xref>]. Additionally, MPO was previously shown to be a powerful auto- and paracrine mediator, which can both delay [<xref ref-type="bibr" rid="B39-cells-07-00008">39</xref>] and initiate apoptosis [<xref ref-type="bibr" rid="B40-cells-07-00008">40</xref>,<xref ref-type="bibr" rid="B41-cells-07-00008">41</xref>]. </p>
+      <p>TNF-&#x3B1; plays a critical role in modulating acute and chronic inflammation, largely due to its ability to fine-tune neutrophil functions [<xref ref-type="bibr" rid="B28-cells-07-00008">28</xref>,<xref ref-type="bibr" rid="B42-cells-07-00008">42</xref>,<xref ref-type="bibr" rid="B43-cells-07-00008">43</xref>] and lifespan [<xref ref-type="bibr" rid="B44-cells-07-00008">44</xref>,<xref ref-type="bibr" rid="B45-cells-07-00008">45</xref>]. Specifically, this cytokine markedly stimulates MPO synthesis and secretion. MPO-dependent HOCl is known to accumulate during long incubations of neutrophils with TNF-&#x3B1; [<xref ref-type="bibr" rid="B46-cells-07-00008">46</xref>] and is facilitated by cytokine-induced cellular adhesion [<xref ref-type="bibr" rid="B47-cells-07-00008">47</xref>]. TNF-&#x3B1; induced degranulation leads to inter alia LF release from secondary granules [<xref ref-type="bibr" rid="B28-cells-07-00008">28</xref>,<xref ref-type="bibr" rid="B48-cells-07-00008">48</xref>]. </p>
+      <p>CP is known as a physiological inhibitor of MPO pro-oxidative activity [<xref ref-type="bibr" rid="B49-cells-07-00008">49</xref>]. The ability of CP to inhibit the formation of MPO-derived oxidants is obviously another possible contributor to the anti-apoptotic activity of intact CP observed in these assays. It should be noted that the processes in question occur during long incubations. The oxidative status of PMNLs was evaluated in short-term experiments. Additionally, it is known that hydrophilic H<sub>2</sub>DCF, produced from H<sub>2</sub>DCF-DA by intracellular cleavage, is unable to penetrate membranes including lysosomal [<xref ref-type="bibr" rid="B50-cells-07-00008">50</xref>]; hence, the method used characterizes the oxidase status of the cytosol, but not the granules. Increased oxidation of H<sub>2</sub>DCF in cell and cell-free assays by CP indirectly shows the possibility of CP endocytosis by neutrophils. Therefore, the contradiction regarding the previous assumption and the effect of CP relating to oxidative status (based on the data) seems to be misleading.</p>
+      <p>CP and its derivatives differ in their ability to inhibit MPO peroxidase activity [<xref ref-type="bibr" rid="B51-cells-07-00008">51</xref>]. The limited proteolysis of CP was shown to abrogate its capacity to inhibit the peroxidase activity of MPO [<xref ref-type="bibr" rid="B14-cells-07-00008">14</xref>]. The inability of all compounds except holo-CP to prevent TNF-&#x3B1;-induced apoptosis was probably due to decreased affinity of CP derivatives for the peroxidase enzyme. It also has been established that CP influences the activities of serprocidins of neutrophil-origin, including proteinase 3 (PR3) [<xref ref-type="bibr" rid="B52-cells-07-00008">52</xref>]. The latter suggests one possible mechanism of the spontaneous death program in aging neutrophils [<xref ref-type="bibr" rid="B53-cells-07-00008">53</xref>]. One can assume that the suppression of spontaneous apoptosis, observed with the compounds studied, occurs through the inhibition of PR3, and that the inhibitory effect would depend on the integrity of the copper protein.</p>
+      <p>The release of LF from TNF-&#x3B1;-treated cells [<xref ref-type="bibr" rid="B28-cells-07-00008">28</xref>] can also contribute to the observed influence of CP and its derivatives on neutrophil apoptosis. First, LF is the most active protector of CP [<xref ref-type="bibr" rid="B54-cells-07-00008">54</xref>]. Oxidative stress and ROS disrupt copper binding to CP, thereby impairing its normal function [<xref ref-type="bibr" rid="B33-cells-07-00008">33</xref>]. CP is easily degraded by proteases [<xref ref-type="bibr" rid="B55-cells-07-00008">55</xref>,<xref ref-type="bibr" rid="B56-cells-07-00008">56</xref>]. However, the integrity of the CP molecule is important for the function of this enzyme. Antioxidant properties such as GSH-dependent peroxidase activity [<xref ref-type="bibr" rid="B57-cells-07-00008">57</xref>] and the inhibition of the chlorinating and peroxidase activity of MPO [<xref ref-type="bibr" rid="B14-cells-07-00008">14</xref>] are lost after proteolytic degradation. Additionally, the enzyme disintegration process itself is accompanied by hydroxyl radical generation [<xref ref-type="bibr" rid="B54-cells-07-00008">54</xref>]. It could be argued that upon TNF-&#x3B1; stimulation, interactions between LF and CP protect the anti-oxidant properties of the latter and prevents excessive OH&#x387;-formation. </p>
+      <p>Additionally, LF inhibits neutrophil apoptosis such that its pro-survival effect is dependent on its iron saturation status; specifically, iron-saturated LF is incapable of affecting neutrophil life span [<xref ref-type="bibr" rid="B58-cells-07-00008">58</xref>]. CP and LF mutually affect the function of each other. LF promotes the Fe<sup>2+</sup> binding and ferroxidase activity of CP [<xref ref-type="bibr" rid="B59-cells-07-00008">59</xref>]. Subsequently, CP stimulates iron incorporation into apo-LF [<xref ref-type="bibr" rid="B59-cells-07-00008">59</xref>]. LF can incorporate ferric ions produced during ferroxidase reactions catalyzed by CP. Therefore, the oxidation of pro-oxidant ferrous ions catalyzed by CP should increase the iron saturation status of LF and reduce its ability to affect neutrophil apoptosis. This becomes particularly important for proteolyzed CP. Mentioned previously, the latter fails to inhibit the peroxidase activity of MPO [<xref ref-type="bibr" rid="B14-cells-07-00008">14</xref>] but retains its ferroxidase activity, thus, suppressing the anti-apoptotic properties of LF. These results showed that CPprot facilitates a TNF-&#x3B1;-induced apoptotic death program in neutrophils, and it is assumed that the aforementioned mechanism is a prerequisite for this event. </p>
+      <p>It was found that partial proteolysis dramatically reduces the inhibitory function of MPO on CP without disturbing its ferroxidase activity [<xref ref-type="bibr" rid="B14-cells-07-00008">14</xref>]. CPprot cannot inhibit the peroxidase activity of MPO [<xref ref-type="bibr" rid="B14-cells-07-00008">14</xref>], but retains ferroxidase activity. LF can incorporate ferric ions produced during the ferroxidase reaction catalyzed by CP; for example, LF reduces the oxidation potential of pro-oxidant iron ions [<xref ref-type="bibr" rid="B10-cells-07-00008">10</xref>]. Therefore, oxidation of pro-oxidant ferrous ions catalyzed by CP should increase the iron saturation status of LF and reduce its ability to affect neutrophil apoptosis. </p>
+      <p>The generation of reactive oxygen, halogen, and nitrogen species by neutrophils has been implicated in the onset and progression of several disorders [<xref ref-type="bibr" rid="B35-cells-07-00008">35</xref>,<xref ref-type="bibr" rid="B60-cells-07-00008">60</xref>]. Although defense against oxidative stress has been demonstrated for CP, many studies have indicated that this protein is able to act as a powerful pro-oxidant factor. Being effective superoxide radical scavengers, these results indicate that, not only intact, but also partially proteolyzed CP, indeed induces an immediate sharp increase in other intracellular oxidants, at least in experimental conditions. Regarding conditions of oxidative stress, CP-derived peptides also possess pro-oxidant activities and potentiate phorbol myristate acetate-induced ROS formation [<xref ref-type="bibr" rid="B61-cells-07-00008">61</xref>]. Contrary to the unidirectional effect on PMNL oxidant status, intact and partially proteolyzed CP acted differently on delayed apoptosis. The inhibition of apoptosis observed in the presence of acute phase CP occurred whether or not PMNLs were exposed to TNF-&#x3B1;. The mode of apoptosis regulation by CPprot, as well as other products of enzyme hydrolysis, switches from inhibition to activation in the presence of TNF-&#x3B1;. Proteolytic degradation of CP is one characteristic of inflammatory processes. Analysis of the synovial fluid of patients with rheumatoid arthritis revealed that CP is proteolytically degraded to a variable extent during this inflammatory process [<xref ref-type="bibr" rid="B14-cells-07-00008">14</xref>]. The authors propose that this event represents a potential mechanism associated with the activation of neutrophil apoptosis. The net effect of CP on neutrophil survival no doubt reflects a balance between the activities of numerous inflammation factors, not only TNF-&#x3B1;. The nature and mechanisms of the effects of CP on the non-enzymatic activity of MPO are poorly understood and should be the subject of further research. Nevertheless, it is clear that a holo-CP and the product of its physiological decay are directly involved in the fine regulation of inflammatory processes. To the authors&#x2019; knowledge, this is the first study demonstrating the regulation of neutrophil apoptosis by CP and its derivatives.</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-cells-07-00008">
+        <title>Supplementary Materials</title>
+        <p>Supplementary materials are available on line <uri>www.mdpi.com/2073-4409/7/1/8/s1</uri>.</p>
+		<supplementary-material id="cells-07-00008-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00008-s001.pdf"></supplementary-material>
+      </app>
+    </app-group>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>This study was funded by grants, 16-34-00531 and 17-04-01491, from the Russian Foundation for Basic Research. The authors have no conflicting interests to disclose.</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>E.A.G., G.M.V., S.I.G., G.F.S. and A.V.S. designed and conducted the experiments. E.A.G., T.V.G., G.F.S. and A.V.S. analyzed the data. E.A.G., G.F.S. and A.V.S. wrote the paper.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest. The founding sponsors had no role in the design of the study, in the collection, analyses, or interpretation of data, in the writing of the manuscript, or in the decision to publish the results.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-07-00008">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Holmberg</surname>
+              <given-names>C.G.</given-names>
+            </name>
+            <name>
+              <surname>Laurell</surname>
+              <given-names>C.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Investigations in Serum Copper. II. Isolation of the Copper Containing Protein, and a Description of some of its Properties</article-title>
+          <source>Acta Chem. Scand.</source>
+          <year>1948</year>
+          <volume>2</volume>
+          <fpage>550</fpage>
+          <lpage>556</lpage>
+          <pub-id pub-id-type="doi">10.3891/acta.chem.scand.02-0550</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-cells-07-00008">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Linder</surname>
+              <given-names>M.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ceruloplasmin and other copper binding components of blood plasma and their functions: An update</article-title>
+          <source>Metallomics</source>
+          <year>2016</year>
+          <volume>8</volume>
+          <fpage>887</fpage>
+          <lpage>905</lpage>
+          <pub-id pub-id-type="doi">10.1039/C6MT00103C</pub-id>
+          <pub-id pub-id-type="pmid">27426697</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-cells-07-00008">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tapiero</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Townsend</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Tew</surname>
+              <given-names>K.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Trace elements in human physiology and pathology</article-title>
+          <source>Copper Biomed. Pharmacother.</source>
+          <year>2003</year>
+          <volume>57</volume>
+          <fpage>386</fpage>
+          <lpage>398</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0753-3322(03)00012-X</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-cells-07-00008">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Osaki</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Frieden</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>The possible significance of the ferrous oxidase activity of ceruloplasmin in normal human serum</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1966</year>
+          <volume>241</volume>
+          <fpage>2746</fpage>
+          <lpage>2751</lpage>
+          <pub-id pub-id-type="pmid">5912351</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-cells-07-00008">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pierre</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Fontecave</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Iron and activated oxygen species in biology: The basic chemistry</article-title>
+          <source>Biometals</source>
+          <year>1999</year>
+          <volume>12</volume>
+          <fpage>195</fpage>
+          <lpage>199</lpage>
+          <pub-id pub-id-type="doi">10.1023/A:1009252919854</pub-id>
+          <pub-id pub-id-type="pmid">10581682</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-cells-07-00008">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Varfolomeeva</surname>
+              <given-names>E.Y.</given-names>
+            </name>
+            <name>
+              <surname>Semenova</surname>
+              <given-names>E.V.</given-names>
+            </name>
+            <name>
+              <surname>Sokolov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Aplin</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Timofeeva</surname>
+              <given-names>K.E.</given-names>
+            </name>
+            <name>
+              <surname>Vasilyev</surname>
+              <given-names>V.B.</given-names>
+            </name>
+            <name>
+              <surname>Filatov</surname>
+              <given-names>M.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ceruloplasmin decreases respiratory burst reaction during pregnancy</article-title>
+          <source>Free Radic Res.</source>
+          <year>2016</year>
+          <volume>50</volume>
+          <fpage>909</fpage>
+          <lpage>919</lpage>
+          <pub-id pub-id-type="doi">10.1080/10715762.2016.1197395</pub-id>
+          <pub-id pub-id-type="pmid">27266720</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-cells-07-00008">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sokolov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Golenkina</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Kostevich</surname>
+              <given-names>V.A.</given-names>
+            </name>
+            <name>
+              <surname>Vasilyev</surname>
+              <given-names>V.B.</given-names>
+            </name>
+            <name>
+              <surname>Sud&#x2019;ina</surname>
+              <given-names>G.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interaction of ceruloplasmin and 5-lipoxygenase</article-title>
+          <source>Biochemistry</source>
+          <year>2010</year>
+          <volume>75</volume>
+          <fpage>1464</fpage>
+          <lpage>1469</lpage>
+          <pub-id pub-id-type="doi">10.1134/S0006297910120072</pub-id>
+          <pub-id pub-id-type="pmid">21314617</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-cells-07-00008">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sokolov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Pulina</surname>
+              <given-names>M.O.</given-names>
+            </name>
+            <name>
+              <surname>Ageeva</surname>
+              <given-names>K.V.</given-names>
+            </name>
+            <name>
+              <surname>Runova</surname>
+              <given-names>O.L.</given-names>
+            </name>
+            <name>
+              <surname>Zakharova</surname>
+              <given-names>E.T.</given-names>
+            </name>
+            <name>
+              <surname>Vasil&#x2019;ev</surname>
+              <given-names>V.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of leukocyte cationic proteins that interact with ceruloplasmin</article-title>
+          <source>Biochemistry</source>
+          <year>2007</year>
+          <volume>72</volume>
+          <fpage>872</fpage>
+          <lpage>877</lpage>
+          <pub-id pub-id-type="doi">10.1134/S0006297907080093</pub-id>
+          <pub-id pub-id-type="pmid">17922645</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-cells-07-00008">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sokolov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Pulina</surname>
+              <given-names>M.O.</given-names>
+            </name>
+            <name>
+              <surname>Ageeva</surname>
+              <given-names>K.V.</given-names>
+            </name>
+            <name>
+              <surname>Ayrapetov</surname>
+              <given-names>M.I.</given-names>
+            </name>
+            <name>
+              <surname>Berlov</surname>
+              <given-names>M.N.</given-names>
+            </name>
+            <name>
+              <surname>Volgin</surname>
+              <given-names>G.N.</given-names>
+            </name>
+            <name>
+              <surname>Markov</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Yablonsky</surname>
+              <given-names>P.K.</given-names>
+            </name>
+            <name>
+              <surname>Kolodkin</surname>
+              <given-names>N.I.</given-names>
+            </name>
+            <name>
+              <surname>Zakharova</surname>
+              <given-names>E.T.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Interaction of ceruloplasmin, lactoferrin, and myeloperoxidase</article-title>
+          <source>Biochemistry</source>
+          <year>2007</year>
+          <volume>72</volume>
+          <fpage>409</fpage>
+          <lpage>415</lpage>
+          <pub-id pub-id-type="doi">10.1134/S0006297907040074</pub-id>
+          <pub-id pub-id-type="pmid">17511605</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-cells-07-00008">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sokolov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Zakharova</surname>
+              <given-names>E.T.</given-names>
+            </name>
+            <name>
+              <surname>Kostevich</surname>
+              <given-names>V.A.</given-names>
+            </name>
+            <name>
+              <surname>Samygina</surname>
+              <given-names>V.R.</given-names>
+            </name>
+            <name>
+              <surname>Vasilyev</surname>
+              <given-names>V.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lactoferrin, myeloperoxidase, and ceruloplasmin: Complementary gearwheels cranking physiological and pathological processes</article-title>
+          <source>Biometals</source>
+          <year>2014</year>
+          <volume>27</volume>
+          <fpage>815</fpage>
+          <lpage>828</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10534-014-9755-2</pub-id>
+          <pub-id pub-id-type="pmid">24966132</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-cells-07-00008">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Klebanoff</surname>
+              <given-names>S.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Myeloperoxidase: Friend and foe</article-title>
+          <source>J. Leukoc. Biol.</source>
+          <year>2005</year>
+          <volume>77</volume>
+          <fpage>598</fpage>
+          <lpage>625</lpage>
+          <pub-id pub-id-type="doi">10.1189/jlb.1204697</pub-id>
+          <pub-id pub-id-type="pmid">15689384</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-cells-07-00008">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Da Costa</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Garc&#xED;a-Bailo</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Borchers</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Badawi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>El-Sohemy</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Association between the plasma proteome and serum ascorbic acid concentrations in humans</article-title>
+          <source>J. Nutr. Biochem.</source>
+          <year>2013</year>
+          <volume>24</volume>
+          <fpage>842</fpage>
+          <lpage>847</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jnutbio.2012.05.002</pub-id>
+          <pub-id pub-id-type="pmid">22841398</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-cells-07-00008">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Samygina</surname>
+              <given-names>V.R.</given-names>
+            </name>
+            <name>
+              <surname>Sokolov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Bourenkov</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Petoukhov</surname>
+              <given-names>M.V.</given-names>
+            </name>
+            <name>
+              <surname>Pulina</surname>
+              <given-names>M.O.</given-names>
+            </name>
+            <name>
+              <surname>Zakharova</surname>
+              <given-names>E.T.</given-names>
+            </name>
+            <name>
+              <surname>Vasilyev</surname>
+              <given-names>V.B.</given-names>
+            </name>
+            <name>
+              <surname>Bartunik</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Svergun</surname>
+              <given-names>D.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ceruloplasmin: Macromolecular assemblies with iron-containing acute phase proteins</article-title>
+          <source>PLoS ONE</source>
+          <year>2013</year>
+          <volume>8</volume>
+          <elocation-id>e67145</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0067145</pub-id>
+          <pub-id pub-id-type="pmid">23843990</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-cells-07-00008">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sokolov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Acquasaliente</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Kostevich</surname>
+              <given-names>V.A.</given-names>
+            </name>
+            <name>
+              <surname>Frasson</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Zakharova</surname>
+              <given-names>E.T.</given-names>
+            </name>
+            <name>
+              <surname>Pontarollo</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Vasilyev</surname>
+              <given-names>V.B.</given-names>
+            </name>
+            <name>
+              <surname>De Filippis</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thrombin inhibits the anti-myeloperoxidase and ferroxidase functions of ceruloplasmin: Relevance in rheumatoid arthritis</article-title>
+          <source>Free Radic. Biol. Med.</source>
+          <year>2015</year>
+          <volume>86</volume>
+          <fpage>279</fpage>
+          <lpage>294</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.freeradbiomed.2015.05.016</pub-id>
+          <pub-id pub-id-type="pmid">26001728</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-cells-07-00008">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sokolov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Kostevich</surname>
+              <given-names>V.A.</given-names>
+            </name>
+            <name>
+              <surname>Romanico</surname>
+              <given-names>D.N.</given-names>
+            </name>
+            <name>
+              <surname>Zakharova</surname>
+              <given-names>E.T.</given-names>
+            </name>
+            <name>
+              <surname>Vasilyev</surname>
+              <given-names>V.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Two-stage method for purification of ceruloplasmin based on its interaction with neomycin</article-title>
+          <source>Biochemistry</source>
+          <year>2012</year>
+          <volume>77</volume>
+          <fpage>631</fpage>
+          <lpage>638</lpage>
+          <pub-id pub-id-type="doi">10.1134/S0006297912060107</pub-id>
+          <pub-id pub-id-type="pmid">22817463</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-cells-07-00008">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fling</surname>
+              <given-names>S.P.</given-names>
+            </name>
+            <name>
+              <surname>Gregerson</surname>
+              <given-names>D.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Peptide and protein molecular weight determination by electrophoresis using a high-molarity tris buffer system without urea</article-title>
+          <source>Anal Biochem.</source>
+          <year>1986</year>
+          <volume>155</volume>
+          <fpage>83</fpage>
+          <lpage>88</lpage>
+          <pub-id pub-id-type="doi">10.1016/0003-2697(86)90228-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-cells-07-00008">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sud&#x2019;ina</surname>
+              <given-names>G.F.</given-names>
+            </name>
+            <name>
+              <surname>Brock</surname>
+              <given-names>T.G.</given-names>
+            </name>
+            <name>
+              <surname>Pushkareva</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Galkina</surname>
+              <given-names>S.I.</given-names>
+            </name>
+            <name>
+              <surname>Turutin</surname>
+              <given-names>D.V.</given-names>
+            </name>
+            <name>
+              <surname>Peters-Golden</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ullrich</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sulphatides trigger polymorphonuclear granulocyte spreading on collagen-coated surfaces and inhibit subsequent activation of 5-lipoxygenase</article-title>
+          <source>Biochem. J.</source>
+          <year>2001</year>
+          <volume>359</volume>
+          <fpage>621</fpage>
+          <lpage>629</lpage>
+          <pub-id pub-id-type="doi">10.1042/0264-6021:3590621</pub-id>
+          <pub-id pub-id-type="pmid">11672437</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-cells-07-00008">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hoffstein</surname>
+              <given-names>S.T.</given-names>
+            </name>
+            <name>
+              <surname>Gennaro</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Manzi</surname>
+              <given-names>R.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Neutrophils may directly synthesize both H<sub>2</sub>O<sub>2</sub> and O<sub>2</sub><sup>&#x2212;</sup> since surface stimuli induce their release in stimulus-specific ratios</article-title>
+          <source>Inflammation</source>
+          <year>1985</year>
+          <volume>9</volume>
+          <fpage>425</fpage>
+          <lpage>437</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF00916342</pub-id>
+          <pub-id pub-id-type="pmid">3000943</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-cells-07-00008">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Babior</surname>
+              <given-names>B.M.</given-names>
+            </name>
+            <name>
+              <surname>Kipnes</surname>
+              <given-names>R.S.</given-names>
+            </name>
+            <name>
+              <surname>Curnutte</surname>
+              <given-names>J.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biological defense mechanisms. The production by leukocytes of superoxide, a potential bactericidal agent</article-title>
+          <source>J. Clin. Investig.</source>
+          <year>1973</year>
+          <volume>52</volume>
+          <fpage>741</fpage>
+          <lpage>744</lpage>
+          <pub-id pub-id-type="doi">10.1172/JCI107236</pub-id>
+          <pub-id pub-id-type="pmid">4346473</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-cells-07-00008">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hodgson</surname>
+              <given-names>E.K.</given-names>
+            </name>
+            <name>
+              <surname>Fridovich</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>The accumulation of superoxide radical during the aerobic action of xanthine oxidase. A requiem for H<sub>2</sub>O<sub>4</sub></article-title>
+          <source>Biochim. Biophys. Acta</source>
+          <year>1976</year>
+          <volume>430</volume>
+          <fpage>182</fpage>
+          <lpage>188</lpage>
+          <pub-id pub-id-type="doi">10.1016/0005-2728(76)90233-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-cells-07-00008">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Galkina</surname>
+              <given-names>S.I.</given-names>
+            </name>
+            <name>
+              <surname>Dormeneva</surname>
+              <given-names>E.V.</given-names>
+            </name>
+            <name>
+              <surname>Bachschmid</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Pushkareva</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Sud&#x2019;ina</surname>
+              <given-names>G.F.</given-names>
+            </name>
+            <name>
+              <surname>Ullrich</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Endothelium-leukocyte interactions under the influence of the superoxide-nitrogen monoxide system</article-title>
+          <source>Med. Sci. Monit.</source>
+          <year>2004</year>
+          <volume>10</volume>
+          <fpage>BR307</fpage>
+          <lpage>BR316</lpage>
+          <pub-id pub-id-type="pmid">15328475</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-cells-07-00008">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nicoletti</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Migliorati</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Pagliacci</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Grignani</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Riccardi</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>A rapid and simple method for measuring thymocyte apoptosis by propidium iodide staining and flow cytometry</article-title>
+          <source>J. Immunol. Methods</source>
+          <year>1991</year>
+          <volume>139</volume>
+          <fpage>271</fpage>
+          <lpage>279</lpage>
+          <pub-id pub-id-type="doi">10.1016/0022-1759(91)90198-O</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-cells-07-00008">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rest</surname>
+              <given-names>R.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Measurement of human neutrophil respiratory burst activity during phagocytosis of bacteria</article-title>
+          <source>Methods Enzymol.</source>
+          <year>1994</year>
+          <volume>236</volume>
+          <fpage>119</fpage>
+          <lpage>136</lpage>
+          <pub-id pub-id-type="doi">10.1016/0076-6879(94)36012-X</pub-id>
+          <pub-id pub-id-type="pmid">7968605</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-cells-07-00008">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Winterbourn</surname>
+              <given-names>C.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>The challenges of using fluorescent probes to detect and quantify specific reactive oxygen species in living cells</article-title>
+          <source>Biochim. Biophys. Acta</source>
+          <year>2014</year>
+          <volume>1840</volume>
+          <fpage>730</fpage>
+          <lpage>738</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbagen.2013.05.004</pub-id>
+          <pub-id pub-id-type="pmid">23665586</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-cells-07-00008">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kalyanaraman</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Darley-Usmar</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Davies</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Dennery</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Forman</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Grisham</surname>
+              <given-names>M.B.</given-names>
+            </name>
+            <name>
+              <surname>Mann</surname>
+              <given-names>G.E.</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Roberts</surname>
+              <given-names>L.J.</given-names>
+              <suffix>2nd</suffix>
+            </name>
+			<name>
+              <surname>Ischiropoulos</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Measuring reactive oxygen and nitrogen species with fluorescent probes: Challenges and limitations</article-title>
+          <source>Free Radic. Biol. Med.</source>
+          <year>2012</year>
+          <volume>52</volume>
+          <fpage>1</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.freeradbiomed.2011.09.030</pub-id>
+          <pub-id pub-id-type="pmid">22027063</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-cells-07-00008">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rothe</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Valet</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Flow cytometric analysis of respiratory burst activity in phagocytes with hydroethidine and 2&#x2032;,7&#x2032;-dichlorofluorescin</article-title>
+          <source>J. Leukoc. Biol.</source>
+          <year>1990</year>
+          <volume>47</volume>
+          <fpage>440</fpage>
+          <lpage>448</lpage>
+          <pub-id pub-id-type="pmid">2159514</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-cells-07-00008">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rao</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Padmanabhan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kilby</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Currie</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Weinberg</surname>
+              <given-names>J.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Flow cytometric analysis of nitric oxide production in human neutrophils using dichlorofluorescein diacetate in the presence of a calmodulin inhibitor</article-title>
+          <source>J. Leukoc. Biol.</source>
+          <year>1992</year>
+          <volume>51</volume>
+          <fpage>496</fpage>
+          <lpage>500</lpage>
+          <pub-id pub-id-type="pmid">1602242</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-cells-07-00008">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Richter</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ng-Sikorski</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Olsson</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Andersson</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Tumor necrosis factor-induced degranulation in adherent human neutrophils is dependent on CD11b/CD18-integrin-triggered oscillations of cytosolic free Ca<sup>2+</sup></article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>1990</year>
+          <volume>87</volume>
+          <fpage>9472</fpage>
+          <lpage>9476</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.87.23.9472</pub-id>
+          <pub-id pub-id-type="pmid">1979172</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-cells-07-00008">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Scheel-Toellner</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Craddock</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Webb</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>McGettrick</surname>
+              <given-names>H.M.</given-names>
+            </name>
+            <name>
+              <surname>Assi</surname>
+              <given-names>L.K.</given-names>
+            </name>
+            <name>
+              <surname>Parkes</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Clough</surname>
+              <given-names>L.E.</given-names>
+            </name>
+            <name>
+              <surname>Gulbins</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Salmon</surname>
+              <given-names>M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Reactive oxygen species limit neutrophil life span by activating death receptor signaling</article-title>
+          <source>Blood</source>
+          <year>2004</year>
+          <volume>104</volume>
+          <fpage>2557</fpage>
+          <lpage>2564</lpage>
+          <pub-id pub-id-type="doi">10.1182/blood-2004-01-0191</pub-id>
+          <pub-id pub-id-type="pmid">15238425</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-cells-07-00008">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cross</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Moots</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Edwards</surname>
+              <given-names>S.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>The dual effects of TNFalpha on neutrophil apoptosis are mediated via differential effects on expression of Mcl-1 and Bfl-1</article-title>
+          <source>Blood</source>
+          <year>2008</year>
+          <volume>111</volume>
+          <fpage>878</fpage>
+          <lpage>884</lpage>
+          <pub-id pub-id-type="doi">10.1182/blood-2007-05-087833</pub-id>
+          <pub-id pub-id-type="pmid">17942758</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-cells-07-00008">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goldstein</surname>
+              <given-names>I.M.</given-names>
+            </name>
+            <name>
+              <surname>Kaplan</surname>
+              <given-names>H.B.</given-names>
+            </name>
+            <name>
+              <surname>Edelson</surname>
+              <given-names>H.S.</given-names>
+            </name>
+            <name>
+              <surname>Weissmann</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ceruloplasmin. A scavenger of superoxide anion radicals</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1979</year>
+          <volume>254</volume>
+          <fpage>4040</fpage>
+          <lpage>4045</lpage>
+          <pub-id pub-id-type="pmid">220229</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-cells-07-00008">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mukhopadhyay</surname>
+              <given-names>C.K.</given-names>
+            </name>
+            <name>
+              <surname>Fox</surname>
+              <given-names>P.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ceruloplasmin copper induces oxidant damage by a redox process utilizing cell-derived superoxide as reductant</article-title>
+          <source>Biochemistry</source>
+          <year>1998</year>
+          <volume>37</volume>
+          <fpage>14222</fpage>
+          <lpage>14229</lpage>
+          <pub-id pub-id-type="doi">10.1021/bi981137t</pub-id>
+          <pub-id pub-id-type="pmid">9760260</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-cells-07-00008">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shukla</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Maher</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Masters</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Angelini</surname>
+              <given-names>G.D.</given-names>
+            </name>
+            <name>
+              <surname>Jeremy</surname>
+              <given-names>J.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Does oxidative stress change ceruloplasmin from a protective to a vasculopathic factor?</article-title>
+          <source>Atherosclerosis</source>
+          <year>2006</year>
+          <volume>187</volume>
+          <fpage>238</fpage>
+          <lpage>250</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.atherosclerosis.2005.11.035</pub-id>
+          <pub-id pub-id-type="pmid">16412446</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-cells-07-00008">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Choi</surname>
+              <given-names>S.Y.</given-names>
+            </name>
+            <name>
+              <surname>Kwon</surname>
+              <given-names>H.Y.</given-names>
+            </name>
+            <name>
+              <surname>Kwon</surname>
+              <given-names>O.B.</given-names>
+            </name>
+            <name>
+              <surname>Eum</surname>
+              <given-names>W.S.</given-names>
+            </name>
+            <name>
+              <surname>Kang</surname>
+              <given-names>J.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fragmentation of human ceruloplasmin induced by hydrogen peroxide</article-title>
+          <source>Biochimie</source>
+          <year>2000</year>
+          <volume>82</volume>
+          <fpage>175</fpage>
+          <lpage>180</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0300-9084(00)00380-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-cells-07-00008">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Davies</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Hawkins</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Pattison</surname>
+              <given-names>D.I.</given-names>
+            </name>
+            <name>
+              <surname>Rees</surname>
+              <given-names>M.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mammalian heme peroxidases: From molecular mechanisms to health implications</article-title>
+          <source>Antioxid. Redox Signal.</source>
+          <year>2008</year>
+          <volume>10</volume>
+          <fpage>1199</fpage>
+          <lpage>1234</lpage>
+          <pub-id pub-id-type="doi">10.1089/ars.2007.1927</pub-id>
+          <pub-id pub-id-type="pmid">18331199</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-cells-07-00008">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Winterbourn</surname>
+              <given-names>C.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biological reactivity and biomarkers of the neutrophil oxidant, hypochlorous acid</article-title>
+          <source>Toxicology</source>
+          <year>2002</year>
+          <volume>181&#x2013;182</volume>
+          <fpage>223</fpage>
+          <lpage>227</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0300-483X(02)00286-X</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-cells-07-00008">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Freitas</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ribeiro</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Tom&#xE9;</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Silva</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Fernandes</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Synthesis of chlorinated flavonoids with anti-inflammatory and pro-apoptotic activities in human neutrophils</article-title>
+          <source>Eur. J. Med. Chem.</source>
+          <year>2014</year>
+          <volume>86</volume>
+          <fpage>153</fpage>
+          <lpage>164</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ejmech.2014.08.035</pub-id>
+          <pub-id pub-id-type="pmid">25151578</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-cells-07-00008">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lloyd</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Grima</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Rayner</surname>
+              <given-names>B.S.</given-names>
+            </name>
+            <name>
+              <surname>Hadfield</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Davies</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Hawkins</surname>
+              <given-names>C.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparative reactivity of the myeloperoxidase-derived oxidants hypochlorous acid and hypothiocyanous acid with human coronary artery endothelial cells</article-title>
+          <source>Free Radic. Biol. Med.</source>
+          <year>2013</year>
+          <volume>65</volume>
+          <fpage>1352</fpage>
+          <lpage>1362</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.freeradbiomed.2013.10.007</pub-id>
+          <pub-id pub-id-type="pmid">24120969</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-cells-07-00008">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>El Kebir</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>J&#xF3;zsef</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Filep</surname>
+              <given-names>J.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Myeloperoxidase delays neutrophil apoptosis through CD11b/CD18 integrins and prolongs inflammation</article-title>
+          <source>Circ. Res.</source>
+          <year>2008</year>
+          <volume>103</volume>
+          <fpage>352</fpage>
+          <lpage>359</lpage>
+          <pub-id pub-id-type="doi">10.1161/01.RES.0000326772.76822.7a</pub-id>
+          <pub-id pub-id-type="pmid">18617697</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-cells-07-00008">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lau</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Mollnau</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Eiserich</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Freeman</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Daiber</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gehling</surname>
+              <given-names>U.M.</given-names>
+            </name>
+            <name>
+              <surname>Br&#xFC;mmer</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Rudolph</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>M&#xFC;nzel</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Heitzer</surname>
+              <given-names>T.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Myeloperoxidase mediates neutrophil activation by association with CD11b/CD18 integrins</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2005</year>
+          <volume>102</volume>
+          <fpage>431</fpage>
+          <lpage>436</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0405193102</pub-id>
+          <pub-id pub-id-type="pmid">15625114</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-cells-07-00008">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grigorieva</surname>
+              <given-names>D.V.</given-names>
+            </name>
+            <name>
+              <surname>Gorudko</surname>
+              <given-names>I.V.</given-names>
+            </name>
+            <name>
+              <surname>Sokolov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Kostevich</surname>
+              <given-names>V.A.</given-names>
+            </name>
+            <name>
+              <surname>Vasilyev</surname>
+              <given-names>V.B.</given-names>
+            </name>
+            <name>
+              <surname>Cherenkevich</surname>
+              <given-names>S.N.</given-names>
+            </name>
+            <name>
+              <surname>Panasenko</surname>
+              <given-names>O.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Myeloperoxidase Stimulates Neutrophil Degranulation</article-title>
+          <source>Bull. Exp. Biol. Med.</source>
+          <year>2016</year>
+          <volume>161</volume>
+          <fpage>495</fpage>
+          <lpage>500</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10517-016-3446-7</pub-id>
+          <pub-id pub-id-type="pmid">27597056</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-cells-07-00008">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nathan</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Srimal</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Farber</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Sanchez</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Kabbash</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Asch</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gailit</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wright</surname>
+              <given-names>S.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytokine-induced respiratory burst of human neutrophils: Dependence on extracellular matrix proteins and CD11/CD18 integrins</article-title>
+          <source>J. Cell Biol.</source>
+          <year>1989</year>
+          <volume>109</volume>
+          <fpage>1341</fpage>
+          <lpage>1349</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.109.3.1341</pub-id>
+          <pub-id pub-id-type="pmid">2475511</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-cells-07-00008">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Decleva</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Dri</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Menegazzi</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Busetto</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Cramer</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evidence that TNF-induced respiratory burst of adherent PMN is mediated by integrin alpha(L)beta(2)</article-title>
+          <source>J. Leukoc. Biol.</source>
+          <year>2002</year>
+          <volume>72</volume>
+          <fpage>718</fpage>
+          <lpage>726</lpage>
+          <pub-id pub-id-type="pmid">12377941</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-cells-07-00008">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chiewchengchol</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Wright</surname>
+              <given-names>H.L.</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>H.B.</given-names>
+            </name>
+            <name>
+              <surname>Lam</surname>
+              <given-names>C.W.</given-names>
+            </name>
+            <name>
+              <surname>Roberts</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Hirankarn</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Beresford</surname>
+              <given-names>M.W.</given-names>
+            </name>
+            <name>
+              <surname>Moots</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Edwards</surname>
+              <given-names>S.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Differential changes in gene expression in human neutrophils following TNF-&#x3B1; stimulation: Up-regulation of anti-apoptotic proteins and down-regulation of proteins involved in death receptor signaling</article-title>
+          <source>Immun. Inflamm. Dis.</source>
+          <year>2015</year>
+          <volume>4</volume>
+          <fpage>35</fpage>
+          <lpage>44</lpage>
+          <pub-id pub-id-type="doi">10.1002/iid3.90</pub-id>
+          <pub-id pub-id-type="pmid">27042300</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-cells-07-00008">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Salamone</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Trevani</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mart&#xED;nez</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Vermeulen</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Gamberale</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Fern&#xE1;ndez-Calotti</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Raiden</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Giordano</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Geffner</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of the mechanisms involved in the stimulation of neutrophil apoptosis by tumour necrosis factor-alpha</article-title>
+          <source>Immunology</source>
+          <year>2004</year>
+          <volume>113</volume>
+          <fpage>355</fpage>
+          <lpage>362</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2567.2004.01973.x</pub-id>
+          <pub-id pub-id-type="pmid">15500622</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-cells-07-00008">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Test</surname>
+              <given-names>S.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of tumor necrosis factor on the generation of chlorinated oxidants by adherent human neutrophils</article-title>
+          <source>J. Leukoc. Biol.</source>
+          <year>1991</year>
+          <volume>50</volume>
+          <fpage>131</fpage>
+          <lpage>139</lpage>
+          <pub-id pub-id-type="pmid">1649239</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-cells-07-00008">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chatham</surname>
+              <given-names>W.W.</given-names>
+            </name>
+            <name>
+              <surname>Turkiewicz</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Blackburn</surname>
+              <given-names>W.D.</given-names>
+              <suffix>Jr.</suffix>
+            </name>
+          </person-group>
+          <article-title>Determinants of neutrophil HOCl generation: Ligand-dependent responses and the role of surface adhesion</article-title>
+          <source>J. Leukoc. Biol.</source>
+          <year>1994</year>
+          <volume>56</volume>
+          <fpage>654</fpage>
+          <lpage>660</lpage>
+          <pub-id pub-id-type="pmid">7964173</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-cells-07-00008">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hanlon</surname>
+              <given-names>W.A.</given-names>
+            </name>
+            <name>
+              <surname>Stolk</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Davies</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Humes</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Mumford</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Bonney</surname>
+              <given-names>R.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>rTNF alpha facilitates human polymorphonuclear leukocyte adherence to fibrinogen matrices with mobilization of specific and tertiary but not azurophilic granule markers</article-title>
+          <source>J. Leukoc. Biol.</source>
+          <year>1991</year>
+          <volume>50</volume>
+          <fpage>43</fpage>
+          <lpage>48</lpage>
+          <pub-id pub-id-type="pmid">1647433</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-cells-07-00008">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Segelmark</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Persson</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Hellmark</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Wieslander</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Binding and inhibition of myeloperoxidase (MPO): A major function of ceruloplasmin?</article-title>
+          <source>Clin. Exp. Immunol.</source>
+          <year>1997</year>
+          <volume>108</volume>
+          <fpage>167</fpage>
+          <lpage>174</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2249.1997.d01-992.x</pub-id>
+          <pub-id pub-id-type="pmid">9097926</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-cells-07-00008">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karlsson</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kurz</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Brunk</surname>
+              <given-names>U.T.</given-names>
+            </name>
+            <name>
+              <surname>Nilsson</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Frennesson</surname>
+              <given-names>C.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>What does the commonly used DCF test for oxidative stress really show?</article-title>
+          <source>Biochem. J.</source>
+          <year>2010</year>
+          <volume>428</volume>
+          <fpage>183</fpage>
+          <lpage>190</lpage>
+          <pub-id pub-id-type="doi">10.1042/BJ20100208</pub-id>
+          <pub-id pub-id-type="pmid">20331437</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-cells-07-00008">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sokolov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Ageeva</surname>
+              <given-names>K.V.</given-names>
+            </name>
+            <name>
+              <surname>Pulina</surname>
+              <given-names>M.O.</given-names>
+            </name>
+            <name>
+              <surname>Cherkalina</surname>
+              <given-names>O.S.</given-names>
+            </name>
+            <name>
+              <surname>Samygina</surname>
+              <given-names>V.R.</given-names>
+            </name>
+            <name>
+              <surname>Vlasova</surname>
+              <given-names>I.I.</given-names>
+            </name>
+            <name>
+              <surname>Panasenko</surname>
+              <given-names>O.M.</given-names>
+            </name>
+            <name>
+              <surname>Zakharova</surname>
+              <given-names>E.T.</given-names>
+            </name>
+            <name>
+              <surname>Vasilyev</surname>
+              <given-names>V.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ceruloplasmin and myeloperoxidase in complex affect the enzymatic properties of each other</article-title>
+          <source>Free Radic. Res.</source>
+          <year>2008</year>
+          <volume>42</volume>
+          <fpage>989</fpage>
+          <lpage>998</lpage>
+          <pub-id pub-id-type="doi">10.1080/10715760802566574</pub-id>
+          <pub-id pub-id-type="pmid">19031316</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52-cells-07-00008">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sokolov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Ageeva</surname>
+              <given-names>K.V.</given-names>
+            </name>
+            <name>
+              <surname>Kostevich</surname>
+              <given-names>V.A.</given-names>
+            </name>
+            <name>
+              <surname>Berlov</surname>
+              <given-names>M.N.</given-names>
+            </name>
+            <name>
+              <surname>Runova</surname>
+              <given-names>O.L.</given-names>
+            </name>
+            <name>
+              <surname>Zakharova</surname>
+              <given-names>E.T.</given-names>
+            </name>
+            <name>
+              <surname>Vasilyev</surname>
+              <given-names>V.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Study of interaction of ceruloplasmin with serprocidins</article-title>
+          <source>Biochemistry</source>
+          <year>2010</year>
+          <volume>75</volume>
+          <fpage>1361</fpage>
+          <lpage>1367</lpage>
+          <pub-id pub-id-type="doi">10.1134/S0006297910110076</pub-id>
+          <pub-id pub-id-type="pmid">21314603</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53-cells-07-00008">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Loison</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Karatepe</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kasorn</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Ye</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gong</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Jenne</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Proteinase 3-dependent caspase-3 cleavage modulates neutrophil death and inflammation</article-title>
+          <source>J. Clin. Investig.</source>
+          <year>2014</year>
+          <volume>124</volume>
+          <fpage>4445</fpage>
+          <lpage>4458</lpage>
+          <pub-id pub-id-type="doi">10.1172/JCI76246</pub-id>
+          <pub-id pub-id-type="pmid">25180606</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54-cells-07-00008">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sokolov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Solovyov</surname>
+              <given-names>K.V.</given-names>
+            </name>
+            <name>
+              <surname>Kostevich</surname>
+              <given-names>V.A.</given-names>
+            </name>
+            <name>
+              <surname>Chekanov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Pulina</surname>
+              <given-names>M.O.</given-names>
+            </name>
+            <name>
+              <surname>Zakharova</surname>
+              <given-names>E.T.</given-names>
+            </name>
+            <name>
+              <surname>Shavlovski</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Panasenko</surname>
+              <given-names>O.M.</given-names>
+            </name>
+            <name>
+              <surname>Vasilyev</surname>
+              <given-names>V.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Protection of ceruloplasmin by lactoferrin against hydroxyl radicals is pH dependent</article-title>
+          <source>Biochem. Cell Biol.</source>
+          <year>2012</year>
+          <volume>90</volume>
+          <fpage>397</fpage>
+          <lpage>404</lpage>
+          <pub-id pub-id-type="doi">10.1139/o2012-004</pub-id>
+          <pub-id pub-id-type="pmid">22397552</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55-cells-07-00008">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ryd&#xE9;n</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evidence for proteolytic fragments in commercial samples of human ceruloplasmin</article-title>
+          <source>FEBS Lett.</source>
+          <year>1971</year>
+          <volume>18</volume>
+          <fpage>321</fpage>
+          <lpage>325</lpage>
+          <pub-id pub-id-type="doi">10.1016/0014-5793(71)80477-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B56-cells-07-00008">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kingston</surname>
+              <given-names>I.B.</given-names>
+            </name>
+            <name>
+              <surname>Kingston</surname>
+              <given-names>B.L.</given-names>
+            </name>
+            <name>
+              <surname>Putnam</surname>
+              <given-names>F.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Chemical evidence that proteolytic cleavage causes the heterogeneity present in human ceruloplasmin preparations</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>1977</year>
+          <volume>74</volume>
+          <fpage>5377</fpage>
+          <lpage>5381</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.74.12.5377</pub-id>
+          <pub-id pub-id-type="pmid">146197</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B57-cells-07-00008">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>I.G.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>S.Y.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>K.C.</given-names>
+            </name>
+            <name>
+              <surname>Yum</surname>
+              <given-names>J.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thiol-linked peroxidase activity of human ceruloplasmin</article-title>
+          <source>FEBS Lett.</source>
+          <year>1998</year>
+          <volume>431</volume>
+          <fpage>473</fpage>
+          <lpage>475</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0014-5793(98)00817-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B58-cells-07-00008">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Francis</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Hampson</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>S.P.</given-names>
+            </name>
+            <name>
+              <surname>Deigner</surname>
+              <given-names>H.P.</given-names>
+            </name>
+            <name>
+              <surname>Salmon</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Scheel-Toellner</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Lord</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lactoferrin inhibits neutrophil apoptosis via blockade of proximal apoptotic signaling events</article-title>
+          <source>Biochim. Biophys. Acta</source>
+          <year>2011</year>
+          <volume>1813</volume>
+          <fpage>1822</fpage>
+          <lpage>1826</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbamcr.2011.07.004</pub-id>
+          <pub-id pub-id-type="pmid">21781990</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B59-cells-07-00008">
+        <label>59.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sokolov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Ageeva</surname>
+              <given-names>K.V.</given-names>
+            </name>
+            <name>
+              <surname>Pulina</surname>
+              <given-names>M.O.</given-names>
+            </name>
+            <name>
+              <surname>Zakharova</surname>
+              <given-names>E.T.</given-names>
+            </name>
+            <name>
+              <surname>Vasilyev</surname>
+              <given-names>V.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of lactoferrin on oxidative features of ceruloplasmin</article-title>
+          <source>Biometals</source>
+          <year>2009</year>
+          <volume>22</volume>
+          <fpage>521</fpage>
+          <lpage>529</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10534-009-9209-4</pub-id>
+          <pub-id pub-id-type="pmid">19189056</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B60-cells-07-00008">
+        <label>60.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Panasenko</surname>
+              <given-names>O.M.</given-names>
+            </name>
+            <name>
+              <surname>Gorudko</surname>
+              <given-names>I.V.</given-names>
+            </name>
+            <name>
+              <surname>Sokolov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hypochlorous acid as a precursor of free radicals in living systems</article-title>
+          <source>Biochemistry (Mosc.)</source>
+          <year>2013</year>
+          <volume>78</volume>
+          <fpage>1466</fpage>
+          <lpage>1489</lpage>
+          <pub-id pub-id-type="doi">10.1134/S0006297913130075</pub-id>
+          <pub-id pub-id-type="pmid">24490735</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B61-cells-07-00008">
+        <label>61.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Golenkina</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Livenskyi</surname>
+              <given-names>A.D.</given-names>
+            </name>
+            <name>
+              <surname>Viryasova</surname>
+              <given-names>G.M.</given-names>
+            </name>
+            <name>
+              <surname>Romanova</surname>
+              <given-names>Y.M.</given-names>
+            </name>
+            <name>
+              <surname>Sud'ina</surname>
+              <given-names>G.F.</given-names>
+            </name>
+            <name>
+              <surname>Sokolov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ceruloplasmin-derived peptide is the strongest regulator of oxidative stress and leukotriene synthesis in neutrophils</article-title>
+          <source>Biochem. Cell Biol.</source>
+          <year>2017</year>
+          <volume>95</volume>
+          <fpage>445</fpage>
+          <lpage>449</lpage>
+          <pub-id pub-id-type="doi">10.1139/bcb-2016-0180</pub-id>
+          <pub-id pub-id-type="pmid">28177760</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn>
+        <p><bold>Sample Availability:</bold> Samples of holo-ceruloplasmin, its copper-free (apo-) and partially proteolyzed forms, and synthetic free peptides RPYLKVFNPR (883&#x2013;892) and RRPYLKVFNPRR (882&#x2013;893) are available from the authors.</p>
+      </fn>
+    </fn-group>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="cells-07-00008-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Effects of ceruloplasmin (CP) and its derivatives on superoxide generation by neutrophils and cell-free cytochrome c (Cyto C) reduction. (<bold>A</bold>) Polymorphonuclear leukocytes (PMNLs; 10<sup>6</sup>/mL) were supplemented with Cyto C and cultured with 0.5 &#xB5;M CP, 0.5 &#xB5;M apo-CP, 0.5 &#xB5;M CPprot (proteolyzed ceruloplasmin), or 20 &#xB5;M peptides (P1 or P2), with or without 25 ng/mL TNF-&#x3B1;. Phorbol 12-myristate 13-acetate (PMA; 1 nM) and 30 U/mL superoxide dismutase (SOD) were used as positive and negative controls, respectively. Cells were incubated in 24-well plates for 30 min at 37 &#xB0;C. The rate of Cyto C reduction was measured by the change in differences between absorptions at 550 and 531 nm. Values represent the means &#xB1; SEM of &#x394; (550/531) of duplicate cultures from six independent experiments; *, # <italic>p</italic> &lt; 0.05 compared to control (medium) and TNF-&#x3B1;-treated PMNLs, respectively (one-way ANOVA followed by Holm&#x2013;&#x160;&#xED;d&#xE1;k multiple comparison tests). (<bold>B</bold>) Representative spectra recorded at 600&#x2013;500 nm of Cyto C reduction in PMNL incubations with apo-CP, CP, CPprot, and PMA. <bold>C.</bold> Cyto C was incubated with 0.5 &#xB5;M CP, 0.5 &#xB5;M apo-CP, 0.5 &#xB5;M CPprot or with 100 &#x3BC;M HX + 0.005 U/mL XO following spectra recording as above.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00008-g001.tif"/>
+      </fig>
+      <fig id="cells-07-00008-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Effects of ceruloplasmin (CP) and its derivatives on intracellular superoxide generation by neutrophils. Dihydroethidium (DHE)-stained polymorphonuclear leukocytes (PMNLs) were cultured with 0.5 &#xB5;M CP, 0.5 &#xB5;M apo-CP, 0.5 &#xB5;M proteolyzed CP (CPprot), or 20 &#xB5;M peptides (P1 or P2), with or without 25 ng/mL TNF-&#x3B1; for 60 min at 37 &#xB0;C, which was followed by flow cytometric measurements of red fluorescence. (<bold>A</bold>) Values represent the means &#xB1; SEM of fluorescence intensities, arbitrary units of duplicate cultures from four independent experiments; **, <sup>##</sup> <italic>p</italic> &lt; 0.01, compared to the control (medium) and TNF-&#x3B1;-treated PMNLs, respectively (one-way ANOVA followed by Holm&#x2013;&#x160;&#xED;d&#xE1;k multiple comparison tests). (<bold>B</bold>) Representative histograms of PMNL distribution according to accumulation of DHE oxidation products.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00008-g002.tif"/>
+      </fig>
+      <fig id="cells-07-00008-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Effects of ceruloplasmin (CP) and its derivatives on intracellular reactive oxygen species (ROS) generation by neutrophils. H<sub>2</sub>DCF-DA stained polymorphonuclear leukocytes (PMNLs) were cultured with 0.5 &#xB5;M CP, 0.5 &#xB5;M apo-CP, 0.5 &#xB5;M CPprot (proteolyzed CP), or 20 &#xB5;M peptides (P1 or P2), with or without 25 ng/mL TNF-&#x3B1; (<bold>A</bold>) or 1 &#xB5;M lactoferrin (LF) <bold>(C)</bold> for 60 min at 37 &#xB0;C followed by fluorometric measurements of green fluorescence. (<bold>B</bold>) H<sub>2</sub>DCF-DA-oxidase activity of intact CP, CPprot (0.05&#x2013;2 &#xB5;M) in cell-free assay. Apo-CP was used as a control. Values represent the means &#xB1; SEM of fluorescence intensities, arbitrary units of duplicate cultures from six independent experiments; * <italic>p</italic> &lt; 0.05, ** <italic>p</italic> &lt; 0.01, compared to the control (medium); <sup>#</sup> <italic>p</italic> &lt; 0.05, compared to TNF-&#x3B1;-treated PMNLs; <sup>&#x2020;</sup> <italic>p</italic> &lt; 0.05, <sup>&#x2020;&#x2020;</sup> <italic>p</italic> &lt; 0.01 for pairs of data compared (one-way ANOVA followed by Holm&#x2013;&#x160;&#xED;d&#xE1;k multiple comparison tests).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00008-g003.tif"/>
+      </fig>
+      <fig id="cells-07-00008-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Spontaneous apoptosis of human neutrophils after exposure to ceruloplasmin (CP) or its derivatives. Polymorphonuclear leukocytes (PMNLs; 10<sup>6</sup>/mL) were cultured for 20&#x2009;h at 37 &#xB0;C without additives or with 0.5 &#xB5;M intact CP, 0.5 &#xB5;M apo-CP, 0.5 &#xB5;M CPprot (proteolyzed CP), or 20 &#xB5;M peptides (P1 or P2). The percentage of Annexin V- or propidium iodide (PI)-positive cells was determined by flow cytometry. (<bold>A</bold>) Representative dot plots for phosphatidylserine externalization by apoptotic cells, as well as the proportions of viable (region P3), early apoptotic (region P4), and late apoptotic and necrotic cells (regions P2 and P1) are indicated. (<bold>B</bold>) Presented are pooled data with the percentage of apoptotic cells. Values indicate the mean &#xB1; SEM of duplicate cultures from three independent experiments; * <italic>p</italic> &lt; 0.05, compared to control (one-way ANOVA followed by Holm&#x2013;&#x160;&#xED;d&#xE1;k multiple comparison tests).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00008-g004.tif"/>
+      </fig>
+      <fig id="cells-07-00008-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Effect of ceruloplasmin (CP) and its derivatives on spontaneous neutrophil apoptosis. Polymorphonuclear leukocytes (PMNLs; 10<sup>6</sup>/mL) were cultured at 37 &#xB0;C with 0.5 &#xB5;M intact CP, 0.5 &#xB5;M apo-CP, 0.5 &#xB5;M CPprot (proteolyzed CP), or 20 &#xB5;M peptides (P1 or P2) for 20 h and assayed for the proportion Sub G1 PMNLs by flow cytometry. (<bold>A</bold>) Apoptosis levels induced by the indicated compounds. Bars begin at the control line (which corresponds to 9.3 &#xB1; 0.77%), values indicate the mean &#xB1; SEM of duplicate cultures from six independent experiments; * <italic>p</italic> &lt; 0.05, compared to control (one-way ANOVA followed by Holm&#x2013;&#x160;&#xED;d&#xE1;k multiple comparison tests). (<bold>B</bold>) Representative histograms of nuclear DNA fragmentation.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00008-g005.tif"/>
+      </fig>
+      <fig id="cells-07-00008-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Neutrophil apoptosis with simultaneous exposure to ceruloplasmin (CP) and its derivatives and TNF-&#x3B1;. Polymorphonuclear leukocytes (PMNLs; 10<sup>6</sup>/mL) were cultured at 37 &#xB0;C with 0.5 &#xB5;M intact CP, 0.5 &#xB5;M CPprot (proteolyzed CP), 0.5 &#xB5;M apo-CP, or 20 &#xB5;M peptides (P1 or P2), with or without 25 ng/mL TNF-&#x3B1; for 20 h; nuclear DNA fragmentation was assayed both by PI staining of hypo-diploid nuclei and by the detection of DNA strand breaks by TUNEL. (<bold>A</bold>) Presented are pooled data with the percentage of apoptotic cells. Values are the mean &#xB1; SEM of duplicate cultures from six independent experiments; * <italic>p</italic> &lt; 0.05 and ** <italic>p</italic> &lt; 0.01 (one-way ANOVA followed by Holm&#x2013;&#x160;&#xED;d&#xE1;k multiple comparison tests). Representative histograms of apoptotic DNA fragmentation revealed as the SubG1-subpopulation (<bold>B</bold>) and as labeled with FITC-12-dUTP DNA strand breaks (<bold>C</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00008-g006.tif"/>
+      </fig>
+      <table-wrap id="cells-07-00008-t001" position="float">
+        <object-id pub-id-type="pii">cells-07-00008-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Quantitative evaluation of protein preparations.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Compound</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">A<sub>610</sub>/A<sub>280</sub></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">M (Percentage), kDa</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Intact CP</td>
+              <td align="center" valign="middle">&gt;0.050</td>
+              <td align="center" valign="middle">132 (94%), 116 (2%), 19 (2%) </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CPprot</td>
+              <td align="center" valign="middle">&gt;0.049</td>
+              <td align="center" valign="middle">116 (18%), 72 (16%), 67 (16%), 52 (16%), 19 (34%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Apo-CP</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&lt;0.0001</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">132 (94%), 116 (2%), 19 (2%)</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="cells-07-00008-t002" position="float">
+        <object-id pub-id-type="pii">cells-07-00008-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Amino acid sequences of the peptides used in this study.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Abbreviation</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Amino Acid Sequence</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Molecular Mass (Da)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">P1</td>
+              <td align="center" valign="middle">RPYLKVFNPR (883&#x2013;892)</td>
+              <td align="center" valign="middle">1290</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">P2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">RRPYLKVFNPRR (882&#x2013;893)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1600</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

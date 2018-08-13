@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells4010056</article-id>
+      <article-id pub-id-type="publisher-id">cells-04-00056</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>ELISPOTs Produced by CD8 and CD4 Cells Follow Log Normal Size Distribution Permitting Objective Counting </article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Karulin</surname>
+            <given-names>Alexey Y.</given-names>
+          </name>
+          <xref rid="af1-cells-04-00056" ref-type="aff">1</xref>
+          <xref rid="c1-cells-04-00056" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Karacsony</surname>
+            <given-names>Kinga</given-names>
+          </name>
+          <xref rid="af1-cells-04-00056" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Wenji</given-names>
+          </name>
+          <xref rid="af1-cells-04-00056" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Targoni</surname>
+            <given-names>Oleg S.</given-names>
+          </name>
+          <xref rid="af1-cells-04-00056" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Moldovan</surname>
+            <given-names>Ioana</given-names>
+          </name>
+          <xref rid="af1-cells-04-00056" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dittrich</surname>
+            <given-names>Marcus</given-names>
+          </name>
+          <xref rid="af2-cells-04-00056" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sundararaman</surname>
+            <given-names>Srividya</given-names>
+          </name>
+          <xref rid="af1-cells-04-00056" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lehmann</surname>
+            <given-names>Paul V.</given-names>
+          </name>
+          <xref rid="af1-cells-04-00056" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Kalyuzhny</surname>
+            <given-names>Alexander E.</given-names>
+          </name>
+		  <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-04-00056"><label>1</label>Cellular Technology Ltd., 20521 Chagrin Blvd. Shaker Heights, OH 44122, USA; E-Mails: <email>kinga.karacson@immunospot.com</email> (K.K); <email>wenji.zhang@immunospot.com</email> (W.Z.); <email>oleg.targoni@immunospot.com</email> (O.S.T.); <email>ioana.moldovan@immunospot.com</email> (I.M.); <email>srividya.sundararaman@immunospot.com</email> (S.S.); <email>pvl@immunospot.com</email> (P.V.L.). </aff>
+      <aff id="af2-cells-04-00056"><label>2</label>M.D., Ph.D., Biocenter, University of Wuerzburg, Am Hubland, 97074 W&#xFC;rzburg, Germany; E-Mail: <email>marcus.dittrich@biozentrum.uni-wuerzburg.de</email></aff>
+      <author-notes>
+        <corresp id="c1-cells-04-00056"><label>*</label>Author to whom correspondence should be addressed; E-Mail: <email>ayk@immunospot.com</email>; Tel.: +1-216-791-5084; Fax: +1-216-791-8814.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>20</day>
+        <month>01</month>
+        <year>2015</year>
+      </pub-date>
+      <pub-date pub-type="collection">        <month>03</month>
+        <year>2015</year>
+      </pub-date>
+      <volume>4</volume>
+      <issue>1</issue>
+      <fpage>56</fpage>
+      <lpage>70</lpage>
+      <history>
+        <date date-type="received">
+          <day>03</day>
+          <month>11</month>
+          <year>2014</year>
+        </date>
+        <date date-type="accepted">
+          <day>14</day>
+          <month>01</month>
+          <year>2015</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2015 by the authors.</copyright-statement>
+        <copyright-year>2015</copyright-year>
+        <license license-type="open-access">
+          <p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Each positive well in ELISPOT assays contains spots of variable sizes that can range from tens of micrometers up to a millimeter in diameter. Therefore, when it comes to counting these spots the decision on setting the lower and the upper spot size thresholds to discriminate between non-specific background noise, spots produced by individual T cells, and spots formed by T cell clusters is critical. If the spot sizes follow a known statistical distribution, precise predictions on minimal and maximal spot sizes, belonging to a given T cell population, can be made. We studied the size distributional properties of IFN-&#x3B3;, IL-2, IL-4, IL-5 and IL-17 spots elicited in ELISPOT assays with PBMC from 172 healthy donors, upon stimulation with 32 individual viral peptides representing defined HLA Class I-restricted epitopes for CD8 cells, and with protein antigens of CMV and EBV activating CD4 cells. A total of 334 CD8 and 80 CD4 positive T cell responses were analyzed. In 99.7% of the test cases, spot size distributions followed Log Normal function. These data formally demonstrate that it is possible to establish objective, statistically validated parameters for counting T cell ELISPOTs.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>ELISPOT</kwd>
+        <kwd>Normal Distribution</kwd>
+        <kwd>software</kwd>
+        <kwd>spot size</kwd>
+        <kwd>gating</kwd>
+        <kwd>cytokines</kwd>
+        <kwd>IFN-&#x3B3;</kwd>
+        <kwd>IL-2</kwd>
+        <kwd>IL-4</kwd>
+        <kwd>IL-5</kwd>
+        <kwd>IL-17</kwd>
+        <kwd>T cells</kwd>
+        <kwd>CD4</kwd>
+        <kwd>CD8</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>1. Introduction</title>
+      <p>The primary goal of ELISPOT analysis is to accurately establish the frequency of antigen-specific T cells within the total population of peripheral blood mononuclear cells, PBMC [<xref ref-type="bibr" rid="B1-cells-04-00056">1</xref>]. Their frequency measured in the blood, <italic>ex vivo</italic>, reveals the clonal size of antigen-specific T cells <italic>in vivo</italic>, <italic>i.e.</italic> the magnitude of the T cell response to an antigen. Whereas a given blood sample will contain a discrete number of antigen-specific T cells, ensuring precise measurements of such remains challenging. Immunoassay proficiency panels attempting to measure the frequencies of antigen-specific T cells within identical PBMC sample aliquots, at multiple testing facilities, have reported alarming discrepancies [<xref ref-type="bibr" rid="B2-cells-04-00056">2</xref>]. For tetramer assays, results varied by more than 100-fold, intracytoplasmic staining assays (ICS) varied by 20-fold, and ELISPOT assays 35-fold in their measurements of antigen-specific T cell frequencies. This variability resulted from both un-harmonized assay protocols and data analysis. Even when using dedicated ELISPOT counting software, counting parameters established subjectively by different investigators result in high variability of spot counts. If, however, objective automated spot-size gating could be applied to ELISPOT analysis, one could eliminate subjective judgment from the counting process, and such assays would reliably measure antigen-specific T cells with high precision. </p>
+      <p>T cell ELISPOT assays, irrespective of the cytokines measured, always result in a wide range of spot sizes. This variability in ELISPOT sizes is a function of the different quantities of cytokine secreted by individual T cells following antigen stimulation, and is invariably seen with intracytoplasmic staining as well [<xref ref-type="bibr" rid="B3-cells-04-00056">3</xref>,<xref ref-type="bibr" rid="B4-cells-04-00056">4</xref>]. In addition to the cognate spots generated by the antigen-specific T cells, some spots can be produced by clusters of T cells, others by bystander cells (like NK cells in IFN-&#x3B3; assays) and some might represent assay artifacts. Similar to flow cytometry, in order to ensure the accuracy of T cell frequency measurements, it is necessary to set upper and lower spot size thresholds (gates) for ELISPOT counting, to distinguish spots produced by individual antigen-specific T cells from clusters of such cells (upper gate), as well as from non-specific background spots (lower gate). If spots produced by individual T cells follow a specific (known) theoretical distribution function, upper and lower gates can be automatically calculated by ELISPOT counting software based on objective statistical criteria. </p>
+      <p>We set out to establish the basic criterion for accurate ELISPOT data analysis by experimentally investigating the scientific principles underlying these assays. By seeding T cell clones on a monolayer of antigen presenting cells (APC), we were able to examine the cytokine secretion signature of defined numbers of individual T cells in ELISPOT assays [<xref ref-type="bibr" rid="B5-cells-04-00056">5</xref>]. ELISPOTs generated by cloned T cells covered a wide range of sizes. However, the size distribution of these spots showed the symmetric bell-shaped curve, in logarithmic scale, characteristic of Gaussian (Normal) distribution. The average spot sizes as well as the ranges of these experimental distributions varied depending on the dose of antigen used and the length of time since the previous stimulation. Yet in all cases, the observed spot sizes closely followed Log Normal distribution [<xref ref-type="bibr" rid="B5-cells-04-00056">5</xref>]. </p>
+      <p><italic>Ex vivo</italic> T cell responses are rarely clonal. Therefore, we set out to observe spot size distributions for real T cell antigen-recall responses in humans and mice. All such data analyzed so far showed the bell-shaped distribution of spot sizes. For human CD8 T cells, this distribution was observed for individual EBV, HCMV, HIV, influenza virus peptides, as well as peptide pools [<xref ref-type="bibr" rid="B6-cells-04-00056">6</xref>,<xref ref-type="bibr" rid="B7-cells-04-00056">7</xref>,<xref ref-type="bibr" rid="B8-cells-04-00056">8</xref>,<xref ref-type="bibr" rid="B9-cells-04-00056">9</xref>,<xref ref-type="bibr" rid="B10-cells-04-00056">10</xref>,<xref ref-type="bibr" rid="B11-cells-04-00056">11</xref>]. For human CD4 T cells, the distribution was seen for Candida, HCMV, Mumps, and Vaccinia virus antigens [<xref ref-type="bibr" rid="B6-cells-04-00056">6</xref>,<xref ref-type="bibr" rid="B7-cells-04-00056">7</xref>,<xref ref-type="bibr" rid="B8-cells-04-00056">8</xref>,<xref ref-type="bibr" rid="B12-cells-04-00056">12</xref>,<xref ref-type="bibr" rid="B13-cells-04-00056">13</xref>,<xref ref-type="bibr" rid="B14-cells-04-00056">14</xref>], and it was also seen for OVA and MOG in Balb/c and B6 mice [<xref ref-type="bibr" rid="B10-cells-04-00056">10</xref>].</p>
+      <p>Despite the bell-shaped curves, and their Log Normal distribution, observed in the above mentioned literature, there was no statistical assessment <italic>i.e.</italic>, &#x201C;goodness of fit&#x201D; test that was formally performed. Also, the above referenced studies were conducted on relatively few test subjects (generally less than 10). Given the importance for definitively establishing whether T derived ELISPOTs follow Log Normal distribution (and therefore whether they can be counted objectively), we set out to conduct a systematic survey from a substantial library of ELISPOT data communicated in this paper. </p>
+      <p>We tested 172 healthy human donors for recall responses induced by defined peptide and protein antigens. A total of 334 positive ELISPOT responses generated by CD8 cells, and 80 individual CD4 recall responses have been identified. The responses were selected based of high numbers of antigen-induced spots (&gt;1000 spots cumulatively in up to 20 replicate wells) to permit stringent statistical analysis of spot size distributions. Using the Kolmogorov&#x2013;Smirnov test we observed that the donors&#x2019; responses to antigen stimulation displayed Log Normal size distributions. Log Normal distributions allow objective size gating based on statistical principles ensuring accurate spot counts. </p>
+    </sec>
+    <sec>
+      <title>2. Experimental Section </title>
+      <sec>
+        <title>2.1. PBMC </title>
+        <p>Cryopreserved human PBMC of 172 healthy donors were obtained from a library of PBMC (ePBMC, CTL CP1) offered by Cellular Technologies Ltd. (CTL, Shaker Heights, OH, USA). In addition to high-resolution HLA-typing, these PBMC had been previously characterized for T cell reactivity to a panel of antigens. Prior to testing, the PBMC cryovials, stored in liquid N<sub>2</sub> vapor phase, were transferred to dry ice in Styrofoam containers for transport to, and short term storage in, the testing laboratory. The cells were thawed following a protocol that we have established to provide the optimal recovery and functionality for cryopreserved PBMC [<xref ref-type="bibr" rid="B15-cells-04-00056">15</xref>]. Specifically, to rapidly warm up to 37 &#xB0;C, the cryovials were placed for 8 min into a 37 &#xB0;C glass bead bath (CTL-BB-001). The cryovials were inverted twice to re-suspend the cells, and the 1 mL cell suspension contained in each cryovial (10 &#xD7; 10<sup>6 </sup>cells) was gently aspirated utilizing a wide-bore 2 mL pipette and transferred into a 15 mL V bottom Falcon tube. To recover the residual cells, the cryovials were rinsed by adding 1 mL 37 &#xB0;C warm CTL Anti-Aggregate Wash&#x2122; Medium (CTL-AA-005) containing benzonase. An additional 8 mL CTL Anti-Aggregate Wash&#x2122; Medium at 37 &#xB0;C was added to the 15 mL tube at a rate of 2 mL per 5 s. After washing, a sample of the cells was counted while also determining viability using the Live/Dead/Apoptotic cell counting platform by CTL (Cat# CTL-LDAC-100). PBMC were washed twice in 10 mL CTL-Test&#x2122; Medium (CTLT-005) and re-suspended at a final concentration of 3 &#xD7; 10<sup>6</sup> PBMC/mL in the same medium. The freshly thawed PBMC were plated into an ELISPOT assay plate within 1 h of thawing. </p>
+      </sec>
+      <sec>
+        <title>2.2. ELISPOT Assays</title>
+        <p>Human Interferon-&#x3B3; ImmunoSpot&#xAE; kits (CTL-HIFNG-1/5M), human IL-2- (CTL-HIL21M/5), IL-4- (CTL-HIL4-1M/5), IL-5- (CTL-HIL5-1M/5), and IL-17 kits (CTL-HIL17-1M/5) were obtained from CTL. These cytokine assays were each performed according to the manufacturer&#x2019;s recommendations. The individual peptide antigens from the CEF32 pool (CTL Cat # CEF32-07-001-32) were plated at 4 &#x3BC;g/mL, whereas EBV and CMV Grade 2 antigens (Microbix Biosystem Inc. Ontario, Canada) were plated at 50 &#x3BC;g/mL. The antigens were dissolved in either CTL-Test&#x2122; Medium (CTLT-005) or signal-enhancing CTL-Test Plus&#x2122; Medium (CTLTP-005) as specified. The antigens were plated first, before the PBMC, into the capture antibody-coated assay plate in a volume of 100 &#xB5;L per well. The plates containing the antigens and medium control were stored at 37 &#xB0;C in a CO<sub>2</sub> incubator until the cells were ready for plating. The thawed PBMC, adjusted in CTL Test Medium to 3 &#xD7; 10<sup>6</sup> PBMC/mL were plated at 100 &#xB5;L/well using wide-bore pipette tips. Up to 20 replicate wells were used for individual donor/antigen combinations to accumulate at least 1000 spot for a single spot-size distribution. Plates were gently tapped on each side to ensure even distribution of the cells as they settled and were incubated at 37 &#xB0;C in a CO<sub>2</sub> incubator. The incubation period for IFN-&#x3B3; and IL-2 assays was 24 h, for IL-4 and IL-5 it was 48 h, and for the IL-17 assay it was 72 h. Subsequently, the plates were washed, and the detection reagents were added. Following completion of the ELISPOT protocol, the plates were air dried in a laminar flow hood prior to analysis.</p>
+        <p>ELISPOT plates were scanned using an ImmunoSpot&#xAE; S6 Ultimate Analyzer by CTL and analyzed with ImmunoSpot&#xAE; v.5.3 Software. Spots were counted in Basic Count&#x2122; mode using the local dynamic background correction and &#x201C;Normal Object Type&#x201D;. The spot size distributions were built from cumulative counts of groups of replicate wells to obtain the specified sample size. The &#x201C;Sensitivity&#x201D; was set to detect spots exceeding background well staining. All detected spots were analyzed without size gating. </p>
+        <p>The ImmunoSpot&#xAE; Software automatically translates spot sizes from pixels into millimeters, making spot size measurements independent of the image pixel resolution. The accuracy of spot size measurement, however, is proportional to the image resolution. Spot size data analysis was performed using standard ImmunoSpot&#xAE; system resolution of 512 &#xD7; 512 pixels which is precise enough to detect spots about 30 microns in diameter. The ImmunoSpot&#xAE; system is capable of up to 7000 &#xD7; 7000 pixel resolution, which however does not add to the precision of ELISPOT analysis. </p>
+      </sec>
+      <sec>
+        <title>2.3. Statistical Evaluation</title>
+        <p>To analyze experimental spot size distributions, the Kolmogorov&#x2013;Smirnov goodness of fit test was used. The Kolmogorov&#x2013;Smirnov null hypothesis states that samples come from a normally distributed population. Resulting p-values equal to or higher than the significance level &#x3B1; = 0.05 indicate acceptance of the null hypothesis. Mean and standard deviation for experimental size distributions cannot be evaluated in the Kolmogorov&#x2013;Smirnov goodness of fit test directly, doing so may lead to &#x201C;overoptimistic&#x201D; test results. Means and standard deviations were calculated independently using 1000&#x2013;3000 spots for maximal precision; the number of replicate wells used depended on the spot counts per well and was between 3&#x2013;20. Of these, three hundred spots were randomly selected and subjected to the Kolmogorov&#x2013;Smirnov goodness of fit test. Three hundred spots is optimal for statistical evaluation using the Kolmogorov&#x2013;Smirnov goodness of fit test for normality: much lower counts do not provide enough information to build good spot-size histograms, whereas much higher numbers result in a low power (sensitivity) of this test do detect normality. With much larger sample sizes even minor random deviations from Normal distribution will result in low p-values. The statistical analysis was performed using the XLSTAT software suite.</p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>3. Results and Discussion</title>
+      <sec>
+        <title>3.1. T cell ELISPOT Assays Produce a Wide Range of Spot Sizes that Follow Bell Shaped Size Distributions</title>
+        <p>To analyze spot size distributions in T cell ELISPOT assays, we studied recall responses in 172 healthy human donors. The donors were tested for the individual peptides that constitute the CEF pool, <italic>i.e.</italic>, 32 well defined MHC-class I restricted determinants recognized by CD8 cells. A total of 334 moderate to strong positive donor/peptide combinations were detected that cumulatively provided at least 1000 spots each. The PBMC of the 172 donors were also tested for protein antigen-induced recall responses to EBV- and HCMV- grade 2 antigen, the latter representing UV-inactivated virions, <italic>i.e.</italic> lacking infectivity. In these cases, the viral proteins are processed as extracellular antigens, and are presented on HLA-class II molecules to CD4 cells. By depleting CD4/CD8 cells from PBMC we showed that protein antigen-induced cytokine responses result from activated CD4 cells (data not shown), as was expected from established principles of antigen presentation. In addition to IFN-&#x3B3;, IL-2, IL-4, IL-5 and IL-17 were measured for analysis of the cytokine signatures of Th1, Th2 and Th17 cells. A total of 80 positive antigen/donor combinations were identified, which yielded moderate to strong CD4 responses that provided sufficient spots for stringent statistical analysis. </p>
+        <p>Typical ELISPOT wells for the cytokines tested are shown in <xref ref-type="fig" rid="cells-04-00056-f001">Figure 1</xref>A. In each case, a wide range of spot sizes was observed, spanning 100 to 300-fold difference in spot size areas. Using subjective criteria to determine the minimum and maximum spot sizes, effectively eliminating bystander responses and estimating spots resulting from T cell clusters, will inevitably lead to highly variable spot counts and poor count reproducibility between different investigators and laboratories. We therefore systematically tested whether spot sizes followed a defined theoretical distribution function that would permit statistics-based gating for the smallest and largest spots produced by individual T cells. </p>
+        <p>In <xref ref-type="fig" rid="cells-04-00056-f001">Figure 1</xref>B, experimental spot size distributions from typical recall responses are shown for CD8 and CD4 cells producing the five cytokines tested. In each case, uni-modal bell-shaped curves were observed, consistent with a Normally Distributed spot size distribution.</p>
+        <fig id="cells-04-00056-f001" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p>The spot size distributions for different cytokines follow Log Normal function. (<bold>A</bold>) Representative images of ELISPOT wells are shown for cytokines produced by CD8 or CD4 cells, as specified. (<bold>B</bold>) The experimental size distributions of typical recall responses are shown as histograms for the specified cytokines with the theoretical Normal functions overlaid as red lines. To test for the normality of the spot size distributions, the Kolmogorov&#x2013;Smirnov goodness of fit test was used.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00056-g001.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.2. Spot Size Distributions for CD8 and CD4 Cells Follow Log Normal Function</title>
+        <p>In all cases studied, spot size distributions on a logarithmic scale closely resembled bell shaped Gaussian curves. To test whether these distributions are indeed Log Normal, we subjected them to stringent statistical normality tests. The Kolmogorov&#x2013;Smirnov Test&#x2019;s null hypothesis states that samples come from a normally distributed population. We used this &#x201C;goodness of fit&#x201D; test to calculate the probability of experimental distributions being Normal, with a test significance level &#x3B1; = 0.05. In order to illustrate this, the experimental Log size distributions are overlaid with the theoretical Normal function, indicated by the red lines, in <xref ref-type="fig" rid="cells-04-00056-f001">Figure 1</xref>B. For each of these examples, the <italic>p</italic>-value for the Kolmogorov&#x2013;Smirnov goodness of fit test is shown, representing the likelihood that the experimental distribution is Log Normal function. For each of these examples, the p values were equal to or larger than the test significance level (0.05), indicating acceptance of the null hypothesis demonstrating normality of spot size distributions on a logarithmic scale. </p>
+        <p>The Kolmogorov&#x2013;Smirnov goodness of fit analysis was performed individually for all 334 positive CD8 cell IFN-&#x3B3; recall responses. <xref ref-type="fig" rid="cells-04-00056-f002">Figure 2</xref>A shows the p values obtained from each positive donor/peptide combination. With one exception (i.e. in 99.7% of the cases), the p-values were equal to or higher than the test significance level (&#x3B1; = 0.05). This is indicated in <xref ref-type="fig" rid="cells-04-00056-f002">Figure 2</xref>A by the test cut off red line, thus the normality of size distributions on a logarithmic scale can be accepted. When CD4 cell recall responses measuring IFN-&#x3B3;, IL-2, IL-4, IL-5, and IL-17 were subjected to the same analysis, Log Normal distributions were in 100% of test cases (<xref ref-type="fig" rid="cells-04-00056-f002">Figure 2</xref> B, C, D, and F, respectively). </p>
+        <fig id="cells-04-00056-f002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>Log Normal size distributions for cytokine ELISPOTs produced by CD8 and CD4 cells. (<bold>A</bold>) For CD8 cells, IFN-&#x3B3; ELISPOT size distributions were studied for a total of 334 positive recall responses induced by the 32 individual CEF peptides. Each peptide is represented by an individual symbol type. (<bold>B</bold>&#x2013;<bold>F</bold>) For CD4 cells, 80 individual IFN-&#x3B3;, IL-2, IL- 4, IL-5, and IL-17 spot size distributions elicited by inactivated CMV and EBV were studied; each one specified by a different symbol. The Kolmogorov&#x2013;Smirnov goodness of fit test was used to determine the normality of spot size distribution for each individual positive recall response. Experimental IDs of the positive donors are shown on the x-axis, and the y-axis represents the p-values for the donor/peptide combinations. The red line indicates the cut-off significance level of 5%.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00056-g002.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.3. Spot Size Variation Among Donors, Antigens and Experiments</title>
+        <p>The data shown here suggest that parametric statistics can be used to establish spot size gates automatically for an individual donor/peptide combination. This can be of considerable practical relevance for batch counting, whether the same gates are applied for the analysis of one donor&#x2019;s responses against different antigens, or for the responses of different donors to one antigen. Within individual experiments (four of which are shown in <xref ref-type="fig" rid="cells-04-00056-f003">Figure 3</xref>), the mean spot size varied up to four-fold for different donors and peptides that elicited CD8 cell responses, corresponding to a 7.5% CV range on a logarithmic scale. Given that the spot sizes within a single distribution range from 100 to 300 fold (<xref ref-type="fig" rid="cells-04-00056-f001">Figure 1</xref>), Normal Distribution suggests that spot size gates established for one donor/antigen combination can be applied to the counting of all results, when measuring the same cytokine. </p>
+        <fig id="cells-04-00056-f003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>IFN-&#x3B3; ELISPOTs produced by CD8 cells show a maximal three- to four-fold size variation between donors and antigens. Four independent experiments are shown in panels (<bold>A</bold>), (<bold>B</bold>), (<bold>C</bold>), and (<bold>D</bold>). IFN-<bold>&#x3B3;</bold> CD8 responses of different donors against 32 individual CEF peptides are shown as different symbols. For each individual donor/peptide combination 1000 spots were analyzed. The mean spot sizes (mm<sup>2</sup>) and SD in the logarithmic scale (y- axis) are plotted <italic>vs.</italic> the PBMC donor&#x2019;s ID (x-axis).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00056-g003.tif"/>
+        </fig>
+        <fig id="cells-04-00056-f004" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p>(<bold>A</bold>) IFN-&#x3B3;, (<bold>B</bold>) IL-2, (<bold>C</bold>) IL-4, (<bold>D</bold>) IL-5, and (<bold>E</bold>) IL-17 ELISPOTs produced by CD4 cells show a maximal three-fold size variation between donors and antigens. Inactivated EBV or CMV virions (indicated by the different symbols) were used to induce CD4 cells of different donors to produce the cytokines specified in the panels. The mean spot size (mm<sup>2</sup>) and SD for each positive response (y-axis) are plotted in the logarithmic scale <italic>vs.</italic> the individual donors&#x2019; ID specified on the x-axis. For each data point 1000 spots were analyzed.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00056-g004.tif"/>
+        </fig>
+        <p>A similar variability was seen for protein antigens that triggered CD4 cells to secrete IFN-&#x3B3;, IL-2, IL-4, IL-5 and IL-17: the mean spot size differences for CD4 responses were in the 6% CV range on the logarithmic scale for all cytokines tested (<xref ref-type="fig" rid="cells-04-00056-f004">Figure 4</xref>). While the spot sizes for individual antigen/donor combinations were each Log Normally distributed thereby allowing the establishment of objective gating criteria for each, the gating criterion established for one donor or antigens will approximate, but will not perfectly match, other antigen/donor combinations.</p>
+        <p>Since inter-assay variation, in particular the enzymatic-amplification reaction, can systematically affect spot sizes across different experiments, we also compared means and standard deviations of spot size distributions for the same donor/peptide combination from ten individual IFN-&#x3B3; assays performed in the same laboratory at different time points. The variation of mean spot sizes and standard deviations of means (CV) between the assays in the logarithmic scale was approximately 4%. (<xref ref-type="fig" rid="cells-04-00056-f005">Figure 5</xref>). Spot size distributions were reproduced reliably between experiments when standardized test conditions were used. </p>
+        <fig id="cells-04-00056-f005" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <p>Mean spot sizes for the same donor/peptide combination show minimal variation between experiments. Ten independent experiments were performed testing repeatedly the HCMV pp65 induced IFN-&#x3B3; recall response of the same PBMC donor. The mean spot sizes in mm<sup>2</sup> (diamonds) and SD (squires) are shown in the logarithmic scale (y-axis) <italic>vs.</italic> experiment ID (x-axis). For each data point 1000 spots were used to build spot size distribution.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00056-g005.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.4. Discussion</title>
+        <p>To our knowledge, this study represents the largest systematic analysis of T cell ELISPOT size distributions for recall responses in human PBMC. One hundred seventy two healthy subjects were tested for responses to a variety of recall antigens, resulting in a total of 334 CD8 and 80 CD4 test cases. For each of these individual test cases, stringent statistical analyses were applied to assess the probability that the observed spot size distributions fit Log Normal function. We found that the experimental spot size distributions of the CD8 cell as well as of the CD4 cell recall responses closely followed Log Normal distribution.</p>
+        <p>Accurate recognition of the individual spots is essential for the spot size analysis reported in this study. Spots produced by cytokine secreting cells fade from the center to the periphery and do not have defined edges reflecting the diffusion of the cytokine from the secreting cell. In order to define the size of spots unambiguously, therefore, the software needs to use a cutoff density value over the well background. Accurate assessment of spot sizes critically depends on the precise recognition of individual spots over the respective background coloration of the membrane, which often shows local variations throughout the membrane surface including a typical increase of background along the edge of the well. Thus, the counting software has to be able to perform accurate local dynamic background corrections. Another critical issue is a proper separation of closely situated overlapping spots. A failure to do so will result in spot clusters counted as individual spots, or if overdone, in cutting individual single spots into smaller fragment (that is, an over- or underestimation of the real spot sizes). Similarly, spot size distributions will be distorted if the software does not discern true spots (fading from the center to the periphery) based on their morphology from smaller artifacts (usually having sharp edges). The Log Normal size distribution-based automatic gating therefore can only be done with an ELISPOT reader that has the single cell-verified spot count- and analysis capabilities mentioned above. Whether or not a reader has that capability can be relatively easily verified by testing PBMC plated in serial dilutions. Accurate spot recognition occurs if the spot counts and the PBMC numbers plated follow a linear function in the 100,000 to 800,000 PBMC/well range (the range in which the PBMC form a monolayer on the membrane [<xref ref-type="bibr" rid="B16-cells-04-00056">16</xref>]), and if this linearity applies for high numbers of spots as well, that is, if spots are correctly recognized even when spots become confluent and the membrane background staining is elevated due to the ELISA effect. Such has been verified for the ImmunoSpot&#xAE; system [<xref ref-type="bibr" rid="B11-cells-04-00056">11</xref>,<xref ref-type="bibr" rid="B16-cells-04-00056">16</xref>,<xref ref-type="bibr" rid="B17-cells-04-00056">17</xref>,<xref ref-type="bibr" rid="B18-cells-04-00056">18</xref>].</p>
+        <p>Most of the antigen induced cytokine responses in mixed cell populations (like PBMC), but not all, are known to include non-T cell derived undersized background spots and oversized spots resulting from T-cell clusters [<xref ref-type="bibr" rid="B12-cells-04-00056">12</xref>,<xref ref-type="bibr" rid="B17-cells-04-00056">17</xref>], constituting the very reason for size gating (in this study we analyzed all spots including these irrelevant categories on the tails of the size distributions). Therefore, inherently spot size distributions are &#x201C;contaminated&#x201D; on the tails and the selection of a proper statistics has to account for this. The Kolmogorov&#x2013;Smirnov goodness of fit test is ideally suited to accommodate this situation because of its somewhat lower sensitivity on the tails of the distribution and good sensitivity in the middle part. In contrast, using methods sensitive to minor deviation from the normality on the tails of the distribution would result in low power detecting underlying Normal distributions of the relevant T cell derived spots. Indeed the p values that we obtained in the Kolmogorov&#x2013;Smirnov goodness of fit tests were shifted toward smaller values (between 0.05 and 0.4, <xref ref-type="fig" rid="cells-04-00056-f002">Figure 2</xref>), suggesting a minor but systematic deviation of the experimental distributions from perfectly symmetric Gaussian. This results from some of the analyzed distributions being slightly negatively skewed, with somewhat longer tails on the left side. This deviation, however, is negligible for the scope of this study whose purpose was to establish whether spot sizes follow a known distribution function closely enough to permit automated, statistics-based size gating. Spot size distributions that closely approximate Log Normal were found to be the rule for T cell ELISPOT results, providing an experimentally verified basis for statistics-based, objective ELISPOT counting.</p>
+        <p>The notion about Log Normal size distributions of ELISPOTs first surfaced when we studied IFN-&#x3B3; spot formation by T cell clones in detail. When spots were counted using gating based on Log Normal distribution, the numbers of cloned T cells plated and the numbers of spots counted matched precisely, indicating that every single T cell was detected [<xref ref-type="bibr" rid="B5-cells-04-00056">5</xref>]. Therefore, in an experimental setting where the number of cytokine secreting T cells per well was known the accurate counting results validated the use of the Log Normal-based gating assumption. </p>
+        <p>When spot sizes (in log scale) for a given T cell population are normally distributed, one can define spots belonging to a particular distribution with known probability. Spots that are outside the &#xB1; 3 SD interval of the mean spot size are with 99.73% likelihood not members of the same population, <italic>i.e.</italic>, are not produced by individual T cells. Larger spots (above + 3 SD) will result from cell clustering, and should not be counted as single events. Instead, an estimated count should be used, based on the number of average-sized spots that would be required to form a spot of that particular size. In many cases clustering can be avoided by using fewer cell per well. The number of oversized spots produced by individual T cells will linearly decrease with the numbers of cells plated (together with total spot counts), whereas oversized spots resulting from cell clusters, will be reduced much faster as the cells are diluted (for doublets, the relation is proportional to the square of cell numbers, for larger clusters, the function is more complex, and also drops more steeply). These rules hold for cell clusters randomly formed on the well bottom. If cell clustering has already occurred in the cell suspension prior to plating (e.g., as a result of free DNA causing clumping of cells), the proportion of clusters cannot be reduced by cell dilution and proper gating is the only option. The use of DNAse will experimentally eliminate such clusters. </p>
+        <p>Spots that are smaller than &#x2212;3 SD of the mean spot size are usually caused by non-T cell bystander cytokine secretion or by background staining artifacts, and should be gated out (ignored). Therefore, when spot sizes show Log Normal distribution, as was shown here, one can use an objective statistical approach to set gates for counting. This statistics-based approach forms the basis for the AutoGate&#x2122; function of the ImmunoSpot&#xAE; Software [<xref ref-type="bibr" rid="B12-cells-04-00056">12</xref>,<xref ref-type="bibr" rid="B17-cells-04-00056">17</xref>]. </p>
+        <p>Gating is not the only criterion required for objective ELISPOT counting. As can be seen in <xref ref-type="fig" rid="cells-04-00056-f001">Figure 1</xref>A, the background coloration of the membrane in ELISPOT wells will differ for different experimental conditions dependent on the number of cytokine-producing cells per well, and on the net amount of cytokine they produce. Cytokine that is not captured directly around the secreting cells diffuses into the bulk solution, and is re-captured randomly on the membrane much as in an ELISA. Background coloration due to this &#x201C;ELISA effect&#x201D; can evenly affect the entire well bottom, but frequently it will be more pronounced in parts of the well where clusters of cytokine-secreting cells occur, and at the rim of wells. Without background corrections, faint spots in wells containing few cytokine-secreting cells can be less optically dense than the background in wells containing higher numbers of cytokine secreting cells. Therefore, counting of faint spots that occur over different levels of background coloration will not be possible with fixed intensity based sensitivity (thresholding). A well-designed ELISPOT counting software should thus be capable of correcting local background variations and also making well-to-well sensitivity adjustments. The ImmunoSpot&#xAE; Software does both automatically with its BackgroundBalance&#x2122; and SmartWell&#x2122; features.</p>
+        <p>As a follow up to this study, we tested whether different investigators would come up with similar spot counts when analyzing the same ELISPOT plate using the Autogate&#x2122; function based on Log Normal size distributions [<xref ref-type="bibr" rid="B18-cells-04-00056">18</xref>]. The well image files of the plate were sent to nine participating laboratories. The plate contained wells with a wide range of spot numbers from the same antigen/donor combination, over various levels of background coloration. With the BackgroundBalance&#x2122; and SmartWell&#x2122; features activated, the investigators were permitted to select any of the 96 wells (containing any numbers of spots and background coloration) to present the ImmunoSpot&#xAE; Software the &#x201C;representative positive wells&#x201D; for gating. The AutoGate&#x2122; function builds the experimental spot size distribution curve from these cumulative data, tests it for normality, and if normality is accepted, automatically sets the upper and lower gates. When the nine different investigators counted the same plate in this way, the spot counts for each of the 96 wells of the plate were within 7% (CV) of each other [<xref ref-type="bibr" rid="B18-cells-04-00056">18</xref>]. Therefore, using scientifically validated counting parameters established by the software, count variability among laboratories were reduced substantially compared to subjective (manual) parameters setup. </p>
+        <p>While the individual antigen/donor combinations resulted in Log Normal distributions, there were differences in the mean values of the distributions between antigens and donors. According to the data in <xref ref-type="fig" rid="cells-04-00056-f003">Figure 3</xref>, <xref ref-type="fig" rid="cells-04-00056-f004">Figure 4</xref> and <xref ref-type="fig" rid="cells-04-00056-f005">Figure 5</xref>, the maximal difference between mean spot sizes was about three- to four-fold, which is much smaller than 100&#x2013;300 fold difference within a single experimental distribution (<xref ref-type="fig" rid="cells-04-00056-f001">Figure 1</xref>B). The CV of mean log spot sizes for different donor/antigen combination in the same experiment was between 4% and 7% (<xref ref-type="fig" rid="cells-04-00056-f003">Figure 3</xref> and <xref ref-type="fig" rid="cells-04-00056-f004">Figure 4</xref>), Therefore, in the test cases we studied, gates set automatically by sampling a few different donor/peptide combinations could be used with considerable accuracy for most of the samples in the same experiment. It should be noted, however, that these results were obtained from testing healthy donors whose T cell activation <italic>in vivo</italic> occurred in the indefinite past, <italic>i.e.</italic>, the spot distributions studied were generated by resting memory cells. </p>
+        <p>T cells that had recently been engaged in an immune response <italic>in vivo</italic>, e.g., due to recent infection or vaccination, produce more cytokine per cell than long term memory cells that have encountered antigen in the distant past resulting in Log Normal distributions that are shifted toward bigger spot sizes [<xref ref-type="bibr" rid="B14-cells-04-00056">14</xref>]. Accordingly, different size gates are needed to count T cells that are in the effector or memory state. When T cells are stimulated with a high dose of antigen (relative to the T cell&#x2019;s functional affinity for antigen) they will produce more cytokine on a per cell basis than the same T cells stimulated with a low dose of antigen. However, in both cases the spot sizes are Log Normally distributed. [<xref ref-type="bibr" rid="B5-cells-04-00056">5</xref>]. Subsequently, for the same antigen dose, high affinity T cells can be expected to produce more cytokine on a per cell basis than low affinity T cells, and different gates might need to be used to count them correctly. Any spot size distribution that significantly differs from the &#x201C;representative wells&#x201D; that were selected for auto-gating must be set individually. This can be readily accomplished in the ImmunoSpot&#xAE; Software using Multi-parameter Mode&#x2122; and verified/corrected for deviant responses in the Quality Control Mode&#x2122;. </p>
+        <p>The variability of mean spot sizes can also provide additional information that can be extracted from ELISPOT results. Typically, spot counts are the only parameter recorded, establishing the frequencies of cytokine secreting cells. Cytokine productivity is not commonly recorded but, as stated above, can provide important additional information on the T cell response, including its functional avidity and antigen-encounter history. Since the spot sizes follow Log Normal distribution in all of these instances, recording the mean spot size and the SD of an experimental distribution should suffice to characterize T cells&#x2019; secretory productivity, which we believe should become part of routine, automated ELISPOT data analysis. </p>
+        <p>For protein antigens and short peptides uni-modal bell-shaped spot size curves were seen resulting from either CD4 or CD8 cells becoming activated. In more complex situations, when both cell types could potentially be activated at the same time (e.g. mitogen stimulation), experimental spot size distributions could be bi-modal or even multi-modal (e.g. when NK cells are stimulated along with CD4 and CD8 cells after PHA exposure). Although cumulative distributions for such mixed responses may deviate from Log Normal function, knowing that each of the components is normally distributed still permits statistical data analysis. So far, however, we observed only a few exceptions when spot sizes did not fit a uni-modal distribution. The ImmunoSpot<sup>&#xAE;</sup> Software Version 5.3, with the built in feature in the Quality Control module, can be used to verify whether gates set using sampled representative wells are applicable for all counted wells. If required, gating correction for deviant donor/antigen combinations can be performed automatically or overridden manually.</p>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions">
+      <title>4. Conclusions </title>
+      <p>The data establish that spot size distributions in T cell ELISPOT assays follow Log Normal distribution function for antigen-stimulated CD8 and CD4 cells secreting IFN-&#x3B3;, IL-2, IL-4, IL-5 and IL-17. Therefore, size gates for counting can be set automatically, by means of statistical analysis, allowing for objective spot counts, as well as the harmonization of experimental results among different investigators.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgement</title>
+      <p>We would like to acknowledge Villian Naeem for editing this document.</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Alexey Y. Karulin, Kinga Karacsony, Oleg S. Targoni, Ioana Moldovan and Srividya Sundararaman carried out experimental work. Alexey Y. Karulin and Marcus Dittrich performed statistical analysis. Alexey Y. Karulin and Paul V. Lehmann planned the study and wrote the manuscript. </p>
+    </notes>
+	<glossary>
+      <gloss-group>
+       <title>Abbreviations</title>
+       <def-list>
+        <def-item><term>IL</term><def><p>Interleukin;</p></def></def-item>
+        <def-item><term>IFN-&#x3B3;</term><def><p>Interferon- gamma;</p></def></def-item>
+		<def-item><term>CMV</term><def><p>Cytomegalovirus;</p></def></def-item>
+        <def-item><term>EBV</term><def><p>Epstein-Barr virus;</p></def></def-item>
+		<def-item><term>PBMC</term><def><p>Peripheral Blood Mononuclear Cells;</p></def></def-item>
+        <def-item><term>SFU</term><def><p>Spot Forming Unit</p></def></def-item>
+       </def-list>
+      </gloss-group>
+    </glossary>
+	
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>All authors except Marcus Dittrich are employed by Cellular Technology Ltd., which builds software and hardware for ELISPOT analysis.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-04-00056">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Unique strengths of elispot for T cell diagnostics</article-title>
+          <source>Methods Mol. Biol.</source>
+          <year>2012</year>
+          <volume>792</volume>
+          <fpage>3</fpage>
+          <lpage>23</lpage>
+          <pub-id pub-id-type="pmid">21956497</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-cells-04-00056">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Janetzki</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Britten</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Kalos</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Levitsky</surname>
+              <given-names>H.I.</given-names>
+            </name>
+            <name>
+              <surname>Maecker</surname>
+              <given-names>H.T.</given-names>
+            </name>
+            <name>
+              <surname>Melief</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Old</surname>
+              <given-names>L.J.</given-names>
+            </name>
+            <name>
+              <surname>Romero</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Hoos</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Davis</surname>
+              <given-names>M.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>&#x201C;Miata&#x201D;-minimal information about T cell assays</article-title>
+          <source>Immunity</source>
+          <year>2009</year>
+          <volume>31</volume>
+          <fpage>527</fpage>
+          <lpage>528</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.immuni.2009.09.007</pub-id>
+          <pub-id pub-id-type="pmid">19833080</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-cells-04-00056">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karulin</surname>
+              <given-names>A.Y.</given-names>
+            </name>
+            <name>
+              <surname>Hesse</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Single-cytokine-producing CD4 memory cells predominate in type 1 and type 2 immunity</article-title>
+          <source>J. Immunol.</source>
+          <year>2000</year>
+          <volume>164</volume>
+          <fpage>1862</fpage>
+          <lpage>1872</lpage>
+          <pub-id pub-id-type="doi">10.4049/jimmunol.164.4.1862</pub-id>
+          <pub-id pub-id-type="pmid">10657635</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-cells-04-00056">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Helms</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Boehm</surname>
+              <given-names>B.O.</given-names>
+            </name>
+            <name>
+              <surname>Asaad</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Trezza</surname>
+              <given-names>R.P.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Direct visualization of cytokine-producing recall antigen-specific cd4 memory T cells in healthy individuals and hiv patients</article-title>
+          <source>J. Immunol.</source>
+          <year>2000</year>
+          <volume>164</volume>
+          <fpage>3723</fpage>
+          <lpage>3732</lpage>
+          <pub-id pub-id-type="doi">10.4049/jimmunol.164.7.3723</pub-id>
+          <pub-id pub-id-type="pmid">10725731</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-cells-04-00056">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hesse</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Karulin</surname>
+              <given-names>A.Y.</given-names>
+            </name>
+            <name>
+              <surname>Boehm</surname>
+              <given-names>B.O.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>A T cell clone&#x2019;s avidity is a function of its activation state</article-title>
+          <source>J. Immunol.</source>
+          <year>2001</year>
+          <volume>167</volume>
+          <fpage>1353</fpage>
+          <lpage>1361</lpage>
+          <pub-id pub-id-type="doi">10.4049/jimmunol.167.3.1353</pub-id>
+          <pub-id pub-id-type="pmid">11466353</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-cells-04-00056">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kreher</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Dittrich</surname>
+              <given-names>M.T.</given-names>
+            </name>
+            <name>
+              <surname>Guerkov</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Boehm</surname>
+              <given-names>B.O.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>CD4+ and CD8+ cells in cryopreserved human pbmc maintain full functionality in cytokine elispot assays</article-title>
+          <source>J. Immunol. Methods</source>
+          <year>2003</year>
+          <volume>278</volume>
+          <fpage>79</fpage>
+          <lpage>93</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0022-1759(03)00226-6</pub-id>
+          <pub-id pub-id-type="pmid">12957398</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-cells-04-00056">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Quast</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Shive</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Kovalovski</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Ott</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Herzog</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Boehm</surname>
+              <given-names>B.O.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Karulin</surname>
+              <given-names>A.Y.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>IL-2 absorption affects ifn-gamma and IL-5, but not IL-4 producing memory t cells in double color cytokine elispot assays</article-title>
+          <source>Cell Immunol.</source>
+          <year>2005</year>
+          <volume>237</volume>
+          <fpage>28</fpage>
+          <lpage>36</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cellimm.2005.09.002</pub-id>
+          <pub-id pub-id-type="pmid">16256965</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-cells-04-00056">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nowacki</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Kuerten</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Shive</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Kreher</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Boehm</surname>
+              <given-names>B.O.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Granzyme b production distinguishes recently activated CD8(+) memory cells from resting memory cells</article-title>
+          <source>Cell Immunol.</source>
+          <year>2007</year>
+          <volume>247</volume>
+          <fpage>36</fpage>
+          <lpage>48</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cellimm.2007.07.004</pub-id>
+          <pub-id pub-id-type="pmid">17825804</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-cells-04-00056">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kuerten</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Asaad</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Schoenberger</surname>
+              <given-names>S.P.</given-names>
+            </name>
+            <name>
+              <surname>Angelov</surname>
+              <given-names>D.N.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The trail of helpless CD8+ T cells in HIV infection</article-title>
+          <source>AIDS Res. Human Retrovir.</source>
+          <year>2008</year>
+          <volume>24</volume>
+          <fpage>1175</fpage>
+          <lpage>1183</lpage>
+          <pub-id pub-id-type="doi">10.1089/aid.2008.0062</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-cells-04-00056">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kuerten</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nowacki</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Kleen</surname>
+              <given-names>T.O.</given-names>
+            </name>
+            <name>
+              <surname>Asaad</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dissociated production of perforin, granzyme b, and ifn-gamma by hiv-specific CD8(+) cells in HIV infection</article-title>
+          <source>AIDS Res. Human Retrovir.</source>
+          <year>2008</year>
+          <volume>24</volume>
+          <fpage>62</fpage>
+          <lpage>71</lpage>
+          <pub-id pub-id-type="doi">10.1089/aid.2007.0125</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-04-00056">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Caspell</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Karulin</surname>
+              <given-names>A.Y.</given-names>
+            </name>
+            <name>
+              <surname>Ahmad</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Haicheur</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Abdelsalam</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Johannesen</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Vignard</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Dudzik</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Georgakopoulou</surname>
+              <given-names>K.</given-names>
+            </name>
+			<etal/>
+          </person-group>
+          <article-title>Elispot assays provide reproducible results among different laboratories for t-cell immune monitoring--even in hands of elispot-inexperienced investigators</article-title>
+          <source>J. Immunotoxicol.</source>
+          <year>2009</year>
+          <volume>6</volume>
+          <fpage>227</fpage>
+          <lpage>234</lpage>
+          <pub-id pub-id-type="doi">10.3109/15476910903317546</pub-id>
+          <pub-id pub-id-type="pmid">19908941</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-cells-04-00056">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guerkov</surname>
+              <given-names>R.E.</given-names>
+            </name>
+            <name>
+              <surname>Targoni</surname>
+              <given-names>O.S.</given-names>
+            </name>
+            <name>
+              <surname>Kreher</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Boehm</surname>
+              <given-names>B.O.</given-names>
+            </name>
+            <name>
+              <surname>Herrera</surname>
+              <given-names>M.T.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Schwander</surname>
+              <given-names>S.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Detection of low-frequency antigen-specific IL-10-producing CD4(+) T cells via elispot in pbmc: Cognate <italic>vs.</italic> Nonspecific production of the cytokine</article-title>
+          <source>J. Immunol. Methods</source>
+          <year>2003</year>
+          <volume>279</volume>
+          <fpage>111</fpage>
+          <lpage>121</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0022-1759(03)00240-0</pub-id>
+          <pub-id pub-id-type="pmid">12969552</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13-cells-04-00056">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ott</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>The secretory ifn-gamma response of single CD4 memory cells after activation on different antigen presenting cell types</article-title>
+          <source>Clin. Immunol.</source>
+          <year>2007</year>
+          <volume>124</volume>
+          <fpage>267</fpage>
+          <lpage>276</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.clim.2007.05.012</pub-id>
+          <pub-id pub-id-type="pmid">17632036</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-cells-04-00056">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schlingmann</surname>
+              <given-names>T.R.</given-names>
+            </name>
+            <name>
+              <surname>Shive</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Targoni</surname>
+              <given-names>O.S.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Increased per cell IFN-gamma productivity indicates recent <italic>in vivo</italic> activation of T cells</article-title>
+          <source>Cell Immunol.</source>
+          <year>2009</year>
+          <volume>258</volume>
+          <fpage>131</fpage>
+          <lpage>137</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cellimm.2009.04.002</pub-id>
+          <pub-id pub-id-type="pmid">19427634</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15-cells-04-00056">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ramachandran</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Laux</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Moldovan</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Caspell</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Subbramanian</surname>
+              <given-names>R.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Optimal thawing of cryopreserved peripheral blood mononuclear cells for use in high-throughput human immune monitoring studies</article-title>
+          <source>Cells</source>
+          <year>2012</year>
+          <volume>1</volume>
+          <fpage>313</fpage>
+          <lpage>324</lpage>
+          <pub-id pub-id-type="doi">10.3390/cells1030313</pub-id>
+          <pub-id pub-id-type="pmid">24710478</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-cells-04-00056">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hanson</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sundararaman</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Caspell</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Karacsony</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Karulin</surname>
+              <given-names>A.Y.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Elispot assays in 384-well format: Up to 30 data points with 1 million cells</article-title>
+          <source>Cells</source>
+          <year>2015</year>
+          <comment><italic>In Press</italic>, <italic>ibid</italic></comment>
+        </citation>
+      </ref>
+      <ref id="B17-cells-04-00056">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Objective, user-independent elispot data analysis based on scientifically validated principles</article-title>
+          <source>Methods Mol. Biol.</source>
+          <year>2012</year>
+          <volume>792</volume>
+          <fpage>155</fpage>
+          <lpage>171</lpage>
+          <pub-id pub-id-type="pmid">21956509</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18-cells-04-00056">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sundararaman</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Karulin</surname>
+              <given-names>A.Y.</given-names>
+            </name>
+            <name>
+              <surname>Ansari</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>BenHamouda</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Gottwein</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Laxmanan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Levine</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Loffredo</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>McArdle</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Neudoerfl</surname>
+              <given-names>C.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>High reproducibility of ELISPOT counts from nine different laboratories</article-title>
+          <source>Cells</source>
+          <year>2015</year>
+          <volume>4</volume>
+          <fpage>21</fpage>
+          <lpage>39</lpage>
+          <pub-id pub-id-type="doi">10.3390/cells4010021</pub-id>
+          <pub-id pub-id-type="pmid">25585297</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

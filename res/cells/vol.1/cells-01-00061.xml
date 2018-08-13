@@ -1,0 +1,2204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xml:lang="en" article-type="research-article" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells1020061</article-id>
+      <article-id pub-id-type="publisher-id">cells-01-00061</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Increased Level of IFN-&#x3B3; and IL-4 Spot-Forming Cells on ELISPOT Assay as Biomarkers for Acute Graft-<italic>Versus</italic>-Host Disease and Concurrent Infections</article-title>
+      </title-group>
+     
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hirayama</surname>
+            <given-names>Masahiro</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Azuma</surname>
+            <given-names>Eiichi</given-names>
+          </name>
+          <xref rid="c1-cells-01-00061" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Komada</surname>
+            <given-names>Yoshihiro</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+       <aff id="af1-cells-01-00061">Department of Pediatrics and Cell Transplantation, Mie University Graduate School of Medicine, 2-174 Edobashi, Tsu, Mie 514-8507, Japan; Email: <email>hirayama@clin.medic.mie-u.ac.jp</email> (M.H.); <email>komada@clin.medic.mie-u.ac.jp</email> (Y.K.)</aff>
+      <author-notes>
+        <corresp id="c1-cells-01-00061"><label>*</label> Author  to whom correspondence should be addressed; Email: <email>e-azuma@clin.medic.mie-u.ac.jp</email>; Tel.: +81-59-232-1111; Fax: +81-59-231-5213.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>30</day>
+        <month>04</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>06</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>1</volume>
+      <issue>2</issue>
+      <fpage>61</fpage>
+      <lpage>73</lpage>
+      <history>
+        <date date-type="received">
+          <day>29</day>
+          <month>03</month>
+          <year>2012</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>24</day>
+          <month>04</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>26</day>
+          <month>04</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#x000A9; 2012 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2012</copyright-year>
+        <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/">
+          <p>This article is an open-access article distributed under the terms and conditions of the Creative Commons Attribution license (http://creativecommons.org/licenses/by/3.0/).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Acute graft-<italic>versus</italic>-host disease (aGVHD) remains a significant cause of morbidity and mortality after allogeneic hematopoietic stem cell transplantation. Infections may coexist and in certain circumstances aggravate aGVHD. It was described that type 1 as well as type 2 cytokines are important mediators of aGVHD. We measured spot-forming cells (SFCs) for interferon (IFN)-&#x3B3;, interleukin (IL)-4, IL-10, and IL-17 in unstimulated peripheral blood from 80 patients with hematological disorders who underwent allogeneic hematopoietic stem cell transplantation by using the enzyme-linked immunospot (ELISPOT) assay that reflects the ongoing <italic>in vivo</italic> immune status. A serial monitoring showed that both type 1 and type 2 cytokine SFCs were correlated with aGVHD activity. The numbers of IFN-&#x3B3; and IL-4 SFCs in patients with grade II-IV aGVHD were significantly higher than those in patients with grade 0 and/or I aGVHD. Elevation of IFN-&#x3B3; and IL-4 SFCs was significantly correlated with the severity of aGVHD, but not with infection itself, e.g., cytomegalovirus infection. Cytokine SFCs are clinically relevant biomarkers for the diagnostic and therapeutic evaluation of aGVHD and concurrent infection.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>ELISPOT</kwd>
+        <kwd>acute GVHD</kwd>
+        <kwd>HSCT</kwd>
+        <kwd>IFN-&#x3B3;</kwd>
+        <kwd>biomarker</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Acute graft-<italic>versus</italic>-host disease (aGVHD) remains a potentially fatal complication of allogeneic hematopoietic stem cell transplantation (HSCT). Susceptibility to infection has posed one of the most formidable obstacles in the clinical management of patients undergoing allogeneic HSCT especially from the preengraftment to the immediate postengraftment periods [<xref ref-type="bibr" rid="B1-cells-01-00061">1</xref>]. In addition, infections may aggravate aGVHD after allogeneic HSCT [<xref ref-type="bibr" rid="B2-cells-01-00061">2</xref>]. aGVHD is initiated by the action of donor-derived T cells which have been suggested to polarize into type 1 T cells after being stimulated with interleukin (IL)-12 from antigen-presenting cells [<xref ref-type="bibr" rid="B3-cells-01-00061">3</xref>]. The balance between type 1 cytokines and type 2 cytokines is hypothesized to govern the extent to which all cell-mediated immune responses and inflammatory responses develop after allogeneic HSCT.</p>
+      <p>So far, great attention has been paid to the detection of aGVHD before and after HSCT. Some serum markers, such as the levels of tumor necrosis factor-&#x3B1;, soluble Fas, IL-2R&#x3B1;, IL-8, IL-10, hepatocyte growth factor, and CCL8 have been reported to be useful indicators of aGVHD [<xref ref-type="bibr" rid="B4-cells-01-00061">4</xref>,<xref ref-type="bibr" rid="B5-cells-01-00061">5</xref>,<xref ref-type="bibr" rid="B6-cells-01-00061">6</xref>,<xref ref-type="bibr" rid="B7-cells-01-00061">7</xref>,<xref ref-type="bibr" rid="B8-cells-01-00061">8</xref>]. Polymorphism of the IL-10 gene [<xref ref-type="bibr" rid="B9-cells-01-00061">9</xref>] and transforming growth factor &#xDF;1 gene [<xref ref-type="bibr" rid="B10-cells-01-00061">10</xref>] are associated with aGVHD. Cytotoxic T lymphocyte precursor (CTLp) and helper T lymphocyte precursor (HTLp) frequency analysis has been shown to predict aGVHD [<xref ref-type="bibr" rid="B11-cells-01-00061">11</xref>]. On the other hand, failure to detect these cytokines in the serum has also been reported [<xref ref-type="bibr" rid="B4-cells-01-00061">4</xref>]. aGVHD was not differentiated from infection or fatal complications by the assessment of cytokines [<xref ref-type="bibr" rid="B12-cells-01-00061">12</xref>]. CTLp and HTLp frequency analysis has been reported to be not necessarily for predicting aGVHD [<xref ref-type="bibr" rid="B13-cells-01-00061">13</xref>]. Thus, there are contradictory results among these reports and there still remain problems with attempts to use these parameters as reliable and sensitive biomarkers of aGVHD. </p>
+      <p>Enzyme-linked immunospot (ELISPOT) assay may circumvent the limitations described above. ELISPOT assay permits the <italic>ex vivo</italic> identification of cells actively secreting cytokines. In fact, Tanguay <italic>et al</italic>. reported high specificity combined with 10&#x2013;200 times higher sensitivity than that of conventional ELISA [<xref ref-type="bibr" rid="B14-cells-01-00061">14</xref>]. However, there are some disadvantages of the ELISPOT assay. It is not able to detect simultaneous multiparametric measurement unlike intracellular cytokine staining (ICS) unless cell-specific separations are performed before the assay. It takes 1&#x2013;2 days for incubation and counting. On the other hand, ICS also has disadvantages that include lower sensitivity than ELISPOT assay and the requirement for <italic>in vitro</italic> stimulation, indicating that ICS detects synthesized but not secreted cytokines [<xref ref-type="bibr" rid="B15-cells-01-00061">15</xref>]. Nevertheless, an important advantage of ELISPOT assay is that it is a direct measurement of a type 1 and type 2 cell-mediated immune response.</p>
+      <p>Given the central role of alloreactive T cells as aGVHD effector cells, we hypothesized that circulating cytokine spot-forming cells (SFCs) could be biomarkers of aGVHD. Therefore, we measured cytokine SFCs after the emergence of aGVHD, with the rationale that cytokine SFCs by ELISPOT assay may reflect the ongoing <italic>in vivo</italic> immunological status after transplantation. In this study, we used the ELISPOT assay to detect and enumerate cells producing IFN-&#x3B3; and IL-4 to evaluate the influence of type 1 and type 2 T-cell cytokines during infections and/or aGVHD.</p>
+    </sec>
+    <sec>
+      <title>2. Materials and Methods</title>
+      <sec>
+        <title>2.1. Patient Characteristics</title>
+        <p>Eighty patients who underwent allogeneic HSCT between 1996 and 2010 were included in this study. Twenty-six patients received bone marrow from unrelated donors, 34 patients received bone marrow from related donors, 9 patients received peripheral blood stem cell from related donors, and 11 patients received cord blood from unrelated donors. Patients&#x2019; demographics are shown in <xref ref-type="table" rid="cells-01-00061-t001">Table 1</xref>. Underlying diseases were acute lymphoblastic leukemia (n = 21), acute myeloid leukemia (n = 21), chronic myeloid leukemia (n = 11), aplastic anemia (n = 12), myelodysplastic syndrome (n = 4), malignant lymphoma (n = 5), advanced neuroblastoma (n = 4), and others (n = 2; Kostmann syndrome and Wiskott-Aldrich syndrome). In human leukocyte antigen (HLA) mismatched transplants (4/6, 3/6), stem cell source was cord blood, resulting in grade 0-I aGVHD. The mean age of the patients was 14.8 years (range, 1&#x2013;61). </p>
+        <table-wrap id="cells-01-00061-t001" position="float">
+          <object-id pub-id-type="pii">cells-01-00061-t001_Table 1</object-id>
+          <label>Table 1</label>
+          <caption>
+            <p>Patient characteristics.</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="2" align="left" valign="middle">Characteristic</th>
+                <th align="center" valign="middle">aGVHD grade 0 (n = 49)</th>
+                <th align="center" valign="middle">aGVHD grade I-IV (n = 31)</th>
+                <th align="center" valign="middle">P</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="2" align="left" valign="middle">Median age (range)</td>
+                <td align="center" valign="middle">15 (1&#x2013;61)</td>
+                <td align="center" valign="middle">14 (1&#x2013;49)</td>
+                <td align="center" valign="middle">NS*</td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">Male: Female</td>
+                <td align="center" valign="middle">33:16</td>
+                <td align="center" valign="middle">19:12</td>
+                <td align="center" valign="middle">NS#</td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">Donor type</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle"> </td>
+                <td align="left" valign="middle">Related</td>
+                <td align="center" valign="middle">23</td>
+                <td align="center" valign="middle">13</td>
+                <td align="center" valign="middle">NS#</td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle"> </td>
+                <td align="left" valign="middle">Unrelated</td>
+                <td align="center" valign="middle">26</td>
+                <td align="center" valign="middle">18</td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">Stem cell source</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle"> </td>
+                <td align="left" valign="middle">Bone marrow</td>
+                <td align="center" valign="middle">37</td>
+                <td align="center" valign="middle">22</td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle"> </td>
+                <td align="left" valign="middle">Peripheral blood</td>
+                <td align="center" valign="middle">5</td>
+                <td align="center" valign="middle">5</td>
+                <td align="center" valign="middle">NS&#x2020;</td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle"> </td>
+                <td align="left" valign="middle">Cord blood</td>
+                <td align="center" valign="middle">7</td>
+                <td align="center" valign="middle">4</td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">GVHD prophylaxis</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle"> </td>
+                <td align="left" valign="middle">Cyclosporin A &#xB1; MTX</td>
+                <td align="center" valign="middle">40</td>
+                <td align="center" valign="middle">24</td>
+                <td align="center" valign="middle">NS#</td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle"> </td>
+                <td align="left" valign="middle">Tacrolimus &#xB1; MTX</td>
+                <td align="center" valign="middle">9</td>
+                <td align="center" valign="middle">7</td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">Conditioning regimen</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle"> </td>
+                <td align="left" valign="middle">TBI based</td>
+                <td align="center" valign="middle">26</td>
+                <td align="center" valign="middle">19</td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle"> </td>
+                <td align="left" valign="middle">BU based</td>
+                <td align="center" valign="middle">15</td>
+                <td align="center" valign="middle">9</td>
+                <td align="center" valign="middle">NS&#x2020;</td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle"> </td>
+                <td align="left" valign="middle">Others</td>
+                <td align="center" valign="middle">8</td>
+                <td align="center" valign="middle">3</td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">HLA histocompatibility</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle"> </td>
+                <td align="left" valign="middle">6/6</td>
+                <td align="center" valign="middle">38</td>
+                <td align="center" valign="middle">26</td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle"> </td>
+                <td align="left" valign="middle">5/6</td>
+                <td align="center" valign="middle">6</td>
+                <td align="center" valign="middle">4</td>
+                <td align="center" valign="middle">NS&#x2020;</td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle"> </td>
+                <td align="left" valign="middle">4/6, 3/6</td>
+                <td align="center" valign="middle">5</td>
+                <td align="center" valign="middle">1</td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">Pretransplant CMV serostatus</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">(Donor/recipient)</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle"> </td>
+                <td align="left" valign="middle">+/+</td>
+                <td align="center" valign="middle">24</td>
+                <td align="center" valign="middle">14</td>
+                <td align="center" valign="middle">NS&#x2020;</td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle"> </td>
+                <td align="left" valign="middle">&#x2212;/+</td>
+                <td align="center" valign="middle">9</td>
+                <td align="center" valign="middle">8</td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle"> </td>
+                <td align="left" valign="middle">+/&#x2212;</td>
+                <td align="center" valign="middle">11</td>
+                <td align="center" valign="middle">4</td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle"> </td>
+                <td align="left" valign="middle">&#x2212;/&#x2212;</td>
+                <td align="center" valign="middle">5</td>
+                <td align="center" valign="middle">5</td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">Posttransplant CMV antigenemia</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle"> </td>
+                <td align="left" valign="middle">Positive</td>
+                <td align="center" valign="middle">16</td>
+                <td align="center" valign="middle">10</td>
+                <td align="center" valign="middle">NS#</td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle"> </td>
+                <td align="left" valign="middle">Negative</td>
+                <td align="center" valign="middle">33</td>
+                <td align="center" valign="middle">21</td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+            </tbody>
+  </table>
+  <table-wrap-foot><fn><p>Abbreviations used: MTX, methotrexate; TBI, total body irradiation; BU, busulfan; CMV, cytomegalovirus; NS, not significant (significant level = 0.05, NS*: determined using 2-tailed Mann-Whitney test, NS<sup>#</sup>: 2-tailed Fisher exact test, NS<sup>&#x2020;</sup>: Kruskal-Wallis test).</p></fn></table-wrap-foot>
+        </table-wrap>
+        
+      </sec>
+      <sec>
+        <title>2.2. Evaluation of Events and Sample Collection</title>
+        <p>aGVHD was proved histopathologically by biopsy. The grading of aGVHD was determined according to clinical criteria [<xref ref-type="bibr" rid="B16-cells-01-00061">16</xref>]. Cytomegalovirus (CMV) infection was diagnosed on the basis of clinical symptom, histopathology, and antigenemia [<xref ref-type="bibr" rid="B17-cells-01-00061">17</xref>,<xref ref-type="bibr" rid="B18-cells-01-00061">18</xref>]. </p>
+        <p>Peripheral blood samples were collected from patients at 3 (early engraftment period), 6, and 10 (late engraftment period) weeks after transplantation. Informed consent was obtained from all participants and approval for the study was obtained from the institutional ethics committee review board. Peripheral blood mononuclear cells (PBMCs) were separated from heparinized peripheral blood using Ficoll-Hypaque density gradient centrifugation.</p>
+      </sec>
+      <sec>
+        <title>2.3. ELISA</title>
+        <p>Plasma IFN-&#x3B3;, IL-4, and IL-10 (BD Pharmingen, San Diego, CA) were measured using ELISA kits according to the manufacturer&#x2019;s instructions as described previously [<xref ref-type="bibr" rid="B19-cells-01-00061">19</xref>]. The detectable levels of IFN-&#x3B3;, IL-4, and IL-10 were all &gt; 4 pg/mL.</p>
+      </sec>
+      <sec>
+        <title>2.4. ELISPOT Assay</title>
+        <p>ELISPOT assay was undertaken as described previously [<xref ref-type="bibr" rid="B20-cells-01-00061">20</xref>]. Briefly, ELISPOT plates (Millipore Corp., Bedford, MA, USA) were coated with anti-human IFN-&#x3B3;, IL-4 (Mabtech AB, Stockholm, Sweden), IL-10, or IL-17 (BD Pharmingen, San Diego, CA, USA) monoclonal antibody overnight at 4 &#xB0;C. The plates were washed three times and incubated for 2 h with RPMI-1640 containing 10% fetal bovine serum. Freshly isolated, unstimulated PBMCs were added at the concentration of 50,000 cells per well. As a positive control, PBMCs were stimulated with Phorbol 12-myristate 13-acetate (PMA) (100 ng/mL) and Ionomycin (1 &#xB5;g/mL) (Sigma-Aldrich, Tokyo, Japan). The plates were incubated for approximately 40 h at 37 &#xB0;C and 5% CO<sub>2</sub> in a humid atmosphere. The cells were removed and the plates were developed with a second biotinylated monoclonal antibody to human IFN-&#x3B3;, IL-4 (Mabtech AB), IL-10, or IL-17 (BD Pharmingen), then washed six times. The plates were developed with streptavidin-alkaline phosphatase and colorimetric substrate (Mabtech AB). The number of resulting spots was counted with an ImmunoSpot Analyzer using acquisition and analysis software (Carl Zeiss, Tokyo, Japan). Data were obtained from triplicate samples and standard error was less than 10%.</p>
+      </sec>
+      <sec>
+        <title>2.5. Statistical Analysis</title>
+        <p>Data are presented as means &#xB1; standard deviations (SD). Student&#x2019;s t-test was used for analysis. Fisher&#x2019;s exact test, Mann-Whitney test, and Kruskal-Wallis test were used for contingency table analysis. P-value less than 0.05 was considered statistically significant. All statistical analyses were performed using Statview Version 5.0 (SAS Institute Inc., Cary, NC, USA).</p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>3. Results</title>
+      <sec>
+        <title>3.1. Spot-Forming Cells in Patients Who Underwent Allogeneic HSCT</title>
+        <p>To evaluate the influence of SFCs on aGVHD, we measured the numbers of SFCs for IFN-&#x3B3;, IL-4, IL-10 and IL-17 in unstimulated PBMCs of 49 patients with grade 0 aGVHD, 14 patients with grade I, and 17 patients with grade II-IV at 3, 6, and 10 weeks after transplantation. In the total 196 samples, as shown in <xref ref-type="fig" rid="cells-01-00061-f001">Figure 1</xref>, IFN-&#x3B3; and IL-4 SFCs at 3, 6, and 10 weeks after transplantation in patients with grade II-IV aGVHD were significantly higher than those in patients with grade 0 and/or I aGVHD. There were no significant differences in IL-10 and IL-17 SFCs among grade 0, I, and II-IV aGVHD, although IL-10 SFCs in grade II-IV aGVHD were elevated at every point after transplantation. These results indicate that not only type 1 (IFN-&#x3B3;), but also type 2 (IL-4) SFCs were involved in aGVHD following HSCT. Therefore, enumeration of type 1 and/or type 2 cytokine SFCs in PBMC samples with patients after transplantation is a good indicator for evaluating aGVHD.</p>
+        <fig id="cells-01-00061-f001" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p>Kinetics of cytokine spot-forming cells (SFCs) in patients with acute graft-<italic>versus</italic>-host disease (aGVHD). Analysis of time course of the numbers of cytokine SFCs. Numbers of samples in IFN-&#x3B3; at 3, 6, and 10 weeks after transplantation were 41, 41 and 35 on grade 0 aGVHD, 11, 12 and 9 on grade I, and 17, 15 and 15 on grade II-IV, respectively. Similarly, numbers of samples in IL-4 were 39, 40 and 33 on grade 0; 10, 11 and 8 on grade I; 16, 14 and 14 on grade II-IV. Numbers of samples in IL-10 were 25, 23 and 21 on grade 0; 5, 6 and 4 on grade I; 10, 9 and 10 on grade II-IV. Numbers of samples in IL-17 were 12, 10 and 9 on grade 0; 5, 5 and 3 on grade I; 4, 3 and 3 on grade II-IV. Data are expressed as means &#xB1; SD. Each shaded area was determined from healthy donor PBMCs as the cut-off value (n = 35; mean + 2SD).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00061-g001.tif"/>
+        </fig>
+        <p>The number of IFN-&#x3B3;, IL-4, IL-10, and IL-17 SFCs used for the cut-off value, determined from 35 healthy donors, was 5.2, 4.5, 10.8, and 4.8 spots /50,000 PBMCs (mean + 2SD), respectively.</p>
+        <p>Based on the cut-off value for IFN-&#x3B3; SFCs, the true-positive rate was 97% (44/45 samples) during aGVHD in patients with grade I-IV aGVHD and the false-positive rate was 16% (25/151 samples) in patients with grade 0 aGVHD. With regard to IL-4 SFCs, the true-positive rate was 91% (41/45 samples) and false-positive rate was 23% (33/140 samples) in patients with grade 0 aGVHD.</p>
+        <p>Next, we analyzed the number of cytokine SFCs according to the severity of aGVHD. The number of SFCs for IFN-&#x3B3; and IL-4, but not IL-10 and IL-17, significantly increased along with the higher grade of aGVHD (<xref ref-type="fig" rid="cells-01-00061-f002">Figure 2</xref>). Thus, these results suggest that both type 1 and type 2 cytokine contribute to aGVHD.</p>
+        <fig id="cells-01-00061-f002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>IFN-&#x3B3; and IL-4 SFCs indicate severity of aGVHD. The numbers of cytokine SFCs were analyzed according to the severity of aGVHD. Numbers of samples in IFN-&#x3B3; were 151, 17, 13 and 15 on grade 0, I, II and III-IV, respectively. Similarly, numbers of samples in IL-4 were 141, 17, 13, and 15; in IL-10, 87, 10, 9 and 7; in IL-17, 38, 9, 4 and 3.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00061-g002.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.2. Plasma Cytokine Levels in Patients Who Underwent Allogeneic HSCT</title>
+        <p>The plasma levels of IFN-&#x3B3;, IL-4, and IL-10 were measured in 26 patients with grade 0 and 18 patients with grade I-IV aGVHD at 3, 6 and 10 weeks after transplantation (data not shown). No statistical differences in these cytokine levels were observed between the patients with grade 0 and with grade I-IV aGVHD. IFN-&#x3B3; was detected in 3 out of 18 patients (16%) with grade I-IV aGVHD. Similarly, IL-4 and IL-10 were detected in 5 of 17 (29%) and 8 of 13 (61%) patients with grade I-IV aGVHD, respectively. Thus, the detection rates were relatively low for all cytokines. These results indicate that measurement of plasma cytokine may not be a useful indicator of aGVHD.</p>
+      </sec>
+      <sec>
+        <title>3.3. ELISPOT Assay Discriminates aGVHD from Infection</title>
+        <p>CMV-specific immunodeficiency may persist for 3 months after HSCT [<xref ref-type="bibr" rid="B21-cells-01-00061">21</xref>]. CMV viremia, quantitative pp65 antigenemia, and DNA load are risk factors for the development of CMV disease, independent of aGVHD [<xref ref-type="bibr" rid="B22-cells-01-00061">22</xref>]. It is often difficult to differentiate CMV infection from aGVHD when they coexist. We have shown two cases developed in comparative course (<xref ref-type="fig" rid="cells-01-00061-f003">Figure 3</xref>). A 16-year-old male patient (UPN#51) with acute lymphoblastic leukemia developed stage 3 skin rash on day 34 after HSCT, which was accompanied by stage 2 diarrhea. He had mild elevation of transaminases and positive CMV antigenemia. The level of IFN-&#x3B3; and IL-4 SFCs increased along with the increased level of diarrhea. On day 50, intestinal biopsy proved the presence of aGVHD. In contrast, a 10-year-old male patient (UPN#70) with chronic myelogenous leukemia developed stage 3 diarrhea on day 38 after HSCT. He had mild elevation of transaminases and positive CMV antigenemia. The level of IFN-&#x3B3; and IL-4 SFCs did not increased during diarrhea. On day 55, intestinal biopsy proved enteritis with CMV inclusion bodies, but not any apoptotic bodies of crypt. Thus, those representative cases demonstrated that the ELISPOT assay might discriminate aGVHD from CMV infection.</p>
+        <fig id="cells-01-00061-f003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>IFN-&#x3B3; and IL-4 SFCs were elevated in patients with aGVHD, irrespective of CMV infection. Two representative cases developed stage 2 diarrhea with positive antigenemia for CMV. One case (UPN#51) developed intestinal aGVHD, the other case (UPN#70) did not. Shaded area is shown as cut-off value for IFN-&#x3B3; SFCs.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00061-g003.tif"/>
+        </fig>
+        <p>Recipient seropositivity for CMV, which has been reported as a prognostic factor [<xref ref-type="bibr" rid="B23-cells-01-00061">23</xref>], was 67% (33/49) and 70% (22/31) in grade 0 aGVHD and grade I-IV aGVHD, respectively (<xref ref-type="table" rid="cells-01-00061-t001">Table 1</xref>). In the group of grade I-IV aGVHD, the mean numbers of IFN-&#x3B3; SFCs with negative (sample number = 31) or positive (n = 14) CMV antigenemia were 29.5 &#xB1; 20.8 and 26.3 &#xB1; 35.1 SFCs/50,000 PBMCs, respectively. These were significantly higher than the group of grade 0 aGVHD, irrespective of negative (n = 128; 3.7 &#xB1; 2.6 SFCs/50,000 PBMCs) or positive antigenemia (n = 23; 3.5 &#xB1; 2.6). Similarly, in the group of grade I-IV aGVHD, the mean numbers of IL-4 SFCs with negative (n = 31) or positive (n = 14) CMV antigenemia were 19.1 &#xB1; 12.5 and 18.5 &#xB1; 16.3 SFCs/50,000 PBMCs, respectively. These were significantly higher than the group of grade 0 aGVHD, irrespective of negative (n = 115; 5.9 &#xB1; 7.6 SFCs/50,000 PBMCs) or positive antigenemia (n = 23; 7.1 &#xB1; 10.5). These results indicate that enumeration of IFN-&#x3B3; and IL-4 SFCs may discriminate aGVHD from systemic CMV infections (<xref ref-type="fig" rid="cells-01-00061-f004">Figure 4</xref>).</p>
+        <fig id="cells-01-00061-f004" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p>Discrimination of aGVHD from CMV infection by IFN-&#x3B3; and IL-4 SFCs. The numbers of IFN-&#x3B3; and IL-4 SFCs in patients with grade 0 and I-IV aGVHD were analyzed by comparing with negative or positive CMV infection. Data are expressed as means &#xB1; SD.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00061-g004.tif"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>In this study, we demonstrated that the ELISPOT assay might be useful for diagnosis and monitoring of aGVHD after HSCT. The assay reflects <italic>in vivo</italic> immune status since this assay does not require <italic>in vitro</italic> expansion or activation of specific T cells before testing. Our results demonstrated that the numbers of IFN-&#x3B3; and IL-4 SFCs in patients with grade II-IV aGVHD were significantly higher than those in patients with grade 0 and/or I aGVHD. These results suggested that not only type 1 cells but also type 2 cells are involved during aGVHD, regardless of whether the type 2 cells promote or suppress the disease. This study has also shown that enumeration of IFN-&#x3B3; and IL-4 SFCs may discriminate aGVHD from CMV infections. Thus, the ELISPOT assay may be an efficacious method for evaluating aGVHD.</p>
+      <p>Acute GVHD is the major complication after HSCT [<xref ref-type="bibr" rid="B24-cells-01-00061">24</xref>]. It has been postulated that cytokines produced by type 1 cells would augment the T-cell responses against the host, thereby leading to greater aGVHD in the recipients [<xref ref-type="bibr" rid="B3-cells-01-00061">3</xref>]. Type 2 cytokines can inhibit the production of proinflammatory cytokines [<xref ref-type="bibr" rid="B24-cells-01-00061">24</xref>]. Clinical and preclinical data tend to support this phenomenon [<xref ref-type="bibr" rid="B25-cells-01-00061">25</xref>]. However, some preclinical models have demonstrated protective effects of type 1 cytokines in aGVHD, although the timing, dose, route of administration, and the murine strain combination may be critical in determining their effect [<xref ref-type="bibr" rid="B26-cells-01-00061">26</xref>]. Moreover, as with the type 1 cytokines, there have been conflicting reports demonstrating that type 2 cytokines can worsen the outcome of aGVHD [<xref ref-type="bibr" rid="B27-cells-01-00061">27</xref>]. Therefore, with regard to the type 1/type 2 paradigm, it is not yet determined whether a particular pathway is protective or deleterious for aGVHD. In the current study, both type 1 (IFN-&#x3B3;) and type 2 (IL-4) SFCs were involved in aGVHD following HSCT (<xref ref-type="fig" rid="cells-01-00061-f001">Figure 1</xref>).</p>
+      <p>IL-10, encoded by the <italic>IL10</italic> gene, is a known anti-inflammatory cytokine. Lin <italic>et al</italic>. described the association between the recipient&#x2019;s IL-10 promoter polymorphism and the risk of aGVHD [<xref ref-type="bibr" rid="B9-cells-01-00061">9</xref>]. IL-10 could reduce immune responsiveness and suppress aGVHD [<xref ref-type="bibr" rid="B28-cells-01-00061">28</xref>]. In the current study, there was no significant correlation between the number of IL-10 SFCs and activity of aGVHD, although IL-10 SFCs in patients with aGVHD, regardless of the severity, increased at 3 and 6 months after HSCT. Therefore, these results might be reflective of the regulatory function of IL-10 because IL-10 production may not be in parallel with aGVHD.</p>
+      <p>Recently, it has been clearly shown that a newly identified subset of IL-17-producing CD4<sup>+</sup> T-cells, named Th-17 cells [<xref ref-type="bibr" rid="B29-cells-01-00061">29</xref>], play a crucial role in orchestrating the immune reactions that trigger inflammation [<xref ref-type="bibr" rid="B30-cells-01-00061">30</xref>]. Dander <italic>et al</italic>. reported that an increased Th17 population of peripheral blood was observed in patients with aGVHD [<xref ref-type="bibr" rid="B31-cells-01-00061">31</xref>]. In the current study, the number of IL-17 SFCs was not increased in patients with or without aGVHD although PMA-activated PBMC controls were used for verifying the assay. These data do not contradict the previous data. Unlike our report using unstimulated cells for the ELISPOT assay, Dander&#x2019;s report used the cells stimulated with PMA and ionomycin prior to the ELISPOT assay and unstimulated cells were used as negative controls.</p>
+      <p>There is a possibility that the numbers of cytokine SFCs are affected by immunosuppressive drugs, including cyclosporine A, tacrolimus, methotrexate, and corticosteroid for prophylaxis and/or treatment of aGVHD. In fact, most of our patients (86%) with grade I-IV aGVHD were placed on one or more of these immunosuppressants when cytokine SFCs were examined. However, these immunosuppressants do not affect the balance between type 1 and type 2 cells [<xref ref-type="bibr" rid="B32-cells-01-00061">32</xref>,<xref ref-type="bibr" rid="B33-cells-01-00061">33</xref>]. Therefore, the current <italic>in vitro</italic> data reflected the <italic>in vivo</italic> immune status without skewing the type 1/type 2 balance by immunosuppressants used.</p>
+      <p>Infection also affects type 1 and/or type 2 cytokine productions. CMV infection is able to trigger IFN-&#x3B3; and IL-4 response [<xref ref-type="bibr" rid="B34-cells-01-00061">34</xref>] and elicit potent memory responses in chronically infected immunocompetent hosts [<xref ref-type="bibr" rid="B35-cells-01-00061">35</xref>]. However, impaired CMV-specific immunity may persist in the first 100 days after HSCT [<xref ref-type="bibr" rid="B36-cells-01-00061">36</xref>,<xref ref-type="bibr" rid="B37-cells-01-00061">37</xref>]. In the current study, we could not detect the elevation of IFN-&#x3B3; and IL-4 SFCs in patients with CMV infection without aGVHD (<xref ref-type="fig" rid="cells-01-00061-f004">Figure 4</xref>). Thus, the ELISPOT assay can discriminate aGVHD from systemic CMV infection.</p>
+      <p>As for the surface phenotypes (type 1, type 2, regulatory T-cell type, and Th-17 cell type) of SFCs in the current study, we did not determine cell types partly because the available cell number was limited. Nevertheless, SFCs are likely to contain predominantly CD8<sup>+</sup> T cells at the times when SFCs were examined, since the normalization of CD8<sup>+</sup> T cells is more rapid than that of CD4<sup>+</sup> T cells. Total T cells and CD4<sup>+</sup> T cells are characteristically low in numbers until between 6 and 12 months post-transplant, while CD8<sup>+</sup> T cells return quickly to normal range and often remain elevated long term post-transplant [<xref ref-type="bibr" rid="B38-cells-01-00061">38</xref>]. It has been reported that CD8<sup>+</sup> T cells produce IFN-&#x3B3;, IL-4, and IL-10 [<xref ref-type="bibr" rid="B39-cells-01-00061">39</xref>,<xref ref-type="bibr" rid="B40-cells-01-00061">40</xref>]. Therefore, it is likely that SFCs containing CD8<sup>+</sup> T cells produced these cytokines, although CD4<sup>+</sup> T cells (especially regulatory T cells), natural killer cells, mast cells, monocytes, and macrophages may also participate in cytokine production.</p>
+    </sec>
+    <sec sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>The enumeration of cytokine SFCs is readily available and a valuable clinical aid in the evaluation of HSCT patients, especially when complicated with systemic infections in the posttransplant period. IFN-&#x3B3; and IL-4 SFCs may help to discriminate aGVHD from systemic infections. Larger studies are needed to confirm the current findings.</p>
+    </sec>
+
+  </body>
+  <back>
+    <ack>
+    <title>Acknowledgments</title>
+      <p>This study was supported in part by a Research Grant for Tissue Engineering (H17-014) and a Research Grant for Allergic Disease and Immunology (H20-015) from the Japanese Ministry of Health, Labor, and Welfare.</p>
+    </ack>
+    <notes>
+    <title>Conflict of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-01-00061">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mitchell</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <name>
+              <surname>Derrington</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Turner</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Hunt</surname>
+              <given-names>L.P.</given-names>
+            </name>
+            <name>
+              <surname>Oakhill</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Marks</surname>
+              <given-names>D.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gram-negative bacteraemia (GNB) after 428 unrelated donor bone marrow transplants (UD-BMT): Risk factors, prophylaxis, therapy and outcome</article-title>
+          <source>Bone Marrow Transplant.</source>
+          <year>2004</year>
+          <volume>33</volume>
+          <fpage>303</fpage>
+          <lpage>310</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.bmt.1704338</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-cells-01-00061">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cooke</surname>
+              <given-names>K.R.</given-names>
+            </name>
+            <name>
+              <surname>Gerbitz</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Crawford</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Teshima</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hill</surname>
+              <given-names>G.R.</given-names>
+            </name>
+            <name>
+              <surname>Tesolin</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Rossignol</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Ferrara</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>LPS antagonism reduces graft-<italic>versus</italic>-host disease and preserves graft-<italic>versus</italic>-leukemia activity after experimental bone marrow transplantation</article-title>
+          <source>J. Clin. Invest.</source>
+          <year>2001</year>
+          <volume>107</volume>
+          <fpage>1581</fpage>
+          <lpage>1589</lpage>
+          <pub-id pub-id-type="doi">10.1172/JCI12156</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-cells-01-00061">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Krenger</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Ferrara</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Graft-<italic>versus</italic>-host disease and the Th1/Th2 paradigm</article-title>
+          <source>Immunol. Res.</source>
+          <year>1996</year>
+          <volume>15</volume>
+          <fpage>50</fpage>
+          <lpage>73</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF02918284</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-cells-01-00061">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liem</surname>
+              <given-names>L.M.</given-names>
+            </name>
+            <name>
+              <surname>van Lopik</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>van Nieuwenhuijze</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <name>
+              <surname>van Houwelingen</surname>
+              <given-names>H.C.</given-names>
+            </name>
+            <name>
+              <surname>Aarden</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Goulmy</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Soluble Fas levels in sera of bone marrow transplantation recipients are increased during acute graft-<italic>versus</italic>-host disease but not during infections</article-title>
+          <source>Blood</source>
+          <year>1998</year>
+          <volume>91</volume>
+          <fpage>1464</fpage>
+          <lpage>1468</lpage>
+        </citation>
+      </ref>
+      <ref id="B5-cells-01-00061">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fujimori</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Takatsuka</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Takemoto</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Hara</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Okamura</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Nakanishi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kakishita</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Elevated interleukin (IL)-18 levels during acute graft-<italic>versus</italic>-host disease after allogeneic bone marrow transplantation</article-title>
+          <source>Br. J. Haematol.</source>
+          <year>2000</year>
+          <volume>109</volume>
+          <fpage>652</fpage>
+          <lpage>657</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2141.2000.02095.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-cells-01-00061">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Visentainer</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Lieber</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Persoli</surname>
+              <given-names>L.B.</given-names>
+            </name>
+            <name>
+              <surname>Vigorito</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Aranha</surname>
+              <given-names>F.J.</given-names>
+            </name>
+            <name>
+              <surname>de Brito Eid</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Oliveira</surname>
+              <given-names>G.B.</given-names>
+            </name>
+            <name>
+              <surname>Miranda</surname>
+              <given-names>E.C.</given-names>
+            </name>
+            <name>
+              <surname>de Souza</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Serum cytokine levels and acute graft-<italic>versus</italic>-host disease after HLA-identical hematopoietic stem cell transplantation</article-title>
+          <source>Exp. Hematol.</source>
+          <year>2003</year>
+          <volume>31</volume>
+          <fpage>1044</fpage>
+          <lpage>1050</lpage>
+        </citation>
+      </ref>
+      <ref id="B7-cells-01-00061">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hori</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Naishiro</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sohma</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Hatakeyama</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sonoda</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Mizue</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Imai</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Tsutsumi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Kokai</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>CCL8 is a potential molecular candidate for the diagnosis of graft-<italic>versus</italic>-host disease</article-title>
+          <source>Blood</source>
+          <year>2008</year>
+          <volume>111</volume>
+          <fpage>4403</fpage>
+          <lpage>4412</lpage>
+        </citation>
+      </ref>
+      <ref id="B8-cells-01-00061">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Paczesny</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Krijanovski</surname>
+              <given-names>O.I.</given-names>
+            </name>
+            <name>
+              <surname>Braun</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>S.W.</given-names>
+            </name>
+            <name>
+              <surname>Clouthier</surname>
+              <given-names>S.G.</given-names>
+            </name>
+            <name>
+              <surname>Kuick</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Misek</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Cooke</surname>
+              <given-names>K.R.</given-names>
+            </name>
+            <name>
+              <surname>Kitko</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Weyand</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bickley</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Jones</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Whitfield</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Reddy</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Levine</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Hanash</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Ferrara</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>A biomarker panel for acute graft-<italic>versus</italic>-host disease</article-title>
+          <source>Blood</source>
+          <year>2009</year>
+          <volume>113</volume>
+          <fpage>273</fpage>
+          <lpage>278</lpage>
+        </citation>
+      </ref>
+      <ref id="B9-cells-01-00061">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>M.T.</given-names>
+            </name>
+            <name>
+              <surname>Storer</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Tseng</surname>
+              <given-names>L.H.</given-names>
+            </name>
+            <name>
+              <surname>Gooley</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Hansen</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Relation of an interleukin-10 promoter polymorphism to graft-<italic>versus</italic>-host disease and survival after hematopoietic-cell transplantation</article-title>
+          <source>New Engl. J. Med.</source>
+          <year>2003</year>
+          <volume>349</volume>
+          <fpage>2201</fpage>
+          <lpage>2210</lpage>
+          <pub-id pub-id-type="doi">10.1056/NEJMoa022060</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-cells-01-00061">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hattori</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Matsuzaki</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Suminoe</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ihara</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Nagatoshi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sakata</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Kawa</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Okamura</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hara</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Polymorphisms of transforming growth factor-beta1 and transforming growth factor-beta1 type II receptor genes are associated with acute graft-<italic>versus</italic>-host disease in children with HLA-matched sibling bone marrow transplantation</article-title>
+          <source>Bone Marrow Transplant.</source>
+          <year>2002</year>
+          <volume>30</volume>
+          <fpage>665</fpage>
+          <lpage>671</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.bmt.1703684</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-01-00061">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Theobald</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nierle</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Bunjes</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Arnold</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Heimpel</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Host-specific interleukin-2-secreting donor T-cell precursors as predictors of acute graft-<italic>versus</italic>-host disease in bone marrow transplantation between HLA-identical siblings</article-title>
+          <source>New Engl. J. Med.</source>
+          <year>1992</year>
+          <volume>327</volume>
+          <fpage>1613</fpage>
+          <lpage>1617</lpage>
+          <pub-id pub-id-type="doi">10.1056/NEJM199212033272301</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-cells-01-00061">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hempel</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Korholz</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Nussbaum</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Bonig</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Burdach</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zintl</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>High interleukin-10 serum levels are associated with fatal outcome in patients after bone marrow transplantation</article-title>
+          <source>Bone Marrow Transplant.</source>
+          <year>1997</year>
+          <volume>20</volume>
+          <fpage>365</fpage>
+          <lpage>368</lpage>
+        </citation>
+      </ref>
+      <ref id="B13-cells-01-00061">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>El Kassar</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Legouvello</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Joseph</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Salesses</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Rieux</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Cordonnier</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Vernant</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Farcet</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Bierling</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kuentz</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>High resolution HLA class I and II typing and CTLp frequency in unrelated donor transplantation: A single-institution retrospective study of 69 BMTs</article-title>
+          <source>Bone Marrow Transplant.</source>
+          <year>2001</year>
+          <volume>27</volume>
+          <fpage>35</fpage>
+          <lpage>43</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.bmt.1702733</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-cells-01-00061">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tanguay</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Killion</surname>
+              <given-names>J.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Direct comparison of ELISPOT and ELISA-based assays for detection of individual cytokine-secreting cells</article-title>
+          <source>Lymphokine Cytokine Res.</source>
+          <year>1994</year>
+          <volume>13</volume>
+          <fpage>259</fpage>
+          <lpage>263</lpage>
+        </citation>
+      </ref>
+      <ref id="B15-cells-01-00061">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Han</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Hodge</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intracellular cytokine production and cytokine receptor interaction of cord mononuclear cells: Relevance to cord blood transplantation</article-title>
+          <source>Br. J. Haematol.</source>
+          <year>1999</year>
+          <volume>107</volume>
+          <fpage>450</fpage>
+          <lpage>457</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2141.1999.01696.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-cells-01-00061">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Glucksberg</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Storb</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Fefer</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Buckner</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <name>
+              <surname>Neiman</surname>
+              <given-names>P.E.</given-names>
+            </name>
+            <name>
+              <surname>Clift</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Lerner</surname>
+              <given-names>K.G.</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>E.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Clinical manifestations of graft-<italic>versus</italic>-host disease in human recipients of marrow from HL-A-matched sibling donors</article-title>
+          <source>Transplantation</source>
+          <year>1974</year>
+          <volume>18</volume>
+          <fpage>295</fpage>
+          <lpage>304</lpage>
+          <pub-id pub-id-type="doi">10.1097/00007890-197410000-00001</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17-cells-01-00061">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gondo</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Minematsu</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Harada</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Akashi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hayashi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Taniguchi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yamasaki</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Shibuya</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Takamatsu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Teshima</surname>
+              <given-names>T.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Cytomegalovirus (CMV) antigenaemia for rapid diagnosis and monitoring of CMV-associated disease after bone marrow transplantation</article-title>
+          <source>Br. J. Haematol.</source>
+          <year>1994</year>
+          <volume>86</volume>
+          <fpage>130</fpage>
+          <lpage>137</lpage>
+        </citation>
+      </ref>
+      <ref id="B18-cells-01-00061">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kanda</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kami</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mori</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hamaki</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kusumi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Miyakoshi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nannya</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Chiba</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Arai</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Mitani</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hirai</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Mutou</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Monitoring cytomegalovirus infection by antigenemia assay and two distinct plasma real-time PCR methods after hematopoietic stem cell transplantation</article-title>
+          <source>Bone Marrow Transplant.</source>
+          <year>2002</year>
+          <volume>30</volume>
+          <fpage>315</fpage>
+          <lpage>319</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.bmt.1703661</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19-cells-01-00061">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kobayashi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Azuma</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Ido</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hirayama</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Iwamoto</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kumamoto</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Sakurai</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Komada</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>A pivotal role of Rho GTPase in the regulation of morphology and function of dendritic cells</article-title>
+          <source>J. Immunol.</source>
+          <year>2001</year>
+          <volume>167</volume>
+          <fpage>3585</fpage>
+          <lpage>3591</lpage>
+        </citation>
+      </ref>
+      <ref id="B20-cells-01-00061">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hirayama</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Azuma</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Kumamoto</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Iwamoto</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yamada</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Nashida</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Araki</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kageyama</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tamaki</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kawakami</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Komada</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Prediction of acute graft-<italic>versus</italic>-host disease and detection of distinct end-organ targets by enumeration of peripheral blood cytokine spot-forming cells</article-title>
+          <source>Transplantation</source>
+          <year>2005</year>
+          <volume>80</volume>
+          <fpage>58</fpage>
+          <lpage>65</lpage>
+        </citation>
+      </ref>
+      <ref id="B21-cells-01-00061">
+        <label>21.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Emery</surname>
+              <given-names>V.C.</given-names>
+            </name>
+            <name>
+              <surname>Sabin</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Cope</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Gor</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Hassan-Walker</surname>
+              <given-names>A.F.</given-names>
+            </name>
+            <name>
+              <surname>Griffiths</surname>
+              <given-names>P.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Application of viral-load kinetics to identify patients who develop cytomegalovirus disease after transplantation</article-title>
+          <source>Lancet</source>
+          <year>2000</year>
+          <volume>355</volume>
+          <fpage>2032</fpage>
+          <lpage>2036</lpage>
+        </citation>
+      </ref>
+      <ref id="B22-cells-01-00061">
+        <label>22.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Greenberg</surname>
+              <given-names>P.D.</given-names>
+            </name>
+            <name>
+              <surname>Gilbert</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Goodrich</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Riddell</surname>
+              <given-names>S.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Recovery of HLA-restricted cytomegalovirus (CMV)-specific T-cell responses after allogeneic bone marrow transplant: Correlation with CMV disease and effect of ganciclovir prophylaxis</article-title>
+          <source>Blood</source>
+          <year>1994</year>
+          <volume>83</volume>
+          <fpage>1971</fpage>
+          <lpage>1979</lpage>
+        </citation>
+      </ref>
+      <ref id="B23-cells-01-00061">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ljungman</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Aschan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lewensohn-Fuchs</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Carlens</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Larsson</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Lonnqvist</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Mattsson</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sparrelid</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Winiarski</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ringden</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Results of different strategies for reducing cytomegalovirus-associated mortality in allogeneic stem cell transplant recipients</article-title>
+          <source>Transplantation</source>
+          <year>1998</year>
+          <volume>66</volume>
+          <fpage>1330</fpage>
+          <lpage>1334</lpage>
+          <pub-id pub-id-type="doi">10.1097/00007890-199811270-00012</pub-id>
+        </citation>
+      </ref>
+      <ref id="B24-cells-01-00061">
+        <label>24.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ferrara</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Cooke</surname>
+              <given-names>K.R.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Krenger</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>The immunopathophysiology of acute graft-<italic>versus</italic>-host-disease</article-title>
+          <source>Stem Cells</source>
+          <year>1996</year>
+          <volume>14</volume>
+          <fpage>473</fpage>
+          <lpage>489</lpage>
+          <pub-id pub-id-type="doi">10.1002/stem.140473</pub-id>
+        </citation>
+      </ref>
+      <ref id="B25-cells-01-00061">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Williamson</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Garside</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Bradley</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>More</surname>
+              <given-names>I.A.</given-names>
+            </name>
+            <name>
+              <surname>Mowat</surname>
+              <given-names>A.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Neutralizing IL-12 during induction of murine acute graft-<italic>versus</italic>-host disease polarizes the cytokine profile toward a Th2-type alloimmune response and confers long term protection from disease</article-title>
+          <source>J. Immunol.</source>
+          <year>1997</year>
+          <volume>159</volume>
+          <fpage>1208</fpage>
+          <lpage>1215</lpage>
+        </citation>
+      </ref>
+      <ref id="B26-cells-01-00061">
+        <label>26.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Blazar</surname>
+              <given-names>B.R.</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Panoskaltsis-Mortari</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Vallera</surname>
+              <given-names>D.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rapamycin inhibits the generation of graft-<italic>versus</italic>-host disease- and graft-<italic>versus</italic>-leukemia-causing T cells by interfering with the production of Th1 or Th1 cytotoxic cytokines</article-title>
+          <source>J. Immunol.</source>
+          <year>1998</year>
+          <volume>160</volume>
+          <fpage>5355</fpage>
+          <lpage>5365</lpage>
+        </citation>
+      </ref>
+      <ref id="B27-cells-01-00061">
+        <label>27.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Murphy</surname>
+              <given-names>W.J.</given-names>
+            </name>
+            <name>
+              <surname>Welniak</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Taub</surname>
+              <given-names>D.D.</given-names>
+            </name>
+            <name>
+              <surname>Wiltrout</surname>
+              <given-names>R.H.</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Vallera</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Kopf</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Longo</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Blazar</surname>
+              <given-names>B.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Differential effects of the absence of interferon-gamma and IL-4 in acute graft-<italic>versus</italic>-host disease after allogeneic bone marrow transplantation in mice</article-title>
+          <source>J. Clin. Invest.</source>
+          <year>1998</year>
+          <volume>102</volume>
+          <fpage>1742</fpage>
+          <lpage>1748</lpage>
+          <pub-id pub-id-type="doi">10.1172/JCI3906</pub-id>
+        </citation>
+      </ref>
+      <ref id="B28-cells-01-00061">
+        <label>28.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weston</surname>
+              <given-names>L.E.</given-names>
+            </name>
+            <name>
+              <surname>Geczy</surname>
+              <given-names>A.F.</given-names>
+            </name>
+            <name>
+              <surname>Briscoe</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Production of IL-10 by alloreactive sibling donor cells and its influence on the development of acute GVHD</article-title>
+          <source>Bone Marrow Transplant.</source>
+          <year>2006</year>
+          <volume>37</volume>
+          <fpage>207</fpage>
+          <lpage>212</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.bmt.1705218</pub-id>
+        </citation>
+      </ref>
+      <ref id="B29-cells-01-00061">
+        <label>29.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harrington</surname>
+              <given-names>L.E.</given-names>
+            </name>
+            <name>
+              <surname>Hatton</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Mangan</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>Turner</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Murphy</surname>
+              <given-names>T.L.</given-names>
+            </name>
+            <name>
+              <surname>Murphy</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Weaver</surname>
+              <given-names>C.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interleukin 17-producing CD4+ effector T cells develop via a lineage distinct from the T helper type 1 and 2 lineages</article-title>
+          <source>Nat. Immunol.</source>
+          <year>2005</year>
+          <volume>6</volume>
+          <fpage>1123</fpage>
+          <lpage>1132</lpage>
+          <pub-id pub-id-type="doi">10.1038/ni1254</pub-id>
+        </citation>
+      </ref>
+      <ref id="B30-cells-01-00061">
+        <label>30.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Annunziato</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Cosmi</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Santarlasci</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Maggi</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Liotta</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Mazzinghi</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Parente</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Fili</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ferri</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Frosali</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Giudici</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Romagnani</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Parronchi</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Tonelli</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Maggi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Romagnani</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phenotypic and functional features of human Th17 cells</article-title>
+          <source>J. Exp. Med.</source>
+          <year>2007</year>
+          <volume>204</volume>
+          <fpage>1849</fpage>
+          <lpage>1861</lpage>
+        </citation>
+      </ref>
+      <ref id="B31-cells-01-00061">
+        <label>31.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dander</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Balduzzi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Zappa</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Lucchini</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Perseghin</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Andre</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Todisco</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Rahal</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Migliavacca</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Longoni</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Solinas</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Villa</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Berti</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Mina</surname>
+              <given-names>P.D.</given-names>
+            </name>
+            <name>
+              <surname>Parma</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Allavena</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Biagi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Rovelli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Biondi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>D&#x2019;Amico</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interleukin-17-producing T-helper cells as new potential player mediating graft-<italic>versus</italic>-host disease in patients undergoing allogeneic stem-cell transplantation</article-title>
+          <source>Transplantation</source>
+          <year>2009</year>
+          <volume>88</volume>
+          <fpage>1261</fpage>
+          <lpage>1272</lpage>
+        </citation>
+      </ref>
+      <ref id="B32-cells-01-00061">
+        <label>32.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sakuma</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Higashi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sato</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Sasakawa</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sengoku</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ohkubo</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Amaya</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Goto</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Tacrolimus suppressed the production of cytokines involved in atopic dermatitis by direct stimulation of human PBMC system. (Comparison with steroids)</article-title>
+          <source>Int. Immunopharmacol.</source>
+          <year>2001</year>
+          <volume>1</volume>
+          <fpage>1219</fpage>
+          <lpage>1226</lpage>
+          <pub-id pub-id-type="doi">10.1016/S1567-5769(01)00059-5</pub-id>
+        </citation>
+      </ref>
+      <ref id="B33-cells-01-00061">
+        <label>33.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rentenaar</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Heydendael</surname>
+              <given-names>V.M.</given-names>
+            </name>
+            <name>
+              <surname>Diepen</surname>
+              <given-names>F.N.</given-names>
+            </name>
+            <name>
+              <surname>Rie</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Berge</surname>
+              <given-names>I.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Systemic treatment with either cyclosporin A or methotrexate does not influence the T Helper 1/t Helper 2 balance in psoriatic patients</article-title>
+          <source>J. Clin. Immunol.</source>
+          <year>2004</year>
+          <volume>24</volume>
+          <fpage>361</fpage>
+          <lpage>369</lpage>
+          <pub-id pub-id-type="doi">10.1023/B:JOCI.0000029107.47085.1b</pub-id>
+        </citation>
+      </ref>
+      <ref id="B34-cells-01-00061">
+        <label>34.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.L.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Y.L.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>Z.J.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>Z.Q.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>T-helper and T-cytotoxic cell subsets monitoring during active cytomegalovirus infection in liver transplantation</article-title>
+          <source>Transplant. Proc.</source>
+          <year>2004</year>
+          <volume>36</volume>
+          <fpage>1498</fpage>
+          <lpage>1499</lpage>
+        </citation>
+      </ref>
+      <ref id="B35-cells-01-00061">
+        <label>35.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bitmansour</surname>
+              <given-names>A.D.</given-names>
+            </name>
+            <name>
+              <surname>Waldrop</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Pitcher</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Khatamzas</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Kern</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Maino</surname>
+              <given-names>V.C.</given-names>
+            </name>
+            <name>
+              <surname>Picker</surname>
+              <given-names>L.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Clonotypic structure of the human CD4+ memory T cell response to cytomegalovirus</article-title>
+          <source>J. Immunol.</source>
+          <year>2001</year>
+          <volume>167</volume>
+          <fpage>1151</fpage>
+          <lpage>1163</lpage>
+        </citation>
+      </ref>
+      <ref id="B36-cells-01-00061">
+        <label>36.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cwynarski</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ainsworth</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cobbold</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wagner</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mahendra</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Apperley</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Craddock</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Moss</surname>
+              <given-names>P.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Direct visualization of cytomegalovirus-specific T-cell reconstitution after allogeneic stem cell transplantation</article-title>
+          <source>Blood</source>
+          <year>2001</year>
+          <volume>97</volume>
+          <fpage>1232</fpage>
+          <lpage>1240</lpage>
+          <pub-id pub-id-type="doi">10.1182/blood.V97.5.1232</pub-id>
+        </citation>
+      </ref>
+      <ref id="B37-cells-01-00061">
+        <label>37.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Luo</surname>
+              <given-names>X.H.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>X.J.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>K.Y.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>L.P.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>D.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Protective immunity transferred by infusion of cytomegalovirus-specific CD8(+) T cells within donor grafts: Its associations with cytomegalovirus reactivation following unmanipulated allogeneic hematopoietic stem cell transplantation</article-title>
+          <source>Biol. Blood Marrow Transplant.</source>
+          <year>2010</year>
+          <volume>16</volume>
+          <fpage>994</fpage>
+          <lpage>1004</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbmt.2010.02.007</pub-id>
+        </citation>
+      </ref>
+      <ref id="B38-cells-01-00061">
+        <label>38.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Atkinson</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Reconstruction of the haemopoietic and immune systems after marrow transplantation</article-title>
+          <source>Bone Marrow Transplant</source>
+          <year>1990</year>
+          <volume>5</volume>
+          <fpage>209</fpage>
+          <lpage>226</lpage>
+        </citation>
+      </ref>
+      <ref id="B39-cells-01-00061">
+        <label>39.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Paganelli</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Scala</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Ansotegui</surname>
+              <given-names>I.J.</given-names>
+            </name>
+            <name>
+              <surname>Ausiello</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Halapi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Fanales-Belasio</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>D&#x2019;Offizi</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Mezzaroma</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Pandolfi</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Fiorilli</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Cassone</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Aiuti</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>CD8+ T lymphocytes provide helper activity for IgE synthesis in human immunodeficiency virus-infected patients with hyper-IgE</article-title>
+          <source>J. Exp. Med.</source>
+          <year>1995</year>
+          <volume>181</volume>
+          <fpage>423</fpage>
+          <lpage>428</lpage>
+        </citation>
+      </ref>
+      <ref id="B40-cells-01-00061">
+        <label>40.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Sad</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kagi</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Mosmann</surname>
+              <given-names>T.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>CD8Tc1 and Tc2 cells secrete distinct cytokine patterns <italic>in vitro</italic> and in vivo but induce similar inflammatory reactions</article-title>
+          <source>J. Immunol.</source>
+          <year>1997</year>
+          <volume>158</volume>
+          <fpage>4152</fpage>
+          <lpage>4161</lpage>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

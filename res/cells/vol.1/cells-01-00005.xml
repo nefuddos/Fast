@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xml:lang="en" article-type="research-article" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells1010005</article-id>
+      <article-id pub-id-type="publisher-id">cells-01-00005</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>ELISPOT Refinement Using Spot Morphology for Assessing Host Responses to Tuberculosis</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sibley</surname>
+            <given-names>Laura S.</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>White</surname>
+            <given-names>Andrew D.</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Marriott</surname>
+            <given-names>Alice</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dennis</surname>
+            <given-names>Michael J.</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Williams</surname>
+            <given-names>Ann</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Marsh</surname>
+            <given-names>Philip D.</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sharpe</surname>
+            <given-names>Sally A.</given-names>
+          </name>
+          <xref rid="c1-cells-01-00005" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-01-00005">Microbiological Services, Health Protection Agency Porton, Porton Down, Salisbury, Wiltshire SP4 0JG, UK; E-Mails: <email>Laura.Sibley@hpa.org.uk</email> (L.S.S.); <email>Andrew.White@hpa.org.uk</email> (A.D.W.); <email>alice.marriott@hpa.org.uk</email> (A.M.); <email>mike.dennis@hpa.org.uk</email> (M.J.D); <email>ann.rawkins@hpa.org.uk</email> (A.W.); <email>phil.marsh@hpa.org.uk</email> (P.D.M.)</aff>
+      <author-notes>
+        <corresp id="c1-cells-01-00005"><label>*</label> Author  to whom correspondence should be addressed; E-Mail: <email>Sally.Sharpe@hpa.org.uk</email>; Tel.: 01980612100. </corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>13</day>
+        <month>03</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+	  <month>03</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>1</volume>
+      <issue>1</issue>
+      <fpage>5</fpage>
+      <lpage>14</lpage>
+      <history>
+        <date date-type="received">
+          <day>09</day>
+          <month>02</month>
+          <year>2012</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>28</day>
+          <month>02</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>06</day>
+          <month>03</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#x000A9; 2012 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2012</copyright-year>
+        <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/">
+          <p>This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (http://creativecommons.org/licenses/by/3.0/).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Tuberculosis is a global health problem. The <italic>Mycobacterium bovis</italic> Bacille Calmette Guerin (BCG) vaccine has variable efficacy (0-80%) so there is a drive to develop novel vaccines. The cytokine, interferon gamma (IFN&#x3B3;), is an essential component of the protective response to <italic>M. tuberculosis</italic> (<italic>M. tb</italic>) infection and is also produced in response to BCG vaccination. Induction of an IFN&#x3B3; response is used as a biomarker of successful vaccination in the assessment of new tuberculosis (TB) vaccines. The IFN&#x3B3; ELISPOT assay provides an important tool for TB research. It is used for both the diagnosis of infection (T.Spot assay), and for the evaluation of the immunogenicity of new TB vaccine candidates in human clinical trials, in the non-human primate (NHP) model of TB infection studies. The ELISPOT assay captures IFN&#x3B3; produced by peripheral blood mononuclear cells (PBMCs) following specific stimulation, onto a membrane so individual cells can be enumerated and the frequency of responding cells determined. Hence spot forming units (SFU) per 10<sup>6</sup> cells provide the traditional measure for ELISPOT assays. The discriminatory power of SFU is limited. In some situations, the number of SFU in BCG vaccinated, and unvaccinated, subjects was found to be similar, although the spots were observed to be larger in vaccinated subjects. Spot size potentially provides a measure of the quantity of cytokine produced by individual cells. The AID ELISPOT plate reader software used to determine frequency of spots also has the capability to determine the size of each spot. Consideration of spot size in combination with spot forming units was investigated in our studies of BCG immunogenicity. This additional readout was found to enhance the discriminatory power of the ELISPOT assay, and provide more information on the immune response to BCG vaccination and infection with <italic>M.tb</italic>.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>ELISPOT</kwd>
+        <kwd>IFN&#x3B3;</kwd>
+        <kwd>tuberculosis</kwd>
+        <kwd>BCG</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Tuberculosis (TB) in humans is caused by infection with <italic>Mycobacterium tuberculosis</italic> (<italic>M tb</italic>) and is one of the leading global causes of death from a single infectious agent, with an estimated 8.8 million new cases worldwide and 1.4 million deaths in 2011 [<xref ref-type="bibr" rid="B1-cells-01-00005">1</xref>]. A third of the world&#x2019;s population is estimated to be latently infected with <italic>M. tb</italic>, and these people carry a 10% lifetime risk of developing active life-threatening disease [<xref ref-type="bibr" rid="B2-cells-01-00005">2</xref>] which is increased to 10% per year in the event of co-infection with human immunodeficiency virus [<xref ref-type="bibr" rid="B3-cells-01-00005">3</xref>,<xref ref-type="bibr" rid="B4-cells-01-00005">4</xref>]. The global TB pandemic has been further exacerbated by the emergence of drug resistant strains of <italic>M. tuberculosis</italic> which render treatment less effective. There is an urgent need for novel vaccines and other therapeutics to reduce the number of cases.The only licensed TB vaccine, <italic>Mycobacterium bovis</italic> Bacille Calmette Guerin (BCG), is administered to neonates in high-risk populations as part of the WHO Expanded Programme on Immunisation. BCG consistently protects against TB meningitis and disseminated TB in childhood [<xref ref-type="bibr" rid="B5-cells-01-00005">5</xref>] but its efficacy wanes with time and it affords only variable protection against pulmonary disease. A new, more effective TB vaccine is a major global health priority and is an important part of the WHO STOP TB partnership strategy. </p>
+      <p>The T-cell response is important in control of TB infection, as illustrated by the large incidence of TB infection in patients who are HIV<sup>+</sup>, and lack sufficient numbers of CD4<sup>+</sup> cells to be able to tackle the infection effectively [<xref ref-type="bibr" rid="B5-cells-01-00005">5</xref>]. The Th1 cytokine IFN&#x3B3; has been shown to be a vital component of the protective immune response to TB, and there is evidence that individuals lacking the IFN&#x3B3; gene are far more susceptible to TB infection [<xref ref-type="bibr" rid="B6-cells-01-00005">6</xref>]. IFN&#x3B3; is involved in several mechanisms of protective immunity including activation of macrophages and NK cells and in T-cell differentiation and has therefore been suggested as a correlate of protection. </p>
+      <p>However, it has been shown [<xref ref-type="bibr" rid="B7-cells-01-00005">7</xref>,<xref ref-type="bibr" rid="B8-cells-01-00005">8</xref>] that IFN&#x3B3; alone does not correlate with protection, but IFN&#x3B3; remains an important component of the overall immune response required to combat infection with tuberculosis. IFN&#x3B3; release assays (IGRAs) are therefore very important tools for measuring the immune response to <italic>M. tb</italic> infection (including diagnosis of infection) and for monitoring the impact of vaccination. The IFN&#x3B3; ELISPOT assay is widely used and measures the frequency of cells which produce IFN&#x3B3; in response to stimulation by specific antigens. A variant of the ELISPOT assay, the T-spot test uses TB antigens ESAT-6 and CFP10 to diagnose infection with TB [<xref ref-type="bibr" rid="B9-cells-01-00005">9</xref>]. The ELISPOT assay is widely used in research to monitor the Th1 response in clinical trials of new TB vaccines [<xref ref-type="bibr" rid="B10-cells-01-00005">10</xref>] and pre-clinical vaccine evaluation studies [<xref ref-type="bibr" rid="B7-cells-01-00005">7</xref>]. The ELISPOT assay shows increased sensitivity over other IGRAs as it is able to detect IFN&#x3B3; release by single cells. </p>
+      <p>The traditional ELISPOT assay readout is expressed as spot forming units (SFU) per 10<sup>6</sup> cells. SFU is a well established measurement, but does not correlate with protection [<xref ref-type="bibr" rid="B7-cells-01-00005">7</xref>] and it can lack discriminatory power. We have observed that the sizes of the spots generated in the ELISPOT assay may vary, and that after vaccination or infection, the size of the spots increases noticeably. The size of the spot may either relate to the quantity of cytokine being excreted by individual cells, or the actual morphology of the cells, and this could potentially provide additional information on the immune response which is not taken in to account when SFU alone are counted.</p>
+      <p>In this study the effect of incorporating a measure of spot size into the ELISPOT assay readout in combination with quantity of spots was investigated for potential to (a) enhance the discriminatory power of the ELISPOT and (b) provide more information on the immune response to BCG vaccination or <italic>M. tb</italic> infection. </p>
+    </sec>
+    <sec sec-type="results">
+      <title>2. Results and Discussion</title>
+      <sec>
+        <title>2.1. Investigation of the Utility of an ELISPOT Readout Incorporating Spot Size for Evaluation of Immune Responses Induced by BCG Vaccination</title>
+        <p>Data from two non-human primate (NHP) studies were used to investigate spot size as an additional measurement. The frequency of peripheral blood mononuclear cells (PBMC) capable of producing IFN&#x3B3; in response to stimulation with purified protein derivative (PPD), in blood collected from Mauritian cynomolgus macaques in Study 1, over the first 20 weeks after vaccination with BCG, enumerated as SFU was found to be similar to the frequency determined in PBMC from animals that were not vaccinated (<xref ref-type="fig" rid="cells-01-00005-f001">Figure 1</xref>Ai). Therefore, the immune profiles of vaccinated and unvaccinated animals could not be distinguished based on the frequency of spots alone. Comparison of the area under the curves derived from the response profiles based on SFU in BCG vaccinated and unvaccinated animals using a Mann Whitney test (<xref ref-type="fig" rid="cells-01-00005-f001">Figure 1</xref>A) confirmed the lack of difference between the groups (p = 0.8557) (<xref ref-type="fig" rid="cells-01-00005-f001">Figure 1</xref>Ai). </p>
+        <p>The morphology of spots observed in wells set up with PBMC isolated from BCG vaccinated animals was different to that seen in wells set up with PBMC from unvaccinated animals. Fig1B shows images of two wells which contain the same number of spots, however the spots produced in well (Bi) by PBMC from a BCG vaccinated animal are markedly larger than those produced in well (Bii) by PBMC from an unvaccinated animal. The larger spot sizes in well (Bi) suggest PBMC from the BCG vaccinated macaque produced more IFN&#x3B3; than PBMC from the unvaccinated macaque when stimulated with PPD. </p>
+        <p>When a measurement of spot count x average spot size was used to compare the IFN&#x3B3; response in vaccinated and unvaccinated macaques, a response of increased magnitude with a peak at week 6 was revealed in the animals that received the BCG vaccine. AUC and Mann-Whitney analysis confirmed the response profiles to be significantly different (p = 0.0064 (<xref ref-type="fig" rid="cells-01-00005-f001">Figure 1</xref>C)).</p>
+      <fig id="cells-01-00005-f001" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p>The IFN&#x3B3; response to <italic>Mycobacterium bovis</italic> Bacille Calmette Guerin (BCG) vaccination in Mauritian cynomolgus macaques measured by ELISPOT.Panel Ashows the frequency of purified protein derivative (PPD)-specific IFN-&#x3B3; secreting cells in peripheral blood mononuclear cells (PBMC) measured as spot forming units (SFU)/10<sup>6</sup> in individual BCG vaccinated n = 16 (red symbols) and unvaccinated n = 4 (black symbols) macaques and the median response in each group (BCG vaccinated group, red line, unvaccinated group, black line) (<bold>Ai</bold>) and the median area under the SFU curve (area under the curve (AUC)) calculated for the BCG vaccinated (red bar) and unvaccinated (black bar) study groups and compared using a Mann Whitney test (<bold>Aii</bold>). Panel B shows images of spots which developed in wells containing PBMC stimulated with PPD from a BCG vaccinated macaque (<bold>Bi</bold>) and an unvaccinated macaque (<bold>Bii</bold>). Panel C shows the IFN&#x3B3; response profiles determined using spot size x quantity from individual BCG vaccinated (red symbols) and unvaccinated (black symbols) macaques and the median response in each group (BCG vaccinated group, red line, unvaccinated group, black line) (<bold>Ci</bold>), and the median area under the spot size x quantity curves (AUC) calculated for BCG vaccinated (red bar) and unvaccinated (black bar) study groups and compared using a Mann Whitney test (<bold>Cii</bold>).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00005-g001.tif"/>
+        </fig>
+        </sec>
+      <sec>
+        <title>2.2. Verification of the Improved Discriminatory Power Provided by Incorporation of Spot Size</title>
+        <p>The response made by the PPD-specific IFN&#x3B3; secreting cell population induced in the peripheral blood of Chinese cynomolgus macaques following vaccination with BCG was investigated using both ELISPOT readouts in Study 2. The frequency of PPD-specific, IFN&#x3B3; producing PBMC, enumerated using SFU, was greater in BCG vaccinated macaques than in macaques that were not vaccinated during the 18 weeks of study (<xref ref-type="fig" rid="cells-01-00005-f002">Figure 2</xref>A). However, comparison of the area under the curves derived from the response profiles based on the SFU measurement using a Mann Whitney test found that the difference in the response profiles did not reach statistical significance (p = 0.1735). In contrast, the response profile measured by spot count x area (<xref ref-type="fig" rid="cells-01-00005-f002">Figure 2</xref>B) revealed an increase in IFN&#x3B3; response after BCG vaccination that was significantly different (p = 0.0131) to the response in the unvaccinated animals. Therefore, both measures were able to demonstrate that BCG vaccination stimulated an increase in IFN&#x3B3; production but the use of the spot count x area measurement had improved discriminatory power. A peak IFN&#x3B3; response 6 weeks after vaccination was identified using both response measures and although the frequency of SFU decreased after week 6, the profile derived from spot count x area suggested that the response was maintained for 18 weeks. </p>
+        </sec>
+      <sec>
+        <title>2.3. Analysis of the IFNy Response Induced in Chinese Cynomolgus Macaques Following Infection with M.tb Using the Spot Size x Quantity and SFU ELISPOT Readouts</title>
+        <p>PPD-specific IFN&#x3B3; response profiles determined using frequency of spots alone (<xref ref-type="fig" rid="cells-01-00005-f002">Figure 2</xref>A) and spot count x size (<xref ref-type="fig" rid="cells-01-00005-f002">Figure 2</xref>B) both showed that the responses made in the period following aerosol exposure to <italic>M. tb</italic>, were greater than those detected prior to challenge in both BCG vaccinated and unvaccinated macaques. Both readouts revealed responses induced in the BCG vaccinated macaques to be of greater magnitude than those made by macaques which did not receive a BCG vaccination before challenge. A rapid increase in the IFN&#x3B3; response was also revealed in the BCG vaccinated animals 2 weeks after tuberculosis challenge. Taken together these observations suggested that BCG vaccinated animals possessed a higher number of cells which produced more IFN&#x3B3;, more quickly after challenge with <italic>M. tb</italic>, than unvaccinated animals.</p>
+        <p>The IFN&#x3B3; response profile in the unvaccinated macaques defined using the SFU readout showed a steady increase in frequency of cells producing IFN&#x3B3; over the 18 weeks of study, which was in line with the response trend determined using the spot size x quantity readout. In contrast, the SFU readout revealed a peak in the IFN&#x3B3; response profile in the BCG vaccinated animals 12 weeks after challenge that was not detected in the profile derived from the spot count x size analysis. This suggested that at week 12, a large number of responding cells were present in the circulation, but individual cells were capable of producing smaller quantities of cytokine than cells assessed at other times after infection. </p>
+      </sec>
+    </sec>
+    <sec>
+      <title>3. Experimental Section</title>
+      <sec>
+        <title>3.1. <italic>In Vivo</italic> Studies</title>
+        <p>Sixteen UK-bred cynomolgus macaques of Mauritian lineage were selected for Study 1 and twelve cynomolgus macaques of Chinese origin were selected from a UK Home Office approved breeding colony for Study 2. All Animals were housed in the UK according to Home Office (UK) guidelines and were sedated by intramuscular (i.m.) injection with ketamine hydrochloride (10 mg/kg) (Ketaset, Fort Dodge Animal Health Ltd, Southampton, UK) for all procedures requiring removal from their cages. All procedures involving animals were approved by the Ethical Review Committee of the Health Protection Agency, Porton, UK. None of the animals had been used previously for experimental procedures. A PRIMAGAM (Biocor, CSL, USA) test kit was used to demonstrate NHPs were na&#xEF;ve in terms of prior exposure to mycobacterial antigens.</p>
+        <fig id="cells-01-00005-f002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>The IFN&#x3B3; response to BCG vaccination (solid line) and challenge with <italic>M. tb</italic> (dashed line) in Chinese cynomolgus macaques measured by ELISPOT. Panel Ashows the frequency of PPD-specific IFN-&#x3B3; secreting cells in PBMC measured as SFU/10<sup>6</sup> in individual BCG vaccinated n = 6 (blue symbols) and unvaccinated n = 6 (grey symbols) macaques and the median response in each group (BCG vaccinated group, blue line, unvaccinated group, black line) (<bold>Ai</bold>) and the median area under the SFU curves (AUC) calculated for BCG vaccinated (blue bar) and unvaccinated (grey bar) study groups during the vaccination phase and compared using a Mann Whitney test (<bold>Aii</bold>). Panel B shows the IFN&#x3B3; response profiles determined using spot size x quantity from individual BCG vaccinated (blue symbols) and unvaccinated (grey symbols) macaques and the median response in each group (BCG vaccinated group, blue line, unvaccinated group, grey line) (<bold>Bi</bold>), and the median area under the spot size x quantity curves (AUC) calculated for BCG vaccinated (blue bars) and unvaccinated (grey bars) study groups during the vaccination phase and compared using a Mann Whitney test (<bold>Bii</bold>).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-01-00005-g002.tif"/>
+        </fig>
+      <p>Twelve Mauritian (study 1) and 6 Chinese cynomolgus macaques (study 2) were vaccinated with BCG Danish strain 1331 (Statum Serum Institute, Copenhagen, Denmark). Animals were immunised intradermally into the upper left arm with 100 &#xB5;L BCG and the viability of the BCG vaccine was confirmed to be within the expected range for the batch (data not shown). </p>
+        <p>Twenty-one weeks after vaccination with BCG, the 6 Chinese cynomolgus macaques together with the 6 unvaccinated animals from study 2 were challenged by the aerosol route with 75 CFU <italic>M.tb</italic> (Erdman KO1) using procedures described previously [<xref ref-type="bibr" rid="B7-cells-01-00005">7</xref>,<xref ref-type="bibr" rid="B11-cells-01-00005">11</xref>] then monitored for 28 weeks. Animals were assessed daily for changes in behaviour, and sedated every 2 weeks for changes in clinical parameters including, body weight, temperature, red cell haemoglobin concentration and erythrocyte sedimentation rate, and for collection of blood samples. In this period, disease progressed in 3 of the 6 unvaccinated macaques to levels which met the set humane endpoint criteria and animals were euthanised at weeks 5, 7 and 10 after challenge. All remaining animals successfully controlled disease levels during the post-challenge follow-up period and clinical parameters remained within normal limits. </p>
+        <p>Blood samples were collected at 2 weekly intervals from all animals throughout both studies for immune assessment, and PBMCs were isolated using a density gradient centrifugation by standard procedures [<xref ref-type="bibr" rid="B7-cells-01-00005">7</xref>]. </p>
+      </sec>
+      <sec>
+        <title>3.2. ELISPOT Assay</title>
+        <p>The frequency and size of IFN&#x3B3; producing cells in PBMCs induced by stimulation with mycobacterium-specific antigens was measured using a monkey IFN&#x3B3; ELISPOT kit from Mabtech (Nacka, Sweden). PVDF 96-well plates (Millipore, Watford, UK) were coated with IFN&#x3B3; capture antibody. Cells at a concentration of 2 &#xD7; 10<sup>5</sup>/well were plated out in triplicate and stimulated with either PPD (10 &#xB5;g/mL, SSI, Copenhagen, Denmark) or Phorbol 12-myristate 13-acetate (PMA) (Sigma-Aldrich Dorset, UK) (100 ng/mL), and Ionomycin (CN Biosciences, Nottingham, UK) (1 &#xB5;g/mL) as a positive control or left unstimulated. After overnight incubation at 37 &#xB0;C, cells were washed off and a biotintylated anti-IFN&#x3B3; secondary antibody added to bind to the released IFN&#x3B3;. Spots were developed using Streptavidin-HRP enzyme and freshly prepared 5-Bromo-4-Chloro-3-Indolyl Phosphate/Nitro Blue Tetrazolium (BCIP/NBT) substrate (Mabtech, Nacka, Sweden) combination. Spot forming units were counted and average spot areas measured using AID CADAMA ELISPOT reader and software (CADAMA, Stourbridge, UK). </p>
+      </sec>
+      <sec>
+        <title>3.3. ELISPOT Analysis</title>
+        <p>Determinations from duplicate tests were averaged. Data were analysed by subtracting the mean number of spots in the wells with cells and medium-only from the mean counts of spots in wells with cells and antigen. SFU was calculated as the frequency per 10<sup>6</sup> cells PBMC. Spot size was incorporated into the analysis by multiplying the spot counts by the average spot size per well. Response profiles were plotted using Sigmaplot version 10 (Systat Software Inc, Hounslow, UK). </p>
+      </sec>
+      <sec>
+        <title>3.4. Statistical Analysis</title>
+        <p>To compare the immune response profiles induced in animals by vaccination, the area under the curve (AUC) for each response was calculated using Sigmaplot version 10 (Systat Software Inc, Hounslow, UK) for each animal. The area under the curves was determined for each of the individual animals in each test group. The median AUC was calculated for each group and compared using a Mann Whitney test using Minitab, version 15 (Minitab Ltd, Coventry, UK). Differences of &lt; P = 0.05 were considered to be significant.</p>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>The ELISPOT assay with its traditional SFU readout provides an important tool with proven value in the investigation of the immune response elicited following vaccination or infection. In this study this approach has demonstrated the induction of an increased frequency of cells capable of secreting IFN&#x3B3; in response to stimulation with mycobacterium-specific antigen in the peripheral blood of macaques, both after vaccination with BCG, and infection with <italic>M.tb</italic>, in line with previous reports [<xref ref-type="bibr" rid="B7-cells-01-00005">7</xref>,<xref ref-type="bibr" rid="B12-cells-01-00005">12</xref>]. The SFU readout clearly demonstrated the response to infection with tuberculosis to be significantly greater than that seen before infection in both BCG-vaccinated and unvaccinated animals. However, at lower frequencies of responding cells, such as those seen after vaccination, the discriminatory power of the SFU readout was reduced to a level such that the response profile defined in Chinese cynomolgus macaques lacked statistical power, or failed to demonstrate a vaccine-induced response in Mauritian cynomolgus macaques.</p>
+      <p>Consideration of spot size in an ELISPOT assay can provide an additional measure of the immune response. Schlingmann <italic>et al</italic>., [<xref ref-type="bibr" rid="B13-cells-01-00005">13</xref>] have previously reported a transient increase in spot size in an ELISPOT assay after vaccination in a study of the response to vaccinia in human volunteers. Similarly in this study, spots of increased size were observed in assays performed with PBMC collected from Mauritian cynomolgus macaques after vaccination with BCG.</p>
+      <p>The added value provided by inclusion of the spot size parameter into the ELISPOT readout was found to be more important when responses were lower, <italic>i.e.</italic>, after BCG vaccination, where this approach was shown to improve the ability to discriminate between responses in BCG-vaccinated and unvaccinated subjects. Use of spot size x count revealed clear IFN&#x3B3; responses to BCG vaccination in both Chinese cynomolgus macaques and Mauritian cynomolgus macaques detectable until at least 18 weeks after vaccination, at the point that the studies ended, which were similar to those reported in rhesus macaques [<xref ref-type="bibr" rid="B7-cells-01-00005">7</xref>]. </p>
+      <p>The spot size x spot count readout provides an estimation of both the quantity of IFN&#x3B3; produced per cell as well as the number of cells producing IFN&#x3B3; which gives further insight into the nature of the immune response. This readout revealed that not only was the response over the first 6 weeks after TB infection quicker, and the magnitude greater in BCG vaccinated animals, than that seen in previously unvaccinated animals, but also the spots were larger in size. The speed of response, and larger spot sizes early after infection may be indicative of the induction of a secondary response primed by BCG. The spot sizes in assays of the unvaccinated animals were also observed to increase with time after infection to a level that was similar to those seen in BCG vaccinated subjects after infection. This increase in size may also provide evidence of the development of a secondary response as the unvaccinated animals respond to infection. Further work would be required before spot size could be confirmed as an indicator of a secondary response to show that responding cells are from the same population (CD4<sup>+</sup> T cells) as it is possible that PPD (an undefined antigen preparation) is inducing a lesser amount of IFN&#x3B3; production from cells other than CD4 T-cells (e.g., gammadelta, NKT or NK cells). Cell size may not be the only factor that influences spot size, as the efficiency with which cytokine can be produced in response to stimulation may also be important. This could be further investigated by measuring the quantity of cytokine released into culture supernatant following antigenic stimulation.</p>
+      <p>Inclusion of a measure of the spot size into the readout of the ELISPOT assay has shown that useful information can be obtained from spot size measurements, and this could be included in future studies to enhance the information obtained about the IFN&#x3B3; and Th1 response. An evaluation of the IFN&#x3B3; response determined using the refined ELISPOT readout as a potential correlate of protection against tuberculosis, or as a biomarker predictive of the progression of tuberculosis disease, should be investigated further.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>This work was supported by Department of Health, UK. The views expressed in this publication are those of the authors and not necessarily those of the Department of Health. We thank the staff of the Biological Investigations Group at HPA, and Karen Gooch and Lisa Stevens in the TB group for assistance in conducting the studies; and Simon Clark and Dominic Kelly for aerobiology expertise.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-01-00005">
+        <label>1.</label>
+        <citation citation-type="gov">
+          <collab>World Health Organisation</collab>
+          <source>Tuberculosis Facts</source>
+          <publisher-name>WHO</publisher-name>
+          <publisher-loc>Geneva, Switzerland</publisher-loc>
+          <year>2011</year>
+        </citation>
+      </ref>
+      <ref id="B2-cells-01-00005">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dye</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Dye</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Scheele</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Dolin</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Pathania</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Raviglione</surname>
+              <given-names>M.C. </given-names>
+            </name>
+          </person-group>
+          <article-title>Consensus statement. Global burden of tuberculosis: Estimated incidence, prevalence, and mortality by country. WHO Global Surveillance and Monitoring Project</article-title>
+          <source>J. Am. Med. Assoc.</source>
+          <year>1999</year>
+          <volume>282</volume>
+          <fpage>677</fpage>
+          <lpage>686</lpage>
+          <pub-id pub-id-type="doi">10.1001/jama.282.7.677</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-cells-01-00005">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Corbett</surname>
+              <given-names>E.L.</given-names>
+            </name>
+            <name>
+              <surname>Marston</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Churchyard</surname>
+              <given-names>G.J.</given-names>
+            </name>
+            <name>
+              <surname>de Cock</surname>
+              <given-names>K.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Tuberculosis in sub-Saharan Africa: Opportunities, challenges, and change in the era of antiretroviral treatment</article-title>
+          <source>Lancet</source>
+          <year>2006</year>
+          <volume>367</volume>
+          <fpage>926</fpage>
+          <lpage>937</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0140-6736(06)68383-9</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-cells-01-00005">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Colditz</surname>
+              <given-names>G.A.</given-names>
+            </name>
+            <name>
+              <surname>Brewer</surname>
+              <given-names>T.F.</given-names>
+            </name>
+            <name>
+              <surname>Berkey</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Wilson</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <name>
+              <surname>Burdick</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Fineberg</surname>
+              <given-names>H.V.</given-names>
+            </name>
+            <name>
+              <surname> Mosteller</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Efficacy of BCG vaccine in the prevention of tuberculosis. Meta-analysis of the published literature</article-title>
+          <source>J. Am. Med. Assoc.</source>
+          <year>1994</year>
+          <volume>271</volume>
+          <fpage>698</fpage>
+          <lpage>702</lpage>
+          <pub-id pub-id-type="doi">10.1001/jama.1994.03510330076038</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-cells-01-00005">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hussey</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Hawkridge</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hanekom</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Childhood tuberculosis: Old and new vaccines</article-title>
+          <source>Paediatr. Respir. Rev.</source>
+          <year>2007</year>
+          <volume>8</volume>
+          <fpage>148</fpage>
+          <lpage>154</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.prrv.2007.04.009</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-cells-01-00005">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Newport</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Levin</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetic susceptibility to tuberculosis</article-title>
+          <source>J. Infect.</source>
+          <year>1999</year>
+          <volume>39</volume>
+          <fpage>117</fpage>
+          <lpage>121</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0163-4453(99)90002-6</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-cells-01-00005">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sharpe</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Mc Shane</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Dennis</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Basaraba</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Gleeson</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Hall</surname>
+              <given-names>G.A.</given-names>
+            </name>
+            <name>
+              <surname>McIntyre</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Clark</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gooch</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Beveridge</surname>
+              <given-names>N.E.R.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Establishment of an aerosol challenge model of tuberculosis in rhesus macaques and an evaluation of endpoints for vaccine testing</article-title>
+          <source>Clin. Vaccine Immunol.</source>
+          <year>2010</year>
+          <volume>17</volume>
+          <fpage>1170</fpage>
+          <lpage>1182</lpage>
+          <pub-id pub-id-type="doi">10.1128/CVI.00079-10</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-cells-01-00005">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vordermeier</surname>
+              <given-names>H.M.</given-names>
+            </name>
+            <name>
+              <surname>Vordermeier</surname>
+              <given-names>H.M.</given-names>
+            </name>
+            <name>
+              <surname>Chambers</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Cockle</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Whelan</surname>
+              <given-names>A.O.</given-names>
+            </name>
+            <name>
+              <surname>Simmons</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hewinson</surname>
+              <given-names>R.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Correlation of ESAT-6-specific gamma interferon production with pathology in cattle following Mycobacterium bovis BCG vaccination against experimental bovine tuberculosis</article-title>
+          <source>Infect. Immunity</source>
+          <year>2002</year>
+          <volume>70</volume>
+          <fpage>3026</fpage>
+          <lpage>3032</lpage>
+          <pub-id pub-id-type="doi">10.1128/IAI.70.6.3026-3032.2002</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-cells-01-00005">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chee</surname>
+              <given-names>C.B.E.</given-names>
+            </name>
+            <name>
+              <surname>Gan</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>KhinMar</surname>
+              <given-names>K.W.</given-names>
+            </name>
+            <name>
+              <surname>Barkham</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Koh</surname>
+              <given-names>C.K.</given-names>
+            </name>
+            <name>
+              <surname>Liang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison of sensitivities of two commercial gamma interferon release assays for pulmonary tuberculosis</article-title>
+          <source>J. Clin. Microbiol.</source>
+          <year>2008</year>
+          <volume>46</volume>
+          <fpage>1935</fpage>
+          <lpage>1940</lpage>
+          <pub-id pub-id-type="doi">10.1128/JCM.02403-07</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-cells-01-00005">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Beveridge</surname>
+              <given-names>N.E.R.</given-names>
+            </name>
+            <name>
+              <surname>Fletcher</surname>
+              <given-names>H.A.</given-names>
+            </name>
+            <name>
+              <surname>Hughes</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Scriba</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Pathan</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Minassian</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sander</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Whelan</surname>
+              <given-names>K.T.</given-names>
+            </name>
+            <name>
+              <surname>Dockrell</surname>
+              <given-names>H.M.</given-names>
+            </name>
+            <name>
+              <surname>Hill</surname>
+              <given-names>A.V.S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A Comparison of IFN&#x3B3; detection methods used in tuberculosis vaccine trials</article-title>
+          <source>Tuberculosis</source>
+          <year>2008</year>
+          <volume>88</volume>
+          <fpage>631</fpage>
+          <lpage>640</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tube.2008.06.005</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-01-00005">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sharpe</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Eschelbach</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Basaraba</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Gleeson</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Hall</surname>
+              <given-names>G.A.</given-names>
+            </name>
+            <name>
+              <surname>McIntyre</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kraft</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Clark</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gooch</surname>
+              <given-names>K.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Determination of lesion volume by MRI and stereology in a macaque model of tuberculosis</article-title>
+          <source>Tuberculosis</source>
+          <year>2009</year>
+          <volume>89</volume>
+          <fpage>405</fpage>
+          <lpage>416</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tube.2009.09.002</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-cells-01-00005">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lai</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Sehgal</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Simon</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Qiu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Letvin</surname>
+              <given-names>N.L.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Z.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Immune biology of macaque lymphocyte populations during mycobacterial infection</article-title>
+          <source>Clin. Exp. Immunol.</source>
+          <year>2003</year>
+          <volume>133</volume>
+          <fpage>82</fpage>
+          <lpage>192</lpage>
+        </citation>
+      </ref>
+      <ref id="B13-cells-01-00005">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schlingmann</surname>
+              <given-names>T.R.</given-names>
+            </name>
+            <name>
+              <surname>Shive</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Targoni</surname>
+              <given-names>O.S.</given-names>
+            </name>
+            <name>
+              <surname>Tary-Lehmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Increased per cell IFN-&#x3B3; productivity indicates recent <italic>in vivo</italic> activation of T cells</article-title>
+          <source>Cell Immunol.</source>
+          <year>2009</year>
+          <volume>258</volume>
+          <fpage>131</fpage>
+          <lpage>137</lpage>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

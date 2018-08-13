@@ -1,0 +1,1503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title-group>
+        <journal-title>Cells</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells7030019</article-id>
+      <article-id pub-id-type="publisher-id">cells-07-00019</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Construction and Analysis of Gene Co-Expression Networks in <italic>Escherichia coli</italic></article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-5659-6139</contrib-id>
+          <name>
+            <surname>Liu</surname>
+            <given-names>Wei</given-names>
+          </name>
+          <xref rid="af1-cells-07-00019" ref-type="aff">1</xref>
+          <xref rid="c1-cells-07-00019" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Li</given-names>
+          </name>
+          <xref rid="af2-cells-07-00019" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Long</surname>
+            <given-names>Xuhe</given-names>
+          </name>
+          <xref rid="af1-cells-07-00019" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>You</surname>
+            <given-names>Weixin</given-names>
+          </name>
+          <xref rid="af1-cells-07-00019" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhong</surname>
+            <given-names>Yuexian</given-names>
+          </name>
+          <xref rid="af1-cells-07-00019" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Menglin</given-names>
+          </name>
+          <xref rid="af1-cells-07-00019" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tao</surname>
+            <given-names>Huan</given-names>
+          </name>
+          <xref rid="af1-cells-07-00019" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lin</surname>
+            <given-names>Shoukai</given-names>
+          </name>
+          <xref rid="af3-cells-07-00019" ref-type="aff">3</xref>
+          <xref rid="c1-cells-07-00019" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>He</surname>
+            <given-names>Huaqin</given-names>
+          </name>
+          <xref rid="af1-cells-07-00019" ref-type="aff">1</xref>
+          <xref rid="c1-cells-07-00019" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-07-00019"><label>1</label>School of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou 350002, China; <email>xhlong2015@sina.com</email> (X.L.); <email>ywx19971016@163.com</email> (W.Y.); <email>yuexianz@163.com</email> (Y.Z.); <email>1170539009@fafu.edu.cn</email> (M.W.); <email>taohuan@fafu.edu.cn</email> (H.T.)</aff>
+      <aff id="af2-cells-07-00019"><label>2</label>Institute of Health Service and Medical Information, Academy of Military Medical Sciences, Beijing 100850, China; <email>lili10010304@163.com</email></aff>
+      <aff id="af3-cells-07-00019"><label>3</label>Key Laboratory of Loquat Germplasm Innovation and Utilization, Putian University, Putian 351100, China</aff>
+      <author-notes>
+        <corresp id="c1-cells-07-00019"><label>*</label>Correspondence: <email>weilau@fafu.edu.cn</email> (W.L.); <email>Shoukai.lin@foxmail.com</email> (S.L.); <email>hehq3@fafu.edu.cn</email> (H.H.); Tel.: +86-591-83703791 (H.H.)</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>08</day>
+        <month>03</month>
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>03</month>
+        <year>2018</year>
+      </pub-date>
+      <volume>7</volume>
+      <issue>3</issue>
+      <elocation-id>19</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>03</day>
+          <month>02</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>08</day>
+          <month>03</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2018 by the authors.</copyright-statement>
+        <copyright-year>2018</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Network-based systems biology has become an important method for analyzing high-throughput gene expression data and gene function mining. <italic>Escherichia coli</italic> (<italic>E. coli</italic>) has long been a popular model organism for basic biological research. In this paper, weighted gene co-expression network analysis (WGCNA) algorithm was applied to construct gene co-expression networks in <italic>E. coli</italic>. Thirty-one gene co-expression modules were detected from 1391 microarrays of <italic>E. coli</italic> data. Further characterization of these modules with the database for annotation, visualization, and integrated discovery (DAVID) tool showed that these modules are associated with several kinds of biological processes, such as carbohydrate catabolism, fatty acid metabolism, amino acid metabolism, transportation, translation, and ncRNA metabolism. Hub genes were also screened by intra-modular connectivity. Genes with unknown functions were annotated by guilt-by-association. Comparison with a previous prediction tool, EcoliNet, suggests that our dataset can expand gene predictions. In summary, 31 functional modules were identified in <italic>E. coli</italic>, 24 of which were functionally annotated. The analysis provides a resource for future gene discovery.</p>
+      </abstract>
+      <kwd-group>
+        <kwd><italic>Escherichia coli</italic></kwd>
+        <kwd>gene co-expression network</kwd>
+        <kwd>annotation</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-cells-07-00019" sec-type="intro">
+      <title>1. Introduction</title>
+      <p><italic>Escherichia coli</italic> (<italic>E. coli</italic>) is an abundant bacteria in the intestine of humans and animals. It is a single-celled prokaryote that is widely used as a model organism in biology research. The <italic>E. coli</italic> genome size is about 4.64 M and encodes 5416 genes. Well-developed microarray technology has been used to investigate genome-wide gene expression thanks to its low cost. For convenience, we refer to gene as the corresponding probesets on the microarray throughout the manuscript when focusing on genes rather than probesets. There is extensive <italic>E. coli</italic> transcriptome data deposited in the public databases. These data include gene expression data under various conditions, such as different nutrients, growing stages, and gene mutations [<xref ref-type="bibr" rid="B1-cells-07-00019">1</xref>]. Scientists have been endeavoring to mine transcriptional regulation networks, gene expression networks, and protein&#x2013;protein interaction networks by mathematical models [<xref ref-type="bibr" rid="B2-cells-07-00019">2</xref>]. It is still a challenge to reanalyze and discover the underlying information or knowledge within high-throughput data. Through the Google Scholar search engine, we found that the application of weighted gene co-expression network analysis (WGCNA) to <italic>E. coli</italic> has not yet been comprehensively reported. Although the metabolic network of <italic>E. coli</italic> has been constructed [<xref ref-type="bibr" rid="B3-cells-07-00019">3</xref>,<xref ref-type="bibr" rid="B4-cells-07-00019">4</xref>], only one recent study mentioned the construction of an <italic>E. coli</italic> gene network from 524 arrays, which focused on the statistical aspect by comparing four algorithms, including WGCNA [<xref ref-type="bibr" rid="B5-cells-07-00019">5</xref>]. Another study applied a community detection algorithm to the network of interactions identified with the context likelihood of relatedness (CLR) method from 730 arrays [<xref ref-type="bibr" rid="B6-cells-07-00019">6</xref>]. Three other studies have investigated the regulatory network of <italic>E. coli</italic> using hundreds of microarrays [<xref ref-type="bibr" rid="B7-cells-07-00019">7</xref>,<xref ref-type="bibr" rid="B8-cells-07-00019">8</xref>,<xref ref-type="bibr" rid="B9-cells-07-00019">9</xref>]. The EcoliNet database, which aims to provide function information for <italic>E. coli</italic> genes, collects co-functional gene networks for <italic>E. coli</italic> from seven distinct types of data, including co-expression pattern data from 132 microarrays [<xref ref-type="bibr" rid="B10-cells-07-00019">10</xref>].</p>
+      <p>The aims of our analysis were as follows: (1) to integrate the independent datasets, which will help to overcome the limitations caused by sample size and statistical method bias; (2) to summarize the thousands of genes on the array into tens of modules, which will help simplify data complexity and clarify the <italic>E. coli</italic> biological functions by modules, systematically; and (3) to provide organization or connection information within module genes, which may infer the potential function of unannotated genes by guilt-by-association rationale [<xref ref-type="bibr" rid="B11-cells-07-00019">11</xref>]. </p>
+      <p>Here, the gene co-expression network for <italic>E. coli</italic> was constructed from 1391 microarrays. Thirty-one modules were identified, representing various aspects of <italic>E. coli</italic> biological functions. Hub genes bearing high connectivity may play roles in module function. Unknown genes were also annotated.</p>
+    </sec>
+    <sec id="sec2-cells-07-00019" sec-type="results">
+      <title>2. Results</title>
+      <sec id="sec2dot1-cells-07-00019">
+        <title>2.1. A Gene Co-Expression Network for E. coli Was Successfully Constructed</title>
+        <p>The biggest gene co-expression network to date has been constructed (<xref ref-type="fig" rid="cells-07-00019-f001">Figure 1</xref>). The top 2000 highly connected probe pairs were visualized by Cytoscape. The highest connected gene within the whole network is probe 1761661_s_at, which is annotated as an intergenic region; however, it localizes within the putative adhesin gene ycgV as inferred from its physical coordinate. Also, probe 1761661_s_at is highly connected in the Black module, whose members are enriched with plasma membrane protein-coding genes and the two-component system related genes (<xref ref-type="table" rid="cells-07-00019-t001">Table 1</xref>). </p>
+        <p>WGCNA identified 31 stable co-expressed modules within which the genes have a similar expression pattern (<xref ref-type="fig" rid="cells-07-00019-f002">Figure 2</xref>). To test the stability of the modules, the connectivity correlations between the original one and the one sampled 1000 times were calculated and expressed as the mean &#xB1; SD. All modules, except the Lightgreen module, show an average connectivity correlation smaller than 0.8. The most stable module is the Darkgrey and the least stable is the Steelblue.</p>
+      </sec>
+      <sec id="sec2dot2-cells-07-00019">
+        <title>2.2. Each Module Performs Distinct Functions</title>
+        <p>The database for annotation, visualization, and integrated discovery (DAVID) online tool was used to characterize the function of these identified modules. Twenty-four of them were annotated with significant Gene Ontology (GO) or Kyoto Encyclopedia of Genes and Genomes (KEGG) terms (<xref ref-type="table" rid="cells-07-00019-t001">Table 1</xref>). <italic>E. coli</italic> functions can be categorized into relatively independent functional modules. For instance, Blue is associated with secretion, whose coding proteins localize outside the cell. Magenta and Lightyellow both encode the peptidoglycan-based cell wall, but Lightyellow involves fatty acid oxidation and Magenta involves amine biosynthesis. Seven of these modules did not detect any function: Floralwhite, Lightgreen, Lightsteelblue1, Purple, Skyblue3, Steelblue, and Violet, corresponding to 34, 109, 37, 276, 45, 59, and 53 probesets, respectively. Among them, Floralwhite, Lightgreen, Lightsteelblue1, Skyblue3, and Steelblue are the eight least stable modules. The absence of DAVID terms being detected may be due to their relatively fewer probesets and lower module stability.</p>
+      </sec>
+      <sec id="sec2dot3-cells-07-00019">
+        <title>2.3. E. coli Hub Gene Screening</title>
+        <p>In <italic>E. coli</italic> gene co-expression modules, each gene has a different contribution, that is, different connectivity. The higher the connectivity, the more important the gene in the module. Therefore, the contribution of a gene to a module can be simply described by its connectivity. The hub genes were screened by their connectivity in each module [<xref ref-type="bibr" rid="B12-cells-07-00019">12</xref>]. The screened hub genes are shown in <xref ref-type="table" rid="cells-07-00019-t002">Table 2</xref>. For instance, the top 200 connections of the Darkorange and Darkred modules are visualized in <xref ref-type="fig" rid="cells-07-00019-f003">Figure 3</xref>.</p>
+      </sec>
+      <sec id="sec2dot4-cells-07-00019">
+        <title>2.4. Module-Based Analysis of Gene Expression Variation</title>
+        <p>Analysis of gene expression variation in each module found modules performing housekeeping functions. Tan, Green, and Darkgrey have relatively low gene expression variation (lowest three), suggesting their housekeeping functions, such as ncRNA metabolism, translation, and lipopolysaccharide biosynthesis. Brown4, Darkorange, and Plum1 have relatively high gene expression variation (top three), mainly corresponding to stress responses, such as iron transmembrane transporter activity, pathogenesis, and anaerobic respiration (<xref ref-type="fig" rid="cells-07-00019-f004">Figure 4</xref>).</p>
+      </sec>
+      <sec id="sec2dot5-cells-07-00019">
+        <title>2.5. Module-Based Analysis of Gene Connectivity</title>
+        <p>Module gene connectivity includes intramodule connectivity and intermodule connectivity. Intramodule connectivity represents the relationship between genes within a specific module. Intermodule connectivity equals the total network connectivity minus intramodule connectivity, indicating the contribution of genes in coordinating functions across modules. Module-based gene connectivity analysis revealed that Black has the lowest intermodule connectivity while Darkorange has the highest intermodule connectivity (<xref ref-type="fig" rid="cells-07-00019-f005">Figure 5</xref>). Darkorange is enriched with pathogenesis genes. Connectivity analysis indicates its important roles in coordinating module functions.</p>
+      </sec>
+      <sec id="sec2dot6-cells-07-00019">
+        <title>2.6. Modules That Correlate with Experimental Conditions</title>
+        <p>Modules can be independent units that perform biological functions. Linking the modular gene expression with experimental conditions may help to discover modules functioning in specific conditions. For example, inorganic phosphate limitation induces the highest Darkorange expression (<xref ref-type="app" rid="app1-cells-07-00019">Table S3</xref>). Darkorange is associated with pathogenesis and may be involved in responses to Pi availability and in the coordination of its virulence gene response [<xref ref-type="bibr" rid="B13-cells-07-00019">13</xref>]. Several modular genes are critical genes that respond to Pi limitation as reported, such as sepZ (1759760_s_at), escV (1761005_s_at), EspB (1765196_s_at), alkaline phosphatase (1767525_s_at), and Ler (1761795_s_at). Many other genes have been reported to be associated with virulence, such as intimin (1760207_s_at) [<xref ref-type="bibr" rid="B14-cells-07-00019">14</xref>], SepQ (1759472_s_at), SepL (1764730_s_at), EscC (1767809_s_at), EscD (1767897_s_at) (<xref ref-type="app" rid="app1-cells-07-00019">Table S4</xref>). </p>
+        <p>The highest Darkred expression is induced when <italic>E. coli</italic> is cultured with bovine serum albumin (BSA) at the logarithmic growth phase [<xref ref-type="bibr" rid="B15-cells-07-00019">15</xref>]. Darkred is associated with flagella, which are important for biofilm formation by <italic>E. coli</italic>. Many Darkred genes are related to flagella, such as flgF (1759235_at), fliN (1765241_s_at), fliG (1766530_s_at), and flgG (1767435_s_at) (<xref ref-type="app" rid="app1-cells-07-00019">Table S4</xref>). Seventeen genes are annotated as hypothetical proteins. Our results may provide information for mining novel flagellum-related genes.</p>
+      </sec>
+      <sec id="sec2dot7-cells-07-00019">
+        <title>2.7. Comparison with Previous E. coli Networks</title>
+        <p>To compare our modules with those identified by a community detection algorithm [<xref ref-type="bibr" rid="B6-cells-07-00019">6</xref>], we overlapped the module functions and the Green and Darkred module member genes. Among the 13 modules from the Trevino study, 11 had GO annotations and all 11 modules were covered by our study with the same biological function (<xref ref-type="app" rid="app1-cells-07-00019">Table S5</xref>). We found 77 overlapping genes between the structural constituent of ribosome genes (the total was 106 in the Trevino study) and the Green module (<xref ref-type="app" rid="app1-cells-07-00019">Table S6</xref>). Another example is the 72 flagella genes, which were identified as the most significant GO-enriched community in the Trevino study. In our study, the Darkred module was annotated as flagellum and contains 87 potential genes that may be associated with flagella. Fifty-six genes overlap between these two lists (<xref ref-type="app" rid="app1-cells-07-00019">Table S7</xref>). In our study, the flagellum module also contains some genes annotated as hypothetical proteins. </p>
+        <p>Some databases provide network-based <italic>E. coli</italic> gene function predictions, such as EcoliNet. An example here is the Darkred module, where all module genes should be associated with flagella. The 11 genes with unknown function were submitted to EcoliNet for function prediction, which found that 9 of these genes are predicted to be associated with flagella (<xref ref-type="app" rid="app1-cells-07-00019">Table S8</xref>). These results show that our analysis can expand the candidate gene list for flagella.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-cells-07-00019" sec-type="discussion">
+      <title>3. Discussion</title>
+      <p>WGCNA has been extensively applied for gene co-expression network construction in many species. The application in human brain transcriptome analysis revealed co-expressed modules in different brain regions [<xref ref-type="bibr" rid="B16-cells-07-00019">16</xref>]. In plant research, WGCNA identified cell-type specific and endoderm differentiation-associated gene co-expression modules [<xref ref-type="bibr" rid="B17-cells-07-00019">17</xref>]. Here, we analyzed 1391 <italic>E. coli</italic> microarrays and identified 24 modules with biological functional annotations. As <italic>E. coli</italic> is a simple organism, the results are easy to interpret. Traditional microarray analysis methods compare the control and treatment group, or multiple groups by ANOVA. When the data contains enormous amounts of samples, it is hard to analyze. WGCNA helps to reduce data dimension/complexity to only several modules that are complementary to the traditional analysis method. WGCNA does not require prior knowledge, so it may provide information for genome annotation.</p>
+      <p><italic>E. coli</italic> biological functions can be categorized into four types: metabolism, ion transport, behavior, and pathogenesis. Metabolism modules include amino acid metabolism (Brown4, Darkturquoise, Magenta), carbohydrate metabolism (Black), lipopolysaccharide biosynthesis (Darkgreen, Darkgrey), sulfur metabolism (Darkolivegreen, Orangered4), and glycerol metabolism (Paleturquoise). Ion transport modules are Ivory and Grey60. The behavior module is Darkred. The pathogenesis modules are Blue, Darkmagenta, and Darkorange. Each module has a different function, suggesting the robustness of WGCNA.</p>
+      <p>Gene function prediction by co-expression approaches is based on the similarity of gene expression profiles across multiple samples or conditions. More data would help to increase the predictive power [<xref ref-type="bibr" rid="B18-cells-07-00019">18</xref>]. Therefore, all the data under various conditions were pooled to obtain more general module results. The advantages of our study is that it is the largest sample size to date. WGCNA assumes that groups of genes that encode proteins primarily or exclusively and function together in a pathway or molecular complex will be coordinately transcribed. The modules may help to annotate genes with unknown function. The Darkred module example shows that our results are comparable to those previously reported.</p>
+      <p>Further identification of hub genes may help to reveal their important role in modules. For instance, the Darkorange SepD hub gene may play roles in <italic>E. coli</italic> pathogenesis [<xref ref-type="bibr" rid="B19-cells-07-00019">19</xref>]; Black Z4148 is annotated as a hypothetical gene that might participate in carbohydrate metabolism, inferred from module function. Our results provide information for gene function and experimental validation. Lastly, the module-based analysis has revealed potential housekeeping and stress response modules by gene expression variation. Individual genes with high intermodule gene connectivity may suggest a role as module coordinator. For example, Darkorange may sense signals from the environment and play roles in intracellular signaling. In sum, our analysis is the first to construct an <italic>E. coli</italic> gene co-expression network and provides clues for candidate genes suitable for experimental validation.</p>
+    </sec>
+    <sec id="sec4-cells-07-00019">
+      <title>4. Materials and Methods </title>
+      <sec id="sec4dot1-cells-07-00019">
+        <title>4.1. Data Preparation</title>
+        <p>A total of 165 GEO Series (GSE) datasets from <italic>E. coli</italic> were downloaded from the National Center for Biotechnology Information Gene Expression Omnibus (GEO) database [<xref ref-type="bibr" rid="B1-cells-07-00019">1</xref>]. These datasets include 1391 GSM files, representing 1391 biological samples. Details about these experiments and samples are provided in <xref ref-type="app" rid="app1-cells-07-00019">Tables S1 and S2</xref>. To improve the reproducibility and simplicity of the data analysis, only Affymetrix <italic>E. coli</italic> Genome 2.0 Array data were processed. Raw gene chip data were analyzed by Expression Console (Version 1.2) by MAS5.0 method. Probe-level gene expression data were retrieved.</p>
+      </sec>
+      <sec id="sec4dot2-cells-07-00019">
+        <title>4.2. Weighted Gene Co-Expression Network Analysis (WGCNA)</title>
+        <p>The WGCNA package was run on R (Version 2.3.2) to construct a gene co-expression network and identify modules with the following parameters: networkType = &#x2018;signed&#x2019;, softPower = 12, minModuleSize = 30, deepSplit = 4. Briefly, a weighted correlation network was created by calculating the correlation coefficients with the power &#x3B2; [<xref ref-type="bibr" rid="B20-cells-07-00019">20</xref>]. The &#x3B2; = 12 was chosen as a saturation level for a soft threshold of the correlation matrix based on the criterion of approximate scale-free topology. The weighted network was transformed into a network of topological overlap (TO), an advanced co-expression measurement that considers not only the correlation of two genes with each other but also the extent of their shared correlations across the weighted network [<xref ref-type="bibr" rid="B20-cells-07-00019">20</xref>]. The TO matrix was then used to group highly co-expressed genes by hierarchical clustering. Finally, a dynamic tree cut algorithm was used to cut the hierarchical clustering tree, and modules were defined as the branches resulting from this tree cutting [<xref ref-type="bibr" rid="B21-cells-07-00019">21</xref>]. Each module was summarized using singular value decomposition so that each module eigengene (ME) represents the first principal component of the module expression profiles [<xref ref-type="bibr" rid="B20-cells-07-00019">20</xref>]. Thus, ME explains the maximum amount of variation of the module expression levels and is considered the most representative gene expression in a module.</p>
+        <p>Module stability was tested as the average correlation between the original connectivity and the connectivity from 1391 samples that were randomly sampled 1000 times. The process was run for every module.</p>
+      </sec>
+      <sec id="sec4dot3-cells-07-00019">
+        <title>4.3. Module-Based Qualitative and Quantitative analysis</title>
+        <p>Genes in each of the identified co-expressed modules were annotated by the database for annotation, visualization and integrated discovery (DAVID 6.7) [<xref ref-type="bibr" rid="B22-cells-07-00019">22</xref>]. In DAVID, the term enrichment was defined as the Benjamini-adjusted Fisher exact test <italic>p</italic>-value. To visualize the whole network or specific module, the WGCNA exportNetworkToCytoscape function and Cytoscape tool [<xref ref-type="bibr" rid="B23-cells-07-00019">23</xref>] were used.</p>
+        <p>For gene expression variation analysis, the relative standard deviation for each gene in a module was calculated and the average values for each module were visualized. For connectivity analysis, the intermodule connectivity/total connectivity value was calculated for every gene and then the average value for each module was visualized.</p>
+      </sec>
+      <sec id="sec4dot4-cells-07-00019">
+        <title>4.4. Comparison of Gene Prediction Using Published Data</title>
+        <p>The <italic>E. coli</italic> network constructed by Trevino [<xref ref-type="bibr" rid="B6-cells-07-00019">6</xref>] and the EcoliNet gene-prediction tool [<xref ref-type="bibr" rid="B10-cells-07-00019">10</xref>] were used to compare candidate gene lists. For direct comparison, we overlapped the modules with the same biological function. Genes with unknown function in Darkred module were submitted to EcoliNet [<xref ref-type="bibr" rid="B10-cells-07-00019">10</xref>] for prediction.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-cells-07-00019">
+        <title>Supplementary Materials</title>
+        <p>Supplementary materials are available online <uri>http://www.mdpi.com/2073-4409/7/3/19/s1</uri>. Table S1: <italic>E. coli</italic> datasets used in our study; Table S2: 1391 <italic>E. coli</italic> samples&#x2019; characterization; Table S3: Samples that have the highest or lowest ME value in a specific module; Table S4: Probes modular assignment, connectivity, and their functional annotation; Table S5: Comparison of seven communities with GO annotations identified in the Trevino study at fmin = 4; Table S6: Comparison of ribosome modular genes identified by the Trevino study and our study; Table S7: Overlap of flagellum modular genes identified by the Trevino study and our study; Table S8: 11 genes with unknown function in Darkred module were submitted to EcoliNet for function prediction.</p>
+		<supplementary-material id="cells-07-00019-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00019-s001.xlsx"></supplementary-material>
+      </app>
+    </app-group>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>This work was supported in part by the National Natural Science Foundation of China (Nos. 31270454 and 81502091) and Open Project of Key Laboratory of Loquat Germplasm Innovation and Utilization, Putian University, Fujian Province (2017003). We also appreciate the help from MDPI language editing service.</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>H.H., Y.Z., and W.L. conceived and designed the experiments; W.L., M.W., and W.Y. performed the WGCNA; S.L., S.W., and H.T. collected data and performed other statistical analyses; W.L. and X.L. wrote the paper.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors have no conflict of interest to declare.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-07-00019">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barrett</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Troup</surname>
+              <given-names>D.B.</given-names>
+            </name>
+            <name>
+              <surname>Wilhite</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Ledoux</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Rudnev</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Evangelista</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>I.F.</given-names>
+            </name>
+            <name>
+              <surname>Soboleva</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Tomashevsky</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Edgar</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>NCBI GEO: Mining tens of millions of expression profiles&#x2014;Database and tools update</article-title>
+          <source>Nucl. Acids Res.</source>
+          <year>2007</year>
+          <volume>35</volume>
+          <fpage>D760</fpage>
+          <lpage>D765</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkl887</pub-id>
+          <pub-id pub-id-type="pmid">17099226</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-cells-07-00019">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>E.N.</given-names>
+            </name>
+            <name>
+              <surname>Drees</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Brem</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Kruglyak</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Bumgarner</surname>
+              <given-names>R.E.</given-names>
+            </name>
+            <name>
+              <surname>Schadt</surname>
+              <given-names>E.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Integrating large-scale functional genomic data to dissect the complexity of yeast regulatory networks</article-title>
+          <source>Nat. Genet.</source>
+          <year>2008</year>
+          <volume>40</volume>
+          <fpage>854</fpage>
+          <lpage>861</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng.167</pub-id>
+          <pub-id pub-id-type="pmid">18552845</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-cells-07-00019">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Orth</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Conrad</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Na</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lerman</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Nam</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Feist</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Palsson</surname>
+              <given-names>B.O.</given-names>
+            </name>
+          </person-group>
+          <article-title>A comprehensive genome-scale reconstruction of Escherichia coli metabolism-2011</article-title>
+          <source>Mol. Syst. Biol.</source>
+          <year>2011</year>
+          <volume>7</volume>
+          <fpage>535</fpage>
+          <pub-id pub-id-type="doi">10.1038/msb.2011.65</pub-id>
+          <pub-id pub-id-type="pmid">21988831</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-cells-07-00019">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Tian</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Niu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Global metabolomic and network analysis of Escherichia coli responses to exogenous biofuels</article-title>
+          <source>J. Proteome Res.</source>
+          <year>2013</year>
+          <volume>12</volume>
+          <fpage>5302</fpage>
+          <lpage>5312</lpage>
+          <pub-id pub-id-type="doi">10.1021/pr400640u</pub-id>
+          <pub-id pub-id-type="pmid">24016299</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-cells-07-00019">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Allen</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Girard</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparing statistical methods for constructing large scale gene networks</article-title>
+          <source>PLoS ONE</source>
+          <year>2012</year>
+          <volume>7</volume>
+          <elocation-id>e29348</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0029348</pub-id>
+          <pub-id pub-id-type="pmid">22272232</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-cells-07-00019">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Trevino</surname>
+              <given-names>S.</given-names>
+			  <suffix>3rd</suffix>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Cooper</surname>
+              <given-names>T.F.</given-names>
+            </name>
+            <name>
+              <surname>Bassler</surname>
+              <given-names>K.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Robust detection of hierarchical communities from Escherichia coli gene expression data</article-title>
+          <source>PLoS Comput. Biol.</source>
+          <year>2012</year>
+          <volume>8</volume>
+          <elocation-id>e1002391</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pcbi.1002391</pub-id>
+          <pub-id pub-id-type="pmid">22383870</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-cells-07-00019">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Sastry</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mih</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yurkovich</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Lloyd</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Palsson</surname>
+              <given-names>B.O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Global transcriptional regulatory network for Escherichia coli robustly connects gene expression to transcription factor activities</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2017</year>
+          <volume>114</volume>
+          <fpage>10286</fpage>
+          <lpage>10291</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1702581114</pub-id>
+          <pub-id pub-id-type="pmid">28874552</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-cells-07-00019">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gutierrez-Rios</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Rosenblueth</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Loza</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Huerta</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Glasner</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Blattner</surname>
+              <given-names>F.R.</given-names>
+            </name>
+            <name>
+              <surname>Collado-Vides</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulatory network of Escherichia coli: Consistency between literature knowledge and microarray profiles</article-title>
+          <source>Genome Res.</source>
+          <year>2003</year>
+          <volume>13</volume>
+          <fpage>2435</fpage>
+          <lpage>2443</lpage>
+          <pub-id pub-id-type="doi">10.1101/gr.1387003</pub-id>
+          <pub-id pub-id-type="pmid">14597655</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-cells-07-00019">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Faith</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Hayete</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Thaden</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Mogno</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Wierzbowski</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cottarel</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Kasif</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Collins</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Gardner</surname>
+              <given-names>T.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Large-scale mapping and validation of Escherichia coli transcriptional regulation from a compendium of expression profiles</article-title>
+          <source>PLoS Biol.</source>
+          <year>2007</year>
+          <volume>5</volume>
+          <elocation-id>e8</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pbio.0050008</pub-id>
+          <pub-id pub-id-type="pmid">17214507</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-cells-07-00019">
+        <label>10.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Shim</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Shin</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <source>EcoliNet: A Database of Cofunctional Gene Network for Escherichia Coli</source>
+          <publisher-name>Database</publisher-name>
+          <publisher-loc>Oxford, UK</publisher-loc>
+          <year>2015</year>
+          <volume>Volume 2015</volume>
+        </element-citation>
+      </ref>
+      <ref id="B11-cells-07-00019">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Horvath</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>A general framework for weighted gene co-expression network analysis</article-title>
+          <source>Stat. Appl. Genet. Mol. Biol.</source>
+          <year>2005</year>
+          <volume>4</volume>
+          <fpage>1128</fpage>
+          <pub-id pub-id-type="doi">10.2202/1544-6115.1128</pub-id>
+          <pub-id pub-id-type="pmid">16646834</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-cells-07-00019">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Langfelder</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Mischel</surname>
+              <given-names>P.S.</given-names>
+            </name>
+            <name>
+              <surname>Horvath</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>When is hub gene selection better than standard meta-analysis?</article-title>
+          <source>PLoS ONE</source>
+          <year>2013</year>
+          <volume>8</volume>
+          <elocation-id>e61505</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0061505</pub-id>
+          <pub-id pub-id-type="pmid">23613865</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-cells-07-00019">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chekabab</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Jubelin</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Dozois</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Harel</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>PhoB activates Escherichia coli O157:H7 virulence factors in response to inorganic phosphate limitation</article-title>
+          <source>PLoS ONE</source>
+          <year>2014</year>
+          <volume>9</volume>
+          <elocation-id>e94285</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0094285</pub-id>
+          <pub-id pub-id-type="pmid">24710330</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-cells-07-00019">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Paton</surname>
+              <given-names>A.W.</given-names>
+            </name>
+            <name>
+              <surname>Paton</surname>
+              <given-names>J.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Detection and characterization of Shiga toxigenic Escherichia coli by using multiplex PCR assays for stx1, stx2, eaeA, enterohemorrhagic E. coli hlyA, rfbO111, and rfbO157</article-title>
+          <source>J. Clin. Microbiol.</source>
+          <year>1998</year>
+          <volume>36</volume>
+          <fpage>598</fpage>
+          <lpage>602</lpage>
+          <pub-id pub-id-type="pmid">9466788</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-cells-07-00019">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kashyap</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Kuzma</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kowalczyk</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Gupta</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Dziarski</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bactericidal peptidoglycan recognition protein induces oxidative stress in Escherichia coli through a block in respiratory chain and increase in central carbon catabolism</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2017</year>
+          <volume>105</volume>
+          <fpage>755</fpage>
+          <lpage>776</lpage>
+          <pub-id pub-id-type="doi">10.1111/mmi.13733</pub-id>
+          <pub-id pub-id-type="pmid">28621879</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-cells-07-00019">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oldham</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Konopka</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Iwamoto</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Langfelder</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kato</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Horvath</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Geschwind</surname>
+              <given-names>D.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional organization of the transcriptome in human brain</article-title>
+          <source>Nat. Neurosci.</source>
+          <year>2008</year>
+          <volume>11</volume>
+          <fpage>1271</fpage>
+          <lpage>1282</lpage>
+          <pub-id pub-id-type="doi">10.1038/nn.2207</pub-id>
+          <pub-id pub-id-type="pmid">18849986</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-cells-07-00019">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Thakare</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Lloyd</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Nixon</surname>
+              <given-names>N.M.</given-names>
+            </name>
+            <name>
+              <surname>Arakaki</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Burnett</surname>
+              <given-names>W.J.</given-names>
+            </name>
+            <name>
+              <surname>Logan</surname>
+              <given-names>K.O.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>RNA sequencing of laser-capture microdissected compartments of the maize kernel identifies regulatory modules associated with endosperm cell differentiation</article-title>
+          <source>Plant Cell</source>
+          <year>2015</year>
+          <volume>27</volume>
+          <fpage>513</fpage>
+          <lpage>531</lpage>
+          <pub-id pub-id-type="doi">10.1105/tpc.114.135657</pub-id>
+          <pub-id pub-id-type="pmid">25783031</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-cells-07-00019">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ye</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Tu</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Weighted gene co-expression network analysis in biomedicine research</article-title>
+          <source>Sheng Wu Gong Cheng Xue Bao</source>
+          <year>2017</year>
+          <volume>33</volume>
+          <fpage>1791</fpage>
+          <lpage>1801</lpage>
+          <pub-id pub-id-type="pmid">29202516</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-cells-07-00019">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Deng</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Hardwidge</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>Frey</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Pfuetzner</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gruenheid</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Strynakda</surname>
+              <given-names>N.C.</given-names>
+            </name>
+            <name>
+              <surname>Puente</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Finlay</surname>
+              <given-names>B.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of type III secretion hierarchy of translocators and effectors in attaching and effacing bacterial pathogens</article-title>
+          <source>Infect. Immun.</source>
+          <year>2005</year>
+          <volume>73</volume>
+          <fpage>2135</fpage>
+          <lpage>2146</lpage>
+          <pub-id pub-id-type="doi">10.1128/IAI.73.4.2135-2146.2005</pub-id>
+          <pub-id pub-id-type="pmid">15784556</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-cells-07-00019">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Langfelder</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Horvath</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>WGCNA: an R package for weighted correlation network analysis</article-title>
+          <source>BMC Bioinform.</source>
+          <year>2008</year>
+          <volume>9</volume>
+          <elocation-id>559</elocation-id>
+          <pub-id pub-id-type="doi">10.1186/1471-2105-9-559</pub-id>
+          <pub-id pub-id-type="pmid">19114008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-cells-07-00019">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Langfelder</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Horvath</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Defining clusters from a hierarchical cluster tree: The Dynamic Tree Cut package for R</article-title>
+          <source>Bioinformatics</source>
+          <year>2008</year>
+          <volume>24</volume>
+          <fpage>719</fpage>
+          <lpage>720</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btm563</pub-id>
+          <pub-id pub-id-type="pmid">18024473</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-cells-07-00019">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>D.W.</given-names>
+            </name>
+            <name>
+              <surname>Sherman</surname>
+              <given-names>B.T.</given-names>
+            </name>
+            <name>
+              <surname>Lempicki</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Ramage</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Amin</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Schwikowski</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Ideker</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources</article-title>
+          <source>Nat. Protoc.</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <fpage>44</fpage>
+          <lpage>57</lpage>
+          <pub-id pub-id-type="doi">10.1038/nprot.2008.211</pub-id>
+          <pub-id pub-id-type="pmid">19131956</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-cells-07-00019">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shannon</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Markiel</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ozier</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Baliga</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Ramage</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Amin</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Schwikowski</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Ideker</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytoscape: A software environment for integrated models of biomolecular interaction networks</article-title>
+          <source>Genome Res.</source>
+          <year>2003</year>
+          <volume>13</volume>
+          <fpage>2498</fpage>
+          <lpage>2504</lpage>
+          <pub-id pub-id-type="doi">10.1101/gr.1239303</pub-id>
+          <pub-id pub-id-type="pmid">14597658</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="cells-07-00019-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>A representative network view of the constructed <italic>Escherichia coli</italic> (<italic>E. coli</italic>) gene co-expression network. Each node represents a probe and each line denotes the gene expression correlation between the two nodes.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00019-g001.tif"/>
+      </fig>
+      <fig id="cells-07-00019-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Correlation of intramodule connectivity for each module after sampling 1000 times (mean &#xB1; SD). Connectivity was calculated by randomly sampling half of the 1391 samples 1000 times.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00019-g002.tif"/>
+      </fig>
+      <fig id="cells-07-00019-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Module hub probes visualized in the modules Darkorange (<bold>a</bold>) and Darkred (<bold>b</bold>). The top 200 highly connected probe pairs for the two modules were visualized by Cytoscape.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00019-g003.tif"/>
+      </fig>
+      <fig id="cells-07-00019-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Gene expression variation analysis in <italic>E. coli</italic> modules. Variation was calculated as the average relative standard deviation for each gene in a module.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00019-g004.tif"/>
+      </fig>
+      <fig id="cells-07-00019-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Intermodule connectivity proportion in <italic>E. coli</italic>. The intermodule connectivity/total connectivity value was calculated for every gene; then, the average value for each module was visualized.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-07-00019-g005.tif"/>
+      </fig>
+      <table-wrap id="cells-07-00019-t001" position="float">
+        <object-id pub-id-type="pii">cells-07-00019-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) annotation of the 24 gene co-expression modules identified in <italic>E. coli</italic>.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Module <break/>(No. Probes)</th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">GO Term <break/>(Benjamini-Adjusted <italic>p</italic>-Value)</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">KEGG (Adjusted <italic>p</italic>-Value)</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Biological Process</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Cellular Component</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Molecular Function</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Black <break/>(3608)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Carbohydrate catabolic process <break/>(8.5 &#xD7; 10<sup>&#x2212;12</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Plasma membrane <break/>(4.9 &#xD7; 10<sup>&#x2212;30</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Cation binding <break/>(6.8 &#xD7; 10<sup>&#x2212;4</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Two-component system <break/>(3.7 &#xD7; 10<sup>&#x2212;31</sup>)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Blue <break/>(1215)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Biological adhesion <break/>(3.6 &#xD7; 10<sup>&#x2212;2</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">External encapsulation structure part <break/>(2.7 &#xD7; 10<sup>&#x2212;2</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2014;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Bacterial secretion system <break/>(3.4 &#xD7; 10<sup>&#x2212;17</sup>)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Brown4 <break/>(30)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Siderophore metabolic process <break/>(3.1 &#xD7; 10<sup>&#x2212;5</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2014;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Iron transmembrane transporter activity <break/>(6.5 &#xD7; 10<sup>&#x2212;6</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Lysine degradation <break/>(4.5 &#xD7; 10<sup>&#x2212;4</sup>)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Cyan <break/>(193)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Oxidation-reduction <break/>(9.3 &#xD7; 10<sup>&#x2212;4</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Anchored to membrane <break/>(2.9 &#xD7; 10<sup>&#x2212;2</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2014;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2014;</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Darkgreen <break/>(154)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2014;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2014;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Purine nucleoside binding <break/>(1.9 &#xD7; 10<sup>&#x2212;3</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Lipopolysaccharide biosynthesis <break/>(1.8 &#xD7; 10<sup>&#x2212;4</sup>)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Darkgrey <break/>(78)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Lipopolysaccharide biosynthetic process <break/>(5.4 &#xD7; 10<sup>&#x2212;23</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Organelle inner membrane <break/>(8.3 &#xD7; 10<sup>&#x2212;3</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Cell surface antigen activity, host-interacting <break/>(8.5 &#xD7; 10<sup>&#x2212;29</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Lipopolysaccharide biosynthesis <break/>(1.2 &#xD7; 10<sup>&#x2212;11</sup>)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Darkmagenta <break/>(48)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2014;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Viral capsid <break/>(2.0 &#xD7; 10<sup>&#x2212;5</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2014;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2014;</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Darkolivegreen <break/>(49)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Sulfate metabolic process <break/>(2.3 &#xD7; 10<sup>&#x2212;33</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2014;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Sulfate transmembrane transporter activity <break/>(2.1 &#xD7; 10<sup>&#x2212;5</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Sulfur metabolism <break/>(5.4 &#xD7; 10<sup>&#x2212;12</sup>)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Darkorange <break/>(74)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Pathogenesis <break/>(2.1 &#xD7; 10<sup>&#x2212;5</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2014;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2014;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Pathogenic <italic>E. coli</italic> infection <break/>(6.7 &#xD7; 10<sup>&#x2212;9</sup>)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Darkorange2 <break/>(999)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Phosphonate transport <break/>(2.5 &#xD7; 10<sup>&#x2212;6</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Peptidoglycan-based cell wall <break/>(5.9 &#xD7; 10<sup>&#x2212;11</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2014;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">ABC transporters <break/>(3.8 &#xD7; 10<sup>&#x2212;15</sup>)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Darkred <break/>(87)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Behavior <break/>(2.1 &#xD7; 10<sup>&#x2212;63</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Flagellum <break/>(4.1 &#xD7; 10<sup>&#x2212;51</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Motor activity <break/>(3.3 &#xD7; 10<sup>&#x2212;32</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Flagellar assembly <break/>(1.4 &#xD7; 10<sup>&#x2212;67</sup>)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Darkturquoise <break/>(79)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Cellular amino acid biosynthetic process <break/>(1.4 &#xD7; 10<sup>&#x2212;66</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">External encapsulating structure <break/>(1.2 &#xD7; 10<sup>&#x2212;2</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Acetolactate synthase activity <break/>(1.4 &#xD7; 10<sup>&#x2212;6</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Valine, leucine, and isoleucine biosynthesis <break/>(2.5 &#xD7; 10<sup>&#x2212;11</sup>)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Green <break/>(678)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Translation <break/>(2.6 &#xD7; 10<sup>&#x2212;64</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Ribosome <break/>(2.4 &#xD7; 10<sup>&#x2212;59</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Structural constituent of ribosome <break/>(5.8 &#xD7; 10<sup>&#x2212;61</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Ribosome <break/>(2.4 &#xD7; 10<sup>&#x2212;56</sup>)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Greenyellow <break/>(258)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">peptidoglycan-based cell wall <break/>(2.1 &#xD7; 10<sup>&#x2212;2</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Grey60 <break/>(101)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Iron ion transport <break/>(4.5 &#xD7; 10<sup>&#x2212;2</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2014;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Nucleoside binding <break/>(4.5 &#xD7; 10<sup>&#x2212;3</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">ABC transporters <break/>(1.8 &#xD7; 10<sup>&#x2212;2</sup>)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Ivory <break/>(35)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Transition metal ion transport <break/>(1.4 &#xD7; 10<sup>&#x2212;14</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2014;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Iron ion binding <break/>(2.5 &#xD7; 10<sup>&#x2212;10</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Biosynthesis of siderophore group nonribosomal peptides <break/>(3.4 &#xD7; 10<sup>&#x2212;10</sup>)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Lightcyan1 <break/>(36)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Protein folding <break/>(4.2 &#xD7; 10<sup>&#x2212;6</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Zinc ion binding <break/>(9.2 &#xD7; 10<sup>&#x2212;4</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2014;</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Lightyellow <break/>(93)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Fatty acid oxidation <break/>(1.7 &#xD7; 10<sup>&#x2212;2</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Peptidoglycan-based cell wall <break/>(2.3 &#xD7; 10<sup>&#x2212;2</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Acyl carrier activity <break/>(1.5 &#xD7; 10<sup>&#x2212;10</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Benzoate degradation via CoA ligation <break/>(3.0 &#xD7; 10<sup>&#x2212;2</sup>)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Magenta <break/>(483)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Amine biosynthetic process <break/>(9.9 &#xD7; 10<sup>&#x2212;12</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Peptidoglycan-based cell wall <break/>(2.4 &#xD7; 10<sup>&#x2212;3</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Nucleoside binding <break/>(2.0 &#xD7; 10<sup>&#x2212;4</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Glycine, serine and threonine metabolism <break/>(1.2 &#xD7; 10<sup>&#x2212;4</sup>)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Orangered4 <break/>(38)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Nitrogen compound biosynthetic process <break/>(2.8 &#xD7; 10<sup>&#x2212;24</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2014;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Anthranilate synthase activity <break/>(1.7 &#xD7; 10<sup>&#x2212;2</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Thiamine metabolism <break/>(4.4 &#xD7; 10<sup>&#x2212;10</sup>)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Paleturquoise <break/>(56)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Glycerol metabolic process <break/>(6.3 &#xD7; 10<sup>&#x2212;7</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2014;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Glycerol-3-phosphate dehydrogenase activity <break/>(8.0 &#xD7; 10<sup>&#x2212;5</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Glycerophospholipid metabolism <break/>(1.4 &#xD7; 10<sup>&#x2212;3</sup>) </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Plum1 <break/>(40)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Anaerobic respiration <break/>(1.3 &#xD7; 10<sup>&#x2212;2</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Nitrate reductase complex <break/>(3.8 &#xD7; 10<sup>&#x2212;2</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2014;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2014;</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Sienna3 <break/>(46)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Anaerobic respiration <break/>(1.1 &#xD7; 10<sup>&#x2212;2</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2014;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Metal cluster binding <break/>(2.2 &#xD7; 10<sup>&#x2212;6</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Butanoate metabolism <break/>(1.5 &#xD7; 10<sup>&#x2212;5</sup>)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Tan <break/>(295)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">ncRNA metabolic process <break/>(4.3 &#xD7; 10<sup>&#x2212;13</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Plasma membrane <break/>(3.5 &#xD7; 10<sup>&#x2212;6</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">RNA methyltransferase activity <break/>(7.1 &#xD7; 10<sup>&#x2212;5</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mismatch repair <break/>(3.8 &#xD7; 10<sup>&#x2212;5</sup>)</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>&#x2014; represents no significant GO or KEGG terms detected.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="cells-07-00019-t002" position="float">
+        <object-id pub-id-type="pii">cells-07-00019-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Hub genes and their encoding proteins of the gene co-expression modules in <italic>E. coli</italic>.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Module</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Gene</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Encoding Protein</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Black</td>
+              <td align="center" valign="middle">Z4148</td>
+              <td align="center" valign="middle">Hypothetical protein</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Blue</td>
+              <td align="center" valign="middle">ECs1057</td>
+              <td align="center" valign="middle">Hypothetical protein</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Brown4</td>
+              <td align="center" valign="middle">fhuF</td>
+              <td align="center" valign="middle">Ferric iron reductase protein </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Cyan</td>
+              <td align="center" valign="middle">ECs2033</td>
+              <td align="center" valign="middle">Hypothetical protein</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Darkgreen</td>
+              <td align="center" valign="middle">elaA</td>
+              <td align="center" valign="middle">Hypothetical protein</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Darkgrey</td>
+              <td align="center" valign="middle">rfbB</td>
+              <td align="center" valign="middle">dTDP-glucose 4,6 dehydratase, NAD(P)-binding</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Darkmagenta</td>
+              <td align="center" valign="middle">c1590</td>
+              <td align="center" valign="middle">Tail component of prophage</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Darkolivegreen</td>
+              <td align="center" valign="middle">ssuC</td>
+              <td align="center" valign="middle">Alkanesulfonate transporter permease</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Darkorange</td>
+              <td align="center" valign="middle">ECs4574</td>
+              <td align="center" valign="middle">SepD</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Darkorange2</td>
+              <td align="center" valign="middle">c4484</td>
+              <td align="center" valign="middle">Aldolase</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Darkred</td>
+              <td align="center" valign="middle">ECs2660</td>
+              <td align="center" valign="middle">Flagella biosynthesis protein FliZ</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Darkturquoise</td>
+              <td align="center" valign="middle">ECs5231</td>
+              <td align="center" valign="middle">Ornithine carbamoyltransferase subunit I</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Green</td>
+              <td align="center" valign="middle">rpsN</td>
+              <td align="center" valign="middle">30S ribosomal protein S14</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Greenyellow</td>
+              <td align="center" valign="middle">c0944</td>
+              <td align="center" valign="middle">Hypothetical protein</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Grey60</td>
+              <td align="center" valign="middle">ECs1840</td>
+              <td align="center" valign="middle">Hypothetical protein</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Ivory</td>
+              <td align="center" valign="middle">fecR</td>
+              <td align="center" valign="middle">Anti-sigma transmembrane signal transducer for ferric citrate transport; periplasmic FecA-bound ferric citrate sensor and cytoplasmic FecI ECF sigma factor activator</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Lightcyan1</td>
+              <td align="center" valign="middle">ECs3950</td>
+              <td align="center" valign="middle">RNA polymerase sigma factor RpoD</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Lightyellow</td>
+              <td align="center" valign="middle">pepN</td>
+              <td align="center" valign="middle">Aminopeptidase</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Magenta</td>
+              <td align="center" valign="middle">usg</td>
+              <td align="center" valign="middle">Semialdehyde dehydrogenase</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Orangered4</td>
+              <td align="center" valign="middle">ECs1854</td>
+              <td align="center" valign="middle">OMP decarboxylase</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Paleturquoise</td>
+              <td align="center" valign="middle">yagF</td>
+              <td align="center" valign="middle">CP4-6 prophage</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Plum1</td>
+              <td align="center" valign="middle">yebT</td>
+              <td align="center" valign="middle">MCE domain protein</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Sienna3</td>
+              <td align="center" valign="middle">ECs2379</td>
+              <td align="center" valign="middle">Hypothetical protein</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Tan</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">ECs4128</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Acetyl-CoA carboxylase biotin carboxylase subunit</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

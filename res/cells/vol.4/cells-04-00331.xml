@@ -1,0 +1,2692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cells</journal-id>
+      <journal-title>Cells</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Cells</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Cells</abbrev-journal-title>
+      <issn pub-type="epub">2073-4409</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cells4030331</article-id>
+      <article-id pub-id-type="publisher-id">cells-04-00331</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Non-Overlapping Distributions and Functions of the VDAC Family in Ciliogenesis</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Majumder</surname>
+            <given-names>Shubhra</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cash</surname>
+            <given-names>Ayla</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fisk</surname>
+            <given-names>Harold A.</given-names>
+          </name>
+          <xref rid="c1-cells-04-00331" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Dong</surname>
+            <given-names>Gang</given-names>
+          </name>
+		  <role>Academic Editor</role>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Tsang</surname>
+            <given-names>William</given-names>
+          </name>
+		  <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cells-04-00331">Department of Molecular Genetics, The Ohio State University, 484 W. 12th Avenue, Columbus, OH 43210-1292, USA; E-Mails: <email>majumder.7@osu.edu</email> (S.M.); <email>aaecash@gmail.com</email> (A.C.)</aff>
+      <author-notes>
+        <corresp id="c1-cells-04-00331"><label>*</label>Author to whom correspondence should be addressed; E-Mail: <email>fisk.13@osu.edu</email>; Tel.: +1-614-292-0318; Fax: +1-614-292-4466.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>07</month>
+        <year>2015</year>
+      </pub-date>
+      <pub-date pub-type="collection">        <month>09</month>
+        <year>2015</year>
+      </pub-date>
+      <volume>4</volume>
+      <issue>3</issue>
+      <fpage>331</fpage>
+      <lpage>353</lpage>
+      <history>
+        <date date-type="received">
+          <day>04</day>
+          <month>06</month>
+          <year>2015</year>
+        </date>
+        <date date-type="accepted">
+          <day>27</day>
+          <month>07</month>
+          <year>2015</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2015 by the authors.</copyright-statement>
+        <copyright-year>2015</copyright-year>
+        <license license-type="open-access">
+          <p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Centrosomes are major microtubule-organizing centers of animal cells that consist of two centrioles. In mitotic cells, centrosomes are duplicated to serve as the poles of the mitotic spindle, while in quiescent cells, centrosomes move to the apical membrane where the oldest centriole is transformed into a basal body to assemble a primary cilium. We recently showed that mitochondrial outer membrane porin VDAC3 localizes to centrosomes where it negatively regulates ciliogenesis. We show here that the other two family members, VDAC1 and VDAC2, best known for their function in mitochondrial bioenergetics, are also found at centrosomes. Like VDAC3, centrosomal VDAC1 is predominantly localized to the mother centriole, while VDAC2 localizes to centriolar satellites in a microtubule-dependent manner. Down-regulation of VDAC1 leads to inappropriate ciliogenesis, while its overexpression suppresses cilia formation, suggesting that VDAC1 and VDAC3 both negatively regulate ciliogenesis. However, this negative effect on ciliogenesis is not shared by VDAC2, which instead appears to promote maturation of primary cilia. Moreover, because overexpression of VDAC3 cannot compensate for depletion of VDAC1, our data suggest that while the entire VDAC family localizes to centrosomes, they have non-redundant functions in cilogenesis.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>centrosome</kwd>
+        <kwd>cilia</kwd>
+        <kwd>ciliogenesis</kwd>
+        <kwd>VDAC</kwd>
+        <kwd>mitochondria</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Centrosomes that serve as the major microtubule-organizing centers (MTOC) in animal cells contain two structurally distinguishable centrioles surrounded by pericentriolar matrix (PCM). The oldest of the centriole pair, the &#x201C;mother&#x201D;, contains appendages, while the other centriole (the &#x201C;daughter&#x201D;) does not. During the S-phase of the cell cycle, a new centriole is assembled at the proximal end of each existing centriole. Once duplicated, centrosomes are separated and moved to opposite sides of a cell in late G2-phase in order to serve as the poles of the mitotic spindle [<xref ref-type="bibr" rid="B1-cells-04-00331">1</xref>].</p>
+      <p>Another important role of centrioles is to assemble cilia (or flagella) that are microtubule-based and membrane-ensheathed projections from the cell surface [<xref ref-type="bibr" rid="B2-cells-04-00331">2</xref>]. Of the two major types of cilia [<xref ref-type="bibr" rid="B3-cells-04-00331">3</xref>], motile cilia are found at specialized epithelial layers where they regulate directional fluid flow. In contrast, non-motile primary cilia that serve as cellular antenna by transducing physiological signals are found in almost all types of animal cells, commonly when the cells are quiescent or differentiated [<xref ref-type="bibr" rid="B4-cells-04-00331">4</xref>]. During cilia assembly, the distal end of the mother centriole becomes encapsulated by golgi-derived vesicles and docks at the apical membrane where it is transformed into a basal body [<xref ref-type="bibr" rid="B5-cells-04-00331">5</xref>]. Ciliary proteins and membrane components assemble on the basal body, and through the activity of Intraflagellar transport (IFT), the centriolar axoneme is elongated and matures into a primary cilium [<xref ref-type="bibr" rid="B6-cells-04-00331">6</xref>]. Cilia are resorbed when cells re-enter S-phase, thereby allowing centrioles to replicate to maintain centriole homeostasis in cycling cells [<xref ref-type="bibr" rid="B7-cells-04-00331">7</xref>,<xref ref-type="bibr" rid="B8-cells-04-00331">8</xref>]. Several core centriolar proteins, components of centriolar satellites, and other regulatory proteins including IFT proteins have been identified as crucial for cilia assembly, maturation and function [<xref ref-type="bibr" rid="B9-cells-04-00331">9</xref>,<xref ref-type="bibr" rid="B10-cells-04-00331">10</xref>,<xref ref-type="bibr" rid="B11-cells-04-00331">11</xref>,<xref ref-type="bibr" rid="B12-cells-04-00331">12</xref>]. Comparatively few proteins have been identified that may negatively regulate ciliogenesis [<xref ref-type="bibr" rid="B7-cells-04-00331">7</xref>,<xref ref-type="bibr" rid="B13-cells-04-00331">13</xref>]. Moreover, the understanding of the intricate mechanism(s) regulating ciliary disassembly and the interconversion between centrioles and basal bodies remained largely unrevealed.</p>
+      <p>Voltage dependent anion channel (VDAC) proteins are channel-forming proteins of the outer mitochondrial membrane (OMM) and have mostly been studied for their gate-keeping functions that regulate the exchange of metabolites, ions and ATP between mitochondria and cytoplasm (reviewed in [<xref ref-type="bibr" rid="B14-cells-04-00331">14</xref>]). Humans contain three VDACs, VDAC1, VDAC2 and VDAC3, which share significant homology (roughly 60%&#x2013;70%) in their sequence. Structural studies indicated that VDAC1 likely adopts a &#x3B2;-barrel structure at the OMM [<xref ref-type="bibr" rid="B15-cells-04-00331">15</xref>,<xref ref-type="bibr" rid="B16-cells-04-00331">16</xref>,<xref ref-type="bibr" rid="B17-cells-04-00331">17</xref>], and based on their homology, the other two VDACs are also predicted to have similar three-dimensional conformation [<xref ref-type="bibr" rid="B18-cells-04-00331">18</xref>]. Importantly, several reports suggest that VDAC1 may localize at cellular locations other than mitochondria, and may perform functions other than bioenergetics [<xref ref-type="bibr" rid="B19-cells-04-00331">19</xref>,<xref ref-type="bibr" rid="B20-cells-04-00331">20</xref>,<xref ref-type="bibr" rid="B21-cells-04-00331">21</xref>,<xref ref-type="bibr" rid="B22-cells-04-00331">22</xref>]. For example, VDAC2 and VDAC3 were identified in sperm outer dense fibers (ODF), a non-membranous cytoskeletal compartment important for flagellar motility [<xref ref-type="bibr" rid="B23-cells-04-00331">23</xref>]. In fact, we have recently identified a centrosome-associated pool of VDAC3, and an interaction of VDAC3 with Mps1, a protein kinase that plays important roles in centriole assembly during S-phase [<xref ref-type="bibr" rid="B24-cells-04-00331">24</xref>,<xref ref-type="bibr" rid="B25-cells-04-00331">25</xref>] and spindle assembly checkpoint during mitosis [<xref ref-type="bibr" rid="B26-cells-04-00331">26</xref>,<xref ref-type="bibr" rid="B27-cells-04-00331">27</xref>]. VDAC3 is important to recruit Mps1 to centrosomes during S-phase, and centriole assembly is inhibited in VDAC3-depleted cells [<xref ref-type="bibr" rid="B28-cells-04-00331">28</xref>]. Interestingly, we also found that depletion of VDAC3 in human RPE1 cells led to a striking increase in the number of cells containing cilia in a non-quiescent population [<xref ref-type="bibr" rid="B29-cells-04-00331">29</xref>]. This aberrant ciliogenesis phenotype was not due to inhibition of the mitochondrial function of VDAC3 since perturbation of the mitochondrial activity of VDAC3 or general disruption of mitochondrial bioenergetics did not affect cilia assembly. Mps1-depleted cells also aberrantly formed cilia, and were unable to disassemble cilia upon release from serum starvation, suggesting that a novel Mps1-VDAC3 module may negatively regulate ciliogenesis [<xref ref-type="bibr" rid="B29-cells-04-00331">29</xref>].</p>
+      <p>Here, we asked if VDAC1 and VDAC2 also localize to centrosomes, and whether they play any role in ciliogenesis. Our study shows that both VDAC1 and VDAC2 are found at centrosomes. We also show that VDAC1 negatively regulates ciliogenesis similar to VDAC3, but that the roles of VDAC1 and VDAC3 in ciliogeneisis are non-redundant. In addition, the ability to negatively regulate ciliogenesis is not shared by VDAC2, which appears to be important for maturation of primary cilia.</p>
+    </sec>
+    <sec>
+      <title>2. Experimental Section</title>
+      <sec>
+        <title>2.1. Plasmids</title>
+        <p>Previously described plasmids used for this study are as follows: Bacterial expression constructs; pHF270 (6xHis-VDAC1), pHF271 (6xHis-VDAC2), pHF272 (6xHis-VDAC3); mammalian expression constructs pHF286 (GFP), pHF279 (GFP-VDAC3), pHF283 (GFP-sirVDAC3) [<xref ref-type="bibr" rid="B28-cells-04-00331">28</xref>,<xref ref-type="bibr" rid="B29-cells-04-00331">29</xref>]. Plasmids created for this study are as follows: GFP-tagged mammalian expression constructs; pHF307 (GFP-VDAC1), pHF308 (GFP-VDAC2) and pHF309 (GFP-sirVDAC1). Plasmids pHF307 and pHF308 were created using PCR to flank the VDAC1 and VDAC2 open reading frames from pHF270 and pHF271 respectively with KpnI and XbaI for cloning into pHF286 using Infusion HD cloning kit (Clontech). The siRNA resistant VDAC1 expression construct pHF309 was created by site-directed mutagenesis of pHF308, using the QuikChange XL Site-Directed Mutagenesis Kit (Stratagene). The sequences of PCR primers used in this study are provided in <xref ref-type="app" rid="app1-cells-04-00331">supplemental Table S1</xref>. The identity of all constructs was verified by sequence analysis.</p>
+      </sec>
+      <sec>
+        <title>2.2. Cell Culture</title>
+        <p>hTERT-RPE1 (RPE1) cells were cultured in DME/F-12 (1:1) media (Hyclone) supplemented with 10% FBS (Atlanta Biologicals), 100 U/mL penicillinG and 100 &#x3BC;g/mL streptomycin (Hyclone) at 37 &#xB0;C in a humidified chamber in the presence of 5% CO<sub>2</sub>. To identify cells in S-phase, cells were either incubated with EdU (10 &#x3BC;M; Invitrogen) or BrdU (40 &#x3BC;M; Sigma) for 4 h before fixation. For serum starvation, RPE1 cells were incubated in serum and antibiotic free DME/F12 (1:1) for 24 or 48 h.</p>
+      </sec>
+      <sec>
+        <title>2.3. DNA and siRNA Transfections</title>
+        <p>Mammalian constructs were transfected using FuGENE 6 (Promega). Silencer Select siRNAs directed against VDAC1 (siVDAC1: nucleotides 736-754), VDAC2 (siVDAC2: nucleotides 604-622), and Stealth VDAC3 (siVDAC3: nucleotides 330-354; [<xref ref-type="bibr" rid="B28-cells-04-00331">28</xref>]) were obtained from Invitrogen and Lamin A/C siRNA (siControl) obtained from Dharmacon. siVDAC1 and siVDAC2 were used at a final concentration of 20 nM, and siVDAC3 at a final concentration of 40 nM for transfection using Lipofectamine RNAiMAX (Invitrogen).</p>
+      </sec>
+      <sec>
+        <title>2.4. Cytology</title>
+        <p>Antibodies and working dilutions for indirect immunofluorescence (IIF) were as follows: GTU-88 mouse anti-&#x3B3;-tubulin, 1:200 (Sigma); rabbit anti-&#x3B3;-tubulin, 1:200 (Sigma); goat anti-&#x3B3;-tubulin, 1:50 (Santa Cruz Biotechnology); mouse anti-acetylated tubulin (Ac-Tub), 1:1000 (Sigma); GT335 mouse anti-glutamylated tubulin, 1:1000 (Sigma); DM1A mouse anti-&#x3B1;-tubulin, 1:1000 (Sigma); rabbit anti-VDAC3, 1:50 (Aviva Systems Biology); rabbit anti-Arl13B, 1:100 (Proteintech Group); 3E6 mouse anti-GFP, 1:250 (Invitrogen); rabbit anti-Cep135, 1:500 (Abcam); rabbit anti-VDAC1, 1:100 (Cell Signaling); goat anti-VDAC2, 1:100 (Abcam); rabbit anti-VDAC, 1:100 (Calbiochem), rabbit anti-GFP, 1: 1000 (Abcam); mouse anti-Cenexin, 1:500 (Abcam); mouse anti-human mitochondria, 1:200 (Millipore); rabbit anti-CoxIV, 1:250 (Cell Signaling); rabbit anti-PCM1, 1:500 (Cell Signaling). Secondary antibodies for IIF were donkey anti-rabbit, donkey anti-mouse, donkey anti-goat, or goat anti-rat conjugated to Alexa 350 (1:200), Alexa 488 (1:1000), Alexa 594 (1:1000; all from Invitrogen), and donkey anti-goat, donkey anti-mouse or donkey anti-rabbit conjugated to IRDye 800 (1:200; all from Rockland). DNA was stained with Hoechst 33342 (Sigma). Cells were fixed with either PBS containing 4% formaldehyde (Ted Pella) and 0.2% Triton X-100 for 10 min at room temperature, or in methanol at &#x2212;20 &#xB0;C for 10 min. For assessing mitochondrial function, cells were incubated with 100 &#x3BC;M MitotrackerRed (Invitrogen) for 1 h, and then in MitotrackerRed-free medium for 30 min prior to fixation in formaldehyde. For visualizing BrdU, cells fixed in methanol were stained with primary and secondary antibodies to cellular antigens, fixed again in methanol, treated with 2 N HCl for 30 min at room temperature, followed by staining with anti-BrdU antibody as previously described [<xref ref-type="bibr" rid="B28-cells-04-00331">28</xref>]. Click-iT EdU Cell Proliferation kit (Invitrogen) was used according to manufacturer&#x2019;s instruction to visualize EdU-positive cells. The centrosomal level of VDAC1 was measured as a ratio of the total fluorescence signal of VDAC1 to that of &#x3B3;-tubulin at centrosomes using our recently described quantitative IIF technique [<xref ref-type="bibr" rid="B30-cells-04-00331">30</xref>]. BrdU-positive cells from both samples were imaged under identical conditions for the analysis. All images were acquired at ambient temperature using an Olympus IX-81 microscope, with a 63X or 100X Plan Apo oil immersion objective (1.4 numerical aperture), and a QCAM Retiga Exi FAST 1394 camera, and analyzed using the Slidebook software package (Intelligent Imaging Innovations).</p>
+      </sec>
+      <sec>
+        <title>2.5. Immunoblotting</title>
+        <p>Cells were lysed in either lysis buffer (50 mM Tris-HCl pH8.0, 150 mM NaCl, and 1% NP-40) or RIPA buffer (50 mM Tris-HCl pH8.0, 150 mM NaCl, and 1% TritonX-100, 0.25% Na-Deoxycholate, 0.1% SDS). Protein concentrations of cellular lysates were measured using BCA protein assay kit (Pierce). Antibodies for immunoblot analysis were: 1:20,000 DM1A mouse anti &#x3B1;-Tubulin (Sigma); 1:1000 rabbit anti-VDAC3 (Aviva Systems Biology); 1:20,000 mouse anti-GAPDH (Sigma); 1:1000 mouse anti-&#x3B3;-tubulin (Sigma); rabbit anti-&#x3B3;-tubulin, 1:1000 (Sigma); 1:1000 rabbit anti-VDAC1 (Cell Signaling); 1:2000 goat anti-VDAC2 (Abcam); 1: 500 rabbit anti-VDAC (Calbiochem), 1:2000 rabbit anti-CoxIV (Cell Signaling); 1:2000 rabbit anti-Nucleolin (Sigma). Secondary antibodies for use with the Odyssey imaging system (Li-Cor) were Alexa680-conjugated donkey anti-mouse/rabbit (Invitrogen) and IRDye800-conjugated donkey anti-mouse/rabbit/goat (Rockland), all used at 1:10,000 dilution. The background-corrected intensities of bands were calculated using Odyssey imaging system (LI-COR) as previously described [<xref ref-type="bibr" rid="B24-cells-04-00331">24</xref>].</p>
+      </sec>
+      <sec>
+        <title>2.6. Cellular Fractionation</title>
+        <p>RPE1 cells were fractionated using Qproteome Mitochondria Isolation Kit (Qiagen) according to manufacturers instruction. Briefly, cells incubated in a Lysis buffer were centrifuged at 1000&#xD7;g for 10 min to produce a supernatant containing cytosolic proteins (Cy). The pellet was resuspended in Disruption buffer using a what gauge needle and re-centrifuged at 1000&#xD7;g for 10 min to generate a pellet containing nuclei, cell debris, and unlysed cells (referred to as Nu/D). The supernatant was centrifuged at 6000&#xD7;g for 10 min to pellet mitochondria (Mi) leaving the microsomal fraction in the supernatant (Mt). Both pellets were re-extracted in lysis buffer.</p>
+      </sec>
+      <sec>
+        <title>2.7. Protein Expression in Bacteria</title>
+        <p>All His-tagged fusion proteins were expressed as previously described [<xref ref-type="bibr" rid="B28-cells-04-00331">28</xref>] in <italic>E. coli</italic> BL21 (DE3), induced by 0.5 mM IPTG for 2 h and were collected by centrifugation. Equal amount of uninduced and induced cell pellets were extracted with 2X SDS-PAGE sample buffer using freezing-thawing cycle, and the crude lysates were used for testing the specificity of VDAC antibodies.</p>
+      </sec>
+      <sec>
+        <title>2.8. Statistical Analysis</title>
+        <p>Statistical comparisons were performed using unpaired (two sample equal variance) two-tailed Student&#x2019;s <italic>t</italic>-Test in Excel (Microsoft). The significance (<italic>p</italic> value) of the differences between two groups are indicated as follows: *** indicates <italic>p</italic> &lt; 0.0005, ** indicates <italic>p</italic> &lt; 0.005, * indicates <italic>p</italic> &lt; 0.025, and non-significant or n.s. indicates <italic>p</italic> &gt; 0.025.</p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>3. Results and Discussion</title>
+      <sec>
+        <title>3.1. VDAC1 and VDAC2 Are Present in a Cellular Fraction Devoid of Mitochondria</title>
+        <p>Several studies found VDAC1 and VDAC2 at non-mitochondrial locations. We recently identified VDAC3 in a non-mitochondrial sub-cellular fraction and also found VDAC3 to localize at centrosomes [<xref ref-type="bibr" rid="B28-cells-04-00331">28</xref>]. To verify whether VDAC1 and VDAC2 are present outside mitochondria, and to compare the distribution of these two VDACs in cellular compartments with that of VDAC3, we performed a sub-cellular fractionation of RPE1 cells. The VDAC3 antibody used in our previous studies robustly detected recombinant VDAC3 by immunoblotting but did not significantly cross-react with recombinant VDAC1 and VDAC2 expressed in bacteria (<xref ref-type="app" rid="app1-cells-04-00331">Figure S1</xref> and [<xref ref-type="bibr" rid="B28-cells-04-00331">28</xref>]). Similarly, antibodies against VDAC1 and VDAC2 strongly detected recombinant VDAC1 and VDAC2, respectively, and showed only marginal cross-reactivity to other VDACs (<xref ref-type="app" rid="app1-cells-04-00331">Figure S1</xref>).</p>
+        <p>The sub-cellular fractionation method we used separates mitochondria from cytosolic, nuclear and microsomal compartments. We found that VDAC1 and VDAC2 were almost completely absent in the cytosolic fraction, and like Cytochrome Oxidase IV (CoxIV), were enriched in the mitochondrial fraction (<xref ref-type="fig" rid="cells-04-00331-f001">Figure 1</xref>). However, like VDAC3 [<xref ref-type="bibr" rid="B28-cells-04-00331">28</xref>], a significant amount of VDAC1 and VDAC2 were also present in the microsomal fraction that also contains centrosomal proteins such as &#x3B3;-tubulin but is largely devoid of mitochondria (<xref ref-type="fig" rid="cells-04-00331-f001">Figure 1</xref>). The numbers below the blots in <xref ref-type="fig" rid="cells-04-00331-f001">Figure 1</xref> represent the relative intensity of each band compared to the microsomal fraction (normalized at 1.0), as determined using the LI-COR Odyssey imaging system. Given that the 5 &#xB5;g of each fraction loaded on the blot represents 1.7% of the yield of the microsomal fraction and 3.2% of the yield of the mitochondrial fraction, this leads to the estimation that roughly 43% of VDAC1 and 59% of VDAC2 are found outside of mitochondria. Thus, combined with our previous study [<xref ref-type="bibr" rid="B28-cells-04-00331">28</xref>], this data suggests that a large fraction of all three VDACs are present outside mitochondria. While VDAC1 and VDAC2 are also present in the Nu/D fraction, we do not take this as support for nuclear localization of VDAC proteins, due to the presence of debris and unlysed cells in this fraction, which is only shown to demonstrate removal of nuclei from the other fractions.</p>
+        <fig id="cells-04-00331-f001" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p>VDAC1 and VDAC2 are present in both mitochondrial and non-mitochondrial sub-cellular fractions. Asynchronously growing RPE1 cells were separated into cytosolic (Cy), microsomal (Mi), and mitochondrial (Mt) fractions. The pellet fraction that contained nuclei, debris and unlysed cellular components was further extracted in lysis buffer (Nu/D). Equal amounts (5 &#xB5;g) of proteins from these sub-cellular fractions were separated on SDS-PAGE, transferred to nitrocellulose membrane and probed with antibodies against indicated proteins. Molecular weight standards (kDa) are shown next to the immunoblots. The numbers below each immunoblot represent the ratio of background-corrected intensities in each sub-cellular fraction to that in the microsomal fraction for the corresponding protein.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00331-g001.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.2. VDAC1 and VDAC2 Localize to Centrosomes</title>
+        <p>Although we found VDAC3 to localize at centrosomes in addition to mitochondria, it was not clear whether this made VDAC3 unique among the VDACs, and we sought to determine if VDAC1 and VDAC2 also localize to centrosomes. When we used the specific antibodies against each VDAC to stain asynchronously growing human RPE1 cells, we noticed that, similar to the centrosomal localization of VDAC3 (<xref ref-type="fig" rid="cells-04-00331-f002">Figure 2</xref>, and [<xref ref-type="bibr" rid="B28-cells-04-00331">28</xref>]), VDAC1 and VDAC2 were also found in the vicinity of centrosomes (as judged by co-localization with the centrosome marker &#x3B3;-tubulin) (<xref ref-type="fig" rid="cells-04-00331-f002">Figure 2</xref>). All VDAC antibodies also generated relatively weak cytoplasmic puncta that are often co-localized with mitochondria, though mitochondrial co-staining by VDAC2 antibody was more prominent than the other two (<xref ref-type="fig" rid="cells-04-00331-f002">Figure 2</xref>). While centrosomal staining by VDAC1 antibody was co-localized on one or both &#x3B3;-tubulin foci, VDAC2 seemed to predominantly localize at intensely stained foci surrounding centrosomes (<xref ref-type="fig" rid="cells-04-00331-f002">Figure 2</xref>). VDAC1 and VDAC2 antibodies generated similar signals in other cell types (data not shown).</p>
+        <fig id="cells-04-00331-f002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>All three VDACs localize to centrosomes. (<bold>A</bold>&#x2013;<bold>C</bold>) Representative images of asynchronously growing human RPE1 cells stained for &#x3B3;-tubulin (&#x3B3;-tub; red), mitochondria (Mito, blue), and (<bold>A</bold>) VDAC1 (green); (<bold>B</bold>) VDAC2 (green); and (<bold>C</bold>) VDAC3 (green). DNA is stained by Hoechst (gray). In this and other figures, panels show four-fold digitally magnified images of a region of interest, in this case surrounding the centrosomes. Bar = 5 &#x3BC;m.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00331-g002.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.3. VDAC1 Predominantly Localizes to Mother Centrioles, While Centrosome-Associated VDAC2 Localizes to Centriolar Satellites</title>
+        <p>Although the VDAC1 antibody stained all centrioles present, the centriolar staining was often asymmetrical (<xref ref-type="fig" rid="cells-04-00331-f003">Figure 3</xref>A), and VDAC1 was localized comparatively strongly at one of the centrioles in the majority of asynchronous RPE1 cells, regardless of the presence of primary cilia. Further localization experiments indicated that the predominant centrosomal staining of VDAC1 was concentrated at mother centrioles (<xref ref-type="fig" rid="cells-04-00331-f003">Figure 3</xref>B) in roughly 50%&#x2013;60% asynchronously growing cells, as judged by the co-labeling of cells with a Cep170 antibody [<xref ref-type="bibr" rid="B31-cells-04-00331">31</xref>]. Using a VDAC1-specific siRNA (siVDAC1), we are able to consistently deplete more than 80% of total VDAC1 protein in siVDAC1 cells, compared to control cells (siControl, <xref ref-type="fig" rid="cells-04-00331-f003">Figure 3</xref>C). siVDAC1 also reduced the &#x3B3;-tubulin-normalized centrosomal level of VDAC1 more than two-fold (<xref ref-type="fig" rid="cells-04-00331-f003">Figure 3</xref>C), as determined by our modified quantitative immunofluorescence assay [<xref ref-type="bibr" rid="B30-cells-04-00331">30</xref>]. To ensure we compared centrosomal VDAC1 levels between cells at similar stages of the cell cycle, we restricted the analysis to cells that were in S-phase as judged by incorporation of BrdU; S-phase also represents the strongest VDAC1 signal at centrosomes (see below). Thus, the ability of siVDAC1 to reduce the strongest VDAC1 staining further verifies centrosomal localization of VDAC1. The gold standard for demonstration of a centrosomal pool of VDAC1 would be immuno-Electron Microscopy (EM). Unfortunately, the VDAC1 antibody we used here did not stain either mitochondria or centrioles in immuno-EM, probably due to incompatibility with the fixation method required for EM, and another VDAC antibody that we have tested does stain centrosomes but detects all three VDAC proteins (<xref ref-type="app" rid="app1-cells-04-00331">Figure S1</xref>B,C).</p>
+        <fig id="cells-04-00331-f003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>VDAC1 is more strongly associated with mother centriole. (<bold>A</bold>&#x2013;<bold>B</bold>) Representative images of asynchronous RPE1 cells stained for VDAC1 (green), and (<bold>A</bold>) &#x3B3;-tubulin (&#x3B3;-tub; red) and Ac-tubulin (Ac-tub; red); (<bold>B</bold>) Cep170 (red) and &#x3B3;-tub (blue). Ac-Tub stained centriolar microtubules and primary cilia. DNA is blue in (<bold>A</bold>) and grey in (<bold>B</bold>). Bar = 5 &#x3BC;m. (<bold>C</bold>) Asynchronously growing RPE1 cells treated with siRNAs against Lamin A/C (siCon) and VDAC1 (siVD1) for 72 h. Cells were labeled with BrdU, and stained for VDAC1 (green) and &#x3B3;-tub (red). The box and whisker diagram shows the normalized fluorescence intensity values of centrosomal VDAC1 from twenty five cells, where boxes represent lower and upper quartiles, the marker in the box (-) indicates the median, and the whiskers represent minimum and maximum values. <italic>p</italic> value is derived from unpaired <italic>t</italic>-test. <bold>***</bold> indicates <italic>p</italic> &lt; 0.0005. Representative immunoblots at the bottom of the graph show depletion (roughly 80%) of whole-cell VDAC1 in siVDAC1 cells compared to control cells, where GAPDH is loading control. Molecular weight standards (kDa) are shown next to the immunoblots. Micrographs show representative siCon and siVDAC1 cells stained for VDAC1, &#x3B3;-tub and BrdU (blue), Bar = 5 &#x3BC;m.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00331-g003.tif"/>
+        </fig>
+        <p>In contrast to VDAC1 (and VDAC3 [<xref ref-type="bibr" rid="B28-cells-04-00331">28</xref>]), centrosome-associated VDAC2 was instead predominantly found at foci surrounding centrosomes. This staining pattern is reminiscent of centriolar satellites [<xref ref-type="bibr" rid="B32-cells-04-00331">32</xref>], and VDAC2 strongly co-localizes with the centriolar satellite marker PCM1 in the vicinity of centrosomes in RPE1 cells (<xref ref-type="fig" rid="cells-04-00331-f004">Figure 4</xref>A). The distribution of VDAC2 and PCM1 around centrosomes were significantly disrupted by a brief treatment with nocodazole (<xref ref-type="fig" rid="cells-04-00331-f004">Figure 4</xref>A, <xref ref-type="app" rid="app1-cells-04-00331">Figure S2</xref>). This observation further indicates that VDAC2 localizes to centriolar satellites that depend on the microtubule cytoskeleton for their organization [<xref ref-type="bibr" rid="B33-cells-04-00331">33</xref>]. However, some residual staining of both PCM1 and VDAC2 was detected in roughly 15%&#x2013;20% cells after nocodazle treatment (<xref ref-type="fig" rid="cells-04-00331-f004">Figure 4</xref>A, <xref ref-type="app" rid="app1-cells-04-00331">Figure S2</xref>). In almost all cases, the residual staining was localized to centrioles, suggesting the presence of centriolar pools of these proteins that are not significantly affected by nocodazole. Thus, our results indicate that centrosomal VDAC2 predominantly localizes to centriolar satellites, and to some extent to the centrioles themselves. Treating cells with a VDAC2-specific siRNA (siVDAC2 or siVD2) that depleted cellular VDAC2 by roughly 70% compared to control cells greatly reduced the mitochondrial VDAC2 staining, and moderately diminished the centrosome-associated localization of VDAC2 (<xref ref-type="fig" rid="cells-04-00331-f004">Figure 4</xref>B).</p>
+        <fig id="cells-04-00331-f004" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p>Centrosomal VDAC2 localizes to centriolar satellites. (<bold>A</bold>) Asynchronously growing RPE1 cells were treated with 2 &#x3BC;M Nocodazole or 0.05% DMSO for 4 h, fixed and stained for the PCM1 marker of centriolar satellites (green), VDAC2 (red), and Ac-tub plus &#x3B3;-tub (both are blue); (<bold>B</bold>) Asynchronously growing RPE1 cells treated with control (siCon) or a VDAC2-specific siRNA (siVD2) for 72 h. Micrographs show random fields from the indicated populations of cells stained for &#x3B3;-tub (green), VDAC2 (red) and mitochondria (Mito, blue) from identical imaging conditions. DNA is gray and bar is 5 &#x3BC;m in (<bold>A</bold>&#x2013;<bold>B</bold>). Representative immunoblots shows depletion (roughly 70%) of whole-cell VDAC2 in siVDAC2 cells compared to control cells, where GAPDH is loading control. Molecular weight standards (kDa) are shown next to the immunoblots.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00331-g004.tif"/>
+        </fig>
+        <p>Though diminished to varying degrees, the centrosome-associated signals of all three VDACs were not completely lost upon respective siRNA treatment (<xref ref-type="fig" rid="cells-04-00331-f003">Figure 3</xref> and <xref ref-type="fig" rid="cells-04-00331-f004">Figure 4</xref>, [<xref ref-type="bibr" rid="B28-cells-04-00331">28</xref>]). This may be due to incomplete knockdown of VDAC proteins, or higher stability of their centrosomal pools compared to that present at other sub-cellular compartments including mitochondria. Importantly, the centriolar pools of several centriolar proteins are resistant to siRNA-mediated depletion [<xref ref-type="bibr" rid="B34-cells-04-00331">34</xref>,<xref ref-type="bibr" rid="B35-cells-04-00331">35</xref>,<xref ref-type="bibr" rid="B36-cells-04-00331">36</xref>]. However, we cannot completely rule out the possibility that residual centrosomal signals reflect the modest cross-reactivity of VDAC antibodies that we observed <italic>in vitro</italic>. Nevertheless, our observations suggest that there are pools of both VDAC1 and VDAC2 that, similar to VDAC3, are localized to centrosomes or centrosome-associated sites.</p>
+      </sec>
+      <sec>
+        <title>3.4. Depletion of VDAC1, but Not VDAC2, Leads to Cilia Assembly in Non-Starved Cells</title>
+        <p>One of the functions of the centrosomal pool of VDAC3 is to negatively regulate ciliogenesis [<xref ref-type="bibr" rid="B29-cells-04-00331">29</xref>]. Given our identification of centrosomal pools of VDAC1 and VDAC2, we next asked if these two proteins also regulate ciliogenesis. Generally, the ciliogenesis program in RPE1 cells is induced upon serum starvation, and the majority of RPE1 cells (85%&#x2013;90%) assemble cilia after 48 h of serum starvation. While only 10%&#x2013;15% of asynchronously growing RPE1 cells assemble cilia, roughly 65% of asynchronously growing siVDAC1 cells formed cilia as judged by staining for acetylated tubulin (Ac-tub) (<xref ref-type="fig" rid="cells-04-00331-f005">Figure 5</xref>A,B). We observed a similar trend with another marker for the ciliary axoneme, polyglutamylated tubulin (data not shown). Ectopic expression of an siRNA-resistant (sir) version of VDAC1 (GFP-sirVDAC1) significantly reduced the number of cells with cilia as compared to the expression of GFP alone (roughly 1.7-fold; see below). Ectopically expressed GFP-sirVDAC1 localizes to centrosomes only in a sub-population of GFP-positive RPE1 cells (see below), and this may account for the observation that it does not restore ciliogenesis in siVDAC1 cells to levels seen in control cells (siControl expressing GFP alone). Nevertheless, the significant reduction of ciliogenesis phenotype in asynchronously growing siVDAC1 cells upon expression of GFP-sirVDAC1 indicates that the aberrant ciliogenesis phenotype in RPE1 cells is due to depletion of the VDAC1 protein. Importantly, the ciliogenesis phenotype in siVDAC1 cells was similar to that seen in siVDAC3 cells [<xref ref-type="bibr" rid="B29-cells-04-00331">29</xref>]. In contrast, depletion of VDAC2 caused only a moderate increase in cells with primary cilia compared to control cells (<xref ref-type="fig" rid="cells-04-00331-f005">Figure 5</xref>A).</p>
+        <p>Next, we asked if this increase in cells with cilia upon VDAC1 depletion arose because these cells exited the cell cycle, or because they inappropriately formed cilia during interphase. To test this, we examined VDAC1-depleted cells that are in S-phase (as judged by incorporation of EdU during a 4 h pulse) for the presence of cilia. Interestingly, we observed a four-fold increase in EdU-positive siVDAC1 cells with cilia, compared to EdU-positive siControl cells (<xref ref-type="fig" rid="cells-04-00331-f005">Figure 5</xref>C). The majority of cilia (roughly 85%) in asynchronously growing EdU-positive siVDAC1 cells contained Arl13b (<xref ref-type="app" rid="app1-cells-04-00331">Figure S3</xref>), an essential component of ciliary membrane [<xref ref-type="bibr" rid="B37-cells-04-00331">37</xref>], suggesting that majority of cilia that are formed inappropriately due to depletion of VDAC1 are mature. However, siVDAC1 cells undergoing mitosis lack cilia (<xref ref-type="fig" rid="cells-04-00331-f005">Figure 5</xref>B), indicating that the cilia that were present in S-phase were ultimately disassembled before mitosis.</p>
+        <p>Nonetheless, VDAC1 depletion likely did cause a delay in cell cycle progression, as just roughly 10%&#x2013;12% of asynchronously growing siVDAC1 cells incorporated EdU during a 4 h EdU pulse, compared to 33%&#x2013;35% of siControl cells. This decrease in EdU incorporation may result from a drop in mitochondrial bioenergetics in siVDAC1 cells, a delay in S-phase entry due to the presence of cilia [<xref ref-type="bibr" rid="B38-cells-04-00331">38</xref>,<xref ref-type="bibr" rid="B39-cells-04-00331">39</xref>], or both. In order to monitor the overall mitochondrial function in individual VDAC-depleted RPE1 cells, we examined the ability of asynchronously growing cells treated with siRNAs to incorporate MitotrackerRed as a measure of membrane potential. While all control cells incorporated MitotrackerRed equally, 10%&#x2013;15% of siVDAC1 cells displayed a moderate decrease in MitotrackerRed incorporation compared to siControl cells, whereas roughly 50% of siVDAC2 cells showed a significant loss in membrane potential (<xref ref-type="app" rid="app1-cells-04-00331">Figure S4</xref>). The decrease in membrane potential upon depletion of VDAC2 was previously noticed in VDAC2 knock-out MEFs [<xref ref-type="bibr" rid="B40-cells-04-00331">40</xref>]. MitotrackerRed incorporation in siVDAC3 cells was very similar to control cells (<xref ref-type="app" rid="app1-cells-04-00331">Figure S4</xref>), consistent with observations from VDAC3 knock-out MEFs [<xref ref-type="bibr" rid="B41-cells-04-00331">41</xref>].</p>
+        <fig id="cells-04-00331-f005" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <p>Depletion of VDAC1 leads to primary cilia assembly in non-starved cells. (<bold>A</bold>&#x2013;<bold>B</bold>) Asynchronously growing RPE1 cells treated with siRNAs against Lamin A/C (Con), VDAC1 (siVDAC1 or VD1) and VDAC2 (VD2) were stained for &#x3B3;-tub and Ac-tub to identify centrosome and primary cilia respectively. (<bold>A</bold>) Percentage of cells with cilia was plotted as bars where values represent mean &#xB1; SD for three independent experiments, 250&#x2013;300 cells were counted per replicate. <bold>***</bold> indicates <italic>p</italic> &lt; 0.0005, <bold>*</bold> indicates <italic>p</italic> &lt; 0.025; (<bold>B</bold>) Micrograph shows a random field of siVDAC1 cells stained for &#x3B3;-tub and Ac-tub (both are green). Arrows mark cilia and squares surround centrosomes of non-mitotic cells that don&#x2019;t have cilia; (<bold>C</bold>) Cells prepared as in (<bold>A</bold>) were labeled with EdU for 4 h. Bar graph shows the percentage of EdU-positive cells with Ac-tub stained cilia. Values represent the mean &#xB1; SD for three independent experiments where at least 100 cells were counted per replicate. <bold>***</bold> indicates <italic>p</italic> &lt; 0.0005.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00331-g005.tif"/>
+        </fig>
+        <p>Another study showed roughly 30%&#x2013;40% loss of membrane potential upon depletion of VDAC1 in tumor-derived cells [<xref ref-type="bibr" rid="B42-cells-04-00331">42</xref>]. While this could reflect differences in depletion efficiency (that study used a higher siRNA concentration than used here), or cell type differences, it seems unlikely that a modest decrease in membrane potential can account for the observed ciliogenesis phenotype. In addition, even considering the important roles of VDAC1 at the OMM, it has been demonstrated that any of the three VDACs was dispensable, possibly due to compensation by the other two VDACs [<xref ref-type="bibr" rid="B41-cells-04-00331">41</xref>]. Importantly, we have shown that disrupting gross mitochondrial bioenergetics did not cause an aberrant ciliogenesis phenotype [<xref ref-type="bibr" rid="B29-cells-04-00331">29</xref>]. Overall, our data suggests that VDAC1 depletion, similar to that of VDAC3, leads to aberrant ciliogenesis in an asynchronous population of cells, and this effect is unlikely to be explained solely by cell cycle exit or loss of mitochondrial function. Instead, our data indicates that VDAC1 depletion initiates an inappropriate ciliogenesis program, or impairs the disassembly of cilia early in the cell cycle, either of which might in turn cause a delay in S-phase entry.</p>
+      </sec>
+      <sec>
+        <title>3.5. VDAC2 Promotes Cilia Maturation</title>
+        <p>Most of the proteins that localize to centriolar satellites regulate ciliogenesis either through regulating the transport of ciliary components to basal bodies or through vesicle trafficking [<xref ref-type="bibr" rid="B43-cells-04-00331">43</xref>]. Based on our observation that VDAC2 is localized to centriolar satellites, we anticipated that VDAC2 depletion might attenuate cilia assembly. Therefore, we examined cilia formation in control and VDAC2-depleted cells after 24 h of serum starvation, a time that when a significant fraction of cells might still be in the early stages of cilia assembly, to facilitate identification of defects in ciliogenesis. We did not observe any significant change in the percentage of cells that had assembled cilia, as judged by the presence of one of the cilia markers Ac-tub or Arl13B. However, when the cilia were further categorized, we observed that roughly 15% of siVDAC2 cells had a cilium that had a ciliary axoneme (Ac-tub positive) but lacked the ciliary membrane marker Arl13B, compared to 6% of control cells (&#x201C;Ac-tub only&#x201D;; <xref ref-type="fig" rid="cells-04-00331-f006">Figure 6</xref>A,B). In addition, a small but distinct fraction of siVDAC2 cells (roughly 4%) had an apparent cilium that was positive for Arl13B but lacked the ciliary axonemal marker Ac-tub (&#x201C;Arl13B only&#x201D;; <xref ref-type="fig" rid="cells-04-00331-f006">Figure 6</xref>A,B), a phenotype that was rarely seen in control populations. While it will likely require live cell imaging to elucidate the precise role of VDAC2, this observation suggests that VDAC2 may play a role in early stages of cilia assembly. A similar role was recently documented for the Joubert syndrome protein CSPP1, whose depletion in zebrafish led to a reduction in recruitment of Arl13B to the cilliary membrane despite the presence of an apparently normal ciliary axoneme [<xref ref-type="bibr" rid="B44-cells-04-00331">44</xref>]. Such a role for VDAC2 in maintaining ciliary membrane integrity is also supported by a recent siRNA screen that identified VDAC2 as a positive regulator of Hedgehog signaling [<xref ref-type="bibr" rid="B45-cells-04-00331">45</xref>]. Regardless, our data suggests that the function of VDAC2 at the centrosome/basal body is distinct from that of VDAC1 and VDAC3.</p>
+        <fig id="cells-04-00331-f006" position="float">
+          <label>Figure 6</label>
+          <caption>
+            <p>VDAC2 depletion causes subtle but significant defects in cilia assembly during 24 h serum starvation. (<bold>A</bold>&#x2013;<bold>B</bold>) RPE1 cells treated with siControl or siVDAC2 were serum starved for 24 h, fixed and stained for &#x3B3;-tub, Ac-tub (to mark ciliary axoneme) and Arl13B (to mark ciliary membrane). (<bold>A</bold>) Percentage of cells with cilia that were positive for both markers (both), or that were positive for only one marker (Ac-tub only or Arl13B only) were plotted as bars. Values represent mean &#xB1; SD for three independent experiments, where at least 200 cells were counted per replicate. <bold>**</bold> indicates <italic>p</italic> &lt; 0.005, <bold>*</bold> indicates <italic>p</italic> &lt; 0.025, and n.s. indicates non-significant (<italic>p</italic> &gt; 0.025); (<bold>B</bold>) Micrographs show representative fields of siControl and siVDAC2 cells stained for Arl13B (red), &#x3B3;-tub, and Ac-tub (both are green). DNA is blue and bar = 5 &#x3BC;m.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00331-g006.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.6. Ectopically Expressed VDAC1 and VDAC2 Localize to Centrosomes, and Overexpression of VDAC1 Suppressed Ciliogenesis upon Serum Starvation</title>
+        <p>We found that etopically expressed GFP-VDAC1 and GFP-VDAC2 were localized to centrosomes in about 40%&#x2013;45% and 25%&#x2013;30% of asynchronously growing RPE1 cells, respectively (<xref ref-type="fig" rid="cells-04-00331-f007">Figure 7</xref>A). Additionally, both these GFP-tagged VDACs were diffusely cytosolic and were also nicely co-localized with mitochondria (as judged by co-localization with MitotrackerRed) in roughly 30% and 50% of RPE1 cells, respectively.</p>
+        <fig id="cells-04-00331-f007" position="float">
+          <label>Figure 7</label>
+          <caption>
+            <p>Overexpression of GFP-VDAC1 but not GFP-VDAC2, suppresses cilia formation during serum starvation. (<bold>A</bold>) Representative images of asynchronously growing RPE1 cells expressing GFP-VDAC1 or GFP-VDAC2 (green) that incorporated MitotrackerRed (red) and stained for &#x3B3;-tub (red); (<bold>B</bold>&#x2013;<bold>C</bold>) RPE1 cells expressing GFP-VDAC1 or GFP-VDAC2 were serum starved for 48 h, stained for Ac-tub and &#x3B3;-tub, and the percentage of GFP-positive cells with primary cilia was counted. Values represent the mean &#xB1; SD for three independent experiments where 75&#x2013;100 cells were counted per replicate. <bold>**</bold> indicates <italic>p</italic> &lt; 0.005, and n.s. indicates non-significant (<italic>p</italic> &gt; 0.025); (<bold>C</bold>) In roughly 10%&#x2013;12% of serum starved GFP-VDAC2 expressing cells, GFP signal is predominantly localized at a region between basal body and ciliary axoneme, suggesting possible localization of GFP-VDAC2 at transition zones. Shown is a representative cell expressing GFP-VDAC2 (green), and stained for Ac-tub (red) and &#x3B3;-tub (blue). In both (<bold>A</bold>) and (<bold>C</bold>), DNA is grey, bar = 5 &#x3BC;m.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00331-g007.tif"/>
+        </fig>
+        <p>Consistent with the fact that VDAC1 depletion leads to cilia formation, ectopic expression of GFP-VDAC1 inhibited cilia assembly during serum starvation. While almost 75% of RPE1 cells expressing GFP alone formed cilia after 48 h of serum starvation, only roughly 30%&#x2013;35% of cells expressing GFP-VDAC1 could form cilia under this condition that supports ciliogenesis (<xref ref-type="fig" rid="cells-04-00331-f007">Figure 7</xref>B). This result supports the hypothesis that like VDAC3, VDAC1 negatively regulates ciliogenesis. Notably, the percentage of cells ectopically expressing GFP-VDAC2 with cilia was similar to that in cells expressing GFP alone, further confirming that the function of VDAC2 in ciliogenesis is distinct from that of either VDAC1 or VDAC3 (<xref ref-type="fig" rid="cells-04-00331-f007">Figure 7</xref>B). Moreover, in roughly 10%&#x2013;15% of GFP-positive cells, centrosome-associated GFP-VDAC2 signal was predominantly localized at the base of the cilia or transition zone (<xref ref-type="fig" rid="cells-04-00331-f007">Figure 7</xref>C), a localization not seen in cells expressing GFP-VDAC1 or GFP-VDAC3 [<xref ref-type="bibr" rid="B29-cells-04-00331">29</xref>]. Notably, mouse VDAC2, but not VDAC1 or VDAC3, was identified in two separate proteomic analyses of complexes of NPHP2 [<xref ref-type="bibr" rid="B9-cells-04-00331">9</xref>], and B9D1 [<xref ref-type="bibr" rid="B46-cells-04-00331">46</xref>]. It is tempting to speculate that GFP-VDAC2 may associate with a transition zone protein such as NPHP2 that localizes to both the basal body and transition zone, particularly when cells form cilia.</p>
+      </sec>
+      <sec>
+        <title>3.7. The Roles of VDAC1 and VDAC3 in Ciliogenesis are Non-Redundant</title>
+        <p>Because the aberrant cilia formation in asynchronously growing siVDAC1 cells was similar to what we reported previously in siVDAC3 cells [<xref ref-type="bibr" rid="B29-cells-04-00331">29</xref>], we next sought to determine if VDAC1 and VDAC3 perform redundant functions to negatively regulate ciliogenesis. Therefore, we tested whether ectopic expression of VDAC3 can reverse the aberrant ciliogenesis in asynchronously growing siVDAC1 cells, and vice versa. Overexpression of a siRNA-resistant version of VDAC3 (GFP-sirVDAC3) led to a highly significant (<italic>p</italic> &lt; 0.0005 as determined using our previously published data [<xref ref-type="bibr" rid="B29-cells-04-00331">29</xref>]) reduction in the percentage of siVDAC3 cells that had cilia (<xref ref-type="fig" rid="cells-04-00331-f008">Figure 8</xref>A), indicating that a GFP-tagged version of VDAC3 can rescue the ciliogenesis phenotype caused by VDAC3 depletion. In comparison, GFP-tagged VDAC1 (GFP-sirVDAC1) appeared to be only partially active in this assay, but still partially rescued the ciliogenesis phenotype caused by VDAC1 depletion and led to a significant (<italic>p</italic> &lt; 0.005) reduction in the percentage of VDAC1-depleted cells that had cilia (<xref ref-type="fig" rid="cells-04-00331-f008">Figure 8</xref>A,B). However, GFP-VDAC3 could not reverse ciliogenesis in siVDAC1 cells to the same extent as GFP-sirVDAC1, even though GFP-sirVDAC1 was less active in this assay; the difference between siVDAC1 cells expressing GFP and GFP-VDAC3 was only modestly significant (<italic>p</italic> &lt; 0.025), and the difference between siVDAC1 cells expressing GFP-VDAC3 and GFP-sirVDAC1 remained significant (<italic>p</italic> &lt; 0.005). Therefore, while GFP-VDAC3 can replace endogenous VDAC3 in this assay, it cannot effectively replace endogenous VDAC1. Similarly, the difference between siVDAC3 cells expressing GFP and GFP-VDAC1 was of only modest significance (<italic>p</italic> &lt; 0.025) (<xref ref-type="fig" rid="cells-04-00331-f008">Figure 8</xref>A). Because GFP-sirVDAC1 only partially suppressed the appearance of cilia in siVDAC1 cells, we cannot rule out the possibility that the presence of the GFP-tag compromises the function of VDAC1 and prevents it from completely rescuing the siVDAC1 phenotype or replacing endogenous VDAC3. However, because GFP-tagged VDAC1 caused a significant (<italic>p</italic> &lt; 0.005) reduction in the percentage of siVDAC1 cells with cilia but had only a modest effect in siVDAC3 cells (<italic>p</italic> &lt; 0.025), it seems more likely that VDAC1 cannot effectively replace endogenous VDAC3. Regardless, because GFP-VDAC3 clearly cannot replace endogenous VDAC1, this data suggests that the functions performed by VDAC1 and VDAC3 to suppress inappropriate cilia assembly in asynchronously growing cells are largely non-redundant.</p>
+        <fig id="cells-04-00331-f008" position="float">
+          <label>Figure 8</label>
+          <caption>
+            <p>Overexpression of VDAC1 and VDAC3 only marginally rescues ciliogenesis in VDAC3- and VDAC1-depleted cells. (<bold>A</bold>) Asynchronously growing RPE1 cells treated with control, siVDAC1 and siVDAC3 [<xref ref-type="bibr" rid="B29-cells-04-00331">29</xref>] were subsequently transfected with GFP, GFP-VDAC1 or GFP-sirVDAC1 and GFP-VDAC3 or GFP-sirVDAC3. Cells were stained for Ac-tub and &#x3B3;-tub, and the percentage of GFP-positive cells with Ac-tub labeled primary cilia was counted, and plotted as bars. Values represent the mean &#xB1; SD for three independent experiments where 75&#x2013;100 cells were counted per replicate, with the exception of siControl and siVDAC3 cells expressing GFP-sirVDAC3, a previously published result [<xref ref-type="bibr" rid="B29-cells-04-00331">29</xref>] for which we counted only a single replicate. <bold>***</bold> indicates <italic>p</italic> &lt; 0.0005, <bold>**</bold> indicates <italic>p</italic> &lt; 0.005, <bold>*</bold> indicates <italic>p</italic> &lt; 0.025, and n.s. indicates non-significant (<italic>p</italic> &gt; 0.025). Note that because the result is previously published [<xref ref-type="bibr" rid="B29-cells-04-00331">29</xref>], we performed only a single replicate for siVDAC3/GFP-sirVDAC3, and the designation of highly significant (<bold>***</bold>) refers to a statistical analysis of the previously published data; (<bold>B</bold>) Micrographs show representative images of siVDAC1 cell population transfected with constructs expressing GFP alone and GFP-sirVDAC1. Cells were stained for GFP (green) and Ac-tub (red). DNA is blue, bar = 5 &#x3BC;m. Arrows mark cilia, and the white box in siVDAC1 cell expressing GFP-sirVDAC1 surrounds a GFP-positive centrosome that did not have a cilium.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00331-g008.tif"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>3.8. VDAC1 Transitions from Centrosomes to Spindles during Mitosis</title>
+        <p>As discussed above, localization of VDAC1 at centrosomes varies during the cell cycle. We found that the centrosomal VDAC1 level was comparatively stronger in S-phase RPE1 cells; either judged by incorporation of BrdU or the presence of two distinct foci of Sas6 (<xref ref-type="fig" rid="cells-04-00331-f009">Figure 9</xref>A). Sas6, a major component of centriolar cartwheels, is recruited to centrosomes during procentriole assembly and degraded during mitosis [<xref ref-type="bibr" rid="B47-cells-04-00331">47</xref>]. Additionally, during S-phase, only the mother centriole contains appendages, while the daughter centriole starts to accumulate appendage proteins such as hCenexin1/Odf2 as it matures during G2-phase (<xref ref-type="app" rid="app1-cells-04-00331">Figure S5</xref>). Using Sas6 and hCenexin1/Odf2 as markers for different phases of the cell cycle, we observed that centrosomal VDAC1 signal slowly decreases as cells pass from S-phase to mitosis, when it is almost lost from spindle poles (<xref ref-type="fig" rid="cells-04-00331-f009">Figure 9</xref>B, <xref ref-type="app" rid="app1-cells-04-00331">Figure S5</xref>A). Instead, during mitosis VDAC1 is strongly localized on the spindle microtubules (<xref ref-type="fig" rid="cells-04-00331-f009">Figure 9</xref>B). This localization of VDAC1 is completely lost when cells were briefly treated with nocodazole (<xref ref-type="fig" rid="cells-04-00331-f009">Figure 9</xref>C), suggesting that the spindle localization of VDAC1 is likely mediated by its binding directly to microtubules, or a microtubule binding protein. The potential role of VDAC1 on the spindle is beyond the scope of this study. However, it may be important to note that VDAC1 interacts with Tctex-1 [<xref ref-type="bibr" rid="B48-cells-04-00331">48</xref>,<xref ref-type="bibr" rid="B49-cells-04-00331">49</xref>], a light chain subunit of cytoplasmic dynein that also localizes to spindle poles, minus ends of spindle microtubules, and kinetochores during mitosis [<xref ref-type="bibr" rid="B50-cells-04-00331">50</xref>] and negatively regulates ciliogenesis [<xref ref-type="bibr" rid="B51-cells-04-00331">51</xref>]. In addition, VDAC1 located at the OMM and ER were able to bind to free tubulin [<xref ref-type="bibr" rid="B52-cells-04-00331">52</xref>], microtubules and MAP4, a microtubule associated protein that stabilizes microtubules [<xref ref-type="bibr" rid="B53-cells-04-00331">53</xref>]. However, we verified that the spindle localization of VDAC1 is not due to alignment of mitochondria along the mitotic spindle (<xref ref-type="fig" rid="cells-04-00331-f009">Figure 9</xref>C). Moreover, this mitotic spindle localization was not seen for VDAC2 or VDAC3, further highlighting the distinct molecular regulation and non-redundant functions of three VDACs at non-mitochondrial locations. Nevertheless, the data presented here suggests, in addition to their mitochondrial localization, all three VDACs localize at centrosomes/basal bodies and play important functions in regulating ciliogenesis.</p>
+        <fig id="cells-04-00331-f009" position="float">
+          <label>Figure 9</label>
+          <caption>
+            <p>Centrosomal VDAC1 levels vary through the cell cycle, and VDAC1 transitions from centrosomes to spindles during mitosis. (<bold>A</bold>&#x2013;<bold>B</bold>) Representative images of asynchronously growing RPE1 cells stained for &#x3B3;-tub (blue), VDAC1 (green); and (<bold>A</bold>) Sas6 (red, marker for centriolar cartwheel); and (<bold>B</bold>) &#x3B1;-tub (red). Arrows in the top right image indicate poles of mitotic spindles; (<bold>C</bold>) Growing RPE1 cells briefly treated with nocodazole or DMSO were stained for VDAC1 (green), &#x3B3;-tub (red) and mitochondria (Mito, blue). In (<bold>A</bold>&#x2013;<bold>C</bold>), DNA is grey, and bar = 5 &#x3BC;m.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00331-g009.tif"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>Previously, we identified a non-mitochondrial pool of VDAC3 associated with centrosomes [<xref ref-type="bibr" rid="B28-cells-04-00331">28</xref>]. In this study, we demonstrated the presence of non-mitochondrial pools of the other two human VDACs, VDAC1 and VDAC2, and found these two VDACs also localize to centrosomes/basal bodies and centriolar satellites, respectively. Accordingly, we conclude that there is a centrosome-associated pool of each VDAC, in addition to the well known mitochondrial pool. Importantly, we discovered novel roles of these VDACs in ciliogenesis; VDAC1 and VDAC3 suppress cilia formation during asynchronous growth, while VDAC2 may support early stages of cilia assembly. These functions of VDAC proteins are likely due to their centrosomal localization, and not the well-established roles of VDACs in mitochondrial bioenergetics at the OMM. Our data also suggests that while VDAC1 and VDAC3 both negatively regulate ciliogenesis, their functions in ciliogenesis appear to be non-redundant.</p>
+      <p>Cilia are present in most animal cells either as flagella (unicellular eukaryotes and sperm), motile cilia (multiciliated epithelial cells or at the embryonic node) or sensory cilia (primary cilia) [<xref ref-type="bibr" rid="B3-cells-04-00331">3</xref>]. Although there are several studies identifying mechanisms of flagella assembly, IFT and ciliary beating [<xref ref-type="bibr" rid="B6-cells-04-00331">6</xref>,<xref ref-type="bibr" rid="B54-cells-04-00331">54</xref>], the importance of this tiny organelle was obscured for a long time. However, several discoveries in recent years demonstrated the stepwise assembly of cilia and the molecular architecture of ciliary compartments, and also elucidated the immense importance of both motile and primary cilia by identifying mutations in cilia-regulating genes and/or ciliary dysfunction in a wide range of diseases collectively known as ciliopathies [<xref ref-type="bibr" rid="B55-cells-04-00331">55</xref>,<xref ref-type="bibr" rid="B56-cells-04-00331">56</xref>,<xref ref-type="bibr" rid="B57-cells-04-00331">57</xref>]. Studies investigating ciliogenesis have identified several novel non-structural proteins at centrosomes that include mediators of vesicle transport and membrane-binding proteins [<xref ref-type="bibr" rid="B58-cells-04-00331">58</xref>,<xref ref-type="bibr" rid="B59-cells-04-00331">59</xref>,<xref ref-type="bibr" rid="B60-cells-04-00331">60</xref>,<xref ref-type="bibr" rid="B61-cells-04-00331">61</xref>]. In fact, in contrast to the historical notion of the centrosome as an exclusively non-membranous organelle, it was recently demonstrated that the centrosomes is constitutively associated with membrane components [<xref ref-type="bibr" rid="B62-cells-04-00331">62</xref>], as is required for a structure that must recruit vesicles containing ciliary cargo and dock with the plasma membrane in order to mediate ciliogenesis. Therefore, perhaps it should not be surprising to identify VDACs as components of centrosomes.</p>
+      <p>Moreover, there is ample evidence to suggest that mammalian VDACs are not exclusively found at the OMM [<xref ref-type="bibr" rid="B14-cells-04-00331">14</xref>]. VDAC1 was identified at the plasma membrane where it is localized to caveole [<xref ref-type="bibr" rid="B20-cells-04-00331">20</xref>,<xref ref-type="bibr" rid="B63-cells-04-00331">63</xref>,<xref ref-type="bibr" rid="B64-cells-04-00331">64</xref>], and interacts with the dynein-light chain Tctex1 [<xref ref-type="bibr" rid="B49-cells-04-00331">49</xref>] that negatively regulates ciliogenesis through a dynein-independent mechanism [<xref ref-type="bibr" rid="B51-cells-04-00331">51</xref>]. VDAC2 and VDAC3 are both present in the sperm outer dense fiber [<xref ref-type="bibr" rid="B23-cells-04-00331">23</xref>], a non-membranous component associated with the sperm flagella, and we previously documented a centrosomal pool of VDAC3 [<xref ref-type="bibr" rid="B28-cells-04-00331">28</xref>]. VDAC3 cooperates with Mps1 to suppress ciliogenesis [<xref ref-type="bibr" rid="B29-cells-04-00331">29</xref>], but it remains to be determined whether VDAC1 suppresses ciliogenesis in a similar manner. VDAC2 was also found in proteomic studies characterizing the ciliary NPHP and B9D1 complexes [<xref ref-type="bibr" rid="B9-cells-04-00331">9</xref>,<xref ref-type="bibr" rid="B46-cells-04-00331">46</xref>]. While the function of VDAC2 at cilia remains to be elucidated, our suggestion of a role in the initiation of ciliogenesis is consistent with the function of the NPHP complex, which is not required to build a cilium per se, but rather appears to be required for the assembly of specific signaling complexes that are found in cilia and regulate epithelial morphogenesis [<xref ref-type="bibr" rid="B9-cells-04-00331">9</xref>]. We speculate that VDAC2 is likewise required for recruitment to cilia of some subset of proteins or protein complexes that themselves are either not essential for ciliogenesis or can be recruited to cilia through other means.</p>
+      <p>However, the structural conformation of VDACs at centrosomal sites remains as an important open question. VDAC1 adopts an amphipathic beta-barrel structure, with hydrophobic surfaces interacting with the OMM and hydrophilic surfaces constituting the channel [<xref ref-type="bibr" rid="B15-cells-04-00331">15</xref>], and it is predicted that the other two VDACs adopt a similar conformation at the OMM [<xref ref-type="bibr" rid="B18-cells-04-00331">18</xref>]. While the historical view of centrosomes as non-membranous structures makes it difficult to envision this structure at centrosomes, centrosomes do in fact contain membranes [<xref ref-type="bibr" rid="B62-cells-04-00331">62</xref>]. Therefore, it is possible that VDACs also form beta barrel structures at centrosomes through interactions with centrosome-associated membranes. However, it is also possible that the structure of VDACs at centrosomes is distinct from that found in mitochondria. For example, the VDACs may adopt a more flexible structure at centrosomes that lacks channel activity but allows interactions with centrosomal proteins through hydrophilic surfaces and interaction with membranes through hydrophobic surfaces. An intriguing alternative, suggested by the observation that amphipathic beta structures can adopt either soluble or membrane-bound conformations [<xref ref-type="bibr" rid="B65-cells-04-00331">65</xref>], is that the VDACs may form inside out beta barrels at centrosomes, with hydrophilic surfaces facing outward to interact with centrosomal proteins. However, at this point, these assumptions are largely speculative, and while there may be no need to invoke a different structure, it will require detailed and extensive studies to elucidate the structural conformation of VDACs at non-mitochondrial sites such as centrosomes. We look forward to generating VDAC mutants that can accumulate at centrosomes but not mitochondria, in order to further explore the structure and function of centrosomal VDAC proteins.</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+     <app id="app1-cells-04-00331">
+      <title>Supplementary Materials</title>
+        <supplementary-material id="cells-04-00331-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cells-04-00331-s001.pdf">
+</supplementary-material>
+      <p>Supplementary materials can be accessed at: <uri>http://www.mdpi.com/2073-4409/4/3/331/s1</uri></p>
+     </app>
+	</app-group>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We thank the laboratory of Daniel Schoenberg (The Ohio State University) for the anti-Nucleolin antibody. This work was supported by a National Institutes of Health grant (GM77311) and a seed grant from The Ohio Cancer Research Associates (to H.A.F.). SM was partially supported by an Up on the Roof fellowship from the Human Cancer Genetics Program of The Ohio State University Comprehensive Cancer Center.</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>S.M. designed and performed the majority of experiments, collected data, and prepared the manuscript and figures. A.C. created VDAC1 and VDAC2 expression constructs and made initial observations on the centrosome localization and ciliogenic effects of GFP-VDAC1 and GFP-VDAC2. H.A.F. directed the research, designed some of the experiments, and edited the manuscript.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+	<glossary>
+	<gloss-group>
+      <title>Abbreviations</title>
+	  <def-list>
+	  <def-item><term>siCon</term><def><p>Control siRNA</p></def></def-item>
+	  <def-item><term>siVDAC1 or siVD1</term><def><p>VDAC1-siRNA</p></def></def-item>
+	  <def-item><term>siVDAC2 or siVD2</term><def><p>VDAC2-siRNA</p></def></def-item>
+	  <def-item><term>siVDAC3 or siVD3</term><def><p>VDAC1-siRNA</p></def></def-item>
+	  <def-item><term>BrdU</term><def><p>5-Bromo-2&#x2032;-Deoxyuridine</p></def></def-item>
+	  <def-item><term>Edu</term><def><p>5-ethynyl-2&#x2032;-deoxyuridine</p></def></def-item>
+	  </def-list>
+	  </gloss-group>
+    </glossary>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-04-00331">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Azimzadeh</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Marshall</surname>
+              <given-names>W.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Building the centriole</article-title>
+          <source>Curr. Biol.</source>
+          <year>2010</year>
+          <volume>20</volume>
+          <fpage>R816</fpage>
+          <lpage>R825</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cub.2010.08.010</pub-id>
+          <pub-id pub-id-type="pmid">20869612</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-cells-04-00331">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carvalho-Santos</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Machado</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Branco</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Tavares-Cadete</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Rodrigues-Martins</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Pereira-Leal</surname>
+              <given-names>J.B.</given-names>
+            </name>
+            <name>
+              <surname>Bettencourt-Dias</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Stepwise evolution of the centriole-assembly pathway</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2010</year>
+          <volume>123</volume>
+          <fpage>1414</fpage>
+          <lpage>1426</lpage>
+          <pub-id pub-id-type="doi">10.1242/jcs.064931</pub-id>
+          <pub-id pub-id-type="pmid">20392737</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-cells-04-00331">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Afzelius</surname>
+              <given-names>B.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cilia-related diseases</article-title>
+          <source>J. Pathol.</source>
+          <year>2004</year>
+          <volume>204</volume>
+          <fpage>470</fpage>
+          <lpage>477</lpage>
+          <pub-id pub-id-type="doi">10.1002/path.1652</pub-id>
+          <pub-id pub-id-type="pmid">15495266</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-cells-04-00331">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wong</surname>
+              <given-names>S.Y.</given-names>
+            </name>
+            <name>
+              <surname>Reiter</surname>
+              <given-names>J.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>The primary cilium at the crossroads of mammalian hedgehog signaling</article-title>
+          <source>Curr. Top. Dev. Biol.</source>
+          <year>2008</year>
+          <volume>85</volume>
+          <fpage>225</fpage>
+          <lpage>260</lpage>
+          <pub-id pub-id-type="pmid">19147008</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-cells-04-00331">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reiter</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Blacque</surname>
+              <given-names>O.E.</given-names>
+            </name>
+            <name>
+              <surname>Leroux</surname>
+              <given-names>M.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The base of the cilium: Roles for transition fibres and the transition zone in ciliary formation, maintenance and compartmentalization</article-title>
+          <source>EMBO Rep.</source>
+          <year>2012</year>
+          <volume>13</volume>
+          <fpage>608</fpage>
+          <lpage>618</lpage>
+          <pub-id pub-id-type="doi">10.1038/embor.2012.73</pub-id>
+          <pub-id pub-id-type="pmid">22653444</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-cells-04-00331">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rosenbaum</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Witman</surname>
+              <given-names>G.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intraflagellar transport</article-title>
+          <source>Nat. Rev. Mol. Cell Biol.</source>
+          <year>2002</year>
+          <volume>3</volume>
+          <fpage>813</fpage>
+          <lpage>825</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrm952</pub-id>
+          <pub-id pub-id-type="pmid">12415299</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-cells-04-00331">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kobayashi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Dynlacht</surname>
+              <given-names>B.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulating the transition from centriole to basal body</article-title>
+          <source>J. Cell Biol.</source>
+          <year>2011</year>
+          <volume>193</volume>
+          <fpage>435</fpage>
+          <lpage>444</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.201101005</pub-id>
+          <pub-id pub-id-type="pmid">21536747</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-cells-04-00331">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Plotnikova</surname>
+              <given-names>O.V.</given-names>
+            </name>
+            <name>
+              <surname>Pugacheva</surname>
+              <given-names>E.N.</given-names>
+            </name>
+            <name>
+              <surname>Golemis</surname>
+              <given-names>E.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Primary cilia and the cell cycle</article-title>
+          <source>Methods Cell Biol.</source>
+          <year>2009</year>
+          <volume>94</volume>
+          <fpage>137</fpage>
+          <lpage>160</lpage>
+          <pub-id pub-id-type="pmid">20362089</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-cells-04-00331">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Corbit</surname>
+              <given-names>K.C.</given-names>
+            </name>
+            <name>
+              <surname>Giles</surname>
+              <given-names>R.H.</given-names>
+            </name>
+            <name>
+              <surname>Brauer</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Otto</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Baye</surname>
+              <given-names>L.M.</given-names>
+            </name>
+            <name>
+              <surname>Wen</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Scales</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Kwong</surname>
+              <given-names>M.</given-names>
+            </name>
+			<etal/>
+          </person-group>
+          <article-title>Mapping the nphp-jbts-mks protein network reveals ciliopathy disease genes and pathways</article-title>
+          <source>Cell</source>
+          <year>2011</year>
+          <volume>145</volume>
+          <fpage>513</fpage>
+          <lpage>528</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2011.04.019</pub-id>
+          <pub-id pub-id-type="pmid">21565611</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-cells-04-00331">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Graser</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Stierhof</surname>
+              <given-names>Y.D.</given-names>
+            </name>
+            <name>
+              <surname>Lavoie</surname>
+              <given-names>S.B.</given-names>
+            </name>
+            <name>
+              <surname>Gassner</surname>
+              <given-names>O.S.</given-names>
+            </name>
+            <name>
+              <surname>Lamla</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Le Clech</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nigg</surname>
+              <given-names>E.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cep164, a novel centriole appendage protein required for primary cilium formation</article-title>
+          <source>J. Cell Biol.</source>
+          <year>2007</year>
+          <volume>179</volume>
+          <fpage>321</fpage>
+          <lpage>330</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.200707181</pub-id>
+          <pub-id pub-id-type="pmid">17954613</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-cells-04-00331">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mahjoub</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Tsou</surname>
+              <given-names>M.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>The amazi1ng roles of centriolar satellites during development</article-title>
+          <source>PLoS Genet.</source>
+          <year>2013</year>
+          <volume>9</volume>
+          <fpage>e1004070</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pgen.1004070</pub-id>
+          <pub-id pub-id-type="pmid">24385938</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-cells-04-00331">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Garcia-Gonzalo</surname>
+              <given-names>F.R.</given-names>
+            </name>
+            <name>
+              <surname>Corbit</surname>
+              <given-names>K.C.</given-names>
+            </name>
+            <name>
+              <surname>Sirerol-Piquer</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Ramaswami</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Otto</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Noriega</surname>
+              <given-names>T.R.</given-names>
+            </name>
+            <name>
+              <surname>Seol</surname>
+              <given-names>A.D.</given-names>
+            </name>
+            <name>
+              <surname>Robinson</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Bennett</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Josifova</surname>
+              <given-names>D.J.</given-names>
+            </name>
+			<etal/>
+          </person-group>
+          <article-title>A transition zone complex regulates mammalian ciliogenesis and ciliary membrane composition</article-title>
+          <source>Nat. Genet.</source>
+          <year>2011</year>
+          <volume>43</volume>
+          <fpage>776</fpage>
+          <lpage>784</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng.891</pub-id>
+          <pub-id pub-id-type="pmid">21725307</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13-cells-04-00331">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Avasthi</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Marshall</surname>
+              <given-names>W.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Stages of ciliogenesis and regulation of ciliary length</article-title>
+          <source>Differentiation</source>
+          <year>2012</year>
+          <volume>83</volume>
+          <fpage>S30</fpage>
+          <lpage>S42</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.diff.2011.11.015</pub-id>
+          <pub-id pub-id-type="pmid">22178116</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-cells-04-00331">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shoshan-Barmatz</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>de Pinto</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Zweckstetter</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Raviv</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Keinan</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Arbel</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vdac, a multi-functional mitochondrial protein regulating cell life and death</article-title>
+          <source>Mol. Asp. Med.</source>
+          <year>2010</year>
+          <volume>31</volume>
+          <fpage>227</fpage>
+          <lpage>285</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.mam.2010.03.002</pub-id>
+          <pub-id pub-id-type="pmid">20346371</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15-cells-04-00331">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ujwal</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Cascio</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Colletier</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Faham</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Toro</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ping</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Abramson</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The crystal structure of mouse vdac1 at 2.3 a resolution reveals mechanistic insights into metabolite gating</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2008</year>
+          <volume>105</volume>
+          <fpage>17742</fpage>
+          <lpage>17747</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0809634105</pub-id>
+          <pub-id pub-id-type="pmid">18988731</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-cells-04-00331">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hiller</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Garces</surname>
+              <given-names>R.G.</given-names>
+            </name>
+            <name>
+              <surname>Malia</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Orekhov</surname>
+              <given-names>V.Y.</given-names>
+            </name>
+            <name>
+              <surname>Colombini</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wagner</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Solution structure of the integral human membrane protein vdac-1 in detergent micelles</article-title>
+          <source>Science</source>
+          <year>2008</year>
+          <volume>321</volume>
+          <fpage>1206</fpage>
+          <lpage>1210</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1161302</pub-id>
+          <pub-id pub-id-type="pmid">18755977</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17-cells-04-00331">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bayrhuber</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Meins</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Habeck</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Becker</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Giller</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Villinger</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Vonrhein</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Griesinger</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Zweckstetter</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zeth</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure of the human voltage-dependent anion channel</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2008</year>
+          <volume>105</volume>
+          <fpage>15370</fpage>
+          <lpage>15375</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0808115105</pub-id>
+          <pub-id pub-id-type="pmid">18832158</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18-cells-04-00331">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Pinto</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Guarino</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Guarnera</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Messina</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Reina</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tomasello</surname>
+              <given-names>F.M.</given-names>
+            </name>
+            <name>
+              <surname>Palermo</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Mazzoni</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of human vdac isoforms: A peculiar function for vdac3?</article-title>
+          <source>Biochim. Biophys. Acta</source>
+          <year>2010</year>
+          <volume>1797</volume>
+          <fpage>1268</fpage>
+          <lpage>1275</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbabio.2010.01.031</pub-id>
+          <pub-id pub-id-type="pmid">20138821</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19-cells-04-00331">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thinnes</surname>
+              <given-names>F.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evidence for extra-mitochondrial localization of the vdac/porin channel in eucaryotic cells</article-title>
+          <source>J. Bioenerg. Biomembr.</source>
+          <year>1992</year>
+          <volume>24</volume>
+          <fpage>71</fpage>
+          <lpage>75</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF00769533</pub-id>
+          <pub-id pub-id-type="pmid">1380508</pub-id>
+        </citation>
+      </ref>
+      <ref id="B20-cells-04-00331">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bathori</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Parolini</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Tombola</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Szabo</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Messina</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Oliva</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>de Pinto</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Lisanti</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sargiacomo</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zoratti</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Porin is present in the plasma membrane where it is concentrated in caveolae and caveolae-related domains</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1999</year>
+          <volume>274</volume>
+          <fpage>29607</fpage>
+          <lpage>29612</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.274.42.29607</pub-id>
+          <pub-id pub-id-type="pmid">10514428</pub-id>
+        </citation>
+      </ref>
+      <ref id="B21-cells-04-00331">
+        <label>21.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baker</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Lane</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Ly</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>de Pinto</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Lawen</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vdac1 is a transplasma membrane nadh-ferricyanide reductase</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2004</year>
+          <volume>279</volume>
+          <fpage>4811</fpage>
+          <lpage>4819</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M311020200</pub-id>
+          <pub-id pub-id-type="pmid">14573604</pub-id>
+        </citation>
+      </ref>
+      <ref id="B22-cells-04-00331">
+        <label>22.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gonzalez-Gronow</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kalfa</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>Gawdi</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Pizzo</surname>
+              <given-names>S.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>The voltage-dependent anion channel is a receptor for plasminogen kringle 5 on human endothelial cells</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2003</year>
+          <volume>278</volume>
+          <fpage>27312</fpage>
+          <lpage>27318</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M303172200</pub-id>
+          <pub-id pub-id-type="pmid">12736244</pub-id>
+        </citation>
+      </ref>
+      <ref id="B23-cells-04-00331">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hinsch</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>de Pinto</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Aires</surname>
+              <given-names>V.A.</given-names>
+            </name>
+            <name>
+              <surname>Schneider</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Messina</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hinsch</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Voltage-dependent anion-selective channels vdac2 and vdac3 are abundant proteins in bovine outer dense fibers, a cytoskeletal component of the sperm flagellum</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2004</year>
+          <volume>279</volume>
+          <fpage>15281</fpage>
+          <lpage>15288</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M313433200</pub-id>
+          <pub-id pub-id-type="pmid">14739283</pub-id>
+        </citation>
+      </ref>
+      <ref id="B24-cells-04-00331">
+        <label>24.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fisk</surname>
+              <given-names>H.A.</given-names>
+            </name>
+            <name>
+              <surname>Mattison</surname>
+              <given-names>C.P.</given-names>
+            </name>
+            <name>
+              <surname>Winey</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Human mps1 protein kinase is required for centrosome duplication and normal mitotic progression</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2003</year>
+          <volume>100</volume>
+          <fpage>14875</fpage>
+          <lpage>14880</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.2434156100</pub-id>
+          <pub-id pub-id-type="pmid">14657364</pub-id>
+        </citation>
+      </ref>
+      <ref id="B25-cells-04-00331">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Kasbek</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Majumder</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yusof</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Fisk</surname>
+              <given-names>H.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mps1 phosphorylation sites regulate the function of centrin 2 in centriole assembly</article-title>
+          <source>Mol. Biol. Cell</source>
+          <year>2010</year>
+          <volume>21</volume>
+          <fpage>4361</fpage>
+          <lpage>4372</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.E10-04-0298</pub-id>
+          <pub-id pub-id-type="pmid">20980622</pub-id>
+        </citation>
+      </ref>
+      <ref id="B26-cells-04-00331">
+        <label>26.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abrieu</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Magnaghi-Jaulin</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Kahana</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Peter</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Castro</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Vigneron</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lorca</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Cleveland</surname>
+              <given-names>D.W.</given-names>
+            </name>
+            <name>
+              <surname>Labbe</surname>
+              <given-names>J.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mps1 is a kinetochore-associated kinase essential for the vertebrate mitotic checkpoint</article-title>
+          <source>Cell</source>
+          <year>2001</year>
+          <volume>106</volume>
+          <fpage>83</fpage>
+          <lpage>93</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0092-8674(01)00410-X</pub-id>
+        </citation>
+      </ref>
+      <ref id="B27-cells-04-00331">
+        <label>27.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hached</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>S.Z.</given-names>
+            </name>
+            <name>
+              <surname>Buffin</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Cladiere</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Rachez</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Sacras</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sorger</surname>
+              <given-names>P.K.</given-names>
+            </name>
+            <name>
+              <surname>Wassmann</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mps1 at kinetochores is essential for female mouse meiosis i</article-title>
+          <source>Development</source>
+          <year>2011</year>
+          <volume>138</volume>
+          <fpage>2261</fpage>
+          <lpage>2271</lpage>
+          <pub-id pub-id-type="doi">10.1242/dev.061317</pub-id>
+          <pub-id pub-id-type="pmid">21558374</pub-id>
+        </citation>
+      </ref>
+      <ref id="B28-cells-04-00331">
+        <label>28.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Majumder</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Slabodnick</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Pike</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Marquardt</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Fisk</surname>
+              <given-names>H.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vdac3 regulates centriole assembly by targeting mps1 to centrosomes</article-title>
+          <source>Cell Cycle</source>
+          <year>2012</year>
+          <volume>11</volume>
+          <fpage>3666</fpage>
+          <lpage>3678</lpage>
+          <pub-id pub-id-type="doi">10.4161/cc.21927</pub-id>
+          <pub-id pub-id-type="pmid">22935710</pub-id>
+        </citation>
+      </ref>
+      <ref id="B29-cells-04-00331">
+        <label>29.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Majumder</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Fisk</surname>
+              <given-names>H.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vdac3 and mps1 negatively regulate ciliogenesis</article-title>
+          <source>Cell Cycle</source>
+          <year>2013</year>
+          <volume>12</volume>
+          <fpage>849</fpage>
+          <lpage>858</lpage>
+          <pub-id pub-id-type="doi">10.4161/cc.23824</pub-id>
+          <pub-id pub-id-type="pmid">23388454</pub-id>
+        </citation>
+      </ref>
+      <ref id="B30-cells-04-00331">
+        <label>30.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Majumder</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Fisk</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Quantitative immunofluorescence assay to measure the variation in protein levels at centrosomes</article-title>
+          <source>J. Vis. Exp.</source>
+          <year>2014</year>
+          <volume>94</volume>
+          <fpage>e52030</fpage>
+          <pub-id pub-id-type="doi">10.3791/52030</pub-id>
+          <pub-id pub-id-type="pmid">25548932</pub-id>
+        </citation>
+      </ref>
+      <ref id="B31-cells-04-00331">
+        <label>31.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guarguaglini</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Duncan</surname>
+              <given-names>P.I.</given-names>
+            </name>
+            <name>
+              <surname>Stierhof</surname>
+              <given-names>Y.D.</given-names>
+            </name>
+            <name>
+              <surname>Holmstrom</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Duensing</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nigg</surname>
+              <given-names>E.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The forkhead-associated domain protein cep170 interacts with polo-like kinase 1 and serves as a marker for mature centrioles</article-title>
+          <source>Mol. Biol. Cell</source>
+          <year>2005</year>
+          <volume>16</volume>
+          <fpage>1095</fpage>
+          <lpage>1107</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.E04-10-0939</pub-id>
+          <pub-id pub-id-type="pmid">15616186</pub-id>
+        </citation>
+      </ref>
+      <ref id="B32-cells-04-00331">
+        <label>32.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barenz</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Mayilo</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Gruss</surname>
+              <given-names>O.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Centriolar satellites: Busy orbits around the centrosome</article-title>
+          <source>Eur. J. Cell Biol.</source>
+          <year>2011</year>
+          <volume>90</volume>
+          <fpage>983</fpage>
+          <lpage>989</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ejcb.2011.07.007</pub-id>
+          <pub-id pub-id-type="pmid">21945726</pub-id>
+        </citation>
+      </ref>
+      <ref id="B33-cells-04-00331">
+        <label>33.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kubo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sasaki</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yuba-Kubo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Tsukita</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Shiina</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Centriolar satellites: Molecular characterization, atp-dependent movement toward centrioles and possible involvement in ciliogenesis</article-title>
+          <source>J. Cell Biol.</source>
+          <year>1999</year>
+          <volume>147</volume>
+          <fpage>969</fpage>
+          <lpage>980</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.147.5.969</pub-id>
+          <pub-id pub-id-type="pmid">10579718</pub-id>
+        </citation>
+      </ref>
+      <ref id="B34-cells-04-00331">
+        <label>34.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Azimzadeh</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hergert</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Delouvee</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Euteneuer</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Formstecher</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Khodjakov</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bornens</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hpoc5 is a centrin-binding protein required for assembly of full-length centrioles</article-title>
+          <source>J. Cell Biol.</source>
+          <year>2009</year>
+          <volume>185</volume>
+          <fpage>101</fpage>
+          <lpage>114</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.200808082</pub-id>
+          <pub-id pub-id-type="pmid">19349582</pub-id>
+        </citation>
+      </ref>
+      <ref id="B35-cells-04-00331">
+        <label>35.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hatch</surname>
+              <given-names>E.M.</given-names>
+            </name>
+            <name>
+              <surname>Kulukian</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Holland</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Cleveland</surname>
+              <given-names>D.W.</given-names>
+            </name>
+            <name>
+              <surname>Stearns</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cep152 interacts with plk4 and is required for centriole duplication</article-title>
+          <source>J. Cell Biol.</source>
+          <year>2010</year>
+          <volume>191</volume>
+          <fpage>721</fpage>
+          <lpage>729</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.201006049</pub-id>
+          <pub-id pub-id-type="pmid">21059850</pub-id>
+        </citation>
+      </ref>
+      <ref id="B36-cells-04-00331">
+        <label>36.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Salisbury</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Suino</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Busby</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Springett</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Centrin-2 is required for centriole duplication in mammalian cells</article-title>
+          <source>Curr. Biol.</source>
+          <year>2002</year>
+          <volume>12</volume>
+          <fpage>1287</fpage>
+          <lpage>1291</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0960-9822(02)01019-9</pub-id>
+        </citation>
+      </ref>
+      <ref id="B37-cells-04-00331">
+        <label>37.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Larkins</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>Aviles</surname>
+              <given-names>G.D.</given-names>
+            </name>
+            <name>
+              <surname>East</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Kahn</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Caspary</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Arl13b regulates ciliogenesis and the dynamic localization of shh signaling proteins</article-title>
+          <source>Mol. Biol. Cell</source>
+          <year>2011</year>
+          <volume>22</volume>
+          <fpage>4694</fpage>
+          <lpage>4703</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.E10-12-0994</pub-id>
+          <pub-id pub-id-type="pmid">21976698</pub-id>
+        </citation>
+      </ref>
+      <ref id="B38-cells-04-00331">
+        <label>38.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jackson</surname>
+              <given-names>P.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Do cilia put brakes on the cell cycle?</article-title>
+          <source>Nat. Cell Biol.</source>
+          <year>2011</year>
+          <volume>13</volume>
+          <fpage>340</fpage>
+          <lpage>342</lpage>
+          <pub-id pub-id-type="doi">10.1038/ncb0411-340</pub-id>
+          <pub-id pub-id-type="pmid">21460803</pub-id>
+        </citation>
+      </ref>
+      <ref id="B39-cells-04-00331">
+        <label>39.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zaghloul</surname>
+              <given-names>N.A.</given-names>
+            </name>
+            <name>
+              <surname>Bubenshchikova</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Oh</surname>
+              <given-names>E.C.</given-names>
+            </name>
+            <name>
+              <surname>Rankin</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Katsanis</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Obara</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Tsiokas</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nde1-mediated inhibition of ciliogenesis affects cell cycle re-entry</article-title>
+          <source>Nat. Cell Biol.</source>
+          <year>2011</year>
+          <volume>13</volume>
+          <fpage>351</fpage>
+          <lpage>360</lpage>
+          <pub-id pub-id-type="doi">10.1038/ncb2183</pub-id>
+          <pub-id pub-id-type="pmid">21394081</pub-id>
+        </citation>
+      </ref>
+      <ref id="B40-cells-04-00331">
+        <label>40.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheng</surname>
+              <given-names>E.H.</given-names>
+            </name>
+            <name>
+              <surname>Sheiko</surname>
+              <given-names>T.V.</given-names>
+            </name>
+            <name>
+              <surname>Fisher</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>Craigen</surname>
+              <given-names>W.J.</given-names>
+            </name>
+            <name>
+              <surname>Korsmeyer</surname>
+              <given-names>S.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vdac2 inhibits bak activation and mitochondrial apoptosis</article-title>
+          <source>Science</source>
+          <year>2003</year>
+          <volume>301</volume>
+          <fpage>513</fpage>
+          <lpage>517</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1083995</pub-id>
+          <pub-id pub-id-type="pmid">12881569</pub-id>
+        </citation>
+      </ref>
+      <ref id="B41-cells-04-00331">
+        <label>41.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baines</surname>
+              <given-names>C.P.</given-names>
+            </name>
+            <name>
+              <surname>Kaiser</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Sheiko</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Craigen</surname>
+              <given-names>W.J.</given-names>
+            </name>
+            <name>
+              <surname>Molkentin</surname>
+              <given-names>J.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Voltage-dependent anion channels are dispensable for mitochondrial-dependent cell death</article-title>
+          <source>Nat. Cell Biol.</source>
+          <year>2007</year>
+          <volume>9</volume>
+          <fpage>550</fpage>
+          <lpage>555</lpage>
+          <pub-id pub-id-type="doi">10.1038/ncb1575</pub-id>
+          <pub-id pub-id-type="pmid">17417626</pub-id>
+        </citation>
+      </ref>
+      <ref id="B42-cells-04-00331">
+        <label>42.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arif</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Vasilkovsky</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Refaely</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Konson</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Shoshan-Barmatz</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Silencing vdac1 expression by sirna inhibits cancer cell proliferation and tumor growth <italic>in vivo</italic></article-title>
+          <source>Mol. Ther. Nucleic Acids</source>
+          <year>2014</year>
+          <volume>3</volume>
+          <fpage>e159</fpage>
+          <pub-id pub-id-type="doi">10.1038/mtna.2014.9</pub-id>
+          <pub-id pub-id-type="pmid">24781191</pub-id>
+        </citation>
+      </ref>
+      <ref id="B43-cells-04-00331">
+        <label>43.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tollenaere</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Mailand</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Bekker-Jensen</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Centriolar satellites: Key mediators of centrosome functions</article-title>
+          <source>Cell. Mol. Life Sci.</source>
+          <year>2015</year>
+          <volume>72</volume>
+          <fpage>11</fpage>
+          <lpage>23</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00018-014-1711-3</pub-id>
+          <pub-id pub-id-type="pmid">25173771</pub-id>
+        </citation>
+      </ref>
+      <ref id="B44-cells-04-00331">
+        <label>44.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tuz</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Bachmann-Gagescu</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>O&#x2019;Day</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Hua</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Isabella</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Phelps</surname>
+              <given-names>I.G.</given-names>
+            </name>
+            <name>
+              <surname>Stolarski</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <name>
+              <surname>O&#x2019;Roak</surname>
+              <given-names>B.J.</given-names>
+            </name>
+            <name>
+              <surname>Dempsey</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Lourenco</surname>
+              <given-names>C.</given-names>
+            </name>
+			<etal/>
+          </person-group>
+          <article-title>Mutations in cspp1 cause primary cilia abnormalities and joubert syndrome with or without jeune asphyxiating thoracic dystrophy</article-title>
+          <source>Am. J. Hum. Genet.</source>
+          <year>2014</year>
+          <volume>94</volume>
+          <fpage>62</fpage>
+          <lpage>72</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ajhg.2013.11.019</pub-id>
+          <pub-id pub-id-type="pmid">24360808</pub-id>
+        </citation>
+      </ref>
+      <ref id="B45-cells-04-00331">
+        <label>45.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jacob</surname>
+              <given-names>L.S.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Dodge</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <name>
+              <surname>Fan</surname>
+              <given-names>C.W.</given-names>
+            </name>
+            <name>
+              <surname>Kulak</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Amatruda</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Lum</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genome-wide rnai screen reveals disease-associated genes that are common to hedgehog and wnt signaling</article-title>
+          <source>Sci. Signal.</source>
+          <year>2011</year>
+          <volume>4</volume>
+          <fpage>ra4</fpage>
+          <pub-id pub-id-type="doi">10.1126/scisignal.2001225</pub-id>
+          <pub-id pub-id-type="pmid">21266715</pub-id>
+        </citation>
+      </ref>
+      <ref id="B46-cells-04-00331">
+        <label>46.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dowdle</surname>
+              <given-names>W.E.</given-names>
+            </name>
+            <name>
+              <surname>Robinson</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Kneist</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sirerol-Piquer</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Frints</surname>
+              <given-names>S.G.</given-names>
+            </name>
+            <name>
+              <surname>Corbit</surname>
+              <given-names>K.C.</given-names>
+            </name>
+            <name>
+              <surname>Zaghloul</surname>
+              <given-names>N.A.</given-names>
+            </name>
+            <name>
+              <surname>van Lijnschoten</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Mulders</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Verver</surname>
+              <given-names>D.E.</given-names>
+            </name>
+			<etal/>
+          </person-group>
+          <article-title>Disruption of a ciliary b9 protein complex causes meckel syndrome</article-title>
+          <source>Am. J. Hum. Genet.</source>
+          <year>2011</year>
+          <volume>89</volume>
+          <fpage>94</fpage>
+          <lpage>110</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ajhg.2011.06.003</pub-id>
+          <pub-id pub-id-type="pmid">21763481</pub-id>
+        </citation>
+      </ref>
+      <ref id="B47-cells-04-00331">
+        <label>47.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Leidel</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Delattre</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Cerutti</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Baumer</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Gonczy</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sas-6 defines a protein family required for centrosome duplication in c. Elegans and in human cells</article-title>
+          <source>Nat. Cell Biol.</source>
+          <year>2005</year>
+          <volume>7</volume>
+          <fpage>115</fpage>
+          <lpage>125</lpage>
+          <pub-id pub-id-type="doi">10.1038/ncb1220</pub-id>
+          <pub-id pub-id-type="pmid">15665853</pub-id>
+        </citation>
+      </ref>
+      <ref id="B48-cells-04-00331">
+        <label>48.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Szabadkai</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Varnai</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>de Stefani</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Wieckowski</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Cavagna</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Nagy</surname>
+              <given-names>A.I.</given-names>
+            </name>
+            <name>
+              <surname>Balla</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Rizzuto</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Chaperone-mediated coupling of endoplasmic reticulum and mitochondrial Ca<sup>2+</sup> channels</article-title>
+          <source>J. Cell Biol.</source>
+          <year>2006</year>
+          <volume>175</volume>
+          <fpage>901</fpage>
+          <lpage>911</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.200608073</pub-id>
+          <pub-id pub-id-type="pmid">17178908</pub-id>
+        </citation>
+      </ref>
+      <ref id="B49-cells-04-00331">
+        <label>49.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schwarzer</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Barnikol-Watanabe</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Thinnes</surname>
+              <given-names>F.P.</given-names>
+            </name>
+            <name>
+              <surname>Hilschmann</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Voltage-dependent anion-selective channel (vdac) interacts with the dynein light chain tctex1 and the heat-shock protein pbp74</article-title>
+          <source>Int. J. Biochem. Cell Biol.</source>
+          <year>2002</year>
+          <volume>34</volume>
+          <fpage>1059</fpage>
+          <lpage>1070</lpage>
+          <pub-id pub-id-type="doi">10.1016/S1357-2725(02)00026-2</pub-id>
+        </citation>
+      </ref>
+      <ref id="B50-cells-04-00331">
+        <label>50.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Chuang</surname>
+              <given-names>J.Z.</given-names>
+            </name>
+            <name>
+              <surname>Sung</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Mao</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>A dynein independent role of tctex-1 at the kinetochore</article-title>
+          <source>Cell Cycle</source>
+          <year>2015</year>
+          <volume>14</volume>
+          <fpage>1379</fpage>
+          <lpage>1388</lpage>
+          <pub-id pub-id-type="doi">10.1080/15384101.2014.1000217</pub-id>
+          <pub-id pub-id-type="pmid">25928583</pub-id>
+        </citation>
+      </ref>
+      <ref id="B51-cells-04-00331">
+        <label>51.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Saito</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Chuang</surname>
+              <given-names>J.Z.</given-names>
+            </name>
+            <name>
+              <surname>Tseng</surname>
+              <given-names>Y.Y.</given-names>
+            </name>
+            <name>
+              <surname>Dedesma</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Tomizawa</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kaitsuka</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sung</surname>
+              <given-names>C.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ciliary transition zone activation of phosphorylated tctex-1 controls ciliary resorption, s-phase entry and fate of neural progenitors</article-title>
+          <source>Nat. Cell Biol.</source>
+          <year>2011</year>
+          <volume>13</volume>
+          <fpage>402</fpage>
+          <lpage>411</lpage>
+          <pub-id pub-id-type="doi">10.1038/ncb2218</pub-id>
+          <pub-id pub-id-type="pmid">21394082</pub-id>
+        </citation>
+      </ref>
+      <ref id="B52-cells-04-00331">
+        <label>52.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Maldonado</surname>
+              <given-names>E.N.</given-names>
+            </name>
+            <name>
+              <surname>Patnaik</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Mullins</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Lemasters</surname>
+              <given-names>J.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Free tubulin modulates mitochondrial membrane potential in cancer cells</article-title>
+          <source>Cancer Res.</source>
+          <year>2010</year>
+          <volume>70</volume>
+          <fpage>10192</fpage>
+          <lpage>10201</lpage>
+          <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-10-2429</pub-id>
+          <pub-id pub-id-type="pmid">21159641</pub-id>
+        </citation>
+      </ref>
+      <ref id="B53-cells-04-00331">
+        <label>53.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fang</surname>
+              <given-names>Y.D.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Dang</surname>
+              <given-names>Y.M.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.M.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>J.Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Dai</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Teng</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>D.X.</given-names>
+            </name>
+			<etal/>
+          </person-group>
+          <article-title>Map4 mechanism that stabilizes mitochondrial permeability transition in hypoxia: Microtubule enhancement and dynlt1 interaction with vdac1</article-title>
+          <source>PLoS ONE</source>
+          <year>2011</year>
+          <volume>6</volume>
+          <fpage>e28052</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0028052</pub-id>
+          <pub-id pub-id-type="pmid">22164227</pub-id>
+        </citation>
+      </ref>
+      <ref id="B54-cells-04-00331">
+        <label>54.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Christensen</surname>
+              <given-names>S.T.</given-names>
+            </name>
+            <name>
+              <surname>Pedersen</surname>
+              <given-names>L.B.</given-names>
+            </name>
+            <name>
+              <surname>Schneider</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Satir</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sensory cilia and integration of signal transduction in human health and disease</article-title>
+          <source>Traffic</source>
+          <year>2007</year>
+          <volume>8</volume>
+          <fpage>97</fpage>
+          <lpage>109</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1600-0854.2006.00516.x</pub-id>
+          <pub-id pub-id-type="pmid">17241444</pub-id>
+        </citation>
+      </ref>
+      <ref id="B55-cells-04-00331">
+        <label>55.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fliegauf</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Benzing</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Omran</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>When cilia go bad: Cilia defects and ciliopathies</article-title>
+          <source>Nat. Rev. Mol. Cell Biol.</source>
+          <year>2007</year>
+          <volume>8</volume>
+          <fpage>880</fpage>
+          <lpage>893</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrm2278</pub-id>
+          <pub-id pub-id-type="pmid">17955020</pub-id>
+        </citation>
+      </ref>
+      <ref id="B56-cells-04-00331">
+        <label>56.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Quinlan</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Tobin</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Beales</surname>
+              <given-names>P.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Modeling ciliopathies: Primary cilia in development and disease</article-title>
+          <source>Curr. Top. Dev. Biol.</source>
+          <year>2008</year>
+          <volume>84</volume>
+          <fpage>249</fpage>
+          <lpage>310</lpage>
+          <pub-id pub-id-type="pmid">19186246</pub-id>
+        </citation>
+      </ref>
+      <ref id="B57-cells-04-00331">
+        <label>57.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shiba</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Yokoyama</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>The ciliary transitional zone and nephrocystins</article-title>
+          <source>Differentiation</source>
+          <year>2012</year>
+          <volume>83</volume>
+          <fpage>S91</fpage>
+          <lpage>S96</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.diff.2011.11.006</pub-id>
+          <pub-id pub-id-type="pmid">22169048</pub-id>
+        </citation>
+      </ref>
+      <ref id="B58-cells-04-00331">
+        <label>58.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Westlake</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Baye</surname>
+              <given-names>L.M.</given-names>
+            </name>
+            <name>
+              <surname>Nachury</surname>
+              <given-names>M.V.</given-names>
+            </name>
+            <name>
+              <surname>Wright</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Ervin</surname>
+              <given-names>K.E.</given-names>
+            </name>
+            <name>
+              <surname>Phu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Chalouni</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Beck</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Kirkpatrick</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Slusarski</surname>
+              <given-names>D.C.</given-names>
+            </name>
+			<etal/>
+          </person-group>
+          <article-title>Primary cilia membrane assembly is initiated by rab11 and transport protein particle ii (trappii) complex-dependent trafficking of rabin8 to the centrosome</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2011</year>
+          <volume>108</volume>
+          <fpage>2759</fpage>
+          <lpage>2764</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1018823108</pub-id>
+          <pub-id pub-id-type="pmid">21273506</pub-id>
+        </citation>
+      </ref>
+      <ref id="B59-cells-04-00331">
+        <label>59.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Williams</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Kida</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Inglis</surname>
+              <given-names>P.N.</given-names>
+            </name>
+            <name>
+              <surname>Mohan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Semenec</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Bialas</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Stupay</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Blacque</surname>
+              <given-names>O.E.</given-names>
+            </name>
+			<etal/>
+          </person-group>
+          <article-title>Mks and nphp modules cooperate to establish basal body/transition zone membrane associations and ciliary gate function during ciliogenesis</article-title>
+          <source>J. Cell Biol.</source>
+          <year>2011</year>
+          <volume>192</volume>
+          <fpage>1023</fpage>
+          <lpage>1041</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.201012116</pub-id>
+          <pub-id pub-id-type="pmid">21422230</pub-id>
+        </citation>
+      </ref>
+      <ref id="B60-cells-04-00331">
+        <label>60.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ye</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zeng</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ning</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Reiter</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>C2cd3 is critical for centriolar distal appendage assembly and ciliary vesicle docking in mammals</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2014</year>
+          <volume>111</volume>
+          <fpage>2164</fpage>
+          <lpage>2169</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1318737111</pub-id>
+          <pub-id pub-id-type="pmid">24469809</pub-id>
+        </citation>
+      </ref>
+      <ref id="B61-cells-04-00331">
+        <label>61.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hashizume</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Moyori</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kobayashi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Yamakoshi</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Endo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>R.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nucleoporin nup62 maintains centrosome homeostasis</article-title>
+          <source>Cell Cycle</source>
+          <year>2013</year>
+          <volume>12</volume>
+          <fpage>3804</fpage>
+          <lpage>3816</lpage>
+          <pub-id pub-id-type="doi">10.4161/cc.26671</pub-id>
+          <pub-id pub-id-type="pmid">24107630</pub-id>
+        </citation>
+      </ref>
+      <ref id="B62-cells-04-00331">
+        <label>62.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Paridaen</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Wilsch-Brauninger</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Huttner</surname>
+              <given-names>W.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Asymmetric inheritance of centrosome-associated primary cilium membrane directs ciliogenesis after cell division</article-title>
+          <source>Cell</source>
+          <year>2013</year>
+          <volume>155</volume>
+          <fpage>333</fpage>
+          <lpage>344</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2013.08.060</pub-id>
+          <pub-id pub-id-type="pmid">24120134</pub-id>
+        </citation>
+      </ref>
+      <ref id="B63-cells-04-00331">
+        <label>63.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marin</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Ramirez</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Gonzalez</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Gonzalez-Munoz</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Zorzano</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Camps</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Alonso</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Diaz</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Voltage-dependent anion channel (vdac) participates in amyloid beta-induced toxicity and interacts with plasma membrane estrogen receptor alpha in septal and hippocampal neurons</article-title>
+          <source>Mol. Membr. Biol.</source>
+          <year>2007</year>
+          <volume>24</volume>
+          <fpage>148</fpage>
+          <lpage>160</lpage>
+          <pub-id pub-id-type="doi">10.1080/09687860601055559</pub-id>
+          <pub-id pub-id-type="pmid">17453421</pub-id>
+        </citation>
+      </ref>
+      <ref id="B64-cells-04-00331">
+        <label>64.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ramirez</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Gonzalez</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Diaz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Alonso</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Ferrer</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Santpere</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Puig</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Meyer</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Marin</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vdac and eralpha interaction in caveolae from human cortex is altered in Alzheimer&#x2019;s disease</article-title>
+          <source>Mol. Cell. Neurosci.</source>
+          <year>2009</year>
+          <volume>42</volume>
+          <fpage>172</fpage>
+          <lpage>183</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.mcn.2009.07.001</pub-id>
+          <pub-id pub-id-type="pmid">19595769</pub-id>
+        </citation>
+      </ref>
+      <ref id="B65-cells-04-00331">
+        <label>65.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Krantz</surname>
+              <given-names>D.D.</given-names>
+            </name>
+            <name>
+              <surname>Zidovetzki</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kagan</surname>
+              <given-names>B.L.</given-names>
+            </name>
+            <name>
+              <surname>Zipursky</surname>
+              <given-names>S.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Amphipathic beta structure of a leucine-rich repeat peptide</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1991</year>
+          <volume>266</volume>
+          <fpage>16801</fpage>
+          <lpage>16807</lpage>
+          <pub-id pub-id-type="pmid">1715870</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

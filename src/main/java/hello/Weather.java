@@ -10,7 +10,7 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.HttpClientBuilder;
 
 import com.alibaba.fastjson.JSONObject;
-import com.google.gson.Gson;
+
 /**
 *@author    created by Ren Jingui
 *@date  2018年8月10日---下午10:20:57
