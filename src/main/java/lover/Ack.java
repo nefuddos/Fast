@@ -14,7 +14,7 @@ import org.dom4j.Element;
 *@action
 */
 public class Ack {
-	String tile;
+	String title;
 	List<String> paragraphs;
 	public Ack() {
 		this.paragraphs = new ArrayList<String>();
@@ -25,7 +25,7 @@ public class Ack {
 		for(Iterator<Element> iterator = meta.iterator(); iterator.hasNext();) {
 			Element ite = iterator.next();
 			if(ite.getName().equals("title"))
-				this.tile = ite.getText();
+				this.title = ite.getText();
 			else if(ite.getName().equals("p"))
 				this.paragraphs.add(ite.getText());
 		}

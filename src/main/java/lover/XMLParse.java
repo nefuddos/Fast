@@ -4,9 +4,11 @@ import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Objects;
 
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
@@ -100,12 +102,64 @@ public class XMLParse {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		writeToExcel();
+		xml.writeToExcel();
 	}
-	private static void writeToExcel() {
-		
-		for(Article art: articles) {
-			//art.write();
+	private void writeToExcel() {
+		String path = "F:/results.xls";
+		String sheetName = "article-text";
+		String[] title = {"articleTitle",//
+							"Abstract",
+							"Keywords",
+							"1. Introduction",
+							"2. Results and Discussion",
+							"3. Experimental Section",
+							"4. Conclusions",
+							"Acknowledgments",
+							"Conflict of Interest",
+							"References"};
+		ExcelInfo writer = new ExcelInfo();
+		if(writer.fileExist(path) == false) {
+			try {
+				writer.createExcel(path, sheetName, title);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
+		
+		//writer.writeToExcel(path, sheetName, mapList);
+//		int max = 0, temp,rowNum = 0;
+//		for() {//article
+//			for() {
+//				temp = writer.writeToExcelByColumn(path, sheetName, rowNum, columnName, content);//return how many number
+//				if(max < temp)
+//			}
+//			
+//		}
+		int[] rowNumArr = new int[this.articles.size()];
+		int rowNum = 0;
+		for(int i=0;i<this.articles.size();i++)
+		{
+			List<Integer> tempArr = new ArrayList<Integer>();
+			tempArr.add(this.articles.get(i).front.articleMeta.abs.paragraph.size());
+			tempArr.add(1);
+			for(int j=0;j<this.articles.get(i).body.secs.size();j++)
+			{
+				tempArr.add(this.articles.get(i).body.secs.get(j).paragrapth.size());
+			}
+			tempArr.add(this.articles.get(i).back.ack.paragraphs.size());
+			if(Objects.nonNull(this.articles.get(i).back.notes)) {
+				tempArr.add(this.articles.get(i).back.notes.paragraph.size());
+			}
+			tempArr.add(this.articles.get(i).back.obj.refs.size());
+			
+			int max = Collections.max(tempArr);
+			for(int titleIndex = 0;titleIndex < title.length;titleIndex++)
+			{
+				writer.writeToExcelByColumn(path, sheetName, rowNum, title[titleIndex], max);//pathName, sheetName, rownum, column, total_num
+			}
+			
+		}
+		
 	}
 }

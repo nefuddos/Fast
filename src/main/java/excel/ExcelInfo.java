@@ -184,5 +184,9 @@ public class ExcelInfo {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}  
-    }  
+    }
+	public void writeToExcelByColumn(String path, String sheetName, int rowNum, String string, int max) {
+		// TODO Auto-generated method stub
+		
+	}  
 }
