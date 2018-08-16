@@ -38,4 +38,12 @@ public class PersonGroup {
 		}
 		return this;
 	}
+	
+	public String toString() {
+		String res = "";
+		for(Name temp:nameArr) {
+			res += temp.surname + " " + temp.givenNames;
+		}
+		return res;
+	}
 }

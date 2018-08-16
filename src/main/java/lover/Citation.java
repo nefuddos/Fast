@@ -41,4 +41,10 @@ public class Citation {
 		this.pg = Objects.isNull(element.element("person-group"))?null:new PersonGroup().parse(element.element("person-group"));//element.element("person-group").getText();
 		return this; 
 	}
+	
+	public String toString() {
+		String res = "";
+		res = this.collab+this.source+this.publisherName+this.publisherLoc+this.year+this.volume+this.fpage+this.lpage+this.pubId+this.articleTile+this.pg.toString();
+		return res;
+	}
 }
