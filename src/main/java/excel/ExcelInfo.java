@@ -134,7 +134,7 @@ public class ExcelInfo {
                 for(int rowId=0;rowId<mapList.size();rowId++){
                     Map map = mapList.get(rowId);
                     HSSFRow newRow=sheet.createRow(rowId+1);
-                    for (short columnIndex = 0; columnIndex < columnCount; columnIndex++) {  //������ͷ  
+                    for (short columnIndex = 0; columnIndex < columnCount; columnIndex++) {
                         @SuppressWarnings("deprecation")
 						String mapKey = titleRow.getCell(columnIndex).toString().trim();
                         @SuppressWarnings("deprecation")
@@ -185,8 +185,16 @@ public class ExcelInfo {
 			e.printStackTrace();
 		}  
     }
-	public void writeToExcelByColumn(String path, String sheetName, int rowNum, String string, int max) {
+	public void writeToExcelByColumn(String path, String sheetName, List<String> valueList, int rowNum, String string, int max) {
 		// TODO Auto-generated method stub
-		
+		File file = new File(path);
+        try {  
+            workbook = new HSSFWorkbook(new FileInputStream(file));
+        } catch (FileNotFoundException e) {  
+            e.printStackTrace();
+        } catch (IOException e) {  
+            e.printStackTrace();  
+        }
+        HSSFSheet sheet = workbook.getSheet(sheetName);
 	}  
 }
