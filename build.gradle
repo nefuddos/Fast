@@ -33,6 +33,7 @@ dependencies {
     compile 'com.alibaba:fastjson:1.2.49'
     compile 'dom4j:dom4j:1.6.1'
     compile 'org.apache.poi:poi:3.9'
+    compile 'net.sourceforge.jexcelapi:jxl:2.6.10'
     
     testCompile("org.springframework.boot:spring-boot-starter-test")
     testCompile("junit:junit")

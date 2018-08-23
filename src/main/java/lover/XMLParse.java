@@ -18,7 +18,9 @@ import org.xml.sax.EntityResolver;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
-import excel.ExcelInfo;
+import excel.ExcelInfo1;
+import jxl.write.WriteException;
+import jxl.write.biff.RowsExceededException;
 /**
 *@author    created by Ren Jingui
 *@date  2018年8月12日---下午8:57:13
@@ -29,6 +31,8 @@ import excel.ExcelInfo;
 public class XMLParse {
 	static List<Article> articles = new ArrayList<Article>();
 	static String filePathRoot = "res/cells";
+	static String outputFile = "F:/results.xls";
+	private ArrayList<ArrayList<String>> dataArea = new ArrayList<ArrayList<String>>();
 	static class IgnoreDTDEntityResolver implements EntityResolver {    
 	    @Override    
 	    public InputSource resolveEntity(String arg0, String arg1) throws SAXException, IOException {    
@@ -102,63 +106,115 @@ public class XMLParse {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		xml.writeToExcel();
+		ExcelInfo1 excelHandler = xml.createExcel(outputFile);
+		xml.fillDataArea();
+		//xml.displayDataArea();
+		try {
+			xml.writeToExcel(excelHandler);
+		} catch (RowsExceededException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (WriteException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
-	private void writeToExcel() {
-		String path = "F:/results.xls";
+
+	private void writeToExcel(ExcelInfo1 handler) throws RowsExceededException, WriteException, IOException {
+		// TODO Auto-generated method stub
+		handler.writeData(dataArea);
+	}
+	private void displayDataArea() {
+		for(ArrayList<String> rowIter : dataArea) {
+			for(String str : rowIter) {
+				System.out.format("%s ", str);
+			}
+			System.out.println("");
+		}
+	}
+	private ExcelInfo1 createExcel(String fileStr) {
 		String sheetName = "article-text";
-		String[] title = {"articleTitle",//
-							"Abstract",
-							"Keywords",
-							"1. Introduction",
-							"2. Results and Discussion",
-							"3. Experimental Section",
-							"4. Conclusions",
-							"Acknowledgments",
-							"Conflict of Interest",
-							"References"};
-		ExcelInfo writer = new ExcelInfo();
-		if(writer.fileExist(path) == false) {
+		String[] title = {"articleTitle",
+							"sectionId",
+							"paragraphId",
+							"firstClassTitle",
+							"secondClassTitle",
+							"pContent"};
+		ExcelInfo1 writer = new ExcelInfo1();
+		if(writer.fileExist(fileStr) == false) {
 			try {
-				writer.createExcel(path, sheetName, title);
+				writer.createExcel(fileStr, sheetName, title);
+				System.out.println("create file success");
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
-		
-		//writer.writeToExcel(path, sheetName, mapList);
-//		int max = 0, temp,rowNum = 0;
-//		for() {//article
-//			for() {
-//				temp = writer.writeToExcelByColumn(path, sheetName, rowNum, columnName, content);//return how many number
-//				if(max < temp)
-//			}
-//			
-//		}
-		int[] rowNumArr = new int[this.articles.size()];
-		int rowNum = 0;
+		else {
+			System.out.println("file exists");
+		}
+		return writer;
+	}
+	private void fillDataArea() {
+		int pNum = 0;
 		for(int i=0;i<this.articles.size();i++)
 		{
-			List<Integer> tempArr = new ArrayList<Integer>();
-			tempArr.add(this.articles.get(i).front.articleMeta.abs.paragraph.size());
-			tempArr.add(1);
-			for(int j=0;j<this.articles.get(i).body.secs.size();j++)
-			{
-				tempArr.add(this.articles.get(i).body.secs.get(j).paragrapth.size());
+			//abstract
+			String tempTitle = this.articles.get(i).front.articleMeta.articleTitle;//1
+			List<String> pContent = this.articles.get(i).front.articleMeta.abs.paragraph;
+			for(String pStr : pContent) {
+				ArrayList<String> record = new ArrayList<String>();
+				record.add(tempTitle); //1
+				record.add("1");//2
+				pNum++;
+				record.add(new Integer(pNum).toString()); //3
+				record.add("Abstract");//4
+				record.add(" ");//5
+				record.add(pStr);//6
+				dataArea.add(record);
 			}
-			tempArr.add(this.articles.get(i).back.ack.paragraphs.size());
-			if(Objects.nonNull(this.articles.get(i).back.notes)) {
-				tempArr.add(this.articles.get(i).back.notes.paragraph.size());
+			//key-words
+			ArrayList<String> record = new ArrayList<String>();
+			List<String> kwdsStr = this.articles.get(i).front.articleMeta.kwdObj.kwds;
+			record.add(tempTitle); //1
+			record.add("2");//2
+			pNum++;
+			record.add(new Integer(pNum).toString()); //3
+			record.add("keywords");//4
+			record.add(" ");//5
+			record.addAll(kwdsStr);//6
+			dataArea.add(record);
+			//introduction,methods,result,discuss
+			List<lover.Sec> secList = this.articles.get(i).body.secs;
+			int secNum = 3;
+			for(lover.Sec secIter : secList) {
+				for(String pStr: secIter.paragrapth) {
+					ArrayList<String> record1 = new ArrayList<String>();
+					record1.add(tempTitle); //1
+					record1.add(new Integer(secNum).toString());//2
+					pNum++;
+					record1.add(new Integer(pNum).toString());
+					record1.add(secIter.title);
+					record1.add(" ");
+					record1.add(pStr);
+					dataArea.add(record1);
+				}
+				for(lover.Sec childSecIter : secIter.childSecList) {
+					ArrayList<String> record1 = new ArrayList<String>();
+					record1.add(tempTitle); //1
+					record1.add(new Integer(secNum).toString());//2
+					pNum++;
+					record1.add(new Integer(pNum).toString());
+					record1.add(secIter.title);
+					record1.add(childSecIter.title);
+					record1.add(childSecIter.getAllParagraph());
+					dataArea.add(record1);
+				}
+				secNum++;
 			}
-			tempArr.add(this.articles.get(i).back.obj.refs.size());
-			
-			int max = Collections.max(tempArr);
-			for(int titleIndex = 0;titleIndex < title.length;titleIndex++)
-			{
-				writer.writeToExcelByColumn(path, sheetName, rowNum, title[titleIndex], max);//pathName, sheetName, rownum, column, total_num
-			}
-			
 		}
 		
 	}

@@ -34,5 +34,26 @@ public class Sec {
 		}
 		return this;
 	}
+	public String getAllParagraph() {
+		String res = null;
+		for(String str : this.paragrapth) {
+			res += str;
+		}
+		for(Sec secIter : this.childSecList) {
+			res += secIter.getAllChildParagraph();
+		}
+		return res;
+	}
+	private String getAllChildParagraph() {
+		String res = null;
+		res += this.title;
+		for(String str : this.paragrapth) {
+			res += str;
+		}
+		for(Sec secIter : this.childSecList) {
+			res += secIter.getAllChildParagraph();
+		}
+		return res;
+	}
 
 }

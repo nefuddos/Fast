@@ -20,7 +20,7 @@ public class Abstract {
 	}
 	public Abstract parse(Element element) {
 		if(element == null) return null;
-		List<Element> elements = element.element("p").elements();
+		List<Element> elements = element.elements();
 		for(Element ite : elements) {
 			if(ite.getName().equals("p")) {
 				this.paragraph.add(ite.getText());
