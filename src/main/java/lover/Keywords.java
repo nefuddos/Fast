@@ -28,4 +28,11 @@ public class Keywords {
 		}
 		return this;
 	}
+	public String toString() {
+		String str = "";
+		for(String i : kwds) {
+			str += i;
+		}
+		return str;
+	}
 }

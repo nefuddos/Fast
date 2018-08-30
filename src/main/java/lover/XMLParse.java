@@ -2,7 +2,10 @@ package lover;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
@@ -32,6 +35,9 @@ public class XMLParse {
 	static List<Article> articles = new ArrayList<Article>();
 	static String filePathRoot = "res/cells";
 	static String outputFile = "F:/results.xls";
+	static String outputFile1 = "F:/results1.xls";
+	static String filePathRoot1 = "res/result";
+	int paragraphNum;
 	private ArrayList<ArrayList<String>> dataArea = new ArrayList<ArrayList<String>>();
 	static class IgnoreDTDEntityResolver implements EntityResolver {    
 	    @Override    
@@ -49,20 +55,27 @@ public class XMLParse {
 	    return saxReader;  
 	}  
 	public void traverseFolder(String path) throws DocumentException {
-        int fileNum = 0, folderNum = 0;
+        int xmlFileNum = 0, folderNum = 0, htmlMrkFile = 0;
         File file = new File(path);
         if (file.exists()) {
             LinkedList<File> list = new LinkedList<File>();
             File[] files = file.listFiles();
-            for (File file2 : files) {
+            
+			for (File file2 : files) {
                 if (file2.isDirectory()) {
                     System.out.println("文件夹:" + file2.getAbsolutePath());
                     list.add(file2);
                     folderNum++;
-                } else {
-                    System.out.println("文件:" + file2.getAbsolutePath());
-                    readFile(file2.getAbsolutePath());
-                    fileNum++;
+                } else if(file2.getName().endsWith("VSM.xml")){
+                	continue;
+                } else if(file2.getName().endsWith(".xml")){
+                    System.out.println("xml文件:" + file2.getAbsolutePath());
+                    readXmlFile(file2.getAbsolutePath());
+                    xmlFileNum++;
+                } else if(file2.getName().endsWith(".html.mrk")) {
+                	System.out.println("html.mrk文件:" + file2.getAbsolutePath());
+                	readHtmlMrkFile(file2.getAbsolutePath(),htmlMrkFile);
+                	htmlMrkFile++;
                 }
             }
             File temp_file;
@@ -74,21 +87,81 @@ public class XMLParse {
                         System.out.println("文件夹:" + file2.getAbsolutePath());
                         list.add(file2);
                         folderNum++;
-                    } else {
-                        System.out.println("文件:" + file2.getAbsolutePath());
-                        readFile(file2.getAbsolutePath());
-                        fileNum++;
+                    } else if(file2.getName().endsWith("VSM.xml")){
+                    	continue;
+                    } else if(file2.getName().endsWith(".xml")){
+                        System.out.println("xml文件:" + file2.getAbsolutePath());
+                        readXmlFile(file2.getAbsolutePath());
+                        xmlFileNum++;
+                    } else if(file2.getName().endsWith(".html.mrk")) {
+                    	System.out.println("html.mrk文件:" + file2.getAbsolutePath());
+                    	readHtmlMrkFile(file2.getAbsolutePath(),htmlMrkFile);
+                    	htmlMrkFile++;
                     }
                 }
             }
         } else {
             System.out.println("文件不存在！");
         }
-        System.out.println("文件夹数目: " + folderNum + ",文件数目: " + fileNum);
+        System.out.println("文件夹数目: " + folderNum + ",xml文件数目: " + xmlFileNum + " html.mrk文件数目: "+htmlMrkFile);
 
     }
-	
-	public void readFile(String path) throws DocumentException {
+	private void readHtmlMrkFile(String absolutePath, int id) throws DocumentException {
+		String encoding = "UTF-8";
+		File instance = new File(absolutePath);
+		byte[] content = new byte[(int) instance.length()];
+		try {
+			FileInputStream in = new FileInputStream(instance);
+			in.read(content);
+			in.close();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			String contentStr = new String(content, encoding);
+			contentStr = contentStr.replaceAll("\r\n", "");
+			String[] arr = contentStr.split("<section id=\\d+>");
+			filldataArea(arr,id);
+			//System.out.println(contentStr);
+		} catch (UnsupportedEncodingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	private void filldataArea(String[] arr, int id) {
+		if(arr.length == 0) {
+			System.out.println("this file is empty");
+			return;
+		}
+		if(arr.length >=2) {
+			String[] pStr = arr[1].split("<paragraph id=\\d+>");
+			if(pStr.length >=2)
+			{
+				String tempTitle = pStr[1];
+				for(int j=2;j<arr.length;j++) {
+					String[] str = arr[j].split("<paragraph id=\\d+>");
+					String title = str[1];
+					for(int i=2;i<str.length;i++)
+					{
+						ArrayList<String> record = new ArrayList<String>();
+						record.add(tempTitle);
+						record.add(new Integer(i-1).toString());
+						record.add(new Integer(paragraphNum).toString());
+						record.add(title);
+						record.add("");
+						record.add(str[i]);
+						dataArea.add(record);
+						paragraphNum++;
+					}
+				}
+			}
+		}
+	}
+	public void readXmlFile(String path) throws DocumentException {
 		Article ar = new Article();
 		SAXReader reader = getSAXReader();
 		Document document = reader.read(new File(path));
@@ -97,35 +170,33 @@ public class XMLParse {
 		ar.body = new Body().parse(root.element("body"));
 		ar.back = new Back().parse(root.element("back"));
 		this.articles.add(ar);
+		fillDataArea(ar);
 	}
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		XMLParse xml = new XMLParse();
+		xml.paragraphNum = 1;
 		try {
 			xml.traverseFolder(filePathRoot);
 		} catch (DocumentException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		ExcelInfo1 excelHandler = xml.createExcel(outputFile);
-		xml.fillDataArea();
-		//xml.displayDataArea();
+		//ExcelInfo1 excelHandler = xml.createExcel(outputFile);
+		ExcelInfo1 excelHandler = xml.createExcel(outputFile1);
 		try {
 			xml.writeToExcel(excelHandler);
 		} catch (RowsExceededException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (WriteException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		System.out.println("Write data success");
 	}
 
 	private void writeToExcel(ExcelInfo1 handler) throws RowsExceededException, WriteException, IOException {
 		// TODO Auto-generated method stub
-		handler.writeData(dataArea);
+		handler.writeData(dataArea, 0);
 	}
 	private void displayDataArea() {
 		for(ArrayList<String> rowIter : dataArea) {
@@ -135,7 +206,7 @@ public class XMLParse {
 			System.out.println("");
 		}
 	}
-	private ExcelInfo1 createExcel(String fileStr) {
+	private ExcelInfo1 createExcel(String fileStr) throws IOException {
 		String sheetName = "article-text";
 		String[] title = {"articleTitle",
 							"sectionId",
@@ -144,9 +215,9 @@ public class XMLParse {
 							"secondClassTitle",
 							"pContent"};
 		ExcelInfo1 writer = new ExcelInfo1();
-		if(writer.fileExist(fileStr) == false) {
+		if(writer.fileExist(fileStr,sheetName) == false) {
 			try {
-				writer.createExcel(fileStr, sheetName, title);
+				writer.createExcel(fileStr, sheetName);
 				System.out.println("create file success");
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
@@ -158,13 +229,13 @@ public class XMLParse {
 		}
 		return writer;
 	}
-	private void fillDataArea() {
+	private void fillDataArea(Article ar) {
 		int pNum = 0;
-		for(int i=0;i<this.articles.size();i++)
-		{
+//		for(int i=0;i<this.articles.size();i++)
+//		{
 			//abstract
-			String tempTitle = this.articles.get(i).front.articleMeta.articleTitle;//1
-			List<String> pContent = this.articles.get(i).front.articleMeta.abs.paragraph;
+			String tempTitle = ar.front.articleMeta.articleTitle;//1
+			List<String> pContent = ar.front.articleMeta.abs.paragraph;
 			for(String pStr : pContent) {
 				ArrayList<String> record = new ArrayList<String>();
 				record.add(tempTitle); //1
@@ -178,17 +249,17 @@ public class XMLParse {
 			}
 			//key-words
 			ArrayList<String> record = new ArrayList<String>();
-			List<String> kwdsStr = this.articles.get(i).front.articleMeta.kwdObj.kwds;
+			String kwdsStr = ar.front.articleMeta.kwdObj.toString();
 			record.add(tempTitle); //1
 			record.add("2");//2
 			pNum++;
 			record.add(new Integer(pNum).toString()); //3
 			record.add("keywords");//4
 			record.add(" ");//5
-			record.addAll(kwdsStr);//6
+			record.add(kwdsStr);//6
 			dataArea.add(record);
 			//introduction,methods,result,discuss
-			List<lover.Sec> secList = this.articles.get(i).body.secs;
+			List<lover.Sec> secList = ar.body.secs;
 			int secNum = 3;
 			for(lover.Sec secIter : secList) {
 				for(String pStr: secIter.paragrapth) {
@@ -215,7 +286,7 @@ public class XMLParse {
 				}
 				secNum++;
 			}
-		}
+//		}
 		
 	}
 }
