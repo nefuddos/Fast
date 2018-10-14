@@ -1,10 +1,14 @@
 package lover;
 
+import java.io.BufferedOutputStream;
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
+import java.io.PrintStream;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -34,8 +38,8 @@ import jxl.write.biff.RowsExceededException;
 public class XMLParse {
 	static List<Article> articles = new ArrayList<Article>();
 	static String filePathRoot = "res/cells";
-	static String outputFile = "F:/results.xls";
-	static String outputFile1 = "F:/results1.xls";
+	static String outputFile = "F:/results.xlsx";
+	static String outputFile1 = "F:/results1.xlsx";
 	static String filePathRoot1 = "res/result";
 	int paragraphNum;
 	private ArrayList<ArrayList<String>> dataArea = new ArrayList<ArrayList<String>>();
@@ -177,23 +181,29 @@ public class XMLParse {
 		xml.paragraphNum = 1;
 		try {
 			xml.traverseFolder(filePathRoot);
+			xml.traverseFolder(filePathRoot1);
 		} catch (DocumentException e) {
 			e.printStackTrace();
 		}
 		//ExcelInfo1 excelHandler = xml.createExcel(outputFile);
-		ExcelInfo1 excelHandler = xml.createExcel(outputFile1);
-		try {
-			xml.writeToExcel(excelHandler);
-		} catch (RowsExceededException e) {
-			e.printStackTrace();
-		} catch (WriteException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		//ExcelInfo1 excelHandler = xml.createExcel(outputFile1);
+		//xml.writeToExcel(excelHandler);
+		xml.writeToText();
+		xml.displayDataArea();
 		System.out.println("Write data success");
 	}
 
+	private void writeToText() throws FileNotFoundException {
+		// TODO Auto-generated method stub
+		System.setOut(new PrintStream(new BufferedOutputStream(
+				new FileOutputStream("f:/2.txt")),true));
+		for(ArrayList<String> rowIter : dataArea) {
+			for(String str : rowIter) {
+				System.out.format("%s\t", str);
+			}
+			System.out.println("");
+		}
+	}
 	private void writeToExcel(ExcelInfo1 handler) throws RowsExceededException, WriteException, IOException {
 		// TODO Auto-generated method stub
 		handler.writeData(dataArea, 0);
@@ -201,7 +211,7 @@ public class XMLParse {
 	private void displayDataArea() {
 		for(ArrayList<String> rowIter : dataArea) {
 			for(String str : rowIter) {
-				System.out.format("%s ", str);
+				System.out.format("%s\t", str);
 			}
 			System.out.println("");
 		}
