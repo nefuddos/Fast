@@ -1,3 +1,7 @@
 IO - 同步，异步，阻塞，非阻塞 参考链接：https://blog.csdn.net/historyasamirror/article/details/5778378
 关于Linux select,poll,epoll讲解最通顺的一片文章：https://cloud.tencent.com/developer/article/1005481
 mysql数据库多表查询， 参考链接：http://www.zsythink.net/archives/1105
+死锁产生的原因和解决办法，参考链接：https://www.cnblogs.com/jing99/p/5947841.html
+阿里云数据库Aliyun ApsaraDB team 技术官方博客：http://mysql.taobao.org/monthly/
+
+一些比较有意思的个人站点：http://www.xxtiao.com/
